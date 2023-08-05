@@ -1,0 +1,51 @@
+#!python
+import argparse
+import nbclient
+import nbformat
+import nbparameterise
+import sys
+debugMode = False
+debug_cell_sourcecode = debugMode
+debug_print_cell_numbers = debugMode
+debug_sleep_between_cells = 0
+
+
+parser = argparse.ArgumentParser(
+    description='Notebook Runner',
+    add_help=False
+)
+parser.add_argument('Notebook')
+parser.add_argument('--use_notebook_client',default=False,action='store_true', help="Warning: Using this disables stdin")
+
+nboargs, unknown = parser.parse_known_args()
+
+with open(nboargs.Notebook, 'rb') as f:
+    nb = nbformat.read(f, as_version=4)
+
+notebook_params = nbparameterise.extract_parameters(nb)
+
+parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+for item in notebook_params:
+    parser.add_argument(f'--{item.name}', nargs='?', default=item.value, type=item.type, help = f"{item.comment if item.comment is not None else ''}  (default: %(default)s)")
+    
+args, unknown = parser.parse_known_args()
+new_params = nbparameterise.parameter_values(notebook_params,**vars(args))
+new_nb = nbparameterise.replace_definitions(nb, new_params)
+
+if not nboargs.use_notebook_client:
+    for cell_index, cell in enumerate(new_nb['cells']):
+        if cell['cell_type'] =='code':
+            if debug_cell_sourcecode:
+                print(cell)
+            if debug_print_cell_numbers:
+                print(f"[{cell_index}]")
+            exec(cell['source'])
+            if debug_print_cell_numbers:
+                print()
+            time.sleep(debug_sleep_between_cells)
+else:
+    print("Using Notebook client")
+    output = nbclient.execute(new_nb)
+    for item in output['cells']:
+        for o in item['outputs']:
+            print(o['text'].strip())
