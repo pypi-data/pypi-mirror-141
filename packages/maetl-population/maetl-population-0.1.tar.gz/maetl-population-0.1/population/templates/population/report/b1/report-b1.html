@@ -1,0 +1,373 @@
+{% extends 'main/layout.html' %}
+{% block title %} Relatoriu Livru Rejistu Populasaun {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+{% load static %}
+<!-- Page content-->
+ <section class="section-container">
+
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between ">
+    <div>
+      <h4>{{title}}</h4>
+      <small>Hare  Populasaun tuir tuir tipu Dadus  </small>
+    </div>
+
+      <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+
+            
+  </div>
+
+
+
+
+
+
+  <div class="row">
+    <div class="col-xl-6 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-body">
+
+          <div style="width: 450px; height: 530px; margin: 0 auto">
+            <center>
+              <div>
+                <h4>Total Populasaun Feto, Mane no Seluk iha Tinan {{title_tinan}}</h4>
+              </div>
+            </center>
+
+            <hr />
+            <br />
+              <br />
+            <canvas
+              id="population-chart"
+              data-url="{% url 'population:popchar_genderyear' %}"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-6 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>Hare  populasaun Tuir tipu dadus</h4>
+            </div>
+          </center>
+         
+        </div>
+        <div class="card-body">
+
+<!-- <hr>
+
+          <form
+            id="id_form_email_verification"
+            method="get"
+            action="{% url 'population:reportb1_print' %}"
+            target="__blank"
+          >
+            {% csrf_token %}
+
+            <div class="form-row form-row">
+              <div class="form-group col-md-12 mb-0">
+                <div id="div_id_aldeia" class="form-group">
+                  <div class="row">
+                    <div class="col-xl-6 block-center">
+                   
+                     
+                        <input name = "tinan" type ='hidden' value="2021">
+                          <input name = "gender" type ='hidden' value="jeral">
+                       
+                        <input name = "citizenp" type ='hidden' value="jeral">
+                         <input name = "religion" type ='hidden' value="jeral">
+                       
+                         <input name = "level_education" type ='hidden' value="jeral">
+                       
+                    
+                         <input name = "lingua" type ='hidden' value="jeral">
+                            <input name = "dados" type ='hidden' value="excel">
+
+                              <input type="hidden" 
+                          name="vurneravel"
+                          value="jeral"
+
+                        >
+
+                              <input type="hidden" 
+                          name="kondisaun"
+                          value="jeral"
+
+                        >
+<input name = "lingua" type ='hidden' value="jeral">
+                       
+                  <center>
+                    <button class="btn btn-info" type="submit">
+                      <i class="fa fa-print"></i> Export Dados Ba Excel
+                    </button>
+                  </center>
+                   
+                </div>
+              </div>
+            </div>
+          </form>
+<hr> -->
+
+
+
+
+
+          
+          <form
+            id="id_form_email_verification"
+            method="get"
+            action="{% url 'population:reportb1_print' %}"
+            target="__blank"
+          >
+            {% csrf_token %}
+
+            <div class="form-row form-row">
+              <div class="form-group col-md-12 mb-0">
+                <div id="div_id_aldeia" class="form-group">
+                  <div class="row">
+                    <div class="col-xl-6 block-center">
+                      <label for="id_aldeia" class=""> Tinan Rejistu : </label>
+                      <div class="">
+                        <select
+                          required
+                          name="tinan"
+                          class="select form-control custom-select"
+                          id="tinan"
+                        >
+                         <option value="jeral">--- Jeral ---</option>
+                          {% for dados in tinan %}
+                          <option value="{{dados.year}}">{{dados.year}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br />
+
+                      <label for="gender" class="">Seksu </label>
+                      <div class="">
+                        <select
+                          name="gender"
+                          class="select form-control custom-select"
+                          id="gender"
+                        >
+                          <option value="jeral">--- Jeral ---</option>
+                          <option value="m">Mane</option>
+                          <option value="f">Feto</option>
+                            <option value="s">Seluk</option>
+                        </select>
+                      </div>
+                      <br />
+       <input name = "dados" type ='hidden' value="print">
+
+
+                      <label for="citizenp" class="">Cidadaun </label>
+                      <div class="">
+                        <select
+                          name="citizenp"
+                          class="select form-control custom-select"
+                          id="citizenp"
+                        >
+                          <option value="jeral">--- Jeral ---</option>
+                          <option value="a">Adkeridu</option>
+                          <option value="o">Original</option>
+                        </select>
+
+                      </div>
+                      <br />
+
+
+
+                               <label for="marital_status" class="">Estadu Civil </label>
+                      <div class="">
+                        <select
+                          name="marital_status"
+                          class="select form-control custom-select"
+                          id=""
+                          id="marital_status"
+                        >
+                          <option value="jeral">--- Jeral ---</option>
+                          <option value="s">Klosan</option>
+                          <option value="c">Kaben Nain</option>
+                          <option value="f">Faluk</option>
+                          <option value="d">Fahe Malu</option>
+
+                        </select>
+
+
+
+
+                      </div>
+                      <br />
+
+    <label for="level_education" class="">
+                        Kondisaun
+                      </label>
+                      <div class="">
+                        <select
+                          name="kondisaun"
+                          class="select form-control custom-select"
+                          id="kondisaun"
+                        >
+                            <option value="jeral">--- Jeral ---</option>
+                    
+                          {% for dados in kondisaun %}
+                          <option value="{{dados.id}}">{{dados.name}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br>
+
+
+                    </div>
+
+
+
+                    <div class="col-xl-6 block-center">
+                      <label for="religion" class="">Relijiaun</label>
+                      <div class="">
+                        <select
+                          name="religion"
+                          class="select form-control custom-select"
+                          id="religion"
+                        >
+                          <option value="jeral">--- Jeral ---</option>
+                          {% for dados in relijiaun %}
+                          <option value="{{dados.id}}">{{dados.name}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br />
+                      <label for="level_education" class="">
+                        Habilitasaun Literaria
+                      </label>
+                      <div class="">
+                        <select
+                          name="level_education"
+                          class="select form-control custom-select"
+                          id="level_education"
+                        >
+                          <option value="jeral">--- Jeral ---</option>
+                          {% for dados in edukasaun %}
+                          <option value="{{dados.id}}">{{dados.name}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+
+
+
+                      <br />
+
+                            <label for="citizenp" class="">Vulnerável </label>
+                      <div class="">
+                        <select
+                          name="vurneravel"
+                          class="select form-control custom-select"
+                          id="vurneravel"
+                        >
+                        <option value="jeral">--- Jeral ---</option>
+                          <option value="True">Lae</option>
+                          <option value="False">Sim</option>
+                        </select>
+                      </div>
+<br>
+
+
+                       <label for="profession" class="">
+                        Profisaun
+                      </label>
+                      <div class="">
+                        <select
+                          name="profession"
+                          class="select form-control custom-select"
+                          id="profession"
+                        >
+                            <option value="jeral">--- Jeral ---</option>
+                    
+                          {% for dados in profession %}
+                          <option value="{{dados.id}}">{{dados.name}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br>
+
+
+                                <label for="aldeia" class="">
+                        Aldeia
+                      </label>
+                      <div class="">
+                        <select
+                          name="aldeia"
+                          class="select form-control custom-select"
+                          id="aldeia"
+                        >
+                            <option value="jeral">--- Jeral ---</option>
+                    
+                          {% for dados in aldeia %}
+                          <option value="{{dados.id}}">{{dados.name}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br>
+
+                     
+                    </div>
+                  </div>
+
+
+
+
+
+
+   
+
+
+                  <center>
+                    <button class="btn btn-info" type="submit">
+                      <i class="fa fa-print"></i> Print Dadus
+                    </button>
+                  </center>
+                   
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'main/vendor/chart.js/dist/population_chart.js' %}"></script>
+</section>
+
+{% include 'main/footer.html' %}
+{% endblock content %}

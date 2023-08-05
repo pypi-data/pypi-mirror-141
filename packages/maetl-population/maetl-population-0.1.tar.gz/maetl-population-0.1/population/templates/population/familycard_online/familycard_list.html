@@ -1,0 +1,162 @@
+{% extends 'main/layout.html' %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+{% load static %}
+
+<!-- Page content-->
+  <section class="section-container">
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>
+      Kria Konta Família Online
+
+        <!-- user.groups.all.0.name -->
+      </h4>
+      <small>Kria Konta Família foun</small>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <!-- DATATABLE DEMO 2-->
+    <div class="col-xl-12">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header"><b>Lista Família Uma Kain</b></div>
+
+
+        <div class="card-body">
+          {% if messages %}
+          <!-- block -->
+          {% for message in messages %}
+          <!-- block -->
+          {% if message.tags == 'error' %}
+          <!-- block -->
+          <div
+            class="alert alert-warning alert-dismissible fade show"
+            role="alert"
+          >  <button
+                class="close"
+                type="button"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">x</span></button
+              ><strong>Info!</strong> {{ message }}
+            </div>
+            {% else %}
+            <!-- block -->
+            <div
+              class="alert alert-success alert-dismissible fade show"
+              role="alert"
+            >  <button
+                class="close"
+                type="button"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">x</span></button
+              ><strong>Info!</strong> {{ message }}
+            </div>
+              {% endif %}
+              <!-- block -->
+
+            
+            {% endfor %}
+            <!-- block -->
+            {% endif %}
+
+            <h4 class="float-right">Total Familia : ( {{total_family}} )</h4>
+            <hr />
+   
+
+            {% if total_family > 0 %}
+   <table class="table table-sm" id="datatable2">
+              <thead>
+                <tr>
+                  <th>Nú</th>
+                  <th>Nú. Kartaun Fixa Família</th>
+                  <th>Aldeia</th>
+                  <th>Data Registu</th>
+                  <th>Total Membru Familia</th>
+                  <th>Membru Familia</th>
+                  <th>Username</th>
+                  <th>Jere Konta</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for dados in lista_familia %}
+
+                <tr>
+                  <td>{{ forloop.counter }}</td>
+                  <td>{{dados.id_family}}</td>
+                  <td>{{dados.aldeia}}</td>
+                  <td>{{dados.data_registu}}</td>
+                  <td>{{dados.total}}</td>
+                  <td>{{dados.membru}}</td>
+                  <td>
+                    {% if dados.cardx == 'iha' %}
+                    <!-- block -->
+                    {{dados.famusername}}
+                    <!-- block -->
+                    {% else %} Konta seidauk Kria {% endif %}
+                  </td>
+                  <td>
+                    {% if dados.cardx == 'iha' %}
+
+                    <a
+                      href="{% url 'population:updatefamilycard' dados.hashed %}"
+                      class="mb-1 btn-xs btn btn-outline-info"
+                      type="button"
+                    >
+                      <i class="fa fa-list"></i> Atualiza Informasaun
+                    </a>
+                    <a
+                      href="{% url 'population:resetpassword' dados.hashed %}"
+                      class="mb-1 btn-xs btn btn-outline-info"
+                      type="button"
+                    >
+                      <i class="fa fa-list"></i> Reset Password
+                    </a>
+                    {% else %}
+                    <a
+                      href="{% url 'population:registerfamilycard' dados.hashed %}"
+                      class="mb-1 btn-xs btn btn-outline-info"
+                      type="button"
+                    >
+                      <i class="fa fa-submit"></i> Rejistu Konta Família
+                    </a>
+                    {% endif %}
+                  </td>
+                </tr>
+
+                {% endfor %}
+              </tbody>
+            </table>
+
+         
+            {% else %}
+
+            <center><h4>Dadus Laiha (0)</h4></center>
+
+            {% endif %}
+          
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% include 'main/footer.html' %}
+
+{% block scripts %}
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#example").DataTable();
+  });
+</script>
+{% endblock %}
+
+
+ {% endblock content %}

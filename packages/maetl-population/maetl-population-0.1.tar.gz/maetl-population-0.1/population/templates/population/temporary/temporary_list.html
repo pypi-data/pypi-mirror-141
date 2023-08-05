@@ -1,0 +1,207 @@
+{% extends 'main/layout.html' %}
+{% block title %} Dadus Populasaun Temporáriu {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %} {% load static %}
+
+<!-- Page content-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static 'main/src/jquery.table2excel.js' %}"></script>
+
+  <section class="section-container">
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>Gere Dadus Populasaun Temporáriu</h4>
+      <small>Registu No Atualiza Dadus Populasaun Temporáriu</small>
+    </div>
+
+
+      <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+
+  </div>
+  <div class="container-fluid">
+
+
+    <!-- DATATABLE DEMO 2-->
+    <div class="col-xl-12">
+      <!-- START card-->
+      <div class="card card-default">
+          <div class="card-header d-flex justify-content-between">
+                     <div class="card-title">Lista Dadus Populasaun Temporáriu</div>
+                     <div class="card-title">
+                          
+                      <a href="{% url 'population:temporary_input' %}" class="btn btn-sm btn-labeled btn-info mb-2"><span class="btn-label"><i class="fa fa-plus-square"></i></span>Rejistu Populasaun Temporáriu</a>
+
+                              <button id='exportdata'  class="btn btn-sm btn-labeled btn-info mb-2"><span class="btn-label"><i class="fa fa-plus-square"></i></span>Export Ba Excel</button>
+                          
+                     </div>
+                  </div>
+        <div class="card-body">
+
+     
+
+
+          
+      {% if messages %}
+      {% for message in messages %}
+
+ 
+
+          <div class="alert alert-success alert-dismissible fade show" role="alert"><button class="close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>  {{ message }} </div>
+
+          {% endfor %}
+
+          {% endif %}
+
+          <!-- START table-responsive-->
+      
+
+
+   
+
+
+          
+
+          <h4><center> Total Dadus ( {{total_data}} )</center></h4>
+
+
+
+
+     
+
+
+
+
+          <div class="table-responsive">
+            
+      <table class="table  table-sm" id="datatable2" border="0.5">
+            <thead>
+              <tr>
+               
+                <th>No</th>
+                <th>Naran Kompletu</th>
+                <th>Seksu</th>
+                <th>Nu.ID/ Pasaporte</th>
+                <th>Fatin no Data Moris / Idade</th>
+                <th>Profisaun</th>
+                <th>Cidadania</th>
+                <th>Mai Husi</th>
+                <th>Intensaun Mai</th>
+                <th>Naran No Hela Fatin Vizitor</th>
+                <th>Data To'o</th>
+                <th>Data Fila</th>
+                <th>Kondisaun Fiziku & Mental</th>
+                <th>Observasaun</th>
+                <th>Aksaun</th>
+
+            </pre>
+              </tr>
+            </thead>
+            <tbody>
+              {% for dados in temporary_list %}
+
+              <tr class="gradeX">
+                <td><pre>{{ forloop.counter }}</pre></td>
+                <td>{{dados.population.name}}</td>
+                <td>{{dados.population.gender}}</td>
+                <td>       {% if dados.population.nu_bi is not None %}
+
+            Nu BI - {{dados.population.nu_bi}}
+            {% endif %} <br>
+
+            {% if dados.population.nu_p is not None %}
+           Nu Pasaporte - {{dados.population.nu_p}}
+            {% endif %} <br>
+
+
+            {% if dados.population.nu_e is not None  %}
+           Nu  Eleitoral - {{dados.population.nu_e}}
+          {% endif %}
+
+           {% if dados.population.type_data == 'mo' %}
+         Bebe La iha id Card
+            {% endif %}
+
+
+        </td>
+                <td>{{dados.population.place_of_bird}} / {{dados.population.date_of_bird|date:'d-M-Y'}}</td>
+                <td>{{dados.population.profession}}</td>
+                <td>{{dados.cidadaunt}}</td>
+                <td>{{dados.from_place}}</td>
+                <td>{{dados.purpose}}</td>
+                <td>Aldeia : {{dados.population.aldeia}} , {{dados.residence}}</td>
+                <td>{{dados.date_arive|date:'d-M-Y'}}</td>
+                <td>{{dados.date_return|date:'d-M-Y'}}</td>
+                <td>{{dados.population.deficient}}</td>
+                <td>{{dados.descriptionte}}</td>
+
+                <td>
+           
+                  <a
+                    href="{% url 'population:temporary_update' dados.hashed %}"
+                    class="mb-1 btn-xs btn btn-outline-info"
+                    type="button"
+                  >  <i class="fa fa-edit"></i> Atualiza Dadus
+                </a>
+
+
+                  <a
+                  href="{% url 'population:temporary_delete' dados.hashed %}"
+                  class="mb-1 btn-xs btn btn-outline-info"
+                  type="button"
+                >
+                    <i class="fa fa-trash"></i> Apaga Dadus
+                  </a>
+                </td>
+              </tr>
+
+              {% endfor %}
+            </tbody>
+          </table>
+
+          
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+  {% include 'main/footer.html' %}
+
+        <script>
+
+$("#exportdata").click(function(){
+  alert("Download Dadus Ba Excel")
+  $("#datatable2").table2excel({
+    // exclude CSS class
+
+    name: "Dadus Populasaun Temporáriu",
+    filename: "Dadus Populasaun Temporáriu", //do not include extension
+    fileext: ".xls" // file extension
+  }); 
+});
+</script>
+
+
+{% endblock content %}

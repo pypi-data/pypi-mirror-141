@@ -1,0 +1,35 @@
+{% extends 'main/layout.html' %}
+{% block title %} Formuláriu Atualiza Família {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+<!-- kok -->
+{% load crispy_forms_tags %} {% load static %}
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>Populasaun / Familia / Registu Membru Familia</h4>
+      <small>Bootstrap Responsive tables</small>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-7 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>Registu Ida Familia</h4>
+              <small>Prenxe Dados</small>
+            </div>
+          </center>
+          <hr />
+        </div>
+        <div class="card-body">{% crispy form %}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

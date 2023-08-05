@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <style type="text/css" media="print">
+      @page {
+        size: auto; /* auto is the current printer page size */
+        margin-top: 0mm; /* this affects the margin in the printer settings */
+        margin-bottom: 0mm;
+      }
+
+      body {
+        margin-top: 0px;
+        margin-bottom: 0mm; /* the margin on the content before printing */
+      }
+    </style>
+
+    <style>
+      .th2 {
+        padding: 5px;
+        text-align: center;
+        font-family: "Agency FB", "sans-serif";
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td {
+        text-align: left;
+        padding: 5px;
+        font-size: 15px;
+        font-family: "Agency FB", "sans-serif";
+      }
+
+      .td2 {
+        text-align: justify;
+        padding: 5 px;
+        text-align: center;
+        background-color: rgb(208, 208, 208);
+      }
+    </style>
+  </head>
+
+  <body onload="print()">
+    <br />
+    <br />
+    <br />
+    <center>
+      Formatu B. 2
+      <h1>LIVRU DADUS POPULASAUN TEMPORÁRIU</h1>
+      Suku : .................. Postu Administrativu : .........................
+      Munisípiu : .................. Tinan ..............
+    </center>
+    <br />
+    <table border="1">
+      <thead>
+        <tr>
+          <th class="th2" rowspan="2">Nu</th>
+          <th class="th2" rowspan="2">Naran Kompletu</th>
+          <th class="th2" colspan="2">Sexu</th>
+          <th class="th2" rowspan="2">
+            Nu.ID/ <br />
+            Pasaporte
+          </th>
+          <th class="th2" rowspan="2">Fatin no Data Moris <br />/ Idade</th>
+          <th class="th2" rowspan="2">Profisaun</th>
+          <th class="th2" colspan="2">Sidadania</th>
+          <th class="th2" rowspan="2">Mai Husi</th>
+          <th class="th2" rowspan="2">Intensaun Mai</th>
+          <th class="th2" rowspan="2">
+            Naran no hela <br />
+            fatin Visitor
+          </th>
+          <th class="th2" rowspan="2">Data To’o</th>
+          <th class="th2" rowspan="2">Data Fila</th>
+          <th class="th2" rowspan="2">Obs</th>
+        </tr>
+        <tr>
+          <th class="th2">M</th>
+          <th class="th2">F</th>
+          <th class="th2">Tls</th>
+          <th class="th2">Estrangeiro</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <!-- {{dados.total}} -->
+
+          <td class="td2">1</td>
+          <td class="td2">2</td>
+          <td class="td2">3</td>
+          <td class="td2">4</td>
+          <td class="td2">5</td>
+          <td class="td2">6</td>
+          <td class="td2">7</td>
+          <td class="td2">8</td>
+          <td class="td2">9</td>
+          <td class="td2">10</td>
+
+          <td class="td2">11</td>
+          <td class="td2">12</td>
+          <td class="td2">13</td>
+
+          <td class="td2">14</td>
+          <td class="td2">15</td>
+        </tr>
+
+        {% for dados in dadostemporary %}
+        <tr>
+          <td>{{forloop.counter}}</td>
+
+          <td>{{dados.population.name}}</td>
+
+          <td>
+            {% if dados.population.gender == 'm' %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if dados.population.gender == 'f' %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+          <td>
+            Nu bi : {{dados.population.nu_bi}} Pasaporte :
+            {{dados.population.id_pasaporte}}
+          </td>
+          <td>
+            {{dados.population.place_of_bird}} <br />
+            {{dados.population.date_of_bird}}
+          </td>
+
+          <td>{{dados.population.profession}}</td>
+          <td>
+            {% if dados.cidadaunt.id == 1 %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if dados.cidadaunt.id == 2 %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+
+          <td>{{dados.from_place}}</td>
+          <td>{{dados.purpose}}</td>
+
+          <td>{{dados.residence}}</td>
+          <td>{{dados.date_arive}}</td>
+
+          <td>{{dados.date_return}}</td>
+          <td>{{dados.descriptionte}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

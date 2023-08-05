@@ -1,0 +1,126 @@
+{% extends 'population/base.html' %}
+<!-- enter -->
+{% load static %} {% block content %}
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>{{title}}</h4>
+      <small>Hare Dados Populasaun temporario tuir tipu dados ne'ebe iha</small>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-6 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-body">
+          <div style="width: 450px; height: 370px; margin: 0 auto">
+            <center>
+              <div>
+                <h4>Total Populasaun Feto No Mane iha Tinan {{title_tinan}}</h4>
+              </div>
+            </center>
+
+            <hr />
+            <br />
+            <canvas
+              id="poptemporary-charts"
+              data-url="{% url 'population:popchar_temporary' %}"
+            ></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-6 block-center">
+        <!-- START card-->
+        <div class="card card-default">
+          <div class="card-header">
+            <center>
+              <div>
+                <h4>
+                  Hare dados populasaun temporario tuir tipu dados ne'ebe iha
+                </h4>
+              </div>
+            </center>
+            <hr />
+          </div>
+          <div class="card-body">
+            <form
+              id="id_form_email_verification"
+              method="get"
+              action="{% url 'population:reportb2_print' %}"
+              target="__blank"
+            >
+              {% csrf_token %}
+
+              <div class="form-row form-row">
+                <div class="form-group col-md-12 mb-0">
+                  <div id="div_id_aldeia" class="form-group">
+                    <div class="row">
+                      <div class="col-xl-6 block-center">
+                        <label for="id_aldeia" class=""> Hili Tinan </label>
+                        <div class="">
+                          <select
+                            required
+                            name="tinan"
+                            class="select form-control custom-select"
+                            id="tinan"
+                          >
+                            {% for dados in tinan %}
+                            <option value="{{dados.year}}">
+                              {{dados.year}}
+                            </option>
+                            {% endfor %}
+                          </select>
+                        </div>
+
+                        <label for="gender" class=""> Hili Genero </label>
+                        <div class="">
+                          <select
+                            name="gender"
+                            class="select form-control custom-select"
+                            id="gender"
+                          >
+                            <option value="jeral">--- Jeral ---</option>
+                            <option value="m">Mane</option>
+                            <option value="f">Feto</option>
+                          </select>
+                        </div>
+
+                        <label for="citizenp" class=""> Hili Cidadao </label>
+                        <div class="">
+                          <select
+                            name="citizenp"
+                            class="select form-control custom-select"
+                            id="citizenp"
+                          >
+                            <option value="jeral">--- Jeral ---</option>
+                            {% for dados in cidadaun %}
+                            <option value="{{dados.id}}">{{dados.name}}</option>
+                            {% endfor %}
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr />
+                    <center>
+                      <button class="btn btn-info" type="submit">
+                        <i class="fa fa-print"></i> Hare Dados
+                      </button>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="{% static 'main/vendor/chart.js/dist/population_chart.js' %}"></script>
+  {% endblock content %}
+</div>

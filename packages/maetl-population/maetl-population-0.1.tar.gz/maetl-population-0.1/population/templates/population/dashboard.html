@@ -1,0 +1,117 @@
+{% extends 'main/layout.html' %}
+ {% load static %}
+{% block title %} Populasaun  {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+  <section class="section-container">
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>Pajina  Populasaun </h4>
+      <small>Utiliza ba menu sira iha sorin karuk hodi registu no gere dadus populasaun</small>
+    </div>
+  </div>
+
+  <div class="row">
+
+  
+      <div class="col-xl-6 col-lg-6 col-md-12">
+        <!-- START card-->
+        <div class="card flex-row align-items-center align-items-stretch border-0">
+          <div class="col-4 d-flex align-items-center bg-primary-dark justify-content-center rounded-left"><em class="icon-people fa-3x"></em></div>
+          <div class="col-8 py-3 bg-primary rounded-right">
+            <div class="h2 mt-0">{{totalpop}}</div>
+            <div class="text-uppercase">Populasaun Suku Tinan {{tinan}}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-6 col-lg-6 col-md-12">
+        <!-- START card-->
+        <div class="card flex-row align-items-center align-items-stretch border-0">
+          <div class="col-4 d-flex align-items-center bg-green-dark justify-content-center rounded-left"><em class="icon-people fa-3x"></em></div>
+          <div class="col-8 py-3 bg-green rounded-right">
+            <div class="h2 mt-0">{{totalpopte}}</div>
+            <div class="text-uppercase">Populasaun Temporáriu Tinan {{tinan}}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START row-->
+      <!--   <div class="row"> -->
+
+</div>
+<br>
+
+<div class="row">
+
+
+
+
+      <div class="col-md-12">
+         <div class="row">
+           <div class="col-sm-4">
+             <div class="card shadow-lg pt-3 rounded pie-chart-example">
+               <div class="card-header d-flex align-items-center">
+                 <h4>Populasaun Suku Tinan {{tinan}}</h4>
+               </div>
+               <div class="card-body">
+                 <div class="chart-container">
+                   <canvas
+                     id="population-chart"
+                     data-url="{% url 'population:popchar_genderyear' %}"
+                   ></canvas>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="card shadow-lg pt-3 rounded pie-chart-example">
+               <div class="card-header d-flex align-items-center">
+                 <h4>Mudansa Populasaun tinan {{tinan}}</h4>
+               </div>
+               <div class="card-body">
+                 <div class="chart-container">
+                   <canvas
+                     id="populationchange-chart"
+                     data-url="{% url 'population:popchar_changes' %}"
+                   ></canvas>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="card shadow-lg pt-3 rounded pie-chart-example">
+               <div class="card-header d-flex align-items-center">
+                 <h4>Populasaun Temporáriu tinan {{tinan}}</h4>
+               </div>
+               <div class="card-body">
+                 <div class="chart-container">
+                   <canvas
+                     id="poptemporary-charts"
+                     data-url="{% url 'population:popchar_temporary' %}"
+                   ></canvas>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    
+
+
+ 
+
+
+
+         
+        </div>
+      </div>
+ 
+</section>
+
+<script src="{% static 'main/vendor/chart.js/dist/population_chart.js' %}"></script>
+{% include 'main/footer.html' %}
+{% endblock content %}
+

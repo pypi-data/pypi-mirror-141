@@ -1,0 +1,112 @@
+{% extends 'main/layout.html' %}
+{% block title %} Relatóriu Livru Rekapitulasaun Populasaun suku  {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+{% load static %}
+<!-- Page content-->
+ <section class="section-container">
+
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>{{title}}</h4>
+      <small>Print RelatoriU tuir tipu dadus </small>
+    </div>
+
+      <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+
+            
+  </div>
+
+  <div class="row">
+    <div class="col-xl-6 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>Hare Dadus Rekapitulasaun Populasaun</h4>
+              <small>Hare Rekapitulasaun tuir tinan no fulan</small>
+            </div>
+          </center>
+          <hr />
+        </div>
+        <div class="card-body">
+          <form
+            id="id_form_email_verification"
+            method="get"
+            action="{% url 'population:reportb4_print' %}"
+            target="__blank"
+          >
+            {% csrf_token %}
+
+            <div class="form-row form-row">
+              <div class="form-group col-md-12 mb-0">
+                <div id="div_id_aldeia" class="form-group">
+                  <div class="row">
+                    <div class="col-xl-6 block-center">
+                      <label for="id_aldeia" class=""> Tinan </label>
+                      <div class="">
+                        <select
+                          required
+                          name="tinan"
+                          class="select form-control custom-select"
+                          id="tinan"
+                        >
+                          {% for dados in tinan %}
+                          <option value="{{dados.year}}">{{dados.year}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                      <br />
+
+                      <label for="fulan" class=""> Fulan </label>
+                      <div class="">
+                        <select
+                          name="fulan"
+                          class="select form-control custom-select"
+                          id="tinan"
+                        >
+                          {% for dados in fulan %}
+                          <option value="{{dados.id}}">{{dados.fulan}}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr />
+                  <center>
+                    <button class="btn btn-info" type="submit">
+                      <i class="fa fa-print"></i> Hare Dadus
+                    </button>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% include 'main/footer.html' %}
+
+{% endblock content %}

@@ -1,0 +1,233 @@
+{% load static %}
+
+<html>
+  <head>
+
+
+        <style type="text/css" media="print">
+
+      @media print {
+  #download {
+    display: none;
+  }
+}
+
+
+
+      @page {
+        size: auto; /* auto is the current printer page size */
+        margin-top: 0mm; /* this affects the margin in the printer settings */
+        margin-bottom: 0mm;
+      }
+
+      body {
+        margin-top: 0px;
+        margin-bottom: 0mm; /* the margin on the content before printing */
+      }
+    </style>
+
+    <style>
+      .th2 {
+        padding: 5px;
+        text-align: center;
+        font-family: "Agency FB", "sans-serif";
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td {
+        text-align: left;
+        padding: 5px;
+        font-size: 15px;
+        font-family: "Agency FB", "sans-serif";
+      }
+
+      .td2 {
+        text-align: justify;
+        padding: 5 px;
+        text-align: center;
+        background-color: rgb(208, 208, 208);
+      }
+    </style>
+  </head>
+
+ 
+
+  <body onload="print()">
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static 'main/src/jquery.table2excel.js' %}"></script>
+
+<button id ='download' style="float: right;">Export  Dadus Ba Excel </button>
+    <br />
+    <br />
+    <br />
+    <center>
+      Formatu B. 2
+      <h1>LIVRU DADUS POPULASAUN TEMPORÁRIU</h1>
+      Suku : &nbsp;  {{suku}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Postu Administrativu :  &nbsp; {{postu}} &nbsp; &nbsp; &nbsp; 
+
+      &nbsp; &nbsp; &nbsp; 
+
+
+                     {% if munisipiu == 'Dili' or munisipiu == 'Ermera'  or munisipiu == 'Bobonaro'  or munisipiu == 'Baucau' %} 
+                     Autoridade Munisípal :  &nbsp; &nbsp; &nbsp; {{munisipiu}}
+                     {% elif munisipiu == 'Oe-cusse' %} 
+                      Rejiaun Aut&oacute;nomu :  &nbsp; &nbsp; &nbsp; RAEOA
+                     {% else %}
+                      Munisípiu :  &nbsp; &nbsp; &nbsp; {{munisipiu}}
+                     {% endif %}
+
+
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tinan : {{tinan}}
+    </center>
+    <br />
+    <table border="1" id = "pop">
+      <thead>
+        <tr>
+          <th class="th2" rowspan="2">Nú</th>
+          <th class="th2" rowspan="2">Naran Kompletu</th>
+          <th class="th2" rowspan="2">Seksu</th>
+          <th class="th2" rowspan="2">
+            Nú.ID/ <br />
+            Pasaporte
+          </th>
+          <th class="th2" rowspan="2">Fatin no Data Moris <br />/ Idade</th>
+          <th class="th2" rowspan="2">Profisaun</th>
+          <th class="th2" colspan="2">Sidadania</th>
+          <th class="th2" rowspan="2">Mai Husi</th>
+          <th class="th2" rowspan="2">Intensaun Mai</th>
+          <th class="th2" rowspan="2">
+            Naran no hela <br />
+            fatin Visitor
+          </th>
+          <th class="th2" rowspan="2">Data To’o</th>
+          <th class="th2" rowspan="2">Data Fila</th>
+          <th class="th2" rowspan="2">Obs</th>
+        </tr>
+        <tr>
+    
+          <th class="th2">Tls</th>
+          <th class="th2">Estrangeiru</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <!-- {{dados.total}} -->
+
+          <td class="td2">1</td>
+          <td class="td2">2</td>
+          <td class="td2">3</td>
+          <td class="td2">4</td>
+          <td class="td2">5</td>
+          <td class="td2">6</td>
+          <td class="td2">7</td>
+          <td class="td2">8</td>
+          <td class="td2">9</td>
+          <td class="td2">10</td>
+
+          <td class="td2">11</td>
+          <td class="td2">12</td>
+          <td class="td2">13</td>
+
+          <td class="td2">14</td>
+  
+        </tr>
+
+        {% for dados in dadostemporary %}
+        <tr>
+          <td>{{forloop.counter}}</td>
+
+          <td>{{dados.population.name}}</td>
+
+          <td>
+            {% if dados.population.gender == 'm' %}
+            Mane
+            {% endif %}
+       
+            {% if dados.population.gender == 'f' %}
+           Feto
+            {% endif %}
+
+
+                {% if dados.population.gender == 's' %}
+            Seluk
+            {% endif %}
+          </td>
+          <td>
+           {% if dados.population.nu_bi is not None %}
+
+            Nú BI - {{dados.population.nu_bi}}
+            {% endif %} <br>
+
+            {% if dados.population.nu_p is not None %}
+           Nú Pasaporte - {{dados.population.nu_p}}
+            {% endif %} <br>
+
+
+            {% if dados.population.nu_e is not None  %}
+           Nú  Eleitoral - {{dados.population.nu_e}}
+          {% endif %}
+
+
+
+              {% if dados.population.type_data == 'mo' %}
+         Bebe La iha id Card
+            {% endif %}
+
+
+          </td>
+          <td>
+            {{dados.population.place_of_bird}} <br />
+            {{dados.population.date_of_bird|date:'d-M-Y'}}
+          </td>
+
+          <td>
+    {% if dados.profession == None %} --- {% else %} {{ dados.profession }}
+          {% endif %}
+      
+
+        </td>
+          <td>
+            {% if dados.cidadaunt.id == 1 %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if dados.cidadaunt.id == 2 %}
+            <span>&#10003;</span>
+            {% endif %}
+          </td>
+
+          <td>{{dados.from_place}}</td>
+          <td>{{dados.purpose}}</td>
+
+          <td>{{dados.residence}}</td>
+          <td>{{dados.date_arive|date:'d-M-Y'}}</td>
+
+          <td>{{dados.date_return|date:'d-M-Y'}}</td>
+          <td>{{dados.descriptionte}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+       <script>
+
+$("#download").click(function(){
+  alert("Download Dados Ba Excel")
+  $("#pop").table2excel({
+    // exclude CSS class
+    exclude: ".noExl",
+    name: "Dados Populasaun Temporaria ",
+    filename: "Dados Populasaun Temporaria ", //do not include extension
+    fileext: ".xls" // file extension
+  }); 
+});
+</script>
+
+  </body>
+</html>

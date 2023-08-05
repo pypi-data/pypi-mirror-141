@@ -1,0 +1,270 @@
+{% extends 'main/layout.html' %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+<!-- block -->
+{% load static %}
+
+<!-- block -->
+{% load crispy_forms_tags %}
+  <section class="section-container">
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <!-- DATATABLE DEMO 2-->
+    <div class="row">
+      <div class="col-xl-12">
+        <!-- START card-->
+        <div class="card card-default">
+          <div class="card-header"></div>
+          <div class="card-body">
+            {% if messages %} {% for message in messages %}
+            <!-- block -->
+
+            {% if message.tags == 'error' %}
+
+            <div
+              class="alert alert-warning alert-dismissible fade show"
+              role="alert"
+            >
+                   <button
+                  class="close"
+                  type="button"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">x</span></button
+                ><strong>Info!</strong> {{ message }}
+              </div>
+              {% else %}
+              <div
+                class="alert alert-success alert-dismissible fade show"
+                role="alert"
+              >
+                     <button
+                  class="close"
+                  type="button"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">x</span></button
+                ><strong>Info!</strong> {{ message }}
+              </div>
+                {% endif %}
+
+         
+              {% endfor %}
+              <!-- block -->
+              {% endif %}
+
+              <center>
+                <h4>
+                  Rejistu Konta Família Online ba Uma kain ho numeru id
+                  {{id_familia}} <br />
+                  Hili localizasaun ka Hela fatin Husi Famíliav uma kain
+                </h4>
+              </center>
+              <br />
+
+              <form action="" method="post">
+                {% csrf_token %}
+                <link
+                  rel="stylesheet"
+                  href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                  crossorigin=""
+                />
+                <script
+                  src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                  crossorigin=""
+                ></script>
+
+                <link
+                  rel="stylesheet"
+                  href="https://unpkg.com/leaflet-draw@1.0.2/dist/leaflet.draw.css"
+                />
+                <script src="https://unpkg.com/leaflet-draw@1.0.2/dist/leaflet.draw-src.js"></script>
+
+                <div id="map" style="width: 100%; height: 400px"></div>
+                <br />
+                <input type="hidden" name="kordinate" id="kordinate" />
+                <input
+                  type="hidden"
+                  name="id_familia"
+                  id="id_familia"
+                  value="{{id_familia}}"
+                />
+
+                <center>
+                  <button class="btn btn-primary" type="submit" id = 'butaun_registu'>
+                    <span class="fa fa-save"> </span>
+                    Kria Konta
+                  </button>
+
+                  <script type="text/javascript">
+                      function loadform() {
+      var butaun_registu = document.getElementById("butaun_registu");
+      var kordinate = document.getElementById("kordinate").value;
+      if (kordinate == "") {
+
+        butaun_registu.style.display = "none";
+      } else {
+        butaun_registu.style.display = "block";
+        
+      }
+    }
+    loadform();
+                  </script>
+
+                  <br />
+                </center>
+                <script>
+                  var map = L.map("map").setView(
+                    [-8.863362033551667, 125.57373046874999],
+                    8
+                  );
+
+                  var basemaps = {
+                    OpenStreetMap: L.tileLayer(
+                      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                      {
+                        maxZoom: 20,
+                        layers: "TOPO-WMS",
+                      }
+                    ),
+
+                    GoogleSatelite: L.tileLayer.wms(
+                      "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+                      {
+                        maxZoom: 20,
+                        subdomains: ["mt0", "mt1", "mt2", "mt3"],
+                      }
+                    ),
+                  };
+
+                  L.control
+                    .layers(basemaps, {}, { collapsed: false })
+                    .addTo(map);
+
+                  basemaps.OpenStreetMap.addTo(map);
+
+                  // var marker = L.marker([
+                  //   -8.863362033551667, 125.57373046874999,
+                  // ]).addTo(map);
+
+                  var editableLayers = new L.FeatureGroup();
+                  map.addLayer(editableLayers);
+
+                  var options = {
+                    position: "topleft",
+                    draw: {
+                      polygon: {
+                        allowIntersection: false, // Restricts shapes to simple polygons
+                        drawError: {
+                          color: "#000000", // Color the shape will turn when intersects
+                          message:
+                            "<strong>Oh snap!<strong> you can't draw that!", // Message that will show when intersect
+                        },
+                        shapeOptions: {
+                          color: "#000000",
+                        },
+                      },
+                      polyline: {
+                        shapeOptions: {
+                          color: "#000000",
+                          weight: 10,
+                        },
+                      },
+                      // disable toolbar item by setting it to false
+                      polyline: false,
+                      circle: false, // Turns off this drawing tool
+                      polygon: false,
+                      marker: true,
+                      rectangle: false,
+                      circlemarker: false,
+                    },
+                    edit: {
+                      featureGroup: editableLayers, //REQUIRED!!
+                      remove: false,
+                    },
+                  };
+
+                  // Initialise the draw control and pass it the FeatureGroup of editable layers
+                  var drawControl = new L.Control.Draw(options);
+                  map.addControl(drawControl);
+
+                  var editableLayers = new L.FeatureGroup();
+                  map.addLayer(editableLayers);
+
+                  map.on("draw:created", function (e) {
+                    var type = e.layerType,
+                      layer = e.layer;
+
+                    if (type === "marker") {
+                      var koko = layer.getLatLng();
+                      document.getElementById("kordinate").value = koko;
+                      loadform();
+                      editableLayers.clearLayers();
+                    } else if (type === "circle") {
+                      layer.bindPopup("A circle!");
+                    } else if (type === "rectangle") {
+                      layer.bindPopup("A rectangle!");
+                    }
+
+                    editableLayers.addLayer(layer);
+                  });
+
+                  L.Control.RemoveAll = L.Control.extend({
+                    options: {
+                      position: "topright",
+                    },
+                    onAdd: function (mapx) {
+                      var controlDiv = L.DomUtil.create(
+                        "div",
+                        "leaflet-draw-toolbar leaflet-bar"
+                      );
+                      L.DomEvent.addListener(
+                        controlDiv,
+                        "click",
+                        L.DomEvent.stopPropagation
+                      )
+                        .addListener(
+                          controlDiv,
+                          "click",
+                          L.DomEvent.preventDefault
+                        )
+                        .addListener(controlDiv, "click", function () {
+                          editableLayers.clearLayers();
+                        });
+
+                      var controlUI = L.DomUtil.create(
+                        "a",
+                        "leaflet-draw-edit-remove",
+                        controlDiv
+                      );
+                      controlUI.title = "Remove All Polygons";
+                      controlUI.href = "#";
+                      return controlDiv;
+                    },
+                  });
+                  var removeAllControl = new L.Control.RemoveAll();
+                  map.addControl(removeAllControl);
+                </script>
+              </form>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% include 'main/footer.html' %}
+
+
+  {% endblock content %}
+

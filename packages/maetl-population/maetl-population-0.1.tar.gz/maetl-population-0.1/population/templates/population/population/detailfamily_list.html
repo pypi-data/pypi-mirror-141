@@ -1,0 +1,1072 @@
+{% extends 'main/layout.html' %}
+{% block title %} Detallu Família {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+{% load static %}
+
+
+{% load crispy_forms_tags %}
+
+    <style>
+      .th2 {
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td {
+        text-align: left;
+        padding: 5px;
+        font-size: 15px;
+      }
+
+      .td2 {
+        text-align: justify;
+        padding: 5 px;
+        text-align: center;
+        background-color: rgb(208, 208, 208);
+      }
+    </style>
+
+
+ <section class="section-container">
+
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>
+        
+        <a href="{% url 'population:reg_population' %} "> <i class="fa fa-backward">
+          &nbsp; </i> Populasaun </a> / Jere Membru Família - Ho Númeru Uma Kain : {{id_familia}}</h4>
+      <small>Rejistu, Prossesa no atauliza dadus membru Família </small>
+    </div>
+
+     <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+  </div>
+
+  <div class="container-fluid">
+    <!-- DATATABLE DEMO 2-->
+    <div class="row">
+      <div class="col-xl-12">
+        <!-- START card-->
+        <div class="card card-default">
+ 
+          <div class="card-body">
+
+
+            {% if messages %}
+            {% for message in messages %}
+
+            {% if message.tags == 'error' %} 
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                   <button class="close" type="button" data-dismiss="alert" aria-label="Close"> 
+                    <span aria-hidden="true">x</span></button> {{ message }} </div>
+            {% else %} 
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                   <button class="close" type="button" data-dismiss="alert" aria-label="Close"> 
+                    <span aria-hidden="true">x</span></button> {{ message }} </div>
+             {% endif %}
+                 
+            {% endfor %}
+            {% endif %}
+
+          
+            {% crispy form %}
+
+
+            <br><br><br>
+
+
+
+    
+           
+          
+          
+
+            <div class="card" role="tabpanel">
+              <!-- Nav tabs-->
+              <ul class="nav nav-tabs nav-fill" role="tablist">
+                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#home" aria-controls="home" role="tab" data-toggle="tab" aria-selected="false"><em class="far fa-user fa-fw"></em>Membru Família Ne’ebé Ativu ({{total_ativu}})</a></li>
+                 <li class="nav-item" role="presentation">
+                   
+                   
+
+                   <a class="nav-link" href="#profile" aria-controls="profile" role="tab" data-toggle="tab" aria-selected="true"><em class="far fa-user fa-fw"></em>Membru  Família Ne’ebé La ativu ona ({{total_desativu}})</a>
+                  
+                  
+                  </li>
+              </ul><!-- Tab panes-->
+
+
+
+              <div class="tab-content p-0">
+                 <div class="tab-pane active" id="home" role="tabpanel">
+
+                    <!-- interface membru familia ne'ebe ativu -->
+
+                    <br>
+                    
+            {% if total_family > 0 %} {% for dados in family_member %}
+
+            {% if dados.status is True %}
+
+            <div class="col-lg-12">
+              <div class="card card-default card-demo" id="cardDemo3">
+
+   <table class="wd-wide">
+                  <tbody>
+                    <tr>
+                      <td class="wd-xs">
+                        <img
+                          class="img-fluid rounded thumb64"
+                          src="{{ dados.imagen.url }}"
+                          alt=""
+                        />
+                      </td>
+
+
+                      <td>
+                        <div class="px-1">
+                          <h5 class="mb-1">
+
+                          <b> {{dados.name}} ( {{dados.family_position}} )</b>
+                            <div style="float: right">
+                             
+                             <b>Status :</b>  {% if dados.status_datap == 'ac' %}
+                              <!-- block -->
+                              Ativu
+                               ( 
+                                 {% if dados.type_data == 'f' %} 
+                                 Populasaun Orijinal
+                                 {% else %}
+                                 Populasaun Adkeridu
+
+                                 {% endif %}
+                               )
+                              <!-- block -->
+                              {% elif dados.status_datap == 'ma' %}
+                              <!-- block -->
+                              Desativu (Matebian Ona)
+                              <!-- block -->
+                              {% elif dados.status_datap == 'mu' %}
+                              <!-- block -->
+                              Desativu (Muda Ona suku)
+                              <!-- block -->
+                              {% endif %}
+                            </div>
+
+
+                          
+                          </h5>
+
+
+                          <small class="text-muted">
+                            
+
+                  {% if dados.nu_bi is not None %}
+                  {% if dados.nu_bi %}
+                  Nú BI - {{dados.nu_bi}} /
+                  {% endif %}
+                  {% endif %} 
+          
+                  {% if dados.nu_p is not None %}
+                  {% if dados.nu_p %}
+                  Nú Pasaporte - {{dados.nu_p}} /
+                  {% endif %}
+                  {% endif %} 
+
+
+                  {% if dados.nu_e is not None  %}
+                  {% if dados.nu_e %}
+                  Nú  Eleitoral - {{dados.nu_e}} /
+                  {% endif %}
+                  {% endif %} 
+
+
+
+           Data Rejistu Iha : {{dados.date_created|date:'d-M-Y'}}   <b>  
+
+                          </small>
+                        </div>
+
+                          <a
+                            class="float-right"
+                            href="#"
+                            data-tool="card-collapse"
+                            data-toggle="tooltip"
+                            title=""
+                            data-start-collapsed=""
+                            data-original-title="Detallu Dados"
+                          >
+                             Detallu <em class="fa fa-minus"></em
+                          > </a>
+                        
+
+
+                      </td>
+
+
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div
+                  class="card-wrapper"
+                  style="
+                    max-height: 6px;
+                    transition: max-height 0.1s ease 0s;
+                    overflow: hidden;
+                  "
+                >
+                  <div class="card-body">
+                   
+                   
+
+
+                <legend>Informasaun Pesoal</legend>
+                    <div class="table-responsive">
+                      <table border="1"  align="center">
+                        <tr>
+                          <td ><b>Data Rejistu</b></td>
+                          <td ><b>Seksu</b></td>
+                          <td >
+                           <b>Fatin /
+                            Data Moris</b> 
+                          </td>
+                          <td ><b>Relijiaun</b></td>
+                          <td ><b>Estadu Civil</b></td>
+                          <td ><b>Sidadania</b></td>
+                          <td ><b>Hela Fatin</b></td>
+                          <td ><b>Kondisaun Fiziku</b></td>
+                          <td ><b>Kontaktu</b></td>
+
+                          <td><b>Vulnerável</b></td>
+                   
+                   
+                       
+                          {% if dados.deskrisaunm != 'laiha' %}
+                          <td ><b>Data Muda Mai iha suku</b></td>
+                          <td ><b>Observasaun</b></td>
+                          {% endif %}
+                           <td rowspan="2">
+                             
+                                            <a
+                    href="{% url 'population:familymember_update' dados.hashed %}"
+                    class="mb-1 btn btn-xm btn-outline-info"
+                    type="button"
+
+                  >
+                    <i class="fa fa-edit"
+                      >Atualiza 
+                      Dadus</i
+                    >
+                  </a>
+                           </td>
+
+
+
+                          <!-- data_migrasaun, deskrisaunm,migrasaun_husi -->
+                        
+                        </tr>
+                     
+
+                        <tr>
+                          <td>{{dados.date_register|date:'d-M-Y'}}
+                         
+                          </td>
+                          <td>
+                            {% if dados.gender == 'm' %}
+                            Mane
+                            {% elif dados.gender == 'f' %}
+                            Feto
+                            {% elif dados.gender == 's' %}
+                            Seluk
+                            {% endif %}
+                         
+                          </td>
+                          <td>
+                            {{dados.place_of_bird}} {{dados.date_of_bird|date:'d-M-Y'}}
+                          </td>
+                          <td>{{dados.religion}}</td>
+                          <td>
+                            {% if dados.marital_status == 'c' %}
+                            Kaben Nain
+                            {% elif dados.marital_status == 's' %}
+                            Klosan
+                            {% elif dados.marital_status == 'd' %}
+                            Fahe Malu
+                             {% elif dados.marital_status == 'f' %}
+                             Faluk
+                            {% else %}
+                            Dadus Laiha
+                            {% endif %}
+                           
+
+                                  
+
+                          </td>
+
+                          <td>
+                            {% if dados.citizenp == 'a' %}
+                            Arkeridu
+                            {% elif dados.citizenp == 'o' %}
+                            Orijinal
+                            {% else %}
+                            Informasaun Laiha
+                            {% endif %}
+
+                          </td>
+                          <td>{{dados.aldeia}}</td>
+                              <td>{{dados.kondisaun}}</td>
+                           <td>
+                             
+                                {% if dados.phone is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.phone}}
+                              {% endif %}
+                           </td>
+                   
+         <td>
+          {% if dados.vulnerable == True %}
+          Lae
+          {% else %}
+          Sim
+          {% endif %}
+
+         
+       </td>
+
+                          {% if dados.deskrisaunm != 'laiha' %}
+                          <td>{{dados.data_migrasaun}} <br>{{dados.migrasaun_husi}}</td>
+                          <td>{{dados.deskrisaunm}}</td>
+                          {% endif %}
+                        </tr>
+                      </table>
+                    </div>
+
+
+<br>
+<legend>Edukasaun No Servisu</legend>
+                            <table border="1"  align="center">
+                        <tr>
+                      
+                          <td ><b>Habilitasaun Literaria ikus liu</b></td>
+                          <td ><b>Profisaun</b></td>
+                          <td ><b>Koñesementu Lingua</b></td>
+                          <td rowspan ="2">
+                            <center>
+                                 <a
+                    href="{% url 'population:familymember_updateep' dados.hashed %}"
+                    class="mb-1 btn btn-xm btn-outline-info"
+                    type="button"
+
+                  >
+                    <i class="fa fa-edit"
+                      >Atualiza 
+                      Dadus</i
+                    >
+                  </a>
+                </center>
+                          </td>
+                        
+                        </tr>
+                         <tr>
+                      
+                            <td>
+                              {% if dados.level_education is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.level_education}}
+                              {% endif %}
+
+
+                            </td>
+                                  <td>
+                                      {% if dados.profession is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.profession}}
+                              {% endif %}
+
+                                </td>
+                          <td >
+                           {% if dados.lingua is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.lingua}}
+                              {% endif %}</td>
+                       
+                        </tr>
+                      
+                      </table>
+
+
+
+                      <br />
+                      <div class="row">
+                        <div class="col-xl-4">
+                          <div class="card card-default">
+                            <div class="card-header">Muda sai Suku</div>
+                            <div class="card-body">
+                              <center>
+                                {% if dados.datasai == 'laiha' %}
+                                {% if dados.datamate == 'laiha' %}
+
+                                <p><i><b>Karik {{dados.name}} muda sai husi suku ida ne'e , Utiliza ba butaun iha okos hodi rejistu dadus  </b></i></p>
+                                <a
+                                  href="{% url 'population:familymember_out' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+
+                                >
+                                  <i class="fa fa-plus"> </i>
+                                </a>
+                                {% else %}
+                              <center>Dadus laiha (0)</center><br>
+
+
+                                {% endif %}
+                                
+                                {% else %} Deskrisaun : {{dados.dekrisaunsai}}
+                                <br />Data Muda Sai : {{dados.datasai}}
+                                <br />
+                                <br />
+                                
+                                <a
+                                  href="{% url 'population:familymember_out_apaga' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-trash"> </i>
+                                </a>
+
+                                <a
+                                  href="{% url 'population:familymember_out' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-edit"> </i>
+                                </a>
+                                {% endif %}
+                              </center>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl-4">
+                          <div class="card card-default">
+                            <div class="card-header">Dadus Mate</div>
+                            <div class="card-body">
+                              <center>
+                                {% if dados.datamate == 'laiha' %}
+                                {% if dados.datasai == 'laiha' %}
+
+                            
+
+                                <p><i><b> Karik {{dados.name}} mate utiliza butaun iha okos hodi prenxe dadus mate nian  </b></i></p>
+                                
+                                <a
+                                  href="{% url 'population:familymember_mate' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-plus"> </i>
+                                </a>
+                                {% else %}
+                                    Dadus Laiha (0)
+                                {% endif %}
+
+                                {% else %} Deskrisaun : {{dados.dekrisaunmate}}
+                                <br />
+                                Data Mate : {{dados.datamate}}
+                                <br />
+                                <br />
+                                <a
+                                  href="{% url 'population:familymember_mate_apaga' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-trash"> </i>
+                                </a>
+                                <a
+                                  href="{% url 'population:familymember_mate' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-edit"> </i>
+                                </a>
+                                {% endif %}
+                                <br />
+                              </center>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                        <div class="col-xl-4">
+                          <div class="card card-default">
+                            <div class="card-header">Desativu</div>
+                            <div class="card-body">
+                              <center>
+                                <p><i><b>Klik butaun  Desativu karik {{dados.name}} la hola parte ona iha familia ida ne'e  </b></i></p>
+                           
+                                <a
+                                  href="{% url 'population:familymember_change' dados.hashed %}"
+                                  class="mb-1 btn btn btn-outline-info"
+                                  type="button"
+                                >
+                                  <i class="fa fa-plus"> </i> Desativu 
+                                </a>
+                               
+                                <br />
+                              </center>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                
+                  </div>
+                  <div class="card-footer">
+<center>
+             
+              
+
+                  <a
+                    href="{% url 'population:familymember_delete' dados.hashed %}"
+
+                    onclick="return confirm('ita boot hakarak  apaga Membru Familia ho naran : {{dados.name}}')"
+                    
+                    class="mb-1 btn btn-xm btn-outline-info"
+                    type="button"
+                  >
+                    <i class="fa fa-trash">Apaga Dadus</i>
+                  </a>
+
+
+                </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {% endif %}
+
+            {% endfor %}
+       
+            
+            {% else %}
+            <br>
+            <br>
+
+            <center>
+              <h4><font color="gray">Dadus Laiha (0)</font></h4>
+            </center>
+            <br />
+
+            {% endif %}
+
+            <!-- interface populasaun ativu remata -->
+
+
+
+                 </div>
+                 <div class="tab-pane" id="profile" role="tabpanel">
+                    <!-- START table responsive-->
+                    <div class="table-responsive">
+                  
+
+
+                              <!-- interface membru familia ne'ebe ativu -->
+
+                    <br>
+                    
+                    {% if total_family > 0 %} {% for dados in family_member %}
+                   {% if dados.status is False %}
+        
+            <div class="col-lg-12">
+              <div class="card card-default card-demo" id="cardDemo3">
+               <table class="wd-wide">
+                  <tbody>
+                    <tr>
+                      <td class="wd-xs">
+                        <img
+                          class="img-fluid rounded thumb64"
+                          src="{{ dados.imagen.url }}"
+                          alt=""
+                        />
+                      </td>
+
+
+                      <td>
+                        <div class="px-1">
+                          <h5 class="mb-1">
+
+                          <b>{{dados.name}} ( {{dados.family_position}} )</b>
+                            <div style="float: right">
+                             
+                             <b>Status :</b>  {% if dados.status_datap == 'ac' %}
+                              <!-- block -->
+                              Ativu
+                               ( 
+                                 {% if dados.type_data == 'f' %} 
+                                 Populasaun Orijinal
+                                 {% else %}
+                                 Populasaun Adkeridu
+
+                                 {% endif %}
+                               )
+                              <!-- block -->
+                              {% elif dados.status_datap == 'ma' %}
+                              <!-- block -->
+                              Desativu (Matebian Ona)
+                              <!-- block -->
+                              {% elif dados.status_datap == 'mu' %}
+                              <!-- block -->
+                              Desativu (Muda Ona suku)
+                              <!-- block -->
+                              {% endif %}
+                            </div>
+
+
+                          
+                          </h5>
+
+
+                          <small class="text-muted">
+                            
+
+                  {% if dados.nu_bi is not None %}
+
+            Nú BI - {{dados.nu_bi}}
+            {% endif %} &nbsp; &nbsp;
+
+            {% if dados.nu_p is not None %}
+           Nú Pasaporte - {{dados.nu_p}}
+            {% endif %} &nbsp;&nbsp;
+
+
+            {% if dados.nu_e is not None  %}
+           Nú  Eleitoral - {{dados.nu_e}}
+          {% endif %} &nbsp;&nbsp;
+
+
+
+          / Data Rejistu Iha : {{dados.date_created|date:'d-M-Y'}}   <b>  
+
+                          </small>
+                        </div>
+
+                          <a
+                            class="float-right"
+                            href="#"
+                            data-tool="card-collapse"
+                            data-toggle="tooltip"
+                            title=""
+                            data-start-collapsed=""
+                            data-original-title="Detallu Dados"
+                          >
+                             Detallu <em class="fa fa-minus"></em
+                          > </a>
+                        
+
+
+                      </td>
+
+
+                    </tr>
+                  </tbody>
+                </table>
+
+
+                <div
+                  class="card-wrapper"
+                  style="
+                    max-height: 6px;
+                    transition: max-height 0.1s ease 0s;
+                    overflow: hidden;
+                  "
+                >
+                  <div class="card-body">
+                   
+
+
+
+                      <legend>Informasaun Pesoal</legend>
+                    <div class="table-responsive">
+                      <table border="1"  align="center">
+                        <tr>
+                          <td ><b>Data Rejistu</b></td>
+                          <td ><b>Seksu</b></td>
+                          <td >
+                           <b>Fatin /
+                            Data Moris</b> 
+                          </td>
+                          <td ><b>Relijiaun</b></td>
+                          <td ><b>Estadu Civil</b></td>
+                          <td ><b>Sidadania</b></td>
+                          <td ><b>Hela Fatin</b></td>
+                          <td ><b>Kondisaun Fiziku</b></td>
+                          <td ><b>Kontaktu</b></td>
+
+                          <td><b>Vulnerabel</b></td>
+                   
+                   
+                       
+                          {% if dados.deskrisaunm != 'laiha' %}
+                          <td ><b>Data Muda Mai iha suku</b></td>
+                          <td ><b>Observasaun</b></td>
+                          {% endif %}
+                           <td rowspan="2">
+                             
+                                            <a
+                    href="{% url 'population:familymember_update' dados.hashed %}"
+                    class="mb-1 btn btn-xm btn-outline-info"
+                    type="button"
+
+                  >
+                    <i class="fa fa-edit"
+                      >Atualiza 
+                      Dadus</i
+                    >
+                  </a>
+                           </td>
+
+
+
+                          <!-- data_migrasaun, deskrisaunm,migrasaun_husi -->
+                        
+                        </tr>
+                     
+
+                        <tr>
+                          <td>{{dados.date_register|date:'d-M-Y'}}
+                         
+                          </td>
+                          <td>
+                           {% if dados.gender == 'm' %}
+                            Mane
+                            {% elif dados.gender == 'f' %}
+                            Feto
+                            {% elif dados.gender == 's' %}
+                            Seluk
+                            {% endif %}
+                         
+                          </td>
+                          <td>
+                          {{dados.place_of_bird}} {{dados.date_of_bird|date:'d-M-Y'}}
+                          </td>
+                          <td>{{dados.religion}}</td>
+                          <td>
+                            {% if dados.marital_status == 'c' %}
+                            Casado
+                            {% elif dados.marital_status == 's' %}
+                            Solteieo
+                            {% elif dados.marital_status == 'd' %}
+                            Divorciado
+                            {% else %}
+                            Informasaun Laiha
+                            {% endif %}
+                           
+                          </td>
+
+                          <td>
+                            {% if dados.citizenp == 'a' %}
+                            Arkeridu
+                            {% elif dados.citizenp == 'o' %}
+                            Orijinal
+                            {% else %}
+                            Informasaun Laiha
+                            {% endif %}
+
+                          </td>
+                          <td>{{dados.aldeia}}</td>
+                              <td>{{dados.kondisaun}}</td>
+                           <td> 
+       {% if dados.phone is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.phone}}
+                              {% endif %}
+
+
+                          </td>
+                   
+         <td>
+                 {% if dados.vulnerable == True %}
+          Lae
+          {% else %}
+          Sim
+          {% endif %}
+
+         
+       </td>
+
+                          {% if dados.deskrisaunm != 'laiha' %}
+                          <td>{{dados.data_migrasaun}} <br>{{dados.migrasaun_husi}}</td>
+                          <td>{{dados.deskrisaunm}}</td>
+                          {% endif %}
+                        </tr>
+                      </table>
+                    </div>
+
+
+<br>
+<legend>Edukasaun No Servisu</legend>
+                            <table border="1"  align="center">
+                        <tr>
+                      
+                          <td ><b>Habilitasaun Literaria ikus liu</b></td>
+                          <td ><b>Profisaun</b></td>
+                          <td ><b>Koñesementu Lingua</b></td>
+                   
+                        
+                        </tr>
+                         <tr>
+                      
+                            <td>
+                              {% if dados.level_education is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.level_education}}
+                              {% endif %}
+
+
+                            </td>
+                                  <td>
+                                      {% if dados.profession is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.profession}}
+                              {% endif %}
+
+                                </td>
+                          <td >
+                           {% if dados.lingua is None %}
+                              Dadus Laiha
+                              {% else %}
+                              {{dados.lingua}}
+                              {% endif %}</td>
+                       
+                        </tr>
+                      
+                      </table>
+
+
+
+                      <br />
+
+
+                              <div class="row">
+                                <div class="col-xl-4">
+                                  <div class="card card-default">
+                                    <div class="card-header"> Muda Sai Suku</div>
+                                    <div class="card-body">
+                                      <center>
+                                        {% if dados.datasai == 'laiha' %}
+                                        {% if dados.datamate == 'laiha' %}
+
+                                       {% if dados.last_family == hashed %}
+                                       <p><i><b>Karik {{dados.name}} Muda Sai husi suku ida ne'e , Utiliza ba butaun iha okos hodi rejistu Dadus  </b></i></p>
+                                       <a
+                                         href="{% url 'population:familymember_out' dados.hashed %}"
+                                         class="mb-1 btn btn btn-outline-info"
+                                         type="button"
+       
+                                       >
+                                         <i class="fa fa-plus"> </i>
+                                       </a>
+                                       {% endif %}
+
+                                        {% else %}
+                                      <center>Dadus laiha (0)</center><br>
+                                        {% endif %}
+                                        
+                                        {% else %} 
+                                        
+                                     <b> {{dados.name}} </b>  Muda sai Ona husi Suku ho razaun : {{dados.dekrisaunsai}}
+                                        <br />Iha Data : {{dados.datasai}}
+                                        <br />
+                                        <br />
+                                        
+                                        <a
+                                          href="{% url 'population:familymember_out_apaga' dados.hashed %}"
+                                          class="mb-1 btn btn btn-outline-info"
+                                          onclick="return confirm('Apaga Dadus Muda Sai suku husi {{dados.name}}')"
+                                          type="button"
+                                        >
+                                          <i class="fa fa-trash"> </i>
+                                        </a>
+        
+                                        <a
+                                          href="{% url 'population:familymember_out' dados.hashed %}"
+                                          class="mb-1 btn btn btn-outline-info"
+                                          type="button"
+                                        >
+                                          <i class="fa fa-edit"> </i>
+                                        </a>
+                                        {% endif %}
+                                      </center>
+                                    </div>
+                                  </div>
+                                </div>
+        
+                                <div class="col-xl-4">
+                                  <div class="card card-default">
+                                    <div class="card-header">Dadus Mate</div>
+                                    <div class="card-body">
+                                      <center>
+                                        {% if dados.datamate == 'laiha' %}
+                                        {% if dados.datasai == 'laiha' %}
+                                        {% if dados.last_family == hashed %}
+                                       <p><i><b> Karik {{dados.name}} mate utiliza butaun iha okos hodi prenxe dadus mate nian  </b></i></p>
+                                
+                                       <a
+                                         href="{% url 'population:familymember_mate' dados.hashed %}"
+                                         class="mb-1 btn btn btn-outline-info"
+                                         type="button"
+                                       >
+                                         <i class="fa fa-plus"> </i>
+                                       </a>
+                                       {% endif %}
+                                        {% else %}
+                                        <center>Dadus laiha (0)</center>
+                                        {% endif %}
+        
+                                        {% else %} 
+                                        
+                                        <b> {{dados.name}} </b>
+                                        
+                                        Mate Ona tamba : {{dados.dekrisaunmate}}
+                                        <br />
+                                        Iha Data/Loron : {{dados.datamate}}
+                                        <br />
+                                        <br />
+                                        <a
+                                          href="{% url 'population:familymember_mate_apaga' dados.hashed %}"
+                                          class="mb-1 btn btn btn-outline-info"
+
+                                          onclick="return confirm('Apaga Dadus mate husi {{dados.name}}')"
+
+                                          
+                                          type="button"
+                                        >
+                                          <i class="fa fa-trash"> </i>
+                                        </a>
+                                        <a
+                                          href="{% url 'population:familymember_mate' dados.hashed %}"
+                                          class="mb-1 btn btn btn-outline-info"
+                                          type="button"
+                                        >
+                                          <i class="fa fa-edit"> </i>
+                                        </a>
+                                        {% endif %}
+                                        <br />
+                                      </center>
+                                    </div>
+                                  </div>
+                                </div>
+        
+        
+        
+                                <div class="col-xl-4">
+                                  <div class="card card-default">
+                                    <div class="card-header">Desativu</div>
+                                    <div class="card-body">
+                                      <center>
+                                     
+                                        {% if dados.datamate == 'laiha' and dados.datasai == 'laiha' %}
+                                  
+
+                                        Sai ona husi  Familia Ida Ne'e Iha : {{dados.datacf}} ho razaun :  {{dados.dekrisauncf}} <br><br>
+                                        <a
+                                          href="{% url 'population:familymember_change' dados.hashed %}"
+                                          class="mb-1 btn btn btn-outline-info"
+                                          type="button"
+                                        >
+                                          <i class="fa fa-plus"> </i> Atualiza Dadus
+                                        </a>
+
+                                        {% endif %}
+                                       
+                                        <br />
+                                      </center>
+                                    </div>
+                                  </div>
+                                </div>
+        
+        
+        
+                              </div>
+                        
+                          </div>
+              
+                        </div>
+                      </div>
+                    </div>
+        
+                    {% endif %}
+                    {% endfor %}
+               
+                    
+                    {% else %}
+                    <br>
+                    <br>
+        
+                    <center>
+                      <h4><font color="gray">Dadus Laiha (0)</font></h4>
+                    </center>
+                    <br />
+        
+                    {% endif %}
+        
+                    <!-- interface populasaun ativu remata -->
+                    </div><!-- END table responsive-->
+                 
+                 </div>
+              </div>
+           </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+</section>
+
+{% include 'main/footer.html' %}
+
+
+
+
+
+{% endblock content %}

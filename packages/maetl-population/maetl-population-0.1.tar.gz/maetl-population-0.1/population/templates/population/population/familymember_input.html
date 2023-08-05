@@ -1,0 +1,223 @@
+{% extends 'main/layout.html' %}
+{% block title %} Formuláriu Membru Família {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+
+
+{% load crispy_forms_tags %} {% load static %}
+<!-- Page content-->
+ <section class="section-container">
+  
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>
+        <a href="{% url 'population:reg_population' %} ">
+          <i class="fa fa-backward"> &nbsp; </i> Populasaun
+        </a>
+        /
+        <a href="{% url 'population:detailfamily_list' hashed %} ">
+          <i class="fa fa-backward"> &nbsp; </i> Lista Membru Família </a>
+        / {{title}}
+        
+      </h4>
+
+      <small>Formuláriu Populasaun</small>
+    </div>
+
+
+
+     <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+  </div>
+  <div class="row">
+    <div class="col-xl-11 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header"></div>
+        <div class="card-body">{% crispy form %}</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+  $("#id_municipality").change(function () {
+    $("#id_village").html("");
+  
+    var municipalityId = $(this).val();
+    console.log(municipalityId)
+    $.ajax({
+      url: "{% url 'custom:ajax_load_posts' %}",
+      data: {
+        'municipality': municipalityId
+      },
+      success: function (data) {
+        $("#id_administrativepost").html(data);
+      }
+
+    });
+  });
+
+
+
+
+  $("#id_administrativepost").change(function () {
+    var url = $("#locationForm").attr("data-posts-url");
+    var postId = $(this).val();
+
+    $.ajax({
+      url: '{% url 'custom:ajax_load_villages' %}',
+      data: {
+        'post': postId
+      },
+      success: function (data) {
+        $("#id_village").html(data);
+      }
+    });
+
+  });
+
+
+  $("#id_village").change(function () {
+
+    var url = $("#locationForm").attr("data-posts-url");
+    var postId = $(this).val();
+
+    $.ajax({
+      url: '{% url 'custom:ajax_load_aldeia' %}',
+      data: {
+        'post': postId
+      },
+      success: function (data) {
+        $("#from_aldeia").html(data);
+      }
+    });
+
+  });
+
+
+
+
+
+
+    var includedateregister = document.getElementById("includedateregister");
+    var migration = document.getElementById("includeformmigration");
+    migration.style.display = "none";
+    includedateregister.style.display = "none";
+
+    //load Imagen
+    function myFunction() {
+      var image = document.getElementById("output");
+      image.src = URL.createObjectURL(event.target.files[0]);
+    }
+    //Modifika form
+    function loadform() {
+      var id_tipudados = document.getElementById("type_data").value;
+      var migration = document.getElementById("includeformmigration");
+      if (id_tipudados == "formmigration") {
+        migration.style.display = "block";
+        includedateregister.style.display = "none";
+      } else {
+        includedateregister.style.display = "block";
+        migration.style.display = "none";
+      }
+    }
+
+
+
+    loadform();
+    function loadcolumn() {
+      var cidadaunm = document.getElementById("cidadaunm").value;
+      var from_aldeia = document.getElementById("div_id_from_aldeia");
+
+      var village = document.getElementById("div_id_village");
+      var administrativepost = document.getElementById("div_id_administrativepost");
+      var municipality = document.getElementById("div_id_municipality");
+
+
+
+      var from_nation = document.getElementById("div_id_from_nation");
+
+      if (cidadaunm == "1") {
+        from_aldeia.style.display = "block";
+        from_nation.style.display = "none";
+        village.style.display = "block";
+        administrativepost.style.display = "block";
+        municipality.style.display = "block";
+      } else if (cidadaunm == "2") {
+        from_aldeia.style.display = "none";
+        from_nation.style.display = "block";
+        village.style.display = "none";
+        administrativepost.style.display = "none";
+        municipality.style.display = "none";
+
+      } else {
+        from_aldeia.style.display = "none";
+        from_nation.style.display = "none";
+        village.style.display = "none";
+        administrativepost.style.display = "none";
+        municipality.style.display = "none";
+      }
+    }
+    loadcolumn();
+  </script>
+  <script src="{% static 'main/vendor/validation/population-invalidtitle.js' %}"></script>
+
+  <script src="{% static 'main/vendor/validation/population-validation.js' %}"></script>
+
+
+
+  <script>
+    $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+      var name = document.getElementById("id_name").value;
+      var family_position = document.getElementById("id_family_position").value;
+      var date_of_bird = document.getElementById("id_date_of_bird").value;
+      var place_of_bird = document.getElementById("id_place_of_bird").value;
+      var aldeia = document.getElementById("id_aldeia").value;
+      var gender = document.getElementById("id_gender").value;
+      var marital_status = document.getElementById("id_marital_status").value;
+      var religion = document.getElementById("id_religion").value;
+      var nu_bi = document.getElementById("id_nu_bi").value;
+      var citizenp = document.getElementById("id_citizenp").value;
+
+      setCookie("dados", "iha", 4);
+      setCookie("name", name, 4);
+      setCookie("family_position", family_position, 4);
+      setCookie("date_of_bird", date_of_bird, 4);
+      setCookie("place_of_bird", place_of_bird, 4);
+      setCookie("aldeia", aldeia, 4);
+      setCookie("gender", gender, 4);
+      setCookie("marital_status", marital_status, 4);
+      setCookie("religion", religion, 4);
+      setCookie("nu_bi", nu_bi, 4);
+      setCookie("citizenp", citizenp, 4);
+    });
+  </script>
+
+  </div>
+</section>
+
+{% include 'main/footer.html' %}
+
+  {% endblock content %}
+

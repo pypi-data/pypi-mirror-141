@@ -1,0 +1,96 @@
+{% extends 'population/base.html' %}
+<!-- enter -->
+{% load static %} {% block content %}
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>{{title}}</h4>
+      <small>Total Populasaun kada Suku </small>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-9 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-body">
+          <div style="width: 700px; height: 375px; margin: 0 auto">
+            <center>
+              <div>
+                <h4>
+                  Total Populasaun Iha kada suku husi Postu Administrativu
+                  {{postu}} Munisipiu {{munisipiu}}
+                </h4>
+                <hr />
+                Total Populasaun ({{totalpop}})
+              </div>
+            </center>
+
+            <hr />
+            <br />
+            <canvas
+              style="width: 700px; height: 250px; margin: 0 auto"
+              id="populationmunisipality-chart"
+              data-url="{% url 'population:popchar_village' id %}"
+            ></canvas>
+            <center>
+              <a
+                href="{% url 'population:reportb1jeralPostadministrative' id_munisipiu %}"
+                class="mb-1 btn btn btn-outline-info"
+                type="button"
+              >
+                <i class="fa fa-backward"> Fila </i>
+              </a>
+
+              <a
+                href="{% url 'population:reportb1_printVillage' id %}"
+                class="mb-1 btn btn btn-outline-info"
+                type="button"
+                target="__blank"
+              >
+                <i class="fa fa-print"> print Dados </i>
+              </a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>
+                Suku husi Postu Administrativu {{postu}} munisipiu {{munisipiu}}
+              </h4>
+            </div>
+          </center>
+          <hr />
+        </div>
+        <div class="card-body">
+          {% for dados in suku %} {{forloop.counter}}.
+          <a href="{% url 'population:reportb1jeralAldeia' dados.village__id %}"
+            >{{dados.village__name}}</a
+          >
+          ({{dados.count}})
+          <br />
+          <!-- block -->
+
+          {% endfor %}
+          <hr />
+          <i
+            >Klik Iha naran suku hodi hare dados populasaun iha kada aldeia
+            sira</i
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'main/vendor/chart.js/dist/populationjeral_chart.js' %}"></script>
+
+{% endblock content %}

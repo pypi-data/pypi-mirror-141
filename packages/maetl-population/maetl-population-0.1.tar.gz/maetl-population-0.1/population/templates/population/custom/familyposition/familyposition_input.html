@@ -1,0 +1,46 @@
+{% extends 'population/base.html' %}
+<!-- enter -->
+{% load crispy_forms_tags %} {% load static %} {% block content %}
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>Relijiaun / {{title}}</h4>
+      <small>Gere Dados Pozisaun Familia</small>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-4 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>{{title}} Pozisaun Familia</h4>
+            </div>
+          </center>
+          <hr />
+        </div>
+        <div class="card-body">
+          <form method="POST" action="">
+            {% csrf_token %} {{ form|crispy }}
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary" name="Submit">
+                {{title}}
+              </button>
+              <input
+                type="button"
+                value="Kansela"
+                class="btn btn-danger"
+                onclick="self.history.back()"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

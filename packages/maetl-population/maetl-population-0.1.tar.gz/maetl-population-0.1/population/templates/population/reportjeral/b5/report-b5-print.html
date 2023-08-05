@@ -1,0 +1,298 @@
+
+{% load static %}
+<html>
+
+<head>
+
+
+  <style>
+    .th2 {
+      padding: 8px;
+      font-size: 15px;
+      text-align: center;
+      font-family: "Agency FB", "sans-serif";
+      font-weight: bold;
+    }
+  
+    table {
+
+      border-collapse: collapse;
+
+
+    }
+  
+    .table2 {
+
+      padding: 5px;
+
+    }
+
+    td {
+      text-align: left;
+      padding: 5px;
+      font-size: small;
+
+    }
+
+
+
+    
+    th {
+      text-align: left;
+      padding: 5px;
+      font-weight: normal;
+
+
+    }
+  
+    .td2 {
+      text-align: justify;
+      padding: 5 px;
+      text-align: center;
+      background-color: rgb(208, 208, 208);
+    }
+  </style>
+
+
+<style>
+        .container {
+        margin: 0px 10%;
+        padding: 0;
+      }
+</style>
+
+
+
+</head>
+<body onload="print()">
+
+
+
+<div class="container">
+
+
+
+
+<br>
+<center>
+  Formatu  B. 5 <br>
+
+ <h1>LIVRU REJISTU UMA KAIN ( FIXA FAMÍLIA )</h1> 
+  
+</center><br>
+
+<table  class="table2">
+  <thead>
+    <tr>
+      <th>Munisipiu </th>
+      <td>  : </th>
+      <th>................................</th>
+      <th rowspan="4"> &nbsp; &nbsp;&nbsp; 
+        <img
+                        class="img-fluid rounded thumb64"
+                        src="{{imagen.url}}"
+                        alt="" width="100px"
+                      />
+        
+        &nbsp; &nbsp;&nbsp;   </th>
+      <th>No.Fixa Fam</b</th>
+        <td>  :  &nbsp;&nbsp; </td>
+      <th>{{id_fam}}</th>
+    </tr>
+    <tr>
+      <th>Postu Administrativu</th>
+      <td>  :  </th>
+      <th>................................</th>
+      <th>Xefe Familia</th>
+      <th> : </th>
+      <th>{{chefe_fam}} </th>
+    </tr>
+    <tr>
+      <th>Suku</td>
+      <th>  : </th>
+      <th>................................</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Aldeia / Bairo</th>
+      <th> : </th>
+      <th>................................</th>
+      <td></th>
+      <th></th>
+    </tr>
+  </thead>
+  </table>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<html>
+
+</head>
+
+<body>
+
+<br>
+
+  <table  border='1' width='100%' >
+    <thead>
+      <tr class="tdheader">
+        <td class="th2" >Nu</td>
+        <td class="th2" >N a r a n</td>
+        <td class="th2" >Sexu</td>
+        <td class="th2" >Relasaun Familia</td>
+        <td class="th2">Fatin Moris</td>
+        <td class="th2" >Data,Fulan <br> no Tinan Moris</td>
+        <td class="th2" >Estado Sivil</td>
+        <td class="th2">Profisaun</td>
+        <td class="th2">Relijiaun</td>
+        <td class="th2" >Habilitasaun <br>literaria </td>
+        <td  class="th2">Obs</td>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td class='td2'>1</td>
+        <td class='td2'> 2</td>
+        <td class='td2'>3</td>
+        <td class='td2'>4</td>
+        <td class='td2'>5</td>
+        <td class='td2'>6</td>
+        <td class='td2'>7</td>
+        <td class='td2' >8</td>
+        <td class='td2'>9</td>
+        <td class='td2'>10</td>
+        <td class='td2'>11</td>
+
+      </tr>
+      {% for dados in family_member %}
+      <tr>
+        <td>{{forloop.counter}}</td>
+        <td>  {{dados.name}}   </td>
+        <td>
+          {% if dados.gender == 'm' %}
+            Mane  
+          {% elif dados.gender == 'f' %}
+          Feto  
+          {% endif %}
+
+
+
+        </td>
+        <td>  {{dados.family_position}}  </td>
+        <td>   {{dados.place_of_bird}}   </td>
+        <td>  {{dados.date_of_bird}}  </td>
+        <td>
+          {% if dados.marital_status == 's' %}
+            Solteiro  
+          {% elif dados.marital_status == 'c' %}
+            Casado  
+          {% elif dados.marital_status == 'd' %}
+            Divorciado   
+          {% endif %}
+          </td>
+
+
+        <td>  {{dados.profession}}  </td>
+        <td>  {{dados.religion}}  </td>
+        <td>  {{dados.level_education}}  </td>
+        <td> 
+
+          {% if dados.status_datap == 'ma' %}
+           Mate Ona  
+          {% endif %}
+          
+
+          {% if dados.status_datap == 'mu' %}
+           Muda Ona Ba suku Seluk
+          {% endif %}
+
+        {% if dados.status_datap == 'ac' %}
+
+        {% if dados.datacf == 'laiha'  %}
+            Ativu
+        {% else %}
+         Troka ona familia : {{dados.dekrisauncf}}
+
+        {% endif %}
+          
+         {% endif %}
+
+        
+
+          
+       
+        
+         </td>
+
+
+
+
+
+      </tr>
+      {% endfor %}
+    
+  
+    </tbody>
+    </table>
+
+<br><br>
+ <center>
+  <table width='100%'  > 
+    <thead>
+      <tr>
+        <th colspan="7"> <center>Data : ......../......./.........</center><br> <br></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+     
+        <th><center>Xefe Familia</center></th>
+        <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+        <th><center>Xefe Aldeia </center></th>
+        <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+        <th><center>Xefe Suku Visto Pelo</center></th>
+        <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+        <th><center>Administrador Postu Administrativu</center></th>
+      </tr>
+    
+      <tr>
+       
+        <th><br><hr><center> (naran no assinatura)</center></th>
+        <th></th>
+        <th><br> <hr><center> (naran no assinatura)</center> </th>
+        <th> </th>
+        <th><br> <hr><center> (naran no assinatura)</center></th>
+        <th> </th>
+        <th><br> <hr><center> (naran no assinatura)</center></th>
+        
+      </tr>
+
+ 
+    </tbody>
+    </table>
+
+      <br>
+      <br>
+      <br>
+      <br>
+    </center>
+
+    </div>
+
+
+</body>
+
+</html>

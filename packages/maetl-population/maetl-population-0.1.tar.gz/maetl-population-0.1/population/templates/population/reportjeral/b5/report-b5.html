@@ -1,0 +1,110 @@
+{% extends 'population/base.html' %} {% block content %} {% load static %}
+
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>{{title}}</h4>
+      <small>Print Fixa Familia tuir Uma Kain Idak Idak</small>
+    </div>
+  </div>
+  <div class="container-fluid">
+
+
+    <!-- DATATABLE DEMO 2-->
+    <div class="col-xl-12">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">Lista Uma Kain</div>
+        <div class="card-body">
+
+          
+      {% if messages %}
+      {% for message in messages %}
+
+ 
+          <div class="alert alert-success alert-dismissible fade show" role="alert"><button class="close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><strong>Info!</strong>  {{ message }} </div>
+
+          {% endfor %}
+
+          {% endif %}
+
+          <!-- START table-responsive-->
+     
+
+
+
+
+          <h4 class="float-right">Total Familia : ( {{total_family}} )</h4>
+
+
+
+
+      <table class="table table-sm" id="datatable2" >
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Id Familia</th>
+                <th>Aldeia</th>
+                <th>Data Registu</th>
+                <th>Total Ativu</th>
+                <th>Membru Ativu</th>
+                <th>#</th>
+
+
+             
+              </tr>
+            </thead>
+            <tbody>
+              {% for dados in lista_familia %}
+
+              <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{dados.id_family}}</td>
+                <td>{{dados.aldeia}}</td>
+                <td>{{dados.data_registu}}</td>
+
+                <td>
+                 
+                 
+                  {{dados.total}}
+
+            
+                </td>
+                <td>{{dados.membru}}</td>
+                <td>
+
+                  {% if dados.tot_chefe > 0 %}
+                  <a
+                    href="{% url 'population:reportb5_print' dados.hashed %}"
+                    class="mb-1 btn-xs btn btn-outline-info"
+                    type="button"
+                    target="__blank"
+                  >
+                    <i class="fa fa-print"></i> &nbsp; Print Vixa Familia
+                  </a>
+                  {% else %}
+                 Xefe Familia la Iha
+                  {% endif %}
+
+            
+                </td>
+              </tr>
+
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+{% endblock content %}

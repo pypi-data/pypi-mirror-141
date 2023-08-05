@@ -1,0 +1,101 @@
+{% extends 'population/base.html' %} {% block content %} {% load static %}
+
+<!-- Page content-->
+<div class="content-wrapper">
+  <div class="content-heading">
+    <div>
+      <h4>Dados Pozisaun Familia</h4>
+      <small>Gere Dados Pozisaun Familia</small>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <!-- DATATABLE DEMO 2-->
+    <div class="col-xl-12">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header"><b>Pozisaun Familia</b></div>
+        <div class="card-body">
+          {% if messages %} {% for message in messages %}
+          <!-- kk -->
+          {% if message.tags == 'error' %}
+          <div
+            class="alert alert-warning alert-dismissible fade show"
+            role="alert"
+          >
+            {% else %}
+            <div
+              class="alert alert-success alert-dismissible fade show"
+              role="alert"
+            >
+              {% endif %}
+
+              <button
+                class="close"
+                type="button"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">x</span></button
+              ><strong>Info!</strong> {{ message }}
+            </div>
+            {% endfor %} {% endif %}
+
+            <!-- START table-responsive-->
+            <a
+              href="{% url 'population:familyposition_input' %}"
+              class="btn btn-labeled btn-info mb-2"
+              type="button"
+            >
+              <span class="btn-label"><i class="fa fa-plus"></i></span>
+              Registu Pozisaun Familia
+            </a>
+
+            <h4 class="float-right">Total Dados : ( {{total_dados}} )</h4>
+
+            <table class="table table-sm" id="datatable2">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Pozisaun Familia</th>
+                  <th>Aksaun</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for dados in familyposition_list %}
+
+                <tr>
+                  <td>{{dados.id}}</td>
+                  <td>{{dados.name}}</td>
+
+                  <td>
+                    <!-- url 'citizen_edit' dados.hashed -->
+
+                    <a
+                      href="{% url 'population:familyposition_edit' dados.id %}"
+                      class="mb-1 btn-xs btn btn-outline-info"
+                      type="button"
+                    >
+                      <i class="fa fa-edit"></i> Atualiza Dados
+                    </a>
+
+                    <a
+                      href="{% url 'population:familyposition_delete' dados.id %}"
+                      class="mb-1 btn-xs btn btn-outline-info"
+                      type="button"
+                    >
+                      <i class="fa fa-trash"></i> Hamos Dados
+                    </a>
+                  </td>
+                </tr>
+
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

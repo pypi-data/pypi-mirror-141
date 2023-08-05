@@ -1,0 +1,104 @@
+<style>
+  table,
+  td,
+  th {
+    border: 1px solid rgb(155, 155, 155);
+    text-align: left;
+    font-size: small;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    padding: 15px;
+  }
+
+  th {
+    padding: 15px;
+    background-color: rgb(208, 208, 208);
+  }
+</style>
+
+<center>
+  <h1>Livru Registu Populasaun</h1>
+  <br />
+  <h3>
+    Suku : ............... Postu Administrativu : .................. Munisipiu :
+    ................. Tinan : {{tinan}} <br />
+    <h5>Populasaun Muda sai Iha Tinan {{year}}</h5>
+  </h3>
+</center>
+
+<table border="1">
+  <!-- <tr>
+    <td colspan="22">
+      <center>
+        <h1>Livru Registu Populasaun</h1>
+        <br />
+        <h3>
+          Suku : ............... Postu Administrativu : ..................
+          Munisipiu : ................. Tinan : {{tinan}}
+        </h3>
+      </center>
+    </td>
+  </tr> -->
+  <thead>
+    <tr>
+      <th rowspan="2">No</th>
+      <th rowspan="2">Naran Kompletu/ alias</th>
+      <th colspan="2">Fatin No Data Moris</th>
+
+      <th colspan="2">Sexu</th>
+      <th colspan="2">Sidadania</th>
+      <th colspan="2">Aumenta</th>
+      <th rowspan="2">Obs</th>
+    </tr>
+    <tr>
+      <th>Fatin</th>
+      <th>Data</th>
+      <th>M</th>
+      <th>F</th>
+      <th>TLS</th>
+      <th>Estrangeiro</th>
+      <th>Muda Sai</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for dados in dadosmudansa %}
+    <tr>
+      <td>{{forloop.counter}}</td>
+
+      <td>{{dados.population.name}}</td>
+
+      <td>{{dados.population.place_of_bird}}</td>
+      <td>{{dados.population.date_of_bird}}</td>
+
+      <td>
+        {% if dados.population.gender == 'm' %}
+        <span>&#10003;</span>
+        {% endif %}
+      </td>
+      <td>
+        {% if dados.population.gender == 'f' %}
+        <span>&#10003;</span>
+        {% endif %}
+      </td>
+
+      <td>
+        <span>&#10003;</span>
+      </td>
+
+      <td></td>
+
+      <td><span>&#10003;</span></td>
+      <td>{{dados.population.date_of_bird}}</td>
+      <td>{{dados.descriptionmo}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

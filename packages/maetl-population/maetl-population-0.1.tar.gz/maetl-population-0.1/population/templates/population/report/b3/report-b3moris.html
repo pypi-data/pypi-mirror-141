@@ -1,0 +1,166 @@
+
+{% load static %}
+<html>
+  <head>
+    <style type="text/css" media="print">
+
+      @media print {
+  #download {
+    display: none;
+  }
+}
+
+
+      @page {
+        size: auto; /* auto is the current printer page size */
+        margin-top: 0mm; /* this affects the margin in the printer settings */
+        margin-bottom: 0mm;
+      }
+
+      body {
+        margin-top: 0px;
+        margin-bottom: 0mm; /* the margin on the content before printing */
+      }
+    </style>
+  </head>
+
+  <body onload="print()">
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static 'main/src/jquery.table2excel.js' %}"></script>
+
+<button id ='download' style="float: right;">Export  Dadus Ba Excel </button>
+
+
+
+<style>
+  table,
+  td,
+  th {
+    border: 1px solid rgb(155, 155, 155);
+    text-align: left;
+    font-size: small;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    padding: 15px;
+  }
+
+  th {
+    padding: 15px;
+    background-color: rgb(208, 208, 208);
+  }
+</style>
+
+<center>
+  <h1>Dadus Be'ebe Moris iha suku</h1>
+  <br />
+   <h3>
+    Suku : {{suku}} &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; Postu Administrativu : {{postu}} &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; 
+
+                {% if munisipiu == 'Dili' or munisipiu == 'Ermera'  or munisipiu == 'Bobonaro'  or munisipiu == 'Baucau' %} 
+                     Autoridade Munisípal :  {{munisipiu}}
+                     {% elif munisipiu == 'Oe-cusse' %} 
+                      Rejiaun Aut&oacute;nomu :   RAEOA
+                     {% else %}
+                      Munisípiu :   {{munisipiu}}
+                     {% endif %}
+
+
+    &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; Tinan : {{year}}
+  </h3>
+</center>
+
+<table border="1" id = 'pop'>
+  <!-- <tr>
+    <td colspan="22">
+      <center>
+        <h1>Livru Registu Populasaun</h1>
+        <br />
+        <h3>
+          Suku : ............... Postu Administrativu : ..................
+          Munisipiu : ................. Tinan : {{tinan}}
+        </h3>
+      </center>
+    </td>
+  </tr> -->
+  <thead>
+    <tr>
+      <th rowspan="2">Nú</th>
+      <th rowspan="2">Naran Kompletu/ alias</th>
+      <th colspan="2">Fatin No Data Moris</th>
+
+      <th rowspan="2">Seksu</th>
+      <th colspan="2">Sidadania</th>
+      <th colspan="2">Aumenta</th>
+      <th rowspan="2">Obs</th>
+    </tr>
+    <tr>
+      <th>Fatin</th>
+      <th>Data</th>
+   
+      <th>TLS</th>
+      <th>Estrangeiru</th>
+      <th>Moris</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for dados in dadosmudansa2 %}
+    <tr>
+      <td>{{forloop.counter}}</td>
+
+      <td>{{dados.population.name}}</td>
+
+      <td>{{dados.population.place_of_bird}}</td>
+      <td>{{dados.population.date_of_bird}}</td>
+
+      <td>
+        {% if dados.population.gender == 'm' %}
+        Mane
+        {% endif %}
+    
+        {% if dados.population.gender == 'f' %}
+   Feto
+        {% endif %}
+
+             {% if dados.population.gender == 's' %}
+   Seluk
+        {% endif %}
+      </td>
+
+      <td>
+        <span>&#10003;</span>
+      </td>
+
+      <td></td>
+
+      <td>{{dados.population.place_of_bird}}</td>
+      <td>{{dados.population.date_of_bird|date:'d-M-Y'}}</td>
+      <td>{{dados.population.descriptionp}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+   <script>
+
+$("#download").click(function(){
+  alert("Download Dadus Ba Excel")
+  $("#pop").table2excel({
+    // exclude CSS class
+    exclude: ".noExl",
+    name: "Dadus Bebe Moris ",
+    filename: "Dadus Bebe  Moris ", //do not include extension
+    fileext: ".xls" // file extension
+  }); 
+});
+</script>
+
+
+</body>
+</html>

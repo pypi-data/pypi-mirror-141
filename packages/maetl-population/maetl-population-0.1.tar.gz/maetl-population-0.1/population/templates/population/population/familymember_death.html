@@ -1,0 +1,55 @@
+{% extends 'main/layout.html' %}
+{% block title %} Formuláriu Membru  Mate   {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+<!-- enter -->
+{% load crispy_forms_tags %} {% load static %}
+<!-- Page content-->
+ <section class="section-container">
+  
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>Populasaun / Maneza Membru Família / Membru Família Mate</h4>
+      <small>Registu Dadus Mate</small>
+    </div>
+      <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-11 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <h4>
+              {% if prosses == 'edit' %} Atualiza Informasaun mate nian husi
+              {{name}} {% else %} Prenxe Informasaun no loron mate husi {{name}}
+              {% endif %}
+            </h4>
+          </center>
+        </div>
+        <div class="card-body">{% crispy form %}</div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock content %}
+</div>
+</section>

@@ -1,0 +1,67 @@
+{% extends 'main/layout.html' %}
+{% block title %} Formuláriu Família {% endblock title %}
+{% block content %} 
+{% include 'population/sidebar.html' %}
+<!-- enter -->
+{% load crispy_forms_tags %} 
+<!-- Page content-->
+  <section class="section-container">
+<div class="content-wrapper">
+  <div class="content-heading d-flex justify-content-between">
+    <div>
+      <h4>Populasaun / Rejistu Uma Kain</h4>
+      <small>Formuláriu Uma Kain</small>
+    </div>
+
+       <div>
+              {% ifequal user.groups.all.0.name 'admin' %}
+              <div class="bg-danger p-2">
+              <small class="text-white">Admin Nasional MAE</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'xefe' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Xefe Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+              {% ifequal user.groups.all.0.name 'sec' %}
+              <div class="bg-warning p-2">
+              <small class="text-white"> Secretariado Suku {{user.employeeuser.employee.village}}</small>
+              </div>
+              {% endifequal %}
+            </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xl-5 block-center">
+      <!-- START card-->
+      <div class="card card-default">
+        <div class="card-header">
+          <center>
+            <div>
+              <h4>Rejistu Uma Kain</h4>
+            </div>
+          </center>
+          <hr />
+        </div>
+        <div class="card-body">
+        {% crispy form %}
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+{% include 'main/footer.html' %}
+
+
+
+
+{% endblock content %}
+ 

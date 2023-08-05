@@ -1,0 +1,198 @@
+{% load static %}
+      {% if request.user.groups.all.0.name == 'xefe' or request.user.groups.all.0.name == 'sec'  %}
+      <aside class="aside-container">
+        <!-- START Sidebar (left)-->
+        <div class="aside-inner">
+          <nav class="sidebar" data-sidebar-anyclick-close="">
+            <!-- START sidebar nav-->
+            <ul class="sidebar-nav">
+  <!-- START user info-->
+
+  <br><br>
+
+  <li class="nav-heading">
+    <span data-localize="sidebar.heading.HEADER">Menu Dadus
+     </span>
+  </li>
+
+  {% if user.groups.all.0.name == 'admin' %}
+
+  <li class="">
+    <a href="#cos" title="Dashboard" data-toggle="collapse">
+      <em class="icon-speedometer"></em
+      ><span data-localize="sidebar.nav.DASHBOARD">Custom Data</span>
+    </a>
+    <ul class="sidebar-nav sidebar-subnav collapse" id="cos">
+      <li class="sidebar-subnav-header">Custom Data</li>
+
+      <li class="">
+        <a href="{% url 'population:municipality'  %}" title="Munisipiu"
+          ><span>Munisipiu</span></a
+        >
+      </li>
+
+      <li class="">
+        <a
+          href="{% url 'population:administrativepost'  %}"
+          title="Postu Administrativu"
+          ><span>Postu Administrativu</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:village'  %}" title="Postu Administrativu"
+          ><span>Suku</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:aldeia'  %}" title="Postu Administrativu"
+          ><span>Aldeia</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:citizen'  %}" title="Cidadaun"
+          ><span>Cidadaun</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:religion'  %}" title="Religiaun"
+          ><span>Religiaun</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:profession'  %}" title="Religiaun"
+          ><span>Profisaun</span></a
+        >
+      </li>
+
+      <li class="">
+        <a
+          href="{% url 'population:level_education'  %}"
+          title="Habilitasaun literaria"
+          ><span>Habilitasaun literaria</span></a
+        >
+      </li>
+
+      <li class="">
+        <a
+          href="{% url 'population:familyposition'  %}"
+          title="Pozisaun Familia"
+          ><span>Pozisaun Familia</span></a
+        >
+      </li>
+    </ul>
+  </li>
+
+  {% else %}
+
+
+      <li class="">
+
+    <a
+      href="{% url 'population:dashboard_population' %}"
+      title="Fixa Familia Online"
+      > <em class="icon-home"></em
+      > <span>Varanda</span></a
+    >
+  </li>
+
+
+
+  <li class="">
+    <a href="#pdrop" title="Dashboard" data-toggle="collapse">
+      <em class="icon-people"></em
+      ><span data-localize="sidebar.nav.DASHBOARD">Rejistu Populasaun</span>
+    </a>
+    <ul class="sidebar-nav sidebar-subnav collapse" id="pdrop">
+      <li class="sidebar-subnav-header">Rejistu Populasaun</li>
+      <li class="">
+        <a href="{% url 'population:reg_population' %}" title="Dashboard v1"
+          ><span>Populasaun Suku</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:temporary' %}" title="Dashboard v1"
+          ><span>Populasaun Temporáriu</span></a
+        >
+      </li>
+    </ul>
+  </li>
+
+    <li class="">
+
+    <a
+      href="{% url 'population:familycard_list'  %}"
+      title="Fixa Familia Online"
+      > <em class="icon-list"></em
+      > <span>Fixa Família Online</span></a
+    >
+  </li>
+  
+
+  <li class="">
+    <a href="#reldrop" title="Dashboard" data-toggle="collapse">
+      <em class="icon-speedometer"></em
+      ><span data-localize="sidebar.nav.DASHBOARD">Relatoriu</span>
+    </a>
+    <ul class="sidebar-nav sidebar-subnav collapse" id="reldrop">
+      <li class="sidebar-subnav-header">Relatoriu</li>
+
+      <li class="">
+        <a href="{% url 'population:reportb1'  %}" title="Relatorio"
+          ><span>B.1 Rejistu <br />Populasaun</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:reportb2'  %}" title="Relatorio"
+          ><span
+            >B.2 Populasaun <br />
+            Temporáriu</span
+          ></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:reportb3'  %}" title="Relatorio"
+          ><span
+            >B.3 Mudansa <br />
+            Populasaun</span
+          ></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:reportb4'  %}" title="Relatorio"
+          ><span>B.4 Rekapitulasaun <br />Populasaun Suku</span></a
+        >
+      </li>
+
+      <li class="">
+        <a href="{% url 'population:reportb5'  %}" title="Relatorio"
+          ><span
+            >B.5 Uma Kain <br />
+            (Fixa Família)</span
+          ></a
+        >
+      </li>
+    </ul>
+  </li>
+
+
+
+  {% endif %}
+</ul>
+
+          </nav>
+        </div>
+        <!-- END Sidebar (left)-->
+      </aside>
+      {% endif %}
+      {% if request.user.groups.all.0.name == 'admin' %}
+      {% include 'employee/sidebard.html' %}
+      {% endif %}
