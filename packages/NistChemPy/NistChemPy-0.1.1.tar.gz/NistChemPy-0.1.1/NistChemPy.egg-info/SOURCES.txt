@@ -1,0 +1,10 @@
+LICENSE
+README.md
+nistchempy.py
+pyproject.toml
+setup.cfg
+NistChemPy.egg-info/PKG-INFO
+NistChemPy.egg-info/SOURCES.txt
+NistChemPy.egg-info/dependency_links.txt
+NistChemPy.egg-info/requires.txt
+NistChemPy.egg-info/top_level.txt
