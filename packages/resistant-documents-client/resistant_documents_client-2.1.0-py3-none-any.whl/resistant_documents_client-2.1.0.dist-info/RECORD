@@ -1,0 +1,9 @@
+resistant_documents_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resistant_documents_client/base.py,sha256=dbG19SJ-_1SgivpnPYCjBUfp37qLvoZJIwCt20UFO4Q,2663
+resistant_documents_client/client.py,sha256=DPmwZQLwNU-yVzuDwrRSVMm5g_sNBPFJf_sqAuUideY,5135
+resistant_documents_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resistant_documents_client/tests/test_client.py,sha256=etuNS3e_a4-Iu-XRY0SyH2pSPeeBpM_uFMe-JAx10LA,4666
+resistant_documents_client-2.1.0.dist-info/LICENSE,sha256=zP6xn-Ix70ai8QayJRz5XkapW8KdoIhEAHpvnKRyoDY,1069
+resistant_documents_client-2.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+resistant_documents_client-2.1.0.dist-info/METADATA,sha256=VxeoWe45lhoaus-Ma-iRgL6nwVeUZGeZX-VZXJnCSEg,3413
+resistant_documents_client-2.1.0.dist-info/RECORD,,
