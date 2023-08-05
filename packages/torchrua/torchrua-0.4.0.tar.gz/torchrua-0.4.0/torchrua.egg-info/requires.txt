@@ -1,0 +1,12 @@
+numpy
+einops
+
+[benchmark]
+aku
+tqdm
+torch_scatter
+
+[dev]
+pytest
+hypothesis
+torch_scatter
