@@ -1,0 +1,12 @@
+numpy
+astropy
+requests
+pyyaml
+astroquery
+pandas
+
+[dev]
+ipython<8
+jupyter
+astroplan
+matplotlib
