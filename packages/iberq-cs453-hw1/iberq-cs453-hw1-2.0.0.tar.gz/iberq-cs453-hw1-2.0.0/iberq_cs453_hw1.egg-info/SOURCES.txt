@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+iberq_cs453_hw1.egg-info/PKG-INFO
+iberq_cs453_hw1.egg-info/SOURCES.txt
+iberq_cs453_hw1.egg-info/dependency_links.txt
+iberq_cs453_hw1.egg-info/requires.txt
+iberq_cs453_hw1.egg-info/top_level.txt
