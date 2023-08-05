@@ -1,0 +1,14 @@
+This folder contains the (mostly) JSON files required by OpenGHG
+to do things like data processing and searching for data.
+
+
+Folder layout
+=============
+
+    processing/
+
+This folder contains the JSON files necessary for quickly repopulating an object store.
+
+
+
+

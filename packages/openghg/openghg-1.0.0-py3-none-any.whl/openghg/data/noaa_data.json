@@ -1,0 +1,1211 @@
+{
+  "AAO": {
+    "long_name": "Airborne Aerosol Observatory, Bondville, Illinois",
+    "latitude": 40.05,
+    "longitude": -88.37,
+    "height_station_masl": 230.0
+  },
+
+  "ABP": {
+    "long_name": "Arembepe, Bahia",
+    "latitude": -12.77,
+    "longitude": -38.17,
+    "height_station_masl": 1.0
+  },
+
+  "ACG": {
+    "long_name": "Alaska Coast Guard",
+    "latitude": 57.737,
+    "longitude": -152.504,
+    "height_station_masl": 6.0
+  },
+
+  "ALT": {
+    "long_name": "Alert, Nunavut",
+    "latitude": 82.451,
+    "longitude": -62.507,
+    "height_station_masl": 185.0
+  },
+
+  "AMS": {
+    "long_name": "Amsterdam Island",
+    "latitude": -37.798,
+    "longitude": 77.538,
+    "height_station_masl": 55.0
+  },
+
+  "AMT": {
+    "long_name": "Argyle, Maine",
+    "latitude": 45.035,
+    "longitude": -68.682,
+    "height_station_masl": 53.0
+  },
+
+  "AMY": {
+    "long_name": "Anmyeon-do",
+    "latitude": 36.539,
+    "longitude": 126.329,
+    "height_station_masl": 47.0
+  },
+
+  "ASC": {
+    "long_name": "Ascension Island",
+    "latitude": -7.967,
+    "longitude": -14.4,
+    "height_station_masl": 85.0
+  },
+
+  "ASK": {
+    "long_name": "Assekrem",
+    "latitude": 23.262,
+    "longitude": 5.632,
+    "height_station_masl": 2710.0
+  },
+
+  "AVI": {
+    "long_name": "St. Croix, Virgin Islands",
+    "latitude": 17.75,
+    "longitude": -64.75,
+    "height_station_masl": 3.0
+  },
+
+  "AZR": {
+    "long_name": "Terceira Island, Azores",
+    "latitude": 38.766,
+    "longitude": -27.375,
+    "height_station_masl": 19.0
+  },
+
+  "BAL": {
+    "long_name": "Baltic Sea",
+    "latitude": 55.35,
+    "longitude": 17.22,
+    "height_station_masl": 3.0
+  },
+
+  "BAO": {
+    "long_name": "Boulder Atmospheric Observatory, Colorado",
+    "latitude": 40.05,
+    "longitude": -105.004,
+    "height_station_masl": 1584.0
+  },
+
+  "BGI": {
+    "long_name": "Bradgate, Iowa",
+    "latitude": 42.82,
+    "longitude": -94.41,
+    "height_station_masl": 355.1
+  },
+
+  "BHD": {
+    "long_name": "Baring Head Station",
+    "latitude": -41.408,
+    "longitude": 174.871,
+    "height_station_masl": 85.0
+  },
+
+  "BKT": {
+    "long_name": "Bukit Kototabang",
+    "latitude": -0.202,
+    "longitude": 100.318,
+    "height_station_masl": 845.0
+  },
+
+  "BME": {
+    "long_name": "St. Davids Head, Bermuda",
+    "latitude": 32.368,
+    "longitude": -64.648,
+    "height_station_masl": 12.0
+  },
+
+  "BMW": {
+    "long_name": "Tudor Hill, Bermuda",
+    "latitude": 32.265,
+    "longitude": -64.879,
+    "height_station_masl": 30.0
+  },
+
+  "BNE": {
+    "long_name": "Beaver Crossing, Nebraska",
+    "latitude": 40.8,
+    "longitude": -97.18,
+    "height_station_masl": 465.9
+  },
+
+  "BRW": {
+    "long_name": "Barrow Atmospheric Baseline Observatory",
+    "latitude": 71.323,
+    "longitude": -156.611,
+    "height_station_masl": 11.0
+  },
+
+  "BSC": {
+    "long_name": "Black Sea, Constanta",
+    "latitude": 44.178,
+    "longitude": 28.665,
+    "height_station_masl": 0.0
+  },
+
+  "BWD": {
+    "long_name": "Brentwood, Maryland",
+    "latitude": 38.934,
+    "longitude": -76.956,
+    "height_station_masl": 16.8
+  },
+
+  "CAR": {
+    "long_name": "Briggsdale, Colorado",
+    "latitude": 40.635,
+    "longitude": -104.327,
+    "height_station_masl": 1488.0
+  },
+
+  "CBA": {
+    "long_name": "Cold Bay, Alaska",
+    "latitude": 55.21,
+    "longitude": -162.72,
+    "height_station_masl": 21.3
+  },
+
+  "CGO": {
+    "long_name": "Cape Grim, Tasmania",
+    "latitude": -40.683,
+    "longitude": 144.69,
+    "height_station_masl": 94.0
+  },
+
+  "CHR": {
+    "long_name": "Christmas Island",
+    "latitude": 1.7,
+    "longitude": -157.152,
+    "height_station_masl": 0.0
+  },
+
+  "CHS": {
+    "long_name": "Cherskii",
+    "latitude": 68.513,
+    "longitude": 161.531,
+    "height_station_masl": 30.0
+  },
+
+  "CIB": {
+    "long_name": "Centro de Investigacion de la Baja Atmosfera (CIBA)",
+    "latitude": 41.81,
+    "longitude": -4.93,
+    "height_station_masl": 845.0
+  },
+
+  "CMA": {
+    "long_name": "Offshore Cape May, New Jersey",
+    "latitude": 38.83,
+    "longitude": -74.32,
+    "height_station_masl": 0.0
+  },
+
+  "CMO": {
+    "long_name": "Cape Meares, Oregon",
+    "latitude": 45.478,
+    "longitude": -123.969,
+    "height_station_masl": 30.0
+  },
+
+  "COS": {
+    "long_name": "Cosmos",
+    "latitude": -12.12,
+    "longitude": -75.33,
+    "height_station_masl": 4600.0
+  },
+
+  "CPT": {
+    "long_name": "Cape Point",
+    "latitude": -34.352,
+    "longitude": 18.489,
+    "height_station_masl": 230.0
+  },
+
+  "CRV": {
+    "long_name": "Carbon in Arctic Reservoirs Vulnerability Experiment (CARVE)",
+    "latitude": 64.986,
+    "longitude": -147.598,
+    "height_station_masl": 611.4
+  },
+
+  "CRZ": {
+    "long_name": "Crozet Island",
+    "latitude": -46.434,
+    "longitude": 51.848,
+    "height_station_masl": 197.0
+  },
+
+  "DND": {
+    "long_name": "Dahlen, North Dakota",
+    "latitude": 47.5,
+    "longitude": -99.24,
+    "height_station_masl": 472.4
+  },
+
+  "DRP": {
+    "long_name": "Drake Passage",
+    "latitude": -59.0,
+    "longitude": -64.69,
+    "height_station_masl": 0.0
+  },
+
+  "DSI": {
+    "long_name": "Dongsha Island",
+    "latitude": 20.699,
+    "longitude": 116.73,
+    "height_station_masl": 3.0
+  },
+
+  "EIC": {
+    "long_name": "Easter Island",
+    "latitude": -27.16,
+    "longitude": -109.428,
+    "height_station_masl": 47.0
+  },
+
+  "ESP": {
+    "long_name": "Estevan Point,  British Columbia",
+    "latitude": 49.383,
+    "longitude": -126.544,
+    "height_station_masl": 7.0
+  },
+
+  "ETL": {
+    "long_name": "East Trout Lake, Saskatchewan",
+    "latitude": 54.354,
+    "longitude": -104.987,
+    "height_station_masl": 493.0
+  },
+
+  "FLK": {
+    "long_name": "Falkland Islands",
+    "latitude": -51.7,
+    "longitude": -57.87,
+    "height_station_masl": 51.0
+  },
+
+  "FTL": {
+    "long_name": "Fortaleza",
+    "latitude": -3.52,
+    "longitude": -38.28,
+    "height_station_masl": 3.0
+  },
+
+  "FWI": {
+    "long_name": "Fairchild, Wisconsin",
+    "latitude": 44.66,
+    "longitude": -90.96,
+    "height_station_masl": 334.3
+  },
+
+  "GMI": {
+    "long_name": "Mariana Islands",
+    "latitude": 13.386,
+    "longitude": 144.656,
+    "height_station_masl": 0.0
+  },
+
+  "GOZ": {
+    "long_name": "Dwejra Point, Gozo",
+    "latitude": 36.048,
+    "longitude": 14.889,
+    "height_station_masl": 1.0
+  },
+
+  "HAA": {
+    "long_name": "Molokai Island, Hawaii",
+    "latitude": 21.23,
+    "longitude": -158.95,
+    "height_station_masl": 3.0
+  },
+
+  "HBA": {
+    "long_name": "Halley Station, Antarctica",
+    "latitude": -75.605,
+    "longitude": -26.21,
+    "height_station_masl": 30.0
+  },
+
+  "HFM": {
+    "long_name": "Harvard Forest, Massachusetts",
+    "latitude": 42.538,
+    "longitude": -72.171,
+    "height_station_masl": 340.0
+  },
+
+  "HIL": {
+    "long_name": "Homer, Illinois",
+    "latitude": 40.07,
+    "longitude": -87.91,
+    "height_station_masl": 201.5
+  },
+
+  "HPB": {
+    "long_name": "Hohenpeissenberg",
+    "latitude": 47.801,
+    "longitude": 11.024,
+    "height_station_masl": 936.0
+  },
+
+  "HSU": {
+    "long_name": "Humboldt State University",
+    "latitude": 41.059,
+    "longitude": -124.75,
+    "height_station_masl": 0.0
+  },
+
+  "HUN": {
+    "long_name": "Hegyhatsal",
+    "latitude": 46.95,
+    "longitude": 16.65,
+    "height_station_masl": 248.0
+  },
+
+  "ICE": {
+    "long_name": "Storhofdi, Vestmannaeyjar",
+    "latitude": 63.4,
+    "longitude": -20.288,
+    "height_station_masl": 118.0
+  },
+
+  "INX": {
+    "long_name": "INFLUX (Indianapolis Flux Experiment)",
+    "latitude": 39.581,
+    "longitude": -86.421,
+    "height_station_masl": 0
+  },
+
+  "ITN": {
+    "long_name": "Grifton, North Carolina",
+    "latitude": 35.365,
+    "longitude": -77.393,
+    "height_station_masl": 8.0
+  },
+
+  "IZO": {
+    "long_name": "Izana, Tenerife, Canary Islands",
+    "latitude": 28.309,
+    "longitude": -16.499,
+    "height_station_masl": 2372.9
+  },
+
+  "KCO": {
+    "long_name": "Kaashidhoo",
+    "latitude": 4.97,
+    "longitude": 73.47,
+    "height_station_masl": 1.0
+  },
+
+  "KEY": {
+    "long_name": "Key Biscayne, Florida",
+    "latitude": 25.665,
+    "longitude": -80.158,
+    "height_station_masl": 1.0
+  },
+
+  "KPA": {
+    "long_name": "Kitt Peak, Arizona",
+    "latitude": 32.0,
+    "longitude": -112.0,
+    "height_station_masl": 2083.0
+  },
+
+  "KUM": {
+    "long_name": "Cape Kumukahi, Hawaii",
+    "latitude": 19.737,
+    "longitude": -155.012,
+    "height_station_masl": 0.3
+  },
+
+  "KZD": {
+    "long_name": "Sary Taukum",
+    "latitude": 44.084,
+    "longitude": 76.871,
+    "height_station_masl": 595.0
+  },
+
+  "KZM": {
+    "long_name": "Plateau Assy",
+    "latitude": 43.25,
+    "longitude": 77.88,
+    "height_station_masl": 2519.0
+  },
+
+  "LAC": {
+    "long_name": "LA Megacities",
+    "latitude": 34.0,
+    "longitude": -118.2,
+    "height_station_masl": 100.0
+  },
+
+  "LEF": {
+    "long_name": "Park Falls, Wisconsin",
+    "latitude": 45.945,
+    "longitude": -90.273,
+    "height_station_masl": 472.0
+  },
+
+  "LEW": {
+    "long_name": "Lewisburg, Pennsylvania",
+    "latitude": 40.945,
+    "longitude": -76.879,
+    "height_station_masl": 161.0
+  },
+
+  "LLB": {
+    "long_name": "Lac La Biche, Alberta",
+    "latitude": 54.954,
+    "longitude": -112.467,
+    "height_station_masl": 540.0
+  },
+
+  "LLN": {
+    "long_name": "Lulin",
+    "latitude": 23.47,
+    "longitude": 120.87,
+    "height_station_masl": 2862.0
+  },
+
+  "LMP": {
+    "long_name": "Lampedusa",
+    "latitude": 35.52,
+    "longitude": 12.62,
+    "height_station_masl": 45.0
+  },
+
+  "MBC": {
+    "long_name": "Mould Bay, Northwest Territories",
+    "latitude": 76.247,
+    "longitude": -119.353,
+    "height_station_masl": 30.0
+  },
+
+  "MBO": {
+    "long_name": "Mt. Bachelor Observatory",
+    "latitude": 43.977,
+    "longitude": -121.686,
+    "height_station_masl": 2731.0
+  },
+
+  "MCM": {
+    "long_name": "McMurdo Station, Antarctica",
+    "latitude": -77.83,
+    "longitude": 166.6,
+    "height_station_masl": 11.0
+  },
+
+  "MEX": {
+    "long_name": "High Altitude Global Climate Observation Center",
+    "latitude": 18.984,
+    "longitude": -97.311,
+    "height_station_masl": 4464.0
+  },
+
+  "MHD": {
+    "long_name": "Mace Head, County Galway",
+    "latitude": 53.326,
+    "longitude": -9.899,
+    "height_station_masl": 5.0
+  },
+
+  "MID": {
+    "long_name": "Sand Island, Midway",
+    "latitude": 28.21,
+    "longitude": -177.38,
+    "height_station_masl": 11.0
+  },
+
+  "MKN": {
+    "long_name": "Mt. Kenya",
+    "latitude": -0.062,
+    "longitude": 37.297,
+    "height_station_masl": 3644.0
+  },
+
+  "MKO": {
+    "long_name": "Mauna Kea, Hawaii",
+    "latitude": 19.83,
+    "longitude": -155.47,
+    "height_station_masl": 4220.0
+  },
+
+  "MLF": {
+    "long_name": "Mauna Loa, Hawaii",
+    "latitude": 19.53,
+    "longitude": -155.58,
+    "height_station_masl": 3397.0
+  },
+
+  "MLO": {
+    "long_name": "Mauna Loa, Hawaii",
+    "latitude": 19.536,
+    "longitude": -155.576,
+    "height_station_masl": 3397.0
+  },
+
+  "MRC": {
+    "long_name": "Marcellus Pennsylvania",
+    "latitude": 41.466,
+    "longitude": -76.419,
+    "height_station_masl": 592.0
+  },
+
+  "MSH": {
+    "long_name": "Mashpee, Massachusetts",
+    "latitude": 41.657,
+    "longitude": -70.497,
+    "height_station_masl": 32.3
+  },
+
+  "MVY": {
+    "long_name": "Marthas Vineyard, Massachusetts",
+    "latitude": 41.325,
+    "longitude": -70.567,
+    "height_station_masl": 0.0
+  },
+
+  "MWO": {
+    "long_name": "Mt. Wilson Observatory",
+    "latitude": 34.225,
+    "longitude": -118.059,
+    "height_station_masl": 1728.0
+  },
+
+  "NAT": {
+    "long_name": "Farol De Mae Luiza Lighthouse",
+    "latitude": -5.795,
+    "longitude": -35.185,
+    "height_station_masl": 50.0
+  },
+
+  "NEB": {
+    "long_name": "NE Baltimore, Maryland",
+    "latitude": 39.315,
+    "longitude": -76.583,
+    "height_station_masl": 44.0
+  },
+
+  "NHA": {
+    "long_name": "Offshore Portsmouth, New Hampshire (Isles of Shoals)",
+    "latitude": 42.95,
+    "longitude": -70.63,
+    "height_station_masl": 0.0
+  },
+
+  "NMB": {
+    "long_name": "Gobabeb",
+    "latitude": -23.58,
+    "longitude": 15.03,
+    "height_station_masl": 456.0
+  },
+
+  "NWB": {
+    "long_name": "NW Baltimore",
+    "latitude": 39.344,
+    "longitude": -76.685,
+    "height_station_masl": 135.0
+  },
+
+  "NWF": {
+    "long_name": "Niwot Ridge Forest, Colorado",
+    "latitude": 40.03,
+    "longitude": -105.55,
+    "height_station_masl": 3050.0
+  },
+
+  "NWR": {
+    "long_name": "Niwot Ridge, Colorado",
+    "latitude": 40.053,
+    "longitude": -105.586,
+    "height_station_masl": 3523.0
+  },
+
+  "NZL": {
+    "long_name": "Kaitorete Spit",
+    "latitude": -43.83,
+    "longitude": 172.63,
+    "height_station_masl": 3.0
+  },
+
+  "OIL": {
+    "long_name": "Oglesby, Illinois",
+    "latitude": 41.28,
+    "longitude": -88.94,
+    "height_station_masl": 192.6
+  },
+
+  "OPW": {
+    "long_name": "Olympic Peninsula, Washington",
+    "latitude": 48.3,
+    "longitude": -124.628,
+    "height_station_masl": 486.0
+  },
+
+  "OXK": {
+    "long_name": "Ochsenkopf",
+    "latitude": 50.03,
+    "longitude": 11.808,
+    "height_station_masl": 1022.0
+  },
+
+  "PAL": {
+    "long_name": "Pallas-Sammaltunturi, GAW Station",
+    "latitude": 67.973,
+    "longitude": 24.116,
+    "height_station_masl": 565.0
+  },
+
+  "PCO": {
+    "long_name": "Pico, Azores",
+    "latitude": 38.47,
+    "longitude": -28.4,
+    "height_station_masl": 2225.0
+  },
+
+  "PFA": {
+    "long_name": "Poker Flat, Alaska",
+    "latitude": 64.9,
+    "longitude": -148.76,
+    "height_station_masl": 210.0
+  },
+
+  "POCN00": {
+    "long_name": "ific Ocean (0 N)",
+    "latitude": 0.0,
+    "longitude": -155.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN05": {
+    "long_name": "ific Ocean (5 N)",
+    "latitude": 5.0,
+    "longitude": -151.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN10": {
+    "long_name": "ific Ocean (10 N)",
+    "latitude": 10.0,
+    "longitude": -149.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN15": {
+    "long_name": "ific Ocean (15 N)",
+    "latitude": 15.0,
+    "longitude": -145.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN20": {
+    "long_name": "ific Ocean (20 N)",
+    "latitude": 20.0,
+    "longitude": -141.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN25": {
+    "long_name": "ific Ocean (25 N)",
+    "latitude": 25.0,
+    "longitude": -139.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN30": {
+    "long_name": "ific Ocean (30 N)",
+    "latitude": 30.0,
+    "longitude": -135.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN35": {
+    "long_name": "ific Ocean (35 N)",
+    "latitude": 35.0,
+    "longitude": -137.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN40": {
+    "long_name": "ific Ocean (40 N)",
+    "latitude": 40.0,
+    "longitude": -136.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCN45": {
+    "long_name": "ific Ocean (45 N)",
+    "latitude": 45.0,
+    "longitude": -131.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS05": {
+    "long_name": "ific Ocean (5 S)",
+    "latitude": -5.0,
+    "longitude": -159.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS10": {
+    "long_name": "ific Ocean (10 S)",
+    "latitude": -10.0,
+    "longitude": -161.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS15": {
+    "long_name": "ific Ocean (15 S)",
+    "latitude": -15.0,
+    "longitude": -164.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS20": {
+    "long_name": "ific Ocean (20 S)",
+    "latitude": -20.0,
+    "longitude": -167.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS25": {
+    "long_name": "ific Ocean (25 S)",
+    "latitude": -25.0,
+    "longitude": -171.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS30": {
+    "long_name": "ific Ocean (30 S)",
+    "latitude": -30.0,
+    "longitude": -176.0,
+    "height_station_masl": 10.0
+  },
+
+  "POCS35": {
+    "long_name": "ific Ocean (35 S)",
+    "latitude": -35.0,
+    "longitude": 180.0,
+    "height_station_masl": 10.0
+  },
+
+  "PSA": {
+    "long_name": "Palmer Station, Antarctica",
+    "latitude": -64.774,
+    "longitude": -64.053,
+    "height_station_masl": 10.0
+  },
+
+  "PSM": {
+    "long_name": "Point Six Mountain, Montana",
+    "latitude": 47.03,
+    "longitude": -113.98,
+    "height_station_masl": 2462.0
+  },
+
+  "PTA": {
+    "long_name": "Point Arena, California",
+    "latitude": 38.955,
+    "longitude": -123.741,
+    "height_station_masl": 17.0
+  },
+
+  "RPB": {
+    "long_name": "Ragged Point",
+    "latitude": 13.165,
+    "longitude": -59.432,
+    "height_station_masl": 15.0
+  },
+
+  "RTA": {
+    "long_name": "Rarotonga",
+    "latitude": -21.25,
+    "longitude": -159.83,
+    "height_station_masl": 3.0
+  },
+
+  "SAN": {
+    "long_name": "Santarem",
+    "latitude": -2.85,
+    "longitude": -54.95,
+    "height_station_masl": 78.0
+  },
+
+  "SCA": {
+    "long_name": "Offshore Charleston, South Carolina",
+    "latitude": 32.77,
+    "longitude": -79.55,
+    "height_station_masl": 0.0
+  },
+
+  "SCSN03": {
+    "long_name": "th China Sea (3 N)",
+    "latitude": 3.0,
+    "longitude": 105.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN06": {
+    "long_name": "th China Sea (6 N)",
+    "latitude": 6.0,
+    "longitude": 107.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN09": {
+    "long_name": "th China Sea (9 N)",
+    "latitude": 9.0,
+    "longitude": 109.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN12": {
+    "long_name": "th China Sea (12 N)",
+    "latitude": 12.0,
+    "longitude": 111.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN15": {
+    "long_name": "th China Sea (15 N)",
+    "latitude": 15.0,
+    "longitude": 113.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN18": {
+    "long_name": "th China Sea (18 N)",
+    "latitude": 18.0,
+    "longitude": 113.5,
+    "height_station_masl": 15.0
+  },
+
+  "SCSN21": {
+    "long_name": "th China Sea (21 N)",
+    "latitude": 21.0,
+    "longitude": 114.0,
+    "height_station_masl": 15.0
+  },
+
+  "SCT": {
+    "long_name": "Beech Island, South Carolina",
+    "latitude": 33.406,
+    "longitude": -81.833,
+    "height_station_masl": 115.2
+  },
+
+  "SDZ": {
+    "long_name": "Shangdianzi",
+    "latitude": 40.65,
+    "longitude": 117.117,
+    "height_station_masl": 293.0
+  },
+
+  "SEY": {
+    "long_name": "Mahe Island",
+    "latitude": -4.682,
+    "longitude": 55.532,
+    "height_station_masl": 2.0
+  },
+
+  "SGI": {
+    "long_name": "Bird Island, South Georgia",
+    "latitude": -54.0,
+    "longitude": -38.05,
+    "height_station_masl": 30.0
+  },
+
+  "SGP": {
+    "long_name": "Southern Great Plains, Oklahoma",
+    "latitude": 36.607,
+    "longitude": -97.489,
+    "height_station_masl": 314.0
+  },
+
+  "SHM": {
+    "long_name": "Shemya Island, Alaska",
+    "latitude": 52.711,
+    "longitude": 174.126,
+    "height_station_masl": 23.0
+  },
+
+  "SIO": {
+    "long_name": "La Jolla, California",
+    "latitude": 32.83,
+    "longitude": -117.27,
+    "height_station_masl": 14.0
+  },
+
+  "SMO": {
+    "long_name": "Tutuila",
+    "latitude": -14.247,
+    "longitude": -170.564,
+    "height_station_masl": 42.0
+  },
+
+  "SNP": {
+    "long_name": "Shenandoah National Park",
+    "latitude": 38.617,
+    "longitude": -78.35,
+    "height_station_masl": 1008.0
+  },
+
+  "SPO": {
+    "long_name": "South Pole, Antarctica",
+    "latitude": -89.98,
+    "longitude": -24.8,
+    "height_station_masl": 2810.0
+  },
+
+  "STC": {
+    "long_name": "Ocean Station Charlie",
+    "latitude": 54.0,
+    "longitude": -35.0,
+    "height_station_masl": 6.0
+  },
+
+  "STM": {
+    "long_name": "Ocean Station M",
+    "latitude": 66.0,
+    "longitude": 2.0,
+    "height_station_masl": 0.0
+  },
+
+  "STR": {
+    "long_name": "Sutro Tower, San Francisco, California",
+    "latitude": 37.755,
+    "longitude": -122.452,
+    "height_station_masl": 254.0
+  },
+
+  "SUM": {
+    "long_name": "Summit",
+    "latitude": 72.596,
+    "longitude": -38.422,
+    "height_station_masl": 3209.5
+  },
+
+  "SYO": {
+    "long_name": "Syowa Station, Antarctica",
+    "latitude": -69.013,
+    "longitude": 39.59,
+    "height_station_masl": 14.0
+  },
+
+  "TAC": {
+    "long_name": "Tacolneston",
+    "latitude": 52.518,
+    "longitude": 1.139,
+    "height_station_masl": 56.0
+  },
+
+  "TAP": {
+    "long_name": "Tae-ahn Peninsula",
+    "latitude": 36.738,
+    "longitude": 126.133,
+    "height_station_masl": 16.0
+  },
+
+  "TBP": {
+    "long_name": "Tambopata",
+    "latitude": -12.82,
+    "longitude": -69.292,
+    "height_station_masl": 200.0
+  },
+
+  "TGC": {
+    "long_name": "Offshore Corpus Christi, Texas",
+    "latitude": 27.73,
+    "longitude": -96.86,
+    "height_station_masl": 0.0
+  },
+
+  "THD": {
+    "long_name": "Trinidad Head, California",
+    "latitude": 41.054,
+    "longitude": -124.151,
+    "height_station_masl": 107.0
+  },
+
+  "TIK": {
+    "long_name": "Hydrometeorological Observatory of Tiksi",
+    "latitude": 71.597,
+    "longitude": 128.889,
+    "height_station_masl": 19.0
+  },
+
+  "TMD": {
+    "long_name": "Thurmont, Maryland",
+    "latitude": 39.577,
+    "longitude": -77.488,
+    "height_station_masl": 561.0
+  },
+
+  "TPI": {
+    "long_name": "Taiping Island",
+    "latitude": 10.379,
+    "longitude": 114.371,
+    "height_station_masl": 4.0
+  },
+
+  "ULB": {
+    "long_name": "Ulaanbaatar",
+    "latitude": 47.4,
+    "longitude": 106.0,
+    "height_station_masl": 1350.0
+  },
+
+  "USH": {
+    "long_name": "Ushuaia",
+    "latitude": -54.848,
+    "longitude": -68.311,
+    "height_station_masl": 12.0
+  },
+
+  "UTA": {
+    "long_name": "Wendover, Utah",
+    "latitude": 39.902,
+    "longitude": -113.718,
+    "height_station_masl": 1327.0
+  },
+
+  "UUM": {
+    "long_name": "Ulaan Uul",
+    "latitude": 44.452,
+    "longitude": 111.096,
+    "height_station_masl": 1007.0
+  },
+
+  "WBI": {
+    "long_name": "West Branch, Iowa",
+    "latitude": 41.725,
+    "longitude": -91.353,
+    "height_station_masl": 241.7
+  },
+
+  "WGC": {
+    "long_name": "Walnut Grove, California",
+    "latitude": 38.265,
+    "longitude": -121.491,
+    "height_station_masl": 0.0
+  },
+
+  "WIS": {
+    "long_name": "Weizmann Institute of Science at the Arava Institute, Ketura",
+    "latitude": 29.965,
+    "longitude": 35.06,
+    "height_station_masl": 151.0
+  },
+
+  "WKT": {
+    "long_name": "Moody, Texas",
+    "latitude": 31.315,
+    "longitude": -97.327,
+    "height_station_masl": 251.0
+  },
+
+  "WLG": {
+    "long_name": "Mt. Waliguan",
+    "latitude": 36.288,
+    "longitude": 100.896,
+    "height_station_masl": 3810.0
+  },
+
+  "WPCN00": {
+    "long_name": " Pacific Cruise (0 N)",
+    "latitude": 0.0,
+    "longitude": 151.1,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN05": {
+    "long_name": "Western Pacific Cruise (5 N)",
+    "latitude": 5.0,
+    "longitude": 149.1,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN10": {
+    "long_name": "Western Pacific Cruise (10 N)",
+    "latitude": 10.0,
+    "longitude": 148.0,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN15": {
+    "long_name": "Western Pacific Cruise (15 N)",
+    "latitude": 15.0,
+    "longitude": 145.0,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN20": {
+    "long_name": "Western Pacific Cruise (20 N)",
+    "latitude": 20.0,
+    "longitude": 142.0,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN25": {
+    "long_name": "Western Pacific Cruise (25 N)",
+    "latitude": 25.0,
+    "longitude": 140.0,
+    "height_station_masl": 0.0
+  },
+
+  "WPCN30": {
+    "long_name": "Western Pacific Cruise (30 N)",
+    "latitude": 30.0,
+    "longitude": 136.8,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS05": {
+    "long_name": "Western Pacific Cruise (5 S)",
+    "latitude": -5.0,
+    "longitude": 153.7,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS10": {
+    "long_name": "Western Pacific Cruise (10 S)",
+    "latitude": -10.0,
+    "longitude": 156.8,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS15": {
+    "long_name": "Western Pacific Cruise (15 S)",
+    "latitude": -15.0,
+    "longitude": 159.3,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS20": {
+    "long_name": "Western Pacific Cruise (20 S)",
+    "latitude": -20.0,
+    "longitude": 161.1,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS25": {
+    "long_name": "Western Pacific Cruise (25 S)",
+    "latitude": -25.0,
+    "longitude": 165.5,
+    "height_station_masl": 0.0
+  },
+
+  "WPCS30": {
+    "long_name": "Western Pacific Cruise (30 S)",
+    "latitude": -30.0,
+    "longitude": 168.0,
+    "height_station_masl": 0.0
+  },
+  "ZEP": {
+    "long_name": "Ny-Alesund, Svalbard",
+    "latitude": 78.907,
+    "longitude": 11.888,
+    "height_station_masl": 474.0
+  }
+}
