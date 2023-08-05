@@ -1,0 +1,8 @@
+allure_pytest_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allure_pytest_logger/plugin.py,sha256=__BlHy4gkXpf_luBaqPHRgOoFC-OkJPWjE_jYvbkA88,2355
+allure_pytest_logger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allure_pytest_logger-1.0.0.dist-info/entry_points.txt,sha256=UHA4UHanIju88eW6z0dpEti7ne5A2KgeIaF31NGFnzE,61
+allure_pytest_logger-1.0.0.dist-info/LICENSE,sha256=MePltmbZl6TqFeTjiqAw6e1dpzS50k70CjBoj9-PMgI,1071
+allure_pytest_logger-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+allure_pytest_logger-1.0.0.dist-info/METADATA,sha256=VIb6FvW_nmuzw52nk7aiJiSJq4xGHQZAUzFRH2F9--0,901
+allure_pytest_logger-1.0.0.dist-info/RECORD,,
