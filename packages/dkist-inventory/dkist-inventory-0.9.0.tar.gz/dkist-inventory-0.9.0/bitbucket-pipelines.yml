@@ -1,0 +1,31 @@
+image: python:3.9
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          script:
+            - pip install -U pip
+            - pip install tox codecov
+            - tox -e py39-test
+            - codecov
+      - step:
+          script:
+            - pip install -U pip
+            - pip install tox codecov
+            - tox -e py39-test-devdeps
+            - codecov
+  tags:
+    'v*':
+      - step:
+          script:
+            - pip install -U pip
+            - pip install tox codecov
+            - tox -e py39-test
+            - codecov
+      - step:
+          script:
+            - pip install -U pip
+            - pip install twine pep517
+            - python -m pep517.build --binary --source --out-dir wheelhouse .
+            - python -m twine upload --skip-existing wheelhouse/*
