@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: neutralocean
+Version: 0.0.14
+Summary: Neutral Surfaces in the Ocean
+Home-page: https://github.com/geoffstanley/neutralocean
+Author: Geoff Stanley
+Author-email: g.stanley@unsw.edu.au
+License: MIT
+Keywords: oceanography
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# neutralocean
+Calculate neutral surfaces in the ocean, using Python
+
+# Installation
+To install `neutralocean`, simply execute
+```
+$ pip install neutralocean
+```
+
+Later, `neutralocean` will also be added to conda-forge.
+
+
+# Usage
+Try running the example script:
+```
+python /path/to/neutralocean/neutralocean/examples/run_OCCA.py
+```
+If that runs, we're in business.  
+Take a look at that example script, `run_OCCA.py` located in `neutralocean/examples/`.
+It is documented and will walk you through loading an ocean model dataset, selecting an equation of state, calculating various approximately neutral surfaces, and more. 
+

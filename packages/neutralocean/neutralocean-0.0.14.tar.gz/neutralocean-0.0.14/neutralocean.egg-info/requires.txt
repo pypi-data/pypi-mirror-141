@@ -1,0 +1,7 @@
+numpy<1.22
+numba
+xarray
+scipy
+scikit-sparse
+gsw
+pooch
