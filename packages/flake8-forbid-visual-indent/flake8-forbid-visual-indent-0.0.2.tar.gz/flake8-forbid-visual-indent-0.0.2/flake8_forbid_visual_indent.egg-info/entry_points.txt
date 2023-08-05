@@ -1,0 +1,2 @@
+[flake8.extension]
+VI101 = flake8_forbid_visual_indent:ForbidVisualIndent

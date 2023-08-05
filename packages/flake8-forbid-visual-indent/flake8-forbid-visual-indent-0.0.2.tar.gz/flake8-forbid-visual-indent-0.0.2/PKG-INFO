@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: flake8-forbid-visual-indent
+Version: 0.0.2
+Summary: Flake8 plugin that disallows visual indentation
+Home-page: https://github.com/ateraz/flake8-forbid-visual-indent
+Maintainer: Andrii Teraz
+Maintainer-email: andrey.teraz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flake8-forbid-visual-indent
+
+[![Build Status](https://travis-ci.com/ateraz/flake8-forbid-visual-indent.svg?branch=master)](https://travis-ci.com/ateraz/flake8-forbid-visual-indent)
+
+Flake8 plugin that disallows visual indentation. It raises error for indentation style like
+```python
+def my_function(first_arg: int,
+                second_arg: int) -> int:
+    ...
+```
+in favor of
+```python
+def my_function(
+        first_arg: int, second_arg: int) -> int:
+    ...
+```
+
+
