@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/TOPSIS-Aastha/__init__.py
+src/TOPSIS_Aastha_101903306.egg-info/PKG-INFO
+src/TOPSIS_Aastha_101903306.egg-info/SOURCES.txt
+src/TOPSIS_Aastha_101903306.egg-info/dependency_links.txt
+src/TOPSIS_Aastha_101903306.egg-info/top_level.txt
