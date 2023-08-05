@@ -1,0 +1,6 @@
+ibfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibfs/__main__.py,sha256=vGvvnEroabR7WSKy8G0fpFarEsiNywW-HDFKfVnv10w,1323
+ibfs/core.py,sha256=4HcYMW2zmRVZtkgtKLqteMwZPePWUJ6wOn5F2IZe2gA,15492
+ibfs-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ibfs-0.1.0.dist-info/METADATA,sha256=HS3mFdvVRCxsVULSBepy7ufG8_eqxMafvK9C32V9fQ0,660
+ibfs-0.1.0.dist-info/RECORD,,
