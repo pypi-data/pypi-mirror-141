@@ -1,0 +1,16 @@
+collector-0.4.3-py3.9-nspkg.pth,sha256=0BCZzoUNVu97-vAdvAN5Y96FIYfaopwV-FfL_rYtgTY,564
+pycollector/backend.py,sha256=8MgpX0wmTvnQtaKyLiMvAQjRqewu1LAfw2OHd3JVA2Y,6218
+pycollector/dataset.py,sha256=nIsEfmZas2hDAxM-kn2HkPaKh81h-Z4RiL1pvD3KAzQ,10578
+pycollector/globals.py,sha256=Pyz8isSg2ic9Gp4VvuUG2sT6WB-Q_p1dukTGtlVEIFU,2941
+pycollector/label.py,sha256=Xciv-1lPv-J0uv7eWpCl7UcPfz1lnMup9TNUdKYJzMs,49693
+pycollector/project.py,sha256=n2WhrU-6rYitIf8JVw4Xhd0G97eY4RlhCvQN2zqZTw8,3876
+pycollector/user.py,sha256=k-hQeCWU1B_8_RnR9FIz-K1SddKNDvOIohZzra5fMTo,7358
+pycollector/util.py,sha256=djxInIlP2aiHaqWGiy2MMpVGyj2SMnpO4KzDb_0x8D8,4208
+pycollector/version.py,sha256=0YmvqXxlx-AJr3mXPzuLCN1a78sRHH3rzKx70CKbet4,576
+pycollector/video.py,sha256=7gYcO9ZJ-hkduksJqFoMnfekOsZGRxEAml1WHhBEPyw,31976
+collector-0.4.3.dist-info/LICENSE,sha256=eTE6iayA6J1VXYXzBhzV_lyAaYE9-GNCBCuzzNLeHCg,1067
+collector-0.4.3.dist-info/METADATA,sha256=lnI6p6d44j5bwM-VdJVSG_Cn6-yj_YG14TfLcMh-QPw,873
+collector-0.4.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+collector-0.4.3.dist-info/namespace_packages.txt,sha256=KsB1tPD_C8LkUIW76mvqfnSQ3R0swQ_cGSM2XG6v_gs,12
+collector-0.4.3.dist-info/top_level.txt,sha256=KsB1tPD_C8LkUIW76mvqfnSQ3R0swQ_cGSM2XG6v_gs,12
+collector-0.4.3.dist-info/RECORD,,
