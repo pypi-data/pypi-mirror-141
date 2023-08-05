@@ -1,0 +1,10 @@
+libecc/__init__.py,sha256=97sB14232LaFPX6ebfQgYmB5ZYHXYTI1XKusiSGJqY8,172
+libecc/_libecc_cffi.cp39-mingw_x86_64.pyd,sha256=ttbmBLEqSDHIdEdTYBi-oIm3LmN5mJsRhHuMRWCz2fU,575488
+libecc/_libecc_cffi.cpython-38-x86_64-linux-gnu.so,sha256=z8oDevya_nMiSME4WqqLMgdi2nBITH6X2U4hk5vMA2g,1189120
+libecc/_libecc_cffi.cpython-39-darwin.so,sha256=Z9wThh3ODk3VCiInnQ9Ji97j5m3Ou_JgZYZ8Yn9RISc,1240080
+libecc/libecc.py,sha256=kTJ7_XIXf3uCT5JxmrFrhVpH5C0wwqB_cYeYzTRoO_k,165885
+libecc-1.0.11.dist-info/LICENSE,sha256=2MgyKirGuzd3yOnytBORjn2EpA6ILko37dG7JJbLaCs,1061
+libecc-1.0.11.dist-info/METADATA,sha256=Pvox3EMaCIabAc9q01YK4FyWWbWpp3duvy1WI8N4MxI,11222
+libecc-1.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+libecc-1.0.11.dist-info/top_level.txt,sha256=4ejFc1uoBOEzfkaab6nwKcZSjn4AUamB8Hm2bR3smXI,7
+libecc-1.0.11.dist-info/RECORD,,
