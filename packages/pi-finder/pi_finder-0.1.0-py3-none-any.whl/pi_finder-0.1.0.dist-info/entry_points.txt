@@ -1,0 +1,3 @@
+[console_scripts]
+pi-finder=pi_finder.main:run
+
