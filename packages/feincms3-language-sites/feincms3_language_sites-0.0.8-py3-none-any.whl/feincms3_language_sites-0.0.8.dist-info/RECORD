@@ -1,0 +1,13 @@
+feincms3_language_sites/__init__.py,sha256=2IveDC6A60JVRE15m1AGXUT8Zez8t4TOTCBCowZMIWc,62
+feincms3_language_sites/checks.py,sha256=dKi6Vgx514hrMDnWzNfAdqvfjL-cNZURkjBjkSD4WlA,1088
+feincms3_language_sites/middleware.py,sha256=ACXwFjHJcQCCHfKtq2oXCHnKw9zG9aXVsuIwBsDFgQA,1740
+feincms3_language_sites/models.py,sha256=lTq_cWazZto4OA24jjSvgHuel8ChX2ZmCwnGW5l-LzA,4120
+feincms3_language_sites/locale/de/LC_MESSAGES/django.mo,sha256=CLE0kQzJkkV8BbkHJh3SlhFvBRqJ3p7T1EgdBSWj6IM,880
+feincms3_language_sites/locale/de/LC_MESSAGES/django.po,sha256=kiass7SWCM07lalsDOnSQ36BZAYDKZBVA0i-F05tcNg,1170
+feincms3_language_sites/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feincms3_language_sites/templatetags/feincms3_language_sites.py,sha256=eQg_1Byie_EO8jU0bVWzfy0xGFfX3o6HIqFA80W-FDk,570
+feincms3_language_sites-0.0.8.dist-info/LICENSE,sha256=FSwkgNk6-4kfC7UYFMgAEA45Q2-4aI3Vt3QP2LRrkjE,1548
+feincms3_language_sites-0.0.8.dist-info/METADATA,sha256=l1zTYUbk8mmt_br_LlNUzzj4pNCGB-CZclkdpBBZEwo,4680
+feincms3_language_sites-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+feincms3_language_sites-0.0.8.dist-info/top_level.txt,sha256=7iE86UXOyTpMZNSpj2tfbfjcrr9L3wUmMIUHMrztJMI,24
+feincms3_language_sites-0.0.8.dist-info/RECORD,,
