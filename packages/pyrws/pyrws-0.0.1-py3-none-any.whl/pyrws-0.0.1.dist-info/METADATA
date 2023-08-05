@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pyrws
+Version: 0.0.1
+Summary: Python Package to Prepare Rigid Waist Shift Operations in the CCC
+Home-page: https://github.com/fsoubelet/pyrws
+Author: Felix Soubelet
+Author-email: felix.soubelet@cern.ch
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (>=8.0)
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: tfs-pandas (>=3.1.0)
+Requires-Dist: cpymad (>=1.9.0)
+Requires-Dist: loguru (>=0.5.0)
+Requires-Dist: pyhdtoolkit (>=0.16.0)
+Provides-Extra: all
+Requires-Dist: pytest (>=5.2) ; extra == 'all'
+Requires-Dist: pytest-cov (>=2.9) ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: sphinx-click (>3.0) ; extra == 'all'
+Requires-Dist: sphinx-copybutton (<1.0) ; extra == 'all'
+Requires-Dist: sphinxcontrib-bibtex (>=2.4) ; extra == 'all'
+Requires-Dist: sphinx-panels (<1.0) ; extra == 'all'
+Requires-Dist: sphinx-prompt (>=1.5) ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-click (>3.0) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (<1.0) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex (>=2.4) ; extra == 'docs'
+Requires-Dist: sphinx-panels (<1.0) ; extra == 'docs'
+Requires-Dist: sphinx-prompt (>=1.5) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.2) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.9) ; extra == 'test'
+
+# PyRWS
+
+
