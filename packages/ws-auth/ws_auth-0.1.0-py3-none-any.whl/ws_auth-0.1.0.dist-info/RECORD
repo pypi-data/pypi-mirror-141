@@ -1,0 +1,12 @@
+ws_auth/__init__.py,sha256=cHyVqiRmvL8BQc4xm1wCCa2tHxOHDV0kQCE7NS-lf-M,2437
+ws_auth/__version__.py,sha256=_3ctfw8pJY3-NAakPuRWoqdeuVcdpFbGUUQ1_CAR1kI,147
+ws_auth/auth.py,sha256=-llipxOXRdt9mthfcb0vctlUIbZ7O4tIjXaybHoXbtU,2363
+ws_auth/http.py,sha256=dY6j5rf0qeN-QoFXEkc66e3SDG8qgBCeQ8hQJ-Zrg2s,6326
+ws_auth/protocol.py,sha256=3cs2eitLKmGnusymraOknfre070KvPk7_0pKk2vufDY,6024
+ws_auth/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ws_auth/types.py,sha256=RXbDxlME6GcVElay1jaifiI7hf7_x8Abr2dHCAPOnFA,390
+ws_auth-0.1.0.dist-info/LICENSE.md,sha256=DTibER7WcHIyfnYHKgjP9qiqPPmW-8dXL87IAx-9A1Y,1097
+ws_auth-0.1.0.dist-info/METADATA,sha256=PWzKPiJOQjVTOAEQ2dAbA8LXV8vIQw25WAOlS5VluKU,4820
+ws_auth-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ws_auth-0.1.0.dist-info/top_level.txt,sha256=gXGlRIaN-YtevfrBdFmUFFWKb0iJ8nQIrKfGzhJT_HE,8
+ws_auth-0.1.0.dist-info/RECORD,,
