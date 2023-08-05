@@ -1,0 +1,8 @@
+numpy
+torchrua>=0.4.0
+
+[dev]
+einops
+pytest
+hypothesis
+pytorch-crf
