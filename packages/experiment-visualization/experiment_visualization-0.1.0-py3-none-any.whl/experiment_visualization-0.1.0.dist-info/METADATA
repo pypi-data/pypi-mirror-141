@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: experiment-visualization
+Version: 0.1.0
+Summary: Hypernets experiment visualization
+Home-page: https://github.com/DataCanvasIO/HyperBoard
+Author: DataCanvas Community
+Author-email: wuhf@zetyun.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.*
+Requires-Dist: tornado
+Requires-Dist: hypernets (==0.2.5.1)
+
+Hypernets experiment visualization
+
