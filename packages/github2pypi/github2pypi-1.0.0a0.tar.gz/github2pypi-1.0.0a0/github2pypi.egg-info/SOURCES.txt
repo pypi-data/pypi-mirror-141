@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+github2pypi/__init__.py
+github2pypi/replace_url.py
+github2pypi/test_replace_url.py
+github2pypi.egg-info/PKG-INFO
+github2pypi.egg-info/SOURCES.txt
+github2pypi.egg-info/dependency_links.txt
+github2pypi.egg-info/not-zip-safe
+github2pypi.egg-info/top_level.txt
