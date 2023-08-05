@@ -1,0 +1,17 @@
+multiviewdata/__init__.py,sha256=U5FrEJ-13jhzdjlp_LihAaOnIVPS-VLyD5DeJWLPhRo,35
+multiviewdata/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiviewdata/test/test_outputs.py,sha256=-NxUY5ISI8joUlBCfpBxErr2cDMQ_geT30HqAj_9IGY,766
+multiviewdata/torchdatasets/__init__.py,sha256=j3wFiEFSk7jH8XlvQZpFb2ZL7whtzUJMJQ4NazBB54g,271
+multiviewdata/torchdatasets/cars3d.py,sha256=i1cZnTz4nheBlarAsyjyZ9i-bIBb1J70gaWboQPcaQk,4911
+multiviewdata/torchdatasets/generic.py,sha256=p7YDVBx97IF_RzC5DEiJK68ogDK0yt1wWzSWYhjpC-k,580
+multiviewdata/torchdatasets/mfeat.py,sha256=4h1btfkh7hiGUB6Q2eGyMoOqofgtQiwtIJqihzi1EKk,3134
+multiviewdata/torchdatasets/mnist.py,sha256=EKsK-oSLdDgiPmt-PuM6YlHepmGTDrWV4TtJQsua-0s,5795
+multiviewdata/torchdatasets/twitter.py,sha256=p6ZlBeyC6SrMlC21WVlfdYvgg7zJLer5dckMqWORzlU,6753
+multiviewdata/torchdatasets/wiw.py,sha256=D2TUivfhgWrxjGA3ABwdd2dJ_Yjjc2lTy1YM6ttu7ng,9488
+multiviewdata/torchdatasets/xrmb.py,sha256=BJ2RzihtfioEdb3QuDLSTiEOjseK0ZNmp1gAsBc9mv4,2640
+multiviewdata/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiviewdata-0.1.7.dist-info/LICENSE,sha256=WT1YlUknJYSKkYUJmfpZR2h4MyiXJei0E-aK_RlGeVM,1088
+multiviewdata-0.1.7.dist-info/METADATA,sha256=YtlKWxcihS3u2TyvzErUvrvRtMKe-iAFipljMBwskek,3788
+multiviewdata-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+multiviewdata-0.1.7.dist-info/top_level.txt,sha256=A3EjR_Sezcu8tPxD1J8Y_-_DcqW2Oe4BlrOvEMo1s-4,14
+multiviewdata-0.1.7.dist-info/RECORD,,
