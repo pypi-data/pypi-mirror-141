@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: experiment-notebook-widget
+Version: 0.1.0
+Summary: Jupyter widgets for hyperntes
+Home-page: https://github.com/DataCanvasIO/HyperBoard.git
+Author: wuhf
+Author-email: wuhf@zetyun.com
+License: UNKNOWN
+Keywords: hypernets,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipywidgets (>=7.6.0)
+Requires-Dist: numpy
+Requires-Dist: hypernets (==0.2.5.1)
+Requires-Dist: pandas
+
+Jupyter widgets for hyperntes
+
