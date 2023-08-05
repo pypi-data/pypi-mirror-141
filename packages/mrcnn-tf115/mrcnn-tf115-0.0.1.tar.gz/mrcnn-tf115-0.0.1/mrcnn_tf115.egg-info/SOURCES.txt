@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+mrcnn/__init__.py
+mrcnn/config.py
+mrcnn/model.py
+mrcnn/parallel_model.py
+mrcnn/utils.py
+mrcnn/visualize.py
+mrcnn_tf115.egg-info/PKG-INFO
+mrcnn_tf115.egg-info/SOURCES.txt
+mrcnn_tf115.egg-info/dependency_links.txt
+mrcnn_tf115.egg-info/top_level.txt
