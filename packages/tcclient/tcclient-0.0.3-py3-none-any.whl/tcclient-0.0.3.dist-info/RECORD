@@ -1,0 +1,7 @@
+tcclient/__init__.py,sha256=KU2ulvcUud2MSu8fRZ7LTAFv2N9Pvqxs2pr3VLI3PYA,5854
+tcclient/change_tc_var_value.py,sha256=REnbu1NkIjIl1Hd-dmqYAPmdwj50qEoBWZGWp-5oqAU,1499
+tcclient/logger.py,sha256=OeWKbVdTNH_Spf7LbFLSSB3DcpDDGeoB_oP1V0zbtCQ,526
+tcclient-0.0.3.dist-info/METADATA,sha256=oeJtChrsz63lq6SUtrY5vTRW0l8f_gnf-2DG_cShCa4,1698
+tcclient-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tcclient-0.0.3.dist-info/top_level.txt,sha256=v8KDPFwLryfhtwqd7kSlyw2IjTOCbF5yBhSfJ7hBP9A,9
+tcclient-0.0.3.dist-info/RECORD,,
