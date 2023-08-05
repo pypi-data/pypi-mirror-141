@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: coolCropper
+Version: 0.0.1
+Summary: For randomly cropping images
+Home-page: https://github.com/ravi0531rp
+Author: Ravi Prakash
+Author-email: ravi.0531.rp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+## Cool Cropper
+
+Generate random crops of images in python
+
+### Installation
+
+```
+pip install coolCropper
+```
+
