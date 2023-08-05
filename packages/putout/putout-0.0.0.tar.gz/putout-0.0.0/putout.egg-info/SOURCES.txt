@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+putout.egg-info/PKG-INFO
+putout.egg-info/SOURCES.txt
+putout.egg-info/dependency_links.txt
+putout.egg-info/top_level.txt
