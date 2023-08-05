@@ -1,0 +1,14 @@
+*.pyc
+*.json
+.vscode
+**.vscode
+.pytest_cache
+.env
+docs/_build/
+dist/
+build/
+capcruncher.egg-info/
+pkgs/
+_build/
+.DS_Store
+*.bt2
