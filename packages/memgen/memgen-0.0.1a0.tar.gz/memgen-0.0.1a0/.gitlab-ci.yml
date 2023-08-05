@@ -1,0 +1,69 @@
+stages:
+  - base
+  - test
+  - package
+  - test-package
+  - release
+
+variables:
+  IMAGE_PATH: "${CI_REGISTRY}/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}/default:${CI_COMMIT_REF_SLUG}"
+
+"Build base":
+  image: docker:20
+  stage: base
+  before_script:
+    - docker login -u gitlab-ci-token -p ${CI_JOB_TOKEN} ${CI_REGISTRY}
+  script:
+    - docker build -t "${IMAGE_PATH}" .
+    - docker push "${IMAGE_PATH}"
+  tags:
+    - docker
+
+"Test":
+  image: "${IMAGE_PATH}"
+  stage: test
+  script:
+    - python3 -m pip install .
+    - which memgen
+    - python3 -m pip install pytest
+    - pytest
+
+"Publish to GitLab":
+  image: "${IMAGE_PATH}"
+  stage: package
+  script:
+    - python3 setup.py sdist bdist_wheel
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+  rules:
+    - if: $CI_COMMIT_TAG != null
+      when: always
+    - if: $CI_COMMIT_TAG == null
+      when: manual
+      allow_failure: true
+
+"Test GitLab package":
+  image: "${IMAGE_PATH}"
+  stage: test-package
+  script:
+    - pip3 install "memgen==$(python3 -m setuptools_scm)" --extra-index-url https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/api/v4/projects/33963031/packages/pypi/simple
+    - memgen example/chol.pdb membrane.pdb --png membrane.png
+  rules:
+    - if: $CI_COMMIT_TAG != null
+      when: always
+    - if: $CI_COMMIT_TAG == null
+      when: manual
+      allow_failure: true
+
+"Publish to PyPI":
+  image: "${IMAGE_PATH}"
+  stage: release
+  script:
+    - python3 setup.py sdist bdist_wheel
+    - TWINE_PASSWORD="${TWINE_PYPI_PASSWORD}" TWINE_USERNAME="__token__" twine upload dist/*
+  rules:
+    - if: $CI_COMMIT_TAG != null
+      when: manual
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE != "merge_request_event"'
