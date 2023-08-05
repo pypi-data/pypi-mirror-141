@@ -1,0 +1,2 @@
+[console_scripts]
+eclx = eclx.cli:main
