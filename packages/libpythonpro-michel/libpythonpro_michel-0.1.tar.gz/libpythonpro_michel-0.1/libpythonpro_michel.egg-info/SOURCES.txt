@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonpro_michel.egg-info/PKG-INFO
+libpythonpro_michel.egg-info/SOURCES.txt
+libpythonpro_michel.egg-info/dependency_links.txt
+libpythonpro_michel.egg-info/not-zip-safe
+libpythonpro_michel.egg-info/requires.txt
+libpythonpro_michel.egg-info/top_level.txt
