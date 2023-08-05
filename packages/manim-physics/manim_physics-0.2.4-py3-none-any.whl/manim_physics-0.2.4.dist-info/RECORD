@@ -1,0 +1,10 @@
+manim_physics/__init__.py,sha256=kE9J4WdDlhekWf9tqf3VAHIhTorF962kQS87k5fkqCo,160
+manim_physics/electromagnetism.py,sha256=TJapDKKSYKioFga2NW5Op2ppKrlrD7ac1o-ThIJenuU,10946
+manim_physics/lensing.py,sha256=edLlgpmPlXWLsRAC4qAqs_vMuQNehuiV30yYQHOfpu4,7668
+manim_physics/pendulum.py,sha256=oiURZ54kYkNw_31sPt776RrBrB1obXbklYG89Whixmk,5049
+manim_physics/rigid_mechanics.py,sha256=gd6ZZoEbdzg4y3r8r2xzP2UqZv5XvLR5rzqFa0aEAIc,7965
+manim_physics/wave.py,sha256=Ob2KATPyAbba7k3YZQqolXCMdJHege9qRcsYWnHD9r8,7589
+manim_physics-0.2.4.dist-info/entry_points.txt,sha256=dnLmyGhRjXeJEkDxkhHJg5UP5Go1DlVuUzKL4v5IfOE,45
+manim_physics-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+manim_physics-0.2.4.dist-info/METADATA,sha256=B15CEAJjEBvGun4D9q0J_YJ6wzGM_TH1OqbDxjy-HKI,10367
+manim_physics-0.2.4.dist-info/RECORD,,
