@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+
+recursive-include wagtailaudioembed/static *
+recursive-include wagtailaudioembed/templates *
+
+prune tests*

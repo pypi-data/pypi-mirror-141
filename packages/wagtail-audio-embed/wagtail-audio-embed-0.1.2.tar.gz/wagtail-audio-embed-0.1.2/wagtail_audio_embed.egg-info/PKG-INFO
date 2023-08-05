@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: wagtail-audio-embed
+Version: 0.1.2
+Summary: (Allows using audio URLs in Wagtail-Embeds and render them using the <audio>-Tag)
+Home-page: https://github.com/peterjochum/wagtail-audio-embed
+Author: Peter Jochum
+Author-email: peter.jochum@gmail.com
+License: GPLv3,
+Keywords: wagtail audio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Wagtail
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wagtail-Audio-Embed
+
+Wagtail-Audio-Embed allows you to use links to sound files using the embed
+feature of the draftail editor.
+
+It uses the default audio tag to play the audio file:
+
+![Rendering in Firefox](https://github.com/peterjochum/wagtail-audio-embed/raw/main/img/screenshot.png)
+
+See [Wagtail-Audio-Embed on PyPi](https://pypi.org/project/wagtail-audio-embed/0.1.1/)
+for binaries and additional information.
+
+## Quick start
+
+Install using pip:
+
+```bash
+pip install wagtail-audio-embed
+```
+
+Add "wagtailaudioembed" to your INSTALLED_APPS setting:
+
+```python
+INSTALLED_APPS = [
+    ...
+    'wagtailaudioembed',
+]
+```
+
+Register the embed finder class in your settings
+
+```python
+WAGTAILEMBEDS_FINDERS = [
+    {
+        "class": "wagtailaudioembed.embed.AudioEmbedFinder",
+    }
+]
+```
+
+Restart your application and start embedding links to Vorbis files.
+
+## References
+
+- [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/4.0/intro/reusable-apps/)
+- [Wagtail docs - Embedded content](https://docs.wagtail.org/en/stable/advanced_topics/embeds.html)
+- [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [Mozilla Developer Network : The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+
+
