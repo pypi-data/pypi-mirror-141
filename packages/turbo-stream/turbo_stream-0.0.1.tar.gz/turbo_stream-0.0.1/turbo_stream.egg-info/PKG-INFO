@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: turbo-stream
+Version: 0.0.1
+Summary: A module for down-streaming data from a selection of vendors.
+Home-page: https://github.com/DirksCGM/turbo-stream.git
+Author: DirkSCGM
+Author-email: dirkscgm@gmail.com
+License: UNKNOWN
+Keywords: pip,google_analytics,google_search_console
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
