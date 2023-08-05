@@ -1,0 +1,16 @@
+libnncase.targets.cpu.dylib,sha256=pOWygeWuKZzrdTZ-syqhOUMsTsfZiG9TOg9rYiqu2kQ,75376
+libnncase.dylib,sha256=SsWgYDHe7TIdnvBPVwgOHxgJw-W6fm0E6Ss8Xuj5Ipc,15460096
+libnncase.modules.vulkan.dylib,sha256=GEM0MgZ4jQB908JRtq7kC11xFmYdcJX784vqrYR10Zk,8092848
+libnncase.targets.vulkan.dylib,sha256=P7ebtELnp9ZI1S3Yh1K7TXBFWbYPOp0IdjQ3M_3acAE,97552
+libnncase.modules.k210.dylib,sha256=od90awNvAbYEYCRyGjGq_KXKgD-vX1R1oBmOsvZ0hXo,344912
+libnncase.targets.k210.dylib,sha256=6x5bdH5Qbyh-2uQVCu2DwCao1bUtix3ZGZTBECwRh7I,123456
+_nncase.cpython-37m-darwin.so,sha256=jHQCXCVn5XxopCRa8JgldKDz9_EpJO_pkxVSB-2hzWw,229872
+nncase-1.4.0.20220303.dist-info/RECORD,,
+nncase-1.4.0.20220303.dist-info/LICENSE,sha256=tTdrr12tvYx4LKECY4VVPqHV_33egMjqCh6wE7bWeIQ,11342
+nncase-1.4.0.20220303.dist-info/WHEEL,sha256=F-joUO9Niy2sXQSGChRzu-mfPcZVqo-aIdYGWSUwoWo,111
+nncase-1.4.0.20220303.dist-info/top_level.txt,sha256=S_6nEOnooSRclRzthgIC297bTDVxSghNxQyc_7oNxq4,15
+nncase-1.4.0.20220303.dist-info/METADATA,sha256=ZZMWGVZCkMCUZmx5vALfoIb9U1nZqepipCvr93UxIFI,3003
+nncase/__init__.py,sha256=VbXv1ycBuBI5fjNKF9fTNxPhxyChFiV27waD1o8lPBQ,1922
+nncase/simulator.py,sha256=RUE2hzivL0zSQXWN1DW9kLxUtwZB9Mzy9LLl6d1aKbM,508
+nncase/base.py,sha256=zhkoaH2tOlT44Fd-urWLreVAGInTsJhqOXJ82J8C7M8,81
+nncase/.dylibs/libomp.dylib,sha256=9trUIZGEbt82v3bsn8EmvT3qIQDIBnPN3Ih3VeD8-ZY,600800
