@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+boto_s3_router/__init__.py
+boto_s3_router/botos3router.py
+boto_s3_router.egg-info/PKG-INFO
+boto_s3_router.egg-info/SOURCES.txt
+boto_s3_router.egg-info/dependency_links.txt
+boto_s3_router.egg-info/requires.txt
+boto_s3_router.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
