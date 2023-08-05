@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pi-finder
+Version: 0.1.0
+Summary: 
+Author: Philipp Viereck
+Author-email: no@email.nothingexist
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-nmap (>=0.7.1,<0.8.0)
+Requires-Dist: yaspin (>=2.1.0,<3.0.0)

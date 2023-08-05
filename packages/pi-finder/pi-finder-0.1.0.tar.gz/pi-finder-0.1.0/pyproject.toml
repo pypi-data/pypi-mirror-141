@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pi-finder"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Viereck <no@email.nothingexist>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+yaspin = "^2.1.0"
+python-nmap = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pi-finder = 'pi_finder.main:run'
