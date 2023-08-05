@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: halconcontroller
+Version: 0.4.5.2
+Summary: This package allows to control MvTec HALCON Programs into Python.
+Home-page: https://github.com/pbozzini/halconcontroller
+Author: Pascal Bozzini
+Author-email: bozzinipascal@gmail.com
+License: MIT
+Download-URL: https://github.com/pbozzini/halconcontroller.git
+Description: UNKNOWN
+Keywords: Halcon,Python,MvTec
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
