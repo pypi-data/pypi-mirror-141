@@ -1,0 +1,57 @@
+{% extends 'main/layout.html' %} {% load static %}
+<!-- block -->
+{% block title %} {{title}} {%endblock title %} {% block content %}
+<section class="">
+  <div class="content-wrapper">
+    <div class="content-heading text-center">
+      <div class="row justify-content-around mb-2 mt-5">
+       
+        <div class="col-md-8">
+          <h1 class="text-center">Export No Backup Dadus Suku</h1>
+          {% comment %} <h3>Diresaun Nasional Apoiu Administrasaun Sukus</h3> {% endcomment %}
+        
+        </div>
+
+       
+      </div>
+      <hr />
+      {% if group != 'admin' %}
+    
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <center>
+
+
+    {% if naranfile == "mamuk" %}
+
+       <a href="{% url 'exportdadussuku' %}" class="btn btn-primary"><span class="btn-label"><i class="fa fa-download"></i></span>Export Dadus</a> 
+
+    {% else %}
+
+
+    <center> <img src='../media/dadusexport/icon.png' width="100px"> <br>  <br> 
+
+                    <h6>  {{naranfile}} </h6>
+      <br><br>
+
+   <a href="../media/dadusexport/{{naranfile}}" class="btn btn-primary"><span class="btn-label"><i class="fa fa-download"></i></span>Download</a>
+
+   </center>
+
+    {% endif %}
+
+
+          </center>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+</section>
+
+
+<script src="{% static 'main/js/jquery.min.js' %}"></script>
+<script src="{% static 'main/vendor/chart.js/dist/population_chart.js' %}"></script>
+<script src="{% static 'main/vendor/chart.js/dist/custom_chart.js' %}"></script>
+<script src="{% static 'main/vendor/chart.js/dist/development_chart.js' %}"></script>
+
+{% endblock %}
