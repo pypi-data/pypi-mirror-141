@@ -1,0 +1,12 @@
+README
+plistop.py
+setup.py
+plistop.egg-info/.SOURCES.txt.icloud
+plistop.egg-info/.dependency_links.txt.icloud
+plistop.egg-info/.requires.txt.icloud
+plistop.egg-info/.top_level.txt.icloud
+plistop.egg-info/PKG-INFO
+plistop.egg-info/SOURCES.txt
+plistop.egg-info/dependency_links.txt
+plistop.egg-info/requires.txt
+plistop.egg-info/top_level.txt
