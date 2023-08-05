@@ -1,0 +1,2 @@
+[lms.djangoapp]
+figures = figures.apps:FiguresConfig
