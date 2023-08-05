@@ -1,0 +1,11 @@
+pytest
+coverage
+numpy
+scipy
+scikit-learn
+scikit-image
+tqdm
+h5py
+matplotlib
+joblib
+parameterized
