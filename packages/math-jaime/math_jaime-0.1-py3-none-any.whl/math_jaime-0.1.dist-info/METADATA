@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: math-jaime
+Version: 0.1
+Summary: Utilidades matematicas
+Home-page: UNKNOWN
+Author: Jaime Casado
+Author-email: jaime.casado.a@gmail.com
+License: GNU GPLv3
+Keywords: math_jaime mathematical operations prime
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+
+Math Jaime
+==============
+
+Paquete simple para la actividad de fundamentos python. Este paquete contiene un conjunto de funciones para calcular numeros primos.
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
