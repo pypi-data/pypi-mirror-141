@@ -1,0 +1,160 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1\/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1\/": {
+      "Wibu\/1.0.0": {
+        "dependencies": {
+          "LargeAddressAware": "1.0.5",
+          "Microsoft.CSharp": "4.7.0",
+          "Simple-MAPI.NET": "1.1.0",
+          "Technica.Pendulum": "0.0.4",
+          "Wibu.CodeMeter.WibuCmNET": "7.30.4820.501",
+          "Microsoft.Xml.Schema.Linq": "0.10.1000.0"
+        },
+        "runtime": {
+          "Wibu.dll": {}
+        }
+      },
+      "LargeAddressAware\/1.0.5": {},
+      "Microsoft.CSharp\/4.7.0": {
+        "runtime": {
+          "lib\/netstandard2.0\/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "NodaTime\/3.0.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib\/netstandard2.0\/NodaTime.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      },
+      "RoslynCodeTaskFactory\/2.0.7": {},
+      "Simple-MAPI.NET\/1.1.0": {
+        "runtime": {
+          "lib\/net20\/SimpleMapi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe\/4.7.1": {
+        "runtime": {
+          "lib\/netstandard2.0\/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.20.12001"
+          }
+        }
+      },
+      "Technica.Pendulum\/0.0.4": {
+        "dependencies": {
+          "NodaTime": "3.0.5"
+        },
+        "runtime": {
+          "lib\/netstandard2.0\/Technica.Pendulum.dll": {
+            "assemblyVersion": "0.0.4.0",
+            "fileVersion": "0.0.4.0"
+          }
+        }
+      },
+      "Wibu.CodeMeter.WibuCmNET\/7.30.4820.501": {
+        "dependencies": {
+          "RoslynCodeTaskFactory": "2.0.7"
+        },
+        "runtime": {
+          "lib\/netstandard2.0\/WibuCmNET.dll": {
+            "assemblyVersion": "7.30.4820.501",
+            "fileVersion": "7.30.4820.501"
+          }
+        }
+      },
+      "Microsoft.Xml.Schema.Linq\/0.10.1000.0": {
+        "runtime": {
+          "Microsoft.Xml.Schema.Linq.dll": {
+            "assemblyVersion": "0.10.1000.0",
+            "fileVersion": "0.10.1000.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wibu\/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LargeAddressAware\/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BD0M9HEgD8kdT4tP9HWDbhzJ7YuacD4x3DWc8RckSaWZY+l\/8jhGCqa49El0kCJpA+MoFgO+ttxSwSUjBX09zw==",
+      "path": "largeaddressaware\/1.0.5",
+      "hashPath": "largeaddressaware.1.0.5.nupkg.sha512"
+    },
+    "Microsoft.CSharp\/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp\/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "NodaTime\/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ctgx76GTZ3hcE0lV\/XepXskkZ2m3F\/XSftwb\/a3vK+vSorbT3QhGgWp\/ZNb13oyKQhBdFIPiISilvx49LQggtw==",
+      "path": "nodatime\/3.0.5",
+      "hashPath": "nodatime.3.0.5.nupkg.sha512"
+    },
+    "RoslynCodeTaskFactory\/2.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UgfAOUInb7PXgdgCVTHhtpr2RCTBnPE8ZzqZhF7Tq92zxtVMQr6lYdiUfMgoPrye\/viIVK1Wlgpt5JWVr1XF5Q==",
+      "path": "roslyncodetaskfactory\/2.0.7",
+      "hashPath": "roslyncodetaskfactory.2.0.7.nupkg.sha512"
+    },
+    "Simple-MAPI.NET\/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZB9JPD1i9YuVuL6e0KRdrXDssL94UndQbr6JHSV5TmnFK+MTcLcD38zxBZLJEmA2ZUM1iA0\/OQP0n2V0yMzvg==",
+      "path": "simple-mapi.net\/1.1.0",
+      "hashPath": "simple-mapi.net.1.1.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe\/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOHkQmzPCn5zm\/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "path": "system.runtime.compilerservices.unsafe\/4.7.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    },
+    "Technica.Pendulum\/0.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uIt0NywEH5b+96CLAah\/hzaCgnxWE2MhbTkk9cXPWuq8NanEiWFuQiWoUYO5ET7RP+9KlPcnaepRFLXN15EaVw==",
+      "path": "technica.pendulum\/0.0.4",
+      "hashPath": "technica.pendulum.0.0.4.nupkg.sha512"
+    },
+    "Wibu.CodeMeter.WibuCmNET\/7.30.4820.501": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5nQg0cSnRgym6B7YGQRG8tbe5CfTcKB3e5DJEHaVFVw43ZTf2mqFvcfQSjiPqbRIa9w4dhZVbfJ\/3oQHlL3hNw==",
+      "path": "wibu.codemeter.wibucmnet\/7.30.4820.501",
+      "hashPath": "wibu.codemeter.wibucmnet.7.30.4820.501.nupkg.sha512"
+    },
+    "Microsoft.Xml.Schema.Linq\/0.10.1000.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

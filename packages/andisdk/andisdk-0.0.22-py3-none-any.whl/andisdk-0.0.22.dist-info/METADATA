@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: andisdk
+Version: 0.0.22
+Summary: ANDi python package to interact with ANDi scripting features from stand alone python package
+Author: Technica Engineering
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: pythonnet (==2.5.2) ; python_version < "3.0"
+Requires-Dist: pythonnet (==3.0.0a2) ; python_version >= "3.0"
+Requires-Dist: udsoncan (==1.14) ; python_version >= "3.0"
+
+# ANDi Python Package
+
+This is to support using ANDi scripting environment via pip.
+
+## Content
+
+- ANDi message builder
+- ANDi andi library
+
+## How to use
+
+### install package from repository
+
+- cd into this directory
+- run pip install . --trusted-host nexus.technica-engineering.net
+
+### install package from nexus
+
+- once the package is published, add nexus to list of pip sources
+- run pip install andisdk
+
+### usage
+
+first we need to import the sdk, the sdk offers a load_project method that loads an atp project and returns a scope containing the message_builder, the andi object and the channels.
+
+- import either by ``import andisdk`` or ``from andisdk import load_project``
+- create scope object ``scope = andisdk.loadproject(path_to_atp)`` or ``scope = loadproject(path_to_atp)``
+- from the scope do any manipulation you need for example ``scope.message_builder.create_ethernet_message()``
+
+#### Note
+ channels are also added to scope, and are accessible via ``scope.channel_name``
+

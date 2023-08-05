@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technica.Databases.Ldf</name>
+    </assembly>
+    <members>
+        <member name="T:Technica.Data.Ldf.Converter.ArgumentEscaper">
+            <summary>
+            A utility for escaping arguments for new processes.
+            </summary>
+        </member>
+        <member name="M:Technica.Data.Ldf.Converter.ArgumentEscaper.EscapeAndConcatenate(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Undo the processing which took place to create string[] args in Main, so that the next process will
+            receive the same string[] args.
+            </summary>
+            <remarks>
+            See https://blogs.msdn.microsoft.com/twistylittlepassagesallalike/2011/04/23/everyone-quotes-command-line-arguments-the-wrong-way/
+            </remarks>
+            <param name="args">The arguments</param>
+            <returns>A single string of escaped arguments</returns>
+        </member>
+    </members>
+</doc>
