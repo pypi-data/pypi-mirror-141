@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: genAI-value-finder
+Version: 0.0.2
+Summary: find the values of variables in given equation
+Home-page: UNKNOWN
+Author: Dhruv A. Gandhi
+Author-email: dhruvalkeshkumargandhi2000@gmail.com
+License: MIT
+Keywords: values
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.TXT
+
+This is a very simple python library which easily find the value of given variable.
+This library is very usefull for finding variable's value of any type of quuatoin. 
+
+Change Log
+===========
+
+0.0.2 (Date: 03/03/2022) (Time: 00.53)
+----------------------------------------
+
+- First release
+
