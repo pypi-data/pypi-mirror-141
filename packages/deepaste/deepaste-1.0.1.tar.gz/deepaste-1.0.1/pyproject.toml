@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "deepaste"
+version = "1.0.1"
+description = "Deepaste is a simple application to send console pastes to the dpaste.org paste service."
+authors = ["Lukas Ruzicka <lruzicka@redhat.com>"]
+license = 'GPL 3.0'
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[tool.poetry.scripts]
+dpaste = 'deepaste.deepaste:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
