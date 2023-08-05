@@ -1,0 +1,10 @@
+README.md
+setup.py
+shifty_face/example/__init__.py
+shifty_face/example/__main__.py
+shifty_face/example/settings.py
+shifty_face/shiftyface.egg-info/PKG-INFO
+shifty_face/shiftyface.egg-info/SOURCES.txt
+shifty_face/shiftyface.egg-info/dependency_links.txt
+shifty_face/shiftyface.egg-info/requires.txt
+shifty_face/shiftyface.egg-info/top_level.txt
