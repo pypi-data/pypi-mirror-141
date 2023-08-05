@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jobspire_nitra
+Version: 0.0.1
+Summary: Nitra
+Home-page: https://github.com/HBS-Economics/nitra.git
+Author: JobSpire team
+Author-email: <info@jobspire.com>
+License: UNKNOWN
+Keywords: python,nitra package
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+JobSpire truth table remote control
+TODO: write this
+
