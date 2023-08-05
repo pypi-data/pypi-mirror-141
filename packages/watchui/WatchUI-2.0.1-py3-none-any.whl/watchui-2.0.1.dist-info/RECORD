@@ -1,0 +1,13 @@
+WatchUI/Ibasic/IBasic.py,sha256=HGyxB6BZNFA5zjrAz1X4G0oMFCb9vWhl8iaWamsj_0E,5484
+WatchUI/Ibasic/__init__.py,sha256=SPkUxZwthTyxcn2q8WrNBQVfcF8yP2A5Q2MGYFRlWxA,78
+WatchUI/WatchUI.py,sha256=EqD8k_DcYTBuUpg9obC92YWqFXFdRc5udcIMrcBSK9U,2522
+WatchUI/__init__.py,sha256=GCxTccWKyW1xBRRx3IGzax4nHfHYHwsfBCsp6neDuUw,36
+WatchUI/keywords/Image.py,sha256=jOn1X4CYJf2rRXw8dIEnS0o_CjmYJ9fDuBssRYnShY0,10598
+WatchUI/keywords/PDF.py,sha256=GP50CLQ6dYKWfu6oJETYmpGsck5b_PWAUk94fVUJV_c,3677
+WatchUI/keywords/Tesseract.py,sha256=OPhQ6GpJ2Bz-05ALbd2aVFobZ3AhlP-5SMbr3bgEVps,4376
+WatchUI/keywords/__init__.py,sha256=6XoC6328MkY-JSBqUwXK1s2VoJ7NKq1qH_0CtfUSQm0,166
+watchui-2.0.1.dist-info/entry_points.txt,sha256=sHvYwBPTSEgmTfmu2Cav4usN2_UJzncfELvEXcDt8R4,51
+watchui-2.0.1.dist-info/LICENSE,sha256=adHuUZPaTW8BgzlSBEpQYEscAPQ9yXO2XM5qGbgVFPs,1135
+watchui-2.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+watchui-2.0.1.dist-info/METADATA,sha256=yUEqqq_840vqsgG6svthROq7ptVcTs68B4wGVY856FU,718
+watchui-2.0.1.dist-info/RECORD,,

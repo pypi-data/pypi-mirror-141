@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: watchui
+Version: 2.0.1
+Summary: RobotFramework library package for automated visual testing.
+License: MIT
+Author: Jan Egermaier
+Author-email: jan.egermaier@tesena.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow
+Requires-Dist: PyMuPDF
+Requires-Dist: imutils
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pytesseract
+Requires-Dist: robotframework
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
