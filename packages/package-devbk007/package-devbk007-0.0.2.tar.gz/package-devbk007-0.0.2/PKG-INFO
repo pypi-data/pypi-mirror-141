@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: package-devbk007
+Version: 0.0.2
+Summary: A small package for perceptron
+Home-page: https://github.com/devbk007/package
+Author: devbk007
+Author-email: baizelkv@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/devbk007/package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perceptron python package
+A small perceptron package
+## References - 
+
+*[Official python docs for PYPI](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+* [Github action file for PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
