@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+deeppdf/__init__.py
+deeppdf/pdf2image.py
+deeppdf/pdf2text.py
+deeppdf.egg-info/PKG-INFO
+deeppdf.egg-info/SOURCES.txt
+deeppdf.egg-info/dependency_links.txt
+deeppdf.egg-info/top_level.txt
