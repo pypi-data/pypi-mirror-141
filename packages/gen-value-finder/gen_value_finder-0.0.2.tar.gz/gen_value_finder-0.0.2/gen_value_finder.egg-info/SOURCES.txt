@@ -1,0 +1,9 @@
+LICENSE.TXT
+MANIFEST.in
+README.txt
+setup.py
+gen_value_finder.egg-info/PKG-INFO
+gen_value_finder.egg-info/SOURCES.txt
+gen_value_finder.egg-info/dependency_links.txt
+gen_value_finder.egg-info/top_level.txt
+init_file/__init__.py
