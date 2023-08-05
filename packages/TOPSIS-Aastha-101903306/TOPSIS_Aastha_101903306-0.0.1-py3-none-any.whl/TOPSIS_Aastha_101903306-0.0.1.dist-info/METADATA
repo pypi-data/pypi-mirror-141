@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: TOPSIS-Aastha-101903306
+Version: 0.0.1
+Summary: This package will help you calculate TOPSIS Rank
+Home-page: https://github.com/AasthaJaipuria/TOPSIS-Aastha-101903306
+Author: Aastha Jaipuria
+Author-email: aasthajaipuria2000@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AasthaJaipuria/TOPSIS-Aastha-101903306/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TOPSIS Rank 
+
+This package will help you calculate TOPSIS rank quickly.
+
+## How to install it?
+
+## On Windows:
+
+```
+pip install TOPSIS-Aastha-101903306
+```
+
+## On Linux:
+
+```
+sudo pip3 install TOPSIS-Aastha-101903306
+```
+
+## How to use it?
+
+topsis(DF, weights, impacts):
+
+Parameters:
+    DF : pandas dataframe which contains 3 or more than 3 columns. 
+    weights : numeric values 
+    impacts : + or - 
+
+To run the file, enter 5 command line arguments:
+1. The name of the current file
+2. Input file containing data (either .csv or .xlsx)
+3. A string containing weights
+4. A string containg impacts (either + or -)
+5. Name of output file
+
+     
+
+
+
+
