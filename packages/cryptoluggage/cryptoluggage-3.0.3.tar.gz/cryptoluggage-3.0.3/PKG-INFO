@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cryptoluggage
+Version: 3.0.3
+Summary: Cryptoluggage allows to keep encrypted secrets (e.g., passwords) and files
+Home-page: https://github.com/miguelinux314/cryptoluggage
+Author: Miguel Hernández Cabronero
+Author-email: miguel.hernandez@uab.cat
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cryptoluggage
+
+Cryptoluggage allows you to store your secrets (for example, passwords)
+and private files encrypted.
+
+## Installation
+
+`pip install cryptoluggage`
+
+
+## Running
+
+After installation, you can run the `cl` command.
+
+## Usage:
+
+To create a new luggage:
+
+`cl create luggage_path`
+
+To open an existing luggage: 
+
+`cl open luggage_path`
+
