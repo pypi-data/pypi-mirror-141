@@ -1,0 +1,3 @@
+[console_scripts]
+scintillant = scintillant.entry_points:main
+snlt = scintillant.entry_points:main
