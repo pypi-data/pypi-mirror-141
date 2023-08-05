@@ -1,0 +1,16 @@
+numpy
+
+[api]
+flask
+flask_cors
+
+[cockpit]
+opencv-python
+python-socketio
+websocket-client
+
+[rpc]
+zerorpc
+
+[shared_memory]
+posix-ipc
