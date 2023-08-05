@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "HeliumHelper"
+version = "0.3.0"
+description = "HeliumHelper is a Python library to aid in creating Helium apps."
+license = "MIT"
+authors = ["Nathan Pirhalla <steelersfan5052@yahoo.com>"]
+readme = "README.md"
+repository = "https://github.com/nathan7432/HeliumHelper.git"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+pandas = "^1.4.1"
+flatdict = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+tox = "^3.24.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
