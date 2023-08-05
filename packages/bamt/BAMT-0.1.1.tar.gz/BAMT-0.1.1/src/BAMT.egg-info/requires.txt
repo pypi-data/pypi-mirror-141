@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+pomegranate
+networkx
+pyvis
+missingno
+gmr
