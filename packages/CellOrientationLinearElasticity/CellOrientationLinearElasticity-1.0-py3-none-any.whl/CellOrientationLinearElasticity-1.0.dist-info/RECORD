@@ -1,0 +1,11 @@
+CellOrientationLinearElasticity/__init__.py,sha256=SotUibKJ1NEqZUJfW8bAASojjFB3bh33pXjlIvbho1o,709
+orientation/__init__.py,sha256=9WV4u5Kwe05ZKpYefnO_OaLcFXED8q-Ixlk56rPrsy4,1080
+orientation/single_strain.py,sha256=MuNlqzUqXdopPto4_Leoy00DMQmJZGn0kMKyTaNKNRY,3694
+orientation/strain_addition.py,sha256=fI5ekqIUX2DfsgVII9glQK44-UbsOPc6OXo6PX_teR8,7222
+simulation/__init__.py,sha256=NBNOpTD_TAgJOhMFO9Zu5M5iXDBIo-0vqw2ui4o9N5Y,384
+simulation/simulation.py,sha256=R8UEnnWPQN5kYB6tv7HISSknp620sm4J3WiJsW1UfeQ,4220
+CellOrientationLinearElasticity-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+CellOrientationLinearElasticity-1.0.dist-info/METADATA,sha256=KvKPB8b10QXwo_6DAV3vMHj1PtyAGY_i-Hi14_cXWEQ,1048
+CellOrientationLinearElasticity-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CellOrientationLinearElasticity-1.0.dist-info/top_level.txt,sha256=hY1RTdAucjbQdR0ZTl-YBq7KdMsQCERexaTHeFAZzQg,55
+CellOrientationLinearElasticity-1.0.dist-info/RECORD,,
