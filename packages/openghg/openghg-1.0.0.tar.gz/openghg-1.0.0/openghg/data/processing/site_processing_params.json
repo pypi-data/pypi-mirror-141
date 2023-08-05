@@ -1,0 +1,41 @@
+{
+  "GCWERKS": [
+    { "site": "MHD", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "CGO", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "GSN", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "SDZ", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "THD", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "RPB", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "SMO", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "SIO", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "JFJ", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "CMN", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "ZEP", "instrument": "medusa", "network": "AGAGE" },
+    { "site": "RPB", "instrument": "GCMD", "network": "AGAGE" },
+    { "site": "CGO", "instrument": "GCMD", "network": "AGAGE" },
+    { "site": "MHD", "instrument": "GCMD", "network": "AGAGE" },
+    { "site": "SMO", "instrument": "GCMD", "network": "AGAGE" },
+    { "site": "THD", "instrument": "GCMD", "network": "AGAGE" },
+    { "site": "CGO", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "MHD", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "RPB", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "SMO", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "THD", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "JFJ", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "CMN", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "ZEP", "instrument": "GCMS", "network": "AGAGE" },
+    { "site": "BSD", "instrument": "GCMD", "network": "DECC" },
+    { "site": "HFD", "instrument": "GCMD", "network": "DECC" },
+    { "site": "TAC", "instrument": "GCMD", "network": "DECC" },
+    { "site": "RGL", "instrument": "GCMD", "network": "DECC" },
+    { "site": "TAC", "instrument": "medusa", "network": "DECC" }
+  ],
+  "CRDS": [
+    { "site": "RPB", "network": "AGAGE" },
+    { "site": "HFD", "network": "DECC" },
+    { "site": "BSD", "network": "DECC" },
+    { "site": "TTA", "network": "DECC" },
+    { "site": "RGL", "network": "DECC" },
+    { "site": "TAC", "network": "DECC" }
+  ]
+}
