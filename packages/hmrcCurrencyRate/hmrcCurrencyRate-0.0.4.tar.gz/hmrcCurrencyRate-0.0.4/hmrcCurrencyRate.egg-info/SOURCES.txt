@@ -1,0 +1,6 @@
+README.md
+setup.py
+hmrcCurrencyRate.egg-info/PKG-INFO
+hmrcCurrencyRate.egg-info/SOURCES.txt
+hmrcCurrencyRate.egg-info/dependency_links.txt
+hmrcCurrencyRate.egg-info/top_level.txt
