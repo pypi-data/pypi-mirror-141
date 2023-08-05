@@ -1,0 +1,13 @@
+README.md
+license.md
+pyproject.toml
+setup.py
+client/__init__.py
+client/api.py
+client/client.py
+client/command_line.py
+itreat_lotr.egg-info/PKG-INFO
+itreat_lotr.egg-info/SOURCES.txt
+itreat_lotr.egg-info/dependency_links.txt
+itreat_lotr.egg-info/entry_points.txt
+itreat_lotr.egg-info/top_level.txt
