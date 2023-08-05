@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wagtail-audio-embed
+Version: 0.1.1
+Summary: (Allows using audio URLs in Wagtail-Embeds and render them using the <audio>-Tag)
+Home-page: https://github.com/peterjochum/wagtail-audio-embed
+Author: Peter Jochum
+Author-email: peter.jochum@gmail.com
+License: GPLv3,
+Keywords: wagtail audio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Wagtail
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wagtail (>=2.13)
+
+# Wagtail audio embed
+
+Wagtail-audio-embed allows you to use links to sound files using the embed
+feature of the draftail editor.
+
+It uses the default audio tag to play the audio file:
+![Rendering in Firefox](img/screenshot.png)
+
+## Quick start
+
+Add "wagtailaudioembed" to your INSTALLED_APPS setting like this::
+
+```python
+INSTALLED_APPS = [
+    ...
+    'wagtailaudioembed',
+]
+```
+
+Register the embed finder class in your settings
+
+```python
+WAGTAILEMBEDS_FINDERS = [
+    {
+        "class": "wagtailaudioembed.embed.AudioEmbedFinder",
+    }
+]
+```
+
+Restart your application and start embedding links to Vorbis files
+
+## References
+
+- [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/4.0/intro/reusable-apps/)
+- [Wagtail docs - Embedded content](https://docs.wagtail.org/en/stable/advanced_topics/embeds.html)
+
+
