@@ -1,0 +1,13 @@
+ensureconda/__init__.py,sha256=6hryLITwYQTWNNAbSZMWmImnZhZsghKL_oXQzfmenyM,176
+ensureconda/__main__.py,sha256=OLg_0zT-0u2L8CN-x5cmyhYO6hzTwdbC_JtS2uA1gcM,48
+ensureconda/api.py,sha256=cwMokGr99yZAfFy4ByafAl3x8_cba8oGDtmTMFMImQ4,3847
+ensureconda/cli.py,sha256=i4s8iHyI25SZqwvLFCoLzlqJyJZ7wM6CwVHzLdheUmA,3016
+ensureconda/installer.py,sha256=tHoDqMmG0cgUG7GTJIT7vdbW0xRWpruyJn1AWuiKlJQ,3264
+ensureconda/resolve.py,sha256=cJcsLYsR-Hz1ImfzzEAmuSJLMPwOUKF6beDyCkvuQ0o,3177
+ensureconda-1.4.2.dist-info/LICENSE-MIT,sha256=FFeqBLTGvroyalL4SSsjrqRGbLlnHrO7g9X43-P-gyk,1075
+ensureconda-1.4.2.dist-info/METADATA,sha256=_AL5nvPcV8I4eG47UR3Is7aBfxfN4WEiPhv4b9xz9VA,3068
+ensureconda-1.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ensureconda-1.4.2.dist-info/entry_points.txt,sha256=Adx5umxfSMdr2D_scrydJjrgA6fLo0205CI96olijDs,65
+ensureconda-1.4.2.dist-info/top_level.txt,sha256=H_cyHhgrY-HfPNAfMfuk8y1prWZvi4EkDoOHnoh37-8,12
+ensureconda-1.4.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ensureconda-1.4.2.dist-info/RECORD,,
