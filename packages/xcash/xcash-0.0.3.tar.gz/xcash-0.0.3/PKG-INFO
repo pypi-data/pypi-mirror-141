@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: xcash
+Version: 0.0.3
+Summary: XCASH ecosystem wrapper
+Home-page: https://github.com/X-CASH-official/XCASH-Ecosystem-api-wrapper
+Author: AnimusXCASH
+Author-email: lovro@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# XCASH-Ecosystem-api-wrapper
+
+
+Pip package of wrappers arround various RestApi related to XCASH Foundation ecosystem
+
+Integrated:
+
+- [X] Blockchain explorer
+    - [X] Examples
+- [X] DPOPS Delegate explorer
+    - [X] Examples
+- [X] Shared delegate API
+    - [X] Examples
+- [ ] Pypi (PIP) deployment
+
+
+
+
