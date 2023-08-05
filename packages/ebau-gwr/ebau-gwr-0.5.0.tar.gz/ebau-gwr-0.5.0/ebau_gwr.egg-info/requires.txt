@@ -1,0 +1,11 @@
+cryptography>=36
+django~=3.2
+django-environ<0.9
+django-filter<22
+django-generic-api-permissions>=0.2
+djangorestframework<4
+djangorestframework-jsonapi~=5.0
+mozilla-django-oidc>=2
+requests<3
+psycopg2-binary>=2.9
+uwsgi<2.1
