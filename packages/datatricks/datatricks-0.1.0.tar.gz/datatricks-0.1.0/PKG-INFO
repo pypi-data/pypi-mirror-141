@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: datatricks
+Version: 0.1.0
+Summary: Common Functions for Data Science/Analysis
+Home-page: https://github.com/shivam01anand/datatricks
+License: MIT
+Keywords: data,analytics,datascience,pandas,etl
+Author: Shivam Anand
+Author-email: shivam01anand@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Pillow (>=9.0.1,<10.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/shivam01anand/datatricks
