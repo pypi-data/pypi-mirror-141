@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lotr-isaaktreat
+Version: 0.0.2
+Summary: SDK for Lord of the Rings API
+Home-page: https://github.com/isaak-treat/LotRIsaakSDK
+Author: Isaak Treat
+Author-email: isaaktreaty@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# LotR Isaak Treat SDK
+### Contributors: Isaak Treat
+
+## How To Install
+### pip:
+pip install lotr-isaaktreat==0.0.1
+Url: https://pypi.org/project/lotr-isaaktreat/0.0.1/
+
+## Usage
+### ASDF
+
+## How To Test
+
