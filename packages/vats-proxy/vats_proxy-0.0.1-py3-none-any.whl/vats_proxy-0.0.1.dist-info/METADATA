@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: vats-proxy
+Version: 0.0.1
+Summary: Free Proxy Library for requests library
+Home-page: UNKNOWN
+Author: Goktug Cetin
+Author-email: goktugcetin1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: free-proxy
+
+# Vats_Proxy
+
+Free Proxy library for Python to use with requests library.
+
+
+
+### Installation
+
+```
+
+pip install vats_proxy
+
+```
+
+
+
+### Get started
+
+How to initiate ProxyManager and Use it:
+
+
+
+```Python
+
+from vats_proxy import ProxyManager
+
+
+
+# Initialize Manager
+
+proxy_manager = ProxyManager(count=1)
+
+
+
+# Make request with proxy
+
+proxy = proxy_manager.proxies.pop()
+
+request = requests.get("https://google.com", proxies=proxy)
+
+
+
+```
+
