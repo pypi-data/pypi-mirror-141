@@ -1,0 +1,12 @@
+matplotlib
+numpy
+scipy
+argparse
+cycler
+
+[test]
+matplotlib
+numpy
+scipy
+argparse
+cycler
