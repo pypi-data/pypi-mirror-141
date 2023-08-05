@@ -1,0 +1,2 @@
+[console_scripts]
+lotr-info = client.command_line:main
