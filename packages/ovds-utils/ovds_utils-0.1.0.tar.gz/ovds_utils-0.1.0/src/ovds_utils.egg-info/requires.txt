@@ -1,0 +1,2 @@
+humanfriendly>=10.0
+openvds>=2.3.0
