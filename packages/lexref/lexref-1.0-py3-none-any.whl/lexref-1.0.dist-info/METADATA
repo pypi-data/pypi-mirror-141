@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lexref
+Version: 1.0
+Summary: LEgislative teXt REFerence extraction
+Home-page: https://github.com/Lexparency/lexref
+Author: Martin Heimsoth
+Author-email: mail@lexparency.org
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anytree
+Requires-Dist: lxml
+
+# LexRef
+
+LEgislative teXt REFerence extraction.
+
+The lexref package provides markup for references to legislative
+texts of the European Union. The resulting markups are anchor
+elements pointing to the corresponding articles, paragraphs, or
+chapters within the lexparency document model.
+
+## Usage
+
+```python
+from lexref import Reflector
+reflector = Reflector('EN', 'markup')
+reflector('Article 2(1)')
+'Article <a title="Article 2(1)" href="#ART_2-1">2(1)</a>'
+```
+
+Currently, this package supports three languages:
+English (EN), German (DE), and Spanish (ES).
+
