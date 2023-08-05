@@ -1,0 +1,10 @@
+README.md
+setup.py
+brutx4/FTP.py
+brutx4/Zip.py
+brutx4/__init__.py
+brutx4/hash.py
+brutx4.egg-info/PKG-INFO
+brutx4.egg-info/SOURCES.txt
+brutx4.egg-info/dependency_links.txt
+brutx4.egg-info/top_level.txt
