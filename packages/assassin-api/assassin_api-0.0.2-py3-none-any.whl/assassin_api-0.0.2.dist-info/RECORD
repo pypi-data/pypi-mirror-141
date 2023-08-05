@@ -1,0 +1,13 @@
+assassin_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assassin_api/api.py,sha256=4FhZrsG5hmbXvw5jc1eH4Idi-RrIAiLSYzbGAxTIBoc,8443
+assassin_api/decorators.py,sha256=fewSmlm4xONj2pmrWz4wSChE9fTOYMfVdYbpgc-pJvI,896
+assassin_api/exceptions.py,sha256=DfPF3k-DgStciEsrXYseWnzd-0PSzHcfCin7MzXuPgg,972
+assassin_api/mapping_models.py,sha256=3mMRjVO0x8WQxJzfM8seeu41misjefqWKTWA0Bf1vgw,14972
+assassin_api/queries.py,sha256=9qjN_0O7ZfLMV8KdMejK8wMquxLBXcttnyrtiIad9S0,4751
+assassin_api/session.py,sha256=btduXmXIxHMUhQEOP2G_wD0r0HoGBdCNyTQy2VChNcg,5674
+assassin_api/validators.py,sha256=8ZVYFbIangsG1NcXNMPLFDMwx0T2zwl4__MZbyvsQXc,2901
+assassin_api-0.0.2.dist-info/LICENSE,sha256=T0eTPzleHkBrtJvHkUXH-RR8DaI_ULFNjLC2aPeExM4,1073
+assassin_api-0.0.2.dist-info/METADATA,sha256=zeySqWQu1krlkQlH1tIuZ6DXy0wzJ4H0xGXENTSUU4Q,466
+assassin_api-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+assassin_api-0.0.2.dist-info/top_level.txt,sha256=4V-e35YTGALo5SB_lQg-oe32yIYsiLQhFMXsYOp16ik,13
+assassin_api-0.0.2.dist-info/RECORD,,
