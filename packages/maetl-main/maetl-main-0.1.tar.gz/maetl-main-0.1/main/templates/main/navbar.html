@@ -1,0 +1,67 @@
+{% load static %}
+<header class="topnavbar-wrapper">
+  <!-- START Top Navbar-->
+  <nav class="navbar topnavbar navbar-expand-md navbar-light ml-auto">
+    <!-- START navbar header-->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{% url 'dashboard' %}">
+        <div class="brand-logo"><img class="img-fluid" width="50px" src="{% static 'main/img/mae.png' %}" alt="App Logo" /><b class="text-white">SIIGSA</b></div>
+        <div class="brand-logo-collapsed">
+          <img class="img-fluid" src="{% static 'main/img/mae.png' %}" alt="App Logo" />
+        </div>
+      </a>
+    </div>
+    <ul class="navbar-nav mr-auto flex-row">
+      <li class="nav-item">
+        <a class="nav-link d-none d-md-block d-lg-block d-xl-block" href="#" data-trigger-resize="" data-toggle-state="aside-collapsed"><em class="fas fa-bars"></em></a
+        ><a class="nav-link sidebar-toggle d-md-none" href="#" data-toggle-state="aside-toggled" data-no-persist="true"><em class="fas fa-bars"></em></a>
+      </li>
+    </ul>
+    {% if request.user.is_authenticated %}
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav flex-md-row ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'dashboard' %}"> <em class="fas fa-home mr-2"></em> VARANDA </a>
+        </li>
+        {% if request.user.groups.all.0.name == 'xefe' or request.user.groups.all.0.name == 'sec'  %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'administration:administrationDashboard' %}"> <em class="fas fa-book mr-2"></em> LIVRU ADMINISTRASAUN P&Uacute;BLIKU </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'population:dashboard_population'%}"> <em class="fas fa-users mr-2"></em> LIVRU REJISTU POPULASAUN </a>
+          </li>        
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'development:dashboard-development' %}"> <em class="fas fa-project-diagram mr-2"></em> LIVRU ADMINISTRASAUN DEZENVOLVIMENTU </a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'report_population:reportb1jeralMunicipality' %}"> <em class="fas fa-book mr-2"></em> RELAT&OacuteRIU </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'employee:admin-employee-dashboard' %}"> <em class="fas fa-users mr-2"></em> REJISTU EMPREGU </a>
+          </li>
+        {% endif %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <em class="fas fa-user mr-2"></em> 
+            {% if request.user.groups.all.0.name == 'xefe' or request.user.groups.all.0.name == 'sec'  %}
+              {{request.user.employeeuser.employee}}
+            {%endif%} 
+            {% if request.user.groups.all.0.name == 'admin' %}
+              Admin Nasional
+            {%endif%} 
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{% url 'employee:user-account' %}">Konta</a>
+            <div class="dropdown-divider"></div>
+
+                 <a class="dropdown-item" href="{% url 'exportdata' %}">Export & Backup Dadus Suku</a>
+                         <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    {% endif %}
+  </nav>
+</header>
