@@ -1,0 +1,5 @@
+setup.py
+supercalculadora.egg-info/PKG-INFO
+supercalculadora.egg-info/SOURCES.txt
+supercalculadora.egg-info/dependency_links.txt
+supercalculadora.egg-info/top_level.txt
