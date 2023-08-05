@@ -1,0 +1,9 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/api.py,sha256=BUJwDe4QnlghKPXKugKMTx3uL_GDwgMWIR40JzwYI_c,575
+client/client.py,sha256=2AGEb5BG1jHOyZCxfQZIaQ0-umaOh-79N7-EFt7Yam0,676
+lotr_isaaktreat-0.0.1.dist-info/METADATA,sha256=s6-ecyx5s7tX-bDOk7izDaPLAVEWFVL6bT5tvgEF89w,425
+lotr_isaaktreat-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lotr_isaaktreat-0.0.1.dist-info/entry_points.txt,sha256=1EnqzveziySVO0dyTLDuQ0DsitHxxy3itMCNhP2Jxok,49
+lotr_isaaktreat-0.0.1.dist-info/license.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lotr_isaaktreat-0.0.1.dist-info/top_level.txt,sha256=DJiuN0ty6vOMYewH87cxtQ0LWVaJpE0bZ1Blm0e3RCE,7
+lotr_isaaktreat-0.0.1.dist-info/RECORD,,

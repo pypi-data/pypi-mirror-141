@@ -1,0 +1,3 @@
+[console_scripts]
+lotr = client.client:__main__
+
