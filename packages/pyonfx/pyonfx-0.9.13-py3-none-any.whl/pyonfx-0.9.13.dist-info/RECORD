@@ -1,0 +1,11 @@
+pyonfx/__init__.py,sha256=9XYVn-R8eFnXjCDnPlYAjGCIVts87L_QFL5AP-7VHtQ,266
+pyonfx/ass_core.py,sha256=sWQZrhUV3G3albcmUIf-I0l3QZHUM7_o9XwZs0dwSRA,52947
+pyonfx/convert.py,sha256=w03h0Dxq6moqlSSJNVyJp8wv9WP824tOo-Os2JK6D94,32710
+pyonfx/font_utility.py,sha256=bct2OVxUbpKlGy4QemZ7FhHZAxdcIAW3nrOtlmO8sP8,14595
+pyonfx/shape.py,sha256=4a1pE56xspkbcTQcMfz4tOW9k9Htp5vJIFFQeSE2b6U,36672
+pyonfx/utils.py,sha256=BMBypSSboUts1p9i4rwcBXGHHN9qUAOxUGtbQZRlrIA,25995
+pyonfx-0.9.13.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pyonfx-0.9.13.dist-info/METADATA,sha256=YLGt_EyV9Cf0IQ58mNbutjd6tmklNYtE_oIW2Dqz3bE,3866
+pyonfx-0.9.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyonfx-0.9.13.dist-info/top_level.txt,sha256=ZdAlv5wciRdWxeMV2S9IYICFdXyOKSzz4PAmeU-aZsI,7
+pyonfx-0.9.13.dist-info/RECORD,,
