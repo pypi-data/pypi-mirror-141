@@ -1,0 +1,3 @@
+[console_scripts]
+gethyperlink = githyperlink.cli:get_and_print_hyperlink
+
