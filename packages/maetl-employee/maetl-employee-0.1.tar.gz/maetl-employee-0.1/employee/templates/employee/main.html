@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Bootstrap Admin App" />
+    <meta name="keywords" content="app, responsive, jquery, bootstrap, dashboard, admin" />
+    <link rel="icon" type="image/x-icon" href="{% static 'main/img/mae.png' %}" />
+    <title>SIIGSA - {{title}}</title>
+    <!-- =============== VENDOR STYLES ===============-->
+    <!-- FONT AWESOME-->
+    <link rel="stylesheet" href="{% static 'main/vendor/@fortawesome/fontawesome-free/css/brands.css' %}" />
+    <link rel="stylesheet" href="{% static 'main/vendor/@fortawesome/fontawesome-free/css/regular.css' %}" />
+    <link rel="stylesheet" href="{% static 'main/vendor/@fortawesome/fontawesome-free/css/solid.css' %}" />
+    <link rel="stylesheet" href="{% static 'main/vendor/@fortawesome/fontawesome-free/css/fontawesome.css' %}" />
+    <!-- SIMPLE LINE ICONS-->
+    <link rel="stylesheet" href="{% static 'main/vendor/simple-line-icons/css/simple-line-icons.css' %}" />
+    <!-- ANIMATE.CSS-->
+    <link rel="stylesheet" href="{% static 'main/vendor/animate.css/animate.css' %}" />
+    <!-- WHIRL (spinners)-->
+    <link rel="stylesheet" href="{% static 'main/vendor/whirl/dist/whirl.css' %}" />
+    <!-- =============== PAGE VENDOR STYLES ===============-->
+    <!-- =============== BOOTSTRAP STYLES ===============-->
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.css' %}" id="bscss" />
+    <!-- =============== APP STYLES ===============-->
+    <link rel="stylesheet" href="{% static 'main/css/app.css' %}" id="maincss" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- top navbar-->
+      {% include 'main/navbar.html' %}
+      <!-- sidebar-->
+      {% include 'employee/sidebard.html' %}
+
+      <!-- offsidebar-->
+      {% comment %} {% include 'employee/layout_sidebar.html' %} {% endcomment %}
+
+      <!-- Main section-->
+      <section class="section-container">
+        <!-- Page content-->
+        <div class="content-wrapper">
+          <div class="content-heading">
+            <div>
+              {{title}}<small>
+                <ol class="breadcrumb mt-3">
+                  <li class="breadcrumb-item"><a href="{% url 'dashboard' %}">Varanda</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">{{title}}</li>
+                </ol>
+              </small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">{% block content %} {% endblock %}</div>
+          </div>
+        </div>
+      </section>
+      <!-- Page footer-->
+      <footer class="footer-container bg-dark d-flex justify-content-between">
+        <div class="text-white">
+          © 2021 Copyright :
+          <a href="#" class="mr-1"> MAE</a>
+          <a href="{% url 'dashboard' %}">SIIGSA</a>
+        </div>
+        <small class="text-white">
+          Developed by:
+          <a href="#" target="_blank">HALONA SERENA</a> jv
+          <a href="http://www.kinos.tl/" target="_blank">KINOS</a>
+        </small>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="{% static 'main/vendor/modernizr/modernizr.custom.js' %}"></script>
+    <!-- STORAGE API-->
+    <script src="{% static 'main/vendor/js-storage/js.storage.js' %}"></script>
+    <!-- SCREENFULL-->
+    <script src="{% static 'main/vendor/screenfull/dist/screenfull.js' %}"></script>
+    <!-- i18next-->
+    <script src="{% static 'main/vendor/i18next/i18next.js' %}"></script>
+    <script src="{% static 'main/vendor/i18next-xhr-backend/i18nextXHRBackend.js' %}"></script>
+    <script src="{% static 'main/vendor/jquery/dist/jquery.js' %}"></script>
+    <script src="{% static 'main/vendor/popper.js' %}/dist/umd/popper.js' %}"></script>
+    <script src="{% static 'main/vendor/bootstrap/dist/js/bootstrap.js' %}"></script>
+    <!-- =============== PAGE VENDOR SCRIPTS ===============-->
+    {% comment %}
+    <!-- Datatables-->
+    <script src="{% static 'main/vendor/datatables.net/js/jquery.dataTables.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-bs4/js/dataTables.bootstrap4.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons/js/dataTables.buttons.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons-bs/js/buttons.bootstrap.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons/js/buttons.colVis.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons/js/buttons.flash.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons/js/buttons.html5.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-buttons/js/buttons.print.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-keytable/js/dataTables.keyTable.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-responsive/js/dataTables.responsive.js' %}"></script>
+    <script src="{% static 'main/vendor/datatables.net-responsive-bs/js/responsive.bootstrap.js' %}"></script>
+    <script src="{% static 'main/vendor/jszip/dist/jszip.js' %}"></script>
+    <script src="{% static 'main/vendor/pdfmake/build/pdfmake.js' %}"></script>
+    <script src="{% static 'main/vendor/pdfmake/build/vfs_fonts.js' %}"></script>
+    {% endcomment %}
+    <!-- CHART.JS-->
+    <script src="{% static 'main/vendor/chart.js/dist/Chart.js' %}"></script>
+    <!-- =============== APP SCRIPTS ===============-->
+    <script src="{% static 'main/js/app.js' %}"></script>
+    <script type="text/javascript">
+      function hidediv() {
+        document.getElementById('divmessage').remove();
+      }
+      setTimeout('hidediv()', 5000);
+    </script>
+    {% block scripts %}{% endblock scripts %}
+  </body>
+</html>

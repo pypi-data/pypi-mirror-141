@@ -1,0 +1,76 @@
+{% extends "main/layout.html" %} {% load static %}
+{% block title %}
+{{title}}
+{% endblock title %}
+{% block content %}
+{% include 'employee/sidebard.html' %}
+<section class="section-container">
+  <!-- Page content-->
+  <div class="content-wrapper">
+    <div class="content-heading">
+      <div>
+        {{title}}<small>
+          <ol class="breadcrumb mt-3">
+            <li class="breadcrumb-item"><a href="{% url 'employee:admin-employee-dashboard' %}">Varanda</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{title}}</li>
+          </ol>
+        </small>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="card card-default">
+        <div class="card-header d-flex justify-content-between">
+          {% if messages %}
+          <div class="card-body">
+            {% for message in messages %}
+            <div class="alert alert-success" role="alert">{{message}}</div>
+            {% endfor %}
+          </div>
+          {% endif %}
+          <div class="card-title ml-auto">
+            <a class="btn btn-sm btn-labeled btn-info mb-2 mr-2" href="{% url 'employee:admin-employee-add' %}">
+              <span class="btn-label"><i class="fa fa-plus-square"></i></span> Adisiona </a>
+          </div>
+          <!-- {{ legend|upper }}  -->
+        </div>
+        <div class="card-body">
+          <section id="no-more-tables">
+            <table class="table table-striped my-4 w-100" id="datatable2">
+              <thead>
+                <tr>
+                  <th>NÚ.</th>
+                  <th>NARAN</th>
+                  <th>MUNÍSIPIU</th>
+                  <th>POSTU ADMINISTRATIVU</th>
+                  <th>SUKU</th>
+                  <th>NÚMERU KONTAKTU</th>
+                  <th>USUARIU</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for obj,index in employee %}
+                <tr>
+                  <td>{{forloop.counter}}</td>
+                  <td> <a href="{% url 'employee:employee-detail' index.hashed %}"> {{index}} </a> </td>
+                  <td>{{index.municipality}}</td>
+                  <td>{{index.administrativepost}}</td>
+                  <td>{{index.village}}</td>
+                  <td>{{index.phone_number}}</td>
+                  <td>{{obj}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </section>
+        </div>
+        <!--end card-body-->
+      </div>
+      <!--end card-->
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+{% include "main/footer.html" %}
+
+{% endblock content %}

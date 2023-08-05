@@ -1,0 +1,56 @@
+{% extends "employee/main.html" %} {% load static %} {% load crispy_forms_tags %} {% block content %}
+<ol class="breadcrumb mb-2 mt-1">
+  <li class="breadcrumb-item"><a href="{% url 'employee:admin-employee-dashboard' %}">LISTA EMPREGU</a></li>
+  <li class="breadcrumb-item active" aria-current="page">{{ legend|upper }}</li>
+</ol>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card border-info shadow-lg pt-1 rounded">
+      <div class="card-header bg-card">{{ legend|upper }}</div>
+      <div class="card-body">
+        <form method="POST" id="locationForm" data-posts-url="{% url 'custom:ajax_load_posts' %}" data-villages-url="{% url 'custom:ajax_load_villages' %}" novalidate>{% crispy form %}</form>
+      </div>
+      <!--end card-body-->
+    </div>
+    <!--end card-->
+  </div>
+  <!--end col-->
+</div>
+<!--end row-->
+{% endblock %} {% block scripts %} {% comment %}
+<script src="{% static 'main/vendor/jquery/dist/jquery.js' %}"></script>
+{% endcomment %}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $("#id_municipality").change(function () {
+    var url = $("#locationForm").attr("data-posts-url");
+    var municipalityId = $(this).val();
+    $.ajax({
+      url: url,
+      data: {
+        'municipality': municipalityId
+      },
+      success: function (data) {
+        $("#id_administrativepost").html(data);
+      }
+    });
+
+  });
+  // this one is for fetching village data
+  $("#id_administrativepost").change(function () {
+    var url = $("#locationForm").attr("data-posts-url");
+    var postId = $(this).val();
+
+    $.ajax({
+      url: '{% url 'custom:ajax_load_villages' %}',
+      data: {
+        'post': postId
+      },
+      success: function (data) {
+        $("#id_village").html(data);
+      }
+    });
+
+  });
+</script>
+{% endblock %}
