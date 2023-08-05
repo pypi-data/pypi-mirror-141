@@ -1,0 +1,8 @@
+pyppeteer>=1.0.2
+
+[dev]
+black
+flake8
+mypy
+setuptools>=46.4.0
+types-setuptools
