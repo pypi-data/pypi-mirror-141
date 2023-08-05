@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+coolCropper/__init__.py
+coolCropper/crop.py
+coolCropper.egg-info/PKG-INFO
+coolCropper.egg-info/SOURCES.txt
+coolCropper.egg-info/dependency_links.txt
+coolCropper.egg-info/requires.txt
+coolCropper.egg-info/top_level.txt
