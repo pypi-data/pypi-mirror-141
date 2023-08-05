@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+touchphat/__init__.py
+touchphat.egg-info/PKG-INFO
+touchphat.egg-info/SOURCES.txt
+touchphat.egg-info/dependency_links.txt
+touchphat.egg-info/requires.txt
+touchphat.egg-info/top_level.txt
