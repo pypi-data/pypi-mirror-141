@@ -1,0 +1,5 @@
+pytest>=7.0
+rich
+
+[:python_version < "3.8"]
+typing_extensions
