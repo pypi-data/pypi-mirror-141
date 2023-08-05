@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pelote
+Version: 0.1.2
+Summary: Collection of network-related utilities for python.
+Home-page: http://github.com/medialab/pelote
+Author: Guillaume Plique
+Author-email: guillaume.plique@sciencespo.fr
+License: MIT
+Keywords: network
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: networkx (<3,>=2)
+Requires-Dist: typing-extensions
+
+[![Build Status](https://github.com/medialab/pelote/workflows/Tests/badge.svg)](https://github.com/medialab/pelote/actions)
+
+# Pelote
+
+TODO...
+
+## Installation
+
+You can install `pelote` with pip with the following command:
+
+```
+pip install pelote
+```
+
+## Usage
+
+WIP...
+
+
