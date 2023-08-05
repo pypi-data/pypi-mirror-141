@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: deepaste
+Version: 1.0.0
+Summary: Deepaste is a simple application to send console pastes to the dpaste.org paste service.
+License: GPL 3.0
+Author: Lukas Ruzicka
+Author-email: lruzicka@redhat.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.27.1,<3.0.0)
