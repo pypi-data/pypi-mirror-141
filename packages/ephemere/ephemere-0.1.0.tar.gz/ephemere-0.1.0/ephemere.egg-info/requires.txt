@@ -1,0 +1,11 @@
+astropy
+pandas
+exofile
+radvel
+h5py
+
+[dev]
+pytest
+flake8
+black
+isort
