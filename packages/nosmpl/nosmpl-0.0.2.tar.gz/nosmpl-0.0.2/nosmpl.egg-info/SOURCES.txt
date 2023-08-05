@@ -1,0 +1,16 @@
+setup.py
+nosmpl/__init__.py
+nosmpl/box_trans.py
+nosmpl/constants.py
+nosmpl/geometry.py
+nosmpl/lbs.py
+nosmpl/smpl.py
+nosmpl/star.py
+nosmpl/utils.py
+nosmpl/vertex_ids.py
+nosmpl/vertex_joint_selector.py
+nosmpl.egg-info/PKG-INFO
+nosmpl.egg-info/SOURCES.txt
+nosmpl.egg-info/dependency_links.txt
+nosmpl.egg-info/requires.txt
+nosmpl.egg-info/top_level.txt
