@@ -1,0 +1,417 @@
+from typing import Optional, Union
+
+from gorkov import log
+from gorkov.core.backgroundfields import WaveTypes
+from gorkov.core.frequency import Frequency
+from gorkov.core.functions import SpecialFunctions as Sp
+from gorkov.core.functions import exp, full_range
+from gorkov.core.geometries import Sphere
+from gorkov.core.helper import StringFormatter as SF
+from gorkov.core.variable import ActiveVariable
+from gorkov.solutions.base_scattering import BaseScatteringRigidParticle
+from gorkov.solutions.Doinikov1994Rigid.base import BaseDoinikov1994Rigid
+
+
+class ScatteringField(BaseDoinikov1994Rigid, BaseScatteringRigidParticle):
+    """Scattering field class for Doinikov (viscous fluid-rigid sphere; 1994)
+
+    :param frequency: Frequency [Hz]
+    :param radius: Radius of the sphere [m]
+    :param rho_s: Density of the fluid-like sphere [kg/m^3]
+    :param rho_f: Density of the fluid [kg/m^3]
+    :param c_f: Speed of sound of the fluid [m/s]
+    :param eta_f: shear viscosity [Pa s]
+    :param zeta_f: bulk viscosity [Pa s]
+    :param p_0: Pressure amplitude of the field [Pa]
+    :param wave_type: Type of wave, travel(l)ing or standing
+    :param position: Position in the standing wave field [rad]
+    :param N_max: Highest order mode
+    """
+
+    def __init__(
+        self, frequency: Union[Frequency, float, int],
+        radius: Union[Sphere, float, int],
+        rho_s: float,
+        rho_f: float, c_f: float,
+        eta_f: float, zeta_f: float,
+        p_0: float,
+        wave_type: Optional[WaveTypes] = WaveTypes.STANDING,
+        position: Optional[float] = None,
+        N_max: int = 5,
+    ) -> None:
+        """Constructor method
+        """
+
+        # init of parent class
+        BaseDoinikov1994Rigid.__init__(
+            self, frequency, radius, rho_s, rho_f,
+            c_f, eta_f, zeta_f, p_0,
+            wave_type, position, N_max,
+        )
+        BaseScatteringRigidParticle.__init__(self, N_max)
+
+        if type(self) is ScatteringField:
+            log.debug(repr(self))
+            log.info(str(self))
+
+        # Dependent variables
+        self._alpha_n = ActiveVariable(
+            self._reset_list,
+            'scattering coefficient alpha_n',
+        )
+
+        self._beta_n = ActiveVariable(
+            self._reset_list,
+            'scattering coefficient beta_n',
+        )
+
+        self._gamma_n = ActiveVariable(self._reset_list)
+        self._xi_n = ActiveVariable(self._reset_list)
+
+        self._mu_1 = ActiveVariable(self._compute_mu_1)
+        self._mu_2 = ActiveVariable(self._compute_mu_2)
+        self._mu_3 = ActiveVariable(self._compute_mu_3)
+        self._mu_4 = ActiveVariable(self._compute_mu_4)
+
+        self._x = ActiveVariable(self._compute_x)
+        self._x_v = ActiveVariable(self._compute_x_v)
+
+        # define dependencies
+        self._x.is_computed_by(
+            self.fluid._k_f, self.sphere._R_0,
+        )
+        self._x_v.is_computed_by(
+            self.fluid._k_v, self.sphere._R_0,
+        )
+
+        self._mu_1.is_computed_by(
+            self._rho_t, self._x,
+        )
+        self._mu_2.is_computed_by(
+            self._rho_t, self._x,
+        )
+        self._mu_3.is_computed_by(
+            self._rho_t, self._x_v,
+        )
+        self._mu_4.is_computed_by(
+            self._rho_t, self._x_v, self._x,
+            self._mu_2, self._mu_3,
+        )
+
+        self._gamma_n.is_computed_by(self._x_v)
+
+        self._xi_n.is_computed_by(
+            self._x, self._x_v, self._gamma_n,
+        )
+
+        self._alpha_n.is_computed_by(
+            self._gamma_n, self._xi_n, self._x, self._x_v,
+            self._mu_1, self._mu_3, self._mu_4,
+        )
+
+        self._beta_n.is_computed_by(
+            self._gamma_n, self._xi_n, self._x, self._x_v,
+            self._mu_1, self._mu_2, self._mu_4,
+        )
+
+    def __repr__(self):
+        return (
+            f'Donikov1994Rigid.ScatteringFiels(frequency={self.f}, '
+            f'radius={self.R_0}, '
+            f'rho_s={self.rho_s}, rho_f={self.rho_f}, c_f={self.c_f}, '
+            f'eta_f={self.eta_f}, zeta_f={self.zeta_f}, '
+            f'p_0={self.p_0}, position={self.position}, {self.wave_type}, '
+            f'N_max={self.N_max})'
+        )
+
+    def __str__(self):
+        out = 'Doinikov\'s(1994 rigid - viscous) solution '
+        out += 'to the scattering field'
+        out += ' with following properties: \n'
+        out += SF.get_str_text('Wave type', '', self.wave_type, '')
+        out += SF.get_str_text('Frequency', 'f', self.f, 'Hz')
+        out += SF.get_str_text('Pressure', 'p_0', self.p_0, 'Pa')
+        out += SF.get_str_text(
+            'Position', 'd',
+            self.position, 'rad',
+        )
+        out += SF.get_str_text(
+            'Wavelength', 'lambda',
+            self.field.lambda_f, 'm',
+        )
+
+        out += 'Fluid\n'
+        out += SF.get_str_text(
+            'Density', 'rho_f',
+            self.rho_f, 'kg/m^3',
+        )
+        out += SF.get_str_text(
+            'Sound Speed', 'c_0',
+            self.c_f, 'm/s',
+        )
+        out += SF.get_str_text(
+            'Viscosity', 'eta_f',
+            self.eta_f, 'Pa s',
+        )
+        out += SF.get_str_text(
+            'Bulk Viscosity', 'zeta_f',
+            self.zeta_f, 'Pa s',
+        )
+
+        out += 'Particle\n'
+        out += SF.get_str_text(
+            'Radius', 'R_0',
+            self.R_0, 'm',
+        )
+        out += SF.get_str_text(
+            'Density', 'rho_s',
+            self.rho_s, 'kg/m^3',
+        )
+        out += 'Other\n'
+        out += SF.get_str_text(
+            '#modes', 'N_max',
+            self.N_max, None,
+        )
+        return out
+    # -----------------------------------------------------
+    # Dependent Variables
+    # -----------------------------------------------------
+
+    def xi_n(self, n: int) -> complex:
+        """ coefficient :math:`\\xi_n` (3.22)
+
+        :param n: order
+        """
+        if n < len(self._xi_n.value):
+            return self._xi_n.value[n]
+        else:
+            self._compute_xi_n(n)
+            return self._xi_n.value[n]
+
+    def _compute_xi_n(self, N: int) -> None:
+        # computation according to (3.13) and (3.20)
+
+        N_old = len(self._xi_n.value)
+        for n in full_range(N_old, N):
+            new_value = -n * (n + 1)
+            new_value *= Sp.hankelh1(n, self.x) * Sp.hankelh1(n, self.x_v)
+            new_value += self.x * Sp.d1_hankelh1(n, self.x) * self.gamma_n(n)
+
+            self._xi_n.value.append(new_value)
+
+    def gamma_n(self, n: int) -> complex:
+        """ coefficient :math:`\\gamma_n` (3.22)
+
+        :param n: order
+        """
+        if n < len(self._gamma_n.value):
+            return self._gamma_n.value[n]
+        else:
+            self._compute_gamma_n(n)
+            return self._gamma_n.value[n]
+
+    def _compute_gamma_n(self, N: int) -> None:
+        # computation according to (3.13) and (3.20)
+
+        N_old = len(self._gamma_n.value)
+        for n in full_range(N_old, N):
+            new_value = Sp.hankelh1(n, self.x_v)
+            new_value += self.x_v * Sp.d1_hankelh1(n, self.x_v)
+
+            self._gamma_n.value.append(new_value)
+
+    def alpha_n(self, n: int) -> complex:
+        """ coefficient :math:`\\alpha_n` (3.13) and (3.20)
+
+        :param n: order
+        """
+        if n < len(self._alpha_n.value):
+            return self._alpha_n.value[n]
+        else:
+            self._compute_alpha_n(n)
+            return self._alpha_n.value[n]
+
+    def _compute_alpha_n(self, N: int) -> None:
+        # computation according to (3.13), (3.14) and (3.20)
+
+        N_old = len(self._alpha_n.value)
+        for n in full_range(N_old, N):
+            if n == 0:
+                new_value = -Sp.besselj(1, self.x) / Sp.hankelh1(1, self.x)
+            elif n == 1:
+                new_value = -2 * (1 - self.rho_t**2)
+                new_value *= Sp.besselj(1, self.x) * Sp.hankelh1(1, self.x_v)
+                new_value -= self.mu_1 * self.mu_3
+                new_value /= self.mu_4
+            else:
+                new_value = n * (n + 1) * Sp.besselj(n, self.x)
+                new_value *= Sp.hankelh1(n, self.x_v)
+
+                new_value -= self.x * (
+                    self.gamma_n(n) *
+                    Sp.d1_besselj(n, self.x)
+                )
+                new_value /= self.xi_n(n)
+
+            self._alpha_n.value.append(new_value)
+
+    def beta_n(self, n: int) -> complex:
+        """ coefficient :math:`\\beta_n` (3.13) and (3.20)
+
+        :param n: order
+        """
+        if n < len(self._beta_n.value):
+            return self._beta_n.value[n]
+        else:
+            self._compute_beta_n(n)
+            return self._beta_n.value[n]
+
+    def _compute_beta_n(self, N: int) -> None:
+        # computation according to (3.13), (3.15) and (3.21)
+
+        N_old = len(self._beta_n.value)
+        for n in full_range(N_old, N):
+            if n == 0:
+                new_value = 0.0
+            elif n == 1:
+                new_value = self.mu_1 * Sp.hankelh1(1, self.x)
+                new_value -= self.mu_2 * Sp.besselj(1, self.x)
+
+                new_value *= -(1 - self.rho_t)
+                new_value /= self.mu_4
+            else:
+                new_value = Sp.d1_besselj(n, self.x) * Sp.hankelh1(n, self.x)
+                new_value -= Sp.besselj(n, self.x) * Sp.d1_hankelh1(n, self.x)
+                new_value *= self.x
+                new_value /= -self.xi_n(n)
+
+            self._beta_n.value.append(new_value)
+
+    @staticmethod
+    def _reset_list() -> list:
+        return []
+
+    @property
+    def x(self) -> complex:
+        """Product of :attr:`~.k_f` and :attr:`~.R_0`
+        """
+        return self._x.value
+
+    def _compute_x(self) -> complex:
+        return self.k_f * self.R_0
+
+    @property
+    def x_v(self) -> complex:
+        """Product of :attr:`~.k_v` and :attr:`~.R_0`
+        """
+        return self._x_v.value
+
+    def _compute_x_v(self) -> complex:
+        return self.k_v * self.R_0
+
+    @property
+    def mu_1(self) -> complex:
+        """ :math:`\\mu_1` according to (3.16)
+        """
+        return self._mu_1.value
+
+    def _compute_mu_1(self) -> complex:
+        out = self.rho_t * Sp.besselj(1, self.x)
+        out -= self.x * Sp.d1_besselj(1, self.x)
+        return out
+
+    @property
+    def mu_2(self) -> complex:
+        """ :math:`\\mu_2` according to (3.17)
+        """
+        return self._mu_2.value
+
+    def _compute_mu_2(self) -> complex:
+        out = self.rho_t * Sp.hankelh1(1, self.x)
+        out -= self.x * Sp.d1_hankelh1(1, self.x)
+        return out
+
+    @property
+    def mu_3(self) -> complex:
+        """ :math:`\\mu_3` according to (3.18)
+        """
+        return self._mu_3.value
+
+    def _compute_mu_3(self) -> complex:
+        out = (1 + 2 * self.rho_t) * Sp.hankelh1(1, self.x_v)
+        out += self.x_v * Sp.d1_hankelh1(1, self.x_v)
+        return out
+
+    @property
+    def mu_4(self) -> complex:
+        """ :math:`\\mu_4` according to (3.19)
+        """
+        return self._mu_4.value
+
+    def _compute_mu_4(self) -> complex:
+        out = 2 * (1 - self.rho_t**2)
+        out *= Sp.hankelh1(1, self.x)
+        out *= Sp.hankelh1(1, self.x_v)
+        out += self.mu_2 * self.mu_3
+        return out
+
+    # -----------------------------------------------------
+    # Methods
+    # -----------------------------------------------------
+
+    def V_r_sc(self, n: int, r: float) -> complex:
+        """Radial scattering field velocity term of mode `n`
+        without Legendre coefficients
+
+        Returns radial scattering field velocity in [m/s]
+
+        :param n: mode
+        :param r: radial coordinate [m]
+        """
+        out = self.k_f * self.alpha_n(n) * Sp.d1_hankelh1(n, r * self.k_f)
+        out -= n * (n + 1) / r * self.beta_n(n) * Sp.hankelh1(n, r * self.k_v)
+        out *= self.A_in(n)
+        return out
+
+    def V_theta_sc(self, n: int, r: float) -> complex:
+        """ Tangential scattering field velocity term of mode n
+        without Legendre coefficients
+
+        Returns tangential scattering field velocity in [m/s]
+
+        :param n: mode
+        :param r: radial coordinate [m]
+        """
+
+        arg = self.k_v * r
+
+        out = Sp.hankelh1(n, arg)
+        out += arg * Sp.d1_hankelh1(n, arg)
+        out *= -self.beta_n(n)
+
+        out += self.alpha_n(n) * Sp.hankelh1(n, self.k_f * r)
+
+        out *= self.A_in(n) / r
+
+        return out
+
+    def particle_velocity(self, t: float) -> complex:
+        """Particle velocity
+
+        Returns the value of the particle velocity
+        in the direction of the axis of rotational
+        symmetry of the radiation field in [m/s]
+
+        :param t: time [s]
+        """
+
+        out = Sp.besselj(1, self.x) + self.alpha_n(1) * Sp.hankelh1(1, self.x)
+        out += 2 * self.beta_n(1) * Sp.hankelh1(1, self.x_v)
+        out *= self.rho_t * self.A_in(1) * self.k_f
+        out /= self.x
+        out *= exp(-1j * self.omega * t)
+        return out
+
+
+if __name__ == '__main__':
+    pass
