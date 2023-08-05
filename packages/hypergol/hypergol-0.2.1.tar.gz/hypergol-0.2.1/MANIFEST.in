@@ -1,0 +1,1 @@
+recursive-include hypergol/cli/templates include *.py *.j2 *.ipynb

@@ -1,0 +1,10 @@
+fire
+Jinja2
+GitPython
+numpy==1.19.2
+tensorflow==2.5.0
+torch==1.10.2
+tqdm
+pydantic
+fastapi
+uvicorn
