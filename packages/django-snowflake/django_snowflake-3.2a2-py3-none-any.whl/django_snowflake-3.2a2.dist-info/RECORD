@@ -1,0 +1,15 @@
+django_snowflake/__init__.py,sha256=SqlVVW0hetBZ4uiHvK7KsC8rOfV3gtEu8fObgGYCtnA,284
+django_snowflake/base.py,sha256=oXCQ9H8k1gBztnbuPi1nZY8a8Wg4cY2JOwGoE_ifg2Y,6509
+django_snowflake/client.py,sha256=aNmDT7QCpt5957ZcDURRmTDOilMILvySNPCeSzU-uEk,2495
+django_snowflake/creation.py,sha256=P3fcwkJqWqWT9rce545lA0yRiQIUkQHHP4fn9Y3liq4,2150
+django_snowflake/features.py,sha256=N6EEqXCtFRSXb3nSNI9C_dywy0eCnmfsEiZx_puGDUQ,15789
+django_snowflake/functions.py,sha256=xyEFpMgHHjxWUZ6sTdqPmd42ng21qZ7fGSlOC3NuQ5g,1891
+django_snowflake/introspection.py,sha256=ep5pguS0_FoFVjS88vtqXCKpG69040vzZ7gtSOcY6S0,8071
+django_snowflake/operations.py,sha256=G_J5UCoFnZ-0Py2-pOwbIFpuhZsS6fZoPQ56djjnllE,8016
+django_snowflake/schema.py,sha256=s7vbsfWJDhrXZock2000j2Z0Bsez4J2-N9gzNzXHBcU,5992
+django_snowflake/utils.py,sha256=zBOQxYeBIFQYGR7_AsXRvsryccR3iC5msDFJB-CCrOs,766
+django_snowflake-3.2a2.dist-info/LICENSE,sha256=F4Cbnu4RVcaeu1howneli9UefhabVqH2-iVL62vbkTI,1045
+django_snowflake-3.2a2.dist-info/METADATA,sha256=-SRzCDrHCcsZxTGkyjapvcqbiS9pcrkZhDluq83dcao,4917
+django_snowflake-3.2a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_snowflake-3.2a2.dist-info/top_level.txt,sha256=E6x7JaHVfaNsh9_zEn8AZd6__XkxqenLOgoENlQd0Kg,17
+django_snowflake-3.2a2.dist-info/RECORD,,
