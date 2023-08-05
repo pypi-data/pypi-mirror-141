@@ -1,0 +1,8 @@
+setup.py
+cellworld_controller_service/__init__.py
+cellworld_controller_service/controller_client.py
+cellworld_cotroller_service.egg-info/PKG-INFO
+cellworld_cotroller_service.egg-info/SOURCES.txt
+cellworld_cotroller_service.egg-info/dependency_links.txt
+cellworld_cotroller_service.egg-info/not-zip-safe
+cellworld_cotroller_service.egg-info/top_level.txt
