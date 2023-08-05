@@ -1,0 +1,16 @@
+xlsx_provider/VERSION,sha256=WYVJhIUxBN9cNT4vaBoV_HkkdC-aLkaMKa8kjc5FzgM,6
+xlsx_provider/__init__.py,sha256=9o1JPvmOfvQK9gGzoxRLZO5wA2-qvjDxUDeRPIDNhNg,562
+xlsx_provider/commons.py,sha256=76OiKrgixNHxHQALjJpefOkM5cC_Zav6PtVma2Bk3tw,5565
+xlsx_provider/loader.py,sha256=Ap4ofj0D9HOJKkS0TkinD44LX67XVh5K54AM8d7sZZ0,5849
+xlsx_provider/example_dags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlsx_provider/example_dags/sample_xlsx_to_parquet.py,sha256=SQLdiYWRA3Zl6MkreYM2N6wZtzeb0CLsPx3S80y4RHg,2724
+xlsx_provider/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlsx_provider/operators/from_xlsx_operator.py,sha256=TWjlF_3qn2BfImlpzai6U5s19EzOelvYaTXvKnME_rs,11814
+xlsx_provider/operators/from_xlsx_query_operator.py,sha256=NSNTkNFin_XziO5mVWINVjqa3bC6gYp9qAYlByn-KzY,8902
+xlsx_provider/operators/to_xlsx_operator.py,sha256=AerhbGxE2XI2z13HvmyQZsRHM2Qs9b-5QhAXabFrF7A,2711
+airflow_provider_xlsx-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_provider_xlsx-1.0.0.dist-info/METADATA,sha256=OBG3rt5jWqmJzECc4X2-_9Ddu6nxkkHvH1kGTZ1QMYY,6518
+airflow_provider_xlsx-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+airflow_provider_xlsx-1.0.0.dist-info/entry_points.txt,sha256=IGzBP9qZIdmsv2MnGwHW3UnEPYtHCxIeSpp5u3_fTuQ,84
+airflow_provider_xlsx-1.0.0.dist-info/top_level.txt,sha256=OybBq1dVz0c8m-c5O4E_jZPRcjVdqQ6339I8Yv-mz3k,14
+airflow_provider_xlsx-1.0.0.dist-info/RECORD,,
