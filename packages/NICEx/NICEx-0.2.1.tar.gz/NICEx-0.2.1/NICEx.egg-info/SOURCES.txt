@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+NICEx.egg-info/PKG-INFO
+NICEx.egg-info/SOURCES.txt
+NICEx.egg-info/dependency_links.txt
+NICEx.egg-info/requires.txt
+NICEx.egg-info/top_level.txt
+nice/__init__.py
+nice/utils/__init__.py
+nice/utils/data.py
+nice/utils/distance.py
+nice/utils/preprocessing.py
+nice/utils/optimization/__init__.py
+nice/utils/optimization/heuristic.py
+nice/utils/optimization/reward.py
