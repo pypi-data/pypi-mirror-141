@@ -1,0 +1,10 @@
+logsetup/__init__.py,sha256=yfkhY4LXRwhu_vnRXvPlhy9HeOP2IMZWG4dQqAUF6-s,23
+logsetup/compat.py,sha256=gKufa6e1wc0l5yBz04Wxw-p72BpYtg0rO3-PDA2YJHE,3311
+logsetup/handlers.py,sha256=vh03C8NLcxF1HNv_dqyzp2offCae_4ADPMqWLXrL614,2991
+logsetup/logger.py,sha256=_dqYCF3k6o6lZyoTC9RJT0g98panfmK3WY4gxprDB_k,7501
+logsetup/mailgun_api.py,sha256=3piCNwwpizbFsc4714fD4HMoLae-ZnSJb0cm3FOolfg,1455
+logsetup-1.1.dist-info/METADATA,sha256=nOKvoHRKi_NNWdW_kt-xfbcjk8gGNlvbbXqeWIqYkpA,6144
+logsetup-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logsetup-1.1.dist-info/license,sha256=IX8gr9gMJ4dIDwxvakT6TeTA3Hb3KzIOqwVYA9iGZmY,1089
+logsetup-1.1.dist-info/top_level.txt,sha256=rF7gy1LbJx7WH23rx1E5AEtlBpGP0gEZo3zb0FZ0pis,9
+logsetup-1.1.dist-info/RECORD,,
