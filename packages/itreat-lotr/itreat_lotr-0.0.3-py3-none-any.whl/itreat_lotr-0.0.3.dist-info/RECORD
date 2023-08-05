@@ -1,0 +1,10 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/api.py,sha256=BUJwDe4QnlghKPXKugKMTx3uL_GDwgMWIR40JzwYI_c,575
+client/client.py,sha256=q6oYI0CGwnU8xdNPWdVyZ7b98ndBNoP7e0Et8wsU7wk,671
+client/command_line.py,sha256=isFBwGrYgk-v93eAWwos8bg_Wb5iBgrLTCXEtdr5Wk4,55
+itreat_lotr-0.0.3.dist-info/METADATA,sha256=wEMxri8BvSrQWQ-5pueLoCLg3pP1NT9viM5PoBhM23U,534
+itreat_lotr-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+itreat_lotr-0.0.3.dist-info/entry_points.txt,sha256=AYj4UVvaTixWeZN4xjQ-tQN6xrRCbGIGSmVNtkInLvQ,55
+itreat_lotr-0.0.3.dist-info/license.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itreat_lotr-0.0.3.dist-info/top_level.txt,sha256=DJiuN0ty6vOMYewH87cxtQ0LWVaJpE0bZ1Blm0e3RCE,7
+itreat_lotr-0.0.3.dist-info/RECORD,,
