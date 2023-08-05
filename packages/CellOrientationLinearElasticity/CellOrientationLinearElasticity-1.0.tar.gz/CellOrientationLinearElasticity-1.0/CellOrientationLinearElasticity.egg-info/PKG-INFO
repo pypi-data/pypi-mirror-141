@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CellOrientationLinearElasticity
+Version: 1.0
+Summary: Simulation of cell orientation by a combination of strain avoidance and linear elasticity
+Home-page: https://github.com/tbgitoo/CellOrientationLinearElasticity
+Author: Thomas Braschler
+Author-email: thomas.braschler@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/tbgitoo/CellOrientationLinearElasticity/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CellOrientationLinearElasticity
+
+Small library to be used with netgen and ngsolve for simulation of cellular orientation in the context of linear elasticity. Archived at Zenodo (https://doi.org/10.5281/zenodo.6324986), development at github (https://github.com/tbgitoo/CellOrientationLinearElasticity)
+
+

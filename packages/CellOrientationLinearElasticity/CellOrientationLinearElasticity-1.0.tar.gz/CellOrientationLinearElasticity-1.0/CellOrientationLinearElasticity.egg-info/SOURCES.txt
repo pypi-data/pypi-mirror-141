@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CellOrientationLinearElasticity/__init__.py
+CellOrientationLinearElasticity.egg-info/PKG-INFO
+CellOrientationLinearElasticity.egg-info/SOURCES.txt
+CellOrientationLinearElasticity.egg-info/dependency_links.txt
+CellOrientationLinearElasticity.egg-info/not-zip-safe
+CellOrientationLinearElasticity.egg-info/top_level.txt
+orientation/__init__.py
+orientation/single_strain.py
+orientation/strain_addition.py
+simulation/__init__.py
+simulation/simulation.py
