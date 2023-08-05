@@ -1,0 +1,87 @@
+{% extends "main/layout.html" %} 
+{% block title %}
+  {{title}}
+{% endblock title %}
+{% block content %}
+
+{% comment %}
+<ol class="breadcrumb mb-2 mt-1">
+  <li class="breadcrumb-item"><a href="{% url 'employee-list' %}">LISTA EMPREGU</a></li>
+  <li class="breadcrumb-item active" aria-current="page">{{ legend|upper }}</li>
+</ol>
+{% endcomment %}
+<div class="row justify-content-center mt-2">
+  <div class="col-sm-6">
+    <div class="card border-info shadow-lg pt-1 rounded">
+      <div class="card-header bg-card">{{ legend|upper }}</div>
+      <div class="ml-2">
+
+        <a class="btn btn-info btn-sm" href="{% url 'employee:employee-update' objects.hashed %}">Altera <i class="fa fa-edit"></i></a>
+        <a class="btn btn-danger btn-sm" href="{% url 'employee:employee-terminate' objects.hashed %}">Termina <i class="fa fas-icon-close"></i></a>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-6">
+          
+            <table class="table table-sm">
+              <tr class="bg-light">
+                <th colspan="2">
+                  <h6>INFORMASAUN PESOAL</h6>
+                {% if group == "admin"%}
+                {% endif %}
+              </th>
+              </tr>
+              <tr>
+                <td>NARAN</td>
+                <td>: {{ objects.first_name }} {{ objects.last_name|upper }}</td>
+              </tr>
+              
+              <tr>
+                <td>SEXU</td>
+                <td>: {{ objects.sex }}</td>
+              </tr>
+              <tr>
+                <td>N&UACUTE.TELEFONE</td>
+                <td>: {{ objects.phone_number }}</td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-sm-6">
+            <table class="table table-sm">
+              <tr class="bg-light">
+                <th colspan="2"><h6>INFORMASAUN SERVISU</th>
+              </tr>
+              <tr>
+                <td>MUNIS&IACUTEPIU</td>
+                <td>: {{ objects.municipality }}</td>
+              </tr>
+              <tr>
+                <td>POSTU ADMINISTRATIVU</td>
+                <td>: {{ objects.administrativepost }}</td>
+              </tr>
+              <tr>
+                <td>SUKU</td>
+                <td>: {{ objects.village }}</td>
+              </tr>
+              <tr>
+                <td>HAHU SERVISU</td>
+                <td>: {{ objects.start_period }}</td>
+              </tr>
+            </table>
+          </div>
+          <!--end col-->
+          {% comment %}
+          <div class="col-sm-6">{% include 'employee/detail_right.html' %}</div>
+          {% endcomment %}
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end card-body-->
+    </div>
+    <!--end card-->
+  </div>
+  <!--end col-->
+</div>
+<!--end row-->
+{% endblock %} {% block scripts %} {% endblock %}

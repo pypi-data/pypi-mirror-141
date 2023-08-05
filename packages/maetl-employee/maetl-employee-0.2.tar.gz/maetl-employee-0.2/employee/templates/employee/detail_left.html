@@ -1,0 +1,27 @@
+{% comment %} {% load humanize %} {% endcomment %}
+<table class="table table-sm">
+	<tr class="bg-light">
+		<th colspan="2"><h6>INFORMASAUN PESSOAL
+		{% if group == "engineerv" or group == "gabinete" %}
+		| <a class="btn btn-info btn-sm" href="#">Altera <i class="fa fa-edit"></i></a></h6>
+		{% endif %}
+		</th>
+	</tr>
+	<tr>
+		<td>NARAN</td>
+		<td>: {{ objects.first_name }} {{ objects.last_name|upper }}</td>
+	</tr>
+	<tr>
+		<td>SEXU</td>
+		<td>: {{ objects.sex }}</td>
+	</tr>
+	<tr>
+		<td>FATIN & DATA MORIS</td>
+		<td>: {{ objects.place_of_birth }}, {{ objects.date_of_birth }}</td>
+	</tr>
+	<tr>
+		<td>NASAUN</td>
+		<td>: {{ objects.country.name }}</td>
+	</tr>
+	</tr>
+</table>

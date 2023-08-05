@@ -1,0 +1,37 @@
+{% extends "employee/main.html" %} {% load static %} 
+{% block title %}
+  {{title}}
+{% endblock title %}
+{% block content %}
+  
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card pie-chart-example">
+      <div class="card-header d-flex align-items-center"><h4>Total Xefe Suku</h4></div>
+          <div class="card-body">
+            <div class="chart-container">
+              <canvas id="xefe-charts" data-url="{% url 'employee:xefe-charts' %}"></canvas>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card pie-chart-example">
+      <div class="card-header d-flex align-items-center">
+        <h4>Total PAAS</h4>
+        </div>
+        <div class="card-body">
+          <div class="chart-container">
+            <canvas id="sec-charts" data-url="{% url 'employee:sec-charts' %}"></canvas>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+{% endblock content %}
+{% block scripts %}
+  
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'main/vendor/chart.js/dist/employee_chart.js' %}"></script>
+{% endblock scripts %}

@@ -1,0 +1,32 @@
+{% load humanize %}
+<table class="table table-sm">
+  <tr class="bg-light">
+    <th colspan="3">
+      <h6>
+        POSITION {% comment %} {% if group == "engineerv" or group == "gabinete" %} | <a class="btn btn-sm btn-info" href="{% url 'position-update' objects.hashed %}">Position <i class="fa fa-edit"></i></a>
+        <a class="btn btn-sm btn-info" href="{% url 'division-update' objects.hashed %}">Division <i class="fa fa-edit"></i></a>
+        {% endif %}
+      </h6>
+    </th>
+  </tr>
+  <tr>
+    <td>POSITION</td>
+    <td colspan="2">: {{ empposition.position }}</td>
+  </tr>
+  {% if empdivision.department %}
+  <tr>
+    <td>DEPARTMENT</td>
+    <td colspan="2">: {{ empdivision.department }}</td>
+  </tr>
+  {% elif empdivision.division %}
+  <tr>
+    <td>DIVISION</td>
+    <td colspan="2">: {{ empdivision.division }}</td>
+  </tr>
+  {% endif %}
+  <tr>
+    <td>START DATE</td>
+    <td colspan="2">: {{ empposition.start_date }}</td>
+  </tr>
+  {% endcomment %}
+</table>
