@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bulksmsmd/__init__.py
+bulksmsmd/client.py
+bulksmsmd.egg-info/PKG-INFO
+bulksmsmd.egg-info/SOURCES.txt
+bulksmsmd.egg-info/dependency_links.txt
+bulksmsmd.egg-info/not-zip-safe
+bulksmsmd.egg-info/requires.txt
+bulksmsmd.egg-info/top_level.txt
