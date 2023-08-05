@@ -1,0 +1,26 @@
+# CALCULATOR
+
+Calculator proceeds the ability to calculate numbers (float), given by user.
+
+## MAIN FUNCTIONS:
+    - Addition;
+    - Subtraction;
+    - Multiplication;
+    - Division;
+    - Take (n) root of a number;
+    - Reset memory to 0.0;
+    - Start memory with chosen number;
+    - Print out the final answer.
+
+### Calculator has its own memory and manipulates its starting number 0.0 until it is reseted.
+### User can set the starting calculator memory to it's own value(float) with.
+
+#### INSTALATION
+
+1. Installing via terminal:
+
+pip instal irimcalculator
+
+2. Installing via IDE:
+
+%pip install irimcalculator
