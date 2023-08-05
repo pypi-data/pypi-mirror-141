@@ -1,0 +1,17 @@
+anipy_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anipy_cli/arg_parser.py,sha256=BE213qKBlfHIGS8Idt6WP3lJz_RMn4-DXK2vkY_V5js,2239
+anipy_cli/cli.py,sha256=CxMCHW4esedwNaHgJUC71VyeFAVd5GG6o1S12VlzPEM,7463
+anipy_cli/colors.py,sha256=3pu1xyrn7NbXISgclGsXfa6CjWHk3ezvJvdHS1UKQis,250
+anipy_cli/config.py,sha256=DDn0nJAhOgJR2v3A5jjDW0VKDbevu_C-oN4S8lAFArI,1124
+anipy_cli/download.py,sha256=vuo30YCZa1xBYCcO-qTPyVKGINRUsTuG7V1Le-J3n1Q,5778
+anipy_cli/history.py,sha256=ShqYdKaEAtBVrbFhjpjoI28OmlGPZnOfX94qLJgv2uc,3059
+anipy_cli/misc.py,sha256=9cVUA0rsEli06jRxW0WmOFIeYrEElkxscmxmz4J4Gmc,1789
+anipy_cli/player.py,sha256=nmOwZ31ufwn0cx1ci-E3KsW_omwQoPtCyWHYlx5saco,1131
+anipy_cli/query.py,sha256=-DU8piQGHWb7-5nRY0LzZv1WGwmiz8O_lpUzCiEUP5U,2979
+anipy_cli/url_handler.py,sha256=yaDIwMhtl6Rr7qZ8J80BtcegHujNln1rZQxFa3FHkEw,9047
+anipy_cli-2.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+anipy_cli-2.0.1.dist-info/METADATA,sha256=qJTncVl192x3A99gE1aQGE4IMl0uCA80ifOYSuUM5jE,3550
+anipy_cli-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+anipy_cli-2.0.1.dist-info/entry_points.txt,sha256=Ka-F9Q0pc_iTAgCSXEd3-b7o1QZuV89tn0GndTIB4rA,49
+anipy_cli-2.0.1.dist-info/top_level.txt,sha256=C40LSHw7Rvit25UkpsAU7ITLSOX6zqTcHWxtOpHem_M,10
+anipy_cli-2.0.1.dist-info/RECORD,,
