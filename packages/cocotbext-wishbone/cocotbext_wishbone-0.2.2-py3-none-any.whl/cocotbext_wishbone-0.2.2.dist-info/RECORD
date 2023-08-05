@@ -1,0 +1,8 @@
+cocotbext/wishbone/__init__.py,sha256=nKiyTvNiwizHn04Bqmvrbf6XF4PbE287od1uHucZ3XQ,44
+cocotbext/wishbone/driver.py,sha256=yHFabfo1Ihr0Qz6Die1tddsVarjvDKwrI87GYtzRj5E,11829
+cocotbext/wishbone/monitor.py,sha256=FbLPbmLM3Wwab7zOADg0hL-Mj1l-zrWurLPVeAaVKrg,9785
+cocotbext/wishbone/version.py,sha256=Ubzf_st1zImZv38B_Be7Nb-tysfNE2z4o7DjCcasihk,142
+cocotbext_wishbone-0.2.2.dist-info/METADATA,sha256=TZlh6B2uT5wuJoqKsa0LgyAB559Z_aw6C-B9_1-vuXs,554
+cocotbext_wishbone-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cocotbext_wishbone-0.2.2.dist-info/top_level.txt,sha256=CEzgDDbvABi5X1TOqXPbyRc2Bsf41BTwKc5T8riPRPM,10
+cocotbext_wishbone-0.2.2.dist-info/RECORD,,
