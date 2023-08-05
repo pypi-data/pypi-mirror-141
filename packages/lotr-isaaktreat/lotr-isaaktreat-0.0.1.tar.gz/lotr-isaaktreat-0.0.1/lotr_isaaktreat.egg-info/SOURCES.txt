@@ -1,0 +1,12 @@
+README.md
+license.md
+pyproject.toml
+setup.py
+client/__init__.py
+client/api.py
+client/client.py
+lotr_isaaktreat.egg-info/PKG-INFO
+lotr_isaaktreat.egg-info/SOURCES.txt
+lotr_isaaktreat.egg-info/dependency_links.txt
+lotr_isaaktreat.egg-info/entry_points.txt
+lotr_isaaktreat.egg-info/top_level.txt
