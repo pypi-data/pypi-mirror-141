@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/calculator/__init__.py
+src/calculator/operations.py
+src/calculator_stavsher.egg-info/PKG-INFO
+src/calculator_stavsher.egg-info/SOURCES.txt
+src/calculator_stavsher.egg-info/dependency_links.txt
+src/calculator_stavsher.egg-info/top_level.txt
