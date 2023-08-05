@@ -1,0 +1,14 @@
+pelote/__init__.py,sha256=am3QFsRV0CI3WwmjuR8gldxFB3QtBcGFqdgR6VTUt4U,348
+pelote/exceptions.py,sha256=OUIfcksugt9eqkRngAZ0QRUCg8fE__-c7b01wTvB1U8,284
+pelote/network_to_tabular.py,sha256=NMpbJ2BhS6Z4hGm1qJDQDk9tiP9SI4biPh6724EPrE8,936
+pelote/read.py,sha256=il4YTZEnTM3_Sht7PIUm5oA874cY3IMkk7kVXIya4AU,2249
+pelote/shim.py,sha256=ycsujfJjRhT0E7J1r5G3s9cnIui-dnMIk2z2SP3eyWs,1284
+pelote/shim.pyi,sha256=MINXozhRD68BcCE7tJ7UvpphrSzKfgzxvMFzsyIAr78,370
+pelote/types.py,sha256=_DBrGQRN8Bly_fws35kPaDEsTPHb2dbMp67MZMDrumc,1170
+pelote/utils.py,sha256=KYdx0IXO0kGklwctZPSRjFv01Br2s3LrXY3b5vyHaBI,559
+pelote-0.1.1.dist-info/LICENSE.txt,sha256=641KefecSRXA6il5hn0jugdG3OpW2_BUHa-9KDNGG-s,1099
+pelote-0.1.1.dist-info/METADATA,sha256=XQL_04kweItph3CBoehMoZqmgYL26SAN-6XsHmcjUaI,676
+pelote-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pelote-0.1.1.dist-info/top_level.txt,sha256=hdykPpHDrX4nDEGh2yYJV30Msq2YA8TLaycKZCLlpcg,7
+pelote-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pelote-0.1.1.dist-info/RECORD,,
