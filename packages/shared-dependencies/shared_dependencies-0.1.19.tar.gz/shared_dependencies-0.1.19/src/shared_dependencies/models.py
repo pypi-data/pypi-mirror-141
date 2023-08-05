@@ -1,0 +1,17 @@
+from pydantic import BaseModel
+from typing import Optional
+
+class TargetApp(BaseModel):
+    app: str
+    version: Optional[str] = None
+    branch: Optional[str] = None
+
+    @staticmethod
+    def from_unique_slashed_string(slashed_string: str):
+        target = slashed_string.split("/")
+        if len(target) == 3:
+            return TargetApp(app=target[0], version=target[1], branch=target[2])
+        elif len(target) == 2:
+            return TargetApp(app=target[0], version=target[1], branch="_")
+        elif len(target) == 1:
+            return TargetApp(app=target[0], version="_", branch="_")
