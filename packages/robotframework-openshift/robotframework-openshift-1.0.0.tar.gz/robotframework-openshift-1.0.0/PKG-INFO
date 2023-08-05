@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: robotframework-openshift
+Version: 1.0.0
+Summary: Robotframework for OpenShift interactions
+Home-page: https://github.com/red-hat-data-services/robotframework-openshift
+Author: Pablo Félix Estévez Pico
+Author-email: pestevez@redhat.com
+License: Apache License 2.0
+Keywords: robotframework openshift
+Platform: any
+License-File: LICENSE
+
+
+This library provides keywords to interact with
+Openshift Cluster and perform various operations.
+
+
