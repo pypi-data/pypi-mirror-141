@@ -1,0 +1,401 @@
+{
+  "src/lib/components/RadioImages.react.js": {
+    "description": "RadioItems is a component that encapsulates several radio item inputs.\r\nThe values and labels of the RadioItems is specified in the `options`\r\nproperty and the seleced item is specified with the `value` property.\r\nEach radio item is rendered as an input and associated label which are\r\nsiblings of each other.",
+    "displayName": "RadioItems",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component, used to identify dash components in callbacks.\r\nThe ID needs to be unique across all of the components in an app."
+      },
+      "key": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "A unique identifier for the component, used to improve\r\nperformance by React.js while rendering components\r\nSee https://reactjs.org/docs/lists-and-keys.html for more info"
+      },
+      "options": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "exact",
+            "value": {
+              "label": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "string"
+                  },
+                  {
+                    "name": "number"
+                  }
+                ],
+                "description": "The radio item's label",
+                "required": true
+              },
+              "value": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "string"
+                  },
+                  {
+                    "name": "number"
+                  }
+                ],
+                "description": "The value of the radio item. This value corresponds to the items\r\nspecified in the `value` property.",
+                "required": true
+              },
+              "disabled": {
+                "name": "bool",
+                "description": "If true, this radio item is disabled and can't be clicked on.",
+                "required": false
+              },
+              "input_id": {
+                "name": "string",
+                "description": "id for this option's input, can be used to attach tooltips or apply\r\nCSS styles",
+                "required": false
+              },
+              "label_id": {
+                "name": "string",
+                "description": "id for this option's label, can be used to attach tooltips or apply\r\nCSS styles",
+                "required": false
+              }
+            }
+          }
+        },
+        "required": false,
+        "description": "An array of options",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "value": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "The currently selected value"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The style of the container (div)"
+      },
+      "class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The class of the container (div)"
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `class_name` instead.\r\n\nThe class of the container (div)"
+      },
+      "input_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The style of the <input> radio element",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "inputStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `input_style` instead.\r\n\nThe style of the <input> radio element",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "input_checked_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Additional inline style arguments to apply to <input> elements on checked\r\nitems."
+      },
+      "inputCheckedStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `input_checked_style` instead.\r\n\nAdditional inline style arguments to apply to <input> elements on checked\r\nitems."
+      },
+      "input_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The class of the <input> radio element",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "inputClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `input_class_name` instead.\r\n\nThe class of the <input> radio element",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "input_checked_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Additional CSS classes to apply to the <input> element when the\r\ncorresponding radio is checked."
+      },
+      "inputCheckedClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `input_checked_class_name` instead.\r\n\nAdditional CSS classes to apply to the <input> element when the\r\ncorresponding radio is checked."
+      },
+      "label_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline style arguments to apply to the <label> element for each item.",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "labelStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `label_style` instead.\r\n\nInline style arguments to apply to the <label> element for each item.",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "label_checked_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Additional inline style arguments to apply to <label> elements on checked\r\nitems."
+      },
+      "labelCheckedStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `label_checked_style` instead.\r\n\nAdditional inline style arguments to apply to <label> elements on checked\r\nitems."
+      },
+      "label_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS classes to apply to the <label> element for each item.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "labelClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `label_class_name` instead.\r\n\nCSS classes to apply to the <label> element for each item.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "label_checked_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Additional CSS classes to apply to the <label> element when the\r\ncorresponding radio is checked."
+      },
+      "labelCheckedClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "**DEPRECATED** Use `label_checked_class_name` instead.\r\n\nAdditional CSS classes to apply to the <label> element when the\r\ncorresponding radio is checked."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that gets fired when the value changes."
+      },
+      "inline": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Arrange RadioItems inline"
+      },
+      "image_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS classes to apply to the <img> element for each item.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "card_class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS classes to apply to the <card> element for each item.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Color for the card border",
+        "defaultValue": {
+          "value": "'primary'",
+          "computed": false
+        }
+      },
+      "loading_state": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "name": "bool",
+              "description": "Determines if the component is loading or not",
+              "required": false
+            },
+            "prop_name": {
+              "name": "string",
+              "description": "Holds which property is loading",
+              "required": false
+            },
+            "component_name": {
+              "name": "string",
+              "description": "Holds the name of the component that is loading",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "Object that holds the loading state object coming from dash-renderer"
+      },
+      "persistence": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Used to allow user interactions in this component to be persisted when\r\nthe component - or the page - is refreshed. If `persisted` is truthy and\r\nhasn't changed from its previous value, a `value` that the user has\r\nchanged while using the app will keep that change, as long as\r\nthe new `value` also matches what was given originally.\r\nUsed in conjunction with `persistence_type`."
+      },
+      "persisted_props": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "enum",
+            "value": [
+              {
+                "value": "'value'",
+                "computed": false
+              }
+            ]
+          }
+        },
+        "required": false,
+        "description": "Properties whose user interactions will persist after refreshing the\r\ncomponent or the page. Since only `value` is allowed this prop can\r\nnormally be ignored.",
+        "defaultValue": {
+          "value": "['value']",
+          "computed": false
+        }
+      },
+      "persistence_type": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'local'",
+              "computed": false
+            },
+            {
+              "value": "'session'",
+              "computed": false
+            },
+            {
+              "value": "'memory'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Where persisted user changes will be stored:\r\nmemory: only kept in memory, reset on page refresh.\r\nlocal: window.localStorage, data is kept after the browser quit.\r\nsession: window.sessionStorage, data is cleared once the browser quit.",
+        "defaultValue": {
+          "value": "'local'",
+          "computed": false
+        }
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The name of the control, which is submitted with the form data."
+      }
+    }
+  }
+}
