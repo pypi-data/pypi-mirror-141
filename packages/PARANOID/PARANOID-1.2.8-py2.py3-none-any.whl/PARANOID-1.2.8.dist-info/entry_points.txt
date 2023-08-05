@@ -1,0 +1,2 @@
+[console_scripts]
+paranoid = src.paranoid:main
