@@ -1,0 +1,9 @@
+.env
+.mypy_cache/
+__pycache__/
+*$py.class
+.Python
+*.egg-info/
+*.egg
+*dist
+*build

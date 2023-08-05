@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+__init_.py
+examples.ipynb
+myeia.py
+pre-commit-config.yaml
+requirements.txt
+setup.py
+myeia.egg-info/PKG-INFO
+myeia.egg-info/SOURCES.txt
+myeia.egg-info/dependency_links.txt
+myeia.egg-info/requires.txt
+myeia.egg-info/top_level.txt
