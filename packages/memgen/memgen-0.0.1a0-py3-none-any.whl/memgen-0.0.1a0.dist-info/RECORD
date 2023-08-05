@@ -1,0 +1,9 @@
+memgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memgen/memgen.py,sha256=g-h728oUBvThyv3Z6SAoFQUJpTnlO8udzcNrFkKildE,1592
+memgen/parse_cli.py,sha256=4yFMHLkizog07TW5Y18NTm1fGv_7LzX6mj54r0F-wGY,1757
+memgen/test_parse_cli.py,sha256=HEhOUyDUb-OXBErgqFMp-bmZV5zu2t4-CUvoFbti2lU,1335
+memgen-0.0.1a0.data/scripts/memgen,sha256=bm5P9Jmv9ARunp7O_Bb7X6o_qcldIXlKtPZcX8f2ya8,1578
+memgen-0.0.1a0.dist-info/METADATA,sha256=uS-gX3RjLLAWckwtQyqo2Xywm1HJewSoZvAWBG8nAJU,5430
+memgen-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memgen-0.0.1a0.dist-info/top_level.txt,sha256=QlXXbwVqIZI_H9ppVS2EUjfzy1JgH7wSxcWSw92yAek,7
+memgen-0.0.1a0.dist-info/RECORD,,
