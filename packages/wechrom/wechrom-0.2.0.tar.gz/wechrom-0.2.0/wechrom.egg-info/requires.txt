@@ -1,0 +1,6 @@
+openmm
+numpy
+pandas
+MDAnalysis
+setuptools
+tqdm
