@@ -1,0 +1,4 @@
+[console_scripts]
+lep-dl=lep_downloader.__main__:main
+lep-downloader=lep_downloader.__main__:main
+
