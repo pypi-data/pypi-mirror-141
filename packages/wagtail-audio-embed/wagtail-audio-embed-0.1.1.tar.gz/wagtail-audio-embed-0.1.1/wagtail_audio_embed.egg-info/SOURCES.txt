@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wagtail_audio_embed.egg-info/PKG-INFO
+wagtail_audio_embed.egg-info/SOURCES.txt
+wagtail_audio_embed.egg-info/dependency_links.txt
+wagtail_audio_embed.egg-info/requires.txt
+wagtail_audio_embed.egg-info/top_level.txt
+wagtailaudioembed/__init__.py
+wagtailaudioembed/apps.py
+wagtailaudioembed/embed.py
+wagtailaudioembed/templates/wagtailaudioembed/audio.html
