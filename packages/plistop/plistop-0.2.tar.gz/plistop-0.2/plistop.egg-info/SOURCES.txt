@@ -1,0 +1,9 @@
+README
+plistop.py
+setup.py
+plistop.egg-info/PKG-INFO
+plistop.egg-info/SOURCES 2.txt
+plistop.egg-info/SOURCES.txt
+plistop.egg-info/dependency_links.txt
+plistop.egg-info/requires.txt
+plistop.egg-info/top_level.txt

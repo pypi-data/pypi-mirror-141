@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: plistop
+Version: 0.2
+Summary: Fast XML plist reader based on lxml.
+Home-page: http://github.com/dw/plistop/
+Author: David Wilson, Émile Jetzer
+Author-email: dw@botanicus.net,emile.jetzer@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
