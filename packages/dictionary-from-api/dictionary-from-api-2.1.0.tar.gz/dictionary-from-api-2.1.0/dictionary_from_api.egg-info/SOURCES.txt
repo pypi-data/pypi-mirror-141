@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+dictionary_from_api.egg-info/PKG-INFO
+dictionary_from_api.egg-info/SOURCES.txt
+dictionary_from_api.egg-info/dependency_links.txt
+dictionary_from_api.egg-info/requires.txt
+dictionary_from_api.egg-info/top_level.txt
