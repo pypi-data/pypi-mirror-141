@@ -1,0 +1,16 @@
+numpy>1.11
+scipy>=1.5
+
+[docs]
+sphinx
+sphinx_math_dollar
+sphinx-toggleprompt
+sphinx_rtd_theme
+pydata_sphinx_theme
+graphviz
+sphinx-automodapi
+numpydoc
+
+[test]
+pytest-cov
+codecov
