@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: django-web-analysis
+Version: 0.1
+Summary: A Django app for small analysis
+Home-page: https://www.majestylink.com/
+Author: Atuh Samuel
+Author-email: atuhsamuel96@gmail.com
+Maintainer: Atuh Samuel
+Maintainer-email: atuhsamuel96@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+
+===================
+Django Web Analysis
+===================
+
+Django analytics is an app that can help you with a little analysis like who viewed what, when.
+
+Quick start
+-----------
+
+1. Add "analyse" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'analyse',
+    ]
+
+
+2. Import the "ObjectViewedMixin" class like this::
+
+    from analyse.mixins import ObjectViewedMixin
+
+
+
+3. Then add the imported class any class based detail view like this::
+
+    class BlogDetail(DetailView, ObjectViewedMixin):
+        ...
+
+You can view the data from your admin panel and you can also pull and use information from your code base.
+
