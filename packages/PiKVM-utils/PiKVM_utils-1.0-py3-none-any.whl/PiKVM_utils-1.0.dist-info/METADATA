@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PiKVM-utils
+Version: 1.0
+Summary: Quick and easy PiKVM setup script
+Home-page: https://github.com/Baekalfen/pikvm-utils
+Author: Mads Ynddal
+Author-email: mads@ynddal.dk
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: paramiko
+Requires-Dist: requests
+
+UNKNOWN
+
