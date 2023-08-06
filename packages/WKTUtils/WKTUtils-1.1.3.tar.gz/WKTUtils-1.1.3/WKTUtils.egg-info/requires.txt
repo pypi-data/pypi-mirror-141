@@ -1,0 +1,13 @@
+dateparser
+defusedxml
+Fiona
+geomet
+geopandas
+pyproj<=2.6.0
+kml2geojson
+pyshp
+PyYAML
+regex
+requests
+Shapely
+sklearn
