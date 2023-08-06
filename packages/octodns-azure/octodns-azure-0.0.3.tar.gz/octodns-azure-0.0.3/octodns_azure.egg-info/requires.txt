@@ -1,0 +1,14 @@
+azure-identity<1.8.0,>=1.7.1
+azure-mgmt-dns<8.1.0,>=8.0.0
+azure-mgmt-trafficmanager<1.1.0,>=1.0.0
+msrestazure<0.7.0,>=0.6.4
+octodns>=0.9.14
+
+[dev]
+pytest>=6.2.5
+pytest-network>=0.0.1
+build>=0.7.0
+pycodestyle>=2.6.0
+pyflakes>=2.2.0
+readme_renderer[md]>=26.0
+twine>=3.4.2
