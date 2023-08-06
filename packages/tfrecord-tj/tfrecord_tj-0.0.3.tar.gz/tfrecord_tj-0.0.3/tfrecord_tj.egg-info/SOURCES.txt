@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tfrecord_tj/__init__.py
+tfrecord_tj/example_pb2.py
+tfrecord_tj/iterator_utils.py
+tfrecord_tj/reader.py
+tfrecord_tj/writer.py
+tfrecord_tj.egg-info/PKG-INFO
+tfrecord_tj.egg-info/SOURCES.txt
+tfrecord_tj.egg-info/dependency_links.txt
+tfrecord_tj.egg-info/requires.txt
+tfrecord_tj.egg-info/top_level.txt
+tfrecord_tj/tools/__init__.py
+tfrecord_tj/tools/tfrecord2idx.py
+tfrecord_tj/torch/__init__.py
+tfrecord_tj/torch/dataset.py
