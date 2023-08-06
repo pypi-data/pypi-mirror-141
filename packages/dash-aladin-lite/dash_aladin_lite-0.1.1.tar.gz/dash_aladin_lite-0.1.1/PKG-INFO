@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dash_aladin_lite
+Version: 0.1.1
+Summary: Dash component for Aladin Lite.
+Home-page: https://github.com/toltec-astro/dash_aladin_lite
+Author: Zhiyuan Ma <zhiyuanma@umass.edu>
+License: BSD
+Project-URL: Bug Reports, https://github.com/toltec-astro/dash_aladin_lite/issues
+Project-URL: Source, https://github.com/toltec-astro/dash_aladin_lite
+Description: # dash_aladin_lite
+        
+        Dash Aladin Lite is a Dash component library for
+        [Aladin Sky Atlas](https://aladin.cds.unistra.fr/aladin.gml).
+        
+        * Free software: BSD license
+        * Documentation: https://toltec-astro.github.io/dash_aladin_lite
+        
+        ## Installation
+        
+        ### PyPI
+        
+        ```sh
+        pip install dash-aladin-lite
+        ```
+        
+        ### Anaconda
+        
+        ```sh
+        conda install -c conda-forge dash-aladin-lite
+        ```
+        
+        ### Dash for R
+        
+        ```r
+        install.packages("devtools")
+        library(devtools)
+        install_github('toltec-astro/dash_aladin_lite@r-release')
+        ```
+        
+        ### Dash.jl
+        
+        ```jl
+        pkg> add DashAladinLite
+        ```
+        
+        ## Get started
+        
+        * Install dependencies for the `usage.py` demo:
+        
+        ```sh
+        pip install -r requirements-demo.txt
+        ```
+        
+        * Run `python usage.py`
+        
+        * Visit http://localhost:8050 in your web browser
+        
+        ## Contributing
+        
+        See [CONTRIBUTING.md](./CONTRIBUTING.md)
+        
+        ## Authors
+        
+        * Zhiyuan Ma
+        
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
