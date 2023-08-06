@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+modulesync/__init__.py
+modulesync/__main__.py
+modulesync/modulesync.py
+modulesync.egg-info/PKG-INFO
+modulesync.egg-info/SOURCES.txt
+modulesync.egg-info/dependency_links.txt
+modulesync.egg-info/entry_points.txt
+modulesync.egg-info/top_level.txt

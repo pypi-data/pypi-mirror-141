@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: modulesync
+Version: 0.0.1
+Summary: For syncing same modules in different locations
+Home-page: https://github.com/KipCrossing/modulesync
+Author: Kipling Crossing
+Author-email: kip.crossing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# modulesync
+
+For syncing same modules in different locations 
+
+
