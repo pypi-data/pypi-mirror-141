@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "aiondao"
+version = "0.1.0"
+description = ""
+authors = ["kivo360 <kivo360@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+cadCAD = "^0.4.28"
+pandas = "^1.4.1"
+tabulate = "^0.8.9"
+wrapt = "^1.13.3"
+pydantic = "^1.9.0"
+decorator = "^5.1.1"
+loguru = "^0.6.0"
+Mesa = "^0.9.0"
+scipy = "^1.8.0"
+networkx = "^2.6.3"
+Jinja2 = "^3.0.3"
+auto-all = "^1.4.1"
+cytoolz = "^0.11.2"
+typer = "^0.4.0"
+devtools = "^0.8.0"
+addict = "^2.4.0"
+libcst = "^0.4.1"
+fastapi = "^0.74.1"
+celery = {extras = ["redis"], version = "^5.2.3"}
+keyring = "^23.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.9.1"
+mypy = "^0.931"
+pytest-watch = "^4.2.0"
+codemod-unittest-to-pytest-asserts = "^1.0.5"
+addict = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+aiondao = "aiondao.cli:app"
