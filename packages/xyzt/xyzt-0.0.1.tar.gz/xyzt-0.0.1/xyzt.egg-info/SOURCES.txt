@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xyzt/__init__.py
+xyzt.egg-info/PKG-INFO
+xyzt.egg-info/SOURCES.txt
+xyzt.egg-info/dependency_links.txt
+xyzt.egg-info/top_level.txt
