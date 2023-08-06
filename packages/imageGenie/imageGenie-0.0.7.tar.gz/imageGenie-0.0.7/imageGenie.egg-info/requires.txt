@@ -1,0 +1,4 @@
+opencv-contrib-python==4.5.5.62
+tensorflow-gpu==2.8.0
+Pillow
+scipy
