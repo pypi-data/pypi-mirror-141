@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+asseteour/__init__.py
+asseteour/main.py
+asseteour.egg-info/PKG-INFO
+asseteour.egg-info/SOURCES.txt
+asseteour.egg-info/dependency_links.txt
+asseteour.egg-info/top_level.txt
