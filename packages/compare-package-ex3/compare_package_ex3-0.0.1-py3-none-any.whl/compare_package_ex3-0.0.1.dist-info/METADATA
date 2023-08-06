@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: compare-package-ex3
+Version: 0.0.1
+Summary: Compare number
+Home-page: UNKNOWN
+Author: TranNguyenHanh
+Author-email: tnh210302@gmail.com
+License: UNKNOWN
+Keywords: python,compare
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: sympy
+
+Compare number package
+
+
