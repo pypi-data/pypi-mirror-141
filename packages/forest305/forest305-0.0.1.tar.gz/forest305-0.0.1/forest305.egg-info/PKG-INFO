@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: forest305
+Version: 0.0.1
+Summary: A collection of functions
+Home-page: UNKNOWN
+Author: Jeff Song
+Author-email: jeff.song0305@gmail.com
+License: MIT
+Description: This is a collecton of my functions.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (9/3/2022)
+        
+        - First Release
+Platform: UNKNOWN
