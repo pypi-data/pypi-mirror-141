@@ -1,0 +1,3 @@
+[console_scripts]
+JAVA_CLASS_GENERATOR = JAVA_CLASS_GENERATOR.java_class_generator:main
+
