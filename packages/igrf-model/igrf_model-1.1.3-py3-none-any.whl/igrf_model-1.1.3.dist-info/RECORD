@@ -1,0 +1,13 @@
+igrf_model/__init__.py,sha256=Jh3o2YsRBqEgU3herBBwqg5Wa2dW9pGaaJL5xUI_CPI,322
+igrf_model/_igrf13syn.py,sha256=kSz5tH125c7c7aNmjRnX8e_uk6-itdYqYt3rhWEoTiE,8452
+igrf_model/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+igrf_model/data/igrf13.txt,sha256=RguNi-ubTfhP6-Twtjnw3VTcz-j_CXBhYoewFfpyFCU,40639
+igrf_model/model.py,sha256=uuxCssu0GHnUxIgGKeGlz8TrSqJhaGzU4kFFYPgcMuU,8125
+igrf_model/types.py,sha256=O0DFhvNvkC6rW7V0ToI4vl071wb2BRrNGw8ZDptuArs,371
+igrf_model/utils.py,sha256=90vTidW9OS6Mfyy1z3sExri-gTAf42LUAMBloVCz8W4,940
+igrf_model/vector.py,sha256=Zc0dZN7LBS8W-I81NhB29ymW6KZB3fQ-TXo3kMqVEvk,1212
+igrf_model/version.py,sha256=SLwrZUXiau_UcIVFgB44ZvRqih-LcqJ7ygoRgxbe4H8,95
+igrf_model-1.1.3.dist-info/LICENSE.md,sha256=bw6c5_tgSySY820yJrOXG85BSxEjhUPyFDiVhMlM4dY,1066
+igrf_model-1.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+igrf_model-1.1.3.dist-info/METADATA,sha256=UdT86KZG3h1skAeoqy5IlNAsT8S3hFNFY87hkx0B7oA,512
+igrf_model-1.1.3.dist-info/RECORD,,
