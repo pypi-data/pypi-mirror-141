@@ -1,0 +1,3 @@
+[console_scripts]
+vortex = vortex.core.shell:main
+
