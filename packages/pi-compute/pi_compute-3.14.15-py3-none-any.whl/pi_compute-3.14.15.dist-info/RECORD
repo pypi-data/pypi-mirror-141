@@ -1,0 +1,9 @@
+pi_compute/__init__.py,sha256=i_fHHeuYwI4ibkuvnRIjv5s-fcfab65z5C8dlkt25BU,1224
+pi_compute/pi.py,sha256=Ep8n5oP-Yq4CSrfJK1i6GFeC06XRqPXy6lqOH4-lFxY,1488
+pi_compute/include/pi.cpp,sha256=eKnXVRvtkriTJfjVFlug63r1xZXc2lar1-fmY--7GlM,3062
+pi_compute/lib/lib_pi.so,sha256=tkFg_7l_rWOspE_tRp1EH5BpBPrhtYKIcL8BiMNvFvI,39014
+pi_compute-3.14.15.dist-info/LICENSE,sha256=zK1VSUUA7uHprW3ig2oHdYAc_dyxBv0mEBRWBYBQi1c,31
+pi_compute-3.14.15.dist-info/METADATA,sha256=jPQTvaUPDFuSUBURIZpdOU3OBvkX9owwqM-HH3h6dO0,1240
+pi_compute-3.14.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pi_compute-3.14.15.dist-info/top_level.txt,sha256=3HBKepLrWM5qQT8ntWzExljSbIF8mM1HQKRkes5tbYE,11
+pi_compute-3.14.15.dist-info/RECORD,,
