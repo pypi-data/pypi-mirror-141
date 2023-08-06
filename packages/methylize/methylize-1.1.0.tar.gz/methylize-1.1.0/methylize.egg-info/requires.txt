@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+methylprep
+methylcheck
+pymysql
+toolshed
+interlap
+adjustText
+
+[dev]
+pytest
+coverage
