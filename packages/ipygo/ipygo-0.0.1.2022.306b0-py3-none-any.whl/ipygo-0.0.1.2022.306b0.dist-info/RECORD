@@ -1,0 +1,11 @@
+ipygo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipygo/ftbase.cp38-win_amd64.pyd,sha256=_QvexRCdGyXDUh085anvx0byUnfs-j5JV6XZtgyezCU,333312
+ipygo/ftcore.cp38-win_amd64.pyd,sha256=ys6FXLbG9m9PlJok8DhJvElZypq3kZ8N2_FGjVvG6vA,335872
+ipygo/ftdemo.cp38-win_amd64.pyd,sha256=MXGs-csN74ABaZfAYqud4E8xyYuIAFQIOqRv4uJGs6U,55808
+ipygo/id.py,sha256=jFPBjlQmk-CMBJ9VDokGIEr1RI4dKzLCOf8A36SgUXs,180
+ipygo/ipyd.cp38-win_amd64.pyd,sha256=I_ZYWBQTByJ_YJi4uIXhBBj4bWIr6Ck8GPIiHUXSa3Y,58880
+ipygo-0.0.1.2022.306b0.dist-info/LICENSE,sha256=fhazpDVq4e8GYHH_iPt-oK7Mwcl5190uQgn8PQkug0w,1236
+ipygo-0.0.1.2022.306b0.dist-info/METADATA,sha256=p_IqMXFORZlyclWrC02v-pNizOOMcDL6A90ECG07wwE,832
+ipygo-0.0.1.2022.306b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ipygo-0.0.1.2022.306b0.dist-info/top_level.txt,sha256=mUt3TXA-j-3dgKoLsVjXY45oqI3GOGDcxiX2a01g0Vk,6
+ipygo-0.0.1.2022.306b0.dist-info/RECORD,,
