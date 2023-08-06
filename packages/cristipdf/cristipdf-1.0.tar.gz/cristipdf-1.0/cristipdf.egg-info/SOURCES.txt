@@ -1,0 +1,6 @@
+README.md
+setup.py
+cristipdf.egg-info/PKG-INFO
+cristipdf.egg-info/SOURCES.txt
+cristipdf.egg-info/dependency_links.txt
+cristipdf.egg-info/top_level.txt
