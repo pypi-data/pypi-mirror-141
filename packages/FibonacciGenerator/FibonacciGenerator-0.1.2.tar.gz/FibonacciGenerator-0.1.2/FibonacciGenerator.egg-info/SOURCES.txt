@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+FibonacciGenerator/__init__.py
+FibonacciGenerator.egg-info/PKG-INFO
+FibonacciGenerator.egg-info/SOURCES.txt
+FibonacciGenerator.egg-info/dependency_links.txt
+FibonacciGenerator.egg-info/requires.txt
+FibonacciGenerator.egg-info/top_level.txt
