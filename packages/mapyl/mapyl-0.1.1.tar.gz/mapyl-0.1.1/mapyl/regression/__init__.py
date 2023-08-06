@@ -1,0 +1,3 @@
+from regression.linear_regression import LinearRegressor
+from regression.polynomial_regression import PolyRegressor
+from regression.logistic_regression import BinLogitRegressor
