@@ -1,0 +1,2 @@
+[gui_scripts]
+dycall = dycall.__main__:main
