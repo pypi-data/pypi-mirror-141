@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: bizchat
+Version: 6.2.0
+Summary: import this library to use chat from client to  server directly
+Home-page: 
+Author: mayur
+Author-email: mayurdhameliya98@gmai.com
+License: MIT
+Keywords: server client,chatapp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+( " client-server socket chat" )
+
+Quick start
+-----------
+
+Installing
+----------
+To install the library to your bot, run the command:
+
+pip install bizchat
+
+To install the repository, run the command:
+
+Usage
+-----
+**Basic Usage**
+
+.. code:: py
+
+
+from socket import*
+import socket
+
+
+def server():
+    
+    hostname = socket.gethostname()
+    local_ip = socket.gethostbyname(hostname)
+    print(hostname, local_ip)
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    address = input("enter address :  ")
+    port = int(input("Enter Port : "))
+    server.bind((address, port))
+    server.listen()
+    print("server listening...")
+    connection, address = server.accept()
+    print("connected to client...")
+
+    while True:
+        data = input("server : ")
+        connection.send(bytes(data, 'utf-8'))
+        recdata = connection.recv(1024).decode()
+        print('client : ', recdata)
+
+
+
+def client():
+    client = socket.socket()
+    address = input("enter address : ")
+    port = int(input("Enter Port : "))
+    client.connect((address, port))
+    print("connected to server..")
+    
+    while True:
+        recdata = client.recv(1024).decode()
+        print('server : ', recdata)
+        data = input("client: ")
+        client.send(bytes(data, 'utf-8'))
+
+
+
+
+
+
