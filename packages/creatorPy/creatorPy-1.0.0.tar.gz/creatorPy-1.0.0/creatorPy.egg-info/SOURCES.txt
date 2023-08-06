@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+creatorPy/__init__.py
+creatorPy/creatorPy.py
+creatorPy.egg-info/PKG-INFO
+creatorPy.egg-info/SOURCES.txt
+creatorPy.egg-info/dependency_links.txt
+creatorPy.egg-info/top_level.txt
