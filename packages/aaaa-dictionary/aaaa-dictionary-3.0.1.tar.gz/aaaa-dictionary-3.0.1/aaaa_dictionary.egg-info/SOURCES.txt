@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+aaaa_dictionary.egg-info/PKG-INFO
+aaaa_dictionary.egg-info/SOURCES.txt
+aaaa_dictionary.egg-info/dependency_links.txt
+aaaa_dictionary.egg-info/requires.txt
+aaaa_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
