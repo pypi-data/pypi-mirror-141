@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/flavortext/__init__.py
+src/flavortext/flavortext.py
+src/flavortext.egg-info/PKG-INFO
+src/flavortext.egg-info/SOURCES.txt
+src/flavortext.egg-info/dependency_links.txt
+src/flavortext.egg-info/top_level.txt
