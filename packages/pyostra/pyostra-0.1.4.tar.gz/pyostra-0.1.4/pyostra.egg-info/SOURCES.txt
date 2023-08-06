@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+test.py
+pyostra/__init__.py
+pyostra/logger.py
+pyostra.egg-info/PKG-INFO
+pyostra.egg-info/SOURCES.txt
+pyostra.egg-info/dependency_links.txt
+pyostra.egg-info/requires.txt
+pyostra.egg-info/top_level.txt
