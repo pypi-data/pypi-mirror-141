@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: moto-ext
+Version: 3.0.5
+Summary: A library that allows your python tests to easily mock out the boto library
+Home-page: https://github.com/spulec/moto
+Author: Steve Pulec
+Author-email: spulec@gmail.com
+License: Apache
+Project-URL: Documentation, http://docs.getmoto.org/en/latest/
+Description: # Moto - Mock AWS Services
+        
+        Fork of [`moto`](https://github.com/spulec/moto) with changes and adaptations for [LocalStack](https://github.com/localstack/localstack).
+        
+        Please refer to the upstream repo for more details.
+        
+        ## Releasing
+        
+        This fork is maintained as a separate pypi package, [moto-ext](https://pypi.org/project/moto-ext). To release a new version, follow these steps:
+        ```
+        # make sure to have git remotes defined for both repos: 
+        $ git remote -v
+        localstack	git@github.com:localstack/moto.git (fetch)
+        localstack	git@github.com:localstack/moto.git (push)
+        upstream	git@github.com:spulec/moto.git (fetch)
+        upstream	git@github.com:spulec/moto.git (push)
+        
+        # fetch fresh upstream "master" branch
+        $ git fetch upstream master
+        
+        # branch "localstack" is the default branch of this repo
+        $ git checkout localstack
+        $ git rebase upstream/master  # resolve merge conflicts, if any...
+        # (force-)push latest changes to the remote repo
+        $ git push -f localstack localstack
+        
+        # update __version__, then publish to pypi
+        $ vi moto/__init__.py
+        ...
+        $ rm -rf dist/ build/
+        $ make publish
+        ...
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: kms
+Provides-Extra: ec2
+Provides-Extra: emr
+Provides-Extra: logs
+Provides-Extra: appsync
+Provides-Extra: codecommit
+Provides-Extra: resourcegroups
+Provides-Extra: s3control
+Provides-Extra: route53resolver
+Provides-Extra: dynamodbstreams
+Provides-Extra: organizations
+Provides-Extra: glue
+Provides-Extra: swf
+Provides-Extra: servicediscovery
+Provides-Extra: events
+Provides-Extra: server
+Provides-Extra: stepfunctions
+Provides-Extra: elb
+Provides-Extra: athena
+Provides-Extra: elastictranscoder
+Provides-Extra: acm
+Provides-Extra: elasticbeanstalk
+Provides-Extra: dax
+Provides-Extra: iotdata
+Provides-Extra: cloudtrail
+Provides-Extra: ses
+Provides-Extra: cloudwatch
+Provides-Extra: dynamodb2
+Provides-Extra: sqs
+Provides-Extra: cloudformation
+Provides-Extra: rds
+Provides-Extra: resourcegroupstaggingapi
+Provides-Extra: wafv2
+Provides-Extra: glacier
+Provides-Extra: ram
+Provides-Extra: eks
+Provides-Extra: route53
+Provides-Extra: iam
+Provides-Extra: dms
+Provides-Extra: redshift
+Provides-Extra: opsworks
+Provides-Extra: timestreamwrite
+Provides-Extra: sts
+Provides-Extra: elasticache
+Provides-Extra: support
+Provides-Extra: xray
+Provides-Extra: firehose
+Provides-Extra: cognitoidp
+Provides-Extra: ssm
+Provides-Extra: config
+Provides-Extra: medialive
+Provides-Extra: secretsmanager
+Provides-Extra: mediastoredata
+Provides-Extra: managedblockchain
+Provides-Extra: ecs
+Provides-Extra: guardduty
+Provides-Extra: kinesisvideo
+Provides-Extra: kinesisvideoarchivedmedia
+Provides-Extra: transcribe
+Provides-Extra: datasync
+Provides-Extra: autoscaling
+Provides-Extra: cognitoidentity
+Provides-Extra: redshiftdata
+Provides-Extra: iot
+Provides-Extra: cloudfront
+Provides-Extra: mediastore
+Provides-Extra: lambda
+Provides-Extra: dynamodb
+Provides-Extra: rds2
+Provides-Extra: sdb
+Provides-Extra: elbv2
+Provides-Extra: all
+Provides-Extra: codepipeline
+Provides-Extra: ds
+Provides-Extra: apigateway
+Provides-Extra: ecr
+Provides-Extra: emrcontainers
+Provides-Extra: ssoadmin
+Provides-Extra: forecast
+Provides-Extra: ec2instanceconnect
+Provides-Extra: sagemaker
+Provides-Extra: datapipeline
+Provides-Extra: xray_client
+Provides-Extra: mq
+Provides-Extra: es
+Provides-Extra: mediaconnect
+Provides-Extra: applicationautoscaling
+Provides-Extra: budgets
+Provides-Extra: sns
+Provides-Extra: s3
+Provides-Extra: apigatewayv2
+Provides-Extra: batch
+Provides-Extra: mediapackage
+Provides-Extra: kinesis
+Provides-Extra: textract
+Provides-Extra: polly
+Provides-Extra: awslambda
+Provides-Extra: efs
