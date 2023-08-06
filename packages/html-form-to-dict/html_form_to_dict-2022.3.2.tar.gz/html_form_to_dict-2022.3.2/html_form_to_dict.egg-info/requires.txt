@@ -1,0 +1,5 @@
+lxml
+
+[test]
+pytest
+bumpver
