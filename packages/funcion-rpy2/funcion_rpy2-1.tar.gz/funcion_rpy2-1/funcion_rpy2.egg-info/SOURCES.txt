@@ -1,0 +1,5 @@
+setup.py
+funcion_rpy2.egg-info/PKG-INFO
+funcion_rpy2.egg-info/SOURCES.txt
+funcion_rpy2.egg-info/dependency_links.txt
+funcion_rpy2.egg-info/top_level.txt
