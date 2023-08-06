@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: modsim
+Version: 0.2.1
+Summary: A Modbus TCP Device Simulator
+Home-page: https://github.com/gavinying/modsim
+License: MIT
+Author: Ying Shaodong
+Author-email: helloysd@foxmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: pip (>=21.2,<22.0)
+Requires-Dist: pymodbus[twisted] (>=2.5.2,<3.0.0)
+Project-URL: Repository, https://github.com/gavinying/modsim
+Description-Content-Type: text/markdown
+
+# ModSim - A Simple Modbus TCP Device Simulator
+
+## Quick Start
+
+A docker image has been provided for user to directly run the program, 
+
+  ```bash
+  docker run -p 5020:5020 helloysd/modsim
+  ```
+
