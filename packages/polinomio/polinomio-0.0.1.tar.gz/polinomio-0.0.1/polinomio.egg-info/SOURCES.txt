@@ -1,0 +1,8 @@
+README.md
+setup.py
+polinomio/__init__.py
+polinomio/polinomios.py
+polinomio.egg-info/PKG-INFO
+polinomio.egg-info/SOURCES.txt
+polinomio.egg-info/dependency_links.txt
+polinomio.egg-info/top_level.txt
