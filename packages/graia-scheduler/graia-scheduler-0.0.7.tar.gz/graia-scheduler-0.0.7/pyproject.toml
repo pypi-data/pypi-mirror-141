@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "graia-scheduler"
+version = "0.0.7"
+description = "a scheduler for graia framework"
+authors = ["GreyElaina <GreyElaina@outlook.com>"]
+license = "MIT"
+packages = [{ include = "graia", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+graia-broadcast = ">=0.12.1"
+croniter = "^1.0.0"
+dataclasses = { python = "<3.7", version = "*" }
+
+[tool.poetry.dev-dependencies]
+graia-saya = "^0.0.13"
+black = "*"
+isort = "*"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+saya = ['graia-saya']
