@@ -1,0 +1,8 @@
+genpipe/__init__.py,sha256=JOUpaoB_G8_z5nk6hWLda6Zus7FwP0dZ5IcwUXSBeE8,210
+genpipe/genpipe.py,sha256=SQDm6VTlF5nzQ91KBPC52ChfGHnG0zleJr6OJENv670,4865
+genpipe/operations.py,sha256=vIqtB2FclMLB2m0LWdJsYEaKuqSHyFVTtoOcUFZdGzQ,523
+genpipe/protocol.py,sha256=xt-wedzC-SYSvMQ4b4oaYTw3wP0WUfqhdNeRq-jYPwQ,604
+genpipe-0.1.0.dist-info/LICENSE,sha256=1v8ycxxmY0ZhF7p_Bywfuz3b32O3VO7mLM-bHHKyUd4,1053
+genpipe-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+genpipe-0.1.0.dist-info/METADATA,sha256=uzWsl7mcBrL2jhamrJ95aA3GGrKpKs7y1a5V9IwrFhc,387
+genpipe-0.1.0.dist-info/RECORD,,
