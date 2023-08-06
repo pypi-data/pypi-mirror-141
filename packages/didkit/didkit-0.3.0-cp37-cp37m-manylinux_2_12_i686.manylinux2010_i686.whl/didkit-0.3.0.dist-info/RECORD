@@ -1,0 +1,7 @@
+didkit-0.3.0.dist-info/METADATA,sha256=b18Q2t6QmJbGfb69xJhQDD1X13tueLziZ2fKRtZOWos,3196
+didkit-0.3.0.dist-info/WHEEL,sha256=ybmkjvRv53xHg8o5NWh-7BbW6BXzUUPClDxM95guJfI,126
+didkit/__init__.py,sha256=utHoQK9GBOv11BW7AfxVUgQkJ-OGhBHWDJG-T0AxO0g,48
+didkit/__init__.pyi,sha256=JGaf6eeAYuqdW2HUVKaRrnGnLIGIQ7Ho8nNHEbAV21g,776
+didkit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+didkit/didkit.cpython-37m-i386-linux-gnu.so,sha256=3F5YtDo-kgte9FmxBDp87wBMnKDWXKRUoALCdhyhEyU,24111612
+didkit-0.3.0.dist-info/RECORD,,
