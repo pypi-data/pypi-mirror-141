@@ -1,0 +1,12 @@
+pypums/__init__.py,sha256=EVfGczdOGIFZX94KC5E4BouGVaCmsp6Mr03Guqxwbmc,208
+pypums/__main__.py,sha256=rameKbb5BQ1c5bE8WIsKeNU9bElWYqvxn0dGlQO0mdI,117
+pypums/cli.py,sha256=oL_MymRzzYHtt5VVjfaLVM1BCydVMdjKvXecDmbNsVo,3226
+pypums/constants.py,sha256=Ufe_keu_VH217h-eh7S7XA23bs9Sb76Lv2yjYgr_uJQ,632
+pypums/surveys.py,sha256=SUfsTebJ_TFzUq8j0fHY0vQZChBuFtSk_gyhMVXZf9I,2669
+pypums/utils.py,sha256=3xf8w_RVWDohm4vmo8tclNBkSKH__aFQtK_zwcINJi8,6278
+pypums-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pypums-0.1.dist-info/METADATA,sha256=dX52HgDHln5QfwOl3143_Cxd_2rncVpvS181g7cVr0s,2677
+pypums-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypums-0.1.dist-info/entry_points.txt,sha256=v3E1s3d6FJDHizhd2vRjNcwYFXOcAK-wynkaGo_eCnA,42
+pypums-0.1.dist-info/top_level.txt,sha256=fVL7BbzCjHWXeMWCTUL_8FWFZR1o_Lxxz9QPxC09R-E,7
+pypums-0.1.dist-info/RECORD,,
