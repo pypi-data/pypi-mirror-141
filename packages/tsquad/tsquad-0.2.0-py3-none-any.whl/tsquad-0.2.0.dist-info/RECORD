@@ -1,0 +1,11 @@
+tsquad/__init__.py,sha256=8xFjcSRxCYtdadJfttkmQq5mkUhYH2you7GzBdHFkvk,624
+tsquad/generate_c_nodes_weights_header.py,sha256=BvXygeB0HYwzx9C6zTe3ML5dRQDbAnl7AbtRoQreh0s,8929
+tsquad/generate_py_nodes_weights.py,sha256=kknbxayfaXlghXy1wPyBFjzNoCZb5mx0hzR3DpwVtq4,5774
+tsquad/nodes_weights.py,sha256=AnPEnx5Vh9SzM8NW21VaT7ikGnJY1mVyGDrSsa0ldTA,579619
+tsquad/shanks.py,sha256=TgvU7qf2YR0ZgBrfsM1Jb-Rn_ZgIShxnvfOBeTmjXns,2353
+tsquad/tsconfig.py,sha256=29iKOtBJyO4gwNK4251a4u_vebKC4bOSzRyxN8Flw9E,808
+tsquad/tsquad_py.py,sha256=j9l5d5OCE4MhdD38ZQFovUfK70Pn1WNfQiJIVGK3yPM,29881
+tsquad-0.2.0.dist-info/LICENSE,sha256=Ywd5WX-XQwZUBKH8J-ttlAXB-HLX5jROMJzlCaaX7pc,1524
+tsquad-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tsquad-0.2.0.dist-info/METADATA,sha256=7HdxYI7Y5L2ddqYkROPpidwR-tzL6w7KX4y-d9OfDZo,529
+tsquad-0.2.0.dist-info/RECORD,,
