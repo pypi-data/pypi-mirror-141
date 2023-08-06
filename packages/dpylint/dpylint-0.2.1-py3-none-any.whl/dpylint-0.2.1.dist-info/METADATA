@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dpylint
+Version: 0.2.1
+Summary: A pylint extension for analyzing python files that use the discord.py library
+Home-page: https://wasi-master.github.io/dpylint/
+Author: Wasi Master
+Author-email: arianmollik323@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pylint
+Requires-Dist: astroid
+Requires-Dist: discord.py
+
+UNKNOWN
+
