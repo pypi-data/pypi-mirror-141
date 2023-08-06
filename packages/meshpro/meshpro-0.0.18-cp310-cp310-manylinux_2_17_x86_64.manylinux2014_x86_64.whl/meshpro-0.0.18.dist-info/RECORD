@@ -1,0 +1,11 @@
+meshpro.pyi,sha256=kiTJfMx-wUcDaGPd0ZqN0k3KdhRjDYRUr0AtTujgGyM,1176
+meshpro.cpython-38-x86_64-linux-gnu.so,sha256=QLFUT0_TA-MEvHGcvziIqPRuxqvwNU9Se2UM9lqbAUw,1595912
+meshpro.cpython-310-x86_64-linux-gnu.so,sha256=9pA9K_G8MNTH4U8_WKvYsGcroFa3QclNj7UmkIoImRo,1596040
+meshpro.cpython-39-x86_64-linux-gnu.so,sha256=HJp_ffOPYMXXX5ikwsWHhK-T6MBcziihBgcO-qMujGQ,1595944
+meshpro.cpython-37m-x86_64-linux-gnu.so,sha256=1mcn6go763nAqIGcaxU4mSo8TMg5ETDBMBOt8sG0WEY,1501672
+meshpro-0.0.18.dist-info/METADATA,sha256=moZIBYir2Pc2Xf83LlxfTP7694N5UuBO2Ui7dm-fip8,3898
+meshpro-0.0.18.dist-info/top_level.txt,sha256=m5Z8AOhR93Np0enSZP5dFqjSpDpDzNvcNKRxFM7KRQo,8
+meshpro-0.0.18.dist-info/RECORD,,
+meshpro-0.0.18.dist-info/entry_points.txt,sha256=X8Rk7vAfRCxof1_e8yKx7KiovTW2remjxs2hm00jb6Y,46
+meshpro-0.0.18.dist-info/WHEEL,sha256=Nz1FbIuCKjMqwFcb9dpn4qGD52qklTIhEb4vBRcBDRE,146
+meshpro/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
