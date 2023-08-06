@@ -1,0 +1,17 @@
+FOMUserUtil/CleanupRoles.py,sha256=HXYs5hJkemLg4QIfFazfGM1Tcj2zNdPK4E02Lskp6-o,1232
+FOMUserUtil/FOMKeyCloak.py,sha256=jcbt5VugQUn8xHOwHZZ65rUx5VWoMj8k9d9cNK6nS9I,11024
+FOMUserUtil/ForestClient.py,sha256=loSFXhIsEy8lASPi2HB56A44GcT2R_jDw_ltm66bPR4,4882
+FOMUserUtil/__init__.py,sha256=pIp9_Y5XXhdtcRW93fxFFRTAOEjhOLMjvUCuVfXb7UE,84
+FOMUserUtil/__main__.py,sha256=3fVP2gpW8Ng05behiYExu_qFgusdA6M5cxfDZpD1EwI,145
+FOMUserUtil/command_line.py,sha256=EkyMjRUvSprcQqTzoKaeAkeNVOVhju5pYJ2CKAfqf-E,93
+FOMUserUtil/constants.py,sha256=oRq8LgK8iX4DlSxeesqjz4TX5T-3MBXLajl-fUbsEKs,1508
+FOMUserUtil/demoAddRole.py,sha256=QCsZLRnG1FDiV0d7SX-_f3ka4yvofBixr2aACjQ9zhQ,3627
+FOMUserUtil/fomuser.py,sha256=TV-3WUZyXhwbX0PNdQJT9nZkVWe7Q_OnVMvJRHyuzEU,4894
+FOMUserUtil/test_FOMKeyCloak.py,sha256=TK7-QCvla2kGCO26IPpiMcTzTulAEiNq19jBT3lu0iE,1590
+FOMUserUtil/test_forestClient.py,sha256=BUx_weu8ReVrZgbQOhcnhC4Ge4ytPLformuVkymuWkA,2369
+FOMUserUtil-0.0.2.dist-info/LICENSE.md,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+FOMUserUtil-0.0.2.dist-info/METADATA,sha256=zA_4RjrkGlA_18eQBETa4WimIgxyJioCH_hYxVFrIvg,792
+FOMUserUtil-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+FOMUserUtil-0.0.2.dist-info/entry_points.txt,sha256=h75XAQagIUFN0GM_lqHNuzIV9zpBrAhECZXyySkAR7Q,69
+FOMUserUtil-0.0.2.dist-info/top_level.txt,sha256=fLLl-N860iIrrmOJEJJzbXjC390IxDu6uDO6ICrWgD0,12
+FOMUserUtil-0.0.2.dist-info/RECORD,,
