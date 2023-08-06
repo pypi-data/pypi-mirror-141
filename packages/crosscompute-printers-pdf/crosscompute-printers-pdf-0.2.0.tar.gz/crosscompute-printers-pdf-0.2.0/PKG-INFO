@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: crosscompute-printers-pdf
+Version: 0.2.0
+Summary: Print your automations in PDF format.
+Home-page: https://crosscompute.com
+Author: CrossCompute Inc.
+Author-email: support@crosscompute.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/crosscompute/crosscompute-printers-pdf/issues
+Project-URL: Documentation, https://github.com/crosscompute/crosscompute-printers-pdf
+Project-URL: Source Code, https://github.com/crosscompute/crosscompute-printers-pdf
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.md
+
+# PDF Printers for CrossCompute
+
+## Installation
+
+```bash
+# Install node version manager
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+# Install latest version of node
+nvm install node
+# Install dependencies globally
+npm install -g express puppeteer
+# Install package
+pip install crosscompute-printers-pdf
+```
+
+## Usage
+
+```bash
+# Batch print
+crosscompute --print pdf --print-folder /tmp/abc
+```
+
+

@@ -1,0 +1,4 @@
+crosscompute>=0.9.1.4
+
+[test]
+pytest-cov
