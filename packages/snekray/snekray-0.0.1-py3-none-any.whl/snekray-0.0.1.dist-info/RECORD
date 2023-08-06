@@ -1,0 +1,11 @@
+snekray/__init__.py,sha256=EfynUrAkeItcYdoU0LvguoSpPH3uFPHGjupWhoWjRCg,135
+snekray/snekray.py,sha256=DczT8gm70Z5RF_9k4HwdWpeBiNg7ifqkZJc8BH7mztE,339
+snekray/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snekray/types/point.py,sha256=TZg6nx2LqOmFtuVkVrelBbbB-oMreIPW8O95xL8OUMM,805
+snekray/types/ptuple.py,sha256=HS0-v7eaiQgncqLtbmaHaumstHEJwMREr8sL0rYDU0A,951
+snekray/types/vector.py,sha256=H-SQS-D0En5hpEHwl8UP2Qdtwp1oNN2xAwk0Wb_xTis,1796
+snekray-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+snekray-0.0.1.dist-info/METADATA,sha256=fCVJyPffyUU3qvqjbjpuhDksEHCFajSVmNEM9YoCbTk,899
+snekray-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snekray-0.0.1.dist-info/top_level.txt,sha256=_OYt0dIvkIR_CnC5L-s4qI2R-hE9nP8ozIEbLAm-aOU,8
+snekray-0.0.1.dist-info/RECORD,,
