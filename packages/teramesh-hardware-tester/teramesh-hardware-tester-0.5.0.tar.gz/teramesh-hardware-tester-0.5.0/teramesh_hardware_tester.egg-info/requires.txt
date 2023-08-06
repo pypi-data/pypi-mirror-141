@@ -1,0 +1,7 @@
+asciimatics<2,>=1.13
+click<9,>=8.0
+esptool<4,>=3.2
+pyserial<4,>=3
+
+[rpi]
+RPi.GPIO~=0.7
