@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: dameformats
+Version: 0.1
+Summary: Learning Formats from Tests by David Arroyo Menéndez
+Home-page: http://github.com/davidam/dameformats
+Author: David Arroyo Menéndez
+Author-email: davidam@gnu.org
+License: GPLv3
+Description: 
+        # Introduction
+        
+        DameFormats is a python package part of DameLibraries.
+        
+        In this project, we are experimenting a way, to store the snippets
+        related to python formats (csv, json, xml, yaml, netcdf, ...) in files
+        ready to execute unit test.
+        
+        # Ways executing tests:
+        
+            $ cd dameformats
+            
+            $ ./runtests.sh
+        
+            $ nosetests3 tests
+        
+            $ nosetests3 tests/test_joke.py:TestJoke.test_is_string
+        
+        # Pypi
+        
+        -   To install from local:
+        
+            $ pip install -e .
+        
+        -   To install create tar.gz in dist directory:
+        
+            $ python3 setup.py register sdist
+        
+        -   To upload to pypi:
+        
+            $ twine upload dist/dameformats-0.1.tar.gz
+        
+        -   You can install from Internet in a python virtual environment to check:
+        
+            $ python3 -m venv /tmp/funny
+            $ cd /tmp/funny
+            $ source bin/activate
+            $ pip3 install dameformats
+Keywords: formats tests
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
