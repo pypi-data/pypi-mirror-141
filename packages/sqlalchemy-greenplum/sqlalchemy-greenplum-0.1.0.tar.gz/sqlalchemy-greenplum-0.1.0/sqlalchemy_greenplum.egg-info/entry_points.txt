@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+greenplum = sqlalchemy_greenplum.dialect:GreenplumDialect
+greenplum.psycopg2 = sqlalchemy_greenplum.dialect:GreenplumDialect
+
