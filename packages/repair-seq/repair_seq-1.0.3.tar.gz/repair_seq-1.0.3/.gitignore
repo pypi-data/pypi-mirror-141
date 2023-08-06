@@ -1,0 +1,10 @@
+build
+__pycache__
+*.c
+*.so
+.ipynb_checkpoints
+*.ipynb
+.nfs*
+.eggs*
+repair_seq.egg-info
+dist
