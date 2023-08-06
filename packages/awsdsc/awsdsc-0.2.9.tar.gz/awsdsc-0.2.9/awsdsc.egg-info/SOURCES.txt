@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+awsdsc/__init__.py
+awsdsc/exception.py
+awsdsc/main.py
+awsdsc/processor.py
+awsdsc.egg-info/PKG-INFO
+awsdsc.egg-info/SOURCES.txt
+awsdsc.egg-info/dependency_links.txt
+awsdsc.egg-info/entry_points.txt
+awsdsc.egg-info/requires.txt
+awsdsc.egg-info/top_level.txt
