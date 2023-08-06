@@ -1,0 +1,15 @@
+pyzmq>=18.1.0
+pyserial>=3.4
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[docs]
+sphinx
+sphinx-rtd-theme
+myst-parser
+
+[test]
+pytest
+coverage[toml]
+pytest-cov
