@@ -1,0 +1,10 @@
+PyCardDeck/__init__.py,sha256=nFHt8ozAhKVOoSbKD4LE4xFwpw109Sqe7RBM_rr6F2E,177
+PyCardDeck/card.py,sha256=FkPlofDf8ObqMK0mBjQL7eUFZ-Zyl8abjIiOV-lItm0,779
+PyCardDeck/deck.py,sha256=7CVT2RKpPkfk3xID6SWIeAIewkrVy62sqz0oK4fPXc4,1573
+PyCardDeck/errors.py,sha256=knXRKiyzIIhI6_c3R6N0z_eaxSgMuwpc23eDntPuAFE,45
+PyCardDeck/hand.py,sha256=Wb9OveYSMw8jq9EhqPAKJ7SliTj56DVyxBCQdnSYuAs,666
+CardDeckPy-2.1.0.dist-info/LICENSE,sha256=Ga4UuF1qTfgtMecMYYZSP7046BTZBAAI0RLxF0mU9-I,1057
+CardDeckPy-2.1.0.dist-info/METADATA,sha256=LOEcJvpPbYfETaatLT-MQLNihl4tijAyH2vkCbRnFss,1252
+CardDeckPy-2.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+CardDeckPy-2.1.0.dist-info/top_level.txt,sha256=qB-PGEUA4gso-QnM8PHhu_L_EETEZGcJz4xLw69iv9o,11
+CardDeckPy-2.1.0.dist-info/RECORD,,
