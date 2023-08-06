@@ -1,0 +1,11 @@
+__all__ = [
+    'ALPHABET',
+    'DIGITS',
+    'LOWERCASE',
+    'UPPERCASE',
+]
+
+DIGITS = '0123456789'
+ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+LOWERCASE = 'abcdefghijklmnopqrstuvwxyz'
+UPPERCASE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
