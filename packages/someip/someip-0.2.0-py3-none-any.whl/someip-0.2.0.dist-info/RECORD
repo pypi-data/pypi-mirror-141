@@ -1,0 +1,12 @@
+someip/__init__.py,sha256=L8ynpO1Ii1kVcuzKpAm9hUIX9xy08r9cWmB1qNSOr-A,191
+someip/config.py,sha256=i5VAUW1TjNU1Bng8jCY87kQHA-zVbIkWNpHza18_D-o,12695
+someip/header.py,sha256=cBdMzsNRGTCJzCLDig_T-YgRBiPQv4Fh0kqbVHQ9Tv8,33618
+someip/sd.py,sha256=G06bj_Z2O2ysi1b5IOIJOHSxS3nsFUPZff3OEYYEkEg,46579
+someip/service.py,sha256=bCSeT-vlYP3DvWAABP3J4g9nGdfIxZf6JFXLWlvwA-I,13487
+someip/utils.py,sha256=VLVQ_B2-IwQ5HqKQ0lwNVDEpBcFZEY5G56vl4mmTXLg,2532
+someip-0.2.0.dist-info/LICENSE.txt,sha256=qISdivJw_nwm74dz60UHUA1jme0K5rPmf3zmeXtnQXc,1070
+someip-0.2.0.dist-info/METADATA,sha256=gA0SlVRNxKcbOZY7ov1KZj84rMFm3SDDyAS-WEQM8AY,2435
+someip-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+someip-0.2.0.dist-info/top_level.txt,sha256=sNIvxwOF5XYSS6e-MIVyyw8J9ptWUxMjkLlR5B44O7M,7
+someip-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+someip-0.2.0.dist-info/RECORD,,
