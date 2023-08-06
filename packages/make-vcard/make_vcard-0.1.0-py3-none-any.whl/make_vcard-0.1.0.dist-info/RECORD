@@ -1,0 +1,10 @@
+make_vcard/__init__.py,sha256=9V1LdiWSd_4ADL4hOx6b-GiQBbvxOho8R5uEQKZMPgw,562
+make_vcard/__main__.py,sha256=K7XylKuRcmrbBHucmNAs4qkvG67GsswyKkJCbb_hhRE,79
+make_vcard/command.py,sha256=d3c8cJQf901UDZayzo6GC-Gq5XnjgJ0ruRnJUevqcIs,1578
+make_vcard/generate_vcard.py,sha256=eNdWB2hCmB1KPhCXKQLya80XW4gDhZE-MixH1tfWgtI,2869
+make_vcard/globals.py,sha256=g0W_PhRIuNVXi-nvB6-9kLy-UjMNhBuvzO9Df6GMh-8,157
+make_vcard/read_file.py,sha256=rqqgRBH_tre8PnIyaN7Mcq6QqSig1oo0L1uw6wsFdDA,1106
+make_vcard-0.1.0.dist-info/METADATA,sha256=E9eokarkIbc-SV896BQLf7LtSTflJoJWdbMBxiccDBA,486
+make_vcard-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+make_vcard-0.1.0.dist-info/top_level.txt,sha256=5bNqii6fUsqClRJwZqhCTzgmKspxG0Su5R99MX1nIAg,11
+make_vcard-0.1.0.dist-info/RECORD,,
