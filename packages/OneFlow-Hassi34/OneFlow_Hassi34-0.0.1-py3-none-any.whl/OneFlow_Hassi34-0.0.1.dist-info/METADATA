@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: OneFlow-Hassi34
+Version: 0.0.1
+Summary: It's an Implementation of ANN with callbacks
+Home-page: https://github.com/Hassi34/OneFlow
+Author: Hassi34
+Author-email: hasnainmehmood3435@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Hassi34/OneFlow/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+
+# OneFlow
+It is a Package having the Implementation of ANN with callbacks
+
+
