@@ -1,0 +1,11 @@
+Pillow
+evdev
+gpiod
+numpy
+pybind11
+pyserial
+rpyc
+spidev
+
+[test]
+pytest
