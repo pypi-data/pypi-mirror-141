@@ -1,0 +1,11 @@
+README.md
+licence.txt
+pyproject.toml
+setup.cfg
+setup.py
+src/Read_File_Devika_P.egg-info/PKG-INFO
+src/Read_File_Devika_P.egg-info/SOURCES.txt
+src/Read_File_Devika_P.egg-info/dependency_links.txt
+src/Read_File_Devika_P.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/read_file.py

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Read-File-Devika-P
+Version: 0.2
+Summary: A Python package to read data from .yaml and .cfg or config files. It creates .json and .env fileto the input file and writes data. Also loads environment variables as per configuration file. 
+Home-page: https://github.com/Zekardo/MyProjects.git
+Author: Devika Paranjpe
+Author-email: dpmp1986@gmail.com
+description='A Python package to read data from .yaml and .cfg or config files. It creates .json and .env file'
+'to the input file and writes data. Also loads environment variables as per configuration file. ',
+License: UNKNOWN
+Project-URL: Bug Tracker, 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: licence.txt
+
+# READ_FILE Package
+
+This module is used to read data from .conf, .cfg and .yaml files. It reads and writes data in the json file and .env file
+Install the module using pip install read_file and call the submodule read_yaml and read_conf according to requirements
+
+
