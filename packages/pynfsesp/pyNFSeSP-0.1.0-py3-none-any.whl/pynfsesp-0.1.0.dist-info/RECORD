@@ -1,0 +1,15 @@
+pynfsesp/.DS_Store,sha256=u-1fNLjM_TTTCwowBHDl7mVYm4nu0DIJXdGUsA9nAIY,6148
+pynfsesp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynfsesp/gateways/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynfsesp/gateways/saopaulo.py,sha256=eDBHWMLuyaAQETQsiGFnHv3ueEujpLwVN86F3K44CU4,3014
+pynfsesp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynfsesp/utils/certificate.py,sha256=rzp77WXmm8sjI0KfS7K0IeVVudiV38JYUuvWi6gaYkY,288
+pynfsesp/utils/compatibility.py,sha256=nq0sCyi68EpOG2A7Jk1JlBPpmPZi6yQ6KwEhUNDhDGE,674
+pynfsesp/utils/currency.py,sha256=Wq-ZrPNH9BJVMO62uHOekHJrvteC9n9hHFP1h2K9sSI,326
+pynfsesp/utils/response.py,sha256=B_LnkztPpHfk1BM0fWb6sIPEHIHUBBVmaFAuOtXbGeU,1604
+pynfsesp/utils/rps.py,sha256=S9eUhGomg3ejoNlyTecmzY2nMlqzeDD50MakQu9WTs4,6051
+pynfsesp/utils/rsa.py,sha256=cfRt3Jrp8ceFFSwsxQZqXdReH6uKuCvseLcOEhfFJqI,665
+pynfsesp/utils/schemas.py,sha256=xYV9vESLeSkqa-ulJLihAlnbW4YJab3FRuljyshJ0I8,10513
+pynfsesp-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pynfsesp-0.1.0.dist-info/METADATA,sha256=Z5-suqx7ClgPg_eBT4-UkI1C453QtQ1FV2Nw31Q009M,672
+pynfsesp-0.1.0.dist-info/RECORD,,
