@@ -1,0 +1,10 @@
+click
+pytest
+boto3
+
+[dev]
+flake8
+pylint
+pre-commit
+pytest
+twine
