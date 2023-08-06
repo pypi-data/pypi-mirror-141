@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: dsspy
+Version: 2.1.1
+Summary: A high-level python interface for OpenDSS
+Home-page: http://www.github.com/nrel/pydss
+Author: Aadil Latif
+Author-email: Aadil.Latif@nrel.gov
+License: BSD 3 clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: setuptools
+Requires-Dist: scipy
+Requires-Dist: bokeh
+Requires-Dist: networkx
+Requires-Dist: toml
+Requires-Dist: pyproj
+Requires-Dist: descartes
+Requires-Dist: OpenDSSDirect.py (==0.3.7)
+Requires-Dist: Shapely
+Requires-Dist: Click
+Requires-Dist: numpy
+Requires-Dist: feather-format
+Requires-Dist: sklearn
+Requires-Dist: tables
+Requires-Dist: h5py
+Requires-Dist: helics
+Requires-Dist: pytest
+Requires-Dist: terminaltables
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-swagger3 (==0.4.3)
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: pymongo
+Requires-Dist: pydantic (>=1.8)
+
+UNKNOWN
+
