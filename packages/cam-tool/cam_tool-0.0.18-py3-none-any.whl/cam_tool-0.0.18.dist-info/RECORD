@@ -1,0 +1,9 @@
+cam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cam/cam.py,sha256=9lb-1dLYScyM-7mhGExr64Y3hkFN3io083Fz4dulpkQ,11378
+cam/test_task.py,sha256=zNS3HDZ_XU0SbysIvoCkGWlQaea9VITzM-iepwceGBI,95
+cam/version.py,sha256=MdEnl170Vc4LB9hBb0VwwbOIZuYzowxGmeStZIS93lw,22
+cam_tool-0.0.18.dist-info/METADATA,sha256=zPq3xz7FL_kPGJ7POhszkM1hvd3ZlF1LOpC9tqGemdU,1660
+cam_tool-0.0.18.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cam_tool-0.0.18.dist-info/entry_points.txt,sha256=IVcQH8pt6PGeFrL1XaW6BukUf1qB2rl53Kx1J8Hxtag,38
+cam_tool-0.0.18.dist-info/top_level.txt,sha256=gE1axyoQT3nriz1PU37QUge3EfcX9DeACEhnSUc7pw8,4
+cam_tool-0.0.18.dist-info/RECORD,,
