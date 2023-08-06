@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bom-configuration
+Version: 1.0.6
+Summary: Config fun.
+Home-page: https://github.com/bomt1me/bomconfiguration
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# bom-configuration
+
+![pipeline](https://github.com/bomt1me/bomconfiguration/actions/workflows/dev.yml/badge.svg)
+
+Welcome to bom-configuration.
+
+
