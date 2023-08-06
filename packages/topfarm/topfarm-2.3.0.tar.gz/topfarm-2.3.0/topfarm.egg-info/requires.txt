@@ -1,0 +1,15 @@
+matplotlib
+numpy
+numpy-financial
+openmdao==3.16
+pytest
+pycodestyle
+pytest-cov
+py_wake>=2
+scipy
+sphinx
+sphinx_rtd_theme
+scikit-learn
+mock
+tensorflow
+shapely
