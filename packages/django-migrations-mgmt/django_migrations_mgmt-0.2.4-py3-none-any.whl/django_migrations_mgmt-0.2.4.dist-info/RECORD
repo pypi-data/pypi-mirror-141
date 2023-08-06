@@ -1,0 +1,11 @@
+migrations_mgmt_cmds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migrations_mgmt_cmds/storage.py,sha256=aTW6oXhJrFWWUl7iLM3BRKLxMWBn9zHtoDwlu42roNM,521
+migrations_mgmt_cmds/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migrations_mgmt_cmds/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migrations_mgmt_cmds/management/commands/migrations_release.py,sha256=vj2B-PDJLRvm9_nlDTg1NSO-nKsYHzqePHqzek0rJes,2304
+migrations_mgmt_cmds/management/commands/migrations_rollback.py,sha256=prMvzZImgcqhQ0KFdn7HfR607axqJR73_6dDx2K54no,6259
+django_migrations_mgmt-0.2.4.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+django_migrations_mgmt-0.2.4.dist-info/METADATA,sha256=dFZaNjE7gpZIC3C9U1V31zO8tP7Z4lDon9-Kd__btQU,698
+django_migrations_mgmt-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_migrations_mgmt-0.2.4.dist-info/top_level.txt,sha256=8s6eRPd_vW4Yet2tiJOkHqAYaTFhZL0hyW_SSW03-E8,21
+django_migrations_mgmt-0.2.4.dist-info/RECORD,,
