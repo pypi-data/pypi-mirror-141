@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+scripts/memoir
+src/memoir/__init__.py
+src/memoir/check_line.py
+src/memoir/data/allmols_combined_transitions.csv
+src/memoir_lpd.egg-info/PKG-INFO
+src/memoir_lpd.egg-info/SOURCES.txt
+src/memoir_lpd.egg-info/dependency_links.txt
+src/memoir_lpd.egg-info/requires.txt
+src/memoir_lpd.egg-info/top_level.txt
