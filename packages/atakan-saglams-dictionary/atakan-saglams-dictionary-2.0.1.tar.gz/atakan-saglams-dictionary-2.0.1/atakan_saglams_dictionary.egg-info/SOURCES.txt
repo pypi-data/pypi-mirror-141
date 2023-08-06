@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+atakan_saglams_dictionary.egg-info/PKG-INFO
+atakan_saglams_dictionary.egg-info/SOURCES.txt
+atakan_saglams_dictionary.egg-info/dependency_links.txt
+atakan_saglams_dictionary.egg-info/requires.txt
+atakan_saglams_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
