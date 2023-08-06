@@ -1,0 +1,10 @@
+prefect_aws/__init__.py,sha256=B0AEQOO5okX80GmNpfj8n1xDAeFhjNaqozRrHcBtCvk,143
+prefect_aws/_version.py,sha256=gjlMkAviOjFRSdWW7p_r1GQUxb1K8OCx0VJSrZUzzfQ,497
+prefect_aws/credentials.py,sha256=r754IBmdVQCZx3VSn40EiqpkV6dkb4W4-lLEyKEWDRc,1909
+prefect_aws/s3.py,sha256=I4SkCzD9pmLBiC-_acVrADPwOJYBpUUT7aWwHhTdB34,6567
+prefect_aws/secrets_manager.py,sha256=gadyKuD9-y6JlkMLArIi2sOZ5JwLSVy04_ciQEfh6CQ,11618
+prefect_aws-0.1.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_aws-0.1.0.dist-info/METADATA,sha256=1Vm2udOO6E3891ScplvmWullGqjI2pNYmgT2l_DF-2k,3700
+prefect_aws-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_aws-0.1.0.dist-info/top_level.txt,sha256=fxJxxFAd2635lYsoNYcfoxM6kBZ0mKx8G2TyXqFljAU,12
+prefect_aws-0.1.0.dist-info/RECORD,,
