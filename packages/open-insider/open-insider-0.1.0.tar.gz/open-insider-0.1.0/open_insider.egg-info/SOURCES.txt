@@ -1,0 +1,9 @@
+README.md
+setup.py
+open_insider/__init__.py
+open_insider/date_functions.py
+open_insider.egg-info/PKG-INFO
+open_insider.egg-info/SOURCES.txt
+open_insider.egg-info/dependency_links.txt
+open_insider.egg-info/requires.txt
+open_insider.egg-info/top_level.txt
