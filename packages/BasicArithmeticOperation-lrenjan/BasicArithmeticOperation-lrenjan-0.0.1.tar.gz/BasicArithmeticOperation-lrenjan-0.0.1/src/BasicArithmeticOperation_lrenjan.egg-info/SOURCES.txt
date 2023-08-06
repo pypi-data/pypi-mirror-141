@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BasicArithmeticOperation_lrenjan.egg-info/PKG-INFO
+src/BasicArithmeticOperation_lrenjan.egg-info/SOURCES.txt
+src/BasicArithmeticOperation_lrenjan.egg-info/dependency_links.txt
+src/BasicArithmeticOperation_lrenjan.egg-info/top_level.txt

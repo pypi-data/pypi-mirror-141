@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: BasicArithmeticOperation-lrenjan
+Version: 0.0.1
+Summary: My package description
+Home-page: http://stash.burlington.evertz.tv/users/lrenjan/repos/unit-testing/
+Author: lrenjan
+Author-email: lrenjan@evertz.com
+License: UNKNOWN
+Project-URL: Bug Tracker, http://stash.burlington.evertz.tv/users/lrenjan/repos/unit-testing/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Calculator Project Package
+
+Basic Arithmetic Calculator Project
+
