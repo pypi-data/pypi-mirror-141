@@ -1,0 +1,9 @@
+magcoordpy/constants.py,sha256=vf3tyMTzLOnv5XYKR-AqFw7WoH_VK3aHjucefsiFY7s,446
+magcoordpy/coord_transforms.py,sha256=6OwX-2I-ApAfJQflLlP81RVhSQIq5Pet0DSx5tjo6AU,14075
+magcoordpy/data/igrf13coeffs.txt,sha256=RguNi-ubTfhP6-Twtjnw3VTcz-j_CXBhYoewFfpyFCU,40639
+magcoordpy/helpers.py,sha256=bL1TH96Mu9kFPCcYOvoWfbF1oOElG-07hwcE56vXHTQ,3732
+magcoordpy/igrf_coeffs.py,sha256=L2Zm-qJRTr8GyDdVVxogl0vJVSQwJ3yzYG111xhWkH4,3167
+magcoordpy-0.1.4.dist-info/LICENSE,sha256=JdIXKS19afjjKRO8AnnC2y1TfoJ9O-9TsiWYEm4hM5w,1074
+magcoordpy-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+magcoordpy-0.1.4.dist-info/METADATA,sha256=YU6GLEhF9gH5FRvl1N1r1wF-m2-xC3eRiy0feFzitns,635
+magcoordpy-0.1.4.dist-info/RECORD,,
