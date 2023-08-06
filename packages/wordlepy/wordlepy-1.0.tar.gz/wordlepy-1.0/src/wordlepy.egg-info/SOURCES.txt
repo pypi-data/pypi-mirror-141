@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/wordlepy.egg-info/PKG-INFO
+src/wordlepy.egg-info/SOURCES.txt
+src/wordlepy.egg-info/dependency_links.txt
+src/wordlepy.egg-info/requires.txt
+src/wordlepy.egg-info/top_level.txt
