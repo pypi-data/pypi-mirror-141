@@ -1,0 +1,14 @@
+numpy>=1.10
+
+[doc]
+sphinx
+
+[plot]
+numdifftools
+matplotlib
+
+[test]
+pytest
+pytest-benchmark
+pre-commit
+types-setuptools
