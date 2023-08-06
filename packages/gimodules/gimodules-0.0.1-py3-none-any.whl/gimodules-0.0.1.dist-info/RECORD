@@ -1,0 +1,11 @@
+gimodules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimodules/CloudConnect/CloudRequest.py,sha256=zCK5gsEAZoI1Dg93_YrvEc6iqQGyPfAjrnc6_4mOqSU,16421
+gimodules/CloudConnect/GIController.py,sha256=IF_mqaIrxVvWywiCInz-ZTIpJTooR0I_FoI0tAhnjZg,14632
+gimodules/CloudConnect/InputHandler.py,sha256=9n8568EPZMgHLNRGYEkCkH2aC3jSvsOe6XYtVUjWj6o,11740
+gimodules/CloudConnect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gimodules/CloudConnect/utils.py,sha256=-eNGThF6FnZ6HZD6MzEr78XGfECGXlRA1iioBkuYSU0,274
+gimodules-0.0.1.dist-info/LICENSE,sha256=K_WG74siH3KmfHD3j8tDZszgP02gYbmg9DDlR5QkxUo,1052
+gimodules-0.0.1.dist-info/METADATA,sha256=4PSvpgoKDPwtiBfJE5mxiOfSmBJBvTHOqw5jddjQED4,867
+gimodules-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gimodules-0.0.1.dist-info/top_level.txt,sha256=8F-hFwRalConeHHeSNgthScJp3SVOVPTzHAPOISgSV4,10
+gimodules-0.0.1.dist-info/RECORD,,
