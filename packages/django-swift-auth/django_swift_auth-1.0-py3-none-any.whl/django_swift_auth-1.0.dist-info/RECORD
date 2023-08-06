@@ -1,0 +1,17 @@
+dj_swift_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_swift_auth/admin.py,sha256=hlNnUk392JLNf0GBHQfZRxN0dJrtSg006jar3TsQDto,371
+dj_swift_auth/apps.py,sha256=AF-w3_51TE4RtmxK94CamX0equfWzLlqpUkn2t38BIs,156
+dj_swift_auth/manager.py,sha256=BgYSkdEi5sB-Wf1PSwBqGWnriDV-o-jJnO4PbqTgW7E,1269
+dj_swift_auth/models.py,sha256=YiCHL3P6J2vsN-FnEvvYDbN7lCyJPmgtl_DMfIdgIg8,1239
+dj_swift_auth/response.py,sha256=Z3_aZRUBqDAp1nuZnuGTaOh0m4Hf-nLykPKMuXn4tfs,744
+dj_swift_auth/serializers.py,sha256=TU4UcRQbooA-YOjAUf4Byz56HUCzBgahXGn-aeuu2_I,3045
+dj_swift_auth/services.py,sha256=GsfchP6Sx5BGM7qWNmuAW5PwTEqbrz4beHihMXb1kYk,426
+dj_swift_auth/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+dj_swift_auth/urls.py,sha256=vNLTJOb7tSzun28f5kZ65r0IomX-W5Oq4zj08aKJu_k,512
+dj_swift_auth/utils.py,sha256=thYmmzm4wkYA4mlFhyZofor_KHWs9rTd31dxb3QPClo,413
+dj_swift_auth/views.py,sha256=l66giM9EcenxEzjvab_8x_ZgcMnEspVH7wsl9Z6Xg0I,3639
+django_swift_auth-1.0.dist-info/LICENSE,sha256=u3j4jixCdf9lCgjnf60HrYCXPmIa-3XdSWYTwFjcmMM,1086
+django_swift_auth-1.0.dist-info/METADATA,sha256=Jjr9Ah873tFXxtZjzyfClTKyieirqLtpU2LpnZkpqEA,2070
+django_swift_auth-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_swift_auth-1.0.dist-info/top_level.txt,sha256=L7o5WlGtphyrc-M_EmuCbyhRz_ZdSWYvc5flDXImg0M,14
+django_swift_auth-1.0.dist-info/RECORD,,
