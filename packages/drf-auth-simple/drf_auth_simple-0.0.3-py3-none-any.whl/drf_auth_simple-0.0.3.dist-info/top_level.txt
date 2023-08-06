@@ -1,0 +1,3 @@
+drf_auth_jwt_cu
+drf_auth_knox_cu
+drf_authjwt
