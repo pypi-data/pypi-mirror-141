@@ -1,0 +1,7 @@
+scipy
+pandas
+matplotlib
+numpy
+lmfit
+shapely
+jupyterlab
