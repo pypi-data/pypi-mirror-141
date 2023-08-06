@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: kd-weather
+Version: 1.0.2
+Summary: Forecast weather data for a given city
+Home-page: https://github.com/K-to-the-D
+Author: Konrad Dorner
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: weather,forecast,openweathermap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
