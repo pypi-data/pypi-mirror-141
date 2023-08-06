@@ -1,0 +1,7 @@
+horus_analytics
+horus_camera
+horus_db
+horus_geopandas
+horus_gis
+horus_media
+horus_media_examples
