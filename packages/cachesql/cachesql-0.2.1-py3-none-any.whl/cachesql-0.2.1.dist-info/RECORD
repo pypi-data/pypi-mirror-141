@@ -1,0 +1,9 @@
+cachesql/__init__.py,sha256=mMru6ucn543zIO0hm6LWH4icORiAQVwZWdPU9tRdTAM,127
+cachesql/serializer.py,sha256=5HJmVTIzlaezoS34Oyrc5obxwgrjcnvuUFhLFgyXp0U,2041
+cachesql/sql.py,sha256=51EeBQmNw-LCoC1Sthe2MV1PZyDaitryMfq2KNWf8Wk,5028
+cachesql/store.py,sha256=WUc32Lh4ClTJNnCazLaknYFfO5wCfOat2kpmHeRrHHQ,6623
+cachesql/utils.py,sha256=TGas3WBjUVXYtnzwPmhLm75UMV7KLO4Tw0iHpVz7vgo,906
+cachesql-0.2.1.dist-info/LICENSE,sha256=FKPx4MXrhBMajH5pVC6-LWiA6hWj6EZ2IpcRqoD7idU,1104
+cachesql-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cachesql-0.2.1.dist-info/METADATA,sha256=PM4aNuKzXc68IcVfm-O69mNNjRexA_1oI5fLJglgaYk,14640
+cachesql-0.2.1.dist-info/RECORD,,
