@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PySimpleGUI_Events/__init__.py
+PySimpleGUI_Events/application_state.py
+PySimpleGUI_Events/event_manager.py
+PySimpleGUI_Events/handler.py
+PySimpleGUI_Events.egg-info/PKG-INFO
+PySimpleGUI_Events.egg-info/SOURCES.txt
+PySimpleGUI_Events.egg-info/dependency_links.txt
+PySimpleGUI_Events.egg-info/top_level.txt
