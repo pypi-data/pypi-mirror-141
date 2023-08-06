@@ -1,0 +1,9 @@
+regex
+numpy
+pandas
+mysql-connector-python
+nltk
+tashaphyne
+qalsadi
+Arabic-Stopwords
+pyarabic
