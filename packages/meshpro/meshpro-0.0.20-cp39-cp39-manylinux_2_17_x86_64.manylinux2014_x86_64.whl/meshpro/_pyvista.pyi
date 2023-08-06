@@ -1,0 +1,3 @@
+from ._mesh import Mesh as Mesh
+
+def convert_to_pyvista_mesh(mesh: Mesh): ...
