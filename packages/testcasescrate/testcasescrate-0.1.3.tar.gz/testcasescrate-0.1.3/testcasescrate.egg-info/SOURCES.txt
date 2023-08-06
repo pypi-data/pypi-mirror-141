@@ -1,0 +1,7 @@
+README.md
+setup.py
+testcasescrate.egg-info/PKG-INFO
+testcasescrate.egg-info/SOURCES.txt
+testcasescrate.egg-info/dependency_links.txt
+testcasescrate.egg-info/entry_points.txt
+testcasescrate.egg-info/top_level.txt
