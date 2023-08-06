@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: thatool
+Version: 1.1
+Summary: This package contains the docs for several in-house codes to handle some specific tasks.
+Home-page: UNKNOWN
+Author: Cao Thang
+Author-email: caothangckt@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+This package contains the docs for several in-house codes to handle some specific tasks.
+
