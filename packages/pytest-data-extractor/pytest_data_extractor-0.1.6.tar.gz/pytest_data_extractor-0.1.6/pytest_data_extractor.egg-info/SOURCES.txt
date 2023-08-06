@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pytest_data_extractor/__init__.py
+pytest_data_extractor/data_containers.py
+pytest_data_extractor/output_generators.py
+pytest_data_extractor/pytest_extractor.py
+pytest_data_extractor.egg-info/PKG-INFO
+pytest_data_extractor.egg-info/SOURCES.txt
+pytest_data_extractor.egg-info/dependency_links.txt
+pytest_data_extractor.egg-info/entry_points.txt
+pytest_data_extractor.egg-info/requires.txt
+pytest_data_extractor.egg-info/top_level.txt
