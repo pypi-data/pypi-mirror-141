@@ -1,0 +1,11 @@
+stim-1.9.dev1646445494.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+stim-1.9.dev1646445494.dist-info/METADATA,sha256=hCT9wdibK6taffW-QxwYsSO2UX9YG2NSspgARw9UUWg,4211
+stim-1.9.dev1646445494.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim-1.9.dev1646445494.dist-info/RECORD,,
+stim-1.9.dev1646445494.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
+stim-1.9.dev1646445494.data/data/pyproject.toml,sha256=bti68-in3So37StSZ8v9T8rwQd-JxzfNb-tPjzET49I,109
+stim-1.9.dev1646445494.data/data/README.md,sha256=qITm7I9S_CK9r32v57jRmEmPZVya_bUNgwHQ7beDi8c,3846
+stim/_stim_march_avx2.cpython-310-x86_64-linux-gnu.so,sha256=41AjVD-GpqEylqS5wUiD_i4EW4lwcPKKyIRh5To7bmY,2875600
+stim/_stim_march_sse2.cpython-310-x86_64-linux-gnu.so,sha256=FmQDnB-RDbHQCGO7F5LGOJw9fSPP365s5wseP01eII4,2846864
+stim/_stim_march_polyfill.cpython-310-x86_64-linux-gnu.so,sha256=GAgdaY8SK5Eq-IqtHOqwXHU3h3jlbYf4kBG-F8RW36g,2846880
+stim/__init__.py,sha256=11j5e4xMRLvCPJF6QEMbxFD0vZdgGyJaozZNaeIWafw,868
