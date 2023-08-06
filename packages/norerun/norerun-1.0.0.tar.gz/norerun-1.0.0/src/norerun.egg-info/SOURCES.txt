@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/norerun.egg-info/PKG-INFO
+src/norerun.egg-info/SOURCES.txt
+src/norerun.egg-info/dependency_links.txt
+src/norerun.egg-info/top_level.txt
+src/remember/__init__.py
