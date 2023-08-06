@@ -1,0 +1,10 @@
+exceptions/__init__.py,sha256=NY-ENCWKOXZYtnBYxzjbYzTTsguWP5ChNMh-WfiqnAU,132
+exceptions/exceptions.py,sha256=yxe2ryagiybMsMgeNVWHXl0viRpQkZU3JQwPtqD_jp8,1308
+sdputils/__init__.py,sha256=eE-aRfNkSP_SMku-J9C2ygPA0UPI5iuMbzd5YbrnTTM,30
+sdputils/exceptions.py,sha256=yxe2ryagiybMsMgeNVWHXl0viRpQkZU3JQwPtqD_jp8,1308
+sdputils/sdputils.py,sha256=4oWwgXT1FL2zv7emKHe5yzu3phfQahGA0g40uzVGFKc,3509
+sdputils/teste.py,sha256=rpAYDiR6zmXtb20tB2D6AZmYdgZVKvxasgAZgl1BWls,261
+sdputils-1.0.4.10.dist-info/METADATA,sha256=iXG1ZOYF1vIUQgiS6gZAsaWjUx1GjJtWQMfWRmcG6ek,354
+sdputils-1.0.4.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sdputils-1.0.4.10.dist-info/top_level.txt,sha256=-H2cJyFLZgiie1NwWF9G366gE0pIo2JVNTBapaYX_SE,20
+sdputils-1.0.4.10.dist-info/RECORD,,
