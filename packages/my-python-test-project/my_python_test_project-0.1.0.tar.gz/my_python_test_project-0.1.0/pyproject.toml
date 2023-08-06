@@ -1,0 +1,86 @@
+[tool.poetry]
+name = "my_python_test_project"
+version = "0.1.0"
+description = "This is a test project"
+readme = "README.md"
+homepage = "https://github.com/ossScharom/my-python-test-project"
+repository = "https://github.com/ossScharom/my-python-test-project"
+authors = ["Jerome Würf <oss@scharom.me>"]
+packages = [
+  {include = 'my_python_test_project', from ='src'}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.0.4"
+requests = "^2.27.1"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+desert = "^2020.11.18"
+marshmallow = "^3.14.1"
+
+[tool.poetry.scripts]
+my-python-test-project = "my_python_test_project.console:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.7.0"
+black = "^22.1.0"
+bandit = "1.7.2"
+flake8 = "^4.0.1"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.3.2"
+flake8-bugbear = "^22.1.11"
+flake8-import-order = "^0.18.1"
+safety = "^1.10.3"
+mypy = "^0.931"
+typeguard = "^2.13.3"
+flake8-annotations = "^2.7.0"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.1"
+xdoctest = "^0.15.10"
+Sphinx = "^4.4.0"
+sphinx-autodoc-typehints = "^1.17.0"
+codecov = "^2.1.12"
+coverage = {extras = ["toml"], version = "^6.3.2"}
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["my_python_test_project"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
