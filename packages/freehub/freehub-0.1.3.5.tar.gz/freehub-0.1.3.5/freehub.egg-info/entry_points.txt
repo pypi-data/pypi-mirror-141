@@ -1,0 +1,10 @@
+[console_scripts]
+fh = freehub.clitools.cli:main
+fhx = freehub.clitools.frun:main
+fpx = freehub.clitools.fpyrun:main
+fpyrun = freehub.clitools.fpyrun:main
+free = freehub.clitools.cli:main
+freehub = freehub.clitools.cli:main
+frun = freehub.clitools.frun:main
+fsh = freehub.clitools.fsh:main
+
