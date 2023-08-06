@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: 2b2t
+Version: 0.2.0
+Summary: A 2b2t toolbox.
+Home-page: https://github.com/keuin/2b2t
+Author: Keuin
+Author-email: keuinx@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# bbtt: A 2b2t toolbox
+
+This is a simple commandline utility which polls *2b2t*'s server status and print it.
+
+# Usage
+
+- Install Python (>=3.7).
+- Execute `pip install 2b2t`.
+- Run `2b2t`.
+

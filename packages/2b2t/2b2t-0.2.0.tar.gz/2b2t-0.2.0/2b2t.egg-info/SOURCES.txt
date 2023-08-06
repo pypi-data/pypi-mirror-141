@@ -1,0 +1,12 @@
+README.md
+setup.py
+2b2t.egg-info/PKG-INFO
+2b2t.egg-info/SOURCES.txt
+2b2t.egg-info/dependency_links.txt
+2b2t.egg-info/entry_points.txt
+2b2t.egg-info/requires.txt
+2b2t.egg-info/top_level.txt
+bbtt/__init__.py
+bbtt/__main__.py
+bbtt/coord/__init__.py
+bbtt/coord/__main__.py
