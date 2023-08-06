@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: plantfem
+Version: 21.10.1.25
+Summary: Module Experiment
+Home-page: https://plantfem.org
+Author: kazulagi
+Author-email: hogehoge@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib (>=2.2.0)
+Requires-Dist: numpy (>=1.14.5)
+
+UNKNOWN
+
+
