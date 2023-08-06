@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sidd
+Version: 1
+Summary: A simple image de-duplication library.
+Home-page: https://github.com/RubberClucky/SIDD
+Author: Zachary Higgins
+Author-email: zachhiggins@gmail.com
+License: mit
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+UNKNOWN
+
