@@ -1,0 +1,6 @@
+click
+pm4py
+pandas
+pytest
+setuptools
+pre-commit

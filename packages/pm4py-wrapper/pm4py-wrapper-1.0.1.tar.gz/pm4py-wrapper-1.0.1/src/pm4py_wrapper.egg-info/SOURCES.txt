@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pm4py_wrapper.egg-info/PKG-INFO
+src/pm4py_wrapper.egg-info/SOURCES.txt
+src/pm4py_wrapper.egg-info/dependency_links.txt
+src/pm4py_wrapper.egg-info/entry_points.txt
+src/pm4py_wrapper.egg-info/requires.txt
+src/pm4py_wrapper.egg-info/top_level.txt
