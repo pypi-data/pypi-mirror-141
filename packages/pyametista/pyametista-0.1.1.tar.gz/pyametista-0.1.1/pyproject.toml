@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyametista"
+version = "0.1.1"
+description = "Módulo Python para geração de PDF utilizando arquivos .jrxml (JasperReports)"
+authors = ["Bruno Souza <bruno@komu.com.br>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+reportlab = "^3.6.8"
+mysql-connector-python = "^8.0.28"
+psycopg2-binary = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+autoflake = "^1.4"
+black = {version = "^21.11b1", allow-prereleases = true}
+isort = "^5.10.1"
+mypy = "^0.910"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
