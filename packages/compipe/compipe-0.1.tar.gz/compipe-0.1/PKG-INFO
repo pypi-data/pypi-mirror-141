@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: compipe
+Version: 0.1
+Summary: a lite version of the command wrapper for python
+Home-page: https://github.com/ImagineersHub/compipe
+Author: esunvoteb
+Author-email: esun@voteb.com
+License: MIT
+Download-URL: https://github.com/ImagineersHub/compipe/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: python,command,commandlet,cmd,cmdlet
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
