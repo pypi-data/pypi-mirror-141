@@ -1,0 +1,4 @@
+selenium==3.141.0
+telegram==0.0.1
+paramiko==2.7.2
+dropbox==11.19.0
