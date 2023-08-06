@@ -1,0 +1,7 @@
+click>=8.0.4
+PyYAML>=6.0
+fabric>=2.6.0
+pip>=21.1.2
+wheel>=0.36.2
+cryptography>=36.0.1
+setuptools>=57.0.0

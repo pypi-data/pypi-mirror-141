@@ -1,0 +1,11 @@
+README.md
+setup.py
+rslurm/__init__.py
+rslurm/__main__.py
+rslurm/config.py
+rslurm/rslurm.py
+rslurm.egg-info/PKG-INFO
+rslurm.egg-info/SOURCES.txt
+rslurm.egg-info/dependency_links.txt
+rslurm.egg-info/requires.txt
+rslurm.egg-info/top_level.txt
