@@ -1,0 +1,7 @@
+six~=1.16.0
+h5py~=3.1.0
+netCDF4~=1.5.8
+cftime~=1.4.1
+julian~=0.14
+swmm-toolkit~=0.8.2
+numpy~=1.19.4
