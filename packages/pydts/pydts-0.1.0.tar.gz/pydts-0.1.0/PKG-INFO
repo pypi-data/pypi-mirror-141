@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pydts
+Version: 0.1.0
+Summary: Discrete timeline survival analysis
+Home-page: https://github.com/tomer1812/pydts
+License: MIT
+Keywords: discrete timeline,time to event,survival analysis,competing events
+Author: Tomer Meir
+Author-email: tomer1812@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/tomer1812/pydts
+Description-Content-Type: text/markdown
+
+# pydts
