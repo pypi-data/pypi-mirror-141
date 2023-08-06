@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+testing
+.github/workflows/build.yaml
+.github/workflows/release.yml
+.github/workflows/test_build.yaml
+james_test_gh_actions/main.py
+james_test_gh_actions.egg-info/PKG-INFO
+james_test_gh_actions.egg-info/SOURCES.txt
+james_test_gh_actions.egg-info/dependency_links.txt
+james_test_gh_actions.egg-info/top_level.txt
