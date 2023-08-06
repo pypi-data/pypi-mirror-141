@@ -1,0 +1,10 @@
+sqleyes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqleyes/cli.py,sha256=A1Hf1-R1kqMSqUapEAfNo8Sk2AoOweL3Hr72bME527U,439
+sqleyes/main.py,sha256=iYvkwIlglHQ3BGDLEC_2aUZ8JwW55O2n_kCnqckE4iA,383
+sqleyes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqleyes-0.1.0.dist-info/LICENSE,sha256=_JhWH9E55R_H8KwrVp1RXM838awqxPURaDDXSCttvTg,1060
+sqleyes-0.1.0.dist-info/METADATA,sha256=tU0LdC1jfOd-z5Wq5PjHK7n9Y0pAEL4aux-VZKin7X8,1837
+sqleyes-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sqleyes-0.1.0.dist-info/entry_points.txt,sha256=8NvyjOBkvLdJM_Nneg5295p2oaFkTj9WwGUxys3UYsk,44
+sqleyes-0.1.0.dist-info/top_level.txt,sha256=hu-Mbi9SvM2h1uOOU0cUN5mp-IlPkq43EElrS6Ceu34,8
+sqleyes-0.1.0.dist-info/RECORD,,
