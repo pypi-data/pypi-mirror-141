@@ -1,0 +1,7 @@
+README.md
+setup.py
+sideshell/__init__.py
+sideshell.egg-info/PKG-INFO
+sideshell.egg-info/SOURCES.txt
+sideshell.egg-info/dependency_links.txt
+sideshell.egg-info/top_level.txt
