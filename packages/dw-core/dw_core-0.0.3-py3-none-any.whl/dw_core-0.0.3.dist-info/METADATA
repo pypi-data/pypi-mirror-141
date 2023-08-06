@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: dw-core
+Version: 0.0.3
+Summary: Core library for DeskWatch
+Home-page: https://deskwatch.net/
+Author: Kohinoor Bharti
+Author-email: kohinoorbharti7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
+Requires-Dist: TakeTheTime (<0.4.0,>=0.3.1)
+Requires-Dist: appdirs (<2.0.0,>=1.4.3)
+Requires-Dist: deprecation
+Requires-Dist: iso8601 (<0.2.0,>=0.1.12)
+Requires-Dist: jsonschema (<4.0,>=3.1)
+Requires-Dist: peewee (<4.0.0,>=3.0.0)
+Requires-Dist: python-json-logger
+Requires-Dist: strict-rfc3339 (<0.8,>=0.7)
+Requires-Dist: timeslot
+Requires-Dist: tomlkit
+Provides-Extra: mongo
+Requires-Dist: pymongo (<4.0.0,>=3.10.0) ; extra == 'mongo'
+
+dw-core
+=======
+
+[![GitHub Actions badge](https://github.com/DeskWatch/dw-core/workflows/Build/badge.svg)](https://github.com/DeskWatch/dw-core/actions)
+[![Code coverage](https://codecov.io/gh/DeskWatch/dw-core/branch/master/graph/badge.svg)](https://codecov.io/gh/DeskWatch/dw-core)
+[![PyPI](https://img.shields.io/pypi/v/dw-core)](https://pypi.org/project/dw-core/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Typechecking: Mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+
+
+Core library for DeskWatch.
+
+
+## Modules
+
+ - `dw_core`, contains basic datatypes and utilities, such as the `Event` class, helpers for configuration and logging, as well as schemas for buckets, events, and exports.
+ - `dw_datastore`, contains the datastore classes used by dw-server-python.
+ - `dw_transform`, all event-transforms used in queries.
+ - `dw_query`, the query-language used by DeskWatch.
+
+
+## How to install
+
+To install the latest git version directly from github without cloning, run
+`pip install git+https://github.com/DeskWatch/dw-core.git`
+
+To install from a cloned version, cd into the directory and run
+`poetry install` to install inside an virtualenv. If you want to install it
+system-wide it can be installed with `pip install .`, but that has the issue
+that it might not get the exact version of the dependencies due to not reading
+the poetry.lock file.
+
+
+
