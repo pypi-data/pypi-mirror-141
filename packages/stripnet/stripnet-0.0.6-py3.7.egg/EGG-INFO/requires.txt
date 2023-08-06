@@ -1,0 +1,9 @@
+bertopic
+networkx
+numpy
+pandas
+plotly
+pyvis
+scikit_learn
+sentence_transformers
+ipywidgets
