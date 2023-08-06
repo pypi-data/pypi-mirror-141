@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gershgorin/__init__.py
+gershgorin/gershgorin.py
+gershgorin/version.py
+gershgorin.egg-info/PKG-INFO
+gershgorin.egg-info/SOURCES.txt
+gershgorin.egg-info/dependency_links.txt
+gershgorin.egg-info/requires.txt
+gershgorin.egg-info/top_level.txt
