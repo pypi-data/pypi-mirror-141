@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/list_screen/__init__.py
+src/list_screen/console_element.py
+src/list_screen/dynamic_element.py
+src/list_screen/main.py
+src/list_screen/test.py
+src/list_screen.egg-info/PKG-INFO
+src/list_screen.egg-info/SOURCES.txt
+src/list_screen.egg-info/dependency_links.txt
+src/list_screen.egg-info/top_level.txt
