@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: magic-terminal
+Version: 1.0.0
+Summary: A fun way to customize your terminal with colors, styles etc...
+Home-page: https://github.com/Marseel-E/magic-terminal
+Author: Marseel Eeso
+Author-email: marseeleeso@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Marseel-E/magic-terminal/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# :art: magic-terminal
+A fun way to customize your terminal with colors, styles etc...
+
+## 📜 License
+Free to use for development, production, or any other purpose. (MIT)
+
+### Install
+```bash
+py -m pip install -U magic-terminal
+```
+### Import
+```py
+from MagicTerminal import Magic, Style, Color, Highlight
+```
+
+### Magic.styalize()
+```py
+print(Magic.styalize("Some fancy text", Style.default, Color.green, Highlight.red))
+
+# >>> Some fancy text
+```
+
+### Magic.print()
+```py
+Magic.print("Some fancy text", Style.default, Color.green, Highlight.red, True, True)
+
+# >>> 
+# >>> Some fancy text
+# >>> 
+```
+
+### Magic.typed_print()
+```py
+Magic.typed_print(420)
+
+# >>> 420
+```
+
