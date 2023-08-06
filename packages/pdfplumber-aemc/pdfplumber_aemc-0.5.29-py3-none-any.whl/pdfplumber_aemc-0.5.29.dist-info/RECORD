@@ -1,0 +1,16 @@
+pdfplumber/__init__.py,sha256=jh_HTJwGpnVJ0acODGmg0g6owXUt97t9zSGoYmyUWd4,610
+pdfplumber/_version.py,sha256=7lKMWX4Bd7dAVjkR3QvOH1VU_WdtmDTZZV_9YqK8JSY,73
+pdfplumber/cli.py,sha256=vjz1DZvEX_vfBmOZ4yxO1Mg7H9-vQIdCsqB_edl3aLI,1385
+pdfplumber/container.py,sha256=CnZYHpIsVxQp34OuGaxpSjpQU1GPC_57zw_0I-9F4tI,2415
+pdfplumber/convert.py,sha256=CCWexH27ph_pDYtzRNhRAH06EECP_x5Vfm5D8JfJh_Y,3630
+pdfplumber/display.py,sha256=3Oxr7JyQofUoFwZHHLqA2AFTUTs6OwHvzYT3W9sdstY,8648
+pdfplumber/page.py,sha256=Pl-UxtRlzpei0T6SROkHc-nP4Z9h8IFGm_LbRbkh3S0,11615
+pdfplumber/pdf.py,sha256=0SxT0WFi3qDK2BfIia5K0nI0TBPakDIq2hWTCQKu0I8,3137
+pdfplumber/table.py,sha256=hFecSRVmkSBuBNKzrEL9-RxKBa6GR-n3ZuLazYhkr28,19007
+pdfplumber/utils.py,sha256=zCwz8Lgr-OPv5iIyhv4MeDrKb1Z-FA6Yh_dEaextgQk,18071
+pdfplumber_aemc-0.5.29.dist-info/LICENSE.txt,sha256=DUiZTaTRMh45W15kpyTtTexj-5a4isW4j8AUdx5pCCE,1086
+pdfplumber_aemc-0.5.29.dist-info/METADATA,sha256=C5foZ8-Le1f8CF85b3RvBxSek_mKleN-1uWvoT74n_c,28052
+pdfplumber_aemc-0.5.29.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdfplumber_aemc-0.5.29.dist-info/entry_points.txt,sha256=J8kRAszfkV2WC1zbm9qmZL0fJoA5Otuj0CTK8KBtMRU,51
+pdfplumber_aemc-0.5.29.dist-info/top_level.txt,sha256=YjIN7aBKMOYxyjm5CK6Zf1Lg9uivzLgeHzh1ohrDvKY,11
+pdfplumber_aemc-0.5.29.dist-info/RECORD,,
