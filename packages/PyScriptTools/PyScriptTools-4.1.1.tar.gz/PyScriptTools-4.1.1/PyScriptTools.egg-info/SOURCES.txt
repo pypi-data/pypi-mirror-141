@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyScriptTools.egg-info/PKG-INFO
+PyScriptTools.egg-info/SOURCES.txt
+PyScriptTools.egg-info/dependency_links.txt
+PyScriptTools.egg-info/requires.txt
+PyScriptTools.egg-info/top_level.txt
