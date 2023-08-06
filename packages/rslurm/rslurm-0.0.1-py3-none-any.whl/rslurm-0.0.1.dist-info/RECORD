@@ -1,0 +1,8 @@
+rslurm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rslurm/__main__.py,sha256=98f9HpVxEQrUDGGTbSukU2zeGOwxdS0btDILHm4IXdk,1458
+rslurm/config.py,sha256=9oqM2lJ0bHWX8ewYH-2X0uFEornmyUMDy7v7MqPMGig,610
+rslurm/rslurm.py,sha256=qjWDd1bwv7SwhwIO4u2yOAX6gQHsd66fwXd06kkmSbs,1332
+rslurm-0.0.1.dist-info/METADATA,sha256=xcSahJVOZqUl3yXs_7WaKEUyhgKF3Gh-lHXgpgPjqq0,647
+rslurm-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rslurm-0.0.1.dist-info/top_level.txt,sha256=eCpxZd_SxEXZJ15afXqgfiIRbH69EV1kPWCWOo1pUzs,7
+rslurm-0.0.1.dist-info/RECORD,,
