@@ -1,0 +1,3 @@
+appdirs
+matplotlib
+deprecation
