@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+src/dummy_132.egg-info/PKG-INFO
+src/dummy_132.egg-info/SOURCES.txt
+src/dummy_132.egg-info/dependency_links.txt
+src/dummy_132.egg-info/top_level.txt
