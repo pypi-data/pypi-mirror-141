@@ -1,0 +1,11 @@
+rpkimancer_doa/__init__.py,sha256=tr824SjeyvoKZo1CVxNzaHsCqzLiMOGW-qQjrUDim_k,642
+rpkimancer_doa/communities.py,sha256=KN3GjwRazo3XQ_UdOrc9tf2_bI0_ljs4MHD-COa6DNo,2372
+rpkimancer_doa/conjure.py,sha256=0HyZ3U_ZPLmZ9fQxoqSuYvebT0qdZFTFAKF063JFmrE,3980
+rpkimancer_doa/sigobj.py,sha256=iDh80wgYesp6Jv8cXn9Az8S8JEEGlskzVrfvGMB-L74,3681
+rpkimancer_doa/asn1/RpkiDiscardOriginAttestation-2021.asn,sha256=JlpFEt7s96UJYxImlBhfr6ObNUBJ69SJhRgSNsqkw-I,1726
+rpkimancer_doa/asn1/__init__.py,sha256=epV4uosAHT_ZckJtchbrm-sTJTEvKOHTEJTEttAU5nA,647
+rpkimancer_doa-0.0.2.dist-info/METADATA,sha256=meYlwaZ3YLPNIknRwNrIVl0sb3Qnq4gXV3m3vYctgvo,1884
+rpkimancer_doa-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpkimancer_doa-0.0.2.dist-info/entry_points.txt,sha256=7GYDpaUd2J65_eBzQsYzTw23YAbUm-5GCtik-iZtHZ8,256
+rpkimancer_doa-0.0.2.dist-info/top_level.txt,sha256=7xYxWonhweXR60oToocuy8EDUZrBzPO-TBVE_aqahRw,15
+rpkimancer_doa-0.0.2.dist-info/RECORD,,
