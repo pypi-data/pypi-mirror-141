@@ -1,0 +1,2 @@
+Markdown==3.3.4
+PyGObject==3.40.1
