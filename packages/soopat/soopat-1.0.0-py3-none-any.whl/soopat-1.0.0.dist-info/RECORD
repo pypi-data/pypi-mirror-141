@@ -1,0 +1,11 @@
+soopat/__init__.py,sha256=V-3AweG2hd4SW923jsCMJTgZPQ0ncLK2eWgPX148A3M,206
+soopat/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soopat/bin/main.py,sha256=NnwVbKF1ZG99RiVkG8SmA4X7kI_UubKHPyWvGUyDV3k,1537
+soopat/core/__init__.py,sha256=6dR6DORIRAly1YvsruoMHankz_u4gkoiTwHBPz017rI,3934
+soopat/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soopat/version/version.json,sha256=shTlOxEE6gr0sY57F6WfBvGyYkjjvjk4C7qc6zTauxg,162
+soopat-1.0.0.dist-info/METADATA,sha256=qwFC5SkD18qvdX5Z4uACOyed-EfUTAtC6IAdZMFUGd0,1322
+soopat-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+soopat-1.0.0.dist-info/entry_points.txt,sha256=6rBRpElEiYel-KdeJRJUzzn7V09WhANEX9wqLwztWV4,49
+soopat-1.0.0.dist-info/top_level.txt,sha256=y5C2BY_j3MtHJEQC4kJnxz6QRrpkxp4N4qiAHLCAEII,7
+soopat-1.0.0.dist-info/RECORD,,
