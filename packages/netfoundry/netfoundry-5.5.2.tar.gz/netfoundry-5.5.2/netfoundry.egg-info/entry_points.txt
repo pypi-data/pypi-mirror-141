@@ -1,0 +1,4 @@
+[console_scripts]
+nfctl = netfoundry.ctl:cli
+nfdemo = netfoundry.demo:main
+
