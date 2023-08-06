@@ -1,0 +1,3 @@
+[console_scripts]
+convertexcel = pdfconverter.convertexcel:main
+
