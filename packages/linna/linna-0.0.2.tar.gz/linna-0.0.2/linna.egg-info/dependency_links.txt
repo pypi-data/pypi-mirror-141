@@ -1,0 +1,1 @@
+git+https://github.com/tmcclintock/Training_Sample_Generator.git#egg=sample_generator
