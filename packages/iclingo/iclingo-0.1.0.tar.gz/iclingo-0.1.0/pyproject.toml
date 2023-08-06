@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iclingo"
+version = "0.1.0"
+description = "🔴🟢🔵 clingo kernel for Jupyter"
+authors = ["Giulio Starace <giulio.starace@gmail.com>"]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipykernel = "^6.9.1"
+clingo = "^5.5.1"
+single-source = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+jupyterlab = "^3.3.0"
+jupyter-console = "^6.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
