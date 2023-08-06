@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyManson/__init__.py
+pyManson/mansonClass.py
+pyManson.egg-info/PKG-INFO
+pyManson.egg-info/SOURCES.txt
+pyManson.egg-info/dependency_links.txt
+pyManson.egg-info/not-zip-safe
+pyManson.egg-info/requires.txt
+pyManson.egg-info/top_level.txt

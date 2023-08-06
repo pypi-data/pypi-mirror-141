@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyManson
+Version: 1.0.1
+Summary: Communcation package for Manson power suply
+Author: Konstantin Niehaus
+Author-email: konstantin+pypi@niehaus-web.com
+License: MIT
+Keywords: power supply,manson,serial
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Serial communication to Manson power suply is initialized. All commands mentioned in the device manual can be used. Convenience functions for setting current, voltage, locking the device screen, ... have been implemented
+

@@ -1,0 +1,5 @@
+recursive-include mansonClass/doc/ *
+include README.rst
+include mansonClass/doc/.py
+include mansonClass/doc/MAKEFILE
+
