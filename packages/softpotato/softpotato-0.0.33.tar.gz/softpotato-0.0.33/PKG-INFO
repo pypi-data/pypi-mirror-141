@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: softpotato
+Version: 0.0.33
+Summary: Open source electrochemistry toolkit
+Home-page: https://github.com/oliverrdz/softpotato
+Author: Oliver Rodriguez
+Author-email: oliver.rdz@gmail.com
+License: GPL3
+Keywords: Electrochemistry
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Script version of Soft Potato, the electrochemistry simulator.
+
+For more info, visit [Soft Potato](https://softpotato.xyz). To see Jupyter Notebook examples, visit [Examples](https://github.com/oliverrdz/softpotato_examples).
+
+## Install
+``` python
+pip3 install softpotato
+
+```
+
+## Usage
+``` python
+from softpotato import *
+import softpotato as sp
+
+disc = sp.calc.MicroDisc(a=1e-4)
+iLim = disc.iLim
+print(iLim)
+
+```
+
+
