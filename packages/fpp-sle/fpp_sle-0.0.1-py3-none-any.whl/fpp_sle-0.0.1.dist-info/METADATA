@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fpp-sle
+Version: 0.0.1
+Summary: Implements FPP and SLE algorithms
+License: GPL-3.0-or-later
+Author: engeir
+Author-email: eirroleng@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numba (>=0.55.1,<0.56.0)
+Requires-Dist: numpy (>=1.18,<1.22)
+Description-Content-Type: text/markdown
+
+# fpp-sle
+
+> Implements FPP and SLE algorithms
+
+## Usage
+
+Currently only available in development mode. To install the full development version,
+use:
+
+```sh
+git clone https://github.com/engeir/fpp-sle
+cd fpp-sle
+poetry install
+pre-commit install
+```
+
+If you are only interested in using the project, you can install it into your virtual
+environment with:
+
+```sh
+git clone https://github.com/engeir/fpp-sle
+cd fpp-sle
+poetry install --no-dev
+```
+
