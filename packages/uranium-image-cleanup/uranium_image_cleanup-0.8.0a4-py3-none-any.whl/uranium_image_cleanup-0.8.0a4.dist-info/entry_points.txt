@@ -1,0 +1,2 @@
+[console_scripts]
+run_program = uranium_image_cleanup:main

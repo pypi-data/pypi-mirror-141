@@ -1,0 +1,9 @@
+uranium_image_cleanup_package/__init__.py,sha256=kbira_hEEneGtYLlJDmsIjcJAP5DPgqzz_T0hBg2eiI,123
+uranium_image_cleanup_package/driver.py,sha256=0U2ZbQqCswyuJhCNADf-60NxhIn6RX54APD5bcegXgc,5872
+uranium_image_cleanup_package/remove_label.py,sha256=iO9_dXIE0TjydcIhGmtcw_iK86WoHBB1-JlQ5sfXOss,6169
+uranium_image_cleanup-0.8.0a4.dist-info/LICENSE,sha256=42LjB7oqDiBI3JzN8imrffEGrrmNogKjkbKgLdvkGFM,1091
+uranium_image_cleanup-0.8.0a4.dist-info/METADATA,sha256=cd5jCSkngELZUwgYsnjjK_d3hFlqR4IXQEhuQRTnOEk,2481
+uranium_image_cleanup-0.8.0a4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uranium_image_cleanup-0.8.0a4.dist-info/entry_points.txt,sha256=YBurYhde0L6hnk_a-zneMC6x370VUVsY3_UZIliuYoQ,59
+uranium_image_cleanup-0.8.0a4.dist-info/top_level.txt,sha256=FcaHVwGDF_cuFFhHwTtl-3f946cfYCfb37nqHUX8-II,43
+uranium_image_cleanup-0.8.0a4.dist-info/RECORD,,
