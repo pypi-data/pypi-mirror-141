@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: column-print
+Version: 0.3.0
+Summary: A simple way to print short strings to a terminal in columns.
+License: GPL-2.0-or-later
+Author: SteveDaulton
+Author-email: stevedaulton@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
