@@ -1,0 +1,12 @@
+trame_launcher_nomad/__init__.py,sha256=Dg-v3-LZGEqwS7ZvTFZvSjZhSdrUaN6ygciZU5-tASg,52
+trame_launcher_nomad/server/__init__.py,sha256=rbBerQaGd0D2iPapShvgQ6lQlt88AQ872iv4obRBOi8,50
+trame_launcher_nomad/server/main.py,sha256=YBPONBXaoI_c6PCP5vVniBm6OmX6HHk89YUDyPkW7JE,4369
+trame_launcher_nomad/www/__init__.py,sha256=N_5q4jBHu3R-A7O_hczvtU9ph1alKAoQ39YiFvi2CHs,84
+trame_launcher_nomad/www/index.html,sha256=i_egGUZ4XUrwi_tZl9i0GqYq5-5vXboiTGGBYe8v69Q,1083
+trame_launcher_nomad/www/__pycache__/__init__.cpython-39.pyc,sha256=OTM2uY2do_0P4r-33Mu8CiPPfDGSJxpHiZmsHetRazw,295
+trame_launcher_nomad-0.0.1.dist-info/LICENSE,sha256=JxmBE8KpohRh29ulqaImObpOZfl8FSA_vHAaFdb01gA,1504
+trame_launcher_nomad-0.0.1.dist-info/METADATA,sha256=pGzNMLztwI4zz9CB6Pdxl1oj2yZGTXS3BPaqFU7sDls,1734
+trame_launcher_nomad-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trame_launcher_nomad-0.0.1.dist-info/entry_points.txt,sha256=edEW8OhPuaAjZjLWE5Va0zP2x18yS60b2DUV2mP1Y3s,68
+trame_launcher_nomad-0.0.1.dist-info/top_level.txt,sha256=DjBEBObiakXBAFuZFLpWlFrqjAjEpGhm6ddW5WrYpKo,21
+trame_launcher_nomad-0.0.1.dist-info/RECORD,,
