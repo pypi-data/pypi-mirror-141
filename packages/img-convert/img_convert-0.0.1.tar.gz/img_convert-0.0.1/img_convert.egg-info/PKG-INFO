@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: img-convert
+Version: 0.0.1
+Summary: Projeto para conversao de imagem RGB.
+Home-page: https://github.com/ceconelo
+Author: Thiago Oliveira
+Author-email: thiceconelo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# img-convert
+
+Este pacote Ã© usado para converter uma imagem RGB para Pecil Sketch.
+	
+## InstalaÃ§Ã£o
+
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar este pacote.
+
+```bash
+pip install img_convert
+```
+
+## Uso
+
+```python
+from img_convert.utils.io import ConvertImg
+image_path = ''
+
+img = ConvertImg()
+img.to_pencil_sketch(image_path)
+```
+
+## Autor
+Thiago Oliveira
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
