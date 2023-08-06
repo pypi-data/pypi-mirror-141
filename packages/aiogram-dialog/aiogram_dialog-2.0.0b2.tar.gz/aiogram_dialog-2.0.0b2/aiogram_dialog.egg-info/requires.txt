@@ -1,0 +1,7 @@
+aiogram<4.0.0,>=3.0.0b1
+jinja2
+cachetools==4.*
+magic_filter
+
+[tools]
+diagrams
