@@ -1,0 +1,13 @@
+simmeth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simmeth/alternative.py,sha256=YElfWR1WJBKK1YuaZfogomXfCSHG0HbdTBLg95SHbpo,478
+simmeth/belief.py,sha256=x9BiC6iZPG5YkC9_zCFKPfQzj-h0MfwL4fGzgDlLLnY,1759
+simmeth/environment.py,sha256=XthubzmGMuge8U_C19FUJ_1PrHM1R-KhvvfHm-xMjHo,4419
+simmeth/simulation.py,sha256=VEotrAiQRYvCThdq8DMDKmfY2zHFtMlhwpd4cjsJlGQ,3020
+simmeth/strategy.py,sha256=fbZmCjsFFrkZFVeAPaImQtQzOoqvd11J9y45KwG01Ho,185
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=dxQB8UoyyWB7fgP9syOJ66eFPM-MP9cokwEBhpnvlSA,295
+simmeth-0.1.0.dist-info/LICENSE,sha256=y2RdJgWTkU2N-hCyO_IjF4cfxYF-bhlzyGNkiZi3Ves,1117
+simmeth-0.1.0.dist-info/METADATA,sha256=q1DZlOM3qJZ2vr5MoMXfQkBvTCOs2L1SaI1cSJaoHaU,1564
+simmeth-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simmeth-0.1.0.dist-info/top_level.txt,sha256=ljSlfMEYUybANjGUaxFIB_J8pGMlVt2UzolMxPuLEeE,14
+simmeth-0.1.0.dist-info/RECORD,,
