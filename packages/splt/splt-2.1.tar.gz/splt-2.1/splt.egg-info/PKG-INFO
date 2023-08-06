@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: splt
+Version: 2.1
+Summary: This function will ask you to enter a string, and the program will separate the string word by word
+Home-page: https://www.baidu.com
+Author: 高乐喆
+Author-email: gaolezhe@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This function will ask you to enter a string, and the program will separate the string word by word
+Function format: splt (string)
+Optimize content:
+1. Changed readme to English
+
