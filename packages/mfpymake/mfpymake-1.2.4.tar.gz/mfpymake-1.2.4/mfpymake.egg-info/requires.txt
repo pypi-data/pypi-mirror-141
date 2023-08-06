@@ -1,0 +1,6 @@
+numpy
+requests
+networkx>=2.6.3
+meson
+ninja
+pydotplus
