@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plot2html
+Version: 0.0.4
+Summary: Creates a static .html file with charts using Google Charts API
+Home-page: https://github.com/rafatro/plot2html
+Author: Rafael Rodrigues Troiani
+Author-email: rafael.r.troiani@gmail.com
+License: UNKNOWN
+Keywords: python,Google Charts,html
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: datetime
+
+UNKNOWN
+
