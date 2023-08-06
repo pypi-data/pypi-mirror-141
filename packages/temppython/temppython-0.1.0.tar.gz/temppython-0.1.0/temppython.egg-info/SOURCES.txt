@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+temppython/__init__.py
+temppython/myfunctions.py
+temppython.egg-info/PKG-INFO
+temppython.egg-info/SOURCES.txt
+temppython.egg-info/dependency_links.txt
+temppython.egg-info/requires.txt
+temppython.egg-info/top_level.txt
+test/test_myfunctions.py
