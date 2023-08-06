@@ -1,0 +1,3 @@
+[console_scripts]
+visa-cli = visa_cli.__init__:main
+
