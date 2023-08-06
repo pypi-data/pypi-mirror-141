@@ -1,0 +1,9 @@
+transport_dependency/__init__.py,sha256=cAxhak-U6fRxlOAn3NWF3gI0SCfuzO8cz_CbrFET-2c,704
+transport_dependency/independence_test.py,sha256=DCAPQYTZkMjPYyfb9g3ERcUHGKuijWzmszMpaSYdqVY,3134
+transport_dependency/other_coeffs.py,sha256=ercJ6NyQCoz_U1x_Eg3IhX1xbwv9qLkXLSovsJdqgH8,1155
+transport_dependency/td_functions.py,sha256=Tng5-MgZxTjyNAqBI1sjuBZGGtG_UBOcLNCtn7OIytI,8850
+transport_dependency-0.0.1.dist-info/LICENCE,sha256=e8N1IY-OOzd3AdLiS0mF9xDkSj5ucPEPdSNC1HGNl_0,1059
+transport_dependency-0.0.1.dist-info/METADATA,sha256=xfDd4X3ZanhDrN0e0ZBByeAeUDkiVulz57btFDdpyHg,1516
+transport_dependency-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+transport_dependency-0.0.1.dist-info/top_level.txt,sha256=KH_hvW8AtEFvv-knZjSkaFkxJJkqHoTMsOZYAQ2KCW8,21
+transport_dependency-0.0.1.dist-info/RECORD,,
