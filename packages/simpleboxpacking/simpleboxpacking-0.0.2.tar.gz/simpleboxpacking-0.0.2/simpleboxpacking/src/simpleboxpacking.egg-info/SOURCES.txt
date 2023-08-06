@@ -1,0 +1,7 @@
+README.md
+setup.py
+simpleboxpacking/src/simpleboxpacking.py
+simpleboxpacking/src/simpleboxpacking.egg-info/PKG-INFO
+simpleboxpacking/src/simpleboxpacking.egg-info/SOURCES.txt
+simpleboxpacking/src/simpleboxpacking.egg-info/dependency_links.txt
+simpleboxpacking/src/simpleboxpacking.egg-info/top_level.txt
