@@ -1,0 +1,13 @@
+setuptools
+
+[docs]
+sphinx
+repoze.sphinx.autointerface
+zope.exceptions
+zope.interface
+
+[docs:python_version == "2.7"]
+mock
+
+[test]
+zope.testrunner
