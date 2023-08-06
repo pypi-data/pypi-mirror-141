@@ -1,0 +1,8 @@
+raster_codecs/__init__.py,sha256=FfDOdi9Fnh7VMZTA9zdxlVOQYqh1zWtDIzJnK7FsbuM,52
+raster_codecs/config.py,sha256=5FG5S3Dp1z8Ilk1ywjB5yvcHgRHL9L9GzUqo0zbjiss,579
+raster_codecs/deflate.py,sha256=6hYclA90qyrbV5eOPA3VyqxD-sJdXnWiwLZZvOOvHCA,538
+raster_codecs/jpeg.py,sha256=xsMHS780aXojznCCh8zjOWe_NXTDTFQLJ2gA4C63Q_E,1462
+raster_codecs-0.1.0.dist-info/METADATA,sha256=J61LBVIgTd8HUvlnNBDYlalpOrhO-vw2w1tuhjFa-bA,1451
+raster_codecs-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+raster_codecs-0.1.0.dist-info/top_level.txt,sha256=aVCtuXBoyYnyFS8F8Ndqwqb8QbPZ2EhecZILd5Rn3eA,14
+raster_codecs-0.1.0.dist-info/RECORD,,

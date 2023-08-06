@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: raster-codecs
+Version: 0.1.0
+Summary: Numcodecs implementations of codecs commonly used by raster data.
+Home-page: https://github.com/geospatial-jeff/raster-codecs
+Author: Jeff Albrecht
+Author-email: geospatialjeff@gmail.com
+License: MIT
+Keywords: raster zarr dask xarray numcodecs imagecodecs
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numcodecs
+Requires-Dist: imagecodecs
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: zarr ; extra == 'dev'
+
+# numcodecs-raster
+Provides a lightweight wrapper over [imagecodecs](https://github.com/cgohlke/imagecodecs) implementing the
+[numcodecs](https://github.com/zarr-developers/numcodecs) interface.  This lets us use the compressions provided by `imagecodecs` in zarr arrays.
+
+The `numcodecs` interface is built around python's buffer protocol.  Numpy implements this buffer protocol, and 
+`imagecodecs` is built around numpy.  So this all works out pretty well.
+
+## Supported compressions
+- JPEG
+- Deflate
+
+
