@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyghaseel
+Version: 0.1
+Summary: Simple text cleaning package that supports Arabic and English text
+Home-page: https://github.com/ATWltd/pyghaseel
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: regex
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: mysql-connector-python
+Requires-Dist: nltk
+Requires-Dist: tashaphyne
+Requires-Dist: qalsadi
+Requires-Dist: Arabic-Stopwords
+Requires-Dist: pyarabic
+
+UNKNOWN
+
+
