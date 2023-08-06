@@ -1,0 +1,2 @@
+[console_scripts]
+snowpipe = snowpipe_cli.snowpipe:cli
