@@ -1,0 +1,10 @@
+CPT_GFFParser/CPT_GFFParser.py,sha256=OeWV8FYoNxp3WZVc3rKX8sEtlgwuxmfqT6lYkAJN7fY,27654
+CPT_GFFParser/CPT_ParserHelpers.py,sha256=PRWXjf37UFU1SkiTzKefAEC4Z_DPtSxsZ6oglT68sWE,6171
+CPT_GFFParser/__init__.py,sha256=etfDWkq4V62YD4qaxiGOZb_o6dTVuYnESWGfpNP6vkg,196
+CPT_GFFParser/gffSeqFeature.py,sha256=eAyVt0EAi0UNBCqj3r-Rgqhjhw03wF1luW8Ya8wgJkw,10376
+CPT_GFFParser/setup.py,sha256=IpJ4gT9dKBPskx_POArP0r6Cem-7uA6WnKGG1GyGkfA,469
+CPT_GFFParser-1.2.1.dist-info/LICENSE,sha256=EDDBFqBWHD7a9n_170pZyur5Tb-K6pVof51lH-uUet4,1535
+CPT_GFFParser-1.2.1.dist-info/METADATA,sha256=1QSS_NdEZAT-91Wx3O-mLE1zciwSrhjffJ4ApOcyzkk,17698
+CPT_GFFParser-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CPT_GFFParser-1.2.1.dist-info/top_level.txt,sha256=Ywb-Qt15HJev5QLo5tkpkJBsObGKBK5tGoAtyzJMznU,14
+CPT_GFFParser-1.2.1.dist-info/RECORD,,
