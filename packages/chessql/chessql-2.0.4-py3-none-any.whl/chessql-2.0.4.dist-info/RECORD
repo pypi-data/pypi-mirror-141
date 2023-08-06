@@ -1,0 +1,12 @@
+chessql/__init__.py,sha256=k6oan9svganBxbv6IL8EvTXEOcDJLROrDuPAA5DDJIY,264
+chessql/core/__init__.py,sha256=AZGX8rN4uUrhgJVqWManxg0F2HE-xBNLddQM-tG4DHo,121
+chessql/core/constants.py,sha256=p_4gQmF6B2R3yjtcAlRK0NsQ4yQxKRASAN8D24Eyzyo,4340
+chessql/core/cql.py,sha256=Cp0q7tTIXsM16TkfT7tQ1u3AwffMYe4Cm8psUdkBsHs,73796
+chessql/core/node.py,sha256=yKAf4L7AvdL1xfSiv-Xjoy-BylfcHrfYTCNfTsXpH4g,6198
+chessql/core/piecedesignator.py,sha256=aYxwfoszu1juz5Nblh3j50vYxn9bAq4qYQQ_PSzjyoU,13058
+chessql/core/statement.py,sha256=-l7JBzQiNWuJyOhJN9c2r9Ea_MEUbNuoLr1oWWZAais,174978
+chessql-2.0.4.dist-info/LICENCE,sha256=uQLT8b7eoQ0GQpocPXCqpnw4w2pYVDlF7_j6SudrWyU,1488
+chessql-2.0.4.dist-info/METADATA,sha256=qYl_bq5ABNsdFmuknlDhlj15F_8rT_qv23FQfuMv9X0,1749
+chessql-2.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chessql-2.0.4.dist-info/top_level.txt,sha256=ZINE-MdKuEdW14Jd-2NvB7Rtw91XNS4bZYIRRki6at4,8
+chessql-2.0.4.dist-info/RECORD,,
