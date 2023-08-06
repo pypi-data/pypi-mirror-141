@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.py
+src/delete_substring/__init__.py
+src/delete_substring.egg-info/PKG-INFO
+src/delete_substring.egg-info/SOURCES.txt
+src/delete_substring.egg-info/dependency_links.txt
+src/delete_substring.egg-info/top_level.txt
