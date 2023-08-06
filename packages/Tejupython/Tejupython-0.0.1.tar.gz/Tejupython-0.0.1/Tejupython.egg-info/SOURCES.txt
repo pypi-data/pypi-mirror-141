@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Tejupython.egg-info/PKG-INFO
+Tejupython.egg-info/SOURCES.txt
+Tejupython.egg-info/dependency_links.txt
+Tejupython.egg-info/top_level.txt
