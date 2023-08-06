@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+berdan_akyurek_dictionary.egg-info/PKG-INFO
+berdan_akyurek_dictionary.egg-info/SOURCES.txt
+berdan_akyurek_dictionary.egg-info/dependency_links.txt
+berdan_akyurek_dictionary.egg-info/requires.txt
+berdan_akyurek_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
