@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cgal-pybind
+Version: 0.1.dev1
+Summary: Python bindings for some CGAL classes
+Home-page: https://github.com/BlueBrain/cgal-pybind
+Author: Blue Brain Project, EPFL
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: tests
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+UNKNOWN
+
