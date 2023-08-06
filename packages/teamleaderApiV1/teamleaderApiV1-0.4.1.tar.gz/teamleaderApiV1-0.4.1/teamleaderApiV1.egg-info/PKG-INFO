@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: teamleaderApiV1
+Version: 0.4.1
+Summary: Python framework on top of the teamleader v1 api
+Home-page: https://github.com/HeroPP/teamleaderApiV1
+Download-URL: https://github.com/HeroPP/teamleaderApiV1/archive/refs/tags/v0.4.1.tar.gz
+Author: Jaap
+Author-email: jaap1@me.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
