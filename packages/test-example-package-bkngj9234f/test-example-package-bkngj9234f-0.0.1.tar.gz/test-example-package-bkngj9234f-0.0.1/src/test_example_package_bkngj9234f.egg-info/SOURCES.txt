@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/test_example_package_bkngj9234f.egg-info/PKG-INFO
+src/test_example_package_bkngj9234f.egg-info/SOURCES.txt
+src/test_example_package_bkngj9234f.egg-info/dependency_links.txt
+src/test_example_package_bkngj9234f.egg-info/top_level.txt
