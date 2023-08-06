@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cz-commitizen-hacknplan
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/CanisHelix/commitizen_hacknplan
+Author: Nigel George
+Author-email: nigel.george@shiroikuma.co.uk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+A variation of conventional commits with HackNPlan Tasks.
+
