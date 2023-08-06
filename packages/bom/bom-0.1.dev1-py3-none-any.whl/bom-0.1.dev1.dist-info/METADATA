@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bom
+Version: 0.1.dev1
+Summary: Bill Of Materials
+Home-page: https://github.com/pycontribs/bom
+Author: Sorin Sbarnea
+Author-email: ssbarnea@redhat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
