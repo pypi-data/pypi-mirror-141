@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fluigent-sdk
+Version: 0.0.1
+Summary: Placeholder for fluigent_sdk by Fluigent
+License: None
+Author: Paul Müller
+Author-email: dev@craban.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
