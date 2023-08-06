@@ -1,0 +1,15 @@
+pytfsclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytfsclient/http_client.py,sha256=mZHvYhgpVqhQq35XsuNi-yiNq1PeAgxTeGEFctgM57Q,3984
+pytfsclient/tfs_client.py,sha256=DzOWP2SCCW9eCE42MdVsZySGVt1SHFL7-WMM1Xdmuns,3741
+pytfsclient/tfs_client_factory.py,sha256=EW1LKwzDlEqbIwm4QZygYgaCKZL0nk6LCvnAAZxXy6I,2687
+pytfsclient/tfs_project_client.py,sha256=zP7j1kvd6N1H6qVOynS1U2ZBAE6xG1aOEbGvy1aeneE,7933
+pytfsclient/tfs_project_model.py,sha256=3naruZ-oY9oVbXN9CnkTIFAozRHNY3bVRE_DrCN52SY,2739
+pytfsclient/tfs_wiql_model.py,sha256=IhfXXoFmLYhabDiNzUqbsr6WlVfPv3zKVNsO9WXqC6E,1409
+pytfsclient/tfs_workitem_client.py,sha256=o2r2s00QK-pDDRs4xMgWoeuChxBP4ME5MWDzMlafpJc,23216
+pytfsclient/tfs_workitem_model.py,sha256=zSashQJDgkOQRb-6LPT9fVT0KKjWAU7NvmLUaRLEOXk,8399
+pytfsclient/tfs_workitem_relation_model.py,sha256=ahUX1Sb30Nebd7pvgZmb8l_B-STFZr2WvAMg93nsEmg,2729
+pytfsclient-0.9.3.dist-info/LICENSE.txt,sha256=O2j_646bzgh8m009wDJsuaQlVlvKGDD_Ad0pjQETmdU,1063
+pytfsclient-0.9.3.dist-info/METADATA,sha256=r2A2GcoN96w6vHp3ZV0m65C6DLJTbGndp9a626j8wGE,997
+pytfsclient-0.9.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytfsclient-0.9.3.dist-info/top_level.txt,sha256=RQamRCWBCPURhFLar0O5JtWIiNVC9b9f3IcnZJXjbXs,12
+pytfsclient-0.9.3.dist-info/RECORD,,
