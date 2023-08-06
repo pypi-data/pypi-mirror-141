@@ -1,0 +1,5 @@
+matplotlib
+scikit-learn
+seaborn
+setuptools
+wheel
