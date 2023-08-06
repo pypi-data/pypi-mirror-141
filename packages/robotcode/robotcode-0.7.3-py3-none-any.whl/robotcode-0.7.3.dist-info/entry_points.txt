@@ -1,0 +1,5 @@
+[console_scripts]
+extract-release-notes=scripts.extract_release_notes:main
+npm-package=scripts.npm_package:main
+npm-publish=scripts.npm_publish:main
+
