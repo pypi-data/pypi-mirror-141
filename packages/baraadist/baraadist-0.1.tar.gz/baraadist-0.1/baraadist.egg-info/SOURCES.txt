@@ -1,0 +1,10 @@
+setup.py
+baraadist/Binomialdistribution.py
+baraadist/Gaussiandistribution.py
+baraadist/Generaldistribution.py
+baraadist/__init__.py
+baraadist.egg-info/PKG-INFO
+baraadist.egg-info/SOURCES.txt
+baraadist.egg-info/dependency_links.txt
+baraadist.egg-info/not-zip-safe
+baraadist.egg-info/top_level.txt
