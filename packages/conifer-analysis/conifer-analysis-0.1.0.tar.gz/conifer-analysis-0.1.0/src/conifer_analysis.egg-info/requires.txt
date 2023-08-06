@@ -1,0 +1,13 @@
+dask
+depinfo
+numpy
+pandas
+
+[dashboard]
+distributed
+bokeh
+
+[development]
+black
+isort
+tox
