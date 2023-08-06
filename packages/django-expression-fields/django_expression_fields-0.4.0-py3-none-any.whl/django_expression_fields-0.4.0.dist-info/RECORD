@@ -1,0 +1,8 @@
+expression_fields/__init__.py,sha256=tlrQ4KV2tunXm8FRLp_OImy1gby1EaUvA3ezrGI0IQc,268
+expression_fields/expr.py,sha256=ZC0J_sSgsgCQedhclUT_oPX6uxLZtKUFC4mwhaS-asE,668
+expression_fields/fields.py,sha256=n89a8Tg7PWXvip3DqXpB1ZXVyGwJF4jOizYQnof3l9Y,2621
+django_expression_fields-0.4.0.dist-info/LICENSE,sha256=iqKN5G-q6cvewsGxWTNKizYSTwJXmix8hQ5CbviuDtE,1095
+django_expression_fields-0.4.0.dist-info/METADATA,sha256=KxhBun1NZ580f5ppkrh40m6-GTTFui0R4mx6pfBSclY,1719
+django_expression_fields-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_expression_fields-0.4.0.dist-info/top_level.txt,sha256=3T8oMOQZYZlYy-ZdvXokKWn4xsWBSmO9WD8xORknK8g,18
+django_expression_fields-0.4.0.dist-info/RECORD,,
