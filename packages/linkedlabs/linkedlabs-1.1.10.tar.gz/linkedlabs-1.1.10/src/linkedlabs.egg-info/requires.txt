@@ -1,0 +1,12 @@
+joblib
+lightgbm
+numpy
+pandas
+scikit-learn
+statistics
+tqdm
+
+[dev]
+check-manifest
+pytest>=3.7
+twine
