@@ -1,0 +1,18 @@
+{
+  "Instruments": [ "pySRSLockin", "pySRSLockin", "pyThorlabsPM100x" ],
+  "Plots": [
+    {
+      "x": "acq#",
+      "y": []
+    },
+    {
+      "x": "acq#",
+      "y": []
+    }
+  ],
+  "Alignment_Instruments_Window": "V",
+  "PostProcessedData": 
+    {
+      "Transm" : [ "dev0.mag", "+", "dev1.mag" ]
+    }
+}
