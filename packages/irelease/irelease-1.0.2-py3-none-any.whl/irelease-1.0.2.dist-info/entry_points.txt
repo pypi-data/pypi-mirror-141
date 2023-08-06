@@ -1,0 +1,2 @@
+[console_scripts]
+pyrelease = irelease.irelease:main
