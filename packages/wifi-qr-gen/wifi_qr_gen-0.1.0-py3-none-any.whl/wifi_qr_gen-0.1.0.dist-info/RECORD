@@ -1,0 +1,9 @@
+wifi_qr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wifi_qr/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wifi_qr/scripts/wifi_qr.py,sha256=soIiwitM8O2xMmVae839yEcvNX3EgG1M6NV-YC8bbAA,1448
+wifi_qr_gen-0.1.0.dist-info/LICENSE,sha256=morcFL3V8lQCbvYCSYJbj1bQDllKiQ1yfYzBHLexUD8,1066
+wifi_qr_gen-0.1.0.dist-info/METADATA,sha256=4CIEETLM8zl7OhWm5va_uKux4bVR-OIP_2My13W1ZyA,249
+wifi_qr_gen-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wifi_qr_gen-0.1.0.dist-info/entry_points.txt,sha256=FJ-1oz0uz5-9T3iLzjfxXXI0ut40nzXWSVG95RTAIug,64
+wifi_qr_gen-0.1.0.dist-info/top_level.txt,sha256=YE4ET1eZveOQvlADLuOrNBKOKSx2x7fo55gV9qnQn5I,8
+wifi_qr_gen-0.1.0.dist-info/RECORD,,

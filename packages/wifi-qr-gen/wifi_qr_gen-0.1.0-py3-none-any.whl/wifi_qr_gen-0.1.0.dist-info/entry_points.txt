@@ -1,0 +1,2 @@
+[console_scripts]
+wifi-qr = wifi_qr.scripts.wifi_qr:gen_wifi_qr
