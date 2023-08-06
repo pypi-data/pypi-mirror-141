@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "/Users/tsingh/anaconda3/envs/batchutils/bin/python",
+    "files.defaultLanguage": "python",
+    "cSpell.enableFiletypes": [
+        "!python"
+    ],
+    "python.dataScience.textOutputLimit": 2500,
+    "python.dataScience.alwaysScrollOnNewCell": true,
+    "python.dataScience.magicCommandsAsComments": true,
+    "cSpell.enabled": true
+}
