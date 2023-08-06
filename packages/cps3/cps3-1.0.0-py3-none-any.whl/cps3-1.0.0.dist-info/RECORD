@@ -1,0 +1,12 @@
+cps3/__init__.py,sha256=JGwDh4ze7PYdTQfrhEBX5pfSl9_4xrCCJqbq9hEbjfo,540
+cps3/cpsish.py,sha256=k5lEQAULD6oJV77nAaQlxP4EzABB765TnDkNsaV1Rck,3228
+cps3/main.py,sha256=TPp1TWBXKO_Imjdliglr097ngrhV8JRPGtsWBPsdjSI,11023
+fassst/__init__.py,sha256=C2vO8I4e95OIz3jgpdTAtRU6Wd-mEslAjV2jXjFH9YU,544
+fassst/cpsish.py,sha256=k5lEQAULD6oJV77nAaQlxP4EzABB765TnDkNsaV1Rck,3228
+fassst/main.py,sha256=0dzJ672cN2uVspBXsmqJXFi2dxxn2_jrdtHW4oiqlcc,11018
+cps3-1.0.0.dist-info/LICENSE,sha256=4wPqxlHiJULjWsrKXaV0PJCev2FW6RjNfVI7uRgjKgY,1069
+cps3-1.0.0.dist-info/METADATA,sha256=QeOTCnl4s4bkXD_55su9tOzireLCQ-XNRy1vVSeX3bg,388
+cps3-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cps3-1.0.0.dist-info/entry_points.txt,sha256=Z9FIeVBDncpaJw2ml2XRHuUV98zdp4wzYPQjl7z4XAM,40
+cps3-1.0.0.dist-info/top_level.txt,sha256=eppeqZnZfkw4KEaRDXEMJCwLyBYZJsENya0VDkCa2xg,5
+cps3-1.0.0.dist-info/RECORD,,
