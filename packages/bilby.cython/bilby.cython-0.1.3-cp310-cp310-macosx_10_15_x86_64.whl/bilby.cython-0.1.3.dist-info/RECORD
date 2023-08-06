@@ -1,0 +1,8 @@
+bilby_cython/.version,sha256=nLUvIsA26_Qn44bO6NloNmYLWmIeT7AsNTQIUOg7Dgg,49
+bilby_cython/__init__.py,sha256=4qO4Reh4pAjyQmJ9XY4FCYPvzPqxlYlcp4l6TGMv0VU,281
+bilby_cython/geometry.cpython-310-darwin.so,sha256=pHOGXAu1e_1RjcVxi-IG2_uAxV-6vzPi5q5pCBMi_sY,264336
+bilby.cython-0.1.3.dist-info/LICENSE,sha256=tsqEqlcBtL76ZUdklvwu7GKKrZP4K5aA_VH6IGsvp2w,1068
+bilby.cython-0.1.3.dist-info/METADATA,sha256=3vn0UX3771yuxqLhTDmsodsUJoZWWTfmLDMtFVq2Ynw,3845
+bilby.cython-0.1.3.dist-info/WHEEL,sha256=Mp26lirrtUNzLUWsPKBAjl3RVvrCg7YEjI0nue_kNcE,112
+bilby.cython-0.1.3.dist-info/top_level.txt,sha256=zLDE8qSLXh2BNgBgFFsgWTVODGNnbWgatne7yfpYVwA,13
+bilby.cython-0.1.3.dist-info/RECORD,,
