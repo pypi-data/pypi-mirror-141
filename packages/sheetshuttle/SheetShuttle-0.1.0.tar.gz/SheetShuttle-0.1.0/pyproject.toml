@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "SheetShuttle"
+version = "0.1.0"
+description = ""
+authors = ["Noor Buchi <buchin@allegheny.edu>"]
+
+[tool.poetry.scripts]
+sheetshuttle = "sheetshuttle.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9.6"
+typer = {extras = ["all"], version = "^0.3.2"}
+rich = "^10.9.0"
+google-api-python-client = "^2.21.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.4.6"
+pandas = "^1.3.3"
+PyYAML = "^5.4.1"
+tabulate = "^0.8.9"
+types-PyYAML = "^6.0.0"
+jsonschema = "^4.1.2"
+python-dotenv = "^0.19.1"
+pluginbase = "^1.0.1"
+PyGithub = "^1.55"
+openpyxl = "^3.0.9"
+openpyxl-stubs = "^0.1.21"
+types-jsonschema = "^4.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-sugar = "^0.9.4"
+pytest-cov = "^3.0.0"
+black = "^21.8b0"
+taskipy = "^1.8.1"
+flake8 = "^3.9.2"
+pydocstyle = "^6.1.1"
+pylint = "^2.10.2"
+mypy = "^0.910"
+
+[tool.taskipy.tasks]
+black = { cmd = "black sheetshuttle tests --check", help = "Run the black checks for source code format" }
+test = { cmd = 'pytest -s -m "not webtest"', help = "Run the pytest test suite except webtests" }
+test-interaction = { cmd = 'pytest -v -m webtest', help = "Run the pytest webtests" }
+test-all = {cmd = "pytest -v -s", help = "Run the full pytest test suite"}
+coverage = {cmd = 'pytest -s -vv -m "not webtest" --cov-report term-missing --cov=sheetshuttle --cov-report xml --cov-branch', help = "Run the coverage report for the test suite except webtests"}
+coverage-all = {cmd = 'pytest -s -vv --cov-report term-missing --cov=sheetshuttle --cov-report xml --cov-branch', help = "Run the coverage report for full test suite"}
+flake8 = { cmd = "flake8 sheetshuttle tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy sheetshuttle --show-error-codes", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle sheetshuttle tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint sheetshuttle tests", help = "Run the pylint checks for source code documentation" }
+all = "task black && task flake8 && task pydocstyle && task mypy && task pylint && task test"
+lint = "task black && task flake8 && task pydocstyle && task mypy && task pylint "
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
