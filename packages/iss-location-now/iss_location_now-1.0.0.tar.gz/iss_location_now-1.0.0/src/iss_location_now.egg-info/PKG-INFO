@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: iss-location-now
+Version: 1.0.0
+Summary: A package to get the latitude and longitude of International Space Stattion
+Home-page: https://github.com/cdevairakkam7/iss_location_now
+Author: Chris Daniel
+Author-email: chris@url.cafe
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cdevairakkam7/iss_location_now/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# International Space Station Location Finder
+
+## Installation
+
+```
+pip install iss-location-now
+```
+
+## Usage 
+```
+# importing module
+from iss_location_now import iss_location_now 
+
+# calling the iss_now function
+iss_location_now.iss_now()
+
+```
+
+## Sample Output 
+```
+{
+ 'iss_longitude': -82.64,
+ 'iss_latitude': 27.76,
+ 'timestamp': 1646730702,
+ 'response_message': 'success'
+ }
+```
+
+
