@@ -1,0 +1,8 @@
+# @package _global_
+verbose: 100
+
+scaler:
+  _target_: sklearn.preprocessing.StandardScaler
+
+list_path: list.txt
+out_path: scaler.joblib

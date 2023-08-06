@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include nnsvs *.yaml
+recursive-include nnsvs *.hed
