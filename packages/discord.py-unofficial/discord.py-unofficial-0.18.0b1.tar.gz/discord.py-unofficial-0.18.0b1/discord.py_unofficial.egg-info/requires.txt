@@ -1,0 +1,5 @@
+aiohttp<3.7,>=3.1
+websockets<7.0,>=6.0
+
+[voice]
+PyNaCl==1.0.1
