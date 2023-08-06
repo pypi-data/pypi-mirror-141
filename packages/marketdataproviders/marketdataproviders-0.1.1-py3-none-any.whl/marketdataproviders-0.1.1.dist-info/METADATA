@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: marketdataproviders
+Version: 0.1.1
+Summary: APIs around Market Data Providers
+Author: Kamal Advani
+Author-email: kamal.advani@namingcrisis.net
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Market Data Providers
+
+Miscellaneous APIs around Market Data providers.
+
+## APIs
+
+Currently only basic access to: <https://eodhistoricaldata.com/> is implemented.
+
+
+## Build
+
+This is built using [Poetry](https://python-poetry.org/).
+
+```bash
+# after checkout, within top-level checkout directory
+poetry install
+
+# To update dependencies, or after `poetry add ...`
+poetry update
+
+# to make sure we are using our virtual env's tooling (created
+# automatically by poetry, much like conda env)
+# We can, for example add ipython as a dev dependency, then shell into our
+# env, only then will we get this install. Use `which ipython` to verify.
+poetry shell
+
+# To build distributable packages
+poetry build
+```
+
+## Publishing
+
+### To PyPi
+
+Create PyPI account with a new token.
+
+Add this to poetry's config:
+
+```
+poetry config pypi-token.pypi <my-token>
+```
+
+Simply publish:
+
+```
+poetry publish
+```
+
+
+### To Local Repository
+
+Once off only: Prepare Local Repository
+
+See: 
+
+* https://pypi.org/project/pypiserver/: Install this.
+* https://python-poetry.org/docs/master/repositories/
+
+
+```bash
+# Create location
+LOCAL_REPO_FS=$HOME/.local/home-pypi
+mkdir -p $LOCAL_REPO_FS
+cd $LOCAL_REPO_FS
+
+# Run pypi-server in local repo fs, unauthorised mode.
+pypi-server -i 127.0.0.1 -v -P . -a . -p 9292 .
+```
+Add repository name to `poetry` config:
+
+```bash
+poetry config repositories.home-pypi http://localhost:9292/
+```
+Update `pip` configuration to use this extra index.
+
+```
+# ~/.pip/pip.conf -> https://pypi.org/project/pypiserver/#configuring-pip
+# Add the following config
+
+[global]
+extra-index-url = http://localhost:9292/simple/
+```
+
+To publish to local repo:
+
+```
+# Publish distributable packages to local repo set-up with name above.
+# Just press Enter when username asked, we don't have authentication on.
+poetry publish --repository home-pypi
+```
