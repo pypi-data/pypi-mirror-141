@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SDPA-OFDM
+Version: 0.0.1
+Summary: Software OFDM Modulator
+Home-page: UNKNOWN
+Author: Sebastien Deriaz
+Author-email: sebastien.deriaz1@gmail.com
+License: UNKNOWN
+Keywords: python,ofdm,modulation,modulator,sdr
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+This package provides capability modulate a user-defined message into I and Q for usage in a SDR
+
