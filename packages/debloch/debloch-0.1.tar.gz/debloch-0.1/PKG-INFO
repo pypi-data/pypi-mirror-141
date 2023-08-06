@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: debloch
+Version: 0.1
+Summary: Blochwave simulator for Continuous Electron Diffraction 
+Home-page: https://www.ccp4.com/ccp4-ed/debloch
+Author: Tarik Ronan Drevon
+Author-email: tarik.drevon@stfc.ac.uk
+License: UNKNOWN
+Description: contains a builtin Blochwave solver and a wrapper for FELIX, an efficient fortran implement blohwave based dynamical refinement solver 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License 
+Classifier: Operating System :: POSIX :: Linux 
+Requires-Python: >=3.8
