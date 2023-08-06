@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: uranium-quantum
+Version: 0.2.3
+Summary: Support libraries for the Uranium quantum computing platform.
+Home-page: https://github.com/radumarg/uranium-quantum
+Author: Radu Marginean
+Author-email: radu.marg@gmail.com
+License: MIT
+Download-URL: https://github.com/radumarg/uranium-quantum/archive/refs/tags/v0.2.3.tar.gz
+Description: Support libraries for the Uranium quantum computing platform.
+Keywords: quantum,computing,uranium platform
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
