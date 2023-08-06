@@ -1,0 +1,11 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/main.py,sha256=17gaqeMzDguzPF41ootw-vfxTzz4OL8Zhhlyw2ISpsQ,1394
+app/dynamodb/__init__.py,sha256=ezFIzZOd9-5t6g1a3kc-pJwc5ZvvSUY0OLzFlVLeAT8,104
+app/dynamodb/csv_import.py,sha256=9ruFPItiNVxr1riC3W5ejve6Mdm-i4BcJWwmIPgulPI,2921
+app/dynamodb/truncate.py,sha256=7cwJZmvO6RYWIWsgPuClmtp-seUgiBaBVNuOojxG9QA,1615
+dynamodb_csv-1.2.1.dist-info/LICENSE,sha256=hhi985QgihPRR9kWJLFUCoQaA_QLAdNhoi6TzxVuA_k,1064
+dynamodb_csv-1.2.1.dist-info/METADATA,sha256=YLYqOLuWcpy9nMuDJMytZJVcbbbnrubdORRuavkTJWI,5984
+dynamodb_csv-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dynamodb_csv-1.2.1.dist-info/entry_points.txt,sha256=ymX2V4kJyed7nNL0mmybEWryLJAuuqQeDmHiXIRcgtc,48
+dynamodb_csv-1.2.1.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+dynamodb_csv-1.2.1.dist-info/RECORD,,
