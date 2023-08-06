@@ -1,0 +1,13 @@
+dippi (basename)
+dippi_fit_{fit_job}.nc (partial_fit)
+dippi_fit.nc (fit)
+dippi_dphase{fibre}.nii.gz (dphase)
+dippi_g_ratio{fibre}.nii.gz (g_ratio)
+dippi_R2_attenuation.nii.gz (R2)
+dippi_amplitude_se{fibre}.nii.gz (amplitude)
+dippi_width{fibre}.nii.gz (width)
+dippi_dyads{fibre}.nii.gz (dyads)
+dippi_non_myelin.nii.gz (non_myelin)
+delta_sinsq.nii.gz
+total_signal{fibre}.nii.gz (total_signal)
+mean_sinsq.nii.gz
