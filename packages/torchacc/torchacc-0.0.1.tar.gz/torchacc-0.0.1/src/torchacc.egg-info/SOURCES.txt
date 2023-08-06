@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/easy-distributed/__init__.py
+src/easy-distributed/example.py
+src/torchacc.egg-info/PKG-INFO
+src/torchacc.egg-info/SOURCES.txt
+src/torchacc.egg-info/dependency_links.txt
+src/torchacc.egg-info/top_level.txt
