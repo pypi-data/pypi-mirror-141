@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+HW1_CI_CD.egg-info/PKG-INFO
+HW1_CI_CD.egg-info/SOURCES.txt
+HW1_CI_CD.egg-info/dependency_links.txt
+HW1_CI_CD.egg-info/requires.txt
+HW1_CI_CD.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
