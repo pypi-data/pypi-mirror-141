@@ -1,0 +1,104 @@
+Colored Codeblocks - Discord
+---------------------------
+Colored Codeblocks for Discord Bots using ANSI Escape Sequences.
+
+You can do `help(discord_colorize.Colors)` to see all the available colors along with a detailed docstring on how to use the package.
+
+Usage -
+```python
+    import discord_colorize
+    colors = discord_colorize.Colors()
+    data = f"""
+    ```ansi
+    {colors.colorize('Hello World!', fg='green', bg='indigo', bold=True, underline=True)}
+    ```
+    """
+    help(discord_colorize.Colors)
+```
+
+[Extra Information](https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06)
+
+Created by TheOnlyWayUp#1231 - https://github.com/TheOnlyWayUp/
+
+```python
+class Colors:
+    r"""Represents the class used for normal strings to Discord ANSI Codeblocks that support colors.
+
+    Usage
+    ----------------
+    from discord.colorize import Colors
+    colors = Colors()
+    message = colors.colorize('Hello World!', fg='green', 'bg'='indigo', 'bold'=True)
+
+    All Colors
+    ----------------
+    Foreground -
+    ・gray - 30
+    ・red - 31
+    ・green - 32
+    ・yellow - 33
+    ・blue - 34
+    ・pink - 35
+    ・cyan - 36
+    ・white - 37
+    Background -
+    ・darkBlue - 40
+    ・orange - 41
+    ・gray - 46
+    ・lightGray - 43
+    ・lighterGray - 44
+    ・indigo - 45
+    ・white - 47
+    Formatting -
+    ・bold - 1
+    ・underline - 4
+    ・default - 0
+
+    Both the names of colors and styles (bold, gray, darkBlue, etc), and their integer equivalents (1, 30, 40) are accepted as valid inputs for colorization. Color names are not case-sensitive.
+    """
+
+    class unknownColor(Exception):
+        """The unknown color class, this exception is raised when a color is not found."""
+        ...
+
+    def __init__(self):
+        """Initializes the Colors class."""
+        ...
+
+    def returnColor(self, color: str, kind: str) -> int:
+        """Returns the color code for the given color.
+
+        Args:
+            color (str): The color to return the code for.
+            kind (str): The kind of color to return.
+
+        Raises:
+            self.unknownColor: Raised when the color is not found.
+
+        Returns:
+            int: The color code.
+        """
+        ...
+
+    def colorize(
+        self,
+        text: str,
+        bg: Union[str, int] = 0,
+        fg: Union[str, int] = 0,
+        bold: bool = 0,
+        underline: bool = 0,
+    ) -> str:
+        """Returns a string with the ANSI color codes for the given parameters.
+
+        Args:
+            text (str): The text to colorize.
+            bg (Union[str, int], optional): The background color to use. Defaults to no background.
+            fg (Union[str, int], optional): The foreground color to use. Defaults to no foreground.
+            bold (bool, optional): Whether or not to use bold. Defaults to no bold.
+            underline (bool, optional): Whether or not to use underline. Defaults to no underline.
+
+        Returns:
+            str: The colorized string.
+        """
+        ...
+```
