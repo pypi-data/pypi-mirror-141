@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+slice/__init__.py
+slice/__main__.py
+slice/slicing.py
+slice/tests/__init__.py
+slice/tests/test_slice.py
+slice_shukuru.egg-info/PKG-INFO
+slice_shukuru.egg-info/SOURCES.txt
+slice_shukuru.egg-info/dependency_links.txt
+slice_shukuru.egg-info/requires.txt
+slice_shukuru.egg-info/top_level.txt
