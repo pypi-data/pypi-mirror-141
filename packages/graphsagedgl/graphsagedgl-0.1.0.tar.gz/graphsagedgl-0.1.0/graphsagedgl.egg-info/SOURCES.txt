@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+graphsagedgl/__init__.py
+graphsagedgl/model.py
+graphsagedgl.egg-info/PKG-INFO
+graphsagedgl.egg-info/SOURCES.txt
+graphsagedgl.egg-info/dependency_links.txt
+graphsagedgl.egg-info/top_level.txt
+tests/__init__.py
+tests/test_model.py
