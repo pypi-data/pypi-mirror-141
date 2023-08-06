@@ -1,0 +1,3 @@
+[console_scripts]
+npm-run=scripts.npm_run:main
+
