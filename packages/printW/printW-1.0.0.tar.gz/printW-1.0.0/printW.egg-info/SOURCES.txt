@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+printW/__init__.py
+printW/printW.py
+printW.egg-info/PKG-INFO
+printW.egg-info/SOURCES.txt
+printW.egg-info/dependency_links.txt
+printW.egg-info/top_level.txt
