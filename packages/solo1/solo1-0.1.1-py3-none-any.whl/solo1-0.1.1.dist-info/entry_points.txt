@@ -1,0 +1,4 @@
+[console_scripts]
+solo=solo.cli:solo_cli
+solo1=solo.cli:solo_cli
+
