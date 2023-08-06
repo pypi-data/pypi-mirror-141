@@ -1,0 +1,32 @@
+# pytest-network-endpoints
+Pytest plugin for defining remote network nodes.
+This plugin introduces **--networkfile** option and session scoped **endpoints** fixture which will contain automatically generated and configured clients for given type.
+
+Predefined types avaiable:
+| yaml type key | endpoint class | comment
+| ----------- | ----------- | ----------- |
+| .ssh | [pytest_network_endpoints.ssh.SshEndpoint](pytest_network_endpoints/ssh.py) | wrapper for [paramiko](https://www.paramiko.org) |
+| .tunnel | [pytest_network_endpoints.tunnel.TunnelEndpoint](pytest_network_endpoints/tunnel.py) | wrapper for [sshtunnel](https://github.com/pahaz/sshtunnel/) |
+| .snmp | [pytest_network_endpoints.snmp.SnmpEndpoint](pytest_network_endpoints/snmp.py) | wrapper for [easysnmp](https://easysnmp.readthedocs.io) |
+| .winrm | [pytest_network_endpoints.winrm.WinrmEndpoint](pytest_network_endpoints/winrm.py)| wrapper for [pywinrm](https://pypi.org/project/pywinrm), [winrmcp](https://pypi.org/project/winrmcp)  |
+
+
+
+# install
+# examples
+### ssh
+### ssh with auth key
+### tunnel
+### winrm
+# standalone
+This package can be used without pytest
+```python
+from pytest_network_endpoints.plugin import create_endpoints_from_networkfile
+
+endpoints = create_endpoints_from_networkfile('path/to/networkfile.yml')
+```
+
+# devel
+```bash
+python setup.py clean --all install bdist_wheel
+```

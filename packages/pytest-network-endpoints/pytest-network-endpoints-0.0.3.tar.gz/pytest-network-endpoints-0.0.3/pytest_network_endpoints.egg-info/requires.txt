@@ -1,0 +1,13 @@
+docker
+easysnmp
+paramiko
+pytest
+PyYAML
+sshtunnel
+winrmcp
+
+[test]
+black
+flake8
+pytest-cov
+pytest-html
