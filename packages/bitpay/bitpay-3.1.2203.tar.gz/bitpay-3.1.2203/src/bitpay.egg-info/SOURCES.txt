@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/bitpay/__init__.py
+src/bitpay/client.py
+src/bitpay/config.py
+src/bitpay/env.py
+src/bitpay/tokens.py
+src/bitpay.egg-info/PKG-INFO
+src/bitpay.egg-info/SOURCES.txt
+src/bitpay.egg-info/dependency_links.txt
+src/bitpay.egg-info/requires.txt
+src/bitpay.egg-info/top_level.txt
