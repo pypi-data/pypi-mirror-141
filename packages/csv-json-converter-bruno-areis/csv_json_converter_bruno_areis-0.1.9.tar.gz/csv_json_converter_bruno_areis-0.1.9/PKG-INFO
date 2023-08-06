@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: csv-json-converter-bruno-areis
+Version: 0.1.9
+Summary: Convert csv to json or json to csv
+Author: Bruno Reis
+Author-email: brunoalvesbhx@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Description-Content-Type: text/markdown
+
+
