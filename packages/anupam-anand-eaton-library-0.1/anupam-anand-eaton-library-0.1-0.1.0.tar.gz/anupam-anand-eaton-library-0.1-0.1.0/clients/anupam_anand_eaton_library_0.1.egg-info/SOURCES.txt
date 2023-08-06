@@ -1,0 +1,8 @@
+setup.py
+clients/anupam_anand_eaton_library_0.1.egg-info/PKG-INFO
+clients/anupam_anand_eaton_library_0.1.egg-info/SOURCES.txt
+clients/anupam_anand_eaton_library_0.1.egg-info/dependency_links.txt
+clients/anupam_anand_eaton_library_0.1.egg-info/top_level.txt
+clients/people/__init__.py
+clients/people/base_client.py
+clients/people/people_client.py
