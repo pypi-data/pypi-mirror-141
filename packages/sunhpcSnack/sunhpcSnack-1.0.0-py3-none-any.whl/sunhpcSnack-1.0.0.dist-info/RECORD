@@ -1,0 +1,7 @@
+sunhpcSnack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunhpcSnack/_snack.so,sha256=lflYK-5vNVK3U-W1MYtNmmqTy_rmqBzKM9bf6tLzBpQ,45432
+sunhpcSnack/snack.py,sha256=IcTo0fhEvdOhgcB3DhLxBb-SY4LZZVEOLkvBjgU9ypE,31134
+sunhpcSnack-1.0.0.dist-info/METADATA,sha256=1dyI4aA8KZY5DqV3Jc69b0Ce73qg8ROklWU1kBTNbNA,408
+sunhpcSnack-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sunhpcSnack-1.0.0.dist-info/top_level.txt,sha256=zXZcyw_SKYuw3V0u9KNCQz3o70Zsrp77sNpAvDcqhYo,12
+sunhpcSnack-1.0.0.dist-info/RECORD,,
