@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BlockOL/__init__.py
+src/BlockOL.egg-info/PKG-INFO
+src/BlockOL.egg-info/SOURCES.txt
+src/BlockOL.egg-info/dependency_links.txt
+src/BlockOL.egg-info/top_level.txt
