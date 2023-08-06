@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: radiale
+Version: 0.4
+Summary: radiale
+Home-page: https://github.com/xlfe/radiale
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: EPL
+Description: UNKNOWN
+Keywords: home-automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)
+Classifier: Programming Language :: Python :: 3.9
