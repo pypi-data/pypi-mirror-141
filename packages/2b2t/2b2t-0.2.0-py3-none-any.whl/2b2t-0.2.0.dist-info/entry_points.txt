@@ -1,0 +1,4 @@
+[console_scripts]
+2b2t = bbtt.__main__:main
+2b2t.coord = bbtt.coord.__main__:main
+
