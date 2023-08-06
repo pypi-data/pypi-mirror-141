@@ -1,0 +1,7 @@
+art
+beautifulsoup4
+chompjs
+requests
+lxml
+httpx
+trio
