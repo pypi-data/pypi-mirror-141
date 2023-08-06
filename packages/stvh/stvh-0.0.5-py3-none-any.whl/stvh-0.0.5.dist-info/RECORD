@@ -1,0 +1,9 @@
+misc/__init__.py,sha256=roJCm2qsSulQPumuP_N4-jNDnHho4ebe2HOrtM4plew,84
+misc/fibonacci.py,sha256=Ukg0d5v0fWNtugvmwilz6cUXzPQBO1HH3WJm_wHbiPM,373
+torch/__init__.py,sha256=uOKetDa-VsZ9T7z5X93-JNAxcKkWzKEK2s5dAAR1_WQ,120
+torch/soft_cross_entropy_loss.py,sha256=Gu5Pg8qS8Ax23eP-TaFBHQmWEWijt6AH35EKkEmnkkg,858
+stvh-0.0.5.dist-info/LICENSE,sha256=o70y0GDWiAHGKMI5jZba9U-4PrUdlsAjV5bixGQH0HY,1077
+stvh-0.0.5.dist-info/METADATA,sha256=DvDctzU_wWES8N5Wg4Sr6XpfJhp5qtSReA9lTeqd00A,1000
+stvh-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stvh-0.0.5.dist-info/top_level.txt,sha256=IOgnDkV4P_pzYiP_t6mwDGbvIIg9Zc9IAltX08SPhAc,11
+stvh-0.0.5.dist-info/RECORD,,
