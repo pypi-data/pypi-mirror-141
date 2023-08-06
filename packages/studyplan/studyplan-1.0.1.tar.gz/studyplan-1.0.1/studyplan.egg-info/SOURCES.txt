@@ -1,0 +1,9 @@
+setup.py
+studyplan/__init__.py
+studyplan/scheduler.py
+studyplan.egg-info/PKG-INFO
+studyplan.egg-info/SOURCES.txt
+studyplan.egg-info/dependency_links.txt
+studyplan.egg-info/entry_points.txt
+studyplan.egg-info/requires.txt
+studyplan.egg-info/top_level.txt
