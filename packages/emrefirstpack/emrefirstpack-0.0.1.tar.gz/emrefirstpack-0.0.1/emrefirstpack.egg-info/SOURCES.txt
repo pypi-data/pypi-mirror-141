@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+emrefirstpack/__init__.py
+emrefirstpack.egg-info/PKG-INFO
+emrefirstpack.egg-info/SOURCES.txt
+emrefirstpack.egg-info/dependency_links.txt
+emrefirstpack.egg-info/top_level.txt
