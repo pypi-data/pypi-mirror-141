@@ -1,0 +1,9 @@
+README.md
+setup.py
+osepdf/__init__.py
+osepdf/pdftoimage.py
+osepdf/pdftotext.py
+osepdf.egg-info/PKG-INFO
+osepdf.egg-info/SOURCES.txt
+osepdf.egg-info/dependency_links.txt
+osepdf.egg-info/top_level.txt
