@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bolt11-voltage
+Version: 0.0.1.1
+Summary: 
+License: MIT
+Author: eillarra
+Author-email: eneko@illarra.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
