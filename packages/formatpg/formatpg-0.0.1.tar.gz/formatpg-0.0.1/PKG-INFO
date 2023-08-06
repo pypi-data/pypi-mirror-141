@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: formatpg
+Version: 0.0.1
+Summary: 
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# formatpg
+
+Placeholder until I rename [buildpg](https://pypi.org/project/buildpg/) to use this name.
+
