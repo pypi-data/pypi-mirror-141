@@ -1,0 +1,798 @@
+{
+    "query": "https://www.ryanair.com/api/booking/v4/en-ie/availability?ADT=1&CHD=0&DateIn=&DateOut=2022-03-20&Destination=STN&Disc=0&INF=0&Origin=MXP&TEEN=0&promoCode=&IncludeConnectingFlights=false&FlexDaysBeforeOut=2&FlexDaysOut=2&ToUs=AGREED",
+    "termsOfUse": "https://www.ryanair.com/ie/en/corporate/terms-of-use=AGREED",
+    "currency": "EUR",
+    "currPrecision": 2,
+    "routeGroup": "CITY",
+    "tripType": "OTHER",
+    "upgradeType": "PLUS",
+    "trips": [
+        {
+            "origin": "MXP",
+            "originName": "Milan Malpensa ",
+            "destination": "STN",
+            "destinationName": "London (Stansted)",
+            "routeGroup": "CITY",
+            "tripType": "OTHER",
+            "upgradeType": "PLUS",
+            "dates": [
+                {
+                    "dateOut": "2022-03-18T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": -1,
+                            "flightKey": "FR~8728~ ~~MXP~03/18/2022 07:10~STN~03/18/2022 08:15~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "RZWFXZMK54JWTFPLPCPM3IUHLDQZL4IJ2HE43BHZVCX2D754IA2JZ7QX6JBVEVEGGCYNNDIN2SL2RXKTML4ICDQYGWAC47NXXBOUHLX5YHEZA5IIOGZK4EGUL2VFS6P4DTRH77GNOMKAWWFJE5DZCY4GQY4O6XQTZT2XYYEBD2GDCWXSAEZDRV26C3LKXFIP36TEEM4LAEGZ2",
+                                "fareClass": "D",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 8.79,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 10.99,
+                                        "discountInPercent": 20,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 2.2,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8728",
+                                    "time": [
+                                        "2022-03-18T07:10:00.000",
+                                        "2022-03-18T08:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-18T06:10:00.000Z",
+                                        "2022-03-18T08:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8728",
+                            "time": [
+                                "2022-03-18T07:10:00.000",
+                                "2022-03-18T08:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-18T06:10:00.000Z",
+                                "2022-03-18T08:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "RK~8741~ ~~MXP~03/18/2022 10:10~STN~03/18/2022 11:15~~",
+                            "infantsLeft": 17,
+                            "regularFare": {
+                                "fareKey": "XAGSNEVUUQYI7BQBN3FYFORWPEHFFC5D3G3L5GQMGBNXOIRH3NUJ22SC3WST2CR4B4NF2DKXHYUJ3ZUTUXNKCC5T5X4TOAWC4G654WEJH7H2JD4KN6UQRVL6XNOYIXV64KHTJISP655HNQB7CBFP7QY6U3ALW26DITMHHUETRA2FDYLTCQOFH256NE2M3ULRTXRIJYJ6FYVAEHXGBZONKHLY5LWMY2UETOVP3HQ",
+                                "fareClass": "J",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 24.99,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 27.77,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 2.78,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Ryanair UK",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "RK 8741",
+                                    "time": [
+                                        "2022-03-18T10:10:00.000",
+                                        "2022-03-18T11:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-18T09:10:00.000Z",
+                                        "2022-03-18T11:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "RK 8741",
+                            "time": [
+                                "2022-03-18T10:10:00.000",
+                                "2022-03-18T11:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-18T09:10:00.000Z",
+                                "2022-03-18T11:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 5,
+                            "flightKey": "FR~8737~ ~~MXP~03/18/2022 21:35~STN~03/18/2022 22:40~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "JJABWN7BOWYSYVAMLBCGZE4V23NYOBA3AAF5X74NGASWM6VSQNASEFY5T2CVJ73ZBWRZSCPIIETLHSAADVA3TE5RSUGXGBC7D6JQXZ6W45LVOK6HOX5CJPDNOYP4BPJ6UGNZ27LMYTSNJJKUZQ7JWTIM5DWIHDZAPJ4KJXR4X7EYMFJKZ74FPBVHD5M5GJUFBN4LOLHDFEKR6",
+                                "fareClass": "A",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 28.99,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 28.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8737",
+                                    "time": [
+                                        "2022-03-18T21:35:00.000",
+                                        "2022-03-18T22:40:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-18T20:35:00.000Z",
+                                        "2022-03-18T22:40:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8737",
+                            "time": [
+                                "2022-03-18T21:35:00.000",
+                                "2022-03-18T22:40:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-18T20:35:00.000Z",
+                                "2022-03-18T22:40:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        }
+                    ]
+                },
+                {
+                    "dateOut": "2022-03-19T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "FR~8728~ ~~MXP~03/19/2022 07:00~STN~03/19/2022 08:10~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "NF2YVGOY4KGNAPJIWBE42MABEYXMBSFSZIC24YTV6GHU4EPMMNXRFP3IHGT2Y2U3WALTVRODNVROT3I3X2MRXKGXI37P6V2KNC4OGTZHVTUQNQUJZ4BWUEQFCB3PL5U4RX5NCX2VVCMDNUM5564VT3EVOKJGS743HC2NFU55V6ENQE5QW237O6MXX456EK5JC47ULYNYJ62VA",
+                                "fareClass": "N",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 7.99,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 7.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8728",
+                                    "time": [
+                                        "2022-03-19T07:00:00.000",
+                                        "2022-03-19T08:10:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-19T06:00:00.000Z",
+                                        "2022-03-19T08:10:00.000Z"
+                                    ],
+                                    "duration": "02:10"
+                                }
+                            ],
+                            "flightNumber": "FR 8728",
+                            "time": [
+                                "2022-03-19T07:00:00.000",
+                                "2022-03-19T08:10:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-19T06:00:00.000Z",
+                                "2022-03-19T08:10:00.000Z"
+                            ],
+                            "duration": "02:10"
+                        },
+                        {
+                            "faresLeft": 1,
+                            "flightKey": "FR~8741~ ~~MXP~03/19/2022 09:20~STN~03/19/2022 10:25~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "RZWFXZMK54JWTFPLPCPM3IUHLCRS564YSU5YYH4ANRDKNNQKJYTKHCRCTD3M5HJGNU4WEGRDHEDCNSEQFR4O6TLCQXCWHFB4BPL6VPUGP3LUEZU3PQ5R4XWVRPJAGZSVQETOJMTKGNJ2F3ELUUQ6FCUIW5LLTSTL33MAWQQ2O5LIBEGPNNAVYKXREQOQOQ7KBZCQAHTMUTTC2AMO7NOIWXOEFC43X4DUEFKKBEA",
+                                "fareClass": "D",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 11.99,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 14.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 3.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8741",
+                                    "time": [
+                                        "2022-03-19T09:20:00.000",
+                                        "2022-03-19T10:25:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-19T08:20:00.000Z",
+                                        "2022-03-19T10:25:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8741",
+                            "time": [
+                                "2022-03-19T09:20:00.000",
+                                "2022-03-19T10:25:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-19T08:20:00.000Z",
+                                "2022-03-19T10:25:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "FR~8737~ ~~MXP~03/19/2022 15:35~STN~03/19/2022 16:40~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "7NC4KO7LYMT3V6J4F2TMNJ3WU5RY7PAWPBVQ4PREDE3QCJCYMVACYH25CVG74EUKZUH766OKIULFVJVG366M4SWFJQ3RXDYXDMBZEWYGOPELHEZR7ERP7FFKESGGQ55D3POOYLTCMC5NDTIATUCGDXCAGXNSQP5LAIRVMR4FKCJX634KDAZAB2WALZH5SCZHQUXH46KXU7CW5PIW7D3KK4FDY5X3BUU6GWKVR2I",
+                                "fareClass": "M",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 12.99,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 16.24,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 3.25,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8737",
+                                    "time": [
+                                        "2022-03-19T15:35:00.000",
+                                        "2022-03-19T16:40:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-19T14:35:00.000Z",
+                                        "2022-03-19T16:40:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8737",
+                            "time": [
+                                "2022-03-19T15:35:00.000",
+                                "2022-03-19T16:40:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-19T14:35:00.000Z",
+                                "2022-03-19T16:40:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        }
+                    ]
+                },
+                {
+                    "dateOut": "2022-03-20T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "FR~8741~ ~~MXP~03/20/2022 10:10~STN~03/20/2022 11:15~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "XZPIKJEXHDCDZUNO7HFCXL5DDETS5LVNGK2YYQAYN64PJSNKY6GPYVJH5XBFJ7F6UORGKKA7BVNS5NZOSWNNGRHDBOTYIV4QYDSYTM356B4IBYHDG25V5AYOOOQY7IZ4DUK4YQQF44VXCZUXJ3YCIZHRB4EIMNYJMJ6QG7FURQOW6E62WLE6273AEQFTFS2QZCMGBVDBXK2CF2NGSJZBGDKNSDQ63SIP5RBMKBA",
+                                "fareClass": "W",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 22.99,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 28.74,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 5.75,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8741",
+                                    "time": [
+                                        "2022-03-20T10:10:00.000",
+                                        "2022-03-20T11:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-20T09:10:00.000Z",
+                                        "2022-03-20T11:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8741",
+                            "time": [
+                                "2022-03-20T10:10:00.000",
+                                "2022-03-20T11:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-20T09:10:00.000Z",
+                                "2022-03-20T11:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 2,
+                            "flightKey": "FR~8728~ ~~MXP~03/20/2022 15:10~STN~03/20/2022 16:15~~",
+                            "infantsLeft": 16,
+                            "regularFare": {
+                                "fareKey": "A2CHX4AUT5YKJBVYL7FCMX2NWFA32EO4FUN33S6K25TIMPQJVNSXSST7MDT3OQXRN6GMGGFLPWDYC75NNCH2DLOKYRNY5IEWLVUNCRWJ43B5TLX4D5A63GOU2NKDCIQAOBSZUBODIOOCNJMMIMWITVPVWM4L2AYNG7FR2GBJNKPMEFMYP5CCUI5RHWFYZETOAL423VW236QC5NINYA7KVBAKU3ENEUBMKR7WWZY",
+                                "fareClass": "K",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 67.0,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 67.0,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8728",
+                                    "time": [
+                                        "2022-03-20T15:10:00.000",
+                                        "2022-03-20T16:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-20T14:10:00.000Z",
+                                        "2022-03-20T16:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8728",
+                            "time": [
+                                "2022-03-20T15:10:00.000",
+                                "2022-03-20T16:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-20T14:10:00.000Z",
+                                "2022-03-20T16:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 2,
+                            "flightKey": "FR~8737~ ~~MXP~03/20/2022 22:05~STN~03/20/2022 23:10~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "MYLTPMB75MMSWCBRID6YRRUTCJ3XQPXYUT5373RHD24AKJRQ6I4YBD6BXPJVQOBLRS5PI37M7U2552J5LEDL3MUJOLIXUG54CIZU2MGWCKGZWIAHGUQIXIJKI57YG2AW53LL2DY27H4ZY4OSCP7WZHYHMPGHMJP4ZB763T45Q7WAACXQQ5LR7IBZ5RIAJROBK6OFNJS2TI5HYZF6VRDDV6NYLMROZO5JCL2JVFY",
+                                "fareClass": "P",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 89.29,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 94.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 5.70,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8737",
+                                    "time": [
+                                        "2022-03-20T22:05:00.000",
+                                        "2022-03-20T23:10:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-20T21:05:00.000Z",
+                                        "2022-03-20T23:10:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8737",
+                            "time": [
+                                "2022-03-20T22:05:00.000",
+                                "2022-03-20T23:10:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-20T21:05:00.000Z",
+                                "2022-03-20T23:10:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        }
+                    ]
+                },
+                {
+                    "dateOut": "2022-03-21T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "FR~8728~ ~~MXP~03/21/2022 07:15~STN~03/21/2022 08:20~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "RZWFXZMK54JWTFPLPCPM3IUHLDNA2RSH2ZPZUWTCQVCSYRMUSWTQBLJAIGDIHAELTKOUWZWEBOPVRLPDKAS6DGWE5KDC2WS5WMPC7QGC75PJQ4KL3T2HOCXVNMIV35WYA3N7FMEK3647HVKCVJYRM47245FNJNP6MJKJ4UCCGZA7K54BW7QYEW6X7EWBJAEAT6CWH6CZTIVCYVRQHQPI4XQ6UMUP6GE5A3RPDZA",
+                                "fareClass": "D",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 11.00,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 13.75,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 2.75,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8728",
+                                    "time": [
+                                        "2022-03-21T07:15:00.000",
+                                        "2022-03-21T08:20:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-21T06:15:00.000Z",
+                                        "2022-03-21T08:20:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8728",
+                            "time": [
+                                "2022-03-21T07:15:00.000",
+                                "2022-03-21T08:20:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-21T06:15:00.000Z",
+                                "2022-03-21T08:20:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 5,
+                            "flightKey": "FR~8741~ ~~MXP~03/21/2022 10:10~STN~03/21/2022 11:15~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "7NC4KO7LYMT3V6J4F2TMNJ3WU7QOXGVLDQQ6RXOYRKGXGDTQ3IFJ5MZGUTQGGQUQLVR4HRS62PB3X45JXAQZLNPFQJ7B3KGAW5TSHZWNN7OKE25ZU3A254V6KOTVDIPQN4XAUDNBJD7GMF5COMPNVZ3OHXTLA2AR5MUHWJG6X3SXL3WLSFEFQDHYDA6Y4W7UGD2OVTHF3I5Q6OSUIZRL2HC2GNKKSGAHVV4WR4Y",
+                                "fareClass": "M",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 14.0,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 17.5,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 3.5,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8741",
+                                    "time": [
+                                        "2022-03-21T10:10:00.000",
+                                        "2022-03-21T11:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-21T09:10:00.000Z",
+                                        "2022-03-21T11:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8741",
+                            "time": [
+                                "2022-03-21T10:10:00.000",
+                                "2022-03-21T11:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-21T09:10:00.000Z",
+                                "2022-03-21T11:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 1,
+                            "flightKey": "FR~8737~ ~~MXP~03/21/2022 22:30~STN~03/21/2022 23:35~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "OWGM3B7DKQJX3CPXEPCY7VINQ5T5ILBCIHLKUAZIAHE6W37VZ3TLEBWHQQUR27INLYXOOSETMITTDE7G44RPCJR3JPIRCGPSM6RD7LVFXH4LUHBZJUP4KO4KJNYCOJTQWVLWUECBQ7A5DATP2WUESVYSYT4HRPZXUQI4DU5D6KW3I2E5D5UPDEBUFT3BHEN76IFTYA2VI2TTAR3JFKP72BFD24Z5AMMNSO5S53Q",
+                                "fareClass": "T",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 19.99,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 24.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 5.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8737",
+                                    "time": [
+                                        "2022-03-21T22:30:00.000",
+                                        "2022-03-21T23:35:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-21T21:30:00.000Z",
+                                        "2022-03-21T23:35:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8737",
+                            "time": [
+                                "2022-03-21T22:30:00.000",
+                                "2022-03-21T23:35:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-21T21:30:00.000Z",
+                                "2022-03-21T23:35:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        }
+                    ]
+                },
+                {
+                    "dateOut": "2022-03-22T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": -1,
+                            "flightKey": "FR~8728~ ~~MXP~03/22/2022 07:10~STN~03/22/2022 08:15~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "R7Q756HHDHQPS3GPEDLAYJIL4F3ZQ4LTENLZFMNZJBVOVFP7BQ3CWITKCORVXXU426UYGHBDWDLVD2TFZZDJHELUU6TF423D6DDYRVJJBHP4G2U2VKZTNFX3ZK3ABNYLTQLPGIGYCKK7ZZ5FPNOIGVXHVJV7K6Z2ORRU7WRBW6DVCKTKZSG2FXRTF5KJ2RUEJSBMA5TZBXATK",
+                                "fareClass": "N",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 4.99,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 4.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "Malta Air",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8728",
+                                    "time": [
+                                        "2022-03-22T07:10:00.000",
+                                        "2022-03-22T08:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-22T06:10:00.000Z",
+                                        "2022-03-22T08:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8728",
+                            "time": [
+                                "2022-03-22T07:10:00.000",
+                                "2022-03-22T08:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-22T06:10:00.000Z",
+                                "2022-03-22T08:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": -1,
+                            "flightKey": "FR~8741~ ~~MXP~03/22/2022 10:10~STN~03/22/2022 11:15~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "R7Q756HHDHQPS3GPEDLAYJIL4F3ZQ4LTENLZFMNZJBVOVFP7BQ3CV5YIMHHCPIHDNJUHUZNF23Q7EEZ6ZAYWUU7VEGFG7GBBLQAZIMEERU4BX6UIKEBW743TNZSWIXFAS7WMVWKDPQ2B5ZYRVECPZMT47LKOGFAASMITGFDKKQRKS2N362XUCELTWEJAUMGHCTZEDBTKMDT4S",
+                                "fareClass": "N",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 4.99,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 4.99,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8741",
+                                    "time": [
+                                        "2022-03-22T10:10:00.000",
+                                        "2022-03-22T11:15:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-22T09:10:00.000Z",
+                                        "2022-03-22T11:15:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8741",
+                            "time": [
+                                "2022-03-22T10:10:00.000",
+                                "2022-03-22T11:15:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-22T09:10:00.000Z",
+                                "2022-03-22T11:15:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        },
+                        {
+                            "faresLeft": 2,
+                            "flightKey": "FR~8737~ ~~MXP~03/22/2022 22:00~STN~03/22/2022 23:05~~",
+                            "infantsLeft": 18,
+                            "regularFare": {
+                                "fareKey": "YXOGDH36NDMZDLH3QETKZP2Z6V63DP2VBUP7LNCLPMARWSHPIQNAASEBWMBHSSUHOJMOAMDHJR6AY72RLZNBDAT5FPPUORSE7PHUN54LUT6LBW5N5N6R6OU3XFBGWP7IKJZPHLO4OCICKWUV2OBB2IGRCHLWI7OZZ3U5R3EPL2XRYP35WMBFPHGMHECFSLMXVH2NHVE5RMNKLHIOXG66ENNH4KB66LRB2AQ42TQ",
+                                "fareClass": "D",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 11.19,
+                                        "count": 1,
+                                        "hasDiscount": true,
+                                        "publishedFare": 14.92,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 3.73,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "MXP",
+                                    "destination": "STN",
+                                    "flightNumber": "FR 8737",
+                                    "time": [
+                                        "2022-03-22T22:00:00.000",
+                                        "2022-03-22T23:05:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2022-03-22T21:00:00.000Z",
+                                        "2022-03-22T23:05:00.000Z"
+                                    ],
+                                    "duration": "02:05"
+                                }
+                            ],
+                            "flightNumber": "FR 8737",
+                            "time": [
+                                "2022-03-22T22:00:00.000",
+                                "2022-03-22T23:05:00.000"
+                            ],
+                            "timeUTC": [
+                                "2022-03-22T21:00:00.000Z",
+                                "2022-03-22T23:05:00.000Z"
+                            ],
+                            "duration": "02:05"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "serverTimeUTC": "2022-03-04T11:11:35.890Z"
+}
