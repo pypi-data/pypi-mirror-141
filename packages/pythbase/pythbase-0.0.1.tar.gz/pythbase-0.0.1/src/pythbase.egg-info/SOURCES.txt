@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pythbase/__init__.py
+src/pythbase/pythbase.py
+src/pythbase.egg-info/PKG-INFO
+src/pythbase.egg-info/SOURCES.txt
+src/pythbase.egg-info/dependency_links.txt
+src/pythbase.egg-info/top_level.txt
