@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "leoribas_csv_converter"
+version = "0.2.0"
+description = ""
+authors = ["Leonardo Ribas <leo_rnm@hotmail.com>"]
+readme="README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+black = "^21.12b0"
+isort = "^5.10.1"
+ipython = "^7.30.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+converter= "leoribas_csv_converter.converter:json_converter"
+
