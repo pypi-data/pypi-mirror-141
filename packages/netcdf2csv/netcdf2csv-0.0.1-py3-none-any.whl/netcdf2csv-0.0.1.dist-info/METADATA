@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: netcdf2csv
+Version: 0.0.1
+Summary: A Package to convert NetCDF files to CSV
+Home-page: https://github.com/anshuman61/netcdf-2-csv
+Author: Anshuman Nayak
+Author-email: contact@anshumann.in
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/anshuman61/netcdf-2-csv/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xarray (==2022.3.0)
+Requires-Dist: pandas (==1.4.1)
+
+UNKNOWN
+
