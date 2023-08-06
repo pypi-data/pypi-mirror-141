@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/inspinet_excel/__init__.py
+src/inspinet_excel/inspinet_excel.py
+src/inspinetexcel.egg-info/PKG-INFO
+src/inspinetexcel.egg-info/SOURCES.txt
+src/inspinetexcel.egg-info/dependency_links.txt
+src/inspinetexcel.egg-info/top_level.txt
