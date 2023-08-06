@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+aslibtry037.egg-info/PKG-INFO
+aslibtry037.egg-info/SOURCES.txt
+aslibtry037.egg-info/dependency_links.txt
+aslibtry037.egg-info/top_level.txt
+excel_try/__init__.py
+excel_try/init.py
