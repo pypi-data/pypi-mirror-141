@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/fileStorage3/__init__.py
+src/fileStorage3/disk.py
+src/fileStorage3/fileStorage3.py
+src/fileStorage3/fileSystem.py
+src/fileStorage3/s3.py
+src/fileStorage3.egg-info/PKG-INFO
+src/fileStorage3.egg-info/SOURCES.txt
+src/fileStorage3.egg-info/dependency_links.txt
+src/fileStorage3.egg-info/requires.txt
+src/fileStorage3.egg-info/top_level.txt
