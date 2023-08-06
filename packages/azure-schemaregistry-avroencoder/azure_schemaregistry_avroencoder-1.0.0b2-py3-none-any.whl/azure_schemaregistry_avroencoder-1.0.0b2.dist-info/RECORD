@@ -1,0 +1,17 @@
+azure/schemaregistry/encoder/__init__.py,sha256=p9kYyRgqaErwics248gmXWh6hiDZVZuwE2WiqpfASpk,1384
+azure/schemaregistry/encoder/avroencoder/__init__.py,sha256=1WTruF3vyOthH46-ZpRtZSgvTUb6gpu5rzuPPwysxX4,1545
+azure/schemaregistry/encoder/avroencoder/_abstract_avro_encoder.py,sha256=rhvSoM444yP11wVxIKDaDNh-PEAN69AHY2r_oNR4urw,2329
+azure/schemaregistry/encoder/avroencoder/_apache_avro_encoder.py,sha256=5miwHLC1zhD6Rq3ESzPeH3hHJmnLDVvyqqrfv6H0eLg,3801
+azure/schemaregistry/encoder/avroencoder/_constants.py,sha256=37P0jHarNyM6xBom9kuHJG7wAeOzU68JtxtOPLOmCSo,1682
+azure/schemaregistry/encoder/avroencoder/_message_protocol.py,sha256=kIvE1VFYXbQ9jy7jS424YPuV1Qqaf5E20s8Tofm7bBg,1333
+azure/schemaregistry/encoder/avroencoder/_schema_registry_avro_encoder.py,sha256=DELnyztFfRr8-Vh849IceHTF8kLXFOKye1se9Cstzas,14042
+azure/schemaregistry/encoder/avroencoder/_version.py,sha256=RReJnpru-jFOfjIQ-h8Li58I2uPCqtea77-48_540kg,1324
+azure/schemaregistry/encoder/avroencoder/exceptions.py,sha256=DVw3tnxj3K0SHTjk0A924uwm2UmDPm27U_8LVspFKnQ,3294
+azure/schemaregistry/encoder/avroencoder/aio/__init__.py,sha256=R7l63CBF4Y4KoTocs5seKo7XhVbrx-ACZUJ0Vi4_P88,1397
+azure/schemaregistry/encoder/avroencoder/aio/_async_lru.py,sha256=FSi2TVWstgLp9mjV9W_RmaLAC95JlZTR5DhhXWniAhI,6753
+azure/schemaregistry/encoder/avroencoder/aio/_schema_registry_avro_encoder_async.py,sha256=gbCbP3xzz5ZbVpCYwofZNWn2EPGkv_O5kZQBOno8JKA,14224
+azure_schemaregistry_avroencoder-1.0.0b2.dist-info/LICENSE,sha256=_VMkgdgo4ToLE8y1mOAjOKNhd0BnWoYu5r3BVBto6T0,1073
+azure_schemaregistry_avroencoder-1.0.0b2.dist-info/METADATA,sha256=u2RtBeeIthP13Ol7NRb0TGC6CStDwvGd6M6qoJ8z73o,17347
+azure_schemaregistry_avroencoder-1.0.0b2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+azure_schemaregistry_avroencoder-1.0.0b2.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_schemaregistry_avroencoder-1.0.0b2.dist-info/RECORD,,
