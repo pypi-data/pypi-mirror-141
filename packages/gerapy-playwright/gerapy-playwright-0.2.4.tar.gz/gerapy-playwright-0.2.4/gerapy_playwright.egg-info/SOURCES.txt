@@ -1,0 +1,14 @@
+README.md
+setup.py
+gerapy_playwright/__init__.py
+gerapy_playwright/__version__.py
+gerapy_playwright/downloadermiddlewares.py
+gerapy_playwright/pretend.py
+gerapy_playwright/request.py
+gerapy_playwright/settings.py
+gerapy_playwright/utils.py
+gerapy_playwright.egg-info/PKG-INFO
+gerapy_playwright.egg-info/SOURCES.txt
+gerapy_playwright.egg-info/dependency_links.txt
+gerapy_playwright.egg-info/requires.txt
+gerapy_playwright.egg-info/top_level.txt
