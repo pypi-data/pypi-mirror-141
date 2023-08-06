@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: kombu-producer
+Version: 0.1.1
+Summary: Python library that implements a simple Kombu producer
+Home-page: https://github.com/Deepanshu07/kombu_producer
+Author: Deepanshu Gupta
+Author-email: deepanshu71095@gmail.com
+License: MIT
+Download-URL: https://github.com/Deepanshu07/kombu_producer/archive/refs/tags/v0.1.1.tar.gz
+Description: # Kombu Producer
+        ### _Python library that implements a simple Kombu producer_
+        
+        
+        ### Installation
+        ```shell
+        pip install kombu-producer
+        ```
+        
+        ### Publishing event with payload
+        ```shell
+        from kombu_producer import KombuProducer
+        from json import dumps
+        
+        KombuProducer(
+                    exchange_name="<EXCHANGE_NAMED>",
+                    exchange_type="<EXCHANGE_TYPE>",
+                    routing_key="<ROUTING_KEY>",
+                    broker_url="<BROKER_URL>"
+                ).publish_payload(
+                    payload=dumps(
+                        {
+                            "event": "<EVENT_NAME>",
+                            "data": {
+                                "<KEY1>": "<VAL1>",
+                                "<KEY2>": "<VAL2>",
+                            },
+                        }
+                    )
+                )
+        ```
+Keywords: Kombu,Kombu-producer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
