@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dj-shop-cart
+Version: 0.1.1a1
+Summary: Simple django cart manager for your django projects.
+Home-page: https://github.com/Tobi-De/dj-shop-cart
+License: MIT
+Keywords: django,python,cart,shop,ecommerce
+Author: Tobi DEGNON
+Author-email: tobidegnon@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Django (>=4.0.2,<5.0.0)
+Project-URL: Repository, https://github.com/Tobi-De/dj-shop-cart
