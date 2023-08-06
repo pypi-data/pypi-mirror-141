@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/epy/__init__.py
+src/epy/clear.py
+src/epy/ftdemo.cp38-win_amd64.pyd
+src/epyfund.egg-info/PKG-INFO
+src/epyfund.egg-info/SOURCES.txt
+src/epyfund.egg-info/dependency_links.txt
+src/epyfund.egg-info/top_level.txt
