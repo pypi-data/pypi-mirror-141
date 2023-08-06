@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% load i18n utils %}
+
+{% block heading %}{{ survey }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="finish col-md-12">
+            <div class="well postface">
+                {% if survey.postface %}
+                    {% autoescape off %}{{ survey.postface }}{% endautoescape %}
+                {% endif %}
+
+                {% if survey.finish_url %}
+                    {% trans 'Continue to' %} <a href="{{ survey.finish_url }}">{{ survey.finish_url_title }}</a>
+                {% endif %}
+            </div>
+
+            {% if voter and survey.is_quiz %}
+                {% trans 'Your results will be available here:' %}<br>
+                <a href="{{ voter.get_absolute_url }}">{% uri voter.get_absolute_url %}</a><br><br>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

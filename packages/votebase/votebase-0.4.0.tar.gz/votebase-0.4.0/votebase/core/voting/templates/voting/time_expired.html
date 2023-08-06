@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% load i18n voting_extras %}
+
+{% block heading %}{{ survey }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            {% trans 'Voting time expired.' %}
+
+            {% survey_voters survey request.user as voters %}
+
+            {% if voters %}
+                {% trans 'Your results are available here:' %}<br><br>
+                {% for voter in voters %}
+                    <a href="{{ voter.get_absolute_url }}">{{ voter.created }} {% if survey.is_quiz %}[{{ voter.quiz_result }}%]{% endif %}</a><br><br>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

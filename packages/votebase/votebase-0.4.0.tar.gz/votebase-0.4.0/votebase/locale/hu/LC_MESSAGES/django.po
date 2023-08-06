@@ -1,0 +1,719 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 14:03+0100\n"
+"PO-Revision-Date: 2021-04-18 17:00+0058\n"
+"Last-Translator: b'Erik Telepovsky <erik@pragmaticmates.com>'\n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Translated-Using: django-rosetta 0.9.5\n"
+
+#: core/questionnaires/admin.py:13 core/questionnaires/models.py:212
+msgid "quiz"
+msgstr "kvíz"
+
+#: core/questionnaires/admin.py:27 core/voting/admin.py:23
+msgid "Yes"
+msgstr "Igen"
+
+#: core/questionnaires/admin.py:28 core/voting/admin.py:24
+msgid "No"
+msgstr "Nem"
+
+#: core/questionnaires/forms/dropdown.py:12
+#: core/questionnaires/forms/dropdown.py:20
+msgid "Select an option"
+msgstr "Válasszon a lehetőségek közül"
+
+#: core/questionnaires/models.py:37 core/questionnaires/models.py:47
+msgid "Public - for everyone"
+msgstr "Nyilvános - mindenkinek"
+
+#: core/questionnaires/models.py:38
+msgid "Registered users only"
+msgstr "Csak regisztrált felhasználok számára"
+
+#: core/questionnaires/models.py:48
+msgid "Secret - for voters only"
+msgstr "Titkos - csak szavazók"
+
+#: core/questionnaires/models.py:49
+msgid "Private - for creator only"
+msgstr "Privát - csak szerző számára"
+
+#: core/questionnaires/models.py:52 core/questionnaires/models.py:207
+#: core/questionnaires/models.py:326
+msgid "title"
+msgstr "titulus"
+
+#: core/questionnaires/models.py:54 core/voting/models.py:26
+msgid "hash key"
+msgstr "hashtag"
+
+#: core/questionnaires/models.py:55 core/questionnaires/models.py:205
+#: core/questionnaires/models.py:325
+msgid "tag"
+msgstr "címke"
+
+#: core/questionnaires/models.py:56
+msgid "preface"
+msgstr "előszó"
+
+#: core/questionnaires/models.py:57
+msgid "postface"
+msgstr "utószó"
+
+#: core/questionnaires/models.py:58
+msgid "valid from"
+msgstr "érvényes"
+
+#: core/questionnaires/models.py:60
+msgid "Users can start voting beginning this date."
+msgstr "A felhasználó ettől az időponttól szavazhat."
+
+#: core/questionnaires/models.py:61
+msgid "valid to"
+msgstr "érvényes eddig"
+
+#: core/questionnaires/models.py:63
+msgid "Users will be able to vote until this date. Keep blank to unlimited."
+msgstr "A felhasználó eddig szavazhat. Hagyja üresen ha korlátlan ideig."
+
+#: core/questionnaires/models.py:64
+msgid "time limit"
+msgstr ""
+
+#: core/questionnaires/models.py:64
+msgid "In minutes. Keep blank to infinite."
+msgstr ""
+
+#: core/questionnaires/models.py:66
+msgid "password"
+msgstr "jelszó"
+
+#: core/questionnaires/models.py:67
+msgid "permission level"
+msgstr "felhatalmazási szint"
+
+#: core/questionnaires/models.py:69
+msgid "statistics policy"
+msgstr "sztatisztikai irányelv"
+
+#: core/questionnaires/models.py:71
+msgid "active"
+msgstr "aktív"
+
+#: core/questionnaires/models.py:71
+msgid ""
+"Current survey status. Users will not be able to start voting if inactive."
+msgstr "A kérdőív állapota. A felhasználók nem szavazhatnak ha inaktív."
+
+#: core/questionnaires/models.py:72
+msgid "repeatable voting"
+msgstr "ismételhető szavazás"
+
+#: core/questionnaires/models.py:73
+msgid "Set checked if users can vote multiple times in survey."
+msgstr "Jelölje be ha a felhasználók többször is szavazhatnak a kérdőívben."
+
+#: core/questionnaires/models.py:74
+msgid "show quiz results"
+msgstr "mutast a kvíz eredményeket"
+
+#: core/questionnaires/models.py:75
+msgid "Set checked if you want to show quiz results in percentage to voters."
+msgstr ""
+"Jelölje be ha szeretné a kvíz eredményét megmutatni százalékokban a "
+"szavazóknak."
+
+#: core/questionnaires/models.py:76
+msgid "show quiz correct options"
+msgstr "mutasd a kvíz helyes válaszait"
+
+#: core/questionnaires/models.py:77
+msgid "Set checked if you want to show correct options to voters."
+msgstr ""
+"Jelölje be ha szeretné a kvíz helyes lehetőségeit megmutatni a szavazóknak."
+
+#: core/questionnaires/models.py:78
+msgid "published"
+msgstr "közzétett"
+
+#: core/questionnaires/models.py:79
+msgid "Set checked if users can see survey."
+msgstr ""
+"Jelölje be ha szeretné, hogy a felmérés megjelenjen a felhasználók számára."
+
+#: core/questionnaires/models.py:82 core/questionnaires/models.py:215
+#: core/questionnaires/models.py:332 core/voting/models.py:40
+#: core/voting/models.py:167 core/voting/models.py:211
+msgid "created"
+msgstr "létrehozott"
+
+#: core/questionnaires/models.py:83 core/questionnaires/models.py:216
+#: core/questionnaires/models.py:333 core/voting/models.py:41
+#: core/voting/models.py:168 core/voting/models.py:212
+msgid "modified"
+msgstr "módosított"
+
+#: core/questionnaires/models.py:88 core/questionnaires/models.py:204
+#: core/voting/models.py:20
+msgid "survey"
+msgstr "felmérés"
+
+#: core/questionnaires/models.py:89
+msgid "surveys"
+msgstr "felmérések"
+
+#: core/questionnaires/models.py:195
+msgid "Radio"
+msgstr "Radio"
+
+#: core/questionnaires/models.py:196
+msgid "Checkbox"
+msgstr "Jelölőnégyzet"
+
+#: core/questionnaires/models.py:197
+msgid "Dropdown"
+msgstr ""
+
+#: core/questionnaires/models.py:198
+msgid "Textfield"
+msgstr "Szövegterület"
+
+#: core/questionnaires/models.py:199
+msgid "Textarea"
+msgstr "Szövegterület"
+
+#: core/questionnaires/models.py:200
+msgid "Matrix radio"
+msgstr "Matrix radio"
+
+#: core/questionnaires/models.py:201
+msgid "Matrix checkbox"
+msgstr "Matrix checkbox"
+
+#: core/questionnaires/models.py:206
+msgid "kind"
+msgstr "fajta"
+
+#: core/questionnaires/models.py:209
+msgid "category"
+msgstr "kategória"
+
+#: core/questionnaires/models.py:210 core/questionnaires/models.py:331
+#: core/voting/models.py:163
+msgid "weight"
+msgstr "súly"
+
+#: core/questionnaires/models.py:211
+msgid "mandatory"
+msgstr "kötelező"
+
+#: core/questionnaires/models.py:213
+msgid "unique answers"
+msgstr "egyedi válasz"
+
+#: core/questionnaires/models.py:213
+msgid "for matrix questions"
+msgstr "matrix kérdéseknek"
+
+#: core/questionnaires/models.py:214
+msgid "enabled empty rows"
+msgstr "üres sorok engedélyezve"
+
+#: core/questionnaires/models.py:214
+msgid "for matrix questions with required answer"
+msgstr "matrix kérdések kötelező válaszokkal"
+
+#: core/questionnaires/models.py:220 core/questionnaires/models.py:324
+#: core/voting/models.py:162 core/voting/models.py:203
+msgid "question"
+msgstr "kérdés"
+
+#: core/questionnaires/models.py:221
+msgid "questions"
+msgstr "kérdések"
+
+#: core/questionnaires/models.py:320 core/voting/models.py:198
+msgid "Row"
+msgstr "Sor"
+
+#: core/questionnaires/models.py:321 core/voting/models.py:199
+msgid "Column"
+msgstr "Oszlop"
+
+#: core/questionnaires/models.py:328
+msgid "orientation"
+msgstr "orientáció"
+
+#: core/questionnaires/models.py:330
+msgid "correct"
+msgstr "helyes"
+
+#: core/questionnaires/models.py:338 core/voting/models.py:207
+msgid "option"
+msgstr "lehetőség"
+
+#: core/questionnaires/models.py:339
+msgid "options"
+msgstr "lehetőségek"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:5
+msgid "History"
+msgstr "Előzmények"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:7
+msgid "Vote"
+msgstr "Szavazás"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:8
+msgid "Preview"
+msgstr "Előnézet"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:9
+msgid "Infographics"
+msgstr "Infografika"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:10
+msgid "Statistics"
+msgstr "Statisztika"
+
+#: core/questionnaires/urls.py:7
+msgctxt "url"
+msgid "preview/<str:slug>/"
+msgstr "elonezet/<str:slug>/"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:28
+#: core/statistics/templates/statistics/helpers/infographics_js.html:58
+#: core/statistics/templates/statistics/helpers/infographics_js.html:88
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+#: core/statistics/templates/statistics/helpers/infographics_js.html:108
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:127
+msgid "Count"
+msgstr "Számlálás"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:73
+msgid "Total count"
+msgstr "Teljes számlálás"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+msgid "Duration"
+msgstr "Időtartam"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+#: core/utils/mail.py:17
+msgid "Quiz result"
+msgstr "Kvíz eredmény"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+msgid "Age"
+msgstr "Kor"
+
+#: core/statistics/templatetags/voter_extras.py:36
+msgid "Wrong answer (0%)"
+msgstr "Helytelen válasz (0%)"
+
+#: core/statistics/templatetags/voter_extras.py:40
+msgid "Correct answer (100%)"
+msgstr "Helyes válasz (100%)"
+
+#: core/statistics/templatetags/voter_extras.py:45
+#, python-format
+msgid "Partially correct answer (%s%%)"
+msgstr "Részlegesen helyes válasz (%s%%)"
+
+#: core/statistics/templatetags/voter_extras.py:61
+msgid "Very bad!"
+msgstr "Nagyon rossz!"
+
+#: core/statistics/templatetags/voter_extras.py:65
+msgid "Try harder next time!"
+msgstr "Próbálkozz jobban legközelebb!"
+
+#: core/statistics/templatetags/voter_extras.py:69
+msgid "Well, it could be better!"
+msgstr "Hát, lehetne jobb is!"
+
+#: core/statistics/templatetags/voter_extras.py:73
+msgid "Pretty good!"
+msgstr "Elég jó!"
+
+#: core/statistics/templatetags/voter_extras.py:77
+msgid "Great!"
+msgstr "Remek!"
+
+#: core/statistics/templatetags/voter_extras.py:81
+msgid "Perfect!"
+msgstr "Kiváló!"
+
+#: core/statistics/templatetags/voter_extras.py:124
+msgid "STORED RESULT"
+msgstr "MENTETT EREDMÉNY"
+
+#: core/statistics/templatetags/voter_extras.py:132
+msgid "CALCULATED RESULT"
+msgstr "KISZÁMÍTOTT EREDMÉNY"
+
+#: core/statistics/templatetags/voter_extras.py:137
+msgid ""
+"These results are different, because survey creator changed correct options "
+"in quiz questions. Contact him."
+msgstr ""
+"Az eredmények különböznek, mivel a felmérés szerzője megváltoztatta a helyes "
+"választ. Lépjen vele kapcsolatba."
+
+#: core/statistics/urls.py:8
+#, fuzzy
+#| msgid "answers"
+msgctxt "url"
+msgid "answers/"
+msgstr "válaszok"
+
+#: core/statistics/urls.py:9
+#, fuzzy
+#| msgid "Infographics"
+msgctxt "url"
+msgid "infographics/"
+msgstr "Infografika"
+
+#: core/statistics/views/infographics.py:248
+msgid "Male"
+msgstr "Férfi"
+
+#: core/statistics/views/infographics.py:250
+msgid "Female"
+msgstr "Nő"
+
+#: core/statistics/views/infographics.py:252
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: core/utils/fields.py:18
+msgid "All rows are required."
+msgstr "Minden sor szükséges."
+
+#: core/utils/fields.py:19
+msgid "Values have to be unique."
+msgstr "Az értékeknek egyedieknek kell lennie."
+
+#: core/utils/helpers.py:9
+#, python-format
+msgid ""
+"You have not confirmed your email     address yet. If you did not receive "
+"confirmation, please click     <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Nem erősített meg az e-mail címét. Ha nem érkezett meg a megerősító e-mail "
+"kérem kattintson ide:     <a href=\"%(url)s\"></a>."
+
+#: core/utils/mail.py:47
+msgid "New voter in your survey"
+msgstr "Új szavazó a felmérésben"
+
+#: core/utils/mail.py:48
+#, python-format
+msgid "You have one new voter in your survey %(survey)s"
+msgstr "Egy új szavazó a %(survey)s felmérésben"
+
+#: core/utils/mail.py:52
+#, python-format
+msgid ""
+"You have one new voter in your survey <a href=\"%(url)s\">%(survey)s</a>"
+msgstr "Egy új szavazó a felmérésben <a href=\"%(url)s\">%(survey)s</a>"
+
+#: core/utils/mail.py:57
+msgid "New voters in your survey"
+msgstr "Új szavazók a felmérésben"
+
+#: core/utils/mail.py:58
+#, python-format
+msgid "You have %(voters_count)d new voters in your survey %(survey)s"
+msgstr " %(voters_count)d új szavazó a felmérésben %(survey)s"
+
+#: core/utils/mail.py:62
+#, python-format
+msgid ""
+"You have %(voters_count)d new voters in your survey <a href=\"%(url)s\">"
+"%(survey)s</a>"
+msgstr ""
+"%(voters_count)d szavazó a felmérésben<a href=\"%(url)s\">%(survey)s</a>"
+
+#: core/utils/templates/mails/quiz_result.html:3
+msgid "Your quiz result in survey"
+msgstr "Kvíz eredmény a felmérésben"
+
+#: core/utils/templates/mails/quiz_result.html:6
+msgid "Your results are also available here:"
+msgstr "Az eredménye itt is megtalálható:"
+
+#: core/voting/admin.py:9 core/voting/models.py:35
+msgid "quiz result sent"
+msgstr "kvíz eredmény elküldve"
+
+#: core/voting/api/urls.py:9
+#, fuzzy
+#| msgid "voter"
+msgctxt "url"
+msgid "vote/"
+msgstr "szavazó"
+
+#: core/voting/api/views.py:18
+msgid "Voter and request user mismatch"
+msgstr ""
+
+#: core/voting/api/views.py:21
+msgid "Time expired"
+msgstr ""
+
+#: core/voting/api/views.py:26
+msgid "Voter and question survey mismatch"
+msgstr ""
+
+#: core/voting/api/views.py:49
+msgid "Answers not saved because form is not valid"
+msgstr ""
+
+#: core/voting/api/views.py:54
+msgid "Answers couldn't be saved"
+msgstr ""
+
+#: core/voting/api/views.py:56
+#, fuzzy
+#| msgid "answers"
+msgid "Answers saved"
+msgstr "válaszok"
+
+#: core/voting/forms.py:7
+msgid "Password"
+msgstr "Jelszó"
+
+#: core/voting/forms.py:17
+msgid "Password is incorrect!"
+msgstr "A jelszó helytelen!"
+
+#: core/voting/models.py:21
+msgid "user"
+msgstr "felhasználó"
+
+#: core/voting/models.py:23
+msgid "language"
+msgstr "nyelv"
+
+#: core/voting/models.py:24 core/voting/models.py:165
+msgid "quiz result"
+msgstr "kvíz eredmény"
+
+#: core/voting/models.py:27
+msgid "IP address"
+msgstr "IP cím"
+
+#: core/voting/models.py:28
+msgid "voting started"
+msgstr "a szavazás megkezdődött"
+
+#: core/voting/models.py:29
+msgid "voting ended"
+msgstr "a szavazás véget ért"
+
+#: core/voting/models.py:31
+msgid "voting duration"
+msgstr "a szavazás hossza"
+
+#: core/voting/models.py:33
+msgid "custom flag"
+msgstr "egyedi zászló"
+
+#: core/voting/models.py:36
+msgid "API voter"
+msgstr "API szavazó"
+
+#: core/voting/models.py:37
+msgid "irrelevant"
+msgstr "lényegtelen"
+
+#: core/voting/models.py:45
+msgid "respondent"
+msgstr "válaszadó"
+
+#: core/voting/models.py:46
+msgid "respondents"
+msgstr "válaszadók"
+
+#: core/voting/models.py:161 core/voting/models.py:202
+msgid "voter"
+msgstr "szavazó"
+
+#: core/voting/models.py:164
+msgid "page"
+msgstr "oldal"
+
+#: core/voting/models.py:171
+msgid "voted question"
+msgstr "bejelölt kérdés"
+
+#: core/voting/models.py:172
+msgid "voted questions"
+msgstr "bejelölt kérdések"
+
+#: core/voting/models.py:205
+msgid "custom"
+msgstr "egyedi"
+
+#: core/voting/models.py:209
+msgid "option column"
+msgstr "oszlop opció"
+
+#: core/voting/models.py:216
+msgid "answer"
+msgstr "válasz"
+
+#: core/voting/models.py:217
+msgid "answers"
+msgstr "válaszok"
+
+#: core/voting/templates/voting/already_voted.html:10
+msgid "You have already voted in this survey."
+msgstr "Már szavazott ebben a felmérésben."
+
+#: core/voting/templates/voting/already_voted.html:15
+#: core/voting/templates/voting/time_expired.html:15
+msgid "Your results are available here:"
+msgstr "Az eredményei itt találhatóak:"
+
+#: core/voting/templates/voting/finish.html:16
+msgid "Continue to"
+msgstr "Folytassa erre"
+
+#: core/voting/templates/voting/finish.html:21
+msgid "Your results will be available here:"
+msgstr "Az eredményei itt fognak megjelenni:"
+
+#: core/voting/templates/voting/inactive.html:9
+msgid "This survey is inactive right now."
+msgstr "Ez a felmérés inaktív ebben a pillanatban."
+
+#: core/voting/templates/voting/intro.html:19
+msgid "Start"
+msgstr "Kezdés"
+
+#: core/voting/templates/voting/only_for_registered.html:9
+msgid "This survey is only for registered users."
+msgstr "Ez a felmérés csak regisztrált felhasználók számára elérhető."
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Log in"
+msgstr "Bejelentkezés"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "or"
+msgstr "vagy"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Register"
+msgstr "Regisztrálás"
+
+#: core/voting/templates/voting/password.html:11
+msgid "This survey is password protected."
+msgstr "Ez a felmérés jelszóval védett."
+
+#: core/voting/templates/voting/password.html:12
+msgid "Please, enter correct password."
+msgstr "Kérem adja meg a helyes jelszót."
+
+#: core/voting/templates/voting/password.html:17
+msgid "Submit"
+msgstr "Beküldés"
+
+#: core/voting/templates/voting/time_expired.html:10
+msgid "Voting time expired."
+msgstr ""
+
+#: core/voting/urls.py:9
+msgctxt "url"
+msgid "finish/<str:slug>/"
+msgstr "befejezes/<str:slug>/"
+
+#: core/voting/urls.py:10
+msgctxt "url"
+msgid "inactive/<str:slug>/"
+msgstr "inaktiv/<str:slug>/"
+
+#: core/voting/urls.py:11
+msgctxt "url"
+msgid "password/<str:slug>/"
+msgstr "jelszo/<str:slug>/"
+
+#: core/voting/urls.py:12
+msgctxt "url"
+msgid "already-voted/<str:slug>/"
+msgstr "mar-szavazott/<str:slug>/"
+
+#: core/voting/urls.py:13
+#, fuzzy
+#| msgctxt "url"
+#| msgid "preview/<str:slug>/"
+msgctxt "url"
+msgid "expired/<str:slug>/"
+msgstr "elonezet/<str:slug>/"
+
+#: core/voting/urls.py:14
+msgctxt "url"
+msgid "only-for-registered/<str:slug>/"
+msgstr "csak-regisztralt-felhasznalok/<str:slug>/"
+
+#: core/voting/urls.py:15
+msgctxt "url"
+msgid "respondent/<str:hash_key>/"
+msgstr "valaszado/<str:hash_key>/"
+
+#: core/voting/views.py:67
+msgid "Time expired and your answers have been saved automatically"
+msgstr ""
+
+#: core/voting/views.py:158
+msgid "Your response has been successfully saved."
+msgstr "A válasza sikeresen mentve."
+
+#: core/voting/views.py:161
+msgid "Make sure that you have answered all required questions."
+msgstr "Kérem válaszoljon az összes szükséges kérdésre."
+
+#: core/voting/views.py:288
+msgid "Respondent didn't finished the survey yet"
+msgstr ""
+
+#: urls.py:8
+msgid "surveys/"
+msgstr "felmeresek/"
+
+#: urls.py:9
+msgid "voting/"
+msgstr "szavazas/"
+
+#: urls.py:10
+msgid "statistics/"
+msgstr "statisztika/"
+
+#~ msgid "Enter question title"
+#~ msgstr "Határozza meg kérdését"
+
+#~ msgctxt "url"
+#~ msgid "graphs/<str:slug>/"
+#~ msgstr "grafikonok/<str:slug>/"
+
+#~ msgctxt "url"
+#~ msgid "infographics/<str:slug>/"
+#~ msgstr "infografok/<str:slug>/"

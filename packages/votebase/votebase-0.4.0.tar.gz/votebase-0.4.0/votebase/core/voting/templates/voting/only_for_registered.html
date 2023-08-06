@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% load i18n %}
+
+{% block heading %}{{ survey }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        {% trans 'This survey is only for registered users.' %}
+        <a href="{% url 'accounts_login' %}">{% trans 'Log in' %}</a> {% trans 'or' %} <a href="{% url 'accounts_register' %}">{% trans 'Register' %}</a>.
+    </div>
+</div>
+{% endblock %}

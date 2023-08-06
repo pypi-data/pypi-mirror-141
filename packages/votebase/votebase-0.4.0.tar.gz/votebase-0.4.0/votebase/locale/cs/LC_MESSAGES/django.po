@@ -1,0 +1,1136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: čeština\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 14:03+0100\n"
+"PO-Revision-Date: 2022-03-08 12:19+0000\n"
+"Last-Translator: Erik Telepovský (admin) <erik@pragmaticmates.com>\n"
+"Language-Team: Czech <https://weblate.pragmatic.online/projects/it-fitness/"
+"engine/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
+"X-Translated-Using: django-rosetta 0.6.8\n"
+
+#: core/questionnaires/admin.py:13 core/questionnaires/models.py:212
+msgid "quiz"
+msgstr "kvíz"
+
+#: core/questionnaires/admin.py:27 core/voting/admin.py:23
+msgid "Yes"
+msgstr "Ano"
+
+#: core/questionnaires/admin.py:28 core/voting/admin.py:24
+msgid "No"
+msgstr "Ne"
+
+#: core/questionnaires/forms/dropdown.py:12
+#: core/questionnaires/forms/dropdown.py:20
+msgid "Select an option"
+msgstr "Vyberte jednu z možností"
+
+#: core/questionnaires/models.py:37 core/questionnaires/models.py:47
+msgid "Public - for everyone"
+msgstr "Veřejný - pro každého"
+
+#: core/questionnaires/models.py:38
+msgid "Registered users only"
+msgstr "Jen pro registrované uživatele"
+
+#: core/questionnaires/models.py:48
+msgid "Secret - for voters only"
+msgstr "Tajné - pouze pro respondenty"
+
+#: core/questionnaires/models.py:49
+msgid "Private - for creator only"
+msgstr "Soukromé - pouze pro tvůrce průzkumu"
+
+#: core/questionnaires/models.py:52 core/questionnaires/models.py:207
+#: core/questionnaires/models.py:326
+msgid "title"
+msgstr "název"
+
+#: core/questionnaires/models.py:54 core/voting/models.py:26
+msgid "hash key"
+msgstr "hash klíč"
+
+#: core/questionnaires/models.py:55 core/questionnaires/models.py:205
+#: core/questionnaires/models.py:325
+msgid "tag"
+msgstr "tag"
+
+#: core/questionnaires/models.py:56
+msgid "preface"
+msgstr "Předmluva"
+
+#: core/questionnaires/models.py:57
+msgid "postface"
+msgstr "Doslov"
+
+#: core/questionnaires/models.py:58
+msgid "valid from"
+msgstr "platné od"
+
+#: core/questionnaires/models.py:60
+msgid "Users can start voting beginning this date."
+msgstr "Uživatelé mohou začít hlasovat od tohoto data."
+
+#: core/questionnaires/models.py:61
+msgid "valid to"
+msgstr "platné do"
+
+#: core/questionnaires/models.py:63
+msgid "Users will be able to vote until this date. Keep blank to unlimited."
+msgstr ""
+"Uživatelé budou moci hlasovat do tohoto data. Nechte prázdné, jestliže to "
+"nechcete časově ohraničit."
+
+#: core/questionnaires/models.py:64
+msgid "time limit"
+msgstr "časový limit"
+
+#: core/questionnaires/models.py:64
+msgid "In minutes. Keep blank to infinite."
+msgstr "V minutách. Nechte prázdné do nekonečna."
+
+#: core/questionnaires/models.py:66
+msgid "password"
+msgstr "heslo"
+
+#: core/questionnaires/models.py:67
+msgid "permission level"
+msgstr "úroveň oprávnění"
+
+#: core/questionnaires/models.py:69
+msgid "statistics policy"
+msgstr "politika statistik"
+
+#: core/questionnaires/models.py:71
+msgid "active"
+msgstr "aktivní"
+
+#: core/questionnaires/models.py:71
+msgid ""
+"Current survey status. Users will not be able to start voting if inactive."
+msgstr ""
+"Aktuální stav průzkumu. Uživatelé nebudou moci odpovídat v neaktivním "
+"průzkumu."
+
+#: core/questionnaires/models.py:72
+msgid "repeatable voting"
+msgstr "opakovatelné hlasování"
+
+#: core/questionnaires/models.py:73
+msgid "Set checked if users can vote multiple times in survey."
+msgstr ""
+"Zaškrtni, pokud chcete povolit registrovaným uživatelům vícenásobné "
+"hlasovaní v průzkumu."
+
+#: core/questionnaires/models.py:74
+msgid "show quiz results"
+msgstr "zobrazit výsledky kvízu"
+
+#: core/questionnaires/models.py:75
+msgid "Set checked if you want to show quiz results in percentage to voters."
+msgstr ""
+"Zaškrtněte, pokud chcete respondentovi zobrazit jeho percentuální výsledek "
+"kvízu."
+
+#: core/questionnaires/models.py:76
+msgid "show quiz correct options"
+msgstr "zobrazit správné možnosti kvízových otázek"
+
+#: core/questionnaires/models.py:77
+msgid "Set checked if you want to show correct options to voters."
+msgstr ""
+"Zaškrtněte, pokud chcete respondentovi zobrazit správné možnosti kvízových "
+"otázek v jeho výsledku."
+
+#: core/questionnaires/models.py:78
+msgid "published"
+msgstr "publikované"
+
+#: core/questionnaires/models.py:79
+msgid "Set checked if users can see survey."
+msgstr "Zašktni, pokud chceš uživatelům zobrazit průzkum."
+
+#: core/questionnaires/models.py:82 core/questionnaires/models.py:215
+#: core/questionnaires/models.py:332 core/voting/models.py:40
+#: core/voting/models.py:167 core/voting/models.py:211
+msgid "created"
+msgstr "vytvořené"
+
+#: core/questionnaires/models.py:83 core/questionnaires/models.py:216
+#: core/questionnaires/models.py:333 core/voting/models.py:41
+#: core/voting/models.py:168 core/voting/models.py:212
+msgid "modified"
+msgstr "změněné"
+
+#: core/questionnaires/models.py:88 core/questionnaires/models.py:204
+#: core/voting/models.py:20
+msgid "survey"
+msgstr "průzkum"
+
+#: core/questionnaires/models.py:89
+msgid "surveys"
+msgstr "průzkumy"
+
+#: core/questionnaires/models.py:195
+msgid "Radio"
+msgstr "Jedna odpověď"
+
+#: core/questionnaires/models.py:196
+msgid "Checkbox"
+msgstr "Více odpovědí"
+
+#: core/questionnaires/models.py:197
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: core/questionnaires/models.py:198
+msgid "Textfield"
+msgstr "Jednořádkový text"
+
+#: core/questionnaires/models.py:199
+msgid "Textarea"
+msgstr "Víceřádkový text"
+
+#: core/questionnaires/models.py:200
+msgid "Matrix radio"
+msgstr "Matice s jednou dopovědí "
+
+#: core/questionnaires/models.py:201
+msgid "Matrix checkbox"
+msgstr "Matice s více odpověďmi"
+
+#: core/questionnaires/models.py:206
+msgid "kind"
+msgstr "druh"
+
+#: core/questionnaires/models.py:209
+msgid "category"
+msgstr "kategorie"
+
+#: core/questionnaires/models.py:210 core/questionnaires/models.py:331
+#: core/voting/models.py:163
+msgid "weight"
+msgstr "váha"
+
+#: core/questionnaires/models.py:211
+msgid "mandatory"
+msgstr "povinná"
+
+#: core/questionnaires/models.py:213
+msgid "unique answers"
+msgstr "unikátní odpovědi"
+
+#: core/questionnaires/models.py:213
+msgid "for matrix questions"
+msgstr "pro matice"
+
+#: core/questionnaires/models.py:214
+msgid "enabled empty rows"
+msgstr "povoleny prázdné řádky"
+
+#: core/questionnaires/models.py:214
+msgid "for matrix questions with required answer"
+msgstr "pro matice s požadovanou odpovědí"
+
+#: core/questionnaires/models.py:220 core/questionnaires/models.py:324
+#: core/voting/models.py:162 core/voting/models.py:203
+msgid "question"
+msgstr "otázka"
+
+#: core/questionnaires/models.py:221
+msgid "questions"
+msgstr "otázky"
+
+#: core/questionnaires/models.py:320 core/voting/models.py:198
+msgid "Row"
+msgstr "Řádek"
+
+#: core/questionnaires/models.py:321 core/voting/models.py:199
+msgid "Column"
+msgstr "Sloupec"
+
+#: core/questionnaires/models.py:328
+msgid "orientation"
+msgstr "orientace"
+
+#: core/questionnaires/models.py:330
+msgid "correct"
+msgstr "správně"
+
+#: core/questionnaires/models.py:338 core/voting/models.py:207
+msgid "option"
+msgstr "možnost"
+
+#: core/questionnaires/models.py:339
+msgid "options"
+msgstr "možnosti"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:5
+msgid "History"
+msgstr "Historie"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:7
+msgid "Vote"
+msgstr "Hlasovat"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:8
+msgid "Preview"
+msgstr "Náhled"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:9
+msgid "Infographics"
+msgstr "Infografika"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:10
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: core/questionnaires/urls.py:7
+msgctxt "url"
+msgid "preview/<str:slug>/"
+msgstr "nahled/<str:slug>/"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:28
+#: core/statistics/templates/statistics/helpers/infographics_js.html:58
+#: core/statistics/templates/statistics/helpers/infographics_js.html:88
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+#: core/statistics/templates/statistics/helpers/infographics_js.html:108
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:127
+msgid "Count"
+msgstr "Počet"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:73
+msgid "Total count"
+msgstr "Celkový počet"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+msgid "Duration"
+msgstr "Trvání"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+#: core/utils/mail.py:17
+msgid "Quiz result"
+msgstr "Výsledek kvízu"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+msgid "Age"
+msgstr "Věk"
+
+#: core/statistics/templatetags/voter_extras.py:36
+msgid "Wrong answer (0%)"
+msgstr "Špatná odpověď (0%)"
+
+#: core/statistics/templatetags/voter_extras.py:40
+msgid "Correct answer (100%)"
+msgstr "Správna odpověď (100%)"
+
+#: core/statistics/templatetags/voter_extras.py:45
+#, python-format
+msgid "Partially correct answer (%s%%)"
+msgstr "Částečně správná odpověď (%s%%)"
+
+#: core/statistics/templatetags/voter_extras.py:61
+msgid "Very bad!"
+msgstr "Velmi špatně!"
+
+#: core/statistics/templatetags/voter_extras.py:65
+msgid "Try harder next time!"
+msgstr "Příště se víc snažte!"
+
+#: core/statistics/templatetags/voter_extras.py:69
+msgid "Well, it could be better!"
+msgstr "Dobře, ale mohlo to být lepší!"
+
+#: core/statistics/templatetags/voter_extras.py:73
+msgid "Pretty good!"
+msgstr "Celkem dobře!"
+
+#: core/statistics/templatetags/voter_extras.py:77
+msgid "Great!"
+msgstr "Výborně!"
+
+#: core/statistics/templatetags/voter_extras.py:81
+msgid "Perfect!"
+msgstr "Perfektně!"
+
+#: core/statistics/templatetags/voter_extras.py:124
+msgid "STORED RESULT"
+msgstr "ULOŽENÝ VÝSLEDEK"
+
+#: core/statistics/templatetags/voter_extras.py:132
+msgid "CALCULATED RESULT"
+msgstr "VYPOČÍTANÝ VÝSLEDEK"
+
+#: core/statistics/templatetags/voter_extras.py:137
+msgid ""
+"These results are different, because survey creator changed correct options "
+"in quiz questions. Contact him."
+msgstr ""
+"Tyto výsledky jsou odlišné, protože tvůrce průzkumu změnil správné možnosti "
+"kvízových otázek. Kontaktujte ho."
+
+#: core/statistics/urls.py:8
+msgctxt "url"
+msgid "answers/"
+msgstr "odpovedi/"
+
+#: core/statistics/urls.py:9
+msgctxt "url"
+msgid "infographics/"
+msgstr "infografika/"
+
+#: core/statistics/views/infographics.py:248
+msgid "Male"
+msgstr "Muž"
+
+#: core/statistics/views/infographics.py:250
+msgid "Female"
+msgstr "Žena"
+
+#: core/statistics/views/infographics.py:252
+msgid "Unknown"
+msgstr "Neznámé"
+
+#: core/utils/fields.py:18
+msgid "All rows are required."
+msgstr "Všechny řádky jsou povinné."
+
+#: core/utils/fields.py:19
+msgid "Values have to be unique."
+msgstr "Hodnoty musí být jedinečné."
+
+#: core/utils/helpers.py:9
+#, python-format
+msgid ""
+"You have not confirmed your email     address yet. If you did not receive "
+"confirmation, please click     <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Ještě nemáte potvrzenou vaši emailovou adresu. Jestliže vám nprišiel "
+"ověřovací e-mail, klikni <a href=\"%(url)s\">sem</a>."
+
+#: core/utils/mail.py:47
+msgid "New voter in your survey"
+msgstr "Nový respondent ve vašem průzkumu"
+
+#: core/utils/mail.py:48
+#, python-format
+msgid "You have one new voter in your survey %(survey)s"
+msgstr "Ve vašem průzkumu %(survey)s hlasoval další respondent"
+
+#: core/utils/mail.py:52
+#, python-format
+msgid ""
+"You have one new voter in your survey <a href=\"%(url)s\">%(survey)s</a>"
+msgstr ""
+"Ve vašem průzkumu <a href=\"%(url)s\">%(survey)s</a> odhlasoval další "
+"respondent."
+
+#: core/utils/mail.py:57
+msgid "New voters in your survey"
+msgstr "Ve vašem průzkumu odhlasoval další respondent"
+
+#: core/utils/mail.py:58
+#, python-format
+msgid "You have %(voters_count)d new voters in your survey %(survey)s"
+msgstr ""
+"Ve vašem průzkumu %(survey)s odhlasovalo %(voters_count)d nových respondentů."
+
+#: core/utils/mail.py:62
+#, python-format
+msgid ""
+"You have %(voters_count)d new voters in your survey <a href=\"%(url)s\">"
+"%(survey)s</a>"
+msgstr ""
+"Ve vašem průzkumu<a href=\"%(url)s\">%(survey)s</a> odhlasovalo "
+"%(voters_count)d nových respondentů."
+
+#: core/utils/templates/mails/quiz_result.html:3
+msgid "Your quiz result in survey"
+msgstr "Váš výsledek kvízu v průzkumu"
+
+#: core/utils/templates/mails/quiz_result.html:6
+msgid "Your results are also available here:"
+msgstr "Vaše výsledky jsou dostupné i tady:"
+
+#: core/voting/admin.py:9 core/voting/models.py:35
+msgid "quiz result sent"
+msgstr "odeslaný výsledek testu"
+
+#: core/voting/api/urls.py:9
+msgctxt "url"
+msgid "vote/"
+msgstr "hlasovat/"
+
+#: core/voting/api/views.py:18
+msgid "Voter and request user mismatch"
+msgstr "Neshoda v uživateli respondenta a přihlášeného uživatele"
+
+#: core/voting/api/views.py:21
+msgid "Time expired"
+msgstr "Čas vypršel"
+
+#: core/voting/api/views.py:26
+msgid "Voter and question survey mismatch"
+msgstr "Neshoda v průzkumu respondenta a průzkumné otázky"
+
+#: core/voting/api/views.py:49
+msgid "Answers not saved because form is not valid"
+msgstr "Odpovědi nebyly uloženy, jelikož formulář není platný"
+
+#: core/voting/api/views.py:54
+msgid "Answers couldn't be saved"
+msgstr "Odpovědi nemohly být uloženy"
+
+#: core/voting/api/views.py:56
+msgid "Answers saved"
+msgstr "Odpovědi byly uloženy"
+
+#: core/voting/forms.py:7
+msgid "Password"
+msgstr "Heslo"
+
+#: core/voting/forms.py:17
+msgid "Password is incorrect!"
+msgstr "Heslo je nesprávné!"
+
+#: core/voting/models.py:21
+msgid "user"
+msgstr "uživatel"
+
+#: core/voting/models.py:23
+msgid "language"
+msgstr "jazyk"
+
+#: core/voting/models.py:24 core/voting/models.py:165
+msgid "quiz result"
+msgstr "Výsledek kvízu"
+
+#: core/voting/models.py:27
+msgid "IP address"
+msgstr "IP adresa"
+
+#: core/voting/models.py:28
+msgid "voting started"
+msgstr "začátek hlasování"
+
+#: core/voting/models.py:29
+msgid "voting ended"
+msgstr "konec hlasování"
+
+#: core/voting/models.py:31
+msgid "voting duration"
+msgstr "délka hlasovaní"
+
+#: core/voting/models.py:33
+msgid "custom flag"
+msgstr "vlastní poznámka"
+
+#: core/voting/models.py:36
+msgid "API voter"
+msgstr "API respondent"
+
+#: core/voting/models.py:37
+msgid "irrelevant"
+msgstr "irelevantní"
+
+#: core/voting/models.py:45
+msgid "respondent"
+msgstr "respondent"
+
+#: core/voting/models.py:46
+msgid "respondents"
+msgstr "respondenti"
+
+#: core/voting/models.py:161 core/voting/models.py:202
+msgid "voter"
+msgstr "respondent"
+
+#: core/voting/models.py:164
+msgid "page"
+msgstr "stránka"
+
+#: core/voting/models.py:171
+msgid "voted question"
+msgstr "odhlasovaná otázka"
+
+#: core/voting/models.py:172
+msgid "voted questions"
+msgstr "odhlasované otázky"
+
+#: core/voting/models.py:205
+msgid "custom"
+msgstr "volitelné"
+
+#: core/voting/models.py:209
+msgid "option column"
+msgstr "možnost v sloupci"
+
+#: core/voting/models.py:216
+msgid "answer"
+msgstr "odpověď"
+
+#: core/voting/models.py:217
+msgid "answers"
+msgstr "odpovědi"
+
+#: core/voting/templates/voting/already_voted.html:10
+msgid "You have already voted in this survey."
+msgstr "V tomto průzkumu jste již hlasovali."
+
+#: core/voting/templates/voting/already_voted.html:15
+#: core/voting/templates/voting/time_expired.html:15
+msgid "Your results are available here:"
+msgstr "Vaše výsledky jsou dostupné zde:"
+
+#: core/voting/templates/voting/finish.html:16
+msgid "Continue to"
+msgstr "Pokračovat na"
+
+#: core/voting/templates/voting/finish.html:21
+msgid "Your results will be available here:"
+msgstr "Vaše výsledky budou dostupné zde:"
+
+#: core/voting/templates/voting/inactive.html:9
+msgid "This survey is inactive right now."
+msgstr "Tento průzkum je v současnosti neaktivní."
+
+#: core/voting/templates/voting/intro.html:19
+msgid "Start"
+msgstr "Start"
+
+#: core/voting/templates/voting/only_for_registered.html:9
+msgid "This survey is only for registered users."
+msgstr "Tento průzkum je jen pro registrované uživatele."
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Log in"
+msgstr "Přihlašte se"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "or"
+msgstr "nebo"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Register"
+msgstr "Registrovat"
+
+#: core/voting/templates/voting/password.html:11
+msgid "This survey is password protected."
+msgstr "Tento průzkum je chráněný heslem."
+
+#: core/voting/templates/voting/password.html:12
+msgid "Please, enter correct password."
+msgstr "Zadejte správné heslo prosím."
+
+#: core/voting/templates/voting/password.html:17
+msgid "Submit"
+msgstr "Potvrdit"
+
+#: core/voting/templates/voting/time_expired.html:10
+msgid "Voting time expired."
+msgstr "Čas hlasování vypršel"
+
+#: core/voting/urls.py:9
+msgctxt "url"
+msgid "finish/<str:slug>/"
+msgstr "dokoncit/<str:slug>/"
+
+#: core/voting/urls.py:10
+msgctxt "url"
+msgid "inactive/<str:slug>/"
+msgstr "neaktivni/<str:slug>/"
+
+#: core/voting/urls.py:11
+msgctxt "url"
+msgid "password/<str:slug>/"
+msgstr "heslo/<str:slug>/"
+
+#: core/voting/urls.py:12
+msgctxt "url"
+msgid "already-voted/<str:slug>/"
+msgstr "jiz-odhlasovane/<str:slug>/"
+
+#: core/voting/urls.py:13
+msgctxt "url"
+msgid "expired/<str:slug>/"
+msgstr "cas-vyprsel/<str:slug>/"
+
+#: core/voting/urls.py:14
+msgctxt "url"
+msgid "only-for-registered/<str:slug>/"
+msgstr "pouze-pro-registrovane/<str:slug>/"
+
+#: core/voting/urls.py:15
+msgctxt "url"
+msgid "respondent/<str:hash_key>/"
+msgstr "respondent/<str:hash_key>/"
+
+#: core/voting/views.py:67
+msgid "Time expired and your answers have been saved automatically"
+msgstr "Čas vypršel a Vaše odpovědi byly automaticky uložené"
+
+#: core/voting/views.py:158
+msgid "Your response has been successfully saved."
+msgstr "Vaše odpovědi byly úspešně uloženy."
+
+#: core/voting/views.py:161
+msgid "Make sure that you have answered all required questions."
+msgstr "Ujistěte se, že jste zodpověděli všechny povinné dotazy."
+
+#: core/voting/views.py:288
+msgid "Respondent didn't finished the survey yet"
+msgstr "Účastník ještě nedokončil průzkum."
+
+#: urls.py:8
+msgid "surveys/"
+msgstr "pruzkumy/"
+
+#: urls.py:9
+msgid "voting/"
+msgstr "hlasovani/"
+
+#: urls.py:10
+msgid "statistics/"
+msgstr "statistiky/"
+
+#~ msgid "English"
+#~ msgstr "Anglicky"
+
+#~ msgid "Slovak"
+#~ msgstr "Slovensky"
+
+#~ msgid "^users/(?P<pk>[-\\d]+)"
+#~ msgstr "^pouzivatelia/(?P<pk>[-\\d]+)"
+
+#~ msgid "^users/(?P<slug>[-\\w]+)"
+#~ msgstr "^pouzivatelia/(?P<slug>[-\\w]+)"
+
+#~ msgid "^accounts/"
+#~ msgstr "^ucty/"
+
+#~ msgid "^questions/"
+#~ msgstr "^otazky/"
+
+#~ msgid "^impersonate/"
+#~ msgstr "^impersonate/"
+
+#~ msgid "^facebook/"
+#~ msgstr "^facebook/"
+
+#~ msgid "Unknown user"
+#~ msgstr "Neznámý uživatel"
+
+#~ msgid "once"
+#~ msgstr "jednou"
+
+#~ msgid "persistently"
+#~ msgstr "opakovaně"
+
+#~ msgid "segment"
+#~ msgstr "segment"
+
+#~ msgid "execution type"
+#~ msgstr "typ spuštění"
+
+#~ msgid "bundles"
+#~ msgstr "bundles"
+
+#~ msgid "create"
+#~ msgstr "vytvořené"
+
+#~ msgid "campaign"
+#~ msgstr "kampaň"
+
+#~ msgid "campaigns"
+#~ msgstr "kampaně"
+
+#~ msgid "contacts"
+#~ msgstr "kontakty"
+
+#~ msgid "external identifier"
+#~ msgstr "externí identifikátor"
+
+#~ msgid "first name"
+#~ msgstr "křestní jméno"
+
+#~ msgid "last name"
+#~ msgstr "příjmení"
+
+#~ msgid "phone"
+#~ msgstr "telefon"
+
+#~ msgid "email"
+#~ msgstr "e-mail"
+
+#~ msgid "exclude from campaigns"
+#~ msgstr "vynechat z kampaní"
+
+#~ msgid "contact"
+#~ msgstr "kontakt"
+
+#~ msgid "data"
+#~ msgstr "data"
+
+#~ msgid "format"
+#~ msgstr "formát"
+
+#~ msgid "columns"
+#~ msgstr "sloupce"
+
+#~ msgid "separator"
+#~ msgstr "oddělovač"
+
+#~ msgid "modfied"
+#~ msgstr "změněné"
+
+#~ msgid "import"
+#~ msgstr "import"
+
+#~ msgid "imports"
+#~ msgstr "importy"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "First name"
+#~ msgstr "Křestní jméno"
+
+#~ msgid "Surname"
+#~ msgstr "Příjmení"
+
+#~ msgid "Confirm password"
+#~ msgstr "Potvrdit heslo"
+
+#~ msgid "A user with that username         already exists."
+#~ msgstr "Uživatel s tímto přihlašovacím jménem už existuje. "
+
+#~ msgid "The two password fields             didn't match."
+#~ msgstr "Hesla se neshodují. "
+
+#~ msgid "Old password"
+#~ msgstr "Staré heslo"
+
+#~ msgid "New password"
+#~ msgstr "Nové heslo"
+
+#~ msgid "Retype password"
+#~ msgstr "Nové heslo ještě jednou"
+
+#~ msgid "Old password is not correct"
+#~ msgstr "Staré heslo nesouhlasí "
+
+#~ msgid "New and retyped password             must be same."
+#~ msgstr "Nové heslo nesouhlasí "
+
+#~ msgid "Date of birth"
+#~ msgstr "Datum narození "
+
+#~ msgid "Public options"
+#~ msgstr "Veřejné nastavení"
+
+#~ msgid "Private information"
+#~ msgstr "Osobní informace "
+
+#~ msgid ""
+#~ "Slug used to customize sharing URL. For example my-segment. Keep blank to "
+#~ "be autogenerated by your name."
+#~ msgstr ""
+#~ "Slovo pro přizpůsobení URL sdílení. Např. jan-novak. Nechte prázdné, "
+#~ "pokud chceš, aby bylo toto slovo automaticky vygenerované podle Vašeho "
+#~ "jména. "
+
+#~ msgid "Gender"
+#~ msgstr "Pohlaví"
+
+#~ msgid ""
+#~ "Stay calm, your privacy is safe. It will be used for statistical purposes "
+#~ "only"
+#~ msgstr ""
+#~ "Nemusíte se bát, vaše osobní data jsou zabezpečena. Data jsou využívána "
+#~ "pouze pro statistické účely. "
+
+#~ msgid "URL is already taken."
+#~ msgstr "URL už existuje."
+
+#~ msgid "Saving failed. Check your inputs."
+#~ msgstr "Chyba při ukládání. Zkontrolujte si údaje. "
+
+#~ msgid "Basic"
+#~ msgstr "Základní"
+
+#~ msgid "Standard"
+#~ msgstr "Standardní"
+
+#~ msgid "Premium"
+#~ msgstr "Prémiový"
+
+#~ msgid "package"
+#~ msgstr "balík"
+
+#~ msgid "package valid to"
+#~ msgstr "balík platný do"
+
+#~ msgid "activation hash"
+#~ msgstr "aktivační řetězec"
+
+#~ msgid "API key"
+#~ msgstr "API klíč"
+
+#~ msgid "URL alias"
+#~ msgstr "URL alias"
+
+#~ msgid "last seen surveys"
+#~ msgstr "naposledy viděné průzkumy"
+
+#~ msgid "profile"
+#~ msgstr "profil"
+
+#~ msgid "profiles"
+#~ msgstr "profily"
+
+#~ msgid "date of birth"
+#~ msgstr "datum narození"
+
+#~ msgid "login/$"
+#~ msgstr "prihlasenie/$"
+
+#~ msgid "login/demo/$"
+#~ msgstr "prihlasenie/demo/$"
+
+#~ msgid "logout-register/$"
+#~ msgstr "odhlasenie-registracia/$"
+
+#~ msgid "register/$"
+#~ msgstr "registracia/$"
+
+#~ msgid "profile/$"
+#~ msgstr "profil/$"
+
+#~ msgid "api-keys/$"
+#~ msgstr "api-klice/$"
+
+#~ msgid "package/$"
+#~ msgstr "balik/$"
+
+#~ msgid "logout/$"
+#~ msgstr "odhlasenie/$"
+
+#~ msgid "reset/$"
+#~ msgstr "obnova-hesla/$"
+
+#~ msgid "^activate/(?P<activation_hash>\\w+)/$"
+#~ msgstr "^aktivacia/(?P<activation_hash>\\w+)/$"
+
+#~ msgid "Login"
+#~ msgstr "Přihlášení"
+
+#~ msgid "Your username or password was incorrect."
+#~ msgstr "Vaše přihlašovací jméno nebo heslo bylo nesprávné."
+
+#~ msgid "Your account is not active!"
+#~ msgstr "Váš účet není aktivní. "
+
+#~ msgid "Please, check your email and activate your account."
+#~ msgstr "Zkontrolujte si svůj email a aktivujte si účet. "
+
+#~ msgid "Registration"
+#~ msgstr "Registrace"
+
+#~ msgid "You have been successfully registered."
+#~ msgstr "Úspešně jste se zaregistrovali."
+
+#~ msgid "Activation key is missing!"
+#~ msgstr "Chybí aktivační klíč!"
+
+#~ msgid "Your account was successfully activated."
+#~ msgstr "Váš účet byl úspěšně aktivován. "
+
+#~ msgid "You have already activated your account!"
+#~ msgstr "Váš účet již byl aktivován!"
+
+#~ msgid "Your activation key is incorrect!"
+#~ msgstr "Váš aktivační klíč je nesprávný. "
+
+#~ msgid "Account"
+#~ msgstr "Účet"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Profile successfully saved."
+#~ msgstr "Profil byl úspěšně uložený. "
+
+#~ msgid "Your password was changed."
+#~ msgstr "Vaše přihlašovací jméno bylo změněno."
+
+#~ msgid "Forgotten password"
+#~ msgstr "Zapomenuté heslo"
+
+#~ msgid "E-mail with new password was sent."
+#~ msgstr "Byl Vám odeslán email s novým heslem."
+
+#~ msgid "User does not exists!"
+#~ msgstr "Uživatel neexistuje!"
+
+#~ msgid "API Keys"
+#~ msgstr "API klíče"
+
+#~ msgid ""
+#~ "To authorize to the VoteHub system through API, you need an API key. This "
+#~ "key needs to be send with every API request. Keep your API key secret!"
+#~ msgstr ""
+#~ "K autorizaci do systému VoteHub přes API budete potřebovat API klíč. "
+#~ "Tento klíč je třeba poslat s každým API žádostí. Udržujte svůj API klíč v "
+#~ "tajnosti!"
+
+#~ msgid "Your API key is:"
+#~ msgstr "Váš API klíč je:"
+
+#~ msgid "Current API documentation is available here: "
+#~ msgstr "Aktuální API dokumentace je k dispozici zde:"
+
+#~ msgid "download"
+#~ msgstr "stáhnout"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Zapomněli jste heslo?"
+
+#~ msgid "Package"
+#~ msgstr "Balík"
+
+#~ msgid "Back"
+#~ msgstr "Zpět"
+
+#~ msgid "Your currently active package"
+#~ msgstr "Váš aktuálně aktivní balík"
+
+#~ msgid "Monthly fee"
+#~ msgstr "Měsíční poplatek"
+
+#~ msgid "EUR per month"
+#~ msgstr "EUR měsíčně"
+
+#~ msgid "Valid to"
+#~ msgstr "Platné do"
+
+#~ msgid "View pricing"
+#~ msgstr "Zobrazit ceník"
+
+#~ msgid "Change password"
+#~ msgstr "Změnit heslo"
+
+#~ msgid "Update"
+#~ msgstr "Změnit"
+
+#~ msgid "Reset password"
+#~ msgstr "Obnova hesla"
+
+#~ msgid "Reset"
+#~ msgstr "Obnovit"
+
+#~ msgid "Display help text"
+#~ msgstr "Zobrazit pomocný text"
+
+#~ msgid "Logout"
+#~ msgstr "Odhlásit se"
+
+#~ msgid "Single option"
+#~ msgstr "Jedna odpověď"
+
+#~ msgid "Multiple options"
+#~ msgstr "Více odpovědí "
+
+#~ msgid "Text inputs"
+#~ msgstr "Textové pole"
+
+#~ msgid "Date &amp; time"
+#~ msgstr "Datum &amp; čas"
+
+#~ msgid "Matrixes"
+#~ msgstr "Matice"
+
+#~ msgid "Ratings"
+#~ msgstr "Hodnocení "
+
+#~ msgid "Stars"
+#~ msgstr "Hodnocení hvězdami "
+
+#~ msgid "Please correct errors."
+#~ msgstr "Ujistěte se, že jste zodpověděli všechny dotazy."
+
+#~ msgid "Welcome!"
+#~ msgstr "Vitajte!"
+
+#~ msgid "^payments/"
+#~ msgstr "^platby/"
+
+#~ msgid "New password successfully saved."
+#~ msgstr "Nové heslo bolo úspešne uložené."
+
+#~ msgid "admin"
+#~ msgstr "admin"
+
+#~ msgid "question position"
+#~ msgstr "pozícia otázky"
+
+#~ msgid "Welcome to VoteHub"
+#~ msgstr "Vitaj na VoteHube"
+
+#~ msgid "total answers"
+#~ msgstr "celkovo odpovedí"
+
+#~ msgid "TOTAL RESULT"
+#~ msgstr "CELKOVÝ VÝSLEDOK"
+
+#~ msgid "Please, change the default question title."
+#~ msgstr "Zmeň preddefinovaný nadpis otázky."
+
+#~ msgid "required"
+#~ msgstr "požadované"
+
+#~ msgid "User"
+#~ msgstr "Používateľ"
+
+#~ msgid "Survey voters"
+#~ msgstr "Respondenti prieskumu"
+
+#~ msgid "Slug used to customize sharing URL."
+#~ msgstr ""
+#~ "Slovo pre prispôsobenie URL zdieľania. Napr. moj-segment. Nechaj prázdne, "
+#~ "ak chceš aby bolo toto slovo automaticky vygenerované podľa názvu "
+#~ "segmentu."
+
+#~ msgid "Choose your favorite way to share the survey."
+#~ msgstr "Zvoľ si obľúbený spôsob odzdieľania svojho prieskumu."
+
+#~ msgid "Create branding image"
+#~ msgstr "Vytvoriť otázku: hodnotenie hviezdami"
+
+#~ msgid "Default text"
+#~ msgstr "Preddefinovaný text"
+
+#~ msgid "Your new question"
+#~ msgstr "Tvoja nová otázka"
+
+#~ msgid "Can not save voter!"
+#~ msgstr "Nepodarilo sa uložiť respondenta!"
+
+#~ msgid "Can not save answer!"
+#~ msgstr "Nepodarilo sa uložiť odpoveď!"
+
+#~ msgid "Rating"
+#~ msgstr "Hodnotenie"

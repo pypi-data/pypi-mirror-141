@@ -1,0 +1,703 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 14:03+0100\n"
+"PO-Revision-Date: 2022-03-08 12:33+0000\n"
+"Last-Translator: Maciej Korus <k.maciej94@gmail.com>\n"
+"Language-Team: Polish <https://weblate.pragmatic.online/projects/it-fitness/"
+"engine/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 4.10.1\n"
+
+#: core/questionnaires/admin.py:13 core/questionnaires/models.py:212
+msgid "quiz"
+msgstr ""
+
+#: core/questionnaires/admin.py:27 core/voting/admin.py:23
+msgid "Yes"
+msgstr "Tak"
+
+#: core/questionnaires/admin.py:28 core/voting/admin.py:24
+msgid "No"
+msgstr "Nie"
+
+#: core/questionnaires/forms/dropdown.py:12
+#: core/questionnaires/forms/dropdown.py:20
+msgid "Select an option"
+msgstr "Wybierz jedną z możliwości"
+
+#: core/questionnaires/models.py:37 core/questionnaires/models.py:47
+msgid "Public - for everyone"
+msgstr "Publiczne - dostępne dla wszystkich"
+
+#: core/questionnaires/models.py:38
+msgid "Registered users only"
+msgstr "Wyłącznie dla zarejestrowanych użytkowników"
+
+#: core/questionnaires/models.py:48
+msgid "Secret - for voters only"
+msgstr "Tajne - wyłącznie dla uczestników"
+
+#: core/questionnaires/models.py:49
+msgid "Private - for creator only"
+msgstr "Prywatne - wyłącznie dla twórcy"
+
+#: core/questionnaires/models.py:52 core/questionnaires/models.py:207
+#: core/questionnaires/models.py:326
+msgid "title"
+msgstr ""
+
+#: core/questionnaires/models.py:54 core/voting/models.py:26
+msgid "hash key"
+msgstr ""
+
+#: core/questionnaires/models.py:55 core/questionnaires/models.py:205
+#: core/questionnaires/models.py:325
+msgid "tag"
+msgstr ""
+
+#: core/questionnaires/models.py:56
+msgid "preface"
+msgstr ""
+
+#: core/questionnaires/models.py:57
+msgid "postface"
+msgstr ""
+
+#: core/questionnaires/models.py:58
+msgid "valid from"
+msgstr ""
+
+#: core/questionnaires/models.py:60
+msgid "Users can start voting beginning this date."
+msgstr "Użytkownicy mogą rozpocząć głosowanie od tej daty."
+
+#: core/questionnaires/models.py:61
+msgid "valid to"
+msgstr ""
+
+#: core/questionnaires/models.py:63
+msgid "Users will be able to vote until this date. Keep blank to unlimited."
+msgstr ""
+"Użytkownicy mogą głosować do tej daty. Pozostaw pole puste, by czas był "
+"nieograniczony."
+
+#: core/questionnaires/models.py:64
+msgid "time limit"
+msgstr ""
+
+#: core/questionnaires/models.py:64
+msgid "In minutes. Keep blank to infinite."
+msgstr "W minutach. Brak wartości oznacza nieskończoność"
+
+#: core/questionnaires/models.py:66
+msgid "password"
+msgstr ""
+
+#: core/questionnaires/models.py:67
+msgid "permission level"
+msgstr ""
+
+#: core/questionnaires/models.py:69
+msgid "statistics policy"
+msgstr ""
+
+#: core/questionnaires/models.py:71
+msgid "active"
+msgstr "aktywny"
+
+#: core/questionnaires/models.py:71
+msgid ""
+"Current survey status. Users will not be able to start voting if inactive."
+msgstr ""
+"Bieżący status ankiety. Użytkownicy nie będą mogli rozpocząć głosowania "
+"jeśli jest ona nieaktywna."
+
+#: core/questionnaires/models.py:72
+msgid "repeatable voting"
+msgstr ""
+
+#: core/questionnaires/models.py:73
+msgid "Set checked if users can vote multiple times in survey."
+msgstr "Zaznacz, jeśli użytkownicy mogą uczestniczyć w ankiecie wielokrotnie."
+
+#: core/questionnaires/models.py:74
+msgid "show quiz results"
+msgstr ""
+
+#: core/questionnaires/models.py:75
+msgid "Set checked if you want to show quiz results in percentage to voters."
+msgstr "Zaznacz jeśli chcesz wyświetlać procentowe wyniki testu uczestnikom."
+
+#: core/questionnaires/models.py:76
+msgid "show quiz correct options"
+msgstr ""
+
+#: core/questionnaires/models.py:77
+msgid "Set checked if you want to show correct options to voters."
+msgstr "Zaznacz, jeśli chcesz, aby uczestnicy widzieli poprawne wybory."
+
+#: core/questionnaires/models.py:78
+msgid "published"
+msgstr ""
+
+#: core/questionnaires/models.py:79
+msgid "Set checked if users can see survey."
+msgstr "Zaznacz, jeśli użytkownicy mogą wyświetlać ankietę"
+
+#: core/questionnaires/models.py:82 core/questionnaires/models.py:215
+#: core/questionnaires/models.py:332 core/voting/models.py:40
+#: core/voting/models.py:167 core/voting/models.py:211
+msgid "created"
+msgstr "utworzono"
+
+#: core/questionnaires/models.py:83 core/questionnaires/models.py:216
+#: core/questionnaires/models.py:333 core/voting/models.py:41
+#: core/voting/models.py:168 core/voting/models.py:212
+msgid "modified"
+msgstr ""
+
+#: core/questionnaires/models.py:88 core/questionnaires/models.py:204
+#: core/voting/models.py:20
+msgid "survey"
+msgstr ""
+
+#: core/questionnaires/models.py:89
+msgid "surveys"
+msgstr ""
+
+#: core/questionnaires/models.py:195
+msgid "Radio"
+msgstr "Jedna odpowiedź"
+
+#: core/questionnaires/models.py:196
+msgid "Checkbox"
+msgstr "Pole wyboru"
+
+#: core/questionnaires/models.py:197
+msgid "Dropdown"
+msgstr "Lista rozwijana"
+
+#: core/questionnaires/models.py:198
+msgid "Textfield"
+msgstr "Pole tekstowe (jednoliniowe)"
+
+#: core/questionnaires/models.py:199
+msgid "Textarea"
+msgstr "Textarea (obszar tekstowy)"
+
+#: core/questionnaires/models.py:200
+msgid "Matrix radio"
+msgstr "Macierz pól wyboru typu radio"
+
+#: core/questionnaires/models.py:201
+msgid "Matrix checkbox"
+msgstr "Matrix checkbox"
+
+#: core/questionnaires/models.py:206
+msgid "kind"
+msgstr ""
+
+#: core/questionnaires/models.py:209
+msgid "category"
+msgstr "kategoria"
+
+#: core/questionnaires/models.py:210 core/questionnaires/models.py:331
+#: core/voting/models.py:163
+msgid "weight"
+msgstr ""
+
+#: core/questionnaires/models.py:211
+msgid "mandatory"
+msgstr ""
+
+#: core/questionnaires/models.py:213
+msgid "unique answers"
+msgstr ""
+
+#: core/questionnaires/models.py:213
+msgid "for matrix questions"
+msgstr ""
+
+#: core/questionnaires/models.py:214
+msgid "enabled empty rows"
+msgstr ""
+
+#: core/questionnaires/models.py:214
+msgid "for matrix questions with required answer"
+msgstr ""
+
+#: core/questionnaires/models.py:220 core/questionnaires/models.py:324
+#: core/voting/models.py:162 core/voting/models.py:203
+msgid "question"
+msgstr ""
+
+#: core/questionnaires/models.py:221
+msgid "questions"
+msgstr ""
+
+#: core/questionnaires/models.py:320 core/voting/models.py:198
+msgid "Row"
+msgstr "Wiersz"
+
+#: core/questionnaires/models.py:321 core/voting/models.py:199
+msgid "Column"
+msgstr "Kolumna"
+
+#: core/questionnaires/models.py:328
+msgid "orientation"
+msgstr ""
+
+#: core/questionnaires/models.py:330
+msgid "correct"
+msgstr "poprawne"
+
+#: core/questionnaires/models.py:338 core/voting/models.py:207
+msgid "option"
+msgstr ""
+
+#: core/questionnaires/models.py:339
+msgid "options"
+msgstr ""
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:5
+msgid "History"
+msgstr "Historia"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:7
+msgid "Vote"
+msgstr "Głosuj"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:8
+msgid "Preview"
+msgstr "Podgląd"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:9
+msgid "Infographics"
+msgstr "Infografika"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:10
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: core/questionnaires/urls.py:7
+msgctxt "url"
+msgid "preview/<str:slug>/"
+msgstr ""
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:28
+#: core/statistics/templates/statistics/helpers/infographics_js.html:58
+#: core/statistics/templates/statistics/helpers/infographics_js.html:88
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+#: core/statistics/templates/statistics/helpers/infographics_js.html:108
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:127
+msgid "Count"
+msgstr "Liczba"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:73
+msgid "Total count"
+msgstr "Łączna liczba"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+#: core/utils/mail.py:17
+msgid "Quiz result"
+msgstr "Wyniki testu"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+msgid "Age"
+msgstr "Wiek"
+
+#: core/statistics/templatetags/voter_extras.py:36
+msgid "Wrong answer (0%)"
+msgstr "Błędna odpowiedź (0%)"
+
+#: core/statistics/templatetags/voter_extras.py:40
+msgid "Correct answer (100%)"
+msgstr "Poprawna odpowiedź  (100%)"
+
+#: core/statistics/templatetags/voter_extras.py:45
+#, python-format
+msgid "Partially correct answer (%s%%)"
+msgstr "Częściowo poprawna odpowiedź (%s%%)"
+
+#: core/statistics/templatetags/voter_extras.py:61
+msgid "Very bad!"
+msgstr "Bardzo źle!"
+
+#: core/statistics/templatetags/voter_extras.py:65
+msgid "Try harder next time!"
+msgstr "Postaraj się jeszcze bardziej następnym razem!"
+
+#: core/statistics/templatetags/voter_extras.py:69
+msgid "Well, it could be better!"
+msgstr "Cóż, mogło być lepiej!"
+
+#: core/statistics/templatetags/voter_extras.py:73
+msgid "Pretty good!"
+msgstr "Całkiem nieźle!"
+
+#: core/statistics/templatetags/voter_extras.py:77
+msgid "Great!"
+msgstr "Świetnie!"
+
+#: core/statistics/templatetags/voter_extras.py:81
+msgid "Perfect!"
+msgstr "Doskonale!"
+
+#: core/statistics/templatetags/voter_extras.py:124
+msgid "STORED RESULT"
+msgstr "ZAPISANY WYNIK"
+
+#: core/statistics/templatetags/voter_extras.py:132
+msgid "CALCULATED RESULT"
+msgstr "OBLICZONE WYNIKI"
+
+#: core/statistics/templatetags/voter_extras.py:137
+msgid ""
+"These results are different, because survey creator changed correct options "
+"in quiz questions. Contact him."
+msgstr ""
+"Wyniki te się różnią, ponieważ twórca ankiety zmienił poprawne odpowiedzi "
+"pytań. Skontaktuj się z tą osobą."
+
+#: core/statistics/urls.py:8
+msgctxt "url"
+msgid "answers/"
+msgstr "odpowiedzi/"
+
+#: core/statistics/urls.py:9
+msgctxt "url"
+msgid "infographics/"
+msgstr ""
+
+#: core/statistics/views/infographics.py:248
+msgid "Male"
+msgstr "Mężczyzna"
+
+#: core/statistics/views/infographics.py:250
+msgid "Female"
+msgstr "Kobieta"
+
+#: core/statistics/views/infographics.py:252
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: core/utils/fields.py:18
+msgid "All rows are required."
+msgstr "Wszystkie wiersze są wymagane."
+
+#: core/utils/fields.py:19
+msgid "Values have to be unique."
+msgstr "Wartości muszą być unikalne."
+
+#: core/utils/helpers.py:9
+#, python-format
+msgid ""
+"You have not confirmed your email     address yet. If you did not receive "
+"confirmation, please click     <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Nie potwierdziłeś/aś wciąż swojego adresu email. Jeśli nie otrzymałeś/aś "
+"nadal linku weryfikacyjnego, kliknij proszę <a href=\"%(url)s\">tutaj </a>"
+
+#: core/utils/mail.py:47
+msgid "New voter in your survey"
+msgstr "Nowy uczestnik w Twojej ankiecie"
+
+#: core/utils/mail.py:48
+#, python-format
+msgid "You have one new voter in your survey %(survey)s"
+msgstr "Masz jednego nowego głosującego w Twojej ankiecie %(survey)s"
+
+#: core/utils/mail.py:52
+#, python-format
+msgid ""
+"You have one new voter in your survey <a href=\"%(url)s\">%(survey)s</a>"
+msgstr ""
+"Masz jednego nowego głosującego w Twojej ankiecie <a href=\"%(url)s\""
+">%(survey)s"
+
+#: core/utils/mail.py:57
+msgid "New voters in your survey"
+msgstr "Nowi uczestnicy w Twojej ankiecie"
+
+#: core/utils/mail.py:58
+#, python-format
+msgid "You have %(voters_count)d new voters in your survey %(survey)s"
+msgstr "Masz %(voters_count)d nowych głosujących w Twojej ankiecie %(survey)s"
+
+#: core/utils/mail.py:62
+#, python-format
+msgid ""
+"You have %(voters_count)d new voters in your survey <a href=\"%(url)s\">"
+"%(survey)s</a>"
+msgstr ""
+"Masz %(voters_count)d nowych głosujących w Twojej ankiecie <a href=\"%(url)"
+"s\">%(survey)s</a>"
+
+#: core/utils/templates/mails/quiz_result.html:3
+msgid "Your quiz result in survey"
+msgstr "Twój wynik testu w ankiecie"
+
+#: core/utils/templates/mails/quiz_result.html:6
+msgid "Your results are also available here:"
+msgstr "Twoje wyniki są również dostępne tutaj:"
+
+#: core/voting/admin.py:9 core/voting/models.py:35
+msgid "quiz result sent"
+msgstr ""
+
+#: core/voting/api/urls.py:9
+msgctxt "url"
+msgid "vote/"
+msgstr ""
+
+#: core/voting/api/views.py:18
+msgid "Voter and request user mismatch"
+msgstr "Niezgodność głosującego i wywołanego użytkownika"
+
+#: core/voting/api/views.py:21
+msgid "Time expired"
+msgstr "Dostępny czas upłynął"
+
+#: core/voting/api/views.py:26
+msgid "Voter and question survey mismatch"
+msgstr "Niezgodność uczestnika i ankiety"
+
+#: core/voting/api/views.py:49
+msgid "Answers not saved because form is not valid"
+msgstr "Odpowiedzi nie zostały zapisane, ponieważ formularz zawiera błędy"
+
+#: core/voting/api/views.py:54
+msgid "Answers couldn't be saved"
+msgstr "Odpowiedzi nie mogły zostać zapisane"
+
+#: core/voting/api/views.py:56
+msgid "Answers saved"
+msgstr "Odpowiedzi zapisane"
+
+#: core/voting/forms.py:7
+msgid "Password"
+msgstr "Hasło"
+
+#: core/voting/forms.py:17
+msgid "Password is incorrect!"
+msgstr "Hasło jest niepoprawne!"
+
+#: core/voting/models.py:21
+msgid "user"
+msgstr ""
+
+#: core/voting/models.py:23
+msgid "language"
+msgstr ""
+
+#: core/voting/models.py:24 core/voting/models.py:165
+msgid "quiz result"
+msgstr ""
+
+#: core/voting/models.py:27
+msgid "IP address"
+msgstr "Adres IP"
+
+#: core/voting/models.py:28
+msgid "voting started"
+msgstr ""
+
+#: core/voting/models.py:29
+msgid "voting ended"
+msgstr ""
+
+#: core/voting/models.py:31
+msgid "voting duration"
+msgstr ""
+
+#: core/voting/models.py:33
+msgid "custom flag"
+msgstr ""
+
+#: core/voting/models.py:36
+msgid "API voter"
+msgstr "API voter"
+
+#: core/voting/models.py:37
+msgid "irrelevant"
+msgstr ""
+
+#: core/voting/models.py:45
+msgid "respondent"
+msgstr ""
+
+#: core/voting/models.py:46
+msgid "respondents"
+msgstr ""
+
+#: core/voting/models.py:161 core/voting/models.py:202
+msgid "voter"
+msgstr ""
+
+#: core/voting/models.py:164
+msgid "page"
+msgstr ""
+
+#: core/voting/models.py:171
+msgid "voted question"
+msgstr ""
+
+#: core/voting/models.py:172
+msgid "voted questions"
+msgstr ""
+
+#: core/voting/models.py:205
+msgid "custom"
+msgstr ""
+
+#: core/voting/models.py:209
+msgid "option column"
+msgstr ""
+
+#: core/voting/models.py:216
+msgid "answer"
+msgstr "odpowiedź"
+
+#: core/voting/models.py:217
+msgid "answers"
+msgstr "odpowiedzi"
+
+#: core/voting/templates/voting/already_voted.html:10
+msgid "You have already voted in this survey."
+msgstr "Głosowałeś/aś już w tej ankiecie."
+
+#: core/voting/templates/voting/already_voted.html:15
+#: core/voting/templates/voting/time_expired.html:15
+msgid "Your results are available here:"
+msgstr "Twoje wyniki są dostępne tutaj:"
+
+#: core/voting/templates/voting/finish.html:16
+msgid "Continue to"
+msgstr "Kontynuuj do"
+
+#: core/voting/templates/voting/finish.html:21
+msgid "Your results will be available here:"
+msgstr "Twoje wyniki będą dostępne tutaj:"
+
+#: core/voting/templates/voting/inactive.html:9
+msgid "This survey is inactive right now."
+msgstr "Ta ankieta jest obecnie nieaktywna."
+
+#: core/voting/templates/voting/intro.html:19
+msgid "Start"
+msgstr "Start"
+
+#: core/voting/templates/voting/only_for_registered.html:9
+msgid "This survey is only for registered users."
+msgstr "Ta ankieta jest dostępna wyłącznie dla zarejestrowanych użytkowników."
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "or"
+msgstr ""
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#: core/voting/templates/voting/password.html:11
+msgid "This survey is password protected."
+msgstr "Ta ankieta jest zabezpieczona hasłem."
+
+#: core/voting/templates/voting/password.html:12
+msgid "Please, enter correct password."
+msgstr "Proszę podać prawidłowe hasło."
+
+#: core/voting/templates/voting/password.html:17
+msgid "Submit"
+msgstr "Prześlij"
+
+#: core/voting/templates/voting/time_expired.html:10
+msgid "Voting time expired."
+msgstr "Upłynął czas na głosowanie."
+
+#: core/voting/urls.py:9
+msgctxt "url"
+msgid "finish/<str:slug>/"
+msgstr ""
+
+#: core/voting/urls.py:10
+msgctxt "url"
+msgid "inactive/<str:slug>/"
+msgstr ""
+
+#: core/voting/urls.py:11
+msgctxt "url"
+msgid "password/<str:slug>/"
+msgstr ""
+
+#: core/voting/urls.py:12
+msgctxt "url"
+msgid "already-voted/<str:slug>/"
+msgstr "juz-glosowano/<str:slug>/"
+
+#: core/voting/urls.py:13
+msgctxt "url"
+msgid "expired/<str:slug>/"
+msgstr ""
+
+#: core/voting/urls.py:14
+msgctxt "url"
+msgid "only-for-registered/<str:slug>/"
+msgstr ""
+
+#: core/voting/urls.py:15
+msgctxt "url"
+msgid "respondent/<str:hash_key>/"
+msgstr ""
+
+#: core/voting/views.py:67
+msgid "Time expired and your answers have been saved automatically"
+msgstr ""
+"Dostępny czas upłynął, a Twoje odpowiedzi zostały automatycznie zapisane"
+
+#: core/voting/views.py:158
+msgid "Your response has been successfully saved."
+msgstr "Twoja odpowiedź została pomyślnie zapisana."
+
+#: core/voting/views.py:161
+msgid "Make sure that you have answered all required questions."
+msgstr "Upewnij się, że odpowiedziałeś/aś na wszystkie wymagane pytania."
+
+#: core/voting/views.py:288
+msgid "Respondent didn't finished the survey yet"
+msgstr "Uczestnik nie ukończył jeszcze ankiety"
+
+#: urls.py:8
+msgid "surveys/"
+msgstr ""
+
+#: urls.py:9
+msgid "voting/"
+msgstr ""
+
+#: urls.py:10
+msgid "statistics/"
+msgstr ""

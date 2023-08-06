@@ -1,0 +1,2566 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 14:03+0100\n"
+"PO-Revision-Date: 2022-02-28 08:49+0000\n"
+"Last-Translator: Erik Telepovský (admin) <erik@pragmaticmates.com>\n"
+"Language-Team: Slovak <https://weblate.pragmatic.online/projects/it-fitness/"
+"engine/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
+"X-Translated-Using: django-rosetta 0.9.5\n"
+
+#: core/questionnaires/admin.py:13 core/questionnaires/models.py:212
+msgid "quiz"
+msgstr "kvíz"
+
+#: core/questionnaires/admin.py:27 core/voting/admin.py:23
+msgid "Yes"
+msgstr "Áno"
+
+#: core/questionnaires/admin.py:28 core/voting/admin.py:24
+msgid "No"
+msgstr "Nie"
+
+#: core/questionnaires/forms/dropdown.py:12
+#: core/questionnaires/forms/dropdown.py:20
+msgid "Select an option"
+msgstr "Vyberte jednu z možností"
+
+#: core/questionnaires/models.py:37 core/questionnaires/models.py:47
+msgid "Public - for everyone"
+msgstr "Verejný - pre každého"
+
+#: core/questionnaires/models.py:38
+msgid "Registered users only"
+msgstr "Len pre registrovaných používateľov"
+
+#: core/questionnaires/models.py:48
+msgid "Secret - for voters only"
+msgstr "Tajné - iba pre respondentov"
+
+#: core/questionnaires/models.py:49
+msgid "Private - for creator only"
+msgstr "Osobné - iba pre tvorcu prieskumu"
+
+#: core/questionnaires/models.py:52 core/questionnaires/models.py:207
+#: core/questionnaires/models.py:326
+msgid "title"
+msgstr "názov"
+
+#: core/questionnaires/models.py:54 core/voting/models.py:26
+msgid "hash key"
+msgstr "hash kľúč"
+
+#: core/questionnaires/models.py:55 core/questionnaires/models.py:205
+#: core/questionnaires/models.py:325
+msgid "tag"
+msgstr "tag"
+
+#: core/questionnaires/models.py:56
+msgid "preface"
+msgstr "Predslov"
+
+#: core/questionnaires/models.py:57
+msgid "postface"
+msgstr "Doslov"
+
+#: core/questionnaires/models.py:58
+msgid "valid from"
+msgstr "platné od"
+
+#: core/questionnaires/models.py:60
+msgid "Users can start voting beginning this date."
+msgstr "Používatelia môžu začat hlasovať od tohto dátumu."
+
+#: core/questionnaires/models.py:61
+msgid "valid to"
+msgstr "platné do"
+
+#: core/questionnaires/models.py:63
+msgid "Users will be able to vote until this date. Keep blank to unlimited."
+msgstr ""
+"Používatelia budú môcť hlasovať do tohto dátumu. Nechaj prázdne, ak to "
+"nechceš časovo ohraničiť."
+
+#: core/questionnaires/models.py:64
+msgid "time limit"
+msgstr "časový limit"
+
+#: core/questionnaires/models.py:64
+msgid "In minutes. Keep blank to infinite."
+msgstr "V minútach. Nechajte prázdne pre nekonečno."
+
+#: core/questionnaires/models.py:66
+msgid "password"
+msgstr "heslo"
+
+#: core/questionnaires/models.py:67
+msgid "permission level"
+msgstr "úroveň oprávnenia"
+
+#: core/questionnaires/models.py:69
+msgid "statistics policy"
+msgstr "politika štatistík"
+
+#: core/questionnaires/models.py:71
+msgid "active"
+msgstr "aktívny"
+
+#: core/questionnaires/models.py:71
+msgid ""
+"Current survey status. Users will not be able to start voting if inactive."
+msgstr ""
+"Aktuálny stav prieskumu. Používatelia nebudú môcť hlasovať v neaktívnom "
+"prieskume."
+
+#: core/questionnaires/models.py:72
+msgid "repeatable voting"
+msgstr "opakovateľné hlasovanie"
+
+#: core/questionnaires/models.py:73
+msgid "Set checked if users can vote multiple times in survey."
+msgstr ""
+"Zaškrtni, ak chceš povoliť registrovaným používateľom viacnásobné hlasovanie "
+"v prieskume."
+
+#: core/questionnaires/models.py:74
+msgid "show quiz results"
+msgstr "zobraziť výsledky kvízu"
+
+#: core/questionnaires/models.py:75
+msgid "Set checked if you want to show quiz results in percentage to voters."
+msgstr ""
+"Zaškrtni, ak chceš respondentovi zobraziť jeho percentuálny výsledok kvízu."
+
+#: core/questionnaires/models.py:76
+msgid "show quiz correct options"
+msgstr "zobraziť správne možnosti kvízových otázok"
+
+#: core/questionnaires/models.py:77
+msgid "Set checked if you want to show correct options to voters."
+msgstr ""
+"Zaškrtni, ak chceš respondentovi zobraziť správne možnosti kvízových otázok "
+"v jeho výsledku."
+
+#: core/questionnaires/models.py:78
+msgid "published"
+msgstr "publikované"
+
+#: core/questionnaires/models.py:79
+msgid "Set checked if users can see survey."
+msgstr "Zaškrtni, ak chceš používateľom zobraziť prieskum."
+
+#: core/questionnaires/models.py:82 core/questionnaires/models.py:215
+#: core/questionnaires/models.py:332 core/voting/models.py:40
+#: core/voting/models.py:167 core/voting/models.py:211
+msgid "created"
+msgstr "vytvorené"
+
+#: core/questionnaires/models.py:83 core/questionnaires/models.py:216
+#: core/questionnaires/models.py:333 core/voting/models.py:41
+#: core/voting/models.py:168 core/voting/models.py:212
+msgid "modified"
+msgstr "zmenené"
+
+#: core/questionnaires/models.py:88 core/questionnaires/models.py:204
+#: core/voting/models.py:20
+msgid "survey"
+msgstr "prieskum"
+
+#: core/questionnaires/models.py:89
+msgid "surveys"
+msgstr "prieskumy"
+
+#: core/questionnaires/models.py:195
+msgid "Radio"
+msgstr "Jedna odpoveď"
+
+#: core/questionnaires/models.py:196
+msgid "Checkbox"
+msgstr "Viacero odpovedí"
+
+#: core/questionnaires/models.py:197
+msgid "Dropdown"
+msgstr "Rozbaľovacia ponuka"
+
+#: core/questionnaires/models.py:198
+msgid "Textfield"
+msgstr "Jednoriadkový text"
+
+#: core/questionnaires/models.py:199
+msgid "Textarea"
+msgstr "Viacriadkový text"
+
+#: core/questionnaires/models.py:200
+msgid "Matrix radio"
+msgstr "Matica s jednou odpoveďou"
+
+#: core/questionnaires/models.py:201
+msgid "Matrix checkbox"
+msgstr "Matica s viacerými odpoveďami"
+
+#: core/questionnaires/models.py:206
+msgid "kind"
+msgstr "typ"
+
+#: core/questionnaires/models.py:209
+msgid "category"
+msgstr "kategória"
+
+#: core/questionnaires/models.py:210 core/questionnaires/models.py:331
+#: core/voting/models.py:163
+msgid "weight"
+msgstr "váha"
+
+#: core/questionnaires/models.py:211
+msgid "mandatory"
+msgstr "povinná"
+
+#: core/questionnaires/models.py:213
+msgid "unique answers"
+msgstr "unikátne odpovede"
+
+#: core/questionnaires/models.py:213
+msgid "for matrix questions"
+msgstr "pre matice"
+
+#: core/questionnaires/models.py:214
+msgid "enabled empty rows"
+msgstr "povolené prázdne riadky"
+
+#: core/questionnaires/models.py:214
+msgid "for matrix questions with required answer"
+msgstr "pre matice s požadovanou odpoveďou"
+
+#: core/questionnaires/models.py:220 core/questionnaires/models.py:324
+#: core/voting/models.py:162 core/voting/models.py:203
+msgid "question"
+msgstr "otázka"
+
+#: core/questionnaires/models.py:221
+msgid "questions"
+msgstr "otázky"
+
+#: core/questionnaires/models.py:320 core/voting/models.py:198
+msgid "Row"
+msgstr "Riadok"
+
+#: core/questionnaires/models.py:321 core/voting/models.py:199
+msgid "Column"
+msgstr "Stĺpec"
+
+#: core/questionnaires/models.py:328
+msgid "orientation"
+msgstr "orientácia"
+
+#: core/questionnaires/models.py:330
+msgid "correct"
+msgstr "správne"
+
+#: core/questionnaires/models.py:338 core/voting/models.py:207
+msgid "option"
+msgstr "možnosť"
+
+#: core/questionnaires/models.py:339
+msgid "options"
+msgstr "možnosti"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:5
+msgid "History"
+msgstr "História"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:7
+msgid "Vote"
+msgstr "Hlasovať"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:8
+msgid "Preview"
+msgstr "Náhľad"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:9
+msgid "Infographics"
+msgstr "Infografika"
+
+#: core/questionnaires/templates/admin/questionnaires/survey/change_form_object_tools.html:10
+msgid "Statistics"
+msgstr "Štatistiky"
+
+#: core/questionnaires/urls.py:7
+msgctxt "url"
+msgid "preview/<str:slug>/"
+msgstr "nahlad/<str:slug>/"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:28
+#: core/statistics/templates/statistics/helpers/infographics_js.html:58
+#: core/statistics/templates/statistics/helpers/infographics_js.html:88
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+#: core/statistics/templates/statistics/helpers/infographics_js.html:108
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:127
+msgid "Count"
+msgstr "Počet"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:73
+msgid "Total count"
+msgstr "Celkový počet"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:93
+msgid "Duration"
+msgstr "Trvanie"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:113
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+#: core/utils/mail.py:17
+msgid "Quiz result"
+msgstr "Výsledok testovania"
+
+#: core/statistics/templates/statistics/helpers/infographics_js.html:131
+msgid "Age"
+msgstr "Vek"
+
+#: core/statistics/templatetags/voter_extras.py:36
+msgid "Wrong answer (0%)"
+msgstr "Zlá odpoveď (0%)"
+
+#: core/statistics/templatetags/voter_extras.py:40
+msgid "Correct answer (100%)"
+msgstr "Správna odpoveď (100%)"
+
+#: core/statistics/templatetags/voter_extras.py:45
+#, python-format
+msgid "Partially correct answer (%s%%)"
+msgstr "Čiastočne správna odpoveď (%s%%)"
+
+#: core/statistics/templatetags/voter_extras.py:61
+msgid "Very bad!"
+msgstr "Veľmi zle!"
+
+#: core/statistics/templatetags/voter_extras.py:65
+msgid "Try harder next time!"
+msgstr "Nabudúce sa snaž viac!"
+
+#: core/statistics/templatetags/voter_extras.py:69
+msgid "Well, it could be better!"
+msgstr "Dobre, ale mohlo to byť lepšie!"
+
+#: core/statistics/templatetags/voter_extras.py:73
+msgid "Pretty good!"
+msgstr "Celkom dobre!"
+
+#: core/statistics/templatetags/voter_extras.py:77
+msgid "Great!"
+msgstr "Skvelé!"
+
+#: core/statistics/templatetags/voter_extras.py:81
+msgid "Perfect!"
+msgstr "Perfektne!"
+
+#: core/statistics/templatetags/voter_extras.py:124
+msgid "STORED RESULT"
+msgstr "ULOŽENÝ VÝSLEDOK"
+
+#: core/statistics/templatetags/voter_extras.py:132
+msgid "CALCULATED RESULT"
+msgstr "VYPOČÍTANÝ VÝSLEDOK"
+
+#: core/statistics/templatetags/voter_extras.py:137
+msgid ""
+"These results are different, because survey creator changed correct options "
+"in quiz questions. Contact him."
+msgstr ""
+"Tieto výsledky sú odlišné, pretože tvorca prieskumu zmenil správne možnosti "
+"kvízových otázok. Kontaktujte ho."
+
+#: core/statistics/urls.py:8
+msgctxt "url"
+msgid "answers/"
+msgstr "odpovede/"
+
+#: core/statistics/urls.py:9
+msgctxt "url"
+msgid "infographics/"
+msgstr "infografika/"
+
+#: core/statistics/views/infographics.py:248
+msgid "Male"
+msgstr "Muž"
+
+#: core/statistics/views/infographics.py:250
+msgid "Female"
+msgstr "Žena"
+
+#: core/statistics/views/infographics.py:252
+msgid "Unknown"
+msgstr "Neznáme"
+
+#: core/utils/fields.py:18
+msgid "All rows are required."
+msgstr "Všetky riadky sú povinné."
+
+#: core/utils/fields.py:19
+msgid "Values have to be unique."
+msgstr "Hodnoty musia byť unikátne."
+
+#: core/utils/helpers.py:9
+#, python-format
+msgid ""
+"You have not confirmed your email     address yet. If you did not receive "
+"confirmation, please click     <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Ešte nemáš potvrdenú svoju emailovú adresu. Ak ti neprišiel overovací e-"
+"mail, klikni <a href=\"%(url)s\">sem</a>."
+
+#: core/utils/mail.py:47
+msgid "New voter in your survey"
+msgstr "Nový respondent v tvojom prieskume"
+
+#: core/utils/mail.py:48
+#, python-format
+msgid "You have one new voter in your survey %(survey)s"
+msgstr "V tvojom prieskume %(survey)s odhlasoval ďalší respondent"
+
+#: core/utils/mail.py:52
+#, python-format
+msgid ""
+"You have one new voter in your survey <a href=\"%(url)s\">%(survey)s</a>"
+msgstr ""
+"V tvojom prieskume <a href=\"%(url)s\">%(survey)s</a> odhlasoval ďalší "
+"respondent."
+
+#: core/utils/mail.py:57
+msgid "New voters in your survey"
+msgstr "V tvojom prieskume odhlasoval ďalší respondent"
+
+#: core/utils/mail.py:58
+#, python-format
+msgid "You have %(voters_count)d new voters in your survey %(survey)s"
+msgstr ""
+"V tvojom prieskume %(survey)s odhlasovalo %(voters_count)d nových "
+"respondentov."
+
+#: core/utils/mail.py:62
+#, python-format
+msgid ""
+"You have %(voters_count)d new voters in your survey <a href=\"%(url)s\">"
+"%(survey)s</a>"
+msgstr ""
+"V tvojom prieskume <a href=\"%(url)s\">%(survey)s</a> odhlasovalo "
+"%(voters_count)d  nových respondentov."
+
+#: core/utils/templates/mails/quiz_result.html:3
+msgid "Your quiz result in survey"
+msgstr "Tvoj výsledok testu"
+
+#: core/utils/templates/mails/quiz_result.html:6
+msgid "Your results are also available here:"
+msgstr "Tvoje výsledky sú dostupné aj tu:"
+
+#: core/voting/admin.py:9 core/voting/models.py:35
+msgid "quiz result sent"
+msgstr "odoslaný výsledok kvízu"
+
+#: core/voting/api/urls.py:9
+msgctxt "url"
+msgid "vote/"
+msgstr "hlasovat/"
+
+#: core/voting/api/views.py:18
+msgid "Voter and request user mismatch"
+msgstr "Nezhoda v používateľovi respondenta a prihláseného používateľa"
+
+#: core/voting/api/views.py:21
+msgid "Time expired"
+msgstr "Čas vypršal"
+
+#: core/voting/api/views.py:26
+msgid "Voter and question survey mismatch"
+msgstr "Nezhoda v prieskume respondenta a prieskume otázky"
+
+#: core/voting/api/views.py:49
+msgid "Answers not saved because form is not valid"
+msgstr "Odpovede sa nepodarilo uložiť pretože formulár nie je validný"
+
+#: core/voting/api/views.py:54
+msgid "Answers couldn't be saved"
+msgstr "Odpovede sa nepodarilo uložiť"
+
+#: core/voting/api/views.py:56
+msgid "Answers saved"
+msgstr "Odpovede uložené"
+
+#: core/voting/forms.py:7
+msgid "Password"
+msgstr "Heslo"
+
+#: core/voting/forms.py:17
+msgid "Password is incorrect!"
+msgstr "Heslo je nesprávne!"
+
+#: core/voting/models.py:21
+msgid "user"
+msgstr "používateľ"
+
+#: core/voting/models.py:23
+msgid "language"
+msgstr "jazyk"
+
+#: core/voting/models.py:24 core/voting/models.py:165
+msgid "quiz result"
+msgstr "Výsledok testu"
+
+#: core/voting/models.py:27
+msgid "IP address"
+msgstr "IP adresa"
+
+#: core/voting/models.py:28
+msgid "voting started"
+msgstr "začiatok hlasovania"
+
+#: core/voting/models.py:29
+msgid "voting ended"
+msgstr "koniec hlasovania"
+
+#: core/voting/models.py:31
+msgid "voting duration"
+msgstr "dĺžka hlasovania"
+
+#: core/voting/models.py:33
+msgid "custom flag"
+msgstr "vlastná poznámka"
+
+#: core/voting/models.py:36
+msgid "API voter"
+msgstr "API respondent"
+
+#: core/voting/models.py:37
+msgid "irrelevant"
+msgstr "irelevantný"
+
+#: core/voting/models.py:45
+msgid "respondent"
+msgstr "respondent"
+
+#: core/voting/models.py:46
+msgid "respondents"
+msgstr "respondenti"
+
+#: core/voting/models.py:161 core/voting/models.py:202
+msgid "voter"
+msgstr "respondent"
+
+#: core/voting/models.py:164
+msgid "page"
+msgstr "stránka"
+
+#: core/voting/models.py:171
+msgid "voted question"
+msgstr "odhlasovaná otázka"
+
+#: core/voting/models.py:172
+msgid "voted questions"
+msgstr "odhlasované otázky"
+
+#: core/voting/models.py:205
+msgid "custom"
+msgstr "voliteľné"
+
+#: core/voting/models.py:209
+msgid "option column"
+msgstr "možnosť v stĺpci"
+
+#: core/voting/models.py:216
+msgid "answer"
+msgstr "odpoveď"
+
+#: core/voting/models.py:217
+msgid "answers"
+msgstr "odpovede"
+
+#: core/voting/templates/voting/already_voted.html:10
+msgid "You have already voted in this survey."
+msgstr "V tomto prieskume si už hlasoval."
+
+#: core/voting/templates/voting/already_voted.html:15
+#: core/voting/templates/voting/time_expired.html:15
+msgid "Your results are available here:"
+msgstr "Tvoje výsledky sú dostupné tu:"
+
+#: core/voting/templates/voting/finish.html:16
+msgid "Continue to"
+msgstr "Pokračovať na"
+
+#: core/voting/templates/voting/finish.html:21
+msgid "Your results will be available here:"
+msgstr "Tvoje výsledky budú dostupné tu:"
+
+#: core/voting/templates/voting/inactive.html:9
+msgid "This survey is inactive right now."
+msgstr "Tento prieskum je práve neaktívny."
+
+#: core/voting/templates/voting/intro.html:19
+msgid "Start"
+msgstr "Štart"
+
+#: core/voting/templates/voting/only_for_registered.html:9
+msgid "This survey is only for registered users."
+msgstr "Tento prieskum je len pre registrovaných používateľov."
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Log in"
+msgstr "Prihlásiť sa"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "or"
+msgstr "alebo"
+
+#: core/voting/templates/voting/only_for_registered.html:10
+msgid "Register"
+msgstr "Registrovať"
+
+#: core/voting/templates/voting/password.html:11
+msgid "This survey is password protected."
+msgstr "Tento prieskum je chránený heslom."
+
+#: core/voting/templates/voting/password.html:12
+msgid "Please, enter correct password."
+msgstr "Zadaj správne heslo prosím."
+
+#: core/voting/templates/voting/password.html:17
+msgid "Submit"
+msgstr "Potvrdiť"
+
+#: core/voting/templates/voting/time_expired.html:10
+msgid "Voting time expired."
+msgstr "Čas hlasovania vypršal."
+
+#: core/voting/urls.py:9
+msgctxt "url"
+msgid "finish/<str:slug>/"
+msgstr "dokoncit/<str:slug>/"
+
+#: core/voting/urls.py:10
+msgctxt "url"
+msgid "inactive/<str:slug>/"
+msgstr "neaktivne/<str:slug>/"
+
+#: core/voting/urls.py:11
+msgctxt "url"
+msgid "password/<str:slug>/"
+msgstr "heslo/<str:slug>/"
+
+#: core/voting/urls.py:12
+msgctxt "url"
+msgid "already-voted/<str:slug>/"
+msgstr "uz-odhlasovane/<str:slug>/"
+
+#: core/voting/urls.py:13
+msgctxt "url"
+msgid "expired/<str:slug>/"
+msgstr "cas-vyprsal/<str:slug>/"
+
+#: core/voting/urls.py:14
+msgctxt "url"
+msgid "only-for-registered/<str:slug>/"
+msgstr "len-pre-registrovanych/<str:slug>/"
+
+#: core/voting/urls.py:15
+msgctxt "url"
+msgid "respondent/<str:hash_key>/"
+msgstr "respondent/<str:hash_key>/"
+
+#: core/voting/views.py:67
+msgid "Time expired and your answers have been saved automatically"
+msgstr "Čas vypršal a Vaše odpovede boli automaticky uložené"
+
+#: core/voting/views.py:158
+msgid "Your response has been successfully saved."
+msgstr "Vaše odpovede boli úspešne uložené."
+
+#: core/voting/views.py:161
+msgid "Make sure that you have answered all required questions."
+msgstr "Uistite sa, že ste odpovedali na všetky povinné otázky."
+
+#: core/voting/views.py:288
+msgid "Respondent didn't finished the survey yet"
+msgstr "Respondent v prieskume ešte neskončil"
+
+#: urls.py:8
+msgid "surveys/"
+msgstr "prieskumy/"
+
+#: urls.py:9
+msgid "voting/"
+msgstr "hlasovanie/"
+
+#: urls.py:10
+msgid "statistics/"
+msgstr "statistiky/"
+
+#~ msgid "Enter question title"
+#~ msgstr "Napíš nadpis otázky"
+
+#~ msgctxt "url"
+#~ msgid "graphs/<str:slug>/"
+#~ msgstr "grafy/<str:slug>/"
+
+#~ msgctxt "url"
+#~ msgid "infographics/<str:slug>/"
+#~ msgstr "infografika/<str:slug>/"
+
+#~ msgid "Unknown user"
+#~ msgstr "Neznámy používateľ"
+
+#~ msgid "once"
+#~ msgstr "raz"
+
+#~ msgid "persistently"
+#~ msgstr "opakovane"
+
+#~ msgid "segment"
+#~ msgstr "segment"
+
+#~ msgid "execution type"
+#~ msgstr "typ spustenia"
+
+#~ msgid "bundles"
+#~ msgstr "bundles"
+
+#~ msgid "create"
+#~ msgstr "vytvorené"
+
+#~ msgid "campaign"
+#~ msgstr "kampaň"
+
+#~ msgid "campaigns"
+#~ msgstr "kampane"
+
+#~ msgid "contacts"
+#~ msgstr "kontakty"
+
+#~ msgid "external identifier"
+#~ msgstr "externý identifikátor"
+
+#~ msgid "first name"
+#~ msgstr "krstné meno"
+
+#~ msgid "last name"
+#~ msgstr "priezvisko"
+
+#~ msgid "phone"
+#~ msgstr "telefón"
+
+#~ msgid "email"
+#~ msgstr "e-mail"
+
+#~ msgid "exclude from campaigns"
+#~ msgstr "vynechať z kampaní"
+
+#~ msgid "contact"
+#~ msgstr "kontakt"
+
+#~ msgid "data"
+#~ msgstr "dáta"
+
+#~ msgid "format"
+#~ msgstr "formát"
+
+#~ msgid "columns"
+#~ msgstr "stĺpce"
+
+#~ msgid "separator"
+#~ msgstr "oddeľovač"
+
+#~ msgid "modfied"
+#~ msgstr "zmenené"
+
+#~ msgid "import"
+#~ msgstr "import"
+
+#~ msgid "imports"
+#~ msgstr "importy"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "First name"
+#~ msgstr "Krstné meno"
+
+#~ msgid "Surname"
+#~ msgstr "Priezvisko"
+
+#~ msgid "Confirm password"
+#~ msgstr "Potvrdiť heslo"
+
+#~ msgid "A user with that username         already exists."
+#~ msgstr "Používateľ s týmto prihlasovacím menom už existuje."
+
+#~ msgid "The two password fields             didn't match."
+#~ msgstr "Heslá sa nezhodujú."
+
+#~ msgid "Old password"
+#~ msgstr "Staré heslo"
+
+#~ msgid "New password"
+#~ msgstr "Nové heslo"
+
+#~ msgid "Retype password"
+#~ msgstr "Nové heslo ešte raz"
+
+#~ msgid "Old password is not correct"
+#~ msgstr "Staré heslo nesúhlasí"
+
+#~ msgid "New and retyped password             must be same."
+#~ msgstr "Nové heslá nesúhlasia"
+
+#~ msgid "Date of birth"
+#~ msgstr "Dátum narodenia"
+
+#~ msgid "Public options"
+#~ msgstr "Verejné nastavenia"
+
+#~ msgid "Private information"
+#~ msgstr "Osobné informácie"
+
+#~ msgid ""
+#~ "Slug used to customize sharing URL. For example my-segment. Keep blank to "
+#~ "be autogenerated by your name."
+#~ msgstr ""
+#~ "Slovo pre prispôsobenie URL zdieľania. Napr. jan-novak. Nechaj prázdne, "
+#~ "ak chceš aby bolo toto slovo automaticky vygenerované podľa tvojho mena."
+
+#~ msgid "Gender"
+#~ msgstr "Pohlavie"
+
+#~ msgid ""
+#~ "Stay calm, your privacy is safe. It will be used for statistical purposes "
+#~ "only"
+#~ msgstr ""
+#~ "Buď pokojný, tvoje súkromné údaje sú v bezpečí. Údaj sa použije iba na "
+#~ "štatistické účely"
+
+#~ msgid "URL is already taken."
+#~ msgstr "URL už existuje."
+
+#~ msgid "Saving failed. Check your inputs."
+#~ msgstr "Ukladanie zlyhalo. Skontroluj si údaje."
+
+#~ msgid "Basic"
+#~ msgstr "Základný"
+
+#~ msgid "Standard"
+#~ msgstr "Štandardný"
+
+#~ msgid "Premium"
+#~ msgstr "Prémiový"
+
+#~ msgid "package"
+#~ msgstr "balík"
+
+#~ msgid "package valid to"
+#~ msgstr "balík platný do"
+
+#~ msgid "activation hash"
+#~ msgstr "aktivačný reťazec"
+
+#~ msgid "API key"
+#~ msgstr "API kľúč"
+
+#~ msgid "URL alias"
+#~ msgstr "URL alias"
+
+#~ msgid "last seen surveys"
+#~ msgstr "prieskumy naposledy videné"
+
+#~ msgid "profile"
+#~ msgstr "profil"
+
+#~ msgid "profiles"
+#~ msgstr "profily"
+
+#~ msgid "date of birth"
+#~ msgstr "dátum narodenia"
+
+#~ msgid "None"
+#~ msgstr "Žiadne"
+
+#~ msgid "API Keys"
+#~ msgstr "API kľúče"
+
+#~ msgid ""
+#~ "To authorize to the VoteHub system through API, you need an API key. This "
+#~ "key needs to be send with every API request. Keep your API key secret!"
+#~ msgstr ""
+#~ "Na autorizáciu s VoteHub systémom cez API potrebujete API kľúč. Tento "
+#~ "kľúč je potrebné zasielať s každou API požiadavkou. Držte svoj API kľúč v "
+#~ "tajnosti!"
+
+#~ msgid "Your API key is:"
+#~ msgstr "Váš API kľúč je:"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Change password"
+#~ msgstr "Zmeniť heslo"
+
+#~ msgid "My surveys"
+#~ msgstr "Moje prieskumy"
+
+#~ msgid "Voting history"
+#~ msgstr "História hlasovaní"
+
+#~ msgid "API keys"
+#~ msgstr "API kľúče"
+
+#~ msgid "Login"
+#~ msgstr "Prihlásenie"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Zabudol si heslo?"
+
+#~ msgid "Package"
+#~ msgstr "Balík"
+
+#~ msgid "Back"
+#~ msgstr "Späť"
+
+#~ msgid "Your currently active package"
+#~ msgstr "Tvoj aktuálne aktívny balík"
+
+#~ msgid "Monthly fee"
+#~ msgstr "Mesačný poplatok"
+
+#~ msgid "EUR per month"
+#~ msgstr "EUR mesačne"
+
+#~ msgid "Valid to"
+#~ msgstr "Platné do"
+
+#~ msgid "View pricing"
+#~ msgstr "Zobraziť cenník"
+
+#~ msgid "Update"
+#~ msgstr "Zmeniť"
+
+#~ msgid "Reset password"
+#~ msgstr "Obnova hesla"
+
+#~ msgid "Reset"
+#~ msgstr "Obnoviť"
+
+#~ msgid "Registration"
+#~ msgstr "Registrácia"
+
+#~ msgid "login/$"
+#~ msgstr "prihlasenie/$"
+
+#~ msgid "login/demo/$"
+#~ msgstr "prihlasenie/demo/$"
+
+#~ msgid "logout-register/$"
+#~ msgstr "odhlasenie-registracia/$"
+
+#~ msgid "register/$"
+#~ msgstr "registracia/$"
+
+#~ msgid "profile/$"
+#~ msgstr "profil/$"
+
+#~ msgid "api-keys/$"
+#~ msgstr "api-kluce/$"
+
+#~ msgid "package/$"
+#~ msgstr "balik/$"
+
+#~ msgid "logout/$"
+#~ msgstr "odhlasenie/$"
+
+#~ msgid "reset/$"
+#~ msgstr "obnova-hesla/$"
+
+#~ msgid "^activate/(?P<activation_hash>\\w+)/$"
+#~ msgstr "^aktivacia/(?P<activation_hash>\\w+)/$"
+
+#~ msgid "Your username or password was incorrect."
+#~ msgstr "Tvoje prihlasovacie meno alebo heslo bolo nesprávne."
+
+#~ msgid "Your account is not active!"
+#~ msgstr "Tvoj účet nie je aktívny!"
+
+#~ msgid "Please, check your email and activate your account."
+#~ msgstr "Skontroluj si svoj email a aktivuj si účet."
+
+#~ msgid "You have been successfully registered."
+#~ msgstr "Úspešne si sa zaregistroval."
+
+#~ msgid "Activation key is missing!"
+#~ msgstr "Chýba aktivačný kľúč"
+
+#~ msgid "Your account was successfully activated."
+#~ msgstr "Tvoj účet bol úspešne aktivovaný."
+
+#~ msgid "You have already activated your account!"
+#~ msgstr "Svoj účet si si už aktivoval!"
+
+#~ msgid "Your activation key is incorrect!"
+#~ msgstr "Tvoj aktivačný kľúč je nesprávny!"
+
+#~ msgid "Account"
+#~ msgstr "Účet"
+
+#~ msgid "Profile successfully saved."
+#~ msgstr "Profil bol úspešne uložený."
+
+#~ msgid "Your password was changed."
+#~ msgstr "Tvoje prihlasovacie heslo bolo zmenené."
+
+#~ msgid "Forgotten password"
+#~ msgstr "Zabudnuté heslo"
+
+#~ msgid "E-mail with new password was sent."
+#~ msgstr "Bol ti odoslaný e-mail s novým heslom."
+
+#~ msgid ""
+#~ "Could not send e-mail with new password.                         Check if "
+#~ "your e-mail address is correct or try again later, please "
+#~ msgstr ""
+#~ "E-mail s novým heslom sa nepodarilo odoslať. Skontrolujte správnosť "
+#~ "svojej e-mailovej adresy alebo skúste neskôr prosím."
+
+#~ msgid "User does not exists!"
+#~ msgstr "Používateľ neexistuje!"
+
+#~ msgid "New order"
+#~ msgstr "Nová objednávka"
+
+#~ msgid "Canceled"
+#~ msgstr "Zrušené"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "Pending"
+#~ msgstr "Čaká sa"
+
+#~ msgid "Finished"
+#~ msgstr "Ukončené"
+
+#~ msgid "Contact information"
+#~ msgstr "Kontaktné informácie"
+
+#~ msgid "Company details (if needed)"
+#~ msgstr "Spoločnosť (ak potrebné)"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "total"
+#~ msgstr "celkovo"
+
+#~ msgid "state"
+#~ msgstr "stav"
+
+#~ msgid "Merchant's payment identification"
+#~ msgstr "Obchodníkova identifikácia platby"
+
+#~ msgid "order"
+#~ msgstr "objednávka"
+
+#~ msgid "orders"
+#~ msgstr "objednávky"
+
+#~ msgid "company"
+#~ msgstr "spoločnosť"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "TAX ID"
+#~ msgstr "DIČ"
+
+#~ msgid "VAT"
+#~ msgstr "IČ DPH"
+
+#~ msgid "street and no."
+#~ msgstr "ulica a číslo"
+
+#~ msgid "city"
+#~ msgstr "mesto"
+
+#~ msgid "ZIP"
+#~ msgstr "PSČ"
+
+#~ msgid "information"
+#~ msgstr "informácie"
+
+#~ msgid "Buy"
+#~ msgstr "Kúpiť"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "        Thank you for choosing %(package)s package (%(fee)s EUR).\n"
+#~ "        It will be valid until %(package_valid_to)s.<br>\n"
+#~ "        Please, fill out all necessary fields to complete your "
+#~ "subscription.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Ďakujeme za výber balíka %(package)s (%(fee)s EUR).\n"
+#~ "Bude platný do %(package_valid_to)s.<br>\n"
+#~ "Na dokončenie procesu prosím vyplň všetky potrebné údaje."
+
+#~ msgid "Checkout via TrustPay"
+#~ msgstr "Zaplatiť cez TrustPay"
+
+#~ msgid "Checkout result"
+#~ msgstr "Skontrolovať výsledok"
+
+#~ msgid "Pricing"
+#~ msgstr "Cenník"
+
+#~ msgid "Sign up for free"
+#~ msgstr "Zaregistruj sa zdarma"
+
+#~ msgid "Buy Standard"
+#~ msgstr "Kúpiť štandard"
+
+#~ msgid "Buy Premium"
+#~ msgstr "Kúpiť premium"
+
+#~ msgid "^pricing/$"
+#~ msgstr "^cennik/$"
+
+#~ msgid "^buy-standard/$"
+#~ msgstr "^kupit-standard/$"
+
+#~ msgid "^buy-premium/$"
+#~ msgstr "^kupit-premium/$"
+
+#~ msgid "^success/$"
+#~ msgstr "^uspech/$"
+
+#~ msgid "^cancel/$"
+#~ msgstr "^zrusit/$"
+
+#~ msgid "^error/$"
+#~ msgstr "^chyba/$"
+
+#~ msgid "^notify/$"
+#~ msgstr "^notifikacia/$"
+
+#~ msgid "This field is required!"
+#~ msgstr "Toto pole je povinné!"
+
+#~ msgid "Image"
+#~ msgstr "Obrázok"
+
+#~ msgid "image"
+#~ msgstr "obrázok"
+
+#~ msgid "Enter option title"
+#~ msgstr "Napíš názov možnosti"
+
+#~ msgid "Image attachment"
+#~ msgstr "Obrázková príloha"
+
+#~ msgid "You can't disable empty rows if questions is not required."
+#~ msgstr "Nemôžete zakázať prázdne riadky ak otázka nie je povinná."
+
+#~ msgid "You can't enable empty rows if questions require unique answers."
+#~ msgstr ""
+#~ "Nemôžete povoliť prázdne riadky ak otázka vyžaduje jedinečné odpovede."
+
+#~ msgid "Correct"
+#~ msgstr "Správne"
+
+#~ msgid "Number of stars"
+#~ msgstr "Počet hviezd"
+
+#~ msgid "Top"
+#~ msgstr "Nahor"
+
+#~ msgid "Right"
+#~ msgstr "Vpravo"
+
+#~ msgid "Bottom"
+#~ msgstr "Nadol"
+
+#~ msgid "Left"
+#~ msgstr "Vľavo"
+
+#~ msgid "original"
+#~ msgstr "originál"
+
+#~ msgid "Phone"
+#~ msgstr "Telefón"
+
+#~ msgid "Select single"
+#~ msgstr "Výber jednej odpovede"
+
+#~ msgid "Select multiple"
+#~ msgstr "Výber viacerých odpovedí"
+
+#~ msgid "True/False"
+#~ msgstr "Pravda/Nepravda"
+
+#~ msgid "Rating stars"
+#~ msgstr "Hodnotenie hviezdami"
+
+#~ msgid "Rating thumbs"
+#~ msgstr "Hodnotenie hlasmi"
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "Time"
+#~ msgstr "Čas"
+
+#~ msgid "image attachement"
+#~ msgstr "obrázková príloha"
+
+#~ msgid "width"
+#~ msgstr "šírka"
+
+#~ msgid "height"
+#~ msgstr "výška"
+
+#~ msgid "image position"
+#~ msgstr "pozícia obrázka"
+
+#~ msgid "image size"
+#~ msgstr "veľkosť obrázka"
+
+#~ msgid "true label"
+#~ msgstr "označenie pravdy"
+
+#~ msgid "True"
+#~ msgstr "Pravda"
+
+#~ msgid "false label"
+#~ msgstr "označenie nepravdy"
+
+#~ msgid "False"
+#~ msgstr "Nepravda"
+
+#~ msgid "Question types"
+#~ msgstr "Typy otázok"
+
+#~ msgid "Question"
+#~ msgstr "Otázka"
+
+#~ msgid "Options"
+#~ msgstr "Možnosti"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušiť"
+
+#~ msgid "Popular"
+#~ msgstr "Obľúbené"
+
+#~ msgid "One answer"
+#~ msgstr "Jedna odpoveď"
+
+#~ msgid "Multiple answers"
+#~ msgstr "Viacero odpovedí"
+
+#~ msgid "Advanced"
+#~ msgstr "Pokročilé"
+
+#~ msgid "Single drop-down"
+#~ msgstr "Výber jednej odpovede"
+
+#~ msgid "Multiple drop-down"
+#~ msgstr "Výber viacerých odpovedí"
+
+#~ msgid "Radio matrix"
+#~ msgstr "Matica s jednou odpoveďou"
+
+#~ msgid "Checkbox matrix"
+#~ msgstr "Matica s viacerými odpoveďami"
+
+#~ msgid "Thumbs"
+#~ msgstr "Hodnotenie hlasmi"
+
+#~ msgid "Your new survey"
+#~ msgstr "Tvoj nový prieskum"
+
+#~ msgid "Great!<br> Now lets create your first question."
+#~ msgstr "Skvelé!<br> Teraz vytvor svoju prvú otázku."
+
+#~ msgid "Select the element you need from the sidebar"
+#~ msgstr "Z bočného panela si vyber typ, ktorý potrebuješ."
+
+#~ msgid "Edit"
+#~ msgstr "Upraviť"
+
+#~ msgid "Delete question"
+#~ msgstr "Zmazať otázku"
+
+#~ msgid "Delete"
+#~ msgstr "Zmazať"
+
+#~ msgid "Move"
+#~ msgstr "Premiestniť"
+
+#~ msgid "Your new question will be here."
+#~ msgstr "Tvoja nová otázka bude tu."
+
+#~ msgid "Continue"
+#~ msgstr "Pokračovať"
+
+#~ msgid "Row options"
+#~ msgstr "Riadky"
+
+#~ msgid "Add row option"
+#~ msgstr "Pridať riadok"
+
+#~ msgid "Column options"
+#~ msgstr "Stĺpce"
+
+#~ msgid "Add column option"
+#~ msgstr "Pridať stĺpec"
+
+#~ msgid "Change preface"
+#~ msgstr "Zmeniť predslov"
+
+#~ msgid "create/radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/gender/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/pohlavie/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/gender/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/pohlavie/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/select-single/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/vyber-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/select-single/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/vyber-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/select-multiple/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/vyber-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/select-multiple/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/vyber-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/textfield/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/jednoriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/textfield/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/jednoriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/email/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/email/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/email/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/email/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/phone/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/telefon/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/phone/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/telefon/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/textarea/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/viacriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/textarea/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/viacriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/matrix-radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/matica-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/matrix-radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/matrix-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/matrix-checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/matrix-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/matrix-checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/matrix-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/true-false/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/pravda-nepravda/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/true-false/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/pravda-nepravda/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/stars/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/hodnotenie-hviezdami/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/stars/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/hodnotenie-hviezdami/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/thumbs/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/hodnotenie-hlasmi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/thumbs/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/hodnotenie-hlasmi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/date/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/datum/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/date/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/datum/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "create/time/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/cas/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "update/time/(?P<pk>[-\\d]+)/$"
+#~ msgstr "upravit/cas/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "image/delete/(?P<pk>[-\\d]+)/$"
+#~ msgstr "obrazok/zmazat/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "image/delete/option/(?P<pk>[-\\d]+)/$"
+#~ msgstr "obrazok/zmazat/moznost/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "delete/(?P<pk>[-\\d]+)/$"
+#~ msgstr "zmazat/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "preview/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nahlad/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "Create checkbox"
+#~ msgstr "Vytvoriť otázku: viacero odpovedí"
+
+#~ msgid "Update checkbox"
+#~ msgstr "Upraviť otázku: viacero odpovedí"
+
+#~ msgid "Create date"
+#~ msgstr "Vytvoriť otázku: dátum"
+
+#~ msgid "Enter date"
+#~ msgstr "Zadaj dátum"
+
+#~ msgid "Update date"
+#~ msgstr "Upraviť otázku: dátum"
+
+#~ msgid "Create email"
+#~ msgstr "Vytvoriť otázku: e-mail"
+
+#~ msgid "Your email"
+#~ msgstr "Tvoj e-mail"
+
+#~ msgid "Update email"
+#~ msgstr "Upraviť otázku: e-mail"
+
+#~ msgid "Create gender"
+#~ msgstr "Vytvoriť otázku: pohlavie"
+
+#~ msgid "What is your gender?"
+#~ msgstr "Aké je tvoje pohlavie?"
+
+#~ msgid "Update gender"
+#~ msgstr "Upraviť otázku: pohlavie"
+
+#~ msgid "Surveys"
+#~ msgstr "Prieskumy"
+
+#~ msgid "Please, change the default survey title by clicking on it."
+#~ msgstr "Zmeň preddefinovaný nadpis prieskumu tým, že naň klikneš."
+
+#~ msgid "Question successfully deleted."
+#~ msgstr "Otázka bola úspešne odstránená."
+
+#~ msgid "Question successfully created."
+#~ msgstr "Otázka bola úspešne vytvorená."
+
+#~ msgid "New option"
+#~ msgstr "Nová možnosť"
+
+#~ msgid "Option successfully created."
+#~ msgstr "Možnosť bola úspešne vytvorená."
+
+#~ msgid "Done"
+#~ msgstr "Hotovo"
+
+#~ msgid "Add option"
+#~ msgstr "Pridať možnosť"
+
+#~ msgid "Order"
+#~ msgstr "Poradie"
+
+#~ msgid "You must keep at least 2 options!"
+#~ msgstr "Musíš ponechať najmenej dve možnosti!"
+
+#~ msgid "Question successfully updated."
+#~ msgstr "Otázka bola úspešne upravená."
+
+#~ msgid "Image successfully deleted."
+#~ msgstr "Obrázok bol úspešne odstránený."
+
+#~ msgid "Create checkbox matrix"
+#~ msgstr "Vytvoriť otázku: matica s viacerými odpoveďami"
+
+#~ msgid "Update checkbox matrix"
+#~ msgstr "Upraviť otázku: matica s viacerými odpoveďami"
+
+#~ msgid "Row option successfully created."
+#~ msgstr "Riadok bol úspešne vytvorený."
+
+#~ msgid "Column option successfully created."
+#~ msgstr "Stĺpec bol úspešne vytvorený."
+
+#~ msgid "Create radio matrix"
+#~ msgstr "Vytvoriť otázku: matica s jednou odpoveďou"
+
+#~ msgid "You must keep at least 2 row options!"
+#~ msgstr "Musíš ponechať najmenej dva riadky!"
+
+#~ msgid "You must keep at least 2 column options!"
+#~ msgstr "Musíš ponechať najmenej dva stĺpce!"
+
+#~ msgid "Update radio matrix"
+#~ msgstr "Upraviť otázku: matica s jednou odpoveďou"
+
+#~ msgid "Create phone"
+#~ msgstr "Vytvoriť otázku: telefón"
+
+#~ msgid "Your phone"
+#~ msgstr "Tvoj telefón"
+
+#~ msgid "Update phone"
+#~ msgstr "Upraviť otázku: telefón"
+
+#~ msgid "Create radio"
+#~ msgstr "Vytvoriť otázku: jedna odpoveď"
+
+#~ msgid "Update radio"
+#~ msgstr "Upraviť otázku: jedna odpoveď"
+
+#~ msgid "Create multiple select"
+#~ msgstr "Vytvoriť otázku: výber viacerých odpovedí"
+
+#~ msgid "Update multiple select"
+#~ msgstr "Upraviť otázku: výber viacerých odpovedí"
+
+#~ msgid "Create single select"
+#~ msgstr "Vytvoriť otázku: výber jednej odpovede"
+
+#~ msgid "Update single select"
+#~ msgstr "Upraviť otázku: výber jednej odpovede"
+
+#~ msgid "Create rating stars"
+#~ msgstr "Vytvoriť otázku: hodnotenie hviezdami"
+
+#~ msgid ""
+#~ "Be careful! Changing count of stars to lower value will delete existing "
+#~ "corresponding votes!"
+#~ msgstr ""
+#~ "Pozor! Zmena počtu hviezd na nižšiu hodnotu zapríčiní zmazanie "
+#~ "existujúcich korešpondujúcich hlasov!"
+
+#~ msgid "Update rating stars"
+#~ msgstr "Upraviť otázku: hodnotenie hviezdami"
+
+#~ msgid "Create textarea"
+#~ msgstr "Vytvoriť otázku: viacriadkový text"
+
+#~ msgid "Update textarea"
+#~ msgstr "Upraviť otázku: viacriadkový text"
+
+#~ msgid "Create textfield"
+#~ msgstr "Vytvoriť otázku: jednoriadkový text"
+
+#~ msgid "Update textfield"
+#~ msgstr "Upraviť otázku: jednoriadkový text"
+
+#~ msgid "Create rating thumbs"
+#~ msgstr "Vytvoriť otázku: hodnotenie hlasmi"
+
+#~ msgid "Update rating thumbs"
+#~ msgstr "Upraviť otázku: hodnotenie hlasmi"
+
+#~ msgid "Create time"
+#~ msgstr "Vytvoriť otázku: čas"
+
+#~ msgid "Enter time"
+#~ msgstr "Zadaj čas"
+
+#~ msgid "Update time"
+#~ msgstr "Upraviť otázku: čas"
+
+#~ msgid "Create true/false"
+#~ msgstr "Vytvoriť otázku: pravda/nepravda"
+
+#~ msgid "Update true/false"
+#~ msgstr "Upraviť otázku: pravda/nepravda"
+
+#~ msgid "Question statistics"
+#~ msgstr "Štatistiky otázky"
+
+#~ msgid "Date of export"
+#~ msgstr "Dátum exportu"
+
+#~ msgid "Objects"
+#~ msgstr "Objekty"
+
+#~ msgid "Object"
+#~ msgstr "Objekt"
+
+#~ msgid "Title"
+#~ msgstr "Názov"
+
+#~ msgid "Created"
+#~ msgstr "Vytvorené"
+
+#~ msgid "Segment"
+#~ msgstr "Segment"
+
+#~ msgid "Survey"
+#~ msgstr "Prieskum"
+
+#~ msgid "Percent"
+#~ msgstr "Percent"
+
+#~ msgid "Total answers"
+#~ msgstr "Celkovo odpovedí"
+
+#~ msgid "Total voters"
+#~ msgstr "Celkovo respondentov"
+
+#~ msgid "Answer ID"
+#~ msgstr "ID odpovede"
+
+#~ msgid "Voter ID"
+#~ msgstr "ID respondenta"
+
+#~ msgid "User ID"
+#~ msgstr "ID používateľa"
+
+#~ msgid "User fullname"
+#~ msgstr "Celé meno používateľa"
+
+#~ msgid "Option ID"
+#~ msgstr "ID možnosti"
+
+#~ msgid "Option title"
+#~ msgstr "Názov možnosti"
+
+#~ msgid "Empty"
+#~ msgstr "Prázdne"
+
+#~ msgid "Entered values"
+#~ msgstr "Zadané hodnoty"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Total different values"
+#~ msgstr "Celkovo rôznych hodnôt"
+
+#~ msgid "Entered text"
+#~ msgstr "Zadaný text"
+
+#~ msgid "Rows and columns"
+#~ msgstr "Riadky a stĺpce"
+
+#~ msgid "Row option ID"
+#~ msgstr "ID riadka"
+
+#~ msgid "Row option title"
+#~ msgstr "Názov riadka"
+
+#~ msgid "Column option ID"
+#~ msgstr "ID stĺpca"
+
+#~ msgid "Column option title"
+#~ msgstr "Názov stĺpca"
+
+#~ msgid "Average"
+#~ msgstr "Priemer"
+
+#~ msgid "Survey statistics"
+#~ msgstr "Štatistiky prieskumu"
+
+#~ msgid "There is no question in this survey. Create some."
+#~ msgstr "V tomto prieskume sa nenachádza žiadna otázka. Vytvor nejakú."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "                        You have %(voters_count)s voters in this survey, "
+#~ "but\n"
+#~ "                        your voter limit per survey is <span class=\"limit"
+#~ "\">%(package_voters_limit)s</span> (%(package)s package).\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "V tomto prieskume máš %(voters_count)s respondentov, ale tvoj limit na "
+#~ "jeden prieskum je <span class=\"limit\">%(package_voters_limit)s</span> "
+#~ "hlasujúcich (%(package)s package)."
+
+#~ msgid "Average result of categories"
+#~ msgstr "Priemerné výsledky kategórií"
+
+#~ msgid "Count of questions"
+#~ msgstr "Počet otázok"
+
+#~ msgid "Questions"
+#~ msgstr "Otázky"
+
+#~ msgid "Loading, please wait."
+#~ msgstr "Načítavajú sa údaje, počkaj prosím."
+
+#~ msgid "Export to .pdf"
+#~ msgstr "Export do .pdf"
+
+#~ msgid "You can share these survey statistics via public URL:"
+#~ msgstr ""
+#~ "Štatistiky tohto prieskumu možeš odzdieľat pomocou verejnej URL adresy:"
+
+#~ msgid "You can share these segment statistics via public URL:"
+#~ msgstr ""
+#~ "Štatistiky tohto segmentu možeš odzdieľat pomocou verejnej URL adresy:"
+
+#~ msgid "votes"
+#~ msgstr "hlasov"
+
+#~ msgid "Export to .csv"
+#~ msgstr "Export do .csv"
+
+#~ msgid "Graphs"
+#~ msgstr "Grafy"
+
+#~ msgid "Average rating:"
+#~ msgstr "Priemerné hodnotenie:"
+
+#~ msgid "Segments"
+#~ msgstr "Segmenty"
+
+#~ msgid "Survey infographics"
+#~ msgstr "Infografika prieskumu"
+
+#~ msgid "No voters found. Share your survey."
+#~ msgstr "Nenašli sa žiadni respondenti. Zdieľaj svoj prieskum."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "                                You have %(voters_count)s voters in this "
+#~ "survey, but\n"
+#~ "                                your voter limit per survey is <span "
+#~ "class=\"limit\">%(package_voters_limit)s</span> (%(package)s package).\n"
+#~ "                            "
+#~ msgstr ""
+#~ "\n"
+#~ "V tomto prieskume máš %(voters_count)s respondentov, ale tvoj limit na "
+#~ "jeden prieskum je <span class=\"limit\">%(package_voters_limit)s</span> "
+#~ "hlasujúcich (%(package)s package)."
+
+#~ msgid "Voting duration"
+#~ msgstr "Trvanie hlasovania"
+
+#~ msgid "in minutes"
+#~ msgstr "v minútach"
+
+#~ msgid "Average quiz result by age"
+#~ msgstr "Priemerný výsledok testu v závislosti od veku"
+
+#~ msgid "Total count of respondents"
+#~ msgstr "Celkový počet respondentov"
+
+#~ msgid "Voter hasn't voted in any question."
+#~ msgstr "Respondent nehlasoval v žiadnej z otázok."
+
+#~ msgid "Results of this voter are also available here:"
+#~ msgstr "Výsledky tohto respondenta sú taktiež dostupné tu:"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgid "Voters"
+#~ msgstr "Respondenti"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "                            You have %(voters_count)s voters in this "
+#~ "survey, but\n"
+#~ "                            your voter limit per survey is <span class="
+#~ "\"limit\">%(package_voters_limit)s</span> (%(package)s package).\n"
+#~ "                        "
+#~ msgstr ""
+#~ "\n"
+#~ "V tomto prieskume máš %(voters_count)s respondentov, ale tvoj limit na "
+#~ "jeden prieskum je <span class=\"limit\">%(package_voters_limit)s</span> "
+#~ "hlasujúcich (%(package)s package)."
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonym"
+
+#~ msgid "Show answers"
+#~ msgstr "Ukázať odpovede"
+
+#~ msgid "Delete voter"
+#~ msgstr "Zmazať respondenta"
+
+#~ msgid "My voting history"
+#~ msgstr "Moja história hlasovaní"
+
+#~ msgid "You haven't voted in any survey yet."
+#~ msgstr "Ešte si nehlasoval v žiadnom prieskume."
+
+#~ msgid "graphs/(?P<pk>[-\\d]+)/$"
+#~ msgstr "grafy/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graphs/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "grafy/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graphs/segment/(?P<round_hash_key>[-\\w]+)/$"
+#~ msgstr "grafy/segment/(?P<round_hash_key>[-\\w]+)/$"
+
+#~ msgid "graphs/survey/(?P<survey_hash_key>[-\\w]+)/$"
+#~ msgstr "grafy/prieskum/(?P<survey_hash_key>[-\\w]+)/$"
+
+#~ msgid "infographics/(?P<pk>[-\\d]+)/$"
+#~ msgstr "infografika/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "infographics/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "infografika/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "infographics/segment/(?P<round_hash_key>[-\\w]+)/$"
+#~ msgstr "infografika/segment/(?P<round_hash_key>[-\\w]+)/$"
+
+#~ msgid "infographics/survey/(?P<survey_hash_key>[-\\w]+)/$"
+#~ msgstr "infografika/prieskum/(?P<survey_hash_key>[-\\w]+)/$"
+
+#~ msgid "voters/to-fix/(?P<password>[-\\w]+)/$"
+#~ msgstr "respondenti/to-fix/(?P<password>[-\\w]+)/$"
+
+#~ msgid "voters/generate-quiz-results/(?P<password>[-\\w]+)/$"
+#~ msgstr "respondenti/generate-quiz-results/(?P<password>[-\\w]+)/$"
+
+#~ msgid ""
+#~ "voters/pregenerate-quiz-results/(?P<round_pk>[-\\d]+)/(?P<password>[-"
+#~ "\\w]+)/$"
+#~ msgstr ""
+#~ "voters/pregenerate-quiz-results/(?P<round_pk>[-\\d]+)/(?P<password>[-"
+#~ "\\w]+)/$"
+
+#~ msgid "voters/delete/(?P<pk>[-\\d]+)/$"
+#~ msgstr "respondenti/zmazat/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "voters/(?P<pk>[-\\d]+)/$"
+#~ msgstr "respondenti/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "voters/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "respondenti/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "voter/(?P<pk>[-\\d]+)/edit/$"
+#~ msgstr "respondent/(?P<pk>[-\\d]+)/upravit/$"
+
+#~ msgid "voter/(?P<pk>[-\\d]+)/$"
+#~ msgstr "respondent/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "voter/result/(?P<hash_key>[-\\w]+)/$"
+#~ msgstr "respondent/vysledok/(?P<hash_key>[-\\w]+)/$"
+
+#~ msgid "voting/history/$"
+#~ msgstr "hlasovanie/historia/$"
+
+#~ msgid "history/voter/(?P<hash_key>[-\\w]+)/$"
+#~ msgstr "historia/respondent/(?P<hash_key>[-\\w]+)/$"
+
+#~ msgid "export/csv/(?P<pk>[-\\d]+)/$"
+#~ msgstr "export/csv/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "export/csv/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "export/csv/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graphs/(?P<pk>[-\\d]+)/export/pdf/$"
+#~ msgstr "grafy/(?P<pk>[-\\d]+)/export/pdf/$"
+
+#~ msgid "graph/radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "grafy/jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/radio/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "grafy/jedna-odpoved/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/gender/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/pohlavie/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/gender/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "graf/pohlavie/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/checkbox/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/viacero-odpovedi/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/select-single/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/vyber-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/select-single/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/vyber-jedna-odpoved/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/select-multiple/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/vyber-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid ""
+#~ "graph/select-multiple/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/vyber-viacero-odpovedi/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/"
+#~ "$"
+
+#~ msgid "graph/textfield/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/jednoriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/textfield/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/jednoriadkovy-text/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/textarea/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/viacriadkovy-text/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/textarea/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/viacriadkovy-text/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/email/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/email/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/email/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "graf/email/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/phone/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/telefon/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/phone/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "graf/telefon/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/date/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/datum/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/date/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "graf/datum/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/time/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/cas/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/time/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "graf/cas/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/matrix-radio/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/matica-jedna-odpoved/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/matrix-radio/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/matica-jedna-odpoved/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/matrix-checkbox/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/matica-viacero-odpovedi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid ""
+#~ "graph/matrix-checkbox/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/matica-viacero-odpovedi/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-"
+#~ "\\d]+)/$"
+
+#~ msgid "graph/true-false/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/pravda-nepravda/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/true-false/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/pravda-nepravda/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/stars/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/hodnotenie-hviezdami/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/stars/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/hodnotenie-hviezdami/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "graph/thumbs/(?P<pk>[-\\d]+)/$"
+#~ msgstr "graf/hodnotenie-hlasmi/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "graph/thumbs/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr ""
+#~ "graf/hodnotenie-hlasmi/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "Survey questions"
+#~ msgstr "Otázky prieskumu"
+
+#~ msgid "Voter successfully deleted."
+#~ msgstr "Respondent bol úspešne odstránený."
+
+#~ msgid "Make a Copy of Object"
+#~ msgstr "Vytvor kópiu objektu"
+
+#~ msgid "Email treshold"
+#~ msgstr "Emailové notifikácie"
+
+#~ msgid "Determine when do you want to receive email about new voters."
+#~ msgstr "Urči si, kedy chceš byť oboznámený  emailom o nových respondentoch."
+
+#~ msgid "Basic information"
+#~ msgstr "Základné informácie"
+
+#~ msgid "Voting settings"
+#~ msgstr "Nastavenia pre hlasovanie"
+
+#~ msgid "Security settings"
+#~ msgstr "Bezpečnostné nastavenia"
+
+#~ msgid "Advanced settings"
+#~ msgstr "Pokročilé nastavenia"
+
+#~ msgid "Immediately"
+#~ msgstr "Ihneď"
+
+#~ msgid "After 10 voters"
+#~ msgstr "Po 10 respondentoch"
+
+#~ msgid "After 100 voters"
+#~ msgstr "Po 100 respondentoch"
+
+#~ msgid "After 1000 voters"
+#~ msgstr "Po 1000 respondentoch"
+
+#, python-format
+#~ msgid ""
+#~ "Number has to be smaller or equal than count of survey questions (%d)!"
+#~ msgstr ""
+#~ "Číslo musí byť menšie alebo rovné ako počet otázok v prieskume (%d)!"
+
+#~ msgid "Number has to be bigger than 0!"
+#~ msgstr "Číslo musí byť väčšie ako 0!"
+
+#~ msgid "Fill both finish URL and its title or keep them blank."
+#~ msgstr ""
+#~ "Zadaj jednak URL adresu, a taktiež jej názov, alebo ich nechaj prázdne."
+
+#~ msgid "Your opinion means a lot to us. Thank you for it."
+#~ msgstr "Váš názor pre nás veľa znamená. Ďakujeme, že sa oň podelíte."
+
+#~ msgid "Thank you for participating in the survey."
+#~ msgstr "Ďakujeme, že ste sa zúčastnili prieskumu."
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "visibility"
+#~ msgstr "viditeľnosť"
+
+#~ msgid "ancestor"
+#~ msgstr "predchodca"
+
+#~ msgid "Default segment"
+#~ msgstr "Preddefinovaný segment"
+
+#~ msgid ""
+#~ "Slug used to customize sharing URL. For example my-segment. Keep blank to "
+#~ "be autogenerated by segment title."
+#~ msgstr ""
+#~ "Slovo pre prispôsobenie URL zdieľania. Napr. moj-segment. Nechaj prázdne, "
+#~ "ak chceš aby bolo toto slovo automaticky vygenerované podľa názvu "
+#~ "segmentu."
+
+#~ msgid ""
+#~ "Set the voting duration in minutes or keep the default         value (0) "
+#~ "for infinite."
+#~ msgstr ""
+#~ "Nastav dĺžku hlasovania v minútach alebo ponechaj preddefinovanú hodnotu "
+#~ "(0) pre časovo neobmedzené hlasovanie."
+
+#~ msgid "count of questions"
+#~ msgstr "počet otázok"
+
+#~ msgid ""
+#~ "Number of questions served to voter. Keep blank to serve all questions."
+#~ msgstr ""
+#~ "Počet otázok ktoré sa zobrazia hlasujúcemu používateľovi. Nechaj prázdne "
+#~ "ak chceš zobraziť všetky otázky prieskumu."
+
+#~ msgid "Finish URL"
+#~ msgstr "URL adresa po odhlasovaní"
+
+#~ msgid "Fill in if you want to show custom finish URL to voter after voting."
+#~ msgstr ""
+#~ "Ak chceš, zadaj URL adresu, ktorá sa zobrazí respondentovi po odhlasovaní."
+
+#~ msgid "Finish URL title"
+#~ msgstr "Názov URL adresy po odhlasovaní"
+
+#~ msgid "Email threshold"
+#~ msgstr "Prahová hodnota pre emaily"
+
+#~ msgid "anonymous"
+#~ msgstr "anonym"
+
+#~ msgid ""
+#~ "Set checked if you         don't want to public the names of responders "
+#~ "in the statistics."
+#~ msgstr "Zaškrtni ak nechceš zverejniť mená respondentov v štatistikách."
+
+#~ msgid "view survey"
+#~ msgstr "zobraziť prieskum"
+
+#~ msgid ""
+#~ "Set checked if         users can see survey questions without voting."
+#~ msgstr ""
+#~ "Zaškrtni, ak chceš sprístupniť otázky prieskumu používateľom bez nutnosti "
+#~ "odhlasovania."
+
+#~ msgid "Shuffle"
+#~ msgstr "Premiešať"
+
+#~ msgid "segments"
+#~ msgstr "Segmenty"
+
+#~ msgid "branding image"
+#~ msgstr "branding obrázok"
+
+#~ msgid "branding images"
+#~ msgstr "branding obrázky"
+
+#~ msgid "Create survey"
+#~ msgstr "Vytvoriť prieskum"
+
+#~ msgid "Create segment"
+#~ msgstr "Vytvoriť segment"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavenia"
+
+#~ msgid "Answers"
+#~ msgstr "Odpovede"
+
+#~ msgid "General"
+#~ msgstr "Všeobecné"
+
+#~ msgid "Branding"
+#~ msgstr "Branding"
+
+#~ msgid "Adress this one survey to different audiences!"
+#~ msgstr "Zacieľ tento prieskum rôznym cieľovým skupinám!"
+
+#~ msgid "Manage segments"
+#~ msgstr "Spravovať segmenty"
+
+#~ msgid "Total"
+#~ msgstr "Celkovo"
+
+#~ msgid "Summary"
+#~ msgstr "Sumarizácia"
+
+#~ msgid "There is no segment in this survey. Create some."
+#~ msgstr "V tomto prieskume sa nenachádza žiaden segment. Vytvor nejaké."
+
+#~ msgid "Share"
+#~ msgstr "Zdieľať"
+
+#~ msgid "Create"
+#~ msgstr "Vytvoriť"
+
+#~ msgid "Survey title"
+#~ msgstr "Nadpis prieskumu"
+
+#~ msgid "new"
+#~ msgstr "nových"
+
+#~ msgid "Basic settings"
+#~ msgstr "Základné nastavenia"
+
+#~ msgid "Delete survey"
+#~ msgstr "Zmazať prieskum"
+
+#~ msgid "You don't have any surveys. Create some!"
+#~ msgstr "Nemáš žiadne prieskumy. Vytvor nejaké!"
+
+#~ msgid "Available images"
+#~ msgstr "Dostupné obrázky"
+
+#~ msgid "Upload an image"
+#~ msgstr "Nahrať obrázok"
+
+#~ msgid "Upload branding image"
+#~ msgstr "Nahrať branding obrázok"
+
+#~ msgid "Update survey"
+#~ msgstr "Zmeniť prieskum"
+
+#~ msgid "Update segment"
+#~ msgstr "Zmeniť segment"
+
+#~ msgid "Delete segment"
+#~ msgstr "Zmazať segment"
+
+#~ msgid "Almost done!"
+#~ msgstr "Takmer hotovo!"
+
+#~ msgid "You have several possibilities how to share your survey:"
+#~ msgstr "Máš niekoľko možností odzdieľania svojho prieskumu:"
+
+#~ msgid "URL address"
+#~ msgstr "URL adresa"
+
+#~ msgid "Choose URL address format you like the most."
+#~ msgstr "Zvoľ si formát URL adresy, ktorý ti najviac vyhovuje."
+
+#~ msgid "Short link"
+#~ msgstr "Krátky odkaz"
+
+#~ msgid "Nice link"
+#~ msgstr "Pekný odkaz"
+
+#~ msgid "Profile link"
+#~ msgstr "Profilový odkaz"
+
+#~ msgid "Segment specific"
+#~ msgstr "Segmentové odkazy"
+
+#~ msgid "Goo.gl"
+#~ msgstr "Goo.gl"
+
+#~ msgid "QR code"
+#~ msgstr "QR kód"
+
+#~ msgid "You can share your survey by embedding this nice logo too!"
+#~ msgstr "Svoj prieskum môžeš zdieľať aj vložením tohto pekného loga!"
+
+#~ msgid "Print"
+#~ msgstr "Tlačiť"
+
+#~ msgid "Print questions"
+#~ msgstr "Vytlačiť otázky"
+
+#~ msgid ""
+#~ "You can create so called segments which will help you to separate voters "
+#~ "in your survey statistics. It is usefull in situations when you need to "
+#~ "summarize results of different audience groups. Each segment can be set "
+#~ "independently. You will be able to change segment title, voting date "
+#~ "ranges, access permission level and many other advanced settings."
+#~ msgstr ""
+#~ "Môžeš vytvoriť takzvané segmenty, ktoré ti pomôžu v separácii "
+#~ "respondentov v štatistikách tvojho prieskumu. Je to užitočné v "
+#~ "situáciách, keď potrebuješ zosumarizovať výsledky rôznych skupín "
+#~ "hlasujúcich používateľov. Každý segment môže byť nastavený nezávisle od "
+#~ "iných. Môžeš nastaviť jeho názov, časový rozsah hlasovania, úroveň "
+#~ "oprávnenia a mnoho iných pokročilých nastavení."
+
+#~ msgid "create/$"
+#~ msgstr "vytvorit/$"
+
+#~ msgid "create/segment/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vytvorit/segment/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/branding/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/branding/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/branding/upload-image/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/branding/nahrat-obrazok/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/branding/delete-image/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/branding/zmazat-obrazok/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/general/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/vseobecne/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/segments/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/segmenty/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/segments/(?P<pk>[-\\d]+)/(?P<pk_segment>[-\\d]+)/$"
+#~ msgstr "nastavenia/segmenty/(?P<pk>[-\\d]+)/(?P<pk_segment>[-\\d]+)/$"
+
+#~ msgid "settings/segments/delete/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/segmenty/zmazat/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "settings/basic/(?P<pk>[-\\d]+)/$"
+#~ msgstr "nastavenia/zakladne/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "share/(?P<pk>[-\\d]+)/$"
+#~ msgstr "zdielat/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "share/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+#~ msgstr "zdielat/(?P<pk>[-\\d]+)/segment/(?P<round_pk>[-\\d]+)/$"
+
+#~ msgid "print/(?P<pk>[-\\d]+)/$"
+#~ msgstr "tlacit/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "CSS code for survey template has been successfully updated."
+#~ msgstr "CSS kód pre šablonu prieskumu bol úspešne nahraný."
+
+#~ msgid "Branding image successfully deleted."
+#~ msgstr "Branding obrázok bol úspešne odstránený."
+
+#~ msgid "You have to keep at least one segment!"
+#~ msgstr "Músiš ponechať aspoň jeden segment!"
+
+#~ msgid "Segment successfully deleted."
+#~ msgstr "Segment bol úspešne odstránený."
+
+#~ msgid "Segment successfully created."
+#~ msgstr "Segment bol úspešne vytvorený."
+
+#~ msgid "Survey successfully deleted."
+#~ msgstr "Prieskum bol úspešne odstránený."
+
+#~ msgid "Survey successfully updated."
+#~ msgstr "Prieskum bol úspešne zmenený."
+
+#~ msgid "Segment successfully updated."
+#~ msgstr "Segment bol úspešne zmenený."
+
+#, python-format
+#~ msgid ""
+#~ "This is demo only. If you want to share your surveys, please <a href=\"%s"
+#~ "\">register</a>."
+#~ msgstr ""
+#~ "Toto je len demo ukážka. Ak chceš zdieľať svoje ankety, prosím <a href="
+#~ "\"%s\">zaregistruj sa</a>."
+
+#~ msgid "Request for new password"
+#~ msgstr "Požiadať o nové heslo"
+
+#, python-format
+#~ msgid ""
+#~ "Dear user, \n"
+#~ "\n"
+#~ " you have requested password recovery. Your     new password is "
+#~ "%(password)s"
+#~ msgstr ""
+#~ "Drahý používateľ, \n"
+#~ "\n"
+#~ "požiadal si o obnovu hesla. Tvoje nové heslo je:  %(password)s"
+
+#, python-format
+#~ msgid "Welcome %(user_name)s!"
+#~ msgstr "Vitajte %(user_name)s!"
+
+#, python-format
+#~ msgid ""
+#~ "Please click on this link to confirm your email address %(url)s%(uri)s"
+#~ msgstr ""
+#~ "Pre potvrdenie tvojej e-mailovej adresy klikni na tento odkaz: %(url)s"
+#~ "%(uri)s"
+
+#~ msgid "Votehub.net password reset"
+#~ msgstr "Obnova hesla na Votehub.net"
+
+#, python-format
+#~ msgid "Your new password is %(password)s"
+#~ msgstr "Tvoje nové heslo je %(password)s"
+
+#~ msgid "Currently"
+#~ msgstr "Aktuálne"
+
+#~ msgid "Change"
+#~ msgstr "Zmeniť"
+
+#~ msgid "Clear"
+#~ msgstr "Vymazať"
+
+#~ msgid "Remove image"
+#~ msgstr "Zmazať obrázok"
+
+#~ msgid "latitude"
+#~ msgstr "zemepisná šírka"
+
+#~ msgid "longitude"
+#~ msgstr "zemepisná dĺžka"
+
+#~ msgid "continent code"
+#~ msgstr "kód kontinentu"
+
+#~ msgid "country name"
+#~ msgstr "názov krajiny"
+
+#~ msgid "country code"
+#~ msgstr "kód krajiny"
+
+#~ msgid "area code"
+#~ msgstr "kód oblasti"
+
+#~ msgid "voters"
+#~ msgstr "respondenti"
+
+#~ msgid "welcome/(?P<pk>[-\\d]+)/$"
+#~ msgstr "vitaj/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "finish/(?P<pk>[-\\d]+)/$"
+#~ msgstr "koniec/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "inactive/(?P<pk>[-\\d]+)/$"
+#~ msgstr "neaktivne/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "password/(?P<pk>[-\\d]+)/$"
+#~ msgstr "heslo/(?P<pk>[-\\d]+)/$"
+
+#~ msgid "Voting"
+#~ msgstr "Hlasovanie"
+
+#~ msgid "Online surveys"
+#~ msgstr "Online prieskumy"
+
+#~ msgid "Home"
+#~ msgstr "Domov"
+
+#~ msgid "Display help text"
+#~ msgstr "Zobraziť pomocný text"
+
+#~ msgid "Logout"
+#~ msgstr "Odhlásiť sa"
+
+#~ msgid "^users/(?P<pk>[-\\d]+)"
+#~ msgstr "^pouzivatelia/(?P<pk>[-\\d]+)"
+
+#~ msgid "^users/(?P<slug>[-\\w]+)"
+#~ msgstr "^pouzivatelia/(?P<slug>[-\\w]+)"
+
+#~ msgid "^accounts/"
+#~ msgstr "^ucty/"
+
+#~ msgid "^questions/"
+#~ msgstr "^otazky/"
+
+#~ msgid "^impersonate/"
+#~ msgstr "^impersonate/"
+
+#~ msgid "English"
+#~ msgstr "Anglicky"
+
+#~ msgid "Slovak"
+#~ msgstr "Slovensky"
+
+#~ msgid "^facebook/"
+#~ msgstr "^facebook/"
+
+#~ msgid "Current API documentation is available here: "
+#~ msgstr "Aktuálna API dokumentácia je dostupná:"
+
+#~ msgid "download"
+#~ msgstr "stiahnuť"
+
+#~ msgid "Check out my new survey at %(link)s"
+#~ msgstr "Pozrite si môj nový prieskum na %(link)s"
+
+#~ msgid "Post to your wall"
+#~ msgstr "Pridať na stenu"
+
+#~ msgid "New payment on VoteHub"
+#~ msgstr "Nová platba na VoteHube"
+
+#~ msgid ""
+#~ "Dear admin, \n"
+#~ "\n"
+#~ " new payment was received by %(username)s         in value of %(cash)s"
+#~ "%(currency)s"
+#~ msgstr ""
+#~ "Drahý admin, \n"
+#~ "\n"
+#~ "prišla nová platba od používateľa %(username)s vo výške %(cash)s"
+#~ "%(currency)s"
+
+#~ msgid "Single option"
+#~ msgstr "Jedna odpoveď"
+
+#~ msgid "Multiple options"
+#~ msgstr "Viacero odpovedí"
+
+#~ msgid "Text inputs"
+#~ msgstr "Textové polie"
+
+#~ msgid "Date &amp; time"
+#~ msgstr "Dátum &amp; čas"
+
+#~ msgid "Matrixes"
+#~ msgstr "Matice"
+
+#~ msgid "Ratings"
+#~ msgstr "Hodnotenia"
+
+#~ msgid "Stars"
+#~ msgstr "Hodnotenie hviezdami"
+
+#~ msgid "Please correct errors."
+#~ msgstr "Oprav chyby, prosím."
+
+#~ msgid "Welcome!"
+#~ msgstr "Vitajte!"
+
+#~ msgid "^payments/"
+#~ msgstr "^platby/"
+
+#~ msgid "New password successfully saved."
+#~ msgstr "Nové heslo bolo úspešne uložené."
+
+#~ msgid "admin"
+#~ msgstr "admin"
+
+#~ msgid "question position"
+#~ msgstr "pozícia otázky"
+
+#~ msgid "Welcome to VoteHub"
+#~ msgstr "Vitaj na VoteHube"
+
+#~ msgid "total answers"
+#~ msgstr "celkovo odpovedí"
+
+#~ msgid "TOTAL RESULT"
+#~ msgstr "CELKOVÝ VÝSLEDOK"
+
+#~ msgid "Please, change the default question title."
+#~ msgstr "Zmeň preddefinovaný nadpis otázky."
+
+#~ msgid "required"
+#~ msgstr "požadované"
+
+#~ msgid "User"
+#~ msgstr "Používateľ"
+
+#~ msgid "Survey voters"
+#~ msgstr "Respondenti prieskumu"
+
+#~ msgid "Slug used to customize sharing URL."
+#~ msgstr ""
+#~ "Slovo pre prispôsobenie URL zdieľania. Napr. moj-segment. Nechaj prázdne, "
+#~ "ak chceš aby bolo toto slovo automaticky vygenerované podľa názvu "
+#~ "segmentu."
+
+#~ msgid "Choose your favorite way to share the survey."
+#~ msgstr "Zvoľ si obľúbený spôsob odzdieľania svojho prieskumu."
+
+#~ msgid "Create branding image"
+#~ msgstr "Vytvoriť otázku: hodnotenie hviezdami"
+
+#~ msgid "Default text"
+#~ msgstr "Preddefinovaný text"
+
+#~ msgid "Your new question"
+#~ msgstr "Tvoja nová otázka"
+
+#~ msgid "Can not save voter!"
+#~ msgstr "Nepodarilo sa uložiť respondenta!"
+
+#~ msgid "Can not save answer!"
+#~ msgstr "Nepodarilo sa uložiť odpoveď!"
+
+#~ msgid "Rating"
+#~ msgstr "Hodnotenie"

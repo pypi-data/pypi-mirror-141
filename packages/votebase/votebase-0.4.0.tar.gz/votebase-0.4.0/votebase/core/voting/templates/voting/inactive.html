@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% load i18n %}
+
+{% block heading %}{{ survey }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        {% trans 'This survey is inactive right now.' %}
+    </div>
+</div>
+{% endblock %}

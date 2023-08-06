@@ -1,0 +1,8 @@
+include README
+recursive-include votebase/locale *
+recursive-include votebase/templates *
+recursive-include votebase/static *
+recursive-include votebase/core/questionnaires/templates *
+recursive-include votebase/core/statistics/templates *
+recursive-include votebase/core/utils/templates *
+recursive-include votebase/core/voting/templates *

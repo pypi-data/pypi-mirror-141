@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% load i18n %}
+
+{% block heading %}{{ survey }}{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            {% if survey.preface %}
+                <div class="well">
+                    {% autoescape off %}{{ survey.preface }}{% endautoescape %}
+                </div>
+            {% endif %}
+
+            <form method="post" action="{% url 'voting_welcome' round.pk %}">
+                {% csrf_token %}
+
+                <div class="form-actions">
+                    <input type="submit" class="btn btn-primary" value="{% trans 'Start' %}">
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

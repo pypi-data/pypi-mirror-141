@@ -1,0 +1,11 @@
+{% load i18n admin_urls %}
+{% block object-tools-items %}
+<li>
+    {% url opts|admin_urlname:'history' original.pk|admin_urlquote as history_url %}
+    <a href="{% add_preserved_filters history_url %}" class="historylink">{% translate "History" %}</a>
+</li>
+{% if has_absolute_url %}<li><a href="{{ absolute_url }}" class="viewsitelink">{% translate "Vote" %}</a></li>{% endif %}
+<li><a href="{{ original.get_preview_url }}" class="viewsitelink">{% translate "Preview" %}</a></li>
+<li><a href="{{ original.get_infographics_url }}" class="viewsitelink">{% translate "Infographics" %}</a></li>
+<li><a href="{{ original.get_statistics_url }}" class="viewsitelink">{% translate "Statistics" %}</a></li>
+{% endblock %}
