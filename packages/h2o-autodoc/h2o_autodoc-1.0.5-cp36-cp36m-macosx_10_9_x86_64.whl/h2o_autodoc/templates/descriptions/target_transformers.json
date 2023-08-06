@@ -1,0 +1,12 @@
+ {
+    "TargetTransformer_unit_box": "Unit Box of the target column",
+    "TargetTransformer_Anscombe": "Anscombe of the target column",
+    "TargetTransformer_identity": "Original target column",
+    "TargetTransformer_sqrt": "Square Root of the target column",
+    "TargetTransformer_double_sqrt": "Double Square Root of the target column",
+    "TargetTransformer_log": "Log of the target column",
+    "TargetTransformer_square": "Square of the target column",
+    "TargetTransformer_logit": "Logit of the target column",
+    "TargetTransformer_inverse": "Inverse of the target column",
+    "TargetTransformer_sigmoid": "Sigmoid of the target column"
+}
