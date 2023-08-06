@@ -1,0 +1,2 @@
+[console_script]
+cargo = shell:cargo

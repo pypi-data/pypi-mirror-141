@@ -1,0 +1,9 @@
+cargo/__init__.py,sha256=L8_gy_iaIuu8y7awD_z9MwFLoqrthKSnD_5xhGZp7NY,20
+cargo/cargo.py,sha256=jm2okmnDsRqsBwipCRfu2onTeUxGAJCi1H2m4UU_Zhk,108377
+shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shell/shell.py,sha256=NeMTtDFLcZbyuwBF-UDuiDegiYD0vButBPLckmmAr10,848
+cargolang-1.0.0.dist-info/METADATA,sha256=JNrimcPUX1_27EHb0Y4-x0_HhawPipyU38N7Z_2R-9c,194
+cargolang-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cargolang-1.0.0.dist-info/entry_points.txt,sha256=poQuUDfVsO26SCw7LA9XPvOV2WzfuxovZMPF_BGFE8s,37
+cargolang-1.0.0.dist-info/top_level.txt,sha256=ZO2776L68vIlKmEQF3IOdZ2eKYpx3KymFnvGEhHtTZE,12
+cargolang-1.0.0.dist-info/RECORD,,
