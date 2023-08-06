@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: CreatePro
+Version: 1.0.2
+Summary: A unlock data system
+Home-page: https://github.com/CleverCreater/FreeData
+Author: CleverCreator
+Author-email: clevercreator@icloud.com
+License: MIT
+Description: Seeing https://github.com/CleverCreater/FreeData
+Platform: Linux
+Platform: MacOS
+Requires-Python: >=3.9
