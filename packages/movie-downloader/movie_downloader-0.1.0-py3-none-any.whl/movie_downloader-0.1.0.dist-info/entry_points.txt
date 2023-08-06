@@ -1,0 +1,7 @@
+[console_scripts]
+mdl = mdl:main
+mdl_3rd_parties = mdl.third_parties:download_3rd_parties
+
+[distutils.commands]
+clean = CleanCommand
+
