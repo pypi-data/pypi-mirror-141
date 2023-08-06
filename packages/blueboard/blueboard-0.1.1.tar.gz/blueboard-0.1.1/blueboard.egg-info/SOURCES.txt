@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+blueboard.egg-info/PKG-INFO
+blueboard.egg-info/SOURCES.txt
+blueboard.egg-info/dependency_links.txt
+blueboard.egg-info/not-zip-safe
+blueboard.egg-info/top_level.txt
+package/__init__.py
+package/array.py
+package/number.py
