@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pysparsdr
+Version: 0.1.0
+Summary: SparSDR in python
+Home-page: https://github.com/ucsdwcsng/pySparSDR
+Author: Raghav Subbaraman
+Author-email: rsubbaraman@eng.ucsd.edu
+License: Apache v2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,9 @@
+README.md
+setup.py
+pysparsdr/__init__.py
+pysparsdr/pySparSDR.py
+pysparsdr.egg-info/PKG-INFO
+pysparsdr.egg-info/SOURCES.txt
+pysparsdr.egg-info/dependency_links.txt
+pysparsdr.egg-info/requires.txt
+pysparsdr.egg-info/top_level.txt
