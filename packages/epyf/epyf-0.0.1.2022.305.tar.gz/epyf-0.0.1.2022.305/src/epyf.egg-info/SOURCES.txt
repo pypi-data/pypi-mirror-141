@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/epyf/__init__.py
+src/epyf/ftbase.cp38-win_amd64.pyd
+src/epyf/ftcore.cp38-win_amd64.pyd
+src/epyf/ftdemo.cp38-win_amd64.pyd
+src/epyf.egg-info/PKG-INFO
+src/epyf.egg-info/SOURCES.txt
+src/epyf.egg-info/dependency_links.txt
+src/epyf.egg-info/top_level.txt
