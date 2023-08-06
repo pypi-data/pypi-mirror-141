@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "dw-client"
+version = "0.0.3"
+description = "Client library for DeskWatch"
+authors = ["Kohinoor Bharti <kohinoorbharti7@gmail.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+homepage = "https://deskwatch.net/"
+repository = "https://github.com/DeskWatch/dw-client/"
+documentation = "https://docs.deskwatch.net/"
+packages = [
+    { include = "dw_client" },
+]
+
+[tool.poetry.scripts]
+dw-client = "dw_client.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dw-core = "0.0.3"
+requests = "^2.22"
+persist-queue = "^0.6.0"
+click = "^8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+pytest-cov = "^2.8.1"
+mypy = "*"
+pylint = "^2.4.4"
+tabulate = "^0.8"
+types-requests = "^2.22"
+types-tabulate = "^0.8"
+
+[tool.mypy]
+files = ["dw_client", "tests", "examples"]
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,4 @@
+dw-core>=0.0.3
+click<9.0,>=8.0
+persist-queue<0.7.0,>=0.6.0
+requests<3.0,>=2.22

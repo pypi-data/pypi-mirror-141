@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+dw_client/__init__.py
+dw_client/__main__.py
+dw_client/cli.py
+dw_client/client.py
+dw_client/config.py
+dw_client/py.typed
+dw_client/singleinstance.py
+dw_client.egg-info/PKG-INFO
+dw_client.egg-info/SOURCES.txt
+dw_client.egg-info/dependency_links.txt
+dw_client.egg-info/entry_points.txt
+dw_client.egg-info/requires.txt
+dw_client.egg-info/top_level.txt
