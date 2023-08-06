@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Outlog
+Version: 1.0.2
+Summary: Easy way to log data!.
+Home-page: https://github.com/zsendokame/outlog
+Author: Sendokame
+License: UNKNOWN
+Description: # outlog
+        Outlog it's a library to make logging a simple task!.
+        
+        I'm a lazy python user, the times that i do logging on my apps it's hard to do, a lot of useless code just for print some things or saving to files<br>
+        **Really simple to use**!
+        
+        # How-to Install
+        <code>git clone https://github.com/zsendokame/outlog; cd outlog; pip install -e .</code>
+        
+        # How-to Use
+        This is a little tutorial!.
+        
+        #### Messages
+        <pre><code>import outlog
+        
+        outlog.debug('DEBUG Message') # Debug Message
+        outlog.info('INFO Message') # Info Message
+        outlog.warn('WARN Message') # Warn Message
+        outlog.error('ERROR Message') # Error Message
+        outlog.critical('CRITICAL Message', 1) # Critical Message, second argument is used to know what command status code put on exit
+        </code></pre>
+        
+        #### File logging
+        <pre><code>import outlog
+        
+        outlog.logger.createLogger('File.log') # Create logger and pass the filename to use
+        outlog.save('LOG Type', 'LOG Message') # Save logs into the file, Log type (Debug, Info, Warning and Etc...) and the log message
+        outlog.killLogger() # If you kill the logger, file it's automatically closed
+        </code></pre>
+        
+        #### Error catching
+        <pre><code>import outlog
+        
+        @outlog.catch
+        def error():
+            1 / 0 # Divide for 0
+            
+            # Do whatever you wan't, all kind of errors!
+        
+        print('And i\'m still alive!')
+        </code></pre>
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
