@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+solox.egg-info/PKG-INFO
+solox.egg-info/SOURCES.txt
+solox.egg-info/dependency_links.txt
+solox.egg-info/entry_points.txt
+solox.egg-info/requires.txt
+solox.egg-info/top_level.txt
