@@ -1,0 +1,51 @@
+Orange3 DynamiKontrol Add-on
+======================
+
+Control DynamiKontrol motor modules on Orange3.
+
+https://dk.m47rix.com
+
+| DK Angle | DK Speed |
+| --- | --- |
+| <img src="https://dk.m47rix.com/static/assets/img/dynamikontrol/angle_07.png" width="400px"> | <img src="https://dk.m47rix.com/static/assets/img/dynamikontrol/speed_01.png" width="400px"> |
+
+Installation
+------------
+
+```Orange3-DK```
+
+### Step 1
+
+Go to the menu `Options` - `Add-ons`.
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_01.png)
+
+### Step 2
+
+Click `Add more...` button.
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_02.png)
+
+### Step 3
+
+Type `Orange3-DK` and click `Add` button.
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_03.png)
+
+### Step 4
+
+Check `DK` box and click `OK` to install the add-on.
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_04.png)
+
+### Step 5
+
+Restart Orange3.
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_05.png)
+
+### Step 6
+
+Enjoy!
+
+![](https://github.com/TheMatrixGroup/Orange3-DK/raw/master/doc/setup/setup_06.png)

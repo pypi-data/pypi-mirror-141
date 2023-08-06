@@ -1,0 +1,8 @@
+[orange.canvas.help]
+html-index = orangecontrib.dynamikontrol.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+DynamiKontrol = orangecontrib.dynamikontrol.widgets
+
+[orange3.addon]
+dynamikontrol = orangecontrib.dynamikontrol
