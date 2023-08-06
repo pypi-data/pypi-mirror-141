@@ -1,0 +1,3 @@
+[console_scripts]
+snpediator = snpediator.snpediator_main:main
+
