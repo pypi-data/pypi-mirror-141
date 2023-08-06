@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: automation-sniper
+Version: 2.0.2
+Summary: Tool to convert Open API / Swagger specifications to automation framework
+Home-page: https://github.com/pankajnayak1994/automation-sniper
+Author: Pankaj Kumar Nayak
+Author-email: nayakpankaj2015@gmail.com
+License: Apache-2.0 License
+Project-URL: Documentation, https://automation-sniper.readthedocs.io/
+Project-URL: Code, https://github.com/pankajnayak1994/automation_sniper
+Project-URL: Help/Questions, https://stackoverflow.com/questions/tagged/automation-sniper
+Project-URL: Issue tracker, https://github.com/pankajnayak1994/automation_sniper/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: coloredlogs (==14.0)
+Requires-Dist: flake8 (==3.8.3)
+Requires-Dist: flask (==1.1.2)
+Requires-Dist: flask-restful (==0.3.9)
+Requires-Dist: pytest (==5.4.3)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: validators (==0.18.2)
+Requires-Dist: gitchangelog (==3.0.4)
+
+# Automation Sniper
+
+[![PyPI](https://img.shields.io/pypi/v/automation-sniper.svg)](https://pypi.org/project/automation-sniper/)
+[![PyPI](https://img.shields.io/pypi/pyversions/automation-sniper.svg)](https://pypi.org/project/automation-sniper/)
+[![license](https://img.shields.io/github/license/pankajnayak1994/automation_sniper)](https://github.com/pankajnayak1994/automation-sniper/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/pankajnayak1994/automation_sniper)](https://github.com/pankajnayak1994/automation_sniper/graphs/contributors)
+
+
+What is Automation-Sniper?
+
+
+Automation-sniper is a library used to generate a performance framework from Open API Specs.
+
+Nowadays API is commonly used in every service. So folk follows Open API specs to define the APIs.
+
+Writing a performance script for each API is a really painful task.
+
+That’s why Automation Sniper came into the picture. You can generate a performance framework from Open API specs.
+
+
+
+How Can Automation Sniper Tool Help You
+======================================
+
+Swagger Specs
+------------
+If your team owns swaggers spec of version V2 or V3 then you can generate performance(python+locust) framework using automation-sniper Tool.
+The process is very simple. You just need the automation-sniper tool setup. Once this is done either you can pass the swagger doc link or swagger
+JSON/YML file to the tool. The tool will generate the framework for you within a few ms.
+
+Postman Collection
+------------------
+```Inprogress -- In development```
+
+Features
+========
+
+
+* **Convert swagger specs into locust framework**
+
+ You can get a performance framework that supports python and locust from your swagger specs. So you don't need to write any code for your API. Looks Cool Right!!!
+
+* **Support specs deprecation handling in the framework**
+
+ It supports swagger specs deprecation handling in your framework. Deprecated API will have the deprecated annotation in your framework.
+
+* **Support postman collection to locust framework**
+
+ It supports the postman collection too. That means you can convert your all postman APIs into a performance framework.
+
+* **Support regeneration of framework if specs are deprecated**
+
+ Now the best feature you will like surely. It supports the regeneration of the framework. That means if tomorrow your specs change then you just need to upload the old framework and all-new specs will be overwritten into your framework.
+** This is the Beauty of `No Code Project` **
+
+Name & background
+=================
+
+Automation-Sniper was born out of frustration. When I was writing a performance script for APIs, it was a really time taking process. Writing the wrapper of each API from the swagger spec is a pathetic task. Also tomorrow any specs change then also maintaining that is again another big task. As you know Automation is everywhere. So here Idea came to automate this pathetic process. Hence `No Code Project` Automation-Sniper came to the market as a warrior.
+
+
+
+```
+$ automation-sniper -h
+
+usage: automation-sniper [-h] [--version] -f FRAMEWORK_NAME -p PATH [-r RESULTS_PATH] [-sp SCRIPT_PATH]
+                         [-o {get,post,put,patch,delete,head,options,trace} [{get,post,put,patch,delete,head,options,trace} ...]]
+                         [-v] [-ba BLACKLIST_API [BLACKLIST_API ...]] [-wa WHITELIST_API [WHITELIST_API ...]]
+
+This tool help to convert API Specs into automation Framework
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  -f FRAMEWORK_NAME, --framework_name FRAMEWORK_NAME
+                        Provide the name of the framework
+  -p PATH, --path PATH  Provide the path to swagger file/postman file or provide swagger api-docs url/postman
+                        collection url
+  -r RESULTS_PATH, --results-path RESULTS_PATH
+                        path to store generated automation framework default: result
+  -sp SCRIPT_PATH, --script-path SCRIPT_PATH
+                        provide script folder path as zip format
+  -o {get,post,put,patch,delete,head,options,trace} [{get,post,put,patch,delete,head,options,trace} ...], --operations {get,post,put,patch,delete,head,options,trace} [{get,post,put,patch,delete,head,options,trace} ...]
+                        operations to use in api testing
+  -v, --verbose         verbose
+  -ba BLACKLIST_API [BLACKLIST_API ...], --blacklist-api BLACKLIST_API [BLACKLIST_API ...]
+                        tags to use in api testing
+  -wa WHITELIST_API [WHITELIST_API ...], --whitelist-api WHITELIST_API [WHITELIST_API ...]
+                        tags to use in api testing
+
+And that's how you'd like to use this tool. To know about more please read the documentation https://automation-sniper.readthedocs.io/
+```
+
+Authors
+=======
+
+- `Pankaj Kumar Nayak <https://pankajresume.herokuapp.com/>`_
+
+License
+=======
+
+Open-source licensed under the Apache License 2.0 (see LICENSE file for details).
+
+
