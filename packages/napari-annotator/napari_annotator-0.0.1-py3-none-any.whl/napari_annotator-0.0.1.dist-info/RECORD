@@ -1,0 +1,13 @@
+napari_annotator/__init__.py,sha256=dfQZp4kRXkbzpW9z_fDZ_iGHlPckV3x80kHU_z6tQNY,130
+napari_annotator/_annotation_entry.py,sha256=tfF89I-n4hI0XdcOKs-aW2FoyGoUxJRsUYQi36tsw6U,9335
+napari_annotator/_annotations_list_widget.py,sha256=Bgb0wA3-7YaqlT0H9iCMtZ-RjqfPvfvB_ETkuDnDjf4,6567
+napari_annotator/_dock_widget.py,sha256=OdbazNnP7uagZ6i6u0ZTVisOhubcoS07JH1TwnOqRrk,7196
+napari_annotator/napari.yaml,sha256=f_oMwkT6cZq1lGRK5_6dWQM2KOYN-uWl5F5gyiYz2OU,839
+napari_annotator/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_annotator/_tests/test_dock_widget.py,sha256=XESzVW6d1ovxyAcT2Fs8cyDl5O61WN7BoOpDhSqtqIA,1471
+napari_annotator-0.0.1.dist-info/LICENSE,sha256=r1OpgCZwzO0VaVu5HdxuTn7qJ_7JovBNIa3d6E42j2U,1488
+napari_annotator-0.0.1.dist-info/METADATA,sha256=cShdt9LqVHh0-aBwhgLDjuUtVVgZqIwJDjztUrJI67M,5939
+napari_annotator-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_annotator-0.0.1.dist-info/entry_points.txt,sha256=7HTylB4b_TaJfPpzo1GmTVoJuweyk31i073nD1uKwiY,66
+napari_annotator-0.0.1.dist-info/top_level.txt,sha256=oCybI9eVlFhb22f8_U1kYKz6_hW2-BEl39Leujce-4M,17
+napari_annotator-0.0.1.dist-info/RECORD,,
