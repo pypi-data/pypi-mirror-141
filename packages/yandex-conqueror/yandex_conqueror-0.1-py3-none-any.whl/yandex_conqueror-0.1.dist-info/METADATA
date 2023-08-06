@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: yandex-conqueror
+Version: 0.1
+Summary: An opinion adder to inform the Russian public about what's going on in Ukraine
+Home-page: https://git.dms-serwis.com.pl/yandex-conqueror/conqueror
+Author: Piotr Maślanka
+Author-email: pmaslanka@smok.co
+License: UNKNOWN
+Keywords: ha,high availability,scalable,scalability,server,metrics,tracing
+Platform: UNKNOWN
+Requires-Python: !=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: satella
+
+yandex-conqueror
+================
+
+List of [contributors](CONTRIBUTORS.md) available in a separate file.
+
+How to use it?
+==============
+
+At first, create a Yandex account. Make sure that you're able to log-in, ie. activate all mail and SMS passwords.
+
+Then install Python 3.10, necessarily adding Python to PATH.
+
+Then enter command line and type:
+
+```bash
+pip install yandex-conqueror
+python -m conqueror <yandex email> <yandex password>
+```
+
+If you wish for the interactive window not to appear, you can always substitute the second command
+with
+
+```bash
+python -m conqueror <yandex email> <yandex password> --headless
+```
+
+
