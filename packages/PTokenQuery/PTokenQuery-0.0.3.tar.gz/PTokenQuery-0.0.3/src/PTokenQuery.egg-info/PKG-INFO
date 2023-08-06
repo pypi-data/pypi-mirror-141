@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PTokenQuery
+Version: 0.0.3
+Summary: Token query
+Home-page: https://github.com/phamhongphuc1999/PTokenQuery
+Author: Phạm Hồng Phúc
+Author-email: phamhongphuc12atm1@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/phamhongphuc1999/PTokenQuery
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">PTokenQuery</h1>
+
+pip install PTokenQuery
+
+
