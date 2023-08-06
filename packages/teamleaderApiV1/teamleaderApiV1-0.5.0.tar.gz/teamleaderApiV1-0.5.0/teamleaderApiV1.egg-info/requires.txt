@@ -1,0 +1,7 @@
+certifi
+chardet
+idna
+pickle5
+ratelimit
+requests
+urllib3
