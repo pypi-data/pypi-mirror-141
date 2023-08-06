@@ -1,0 +1,1 @@
+date >> /home/kali/Documents/Sphynx-ML/machine-learning/Sphynx_ML/SphynxML/Cronjobs/output.txt
