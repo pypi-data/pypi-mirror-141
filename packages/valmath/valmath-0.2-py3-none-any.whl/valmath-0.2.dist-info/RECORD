@@ -1,0 +1,11 @@
+valmath/__init__.py,sha256=kHbsPqip2msnXH1ZUAkbF-PXJMSU62y7hEGsNfgjCYk,152
+valmath/add.py,sha256=8nZMHCoJWkKWJ4o8TzyDj0IfSETcBRlMGdGQNRg658I,32
+valmath/divide.py,sha256=_DXfVCVFQF8-1D9v7xIhKc_46F31qr6bKFiTO19xS8Y,37
+valmath/multiply.py,sha256=B_u_JWVwGbDRQJoNXec5CMLuPUxo6kebAXQMXAf3Mw4,37
+valmath/subtract.py,sha256=dDnm6Cnbg0twFYNv7meQ_pYSF3qDrP1Dmsy_BImZJEs,37
+valmath/adv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valmath/adv/sqrt.py,sha256=5T7p3OY2H8pT6j_0gKlG2Kz6xwLgZuVI8bOGcIXNMFY,58
+valmath-0.2.dist-info/METADATA,sha256=ioWnwBxWXJXZqwq7U1wBgkEQZxItBeXcS1b02Aam8AY,526
+valmath-0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+valmath-0.2.dist-info/top_level.txt,sha256=jarDp_xMm5k-C3p-lKtuD5kHka10feoLVK4zWLQNLbg,8
+valmath-0.2.dist-info/RECORD,,
