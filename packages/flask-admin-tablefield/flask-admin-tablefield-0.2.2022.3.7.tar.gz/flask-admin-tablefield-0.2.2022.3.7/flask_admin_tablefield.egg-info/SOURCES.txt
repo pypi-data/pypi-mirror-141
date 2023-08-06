@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+flask_admin_tablefield/__init__.py
+flask_admin_tablefield/tablecheckboxfield.py
+flask_admin_tablefield/tablefield.py
+flask_admin_tablefield.egg-info/PKG-INFO
+flask_admin_tablefield.egg-info/SOURCES.txt
+flask_admin_tablefield.egg-info/dependency_links.txt
+flask_admin_tablefield.egg-info/requires.txt
+flask_admin_tablefield.egg-info/top_level.txt
+flask_admin_tablefield/templates/__init__.py
+flask_admin_tablefield/templates/tablecheckboxfield.html
+flask_admin_tablefield/templates/tablefield.html

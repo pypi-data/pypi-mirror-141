@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flask-admin-tablefield
+Version: 0.2.2022.3.7
+Summary: table field for flask-admin!
+Home-page: https://github.com/cllen/flask-admin-tablefield
+Author: hxh
+Author-email: cllenishxh@gmail.com
+License: UNKNOWN
+Description: table field for flask-admin!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
