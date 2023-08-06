@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: hybrid-pool-executor
+Version: 0.0.2
+Summary: Pool executor supporting thread, process and async.
+Home-page: https://github.com/leavers/hybrid-pool-executor
+Author: Leavers
+Author-email: leavers930@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage (>=5.3) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort (>=5.0.0) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: coverage (>=5.3) ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: isort (>=5.0.0) ; extra == 'test'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-timeout ; extra == 'test'
+
+HybridPoolExecutor is a parallel executor that supports thead, process and async three operating models at the same time.
+
+Example:
+
+.. code-block:: python
+
+    import asyncio
+    import time
+    import random
+
+    from hybrid_pool_executor import HybridPoolExecutor
+
+
+    def func1():
+        print('func1 starts')
+        time.sleep(random.randint(1, 4))
+        print('func1 ends')
+        return 1
+
+
+    def func2():
+        print('func2 starts')
+        time.sleep(random.randint(1, 4))
+        print('func2 ends')
+        return 2
+
+
+    async def func3():
+        print('func3 starts')
+        await asyncio.sleep(random.randint(1, 4))
+        print('func3 ends')
+        return 3
+
+
+    def test_run():
+        pool = HybridPoolExecutor()
+        future1 = pool.submit(func1)  # run in a thread
+        future2 = pool.submit(func2, _mode='process')  # run in a process
+        future3 = pool.submit(func3)  # run as a coroutine
+
+
+    if __name__ == '__main__':
+        test_run()
+
+
+
