@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/egopy/__init__.py
+src/egopy/clear.py
+src/egopy/ftdemo.cp38-win_amd64.pyd
+src/egopy.egg-info/PKG-INFO
+src/egopy.egg-info/SOURCES.txt
+src/egopy.egg-info/dependency_links.txt
+src/egopy.egg-info/top_level.txt
