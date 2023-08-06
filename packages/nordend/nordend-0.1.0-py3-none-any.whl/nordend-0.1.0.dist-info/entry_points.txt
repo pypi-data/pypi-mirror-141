@@ -1,0 +1,3 @@
+[console_scripts]
+nordend_cli=nordend.__main__:main
+
