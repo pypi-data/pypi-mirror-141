@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tir
+Version: 0.6.2
+Summary: Minimalist static site generator
+Home-page: https://ouafi.net/Tir.html
+Author: kvfi
+Author-email: mail@mail.net
+License: https://www.gnu.org/licenses/gpl-3.0.en.html
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Dist: babel
+Requires-Dist: bcrypt
+Requires-Dist: cffi
+Requires-Dist: cryptography
+Requires-Dist: csscompressor
+Requires-Dist: colorama
+Requires-Dist: jinja2
+Requires-Dist: libsass
+Requires-Dist: markdown
+Requires-Dist: markupsafe
+Requires-Dist: marshmallow
+Requires-Dist: marshmallow-dataclass[enum,union]
+Requires-Dist: marshmallow-enum
+Requires-Dist: mypy-extensions
+Requires-Dist: paramiko
+Requires-Dist: pycparser
+Requires-Dist: pynacl
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+Requires-Dist: six
+Requires-Dist: typeguard
+Requires-Dist: typing-extensions
+Requires-Dist: typing-inspect
+
+UNKNOWN
+
