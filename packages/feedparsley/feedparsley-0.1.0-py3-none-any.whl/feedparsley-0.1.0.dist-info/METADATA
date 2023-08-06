@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: feedparsley
+Version: 0.1.0
+Summary: Parse feeds using feedparser or xml.etree.
+Home-page: https://github.com/ibz/feedparsley
+Author: ibz
+Author-email: feedparsley@ibz.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: feedparser
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+
+# feed-parsley
+
+
