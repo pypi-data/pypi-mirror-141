@@ -1,0 +1,22 @@
+cofffee/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cofffee/accessors.py,sha256=JFkV-Ymd2Y15QsfQSiPiBE0LNQDHILfkTp_LPmmAYUg,229
+cofffee/axis.py,sha256=GhBirfqZdeVK0hiRA5NKr9gsjKMusrkx8seAL3L13SU,4324
+cofffee/color.py,sha256=cbFOCOg3aEnu-TGJYbGvxfPd1rLjtdNKsNyIS-NtXaM,5065
+cofffee/graph_props.py,sha256=Wgyb6smBXklExqw7aFUJsMBOY6CQ01NUR2Jaj3WNw_w,6226
+cofffee/grapher.py,sha256=ySaxxku9G3jN1YWoya_BdWgY71k_bDbX42L3et9bij0,552
+cofffee/graphers.py,sha256=mthu50zjGLwc0MO_JZ3SFsx23Ahkn8GqH8cCpjM5Nto,13858
+cofffee/palletts.py,sha256=yJZw59K4JyuEnQAxo_Ewcel92uQmqYBcjgeUhq33hmU,1229
+cofffee/pyg.py,sha256=xSR8DbtKNxeOyG63L0P-yo513FqQ6s2FCpk04IIrr-Y,1611
+cofffee/test.py,sha256=cDnWjS1CXCUiwOG_wXuyyuZZiRuTVJImzCwfckKUcFQ,2381
+cofffee/data/coffee.xlsx,sha256=w76fEUU6eqJlMCgzgOUIMoE8KB_-T_B4010E6BHKlMc,121323
+cofffee/data/extra/icon.png,sha256=iO8besTt67tfw__pFCDyj7CLJcoAwtcY3vmHbmxcG0s,7022926
+cofffee/data/fonts/DIN Condensed Bold.ttf,sha256=gfFFShWnyF_dXT8wliaYlBk76R9JbS96cWlns4vUxFQ,211644
+cofffee/data/fonts/Lulo Clean One Bold.otf,sha256=p7Ta57knpP8eLi8vt1igf3gJARUK-MFKeha8Vq6dDTI,90628
+cofffee/data/fonts/Monoid-Retina.ttf,sha256=P8jGAz6ytaA17d4tCIN_2rDt7ruTbdsN3YBO-MtoCAU,81928
+cofffee/data/fonts/fetchTitleFont.ttf,sha256=cxGOoUg00xT8UcELYRBMx_hrRmFdG9pMltdJanLKbR8,10716
+cofffee/extra/icon.png,sha256=iO8besTt67tfw__pFCDyj7CLJcoAwtcY3vmHbmxcG0s,7022926
+cofffee-1.1.0.0.dist-info/LICENSE.txt,sha256=JIRfe4aYNbz2dedGoeO-Ks0y_06Iz470UA7ALEvvigo,1065
+cofffee-1.1.0.0.dist-info/METADATA,sha256=iH32SEOAyG-Hz6EBuhDNA_YQqm3ws2NsKVb3dtD3Jjg,1050
+cofffee-1.1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cofffee-1.1.0.0.dist-info/top_level.txt,sha256=Z-SgLRjMfM3x9axqboO_b6h2LdjDizMbXK8WWJuBH2k,8
+cofffee-1.1.0.0.dist-info/RECORD,,
