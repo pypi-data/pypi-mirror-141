@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tito
+Version: 0.6.20
+Summary: A tool for managing rpm based git projects.
+Home-page: https://github.com/rpm-software-management/tito
+Author: rpm-software-management
+License: GPLv2+
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python
+License-File: LICENSE
+License-File: COPYING
+License-File: AUTHORS
+
+UNKNOWN
+
