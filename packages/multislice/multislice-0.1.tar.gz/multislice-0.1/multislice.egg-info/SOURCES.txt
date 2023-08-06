@@ -1,0 +1,13 @@
+README.md
+setup.py
+multislice/__init__.py
+multislice/multi_2D.py
+multislice/multi_3D.py
+multislice/multislice.py
+multislice/mupy_utils.py
+multislice/pymultislice.py
+multislice.egg-info/PKG-INFO
+multislice.egg-info/SOURCES.txt
+multislice.egg-info/dependency_links.txt
+multislice.egg-info/requires.txt
+multislice.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+EDutilities>=0.4
+colorama
+crystals
+matplotlib
+numpy
+pandas
+scipy

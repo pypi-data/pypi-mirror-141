@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: multislice
+Version: 0.1
+Summary: Multislice simulator for Continuous Electron Diffraction
+Home-page: https://pypi.org/project/debloch
+Author: Tarik Ronan Drevon
+Author-email: tarik.drevon@stfc.ac.uk
+License: UNKNOWN
+Project-URL: Documentation, https://multislice.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ccp4/multislice
+Description: # multislice
+        
+        Electron diffraction simulator based on the Multislice algorithm. This library is essentially a python wrapper for temsim (Kirkland). It can be used to setup simulations and submit them as jobs on high performance computing resources.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License 
+Classifier: Operating System :: POSIX :: Linux 
+Requires-Python: >=3.8
