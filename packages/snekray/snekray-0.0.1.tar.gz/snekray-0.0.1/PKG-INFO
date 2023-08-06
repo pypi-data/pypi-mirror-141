@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: snekray
+Version: 0.0.1
+Summary: A python implementation of The Ray Tracer Challenge
+Home-page: https://github.com/vextor22/snekray
+Author: Matt Higgins
+Author-email: matt@matthiggins.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vextor22/snekray/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SnekRay
+![example branch parameter](https://github.com/vextor22/snekray/actions/workflows/python-package.yml/badge.svg?branch=main)
+
+
+Python implementation of "The Ray Tracer Challenge"
+
+For testing:
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+dotenv run -- python example.py
+```
+
+
