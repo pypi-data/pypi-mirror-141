@@ -1,0 +1,16 @@
+tweet_nlp_toolkit/__init__.py,sha256=ZJzx2K-wari5jxLQgo0kFWoaVOhJ1kh1-XFmH0ck6qk,271
+tweet_nlp_toolkit/__version__.py,sha256=UTUHM28CZz3vVIHMPpV-l-_FEp20IDPL9q-QKmQtII0,232
+tweet_nlp_toolkit/constants.py,sha256=TwZ86q4y9n7lxhvBViCI1aqlJDUdGIwuoAfONiGXpBo,7199
+tweet_nlp_toolkit/utils.py,sha256=qdoKABawZ-MaSmujD2_xwiLGEn2ojwqJNnTNc-pi-EQ,1283
+tweet_nlp_toolkit/prep/__init__.py,sha256=YHjsuehVg-_Mi0Aowv7LjWw4H-fbRJaDAx6MC53pw2Q,50
+tweet_nlp_toolkit/prep/regexes.py,sha256=z_htuw5h1PO7lZFN5D1U4ZwbkRKfw3AAGTa1amsC7z8,2655
+tweet_nlp_toolkit/prep/text_parser.py,sha256=sLsZKP-LRw58L9bNvwGU-sUcVfJsaO4kAicoQA7n-3Q,9931
+tweet_nlp_toolkit/prep/text_prep.py,sha256=lHhLr8tmS5h4FHjJ61_untoutFLx6C7w25yrvf8grzc,2070
+tweet_nlp_toolkit/prep/token.py,sha256=U9kbd-opEfzANiDymtY-LSujhsvukXRHlcOnYpAp6Hc,6363
+tweet_nlp_toolkit/prep/tokenizer.py,sha256=nScCD9Voq1MVLBBg8Y5dE144Mk7EBHmu8iW5I1CVOFM,6229
+tweet_nlp_toolkit/prep/word_segmentation.py,sha256=vsCVcWH-K-DOhJq32QJrqgwCX141Fay4Kwl3R1NuKpE,2919
+tweet_nlp_toolkit-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tweet_nlp_toolkit-1.0.2.dist-info/METADATA,sha256=oiYtKTpImOynWsixSkvNSYBlAwgQv9SPcjRdw7rsg2o,5320
+tweet_nlp_toolkit-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tweet_nlp_toolkit-1.0.2.dist-info/top_level.txt,sha256=azJFrV65CNTFW0fzs9TPphtWHcXXxOLbv3Asfl28898,18
+tweet_nlp_toolkit-1.0.2.dist-info/RECORD,,
