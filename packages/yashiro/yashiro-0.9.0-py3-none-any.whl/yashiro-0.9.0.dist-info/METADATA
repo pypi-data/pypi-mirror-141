@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: yashiro
+Version: 0.9.0
+Summary: A cli template tool based on jinja
+Home-page: https://github.com/spapanik/yashiro
+License: LGPL-3.0+
+Keywords: templates
+Author: Stephanos Kuma
+Author-email: stephanos@kuma.ai
+Requires-Python: >=3.7.0,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dj-settings (>=2.0.0,<3.0.0)
+Requires-Dist: jinja2 (>=3.0.0,<4.0.0)
+Project-URL: Repository, https://github.com/spapanik/yashiro
+Description-Content-Type: text/x-rst
+
+===========================================
+yashiro: A template CLI tool based on jinja
+===========================================
+
+.. image:: https://github.com/spapanik/yashiro/actions/workflows/build.yml/badge.svg
+  :alt: Build
+  :target: https://github.com/spapanik/yashiro/actions/workflows/build.yml
+.. image:: https://img.shields.io/lgtm/alerts/g/spapanik/yashiro.svg
+  :alt: Total alerts
+  :target: https://lgtm.com/projects/g/spapanik/yashiro/alerts/
+.. image:: https://img.shields.io/github/license/spapanik/yashiro
+  :alt: License
+  :target: https://github.com/spapanik/yashiro/blob/main/LICENSE.txt
+.. image:: https://img.shields.io/pypi/v/yashiro
+  :alt: PyPI
+  :target: https://pypi.org/project/yashiro
+.. image:: https://pepy.tech/badge/yashiro
+  :alt: Downloads
+  :target: https://pepy.tech/project/yashiro
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+  :alt: Code style
+  :target: https://github.com/psf/black
+
+``yashiro`` is just a thin wrapper around jinja.
+
+In a nutshell
+-------------
+
+Installation
+^^^^^^^^^^^^
+
+The easiest way is to use `poetry`_ to manage your dependencies and add *yashiro* to them.
+
+.. code-block:: toml
+
+    [tool.poetry.dependencies]
+    yashiro = "*"
+
+Usage
+^^^^^
+
+``yashiro``, once installed offers a single command, ``yashiro``, that parses the templated based on a JSON file. ``yashiro`` follows the GNU recommendations for command line interfaces, and offers:
+
+* ``-h`` or ``--help`` to print help, and
+* ``-V`` or ``--version`` to print the version
+
+You can use yashiro to parse a template.
+
+.. code:: console
+
+    usage: yashiro [-h] [-V] [-m MAPPING] [-s] -t TEMPLATE
+
+    optional arguments:
+        -h, --help             Show this help message and exit
+        -m/--mappings MAPPINGS The path to the file that contains the mappings
+        -t/--template TEMPLATE The path to the template
+        -V/--version           Print the version and exit
+
+Links
+-----
+
+- `Documentation`_
+- `Changelog`_
+
+
+.. _poetry: https://python-poetry.org/
+.. _Changelog: https://github.com/spapanik/yashiro/blob/main/CHANGELOG.rst
+.. _Documentation: https://yashiro.readthedocs.io/en/latest/
+
