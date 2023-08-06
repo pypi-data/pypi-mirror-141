@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: xmlv
+Version: 0.0.2
+Summary: XMLVectorizer turn elements of a web pages to numpy vectors
+Home-page: UNKNOWN
+Author: Maixent Chenebaux
+Author-email: max.chbx@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+Requires-Dist: networkx
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: dill
+Requires-Dist: rolewalk
+
+UNKNOWN
+
+

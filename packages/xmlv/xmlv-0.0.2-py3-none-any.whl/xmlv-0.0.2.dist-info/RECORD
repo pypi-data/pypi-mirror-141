@@ -1,0 +1,7 @@
+xmlv/__init__.py,sha256=TI1aH27H1_JN7lLSej5V8lWdUMKgaKa_kXHvuwCwGq8,6340
+xmlv/preprocessing.py,sha256=u7BTQRx-79gzp_HA4kYVwC3dEvZRtyxZPuJp0tieE2I,2483
+xmlv/vectorizer.py,sha256=Fdynlg3H5GTvCQIM6nQdJ28GtWAn7HgsQN117zdRR6I,1237
+xmlv-0.0.2.dist-info/METADATA,sha256=sYtN5Yx0gF5xIH2irf-xnTBLWpTSRq2lXFqRhY2seE0,380
+xmlv-0.0.2.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+xmlv-0.0.2.dist-info/top_level.txt,sha256=qegQXf0cbG9dIX5TDzms8h3Ca2XnDgUt3qvShbvWvDs,5
+xmlv-0.0.2.dist-info/RECORD,,
