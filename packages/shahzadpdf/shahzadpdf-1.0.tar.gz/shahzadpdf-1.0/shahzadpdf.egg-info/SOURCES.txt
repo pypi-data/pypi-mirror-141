@@ -1,0 +1,8 @@
+README.md
+setup.py
+shahzadpdf/__init__.py
+shahzadpdf/pdf2text.py
+shahzadpdf.egg-info/PKG-INFO
+shahzadpdf.egg-info/SOURCES.txt
+shahzadpdf.egg-info/dependency_links.txt
+shahzadpdf.egg-info/top_level.txt
