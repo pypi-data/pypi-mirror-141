@@ -1,0 +1,11 @@
+setup.py
+fmp_quant/FMP_Connect.py
+fmp_quant/FMP_TA.py
+fmp_quant/FMP_TARGET_PRICE.py
+fmp_quant/FMP_TP.py
+fmp_quant/__init__.py
+fmp_quant.egg-info/PKG-INFO
+fmp_quant.egg-info/SOURCES.txt
+fmp_quant.egg-info/dependency_links.txt
+fmp_quant.egg-info/requires.txt
+fmp_quant.egg-info/top_level.txt
