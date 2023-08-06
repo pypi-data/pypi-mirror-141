@@ -1,0 +1,25 @@
+[default]
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 44640  # 一个月过期
+SQLALCHEMY_DATABASE_URL_HK591 = "@format mysql+pymysql://{this.DB_USER}:{this.DB_PASSWORD}@{this.DB_HOST}:3306/hk591?charset=utf8"
+SQLALCHEMY_DATABASE_URL_HK591DATA = "@format mysql+pymysql://{this.DB_USER}:{this.DB_PASSWORD}@{this.DB_HOST}:3306/hk591_data?charset=utf8"
+SQLALCHEMY_DATABASE_URL_HK591MONEY = "@format mysql+pymysql://{this.DB_USER}:{this.DB_PASSWORD}@{this.DB_HOST}:3306/hk591_money?charset=utf8"
+
+[develop]
+BASE_URL = "https://fastapi.debug.591.com.hk/"
+SECRET_KEY = "099922e8594022d598e3e2567eac6371928161b3db8b9e0494b0e8635e88967a"
+DB_HOST = "192.168.8.117"
+DB_USER = "hk591"
+DB_PASSWORD = "wUIbedmymuMdVwse"
+REDIS_HOST = '192.168.8.117'
+REDIS_PORT = 6381
+
+
+[master]
+BASE_URL = "https://fastapi.591.com.hk/"
+SECRET_KEY = "c0fc63db39d8f98f07282d063b51149edd706faf1214bcc4a366891ea308ff77"
+DB_HOST = "192.168.1.93"
+DB_USER = "hk591"
+DB_PASSWORD = "sogahk%(!"
+REDIS_HOST = '192.168.1.68'
+REDIS_PORT = 6379

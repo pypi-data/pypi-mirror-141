@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fastapi_d_cli
+Version: 0.0.5
+Summary: FastAPI脚手架
+Home-page: http://bitbucket.org/tarek/distribute/issues/
+Author: Desire
+Author-email: 
+License: Apache Software License
+Keywords: fastapi
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+使用：
+
+- 完整命令：fas-cli
+
