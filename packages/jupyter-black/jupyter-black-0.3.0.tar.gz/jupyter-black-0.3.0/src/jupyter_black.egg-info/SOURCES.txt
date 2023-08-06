@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jupyter_black/__init__.py
+src/jupyter_black/jupyter_black.py
+src/jupyter_black.egg-info/PKG-INFO
+src/jupyter_black.egg-info/SOURCES.txt
+src/jupyter_black.egg-info/dependency_links.txt
+src/jupyter_black.egg-info/not-zip-safe
+src/jupyter_black.egg-info/requires.txt
+src/jupyter_black.egg-info/top_level.txt
