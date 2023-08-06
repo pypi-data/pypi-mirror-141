@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: masureel
+Version: 0.1.8
+Summary: 
+Author: Lucas Selfslagh
+Author-email: lucas.selfslagh@gmail.com
+Requires-Python: >=3.8,<=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: airtable-python-wrapper (>=0.15.3,<0.16.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
