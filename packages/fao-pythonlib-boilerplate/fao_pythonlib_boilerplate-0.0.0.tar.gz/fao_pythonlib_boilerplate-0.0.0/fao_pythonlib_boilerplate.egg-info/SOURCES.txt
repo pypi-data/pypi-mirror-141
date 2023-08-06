@@ -1,0 +1,5 @@
+setup.py
+fao_pythonlib_boilerplate.egg-info/PKG-INFO
+fao_pythonlib_boilerplate.egg-info/SOURCES.txt
+fao_pythonlib_boilerplate.egg-info/dependency_links.txt
+fao_pythonlib_boilerplate.egg-info/top_level.txt
