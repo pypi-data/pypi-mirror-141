@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bitches
+Version: 0.0.1
+Summary: how about you pip install some bitches
+Home-page: https://github.com/rdimo/pip-install-bitches
+Author: Rdimo
+Author-email: <contact.rdimo@gmail.com>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rdimo/pip-install-bitches/issues
+Keywords: bitches,python,package,library,lib,module,checker
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://img.shields.io/pypi/v/pip-install-bitches?style=flat-square" </a>
+  <img src="https://img.shields.io/pypi/l/pip-install-bitches?style=flat-square" </a>
+  <img src="https://img.shields.io/pypi/dm/pip-install-bitches?style=flat-square" </a>
+  <img src="https://img.shields.io/github/stars/Rdimo/pip-install-bitches?label=Stars&style=flat-square" </a>
+  <img src="https://img.shields.io/github/forks/Rdimo/pip-install-bitches?label=Forks&style=flat-square" </a>
+</p>
+
+#### pip-install-bitches was made by
+Love ❌ code ✅
+
+---
+### 🎈・Code example
+Example of how you can use [bitches](https://pypi.org/project/bitches/)
+```py
+import bitches #valid
+
+bitches.get()
+
+or
+
+bitches.get("yes") #yes is the name of the directory
+```
+
+
