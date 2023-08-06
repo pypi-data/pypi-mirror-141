@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: picchick
+Version: 0.1.0
+Summary: A utility for programming PIC microntronllers
+Home-page: https://github.com/rex--/picchick/tree/master/software
+Author: Rex McKinnon
+Author-email: 0xff@rexploits.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: University of Illinois/NCSA Open Source License
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
