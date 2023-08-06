@@ -1,0 +1,11 @@
+.img-center {
+    display: block;
+    margin: auto;
+    margin-top: 1.5em;
+}
+html {      
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: #005D9E;
+}
