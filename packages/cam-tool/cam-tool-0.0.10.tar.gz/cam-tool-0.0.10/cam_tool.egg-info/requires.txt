@@ -1,0 +1,4 @@
+fire
+pyyaml
+redis
+tabulate
