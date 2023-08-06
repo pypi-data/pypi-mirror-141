@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: processamento-de-imagem
+Version: 0.0.1
+Summary: Processamento de imagem usando combinação de histograma
+Home-page: https://github.com/Jhonathanalvesbr/processamento-de-imagem
+Author: Jhonathan Alves
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Processamento de Imagem
+
+O pacotede de processamento de imagem Ã© usado para:<br />
+	- Transferencia de histograma.<br />
+	- DiferenciaÃ§Ã£o de imagem.<br />
+	- Redimencionamento de imagem.<br />
+	- Plot de imagem.<br />
+	- Plot de histograma.<br />
+	- Plot de resultados.<br />
+	- Salvar imagem.<br />
+	- Carregar imagem.<br />
+
+## InstalaÃ§Ã£o
+
+Use o pacote de instalaÃ§Ã£o [pip](https://pip.pypa.io/en/stable/) para a instalaÃ§Ã£o, por exemplo:
+
+```bash
+pip install processamento_de_imagem
+```
+
+## Autor
+Jhonathan Alves
+
+## LicenÃ§a
+[MIT](https://choosealicense.com/licenses/mit/)
+
