@@ -1,0 +1,4 @@
+Django>=2.2
+django-echoices>=2.6.0
+celery>=4.0.2
+django-autoslug>=1.9.4
