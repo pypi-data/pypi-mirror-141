@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+jax
+jaxlib
+
+[contrib]
+pytest
+pylint
+black>=22.1
+isort
