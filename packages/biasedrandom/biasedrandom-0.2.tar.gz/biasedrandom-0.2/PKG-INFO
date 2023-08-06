@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: biasedrandom
+Version: 0.2
+Summary: A python library for doing biased random based on random module
+Home-page: https://github.com/Berserkware/biasedrandom
+Author: Caleb M
+Author-email: bersekware@gmail.com
+License: MIT
+Download-URL: https://github.com/Berserkware/biasedrandom/archive/refs/tags/v_02.tar.gz
+Description: UNKNOWN
+Keywords: biased,random,python,biasedrandom
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
