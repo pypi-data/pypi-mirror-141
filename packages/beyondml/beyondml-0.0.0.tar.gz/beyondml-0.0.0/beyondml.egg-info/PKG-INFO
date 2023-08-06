@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: beyondml
+Version: 0.0.0
+Summary: Beyond ML Packaged Technology
+Home-page: https://github.com/Beyond-ML-Labs/beyondml
+Author: Beyond ML Labs
+Author-email: staff@squared.ai
+License: GPL v3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# BeyondML
+
+This repository holds source code for the BeyondML Labs pip-installable package.
+
