@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: academlo
+Version: 0.0.1
+Summary: Academlo Python Web Framework built for learning purposes.
+Author: Nicolas Rondon
+Author-email: nicolas.rondon@academlo.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: parse (==1.19.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: requests-wsgi-adapter (==0.4.1)
+Requires-Dist: WebOb (==1.8.7)
+Requires-Dist: whitenoise (==6.0.0)
+
+Academlo Python Web Framework built for learning purposes.
+
