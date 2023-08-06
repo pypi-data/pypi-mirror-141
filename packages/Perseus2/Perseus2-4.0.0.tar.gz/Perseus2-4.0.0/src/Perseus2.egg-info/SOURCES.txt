@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Perseus2.egg-info/PKG-INFO
+src/Perseus2.egg-info/SOURCES.txt
+src/Perseus2.egg-info/dependency_links.txt
+src/Perseus2.egg-info/not-zip-safe
+src/Perseus2.egg-info/top_level.txt
