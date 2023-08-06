@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lichess
+Version: 0.1.0
+Summary: A Python wrapper for the Minecraft API
+Home-page: http://github.com/qe/lichess
+Author: Alex Ismodes
+Author-email: helloemailmerighthere@gmail.com
+License: MIT
+Keywords: lichess chess api
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.txt
+
+UNKNOWN
+
