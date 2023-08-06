@@ -1,0 +1,8 @@
+README.md
+setup.py
+dbt_gen.egg-info/PKG-INFO
+dbt_gen.egg-info/SOURCES.txt
+dbt_gen.egg-info/dependency_links.txt
+dbt_gen.egg-info/entry_points.txt
+dbt_gen.egg-info/requires.txt
+dbt_gen.egg-info/top_level.txt
