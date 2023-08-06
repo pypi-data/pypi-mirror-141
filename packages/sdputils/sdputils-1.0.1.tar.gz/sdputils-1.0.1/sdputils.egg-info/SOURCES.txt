@@ -1,0 +1,7 @@
+README.md
+setup.py
+sdputils.egg-info/PKG-INFO
+sdputils.egg-info/SOURCES.txt
+sdputils.egg-info/dependency_links.txt
+sdputils.egg-info/requires.txt
+sdputils.egg-info/top_level.txt
