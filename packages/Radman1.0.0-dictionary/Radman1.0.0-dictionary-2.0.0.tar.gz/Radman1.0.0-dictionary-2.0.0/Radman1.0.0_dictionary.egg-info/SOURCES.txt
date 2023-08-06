@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Radman1.0.0_dictionary.egg-info/PKG-INFO
+Radman1.0.0_dictionary.egg-info/SOURCES.txt
+Radman1.0.0_dictionary.egg-info/dependency_links.txt
+Radman1.0.0_dictionary.egg-info/requires.txt
+Radman1.0.0_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
