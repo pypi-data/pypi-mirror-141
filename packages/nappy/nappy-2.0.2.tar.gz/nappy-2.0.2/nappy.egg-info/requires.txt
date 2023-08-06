@@ -1,0 +1,9 @@
+netCDF4
+scipy
+numpy
+xarray
+cf_xarray
+cftime
+
+[netcdf_conversion]
+xarray
