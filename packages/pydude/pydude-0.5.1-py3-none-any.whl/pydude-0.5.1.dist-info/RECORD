@@ -1,0 +1,16 @@
+dude/__init__.py,sha256=4ULkRqKhZWtfSxDAnQ2PmKsqZ113rA7xrIR3wptSDqk,4875
+dude/base.py,sha256=MoFnRmP-sZH-v787h0Ubb9rebn0weHr5AjZzV9wKexg,12381
+dude/context.py,sha256=Cav7hnorpurgOHnfkAIS3MdEBKCQ_RloCSD7YWe2jaA,386
+dude/optional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dude/optional/beautifulsoup_scraper.py,sha256=jVWBcnq-ryjBtde0kNRH8hSsvHxyXma3tduzBib1yk8,5713
+dude/optional/parsel_scraper.py,sha256=DMCGdEYIDeWhBXTtUCljViEbRvsKEAYXiUibFtGELUs,6164
+dude/playwright_scraper.py,sha256=ApSAxM4IN6Rkm4J-8FLC5F2MFBfOt89fiPAVY5oBXRM,9196
+dude/rule.py,sha256=onoVFCk7idBwvle0hjU2GlfeqrgvukVVFhiuh-Y7MnE,2390
+dude/scraped_data.py,sha256=GeAhZ-HVKBahL8B5_wuvmbGI6QfJa36uZVfjI_Uqj7s,553
+dude/scraper.py,sha256=Gz0QElNDwRFypQlH5eI1XBNQlw5zgnLQBpGsYjskNIg,2805
+dude/storage.py,sha256=LoCDFGKEqEDPb5hmfC_ijAq-8vj3AQ01MQ8K9S8QX1g,2305
+pydude-0.5.1.dist-info/entry_points.txt,sha256=mYa5HmgPDQLAUdKodNcXQjmvssQwR9pQowKcVjHTgUM,33
+pydude-0.5.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pydude-0.5.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pydude-0.5.1.dist-info/METADATA,sha256=ZZLIGzoX-RwHG6ZZu6Y5ga7rRDBYtdNait7jZos6jtI,6216
+pydude-0.5.1.dist-info/RECORD,,
