@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pynterpol.py
+pyproject.toml
+setup.cfg
+pynterpol.egg-info/PKG-INFO
+pynterpol.egg-info/SOURCES.txt
+pynterpol.egg-info/dependency_links.txt
+pynterpol.egg-info/requires.txt
+pynterpol.egg-info/top_level.txt
