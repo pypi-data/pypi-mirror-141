@@ -1,0 +1,13 @@
+cad_to_shapely/__init__.py,sha256=281zdoWBYJDzYi1e_779ZHiQAznR-PFypfiVsIf9z_Y,235
+cad_to_shapely/cadimporter.py,sha256=EKVqoVYFrPa4SYJf_FUg2i3z5spiX8ymCLyta5_K6pU,3767
+cad_to_shapely/dxf.py,sha256=94bni0Wy7InNq3Ul7VSgRZVlKQ5c55HQg873FYB3l2Y,5329
+cad_to_shapely/examples.py,sha256=lCH9qT-jm5f2rV2Y-tydvVX9LT1uBfldUxuVjzwAMXI,1711
+cad_to_shapely/geometry.py,sha256=gSjbCj--BBm-irPzjRSCRcFP2dddi0HCgIrecxLRLPs,388
+cad_to_shapely/svg.py,sha256=8M99zD8jbNfZ7R870Jtv3na6ON1sTZWx7y54kwV49Ck,3388
+cad_to_shapely/test_cad_to_shapely.py,sha256=5a9IRyQAtFepEEZrZp3lp1csDAo19Q_3QcIRKyYZmZA,1735
+cad_to_shapely/utils.py,sha256=nS21j14iBgBzpojn82ziPfwSwZnBUZ-f0aZYwsoWKgg,4224
+cad_to_shapely-0.3.dist-info/LICENSE,sha256=ZA7bMF76dms1kUrctjWdk9gf67dtqq3ZpJfKD7VJBP0,1069
+cad_to_shapely-0.3.dist-info/METADATA,sha256=-ixGCtPSmivtnUSTo8F22EGu-zqvBgn89LSpV9IAc0k,1163
+cad_to_shapely-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cad_to_shapely-0.3.dist-info/top_level.txt,sha256=m3TouXNzXr6Nk9UMxONZ5PJcwSdvDNxpAH7bppePFhI,15
+cad_to_shapely-0.3.dist-info/RECORD,,
