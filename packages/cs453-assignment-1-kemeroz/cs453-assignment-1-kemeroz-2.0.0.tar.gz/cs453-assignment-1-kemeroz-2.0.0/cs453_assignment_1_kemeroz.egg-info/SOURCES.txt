@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+cs453_assignment_1_kemeroz.egg-info/PKG-INFO
+cs453_assignment_1_kemeroz.egg-info/SOURCES.txt
+cs453_assignment_1_kemeroz.egg-info/dependency_links.txt
+cs453_assignment_1_kemeroz.egg-info/requires.txt
+cs453_assignment_1_kemeroz.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
