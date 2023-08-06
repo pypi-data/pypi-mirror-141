@@ -1,0 +1,3 @@
+[console_scripts]
+svgreplicate=svgreplicate.__main__:main
+
