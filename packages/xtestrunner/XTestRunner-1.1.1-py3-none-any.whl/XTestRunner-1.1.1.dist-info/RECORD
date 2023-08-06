@@ -1,0 +1,16 @@
+XTestRunner/HTMLTestRunner.py,sha256=5uQnIjVNuY0gbLMzVZo-QJlPF78v8ayIQqmzuN8NK1o,22739
+XTestRunner/__init__.py,sha256=cEtilQK41Z1llSUsrP4wm-SGoQRi7ihtLFB8LZ0v9aY,1966
+XTestRunner/config.py,sha256=B2qStHmPFK0EyXKHCC3DZcVoPxFQS2UicQnEc6U3XuY,558
+XTestRunner/email.py,sha256=mcp8xOhGrsaAb7o55u540Szc5ekw9uwRIiV2_Yc2wwk,2628
+XTestRunner/html/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+XTestRunner/html/heading-en.html,sha256=U6479ucmm19aeCqSQ-t2X5BVUbWjG7rDeHsa21cQb0w,9458
+XTestRunner/html/heading-zh-CN.html,sha256=kxCJaei_k2NJ6jquuN1MJrfr5R8A3vBCkRPvrH6-RbU,9451
+XTestRunner/html/mail.html,sha256=lTva0lYAh5kLTgL5PMILkKpClkFLsTiFeoIm73p4aso,3269
+XTestRunner/html/report-en.html,sha256=OSQwKFQ3nRs6j3H6ixAYIdgcqYmBt0LSj3noSYs7f_o,2598
+XTestRunner/html/report-zh-CN.html,sha256=dMupGneXuVfw3bBZoiJ0WjgtGo5169Fxlok9KzhCTqM,2604
+XTestRunner/html/stylesheet.html,sha256=eLEt3sSnzYJzTg53NwgTLtmisf3n3r5vHDjh3iE6l-s,5678
+XTestRunner/html/template.html,sha256=aWkDlMDssW467Iyr0kGnJQQAC0CMJiK-FKn25o0aKo8,7658
+XTestRunner-1.1.1.dist-info/METADATA,sha256=b0jHEu4IKVXLuw_nTmjhDxqeMMF8tx-fzI9YlTbfji8,890
+XTestRunner-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+XTestRunner-1.1.1.dist-info/top_level.txt,sha256=t2OdnGIb2huwx8lq038F0nCuxxb2N3tF43u7XJxB3Q4,12
+XTestRunner-1.1.1.dist-info/RECORD,,
