@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+omnipyseed/__init__.py
+omnipyseed/seeding.py
+omnipyseed.egg-info/PKG-INFO
+omnipyseed.egg-info/SOURCES.txt
+omnipyseed.egg-info/dependency_links.txt
+omnipyseed.egg-info/top_level.txt
