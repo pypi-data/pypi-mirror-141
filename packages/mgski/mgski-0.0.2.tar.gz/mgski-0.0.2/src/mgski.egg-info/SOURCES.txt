@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/mgski.egg-info/PKG-INFO
+src/mgski.egg-info/SOURCES.txt
+src/mgski.egg-info/dependency_links.txt
+src/mgski.egg-info/requires.txt
+src/mgski.egg-info/top_level.txt
