@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-rest-framework-client
+Version: 0.2.0
+Summary: Python client for a DjangoRestFramework based web site
+Home-page: https://github.com/dkarchmer/django-rest-framework-client
+Author: David Karchmer
+Author-email: dkarchmer@gmail.com
+License: MIT
+Keywords: django,djangorestframework,Rest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7,<4
+Requires-Dist: requests
+
+UNKNOWN
+
+
