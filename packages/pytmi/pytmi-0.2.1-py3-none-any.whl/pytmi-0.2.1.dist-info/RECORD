@@ -1,0 +1,9 @@
+pytmi/__init__.py,sha256=FwrQYHe3grk0-dYt-khTSVpAG0eJt3IrYmgOaTSWWwU,90
+pytmi/client.py,sha256=NxPlmWNMVrd7QLMAhJeZcN6ST9CdRyVVTWd3lD6clFw,6389
+pytmi/message.py,sha256=5sgshNWJ5gOqdEAUtMFUJ7iKpImcqatB0IB7ESyQkYo,3174
+pytmi/stream.py,sha256=TjihXAGelhlpOeQH59B2mZ1LMQSp6593AAyNc4XnHaA,4042
+pytmi-0.2.1.dist-info/LICENSE,sha256=tXIkReKnTwCEdyy9FoWuh3IWiVRmfmFK-ja30XfJb6Y,1069
+pytmi-0.2.1.dist-info/METADATA,sha256=NwC0M_OyWnSqbGrktEO9pjK8valf5pSvrMjCU2XOmM8,2522
+pytmi-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytmi-0.2.1.dist-info/top_level.txt,sha256=kgAiPfk7A8Nf7w15k0Iq9a0X8Gmwl3RYojjVlzWf0YA,6
+pytmi-0.2.1.dist-info/RECORD,,
