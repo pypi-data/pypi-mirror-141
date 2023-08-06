@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: servian_vertex_components
+Version: 0.0.4
+Summary: servian reusable components for vertex ai
+Home-page: https://github.com/Servian-NZ-MLOPS/servian_vertex_components
+Author: Maisa Daoud
+Author-email: maisa.daoud@servian.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
