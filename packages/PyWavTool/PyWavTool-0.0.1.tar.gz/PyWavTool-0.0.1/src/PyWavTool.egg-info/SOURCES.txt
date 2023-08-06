@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PyWavTool/PyWavTool.py
+src/PyWavTool/__init__.py
+src/PyWavTool/dat.py
+src/PyWavTool/length_string.py
+src/PyWavTool/whd.py
+src/PyWavTool.egg-info/PKG-INFO
+src/PyWavTool.egg-info/SOURCES.txt
+src/PyWavTool.egg-info/dependency_links.txt
+src/PyWavTool.egg-info/requires.txt
+src/PyWavTool.egg-info/top_level.txt
