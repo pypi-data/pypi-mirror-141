@@ -1,0 +1,2 @@
+[console_scripts]
+dw-client = dw_client.cli:main

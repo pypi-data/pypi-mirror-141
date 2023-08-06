@@ -1,0 +1,12 @@
+dw_client/__init__.py,sha256=pYmElYRly8GGaCRaN7JdcVyRDLAaZjVxkWdBftK-n60,44
+dw_client/__main__.py,sha256=OQWqN0ZexYdWpmnTn76lOqop94dwEd8CI6KO-i--m0U,38
+dw_client/cli.py,sha256=idPtQDKWwb-yFD04Vgl30_mGEHT9p2OJBoRfcM5JIvY,3673
+dw_client/client.py,sha256=9xmQfmEne4QsgG81bCuQfyuMZMaZctd_KJn_qyW-uZo,15125
+dw_client/config.py,sha256=b1taK2Utz89518Zyue2wFmDN5PNrcM5RJEstkqG15DM,326
+dw_client/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dw_client/singleinstance.py,sha256=kVOuuT0URyR2j73aKyuOg-KzfB24_YvaoxMTpziUPzg,1605
+dw_client-0.0.3.dist-info/METADATA,sha256=IfA3-Gnpggq0VxPMbmEecf_ZRpXDN_aK0NQ2r1gBw2c,2204
+dw_client-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dw_client-0.0.3.dist-info/entry_points.txt,sha256=4B0DmHpa30VoQZSLUlQ2UnuAgrNhJGwwU2LI3-27-eA,49
+dw_client-0.0.3.dist-info/top_level.txt,sha256=E1wlnYzFyX0T0K1noh-SUq-OldtFF522R6RZ7U9B36Q,10
+dw_client-0.0.3.dist-info/RECORD,,
