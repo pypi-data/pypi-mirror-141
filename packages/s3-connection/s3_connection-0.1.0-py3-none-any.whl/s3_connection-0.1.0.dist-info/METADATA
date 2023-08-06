@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: s3-connection
+Version: 0.1.0
+Summary: A package with functions for reading/writing different file types from/to AWS s3 storage.
+Home-page: UNKNOWN
+Author: Jamie O'Brien
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.17.13)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: s3fs (==0.5.2)
+Requires-Dist: s3transfer (==0.3.4)
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-estimator
+Requires-Dist: python-dotenv (==0.19.2)
+
+UNKNOWN
+
