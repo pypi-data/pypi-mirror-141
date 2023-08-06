@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+PyMonoLib.egg-info/PKG-INFO
+PyMonoLib.egg-info/SOURCES.txt
+PyMonoLib.egg-info/dependency_links.txt
+PyMonoLib.egg-info/requires.txt
+PyMonoLib.egg-info/top_level.txt
+pymono/__init__.py
+pymono/types.py
+pymono/util.py
+pymono/version.py
