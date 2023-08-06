@@ -1,0 +1,8 @@
+flon/__init__.py,sha256=X_6FTQW1hdQNERzq7yD_XF1xgRQJgZtXgk5c0Q1kj4E,164
+flon/basket.py,sha256=qjmyT2hhiBrAALGqApgGAEzyqWmfTjqFFCe2N-v1Ojk,3973
+flon/exceptions.py,sha256=HoFK5azwKojQG2E4D8eIcfdhVUNalGnL0KizbqnB5C0,266
+flon/parse.py,sha256=jjHYDNDeXmhy8ZNyFaUu262s9vGK_DJ2zRE0l9aaBIs,2079
+flon/tokenize.py,sha256=ZujDogzaTQjJ2PqEwIaQCiqLJvTy7qB9jEB_QDtOjqM,1184
+flon-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+flon-0.2.0.dist-info/METADATA,sha256=NMwAZGyjs14J9qt41TJyB7ThupKK9GV4vZRdEWtvqNA,435
+flon-0.2.0.dist-info/RECORD,,
