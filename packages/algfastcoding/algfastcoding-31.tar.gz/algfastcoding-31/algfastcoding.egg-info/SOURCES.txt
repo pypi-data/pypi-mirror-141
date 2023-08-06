@@ -1,0 +1,6 @@
+setup.py
+algfastcoding/__init__.py
+algfastcoding.egg-info/PKG-INFO
+algfastcoding.egg-info/SOURCES.txt
+algfastcoding.egg-info/dependency_links.txt
+algfastcoding.egg-info/top_level.txt

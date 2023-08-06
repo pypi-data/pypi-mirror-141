@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: algfastcoding
+Version: 31
+Summary: 高效编程库纪念版/Efficient programming library Commemorative Edition
+Home-page: https://alggfzslt.freeflarum.com/d/6
+Author: ALG
+Author-email: 3104374883@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires: pywin32
+Requires: pypiwin32
+Requires: qrcode
+
+这个库，什么功能都有！！/This library has all functions!!
+
