@@ -1,0 +1,13 @@
+README.md
+setup.py
+michelanglo_transpiler/__init__.py
+michelanglo_transpiler/color.py
+michelanglo_transpiler/locking_singleton_pymol.py
+michelanglo_transpiler/transpiler_base_mixin.py
+michelanglo_transpiler/transpiler_io_mixin.py
+michelanglo_transpiler/transpiler_mod_mixin.py
+michelanglo_transpiler/transplier_pse_mixin.py
+michelanglo_transpiler.egg-info/PKG-INFO
+michelanglo_transpiler.egg-info/SOURCES.txt
+michelanglo_transpiler.egg-info/dependency_links.txt
+michelanglo_transpiler.egg-info/top_level.txt
