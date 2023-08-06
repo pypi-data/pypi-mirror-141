@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gCodeGen/Collector.py
+src/gCodeGen/__init__.py
+src/gCodeGen/agCodeLexer.py
+src/gCodeGen/agCodeParser.py
+src/gCodeGen/agCodeVisitor.py
+src/gCodeGen/gCodeGen.py
+src/gCodeGen.egg-info/PKG-INFO
+src/gCodeGen.egg-info/SOURCES.txt
+src/gCodeGen.egg-info/dependency_links.txt
+src/gCodeGen.egg-info/requires.txt
+src/gCodeGen.egg-info/top_level.txt
