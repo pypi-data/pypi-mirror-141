@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: egopy
+Version: 0.0.1.2022.304.23
+Summary: A framework for developing quant trading systems.
+Home-page: https://www.egopy.cn
+Author: egopy
+Author-email: test@egopy.cn
+License: MIT
+Keywords: quant quantitative investment trading algotrading
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Simplified)
+Requires-Python: >=3.8
+License-File: LICENSE
+
+
+EGOPY - Ego your python for quantitative trading.
+
+Only for testing now!
+
+Only for testing now!
+
+Only for testing now!
+
+
+
