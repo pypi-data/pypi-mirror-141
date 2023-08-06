@@ -1,0 +1,14 @@
+{
+  "Instruments": [ "pyThorlabsPM100x", "pyThorlabsPM100x", "pySRSLockin", "pySRSLockin" ],
+  "Plots": [
+    {
+      "x": "acq#",
+      "y": [  ]
+    },
+    {
+      "x": "acq#",
+      "y": []
+    }
+  ],
+  "Alignment_Instruments_Window": "V"
+}
