@@ -1,0 +1,9 @@
+comparepkgvn/__init__.py,sha256=QoyZ-zb8gGlnQ40a_nvoNdPpOGCnwkGQKvyoMyHag4Q,158
+comparepkgvn/equal.py,sha256=H-pWai0kvnDrglM8JWBR2WC2zTmUVt9jslyQTGWoDqE,57
+comparepkgvn/greater.py,sha256=57ysskGU8N0Vi0Jw-eT_fVX1noF76GqxjR7vR9dbRhU,58
+comparepkgvn/lower.py,sha256=36a3f8GZgVN3pMa4mgeLpb1lfz8MyzZcjB80h6O_yBA,56
+comparepkgvn/notEqual.py,sha256=O53QIDkTtudAIV21N7fV9IcsbG6JArp5UqShi-RiEw4,60
+comparepkgvn-0.0.1.dist-info/METADATA,sha256=BdhPgNmdhBxmUpnQB8qDvi_ANydV19xFUA_mDoXnFrw,538
+comparepkgvn-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+comparepkgvn-0.0.1.dist-info/top_level.txt,sha256=euGDMQ54N9kxPKDoGtZxTBTncaj27y1M3T6XK0o4QuQ,13
+comparepkgvn-0.0.1.dist-info/RECORD,,
