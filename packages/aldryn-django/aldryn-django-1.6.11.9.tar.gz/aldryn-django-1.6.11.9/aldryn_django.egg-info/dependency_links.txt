@@ -1,0 +1,1 @@
+https://control-panel-live-extra-packages.s3-us-west-1.amazonaws.com/django-formtools/django-formtools/django-formtools-1.0.0.1.tar.gz#egg=django-formtools-1.0.0.1
