@@ -1,0 +1,13 @@
+gradefetcher/__init__.py,sha256=j20HiJdp7s9Onk6lOsyGNKIknHRIS1Xz9VPZLrBVbtA,45
+gradefetcher/gradefetcher.py,sha256=-NmWjkcJWeacFiDWepK0lan_h_ViW60Bbh9S3uzw8m8,16715
+gradefetcher/static/README.txt,sha256=bdJ-FpDeHWYyrxLCGpUvvscSMVrci-pKHC5R7shvg9M,767
+gradefetcher/static/css/gradefetcher.css,sha256=FAbZu0R1asTqFXFWhpPSQedXYG1vUiBVl4fd5zM9gqk,823
+gradefetcher/static/html/gradefetcher.html,sha256=0hvWba-bnLOeoX3v1Om7xAiwkzLnDjWFbXO_R8BFefk,1223
+gradefetcher/static/html/studio_edit.html,sha256=JdMHntPlrBGuBqsjxnifC-Q0bCmZ-emT1Le9nQ46vVg,6443
+gradefetcher/static/js/src/gradefetcher.js,sha256=aNQD9sGp_JH49Z5KCBY9u8Xy3iUGmJIYBNf7DcXPE9E,774
+gradefetcher/static/js/src/studio_edit.js,sha256=wsAopNR47OkGY97wcUbNSgMzBMnmY1W2OBCdsKMkbHs,6969
+xblock_grade_fetcher-0.2.dist-info/METADATA,sha256=VEvi2BJVbpijmUW-bOlG9uD8wUvAPaI2QfVpvO_jX9Q,152
+xblock_grade_fetcher-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xblock_grade_fetcher-0.2.dist-info/entry_points.txt,sha256=CuS_Jc5pXOpebSysfMRYyIvvfivdDUrizFXTUZKZiLw,59
+xblock_grade_fetcher-0.2.dist-info/top_level.txt,sha256=QPKiKQLhQvqP8Jkspm_VksYuBLcInMex_2VBftoBOnw,13
+xblock_grade_fetcher-0.2.dist-info/RECORD,,
