@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: coinbasepro-revived
+Version: 1.1.12
+Summary: Revived https://github.com/danpaquin/coinbasepro-python. Python package to interact with the coinbase pro api https://docs.pro.coinbase.com/.
+Author: me
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.13.0,<3.0.0)
