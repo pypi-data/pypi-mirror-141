@@ -1,0 +1,2 @@
+nuqql-based~=0.3.0
+matrix_client~=0.4.0
