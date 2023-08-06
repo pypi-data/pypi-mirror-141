@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sformat/__init__.py
+sformat/formatter.py
+sformat/main.py
+sformat.egg-info/PKG-INFO
+sformat.egg-info/SOURCES.txt
+sformat.egg-info/dependency_links.txt
+sformat.egg-info/entry_points.txt
+sformat.egg-info/top_level.txt
