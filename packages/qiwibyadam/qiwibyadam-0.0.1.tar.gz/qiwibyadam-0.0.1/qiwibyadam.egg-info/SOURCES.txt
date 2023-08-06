@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+qiwibyadam/__init__.py
+qiwibyadam.egg-info/PKG-INFO
+qiwibyadam.egg-info/SOURCES.txt
+qiwibyadam.egg-info/dependency_links.txt
+qiwibyadam.egg-info/not-zip-safe
+qiwibyadam.egg-info/top_level.txt
