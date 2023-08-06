@@ -1,0 +1,11 @@
+README.md
+setup.py
+bodhion/__init__.py
+bodhion/__main__.py
+bodhion/bot.py
+bodhion/chat.py
+bodhion.egg-info/PKG-INFO
+bodhion.egg-info/SOURCES.txt
+bodhion.egg-info/dependency_links.txt
+bodhion.egg-info/requires.txt
+bodhion.egg-info/top_level.txt
