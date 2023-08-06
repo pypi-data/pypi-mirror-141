@@ -1,0 +1,3 @@
+[console_scripts]
+drbl_py = dribbble_py.cli:main
+
