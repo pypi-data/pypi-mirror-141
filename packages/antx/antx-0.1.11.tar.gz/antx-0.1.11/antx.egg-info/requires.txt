@@ -1,0 +1,4 @@
+diff-match-patch==20181111
+PyYAML<6.0,>=5.4
+regex>=2020.5.7
+requests<3.0,>=2.24.0
