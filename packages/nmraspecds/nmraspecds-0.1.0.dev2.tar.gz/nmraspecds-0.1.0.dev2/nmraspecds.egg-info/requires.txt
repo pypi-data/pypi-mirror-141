@@ -1,0 +1,8 @@
+
+[dev]
+prospector
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_multiversion
