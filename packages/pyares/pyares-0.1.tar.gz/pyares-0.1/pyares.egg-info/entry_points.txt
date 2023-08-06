@@ -1,0 +1,3 @@
+[console_scripts]
+pyares_run = pyares.command_line:main
+

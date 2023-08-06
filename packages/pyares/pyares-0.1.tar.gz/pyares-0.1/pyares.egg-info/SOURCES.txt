@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+pyares/__init__.py
+pyares/command_line.py
+pyares.egg-info/PKG-INFO
+pyares.egg-info/SOURCES.txt
+pyares.egg-info/dependency_links.txt
+pyares.egg-info/entry_points.txt
+pyares.egg-info/not-zip-safe
+pyares.egg-info/requires.txt
+pyares.egg-info/top_level.txt
