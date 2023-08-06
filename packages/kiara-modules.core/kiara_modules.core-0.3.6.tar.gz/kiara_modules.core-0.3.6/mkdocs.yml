@@ -1,0 +1,60 @@
+site_name: kiara_modules.core
+repo_url: https://github.com/DHARPA-project/kiara_modules.core
+site_author: Markus Binsteiner
+docs_dir: docs
+site_dir: build/site
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+- attr_list
+- admonition
+- codehilite:
+    guess_lang: false
+- toc:
+    permalink: true
+- pymdownx.snippets:
+    base_path: docs
+- pymdownx.highlight
+- pymdownx.superfences
+
+extra:
+  version:
+    provider: mike
+
+plugins:
+- search
+- mknotebooks
+- autorefs
+- mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        selection:
+          docstring_style: google
+        import:
+        - https://dharpa.org/kiara/latest/objects.inv
+    watch:
+      - "src"
+    enable_inventory: true
+
+- macros:
+   modules:
+     - kiara.doc.mkdocs_macros_cli
+     - kiara.doc.mkdocs_macros_kiara
+
+- gen-files:
+    scripts:
+      - scripts/documentation/gen_info_pages.py
+      - scripts/documentation/gen_api_doc_pages.py
+
+- literate-nav:
+    nav_file: SUMMARY.md
+- section-index
