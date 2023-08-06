@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gtt_drivers
+Version: 0.0.1
+Summary: A driver package for the Matrix Orbital's GTT series of displays
+Home-page: https://github.com/Yook74/gtt-drivers
+Author: Yook74
+Author-email: andrewBlomen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GTT drivers
+This package provides a relatively high-level interface for Matrix Orbital's GTT series of displays.
+Specifically, this package provides a `gtt.GttDisplay` class which implements a subset of the serial commands in the GTT 2.13 standard.
+
