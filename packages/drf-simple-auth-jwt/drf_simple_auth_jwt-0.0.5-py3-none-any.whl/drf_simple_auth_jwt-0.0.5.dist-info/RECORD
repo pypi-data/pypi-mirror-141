@@ -1,0 +1,13 @@
+drf-authjwt/__init__.py,sha256=bOjp4n9vv7SsaHDKXO4BtCffpCNDPbXvMuojEaUhgLY,219
+drf-authjwt/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+drf-authjwt/apps.py,sha256=Ypv85MsWhVFZLKLWhRnuKO8CMXy8lYWwaSdbppwYJsY,144
+drf-authjwt/models.py,sha256=grmhIz-1LeEy5fONpZXfzob1Wm5uFSv6c9ApOyvJ0so,2058
+drf-authjwt/serializers.py,sha256=qQrE5-7nRLzhBchfG2KgLr3xV6O7kNhGMM9FIs7ovYg,3151
+drf-authjwt/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+drf-authjwt/urls.py,sha256=0xiLHJq5geao6phsxusqToDms15zFEpUd5x6YozwiNw,677
+drf-authjwt/views.py,sha256=zGS5_y0DPk8Cb_LAbaHVEyEjisWwwKRPSiwswCcCw8Q,2384
+drf_simple_auth_jwt-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+drf_simple_auth_jwt-0.0.5.dist-info/METADATA,sha256=w4HoHO95jLhuZKuy7R9ai0I5zxWWHhXYmGYAISJagn8,719
+drf_simple_auth_jwt-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_simple_auth_jwt-0.0.5.dist-info/top_level.txt,sha256=UDGX2lnQ66XF1F93nF2mn_B59JYtK7EZzytifUn3HSA,12
+drf_simple_auth_jwt-0.0.5.dist-info/RECORD,,
