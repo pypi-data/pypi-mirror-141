@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+AlpUneriCICD.egg-info/PKG-INFO
+AlpUneriCICD.egg-info/SOURCES.txt
+AlpUneriCICD.egg-info/dependency_links.txt
+AlpUneriCICD.egg-info/requires.txt
+AlpUneriCICD.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
