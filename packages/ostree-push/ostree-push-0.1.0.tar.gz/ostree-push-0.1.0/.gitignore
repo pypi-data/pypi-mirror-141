@@ -1,0 +1,8 @@
+*~
+*.py[co]
+__pycache__
+/.pytest_cache/
+/.tox/
+/build/
+/dist/
+/ostree_push.egg-info/
