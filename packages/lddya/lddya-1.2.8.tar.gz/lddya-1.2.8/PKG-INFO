@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lddya
+Version: 1.2.8
+Summary: 新增了测试用的栅格地图数据，分别是20跟30尺寸的，修复了蚂蚁种群大小无法指定的缺陷。
+Home-page: https://github.com/not_define/please_wait
+Author: lidongdong
+Author-email: 927052521@qq.com
+License: MIT Licence
+Description: 具体功能，请自行挖掘。
+Keywords: pip,license,licensetool,tool,gm
+Platform: any
