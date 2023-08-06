@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: softpotato
+Version: 1.0.5
+Summary: Open source electrochemistry toolkit
+Home-page: https://softpotato.xyz
+Author: Oliver Rodriguez
+Author-email: oliver.rdz@softpotato.xyz
+License: GPL3
+Keywords: Electrochemistry
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
