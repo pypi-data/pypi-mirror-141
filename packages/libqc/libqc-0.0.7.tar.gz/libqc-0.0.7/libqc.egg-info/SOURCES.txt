@@ -1,0 +1,11 @@
+README.md
+setup.py
+libqc/__init__.py
+libqc/counts.py
+libqc/library.py
+libqc.egg-info/PKG-INFO
+libqc.egg-info/SOURCES.txt
+libqc.egg-info/dependency_links.txt
+libqc.egg-info/top_level.txt
+libqc/lib/brunello.csv
+libqc/lib/brunello.fa
