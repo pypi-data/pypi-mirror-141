@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: propylen
+Version: 0.4.0
+Summary: Python project scaffolding generator
+Home-page: https://github.com/petereon/propylen
+License: MIT
+Keywords: project,template,generator,scaffolding
+Author: Petereon
+Author-email: pvyboch1@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: pipenv (>=2022.1.8,<2023.0.0)
+Requires-Dist: poetry (>=1.1.13,<2.0.0)
+Requires-Dist: rich (>=11.2.0,<12.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/petereon/propylen
+Description-Content-Type: text/markdown
+
+# Propylen
+
+__Propylen__ is a Python CLI tool for generating Python projects. In nature, it is a wrapper around pipenv and poetry with some added swag.
+
+__NOTE: Package is not yet fully tested__
+
+# Installation
+
+__Propylen__ should be installed using `pipx` as:
+```shell
+pipx install propylen
+```
+
+# Usage
+
+## Initialize project
+
+You can generate a project structure interactively:
+```shell
+propylen init <project-name>
+```
+
+Alternatively, you can provide necessary infromation in form of command line options. To see available options:
+```shell
+propylen init -h
+```
+## Package Management
+
+__pipenv__ is used as a backend for package management. Options are stripped down.
+
+You can also use `propylen` to install packages using
+```shell
+propylen install <package-name1> <package-name2> ...
+```
+Or without package name to install dependencies from `Pipfile`
+```shell
+propylen install
+```
+
+Additional options are also available, to see them:
+```shell
+propylen install -h
+```
+
+You can uninstall packages using
+```shell
+propylen uninstall <package-name1> <package-name2> ...
+```
+
+## Building
+
+__poetry__ is used as a backend for building. Options are stripped down.
+
+You can build the project using
+```shell
+propylen build
+```
+
+Additional options are also available, to see them:
+```shell
+propylen build -h
+```
