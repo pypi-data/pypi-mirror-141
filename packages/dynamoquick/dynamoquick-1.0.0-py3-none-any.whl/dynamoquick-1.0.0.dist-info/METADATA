@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: dynamoquick
+Version: 1.0.0
+Summary: A small example package
+Author: Zuhair
+Author-email: author@example.com
+License: UNKNOWN
+Keywords: python,dynamodb,tables
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.21.10)
+Requires-Dist: botocore (>=1.24.10)
+
+# dynamoquick
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Zuhair (c) 2022
+
+## Examples of How To Use (1.0 Version)
+
+Methods Available:
+
+check_exist(client,tablename)
+create_table1(dynamodb,tablename,hashname,hashtype,sortname,sorttype,readcapacity,writecapacity)
+create_table2(dynamodb,tablename,hashname,hashtype,readcapacity,writecapacity)
+load_table(dynamodb,tablename,files)
+delete_table(dynamodb,tablename)
+view_table_specific(dynamodb,tablename,key,value,projection,page)
+update_item(dynamodb,tablename,hashname,hashvalue,updatename,updatevalue,sortname=None,sortvalue=None)
+delete_item(dynamodb,tablename,hashname,hashvalue,sortname=None,sortvalue=None)
+filter_details1(dynamodb,tablename,queriesname,queriesvalues,client)
+filter_details2(dynamodb,tablename,queriesnames,queriesvalues,client)
+
+Importing in other program:
+
+```python
+from dynamoquick import *
+```
+
+Sample Demo
+
+```python
+from dynamoquick import *
+import boto3
+
+dynamodb=boto3.resource("dynamodb",endpoint_url="http://localhost:8000",region_name='us-west-2',aws_access_key_id="fakeid",aws_secret_access_key="fakekey")
+client=boto3.client('dynamodb',endpoint_url='http://localhost:8000',region_name='us-west-2',aws_access_key_id='fakeid',aws_secret_access_key='fakekey')
+
+if __name__=="__main__":
+        tablename=input("TableName:")
+        if not check_exist(client,tablename):
+            hashname=input("Hashname:")
+            hashtype=input("Hashtype:")
+            readcapacity=input("Readcapacity:")
+            writecapacity=input("Writecapacity:")
+            res=input("Do you have sortkey:")
+            if res=="yes":
+                sortname=input("Sortname:")
+                sorttype=input("Sorttype:")
+                create_table1(dynamodb,tablename,hashname,hashtype,sortname,sorttype,readcapacity,writecapacity)
+            else:
+                print("No Sort Key")
+                create_table2(dynamodb,tablename,hashname,hashtype,readcapacity,writecapacity)
+            print('Table Created Successfully')
+        else:
+            print('Table with name %s already existed!' % tablename)
+
+```
+
+

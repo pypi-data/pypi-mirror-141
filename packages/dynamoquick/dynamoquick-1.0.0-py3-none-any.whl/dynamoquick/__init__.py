@@ -1,0 +1,1 @@
+from dynamoquick.core import *
