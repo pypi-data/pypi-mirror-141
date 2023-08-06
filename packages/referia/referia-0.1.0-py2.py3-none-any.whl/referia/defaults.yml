@@ -1,0 +1,4 @@
+# Place configure information you want everyone to have here.
+logging:
+  level: 20
+  filename: referia.log
