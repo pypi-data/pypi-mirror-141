@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: toolchest
+Version: 0.0.9
+Summary: toolchest is a collection of generic functions for release-depot
+Home-page: https://github.com/release-depot/toolchest
+Author: Red Hat
+Author-email: lhh@redhat.com
+Maintainer: Lon Hohberger
+Maintainer-email: lon@metamorphism.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/release-depot/toolchest/issues
+Keywords: toolchest
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pyyaml
+Provides-Extra: devbase
+Requires-Dist: tox ; extra == 'devbase'
+Provides-Extra: dist
+Requires-Dist: build ; extra == 'dist'
+Requires-Dist: setuptools-scm ; extra == 'dist'
+Requires-Dist: twine ; extra == 'dist'
+Provides-Extra: docs
+Requires-Dist: sphinx (==4.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-autobuild (==2021.3.14) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==0.5.2) ; extra == 'docs'
+Requires-Dist: myst-parser (==0.15.2) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-datadir ; extra == 'test'
+
+UNKNOWN
+
