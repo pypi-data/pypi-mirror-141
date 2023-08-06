@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+astar_math/__init__.py
+astar_math.egg-info/PKG-INFO
+astar_math.egg-info/SOURCES.txt
+astar_math.egg-info/dependency_links.txt
+astar_math.egg-info/requires.txt
+astar_math.egg-info/top_level.txt
+astar_math/linear_algebra/__init__.py
+astar_math/linear_algebra/matrix.py
+astar_math/random/__init__.py
+astar_math/random/random.py
+astar_math/test/__init__.py
+astar_math/test/test_matrix.py

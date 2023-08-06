@@ -1,0 +1,4 @@
+astartool>0.0.7
+astar-devopstool>0.0.3
+numpy
+scipy
