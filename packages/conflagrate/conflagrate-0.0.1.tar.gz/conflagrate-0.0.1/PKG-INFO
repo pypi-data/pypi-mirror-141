@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: conflagrate
+Version: 0.0.1
+Summary: A framework for writing applications with control flow graphs
+Home-page: https://github.com/ignirtoq/conflagrate
+Author: Jeffrey Bouas
+Author-email: ignirtoq+conflagrate@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ignirtoq/conflagrate/issues
+Project-URL: Source Code, https://github.com/ignirtoq/conflagrate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+🔥 Conflagrate
+=============
+
+Build applications from control flow graphs, rather than the other way around.
+
+1. Define your application flow with a [Graphviz](https://www.graphviz.org/) diagram
+2. Write the code for each node as a decorated Python function
+3. Run
+
+💾 Installation
+--------------
+From [PyPI](https://pypi.org) using `pip`:
+
+`pip install conflagrate`
+
+From source:
+
+`pip install .` or `python setup.py install`
+
+See the examples directory of the [GitHub
+repository](https://github.com/ignirtoq/conflagrate) for sample code.
+
+💻 Dependencies
+--------------
+`conflagrate` is built entirely in Python and only depends on external 
+libraries for diagram parsing.  Currently only [Graphviz](https://www.graphviz.org/)
+is supported:
+* [pydot](https://github.com/pydot/pydot): for parsing the control flow graph
+
