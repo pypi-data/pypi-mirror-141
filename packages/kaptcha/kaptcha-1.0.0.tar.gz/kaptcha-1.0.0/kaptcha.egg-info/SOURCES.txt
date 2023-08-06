@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kaptcha/__init__.py
+kaptcha/captcha.py
+kaptcha/font1.ttf
+kaptcha/font2.ttf
+kaptcha/font3.ttf
+kaptcha/font4.ttf
+kaptcha.egg-info/PKG-INFO
+kaptcha.egg-info/SOURCES.txt
+kaptcha.egg-info/dependency_links.txt
+kaptcha.egg-info/requires.txt
+kaptcha.egg-info/top_level.txt
