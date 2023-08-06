@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: SQLAlchemy-DLock
+Version: 0.2a1
+Summary: A distributed lock implementation based on SQLAlchemy
+Home-page: https://github.com/tanbro/sqlalchemy-dlock
+Author: liu xue yan
+Author-email: liu_xue_yan@foxmail.com
+License: BSD 3-Clause License
+Keywords: SQLAlchemy,lock,distributed,distributed lock,SQL,database,DBMS
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: asyncio
+License-File: LICENSE
+
+# SQLAlchemy-DLock
+
+[![Documentation Status](https://readthedocs.org/projects/sqlalchemy-dlock/badge/?version=latest)](https://sqlalchemy-dlock.readthedocs.io/en/latest/?badge=latest)
+
+Distributed lock based on Database and [SQLAlchemy][].
+
+It currently supports locks of:
+
+- `MySQL`: <https://dev.mysql.com/doc/refman/8.0/en/locking-functions.html>
+- `PostgreSQL`: <https://www.postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS>
+
+It's not stable and **DO NOT** use it in production.
+
+## Usages
+
+Basic usage:
+
+```python
+# ...
+from sqlalchemy import create_engine
+from sqlalchemy_dlock import sadlock
+
+# ...
+
+lock_key = 'user/001'
+
+# ...
+
+engine = create_engine('postgresql://scott:tiger@localhost/')
+
+# ...
+
+with engine.connect() as conn:
+    with sadlock(conn, lock_key):
+        pass
+        # locked here!
+        # ...
+    pass
+    # unlocked here!
+    # ...
+# ...
+```
+
+Work with [SQLAlchemy][]'s Session:
+
+```python
+# ...
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy_dlock import sadlock
+
+# ...
+
+lock_key = 'user/001'
+
+# ...
+
+engine = create_engine('postgresql://scott:tiger@localhost/')
+Session = sessionmaker(bind=engine)
+
+# ...
+
+session = Session()
+
+# ...
+
+with session.bind.connect() as conn:
+    with sadlock(conn, lock_key):
+        # locked here!
+        # ...
+        user = session.query('User').filter(id='001').one()
+        user.password = 'new password'
+        session.commit()
+        # ...
+    pass
+    # unlocked here!
+    # ...
+# ...
+```
+
+[SQLAlchemy]: https://www.sqlalchemy.org/ "The Python SQL Toolkit and Object Relational Mapper"
+
+# CHANGELOG
+
+## v0.2a1
+
+Date: 2021-03-08
+
+- New:
+
+  - Asynchronous IO Support by:
+
+    - [aiomysql](https://github.com/aio-libs/aiomysql) for MySQL
+
+      Connection URL is like: `"mysql+aiomysql://user:password@host:3306/schema?charset=utf8mb4"`
+
+    - [asyncpg](https://github.com/MagicStack/asyncpg) for PostgreSQL
+
+      Connection URL is like: `"postgresql+asyncpg://user:password@host:5432/db"`
+
+    Read <https://docs.sqlalchemy.org/en/14/orm/extensions/asyncio.html> for details
+
+## v0.1.2
+
+Date: 2021-01-26
+
+Still an early version, not for production.
+
+- Changes:
+  - Arguments and it's default value of `acquire` now similar to stdlib's `multiprossing.Lock`, instead of `Threading.Lock`
+  - MySQL lock now accepts float-point value as `timeout`
+- Adds
+  - Several new test cases
+- Other
+  - Many other small adjustment
+
+## v0.1.1
+
+- A very early version, maybe not stable enough.
+- Replace black2b with crc64-iso in PostgreSQL key convert function
+- Only named arguments as extra parameters allowed in Lock's implementation class
+
+# AUTHORS
+
+* Liu Xue Yan (<liu_xue_yan@foxmail.com>)
+
+  [![liu_xue_yan@foxmail.com](https://www.gravatar.com/avatar/049d2fae1fd2df6439e87d1383d0276b)](mailto:liu_xue_yan@foxmail.com)
+
+
