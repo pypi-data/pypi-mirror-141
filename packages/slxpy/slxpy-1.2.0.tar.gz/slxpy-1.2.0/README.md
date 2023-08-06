@@ -1,0 +1,160 @@
+# Slxpy
+![PyPI](https://img.shields.io/pypi/v/slxpy)
+[![MATLAB FileExchange](https://img.shields.io/badge/MATLAB-FileExchange-blue.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100416-slxpy)
+
+Toolchain for seamlessly generating efficient Simulink-to-Python binding and gym-like environment wrapper.
+
+> For Simulink modeling guide, see [docs/modeling.md](docs/modeling.md)
+
+> For Gym and `env.toml` config documentation, see [docs/env.md](docs/env.md)
+
+> For development notes and todos, see [docs/development.md](docs/development.md)
+
+## Features
+
+- Almost complete Simulink and Embedded Coder features support
+- Compatible with a wide range of MATLAB versions
+- Help tuning Simulink code generation config
+- Mininal dependencies and cross-platform, not depending on MATLAB after Simulink code generation step
+- Exchange array data with numpy for efficiency
+- Raw and gym environment wrapper, with seeding and parameter randomization support
+- Automatic single-node parallelization with vector environment
+- Generate human-readable object `__repr__` for ease of use
+- Automatically generate stub file to assist development (with pybind11-stubgen)
+- Compile with all modern C++ compilers
+
+## Prerequisities
+
+> Refer to Quick start section for information about `Step x`
+
+### MATLAB
+
+- Only needed for `Step 2` (Simulink to C++)
+
+- **Version**: >= R2018a ( >= **R2021a** recommended )
+
+  - **R2021a** may be the first version actually suitable for RL environment as it allows `instance parameters`. Previous versions of Embedded Coder will generates static parameters which might be difficult to use in a program (shared by all instances).
+  - For version >= R2018a, limited support is added.
+
+    MATLAB prior to R2021a will inline parameters defined in model workspace when C++ interface is chosen. The script has some logic to allow you to code as R2021 workflow, and maintain tunability on prior to R2021a releases, but the script may fail on the first run and work for following runs due to unknown reasons. (In R2021a it's far easier)
+
+  - For version <= R2017b, some Simulink internal error prohibits proper code generation, thus unsupported.
+
+  - MATLAB since **R2022a** supports **reusable Simscape model**, and slxpy provides corresponding support. Simscape enables powerful non-causal system modeling, which may be very useful for environment design.
+
+    After Mathworks ticket 05353942 & 05373346, reusable C++ class in this release is an unintended bug, and only reusable C interface is officially supported. So, it may not yet work as expected. (Bug/Enhancement Submitted)
+
+- **Toolbox**: Simulink, Embedded Coder, MATLAB Coder, Simulink Coder
+
+### Python
+
+- Almost always needed, except for `Step 2`
+- **Version**: >= 3.8 (but generated binding can target Python 3.7)
+
+  Slxpy uses a bunch of features added in Python 3.8
+
+### C++ toolchain
+
+- Needed for `Step 4` (Building C++)
+
+  For `Step 2`, Embedded Coder does not depend on a C++ toolchain to generate code, but may display a warning for failing to generate build files, which is OK.
+
+  For some MATLAB versions, however, if you are facing error like this:
+  > The model is configured for C++ code generation, but the C-only compiler, LCC, is the default compiler. To allow code generation, on the Code Generation pane:
+  >
+  > 1. Select the 'Generate code only' check box.
+  > 2. In the Toolchain field, select a toolchain from the drop-down list.
+
+  it may be a logic error in Embedded Coder. Just select an alternative C++ toolchain other than LCC, even if it does not exist in your system.
+
+- C++ 17 compatible compiler (one of)
+  - for Windows, Visual Studio 2019 or newer
+  - Clang 5 or newer
+  - GCC 7 or newer
+
+## Installation
+You need to install two packages, one Python package for Python main logic, one MATLAB toolbox for MATLAB interop.
+
+1. Install Python package with `pip install slxpy`
+
+    It is recommanded to use slxpy with conda (to enable multi-target build) and install slxpy in an dedicated conda environment, i.e.
+    ```
+    conda create -n slxpy python=3.9
+    conda activate slxpy
+    pip install slxpy
+    ```
+
+2. Install MATLAB toolbox
+
+	Downloading toolbox from [File Exchange link](https://www.mathworks.com/matlabcentral/fileexchange/100416-slxpy) and double-click it in MATLAB to install.
+
+## Quick start
+
+0. Prepare a Simulink model `foo.slx` suitable for code generation (See [docs/modeling.md](docs/modeling.md))
+
+1. Project creation
+
+   ```bash
+   mkdir bar   # Create slxpy project folder, choose any name you like
+   cd bar
+   slxpy init  # Interactively fill up basic information
+   ```
+
+   Then adjust `model.toml` and `env.toml` as needed (See comments in file, and also [docs/env.md](docs/env.md)).
+
+2. Simulink code generation
+
+   ```matlab
+   workdir = 'bar';             % Path to slxpy project folder
+   slxpy.setup_config(workdir)  % Only need to be run for the first time
+   slxpy.codegen(workdir)       % Code generation
+   ```
+
+3. Slxpy asset generation
+
+   ```bash
+   # Assuming still in bar folder
+   slxpy generate
+   ```
+
+4. Build extension
+
+   ```bash
+   # Assuming still in bar folder
+   python setup.py build
+   ```
+
+5. Test extension
+
+   ```bash
+   # Assuming still in bar folder
+   cd build/lib<platform-suffix>
+   python
+   ```
+
+   In Python REPL, run
+
+   ```python
+   # Substitute foo & bar to your corresponding model & project name
+   import bar
+   a = bar.fooModelClass()
+   b = bar.RawEnv()
+   c = bar.RawEnvVec()
+   d = bar.GymEnv()
+   e = bar.GymEnvVec()
+
+   # Could also provide an EnvSpec similar to Gym's EnvSpec
+   # Check stub or call help(bar._env.EnvSpec) for more options.
+   spec = bar._env.EnvSpec(
+       id='bar-v0',
+       max_episode_steps=100,
+       strict_reset=True,
+   )
+   env = bar.GymEnv(spec)
+   ```
+
+## FAQ
+### Numerous compiler errors about undefined identifier 'creal_T' with Simscape
+Try to set simulink feature `complex` to `true` in `model.toml`.
+Though Embedded Coder did not complain, some Simscape (multibody) functions may implicitly depend on complex structs `c*_T`.
+This may be a flaw of Mathworks product design.
