@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+imstegan/__init__.py
+imstegan/__main__.py
+imstegan.egg-info/PKG-INFO
+imstegan.egg-info/SOURCES.txt
+imstegan.egg-info/dependency_links.txt
+imstegan.egg-info/requires.txt
+imstegan.egg-info/top_level.txt
