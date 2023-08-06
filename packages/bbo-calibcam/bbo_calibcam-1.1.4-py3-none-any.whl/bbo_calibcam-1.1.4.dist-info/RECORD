@@ -1,0 +1,12 @@
+calibcam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calibcam/__main__.py,sha256=39JxA53N8r8xlQaGu09_uQ3wLKITtxi5GP19t5Pt-lc,963
+calibcam/board.py,sha256=s3nlzpfB19fxUaD_V1w_6iSDbiZzYo-NRvoXtkqRGHU,701
+calibcam/calibrator.py,sha256=o5SQwndrLonHIgZgSraSicpmNE6nYO4KR5NnT1Id96Y,34333
+calibcam/gui.py,sha256=6ErB19IXnyyT3YFDViJn6w630Stqf1w5cX1d903ecK0,7480
+calibcam/multical_func.py,sha256=X4P387r-6qeUlh6J_MCd1j0u-TokILdYcJQ_kgNosNA,52121
+calibcam/multical_plot.py,sha256=N-E1HOPsrnp9RdVCaWbu8gN1nK-YhEyuzi-I_nDlmIw,13049
+bbo_calibcam-1.1.4.dist-info/LICENSE,sha256=E2NpITPpFIcSVgKCODRW3--PdX8muLlVOE9LzMNzyYw,25314
+bbo_calibcam-1.1.4.dist-info/METADATA,sha256=Tdt8t3OMaY3Y0CH_2ZbtN_YKd7X1oLnNsELMm6-xiso,2092
+bbo_calibcam-1.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bbo_calibcam-1.1.4.dist-info/top_level.txt,sha256=qkvqWFjuDU1Y5DxFrWvzB9MVxBuFkpjqIGKf7t82WLY,9
+bbo_calibcam-1.1.4.dist-info/RECORD,,
