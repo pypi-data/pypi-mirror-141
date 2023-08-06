@@ -1,0 +1,69 @@
+CHANGELOG
+=========
+
+0.11.3: 2022-03-08
+-----------------
+Fixes:
+- Froze version for MarkupSafe in order to support Python 3.6
+
+
+0.11.2: 2021-10-29
+-----------------
+Fixes:
+- Removed the use of context manager for requests since it's only available after v2.18.0
+
+0.11.0: 2020-08-19
+-----------------
+New Features:
+- Added a initialization parameter for special tokens that have access to all messages in a space.
+
+0.10.0: 2020-04-18
+-----------------
+New Features:
+- Support for threads.
+- Added a `compress_folder` option to allow users to choose whether or not to create the compressed archive.
+- Removed the `overwrite_folder` option since it had no effect.
+
+Fixes:
+- Text archives were missing a space between the e-mail and timestamp.
+
+0.9.2: 2019-09-02
+-----------------
+Fixes:
+- Removed .DS_Store files from repo.
+
+0.9.1: 2019-09-02
+-----------------
+New Features:
+- Added our own CSS and fonts to enable a true offline archive.
+
+0.2.1: 2018-09-26
+-----------------
+Fixes:
+- Changed spacing and line length to almost comply with PEP8.
+
+0.2.0: 2018-09-26
+-----------------
+Fixes:
+- More docstrings and type hints changes.
+- Moved datetime_format back to jinja_env to avoid changing global variable.
+
+New features:
+- Added logging support.
+
+0.1.0: 2018-09-25
+-----------------
+Fixes:
+- Fixed docstrings and type hints.
+- Remove async from methods that did not need to be asynchronous. 
+- Broken jinja template into multiple files to avoid the many levels of indentation.
+- Removed assertions in favor of type hints.
+
+New features:
+- Added support to compress folder on finish.
+- Added support for custom timestamp.
+- Replaced Webex Teams (unlicensed) CSS/fonts with collab-ui CSS/fonts (MIT).
+
+0.0.1: 2018-09-24
+-----------------
+First commit.
