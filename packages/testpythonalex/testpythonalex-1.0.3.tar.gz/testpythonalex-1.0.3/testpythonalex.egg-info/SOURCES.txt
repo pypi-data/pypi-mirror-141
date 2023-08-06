@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+cohere/__init__.py
+cohere/best_choices.py
+cohere/client.py
+cohere/embeddings.py
+cohere/error.py
+cohere/generation.py
+cohere/response.py
+cohere/tokenize.py
+testpythonalex.egg-info/PKG-INFO
+testpythonalex.egg-info/SOURCES.txt
+testpythonalex.egg-info/dependency_links.txt
+testpythonalex.egg-info/requires.txt
+testpythonalex.egg-info/top_level.txt
