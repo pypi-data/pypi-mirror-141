@@ -1,0 +1,1 @@
+define((()=>{return e={554:e=>{window.require&&window.require.config({map:{"*":{"jupyter-scatter":"nbextensions/jupyter-scatter/index"}}}),e.exports={load_ipython_extension:function(){}}}},r={},function t(n){if(r[n])return r[n].exports;var o=r[n]={exports:{}};return e[n](o,o.exports,t),o.exports}(554);var e,r}));
