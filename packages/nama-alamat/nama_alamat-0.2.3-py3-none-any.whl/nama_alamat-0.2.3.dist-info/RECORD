@@ -1,0 +1,11 @@
+nama_alamat/__init__.py,sha256=govPFTtZi3UXKP-VjF0oVuGxLzyzZgjsaFxbIl3mLD8,158
+nama_alamat/nama_alamat.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+nama_alamat/preprocessing/__init__.py,sha256=7VzLI3A-sk5XglAL_m9E3O6_diSWxFdUOb02OZqwqgk,59
+nama_alamat/preprocessing/dict_files/__init__.py,sha256=wAsx7jREKY9nKgKSLPX-DVgh189rkh8K5ugBQgWOELs,17
+nama_alamat/preprocessing/dict_files/dict_alamat.txt,sha256=Q9ZJ46bN4hPkPl9JPFjQ9bh7z_4Bnkdf7UelyEP2K6g,2605
+nama_alamat/preprocessing/dict_files/dict_nama.txt,sha256=-OHVV8A7qOvGXK1pzMM38bXBqKAyKriIQY3v__8w5hE,7093
+nama_alamat/preprocessing/preprocessing.py,sha256=crfbtX4oR_Q-sJvN_eklLT5QVMs3cEvpwHl8kvxUO48,4262
+nama_alamat-0.2.3.dist-info/LICENSE,sha256=Fx4RO8RbzueQny4Cs-VAvncIu1nKbHdxhD4O6kt7tbE,1068
+nama_alamat-0.2.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nama_alamat-0.2.3.dist-info/METADATA,sha256=4TbNjhoexgfMM9ILql4QpdKGDLEhg9M6TXY-vUbSn-Q,3532
+nama_alamat-0.2.3.dist-info/RECORD,,
