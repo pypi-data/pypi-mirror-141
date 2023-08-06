@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-tg-logs
+Version: 0.0.1
+Summary: A package to convert your Jupyter Notebook
+Home-page: https://github.com/inkviz96/django-tg-logs
+Author: Inkviz96
+Author-email: b-semen-b@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django (>=3.0)
+Requires-Dist: pyTelegramBotAPI (>=4.4.0)
+
+# django-tg-logs
+
