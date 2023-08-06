@@ -1,0 +1,11 @@
+hopara/__init__.py,sha256=VwirPqEO4HGCpZrQm6ftxb7r1rRN-R1xTfN-x6Kh_lg,268
+hopara/config.py,sha256=FmqgYhi-iJFcYKfWhgYrOe8jL4Z4wNLkGSBeK_D5P7w,2522
+hopara/filter.py,sha256=CpPg93rKkqesvhB2kD8SrU7PqP8om1U7J_1VUMwMkgY,1329
+hopara/from_pandas.py,sha256=Ls_dk5W_53kz1SrFu8ZU_nrTAeZmGzqOgowu4UbjwD0,1803
+hopara/hopara.py,sha256=FKWn4q6sI5i1isCxc311sWk4boMe6_-Z38kmczti0QI,4651
+hopara/request.py,sha256=8urhwteSGLnhJzrHwF5AKySfap5PRb2GtVZm0oGQyF4,1745
+hopara/table.py,sha256=4EckIwnGZpUJk-kUi72n7SNdeSbzlMg6wXrPjtWlxyc,4516
+hopara-1.0.0.dist-info/METADATA,sha256=kwqtZ6yRw8ktE3Q-VizE1D4LgVWz_F-IkbyJrP5ZT8A,1468
+hopara-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hopara-1.0.0.dist-info/top_level.txt,sha256=0rQoaBMPSbylDWybaA_8SlMmuOaONWFVded5bk6RagM,7
+hopara-1.0.0.dist-info/RECORD,,
