@@ -1,0 +1,7 @@
+osepdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osepdf/pdftoimage.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osepdf/pdftotext.py,sha256=_8wj4waRVvYMe6b7kW3M4h8NUc6s032kLWJuiSAGCa4,38
+osepdf-1.0.dist-info/METADATA,sha256=R59xm_ebYS1qw4e_Mvm23l6EVaHKHWwN1LAvIs5EnLA,168
+osepdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+osepdf-1.0.dist-info/top_level.txt,sha256=iqUeKkZ2S4Ayz0c6CTJGTAVM0-0XnnLGwGGuB2FNjDE,7
+osepdf-1.0.dist-info/RECORD,,
