@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: codecraft-tic-tac-toe
+Version: 0.1.1
+Summary: This package will allow you to get familiar with the API used in the Codecraft Works Python Tic-Tac-Toe Game
+Author: Codecraft Works
+Author-email: hello@codecraftworks.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: <3.11,>=3.7
+Description-Content-Type: text/markdown
+
+# Codecraft Work Python Tic-Tac-Toe Game
+
+This package will allow you to get familiar with the API used in the
+[Codecraft Works Python Tic-Tac-Toe Game](https://app.codecraftworks.com/games/tictactoe)
+
