@@ -1,0 +1,32 @@
+#!/bin/bash
+# Author: Frank Kwizera
+set -euxo pipefail  # Fail if any intermediate command fails
+export TERM=xterm-256color
+GREEN='\033[0;32m'
+normal=$(tput sgr0)
+NC='\033[0m' # No Color
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+
+err_user() {
+    message=$1
+    echo -e "\n${RED}Dear $USER, $message ${normal}"
+}
+
+warn_user() {
+    message=$1
+    echo -e "\n${YELLOW}Dear $USER, $message ${normal}"
+}
+
+say() {
+    message=$1
+    echo -e "\n${GREEN} $message ${normal}"
+}
+
+say "Running Flake8 checks"
+# stop the push if there are Python syntax errors or undefined names
+flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+# Warnings of higher complexity are translated into errors. The GitHub editor is 127 chars wide
+flake8 . --count --max-complexity=10 --max-line-length=127 --statistics
+
+printf "\n${GREEN}Pre-commit checks succeeded.${normal}\n"

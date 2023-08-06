@@ -1,0 +1,29 @@
+name: RebaDicom all tests
+
+on:
+  pull_request:
+    types: [assigned, opened, synchronize, reopened]
+
+jobs:
+  run-pr-flakes:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies from requirements
+        run: |
+          python -m pip install --upgrade --upgrade-strategy only-if-needed pip
+          pip install --no-cache-dir -r requirements.txt
+      - name: Run pre-commit which should run flake8 if needed
+        run: |
+          ./hooks/pre-commit
+      - name: Stop if flake fails
+        run: |
+          exit_code=$?
+          if [ $exit_code != 0 ]; then
+          echo "Flake failed"
+          exit 1
+          fi;
