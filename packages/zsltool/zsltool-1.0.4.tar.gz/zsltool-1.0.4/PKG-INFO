@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: zsltool
+Version: 1.0.4
+Summary: some utilities
+Home-page: UNKNOWN
+Author: Zhou-Shilin
+Author-email: 2839997522@qq.com
+License: apache 3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: xes.tool
+Requires: math
+Requires: hashlib
+Requires: py_compile
