@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+anti_header/__init__.py
+anti_header/exceptions.py
+anti_header/headers.py
+anti_header.egg-info/PKG-INFO
+anti_header.egg-info/SOURCES.txt
+anti_header.egg-info/dependency_links.txt
+anti_header.egg-info/requires.txt
+anti_header.egg-info/top_level.txt
+anti_header.egg-info/zip-safe
+anti_header/utils/__init__.py
+anti_header/utils/datatypes.py
+anti_header/utils/http.py
+anti_header/utils/log.py
+anti_header/utils/python.py
