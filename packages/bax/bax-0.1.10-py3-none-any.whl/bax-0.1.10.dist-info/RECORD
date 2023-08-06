@@ -1,0 +1,10 @@
+bax/__init__.py,sha256=z0AK0ZmYwhJ4EcdcpB76tA_wa8_W_MR2hCZuDJkfXLQ,41
+bax/callbacks.py,sha256=K3yMGyNZXWTN7tHv5TlJnsn9Pv25IpV0FM7N0Rl9cNE,2849
+bax/data.py,sha256=ThDUFiS5w3wADmyvt_mBBWMhfinJGoVHnDy_wUMSX4U,1663
+bax/trainer.py,sha256=nQcTCJjVQDZqRLP4pYO-wEdEexH6VVLEYJH2EDq-nAU,17317
+bax/utils.py,sha256=cNtYCob7Help0_Tv-ggxG2uj_xAJ6d9BoCBjQ3bKqg8,444
+bax-0.1.10.dist-info/LICENSE,sha256=nsccS9axzG1XldPX3QvAO0u3c8Qi4kdAucxNhB6dNH0,1069
+bax-0.1.10.dist-info/METADATA,sha256=p6xw4ArM2qAZP6-_PWhEuJSTamyj3q6uR5qZuPPw_yc,2811
+bax-0.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bax-0.1.10.dist-info/top_level.txt,sha256=tAvWVw-d7IKNfYm2Ggkiu5zYIKx0bTxmrAa4g-qkTXs,4
+bax-0.1.10.dist-info/RECORD,,
