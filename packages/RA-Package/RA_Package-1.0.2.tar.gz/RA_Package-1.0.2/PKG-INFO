@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: RA_Package
+Version: 1.0.2
+Summary: Backend Library for RA-Rechner
+Home-page: https://github.com/manuraffl30/RA_Rechner
+Author: Manuel Alexander Christoph Raffl
+Author-email: manuraffl003@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/manuraffl30/RA_Rechner/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RA_Package
+
+This is the Backend Library for the RA-Rechner by Manuel Raffl & Leon Arquilliere
+
