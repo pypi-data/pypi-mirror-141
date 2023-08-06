@@ -1,0 +1,221 @@
+Metadata-Version: 2.1
+Name: tinda
+Version: 0.0.28
+Summary: BUGGY ALPHA STATE
+Home-page: UNKNOWN
+Author: (Hank Singh)
+Author-email: <hanksingh07@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: argparse
+Requires-Dist: wave
+Requires-Dist: pyautogui
+Requires-Dist: mediapipe
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: twine
+Requires-Dist: pyttsx3
+Requires-Dist: pyaudio
+Requires-Dist: speedtest-cli
+Requires-Dist: pynput
+Requires-Dist: datetime
+Requires-Dist: bs4
+Requires-Dist: SpeechRecognition
+
+
+# tinda
+
+#### Buggy alpha stage, Please check back later, thankyou.
+
+ 
+
+## Modern wrapper for basic things. 
+
+
+
+### Installation:
+
+
+
+```
+
+pip install tinda
+
+
+
+```
+
+
+
+## Usage:
+
+
+
+```
+
+from tinda import XXX   
+
+
+
+'''
+
+When a class defines an __init__() method,
+
+class instantiation automatically invokes __init__() 
+
+for the newly-created class instance. 
+
+So in this example, a new, 
+
+initialized instance can be obtained by:
+
+'''
+
+
+
+x = XXX()
+
+
+
+'''
+
+Method Objects:
+
+Usually, a method is called right after it is bound:
+
+For example,
+
+'''
+
+
+
+x.say('string of whatever') 
+
+
+
+#google image search of the query string
+
+x.image(query) 
+
+
+
+# the same works for Google, Github, Stackoverflow, Youtube, etc.
+
+x.google(query)
+
+x.stackoverflow(query) 
+
+
+
+
+
+# returns private and public ip.
+
+x.getIp() 
+
+
+
+# returns location data.
+
+x.getLocation() 
+
+
+
+# other methods:
+
+x.time() 
+
+x.date()
+
+x.shutdown()
+
+x.mousePosition()
+
+x.goToPosition()
+
+x.leftClick()
+
+x.rightClick()
+
+x.showDesktop()
+
+
+
+x.recordScreen() # saves output file in root directory.
+
+x.speedTest() # returns internet speed test results.
+
+x.getLinks() # takes in url and returns all links.
+
+x.textToMorse() # string to morse code.
+
+```
+
+
+
+```
+
+# Local network Terminal Chat
+
+import tinda
+
+
+
+tinda.TerminalChatServer()
+
+# once the server is running, Clients can connect to the server and begin chatting.
+
+
+
+import tinda
+
+
+
+tinda.TerminalChatClient()
+
+```
+
+
+
+```
+
+# Local Network Audio Chat
+
+import tinda
+
+
+
+tinda.LocalAudioServer()
+
+# once the server is running, Clients can connect to the server and begin chatting.
+
+
+
+import tinda
+
+
+
+tinda.LocalAudioClient()
+
+
+
+```
+
+
+
+
+
+Developed by:
+
+Harpreet Singh © 2021
+
+
+
