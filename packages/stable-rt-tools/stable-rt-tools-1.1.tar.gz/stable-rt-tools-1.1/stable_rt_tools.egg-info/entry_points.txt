@@ -1,0 +1,2 @@
+[console_scripts]
+srt = stable_rt_tools.srt:main

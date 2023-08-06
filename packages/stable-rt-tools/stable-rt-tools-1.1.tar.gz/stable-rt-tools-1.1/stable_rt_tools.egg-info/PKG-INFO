@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stable-rt-tools
+Version: 1.1
+Summary: Support out of tree patch workflows
+Home-page: https://stable-rt-tools.readthedocs.io
+Download-URL: https://github.com/igaw/stable-rt-tools/releases/archive/1.1.tar.gz
+Maintainer: Daniel Wagner
+Maintainer-email: dwagner@suse.de
+License: MIT
+Keywords: Linux development
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+This tool provides an easy mechanism to maintain stable RT trees.
+
+See the `stable-rt-tools documentation <https://stable-rt-tools.readthedocs.io>`_ for further details.
+
+
