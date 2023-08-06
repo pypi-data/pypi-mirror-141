@@ -1,0 +1,35 @@
+{
+  "bom": {
+    "logger": {
+      "version": "1.0.5"
+    }
+  },
+  "logging": {
+    "version": 1,
+    "disable_existing_loggers": true,
+    "formatters": {
+      "json": {
+        "()": "bom.logger.formatter.JsonFormatter"
+      }
+    },
+    "handlers": {
+      "console": {
+        "level": "INFO",
+        "class": "logging.StreamHandler",
+        "formatter": "json"
+      }
+    },
+    "loggers": {
+      "": {
+        "handlers": ["console"],
+        "level": "INFO",
+        "propagate": false
+      },
+      "bom": {
+        "handlers": ["console"],
+        "level": "INFO",
+        "propagate": false
+      }
+    }
+  }
+}

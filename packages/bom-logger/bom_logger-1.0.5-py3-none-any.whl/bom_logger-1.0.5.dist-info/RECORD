@@ -1,0 +1,10 @@
+bom_logger-1.0.5-py3.8-nspkg.pth,sha256=5RlHBTSikI1gpKx5zTNPswNFibLg-8lRj69viLf7w4o,524
+bom/logger/__init__.py,sha256=9YXvleTsg4k71A8k6M3EaSOUgRA-9fkBo2gFvhh0NsI,337
+bom/logger/bom.conf.json,sha256=2ZEZGBwYwd8yBx8x8OR1FqjIpq0qI4lpOxavU8ffSac,628
+bom/logger/formatter.py,sha256=G-wCeAkjPF9zoeVtkq9yW1ZmagdK_RffX-8VfEJXHl8,2661
+bom/logger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bom_logger-1.0.5.dist-info/METADATA,sha256=cSn1WKYk4hHHNm4hpXGoie6m0r8t94GadKNMtJ3CBlc,372
+bom_logger-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bom_logger-1.0.5.dist-info/namespace_packages.txt,sha256=6zytg4lnnobI96dO-ZEadPOCslrrFmf4t2Pnv-y8x0Y,4
+bom_logger-1.0.5.dist-info/top_level.txt,sha256=6zytg4lnnobI96dO-ZEadPOCslrrFmf4t2Pnv-y8x0Y,4
+bom_logger-1.0.5.dist-info/RECORD,,
