@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Dictionary-CI
+Version: 2.0.0
+Summary: UNKNOWN
+Author: Mohamed Wasim Mohamed Akram
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: requests (>=2.23.0)
+
+UNKNOWN
+
