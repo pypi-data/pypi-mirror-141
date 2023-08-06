@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+mokhlaroyim_raupova_very_simple_dictionary.egg-info/PKG-INFO
+mokhlaroyim_raupova_very_simple_dictionary.egg-info/SOURCES.txt
+mokhlaroyim_raupova_very_simple_dictionary.egg-info/dependency_links.txt
+mokhlaroyim_raupova_very_simple_dictionary.egg-info/requires.txt
+mokhlaroyim_raupova_very_simple_dictionary.egg-info/top_level.txt
