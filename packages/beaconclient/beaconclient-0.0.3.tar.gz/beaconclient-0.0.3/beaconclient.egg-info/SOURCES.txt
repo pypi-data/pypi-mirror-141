@@ -1,0 +1,9 @@
+README.md
+setup.py
+beaconclient/__init__.py
+beaconclient/beacon.py
+beaconclient.egg-info/PKG-INFO
+beaconclient.egg-info/SOURCES.txt
+beaconclient.egg-info/dependency_links.txt
+beaconclient.egg-info/requires.txt
+beaconclient.egg-info/top_level.txt

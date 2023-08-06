@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: beaconclient
+Version: 0.0.3
+Summary: Package for https://getbeacon.xyz
+Home-page: https://github.com/charliemday/beaconclient
+Author: Cerwind
+Author-email: 
+License: UNKNOWN
+Keywords: python,beacon,beaconclient,notification
+Platform: UNKNOWN
+
+Package for https://getbeacon.xyz - a way to notify your favourite channels when the interesting stuff happens on your server
+
