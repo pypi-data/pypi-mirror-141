@@ -1,0 +1,2 @@
+[console_scripts]
+utxo = utxo.cli:main
