@@ -1,0 +1,5 @@
+ed25519_axolotl-1.7.0.dist-info/METADATA,sha256=fVvJ9lNCpvImHV9oL1hELGkC9JeNvRQydg21tpTnvrw,6267
+ed25519_axolotl-1.7.0.dist-info/WHEEL,sha256=Q-2vbvqPoWNYMiT5EbJfTz0rcKIMh7jENxyYlIOQOak,139
+ed25519_axolotl/__init__.py,sha256=2K2hsF-Axr-8-WkXHlZMXs1H1eG8J-6oglgPhge8pDQ,66
+ed25519_axolotl/ed25519_axolotl.pypy37-pp73-x86_64-linux-gnu.so,sha256=MGsea4aUDn8jWRC9fNg-qAjb85NpoHJnaahiRJJy-z4,518576
+ed25519_axolotl-1.7.0.dist-info/RECORD,,
