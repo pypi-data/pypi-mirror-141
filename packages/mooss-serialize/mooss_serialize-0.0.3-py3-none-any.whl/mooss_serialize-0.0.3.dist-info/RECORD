@@ -1,0 +1,10 @@
+mooss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mooss/serialize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mooss/serialize/__version__.py,sha256=Qf1o0kcM27nqrKmvh7bxyFDd29oUycSPN27fj2x7ins,357
+mooss/serialize/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mooss/serialize/interface.py,sha256=paEa2RIrJPds-4MVnefdA7JAdScVUp9l6BCAcaT1tnY,8054
+mooss_serialize-0.0.3.dist-info/LICENSE,sha256=ZAUUFjsX-XetyZfLFvUYcRIs-wVV660aPwHhZ7e6iFc,1235
+mooss_serialize-0.0.3.dist-info/METADATA,sha256=bRAZn4-clf3trnRCQ6uhgDLC0GTVA-pcJztORsOAE2U,3497
+mooss_serialize-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mooss_serialize-0.0.3.dist-info/top_level.txt,sha256=mtRvyFmlfb6bxP8IWkHjgK0e8PIWzHzVy148NAh7GS4,6
+mooss_serialize-0.0.3.dist-info/RECORD,,
