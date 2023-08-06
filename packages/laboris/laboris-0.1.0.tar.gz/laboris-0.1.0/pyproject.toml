@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "laboris"
+version = "0.1.0"
+description = ""
+authors = ["Arden Rasmussen <ardenisthebest@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^11.2.0"
+pony = "^0.7.16"
+python-dateutil = "^2.8.2"
+isodate = "^0.6.1"
+humanize = "^4.0.0"
+click = "^8.0.3"
+halo = "^0.0.31"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+laboris = "laboris.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
