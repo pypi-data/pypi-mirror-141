@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wos-api-wrapper
+Version: 0.4.4
+Summary: Python package to access Web of Science API Expanded
+Home-page: https://github.com/FEFU-Analytics-Sector/wos_api_wrapper
+Author: Aleksei Lepekha
+Author-email: lepehaleha@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: simplejson
+
+# wos-api-wrapper
+Python package to access Web of Science API
+
+
