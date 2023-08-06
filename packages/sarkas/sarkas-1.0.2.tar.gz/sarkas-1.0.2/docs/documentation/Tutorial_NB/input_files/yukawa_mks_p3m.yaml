@@ -1,0 +1,64 @@
+# keywords: YOCP, Yukawa, P3M, mks, random_no_reject
+Particles:
+    - Species:
+        name: H
+        number_density: 1.62e+32       # /m^3
+        mass: 1.673e-27                # kg, ptcl mass of ion1
+        num: 10000                    # total number of particles of ion1 
+        Z: 1.0                        # degree of ionization
+        temperature_eV: 1.25
+
+Potential:
+    type: Yukawa
+    method: P3M                   # Particle-Particle Particle-Mesh
+    electron_temperature_eV: 1.25e+3
+    rc: 6.2702e-11            # [m]
+    pppm_mesh: [64, 64, 64]
+    pppm_aliases: [3,3,3]
+    pppm_cao: 6
+    pppm_alpha_ewald: 5.4659e+10 # 1/[m]
+
+Integrator:
+    type: Verlet                  # velocity integrator type
+    equilibration_steps: 5000                  # number of timesteps for the equilibrium
+    production_steps: 5000               # number of timesteps after the equilibrium
+    eq_dump_step: 10
+    prod_dump_step: 10
+
+Thermostat:
+    type: Berendsen               # thermostat type
+    relaxation_timestep: 50
+    berendsen_tau: 1.0
+
+Parameters:
+    units: mks                  # units
+    dt: 2.000e-18            # sec
+    load_method: random_no_reject
+    boundary_conditions: periodic
+
+IO:
+    verbose: yes
+    simulations_dir: Simulations
+    job_dir: yocp_pppm  # dir name to save data.
+    job_id: yocp
+
+Observables:
+  - RadialDistributionFunction:
+      no_bins: 500
+
+  - Thermodynamics:
+      phase: production
+
+  - DynamicStructureFactor:
+      no_slices: 1
+      max_ka_value: 8
+
+  - StaticStructureFactor:
+      max_ka_value: 8
+
+  - CurrentCorrelationFunction:
+      max_ka_value: 8
+
+TransportCoefficientss:
+    - Diffusion:
+        time_averaging: False

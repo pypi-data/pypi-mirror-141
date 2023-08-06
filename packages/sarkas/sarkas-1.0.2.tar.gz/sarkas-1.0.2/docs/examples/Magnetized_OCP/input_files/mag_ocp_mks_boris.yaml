@@ -1,0 +1,58 @@
+# keywords: Magnetized Plasma, OCP, Boris integrator
+Particles:
+    - Species:
+        name: H
+        number_density: 1.62e+30       # /m^3
+        mass: 1.673e-27                # kg, ptcl mass of ion1
+        num: 1000                    # total number of particles of ion1
+        Z: 1.0                        # degree of ionization
+        temperature_eV: 0.286965
+
+Potential:
+    type: Coulomb                  # potential type
+    method: pppm                   # P3M
+    rc: 2.202596e-10             # cut-off radius, meter
+    pppm_mesh: [64,64,64]
+    pppm_aliases: [3,3,3]
+    pppm_cao: 6
+    pppm_alpha_ewald: 1.703898e+10
+
+Integrator:
+    dt: 1.10e-17            # sec
+    type: magnetic_boris                  # velocity integrator type
+    electrostatic_equilibration: True
+    equilibration_steps: 5000
+    magnetization_steps: 5000
+    production_steps: 70000
+    eq_dump_step: 10
+    prod_dump_step: 5
+    mag_dump_step: 10
+
+Thermostat:
+    type: Berendsen               # thermostat type
+    relaxation_timestep: 100
+    berendsen_tau: 10.0
+
+Parameters:
+    units: mks                    # units
+    load_method: random_no_reject
+    boundary_conditions: periodic
+    rdf_nbins: 500
+    magnetized: True
+    magnetic_field: [0.0, 0.0, 17.0e+6]  # Tesla
+
+IO:
+    verbose: yes
+    magnetized: True
+    job_dir: ocp_mag_boris        # dir name to save data. The default is "Checkpoint"
+
+Observables:
+  - RadialDistributionFunction:
+      no_bins: 500
+
+  - Thermodynamics:
+      phase: production
+
+  - VelocityAutoCorrelationFunction:
+      phase: production
+      no_slices: 5
