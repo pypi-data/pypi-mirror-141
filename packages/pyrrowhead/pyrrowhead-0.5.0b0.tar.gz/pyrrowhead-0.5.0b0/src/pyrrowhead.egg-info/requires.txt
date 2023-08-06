@@ -1,0 +1,14 @@
+pyyaml~=5.4.1
+yamlloader~=1.0.0
+typer>=0.4.0
+click>=8.0
+jinja2~=3.0.1
+rich==10.*
+requests~=2.26
+cryptography~=35.0
+
+[test]
+tox~=3.24
+coverage[toml]~=6.3.2
+pytest~=6.2.0
+flake8~=4.0.1
