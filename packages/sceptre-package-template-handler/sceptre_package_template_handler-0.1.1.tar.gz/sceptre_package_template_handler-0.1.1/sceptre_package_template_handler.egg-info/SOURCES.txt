@@ -1,0 +1,8 @@
+README.md
+package_template_handler.py
+setup.py
+sceptre_package_template_handler.egg-info/PKG-INFO
+sceptre_package_template_handler.egg-info/SOURCES.txt
+sceptre_package_template_handler.egg-info/dependency_links.txt
+sceptre_package_template_handler.egg-info/entry_points.txt
+sceptre_package_template_handler.egg-info/top_level.txt
