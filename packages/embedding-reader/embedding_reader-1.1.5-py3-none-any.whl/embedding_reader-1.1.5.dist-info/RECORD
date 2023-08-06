@@ -1,0 +1,12 @@
+embedding_reader/__init__.py,sha256=3dn5btYFW1sjKx8CR4oLh78Cd79XDesWB3l00ZjDL6w,86
+embedding_reader/embedding_reader.py,sha256=zV5ET88C5DAG7WkE6Q6JH6LkKy-M_Koi98Jq3TOzsrQ,1252
+embedding_reader/get_file_list.py,sha256=-hsfhZlX_Kme41rmHyc5c_GU4JoS4ipK7yhEEhmKxQU,1835
+embedding_reader/numpy_reader.py,sha256=VnjAiHtMhDU9cc1VIXTEPGqJ7uhSdlnP95IWhrKreaA,5174
+embedding_reader/parquet_reader.py,sha256=6i9vc5a3D9CBjOR5aoGSPMXVtcVG3GdrpIB2Xr87mu8,5880
+embedding_reader/piece_builder.py,sha256=-krVOO7loGWGP9qh57dnaRFBWs-pBZXB9zpR_27L70A,3199
+embedding_reader-1.1.5.data/data/README.md,sha256=hSEu6_UVuGLwKKw5uvE5CaHQNNdIReDcqOuzkLlYKXI,5334
+embedding_reader-1.1.5.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+embedding_reader-1.1.5.dist-info/METADATA,sha256=UeDQu3RF0q0wiKfhwuunMtmWPlXAspxKZkPUHjpkHBI,6004
+embedding_reader-1.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+embedding_reader-1.1.5.dist-info/top_level.txt,sha256=uMPmpYZ7n_o69W6ipcZK1KB3vqx4orNj6sBqY8RmbhA,17
+embedding_reader-1.1.5.dist-info/RECORD,,
