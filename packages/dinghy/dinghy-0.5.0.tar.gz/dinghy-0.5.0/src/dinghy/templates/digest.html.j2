@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+{# The template for the digest.html output file. -#}
+
+{%- macro octicon_url(name, size=16) -%}
+  {#- Octicons: https://github.com/primer/octicons/tree/main/icons -#}
+  https://raw.githubusercontent.com/primer/octicons/main/icons/{{ name }}-{{ size }}.svg
+{%- endmacro -%}
+
+{%- macro octicon_bg(name, size=16) -%}
+  background-image: url({{ octicon_url(name, size) }});
+{%- endmacro -%}
+
+<head>
+  <title>Activity since {{ since|datetime("%Y-%m-%d") }}</title>
+  <link rel="icon" href="{{ octicon_url("comment-discussion", 24) }}" type="image/svg+xml">
+  <style>
+  body {
+    font-family: sans-serif;
+    max-width: 60em;
+    margin: auto;
+    line-height: 1.3;
+    color: black;
+  }
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .reponame {
+    font-weight: bold;
+    font-size: 150%;
+  }
+  ul.repos > li {
+    margin: 2em 0;
+  }
+  ul.items > li {
+    margin: 1em 0;
+  }
+  ul.items p {
+    margin: 0 0 0 4.2em;
+  }
+  ul.comments {
+    padding-left: 4.2em;
+  }
+  ul.thread_comment {
+    padding-left: 1.5em;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #0969da;
+  }
+  .label {
+    padding: .2em .5em .1em .5em;
+    border-radius: 2em;
+    font-size: 75%;
+    opacity: .75;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .homerepo {
+    color: #888;
+  }
+  .footer {
+    color: #888;
+    font-style: italic;
+    margin-top: 3em;
+  }
+  .octicons {
+    display: inline-block;
+    padding-right: .3em;
+  }
+  .octicon {
+    width: 1.3em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    padding-bottom: .2em;
+  }
+  {# sepia: #aa9a7c #}
+  .octicon.star {
+    {{ octicon_bg("star") }}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  }
+  .octicon.x {
+    {{ octicon_bg("x") }}
+  }
+  .octicon.check {
+    {{ octicon_bg("check") }}
+  }
+  .octicon.checkcircle {
+    {{ octicon_bg("check-circle") }}
+  }
+  .octicon.comment {
+    {{ octicon_bg("comment") }}
+  }
+  .octicon.eye {
+    {{ octicon_bg("eye") }}
+  }
+  .octicon.filediff {
+    {{ octicon_bg("file-diff") }}
+  }
+  .octicon.dash {
+    {{ octicon_bg("dash") }}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(172deg) saturate(0.43) brightness(1.25);
+  }
+  .octicon.pull {
+    {{ octicon_bg("git-pull-request") }}
+    {# open color: #1a7f37 -#}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  }
+  .octicon.pull.draft {
+    {{ octicon_bg("git-pull-request-draft") }}
+    {# draft color: #57606a -#}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(172deg) saturate(0.43) brightness(0.65);
+  }
+  .octicon.pull.closed {
+    {{ octicon_bg("git-pull-request-closed") }}
+    {# closed color: #cf222e -#}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(316deg) saturate(6) brightness(.8);
+  }
+  .octicon.pull.merged {
+    {{ octicon_bg("git-merge") }}
+    {# merged color: #8250df -#}
+    filter: invert(1) brightness(.5) sepia(1) hue-rotate(220deg) saturate(8) brightness(.65);
+  }
+  .octicon.issue {
+    {{ octicon_bg("issue-opened") }}
+  }
+  .octicon.issue.closed {
+    {{ octicon_bg("issue-closed") }}
+  }
+  </style>
+<body>
+
+<h1>Activity since {{ since|datetime("%Y-%m-%d") }}</h1>
+
+<ul class="repos">
+  {% for thing, items in results -%}
+    <li>
+      <span class="reponame"><a href="{{ thing.url }}">
+      {%- if thing.container_kind == "repo" -%}
+        {{ thing.nameWithOwner }}
+      {%- elif thing.container_kind == "project" -%}
+        {{ thing.title|trim }}
+      {%- elif thing.container_kind == "search" -%}
+        {{ thing.query|trim }}
+      {%- endif -%}
+      </a></span>
+      {{ thing.container_kind }} {{ thing.kind }}
+      {% if items %}
+        <ul class="items">
+          {% for item in items -%}
+            <li class="{{ item.state|lower }}">
+
+              <a href="{{ item.url }}">{# -#}
+                <span class="octicons" title="
+                  {%- if item.isDraft %}draft {% endif -%}
+                  {%- if item.merged %}merged {% elif item.closed %}closed {% endif -%}
+                  {%- if item.__typename == "PullRequest" %}pull request{% endif -%}
+                  {%- if item.__typename == "Issue" %}issue{% endif -%}
+                  {%- if item.reasonCreated %}, newly created{% endif -%}
+                  {%- if item.reasonMerged -%}, newly merged{% elif item.reasonClosed %}, newly closed{% endif -%}
+                ">{# -#}
+
+                  {%- if item.reasonCreated -%}
+                    <span class="octicon star"></span>
+                  {%- else -%}
+                    <span class="octicon dash"></span>
+                  {%- endif -%}
+                  {% if item.reasonMerged -%}
+                    <span class="octicon check"></span>
+                  {%- elif item.reasonClosed -%}
+                    <span class="octicon {% if item.__typename == "PullRequest" %}x{% else %}check{% endif %}"></span>
+                  {%- else -%}
+                    <span class="octicon dash"></span>
+                  {%- endif -%}
+
+                  <span class="octicon
+                    {%- if item.isDraft %} draft{% endif -%}
+                    {%- if item.merged %} merged{% elif item.closed %} closed{% endif -%}
+                    {%- if item.__typename == "PullRequest" %} pull{% endif -%}
+                    {%- if item.__typename == "Issue" %} issue{% endif -%}
+                  "></span>{# -#}
+                </span>{# -#}
+
+                <b>{{item.title|trim}}</b> #{{ item.number }}{# -#}
+              </a>
+              [{{ item.author.login }}]
+
+              {% if item.labels -%}
+                {%- for label in item.labels.nodes -%}
+                  <span class="label" style="background: #{{label.color}}; color: {{label.color|textcolor}}">{{ label.name }}</span>
+                {% endfor %}
+              {%- endif -%}
+
+              {% if item.other_repo -%}
+                <span class="homerepo">{{ item.repository.nameWithOwner }}</span>
+              {%- endif %}
+
+              {%- if item.body %}<p>{{ item.body|trim|truncate(120) }}</p>{% endif -%}
+
+              {% if item.comments_to_show -%}
+                <ul class="comments">
+                  {% for comment in item.comments_to_show recursive -%}
+                    <li>
+                      <a href="{{ comment.url }}" title="{{ comment.updatedAt|datetime() }}">
+                        {% if comment.review_state -%}
+                          {% if comment.review_state == "APPROVED" -%}
+                            <span class="octicon checkcircle" title="reviewed, approved"></span>
+                          {% elif comment.review_state == "CHANGES_REQUESTED" -%}
+                            <span class="octicon filediff" title="reviewed, changes requested"></span>
+                          {% else %}
+                            <span class="octicon eye" title="reviewed"></span>
+                          {% endif %}
+                        {% else %}
+                          <span class="octicon comment" title="comment"></span>
+                        {% endif %}
+                        <b>{{ comment.author.login }}</b>{# -#}
+                      {%- if comment.body %}: {{ comment.body|trim|truncate(100) }}{% endif -%}
+                      {%- if comment.review_state -%}
+                        &nbsp;<i>(review:&nbsp;{{ comment.review_state|lower|replace("_", " ") }})</i>
+                      {% endif -%}
+                      </a>
+                      {% if comment.comments_to_show %}
+                        <ul class="thread_comment">{{ loop(comment.comments_to_show) }}</ul>
+                      {% endif %}
+                    </li>
+                  {% endfor -%}
+                </ul>
+              {% endif -%}
+
+            </li>
+          {% endfor -%}
+        </ul>
+      {% else %}
+        <p>Nothing happening</p>
+      {% endif %}
+    </li>
+  {% endfor -%}
+</ul>
+
+<p class="footer">
+  created by
+  <a href="https://pypi.org/project/dinghy/{{ __version__ }}">dinghy {{ __version__ }}</a>,
+  {{ now|datetime("%Y-%m-%d %H:%M") }}
+</p>
