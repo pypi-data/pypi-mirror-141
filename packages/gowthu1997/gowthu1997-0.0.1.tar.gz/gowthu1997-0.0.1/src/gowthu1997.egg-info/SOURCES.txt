@@ -1,0 +1,9 @@
+LICENCE.txt
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/gowthu1997.egg-info/PKG-INFO
+src/gowthu1997.egg-info/SOURCES.txt
+src/gowthu1997.egg-info/dependency_links.txt
+src/gowthu1997.egg-info/top_level.txt
