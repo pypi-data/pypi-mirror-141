@@ -1,0 +1,14 @@
+# Rust stuff
+/target
+
+# Python stuff
+/dist
+.tox
+__pycache__
+
+# Vim tags
+tags
+
+# GitLab CI stuff
+/.cargo
+/cargo
