@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nbed
+Version: 0.0.1
+Summary: 
+Author: Michael Williams
+Author-email: michael.williams.20@ucl.ac.uk
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PennyLane (>=0.17.0,<0.18.0)
+Requires-Dist: PennyLane-Qchem (>=0.17.0,<0.18.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: nbsphinx (>=0.8.8,<0.9.0)
+Requires-Dist: openfermion (<1.1.0)
+Requires-Dist: pandoc (>=2.1,<3.0)
+Requires-Dist: py3Dmol (>=1.7.0,<2.0.0)
+Requires-Dist: pyscf (==1.7.6)
+Requires-Dist: qiskit-nature (>=0.2.2,<0.3.0)
+Requires-Dist: types-PyYAML (>=5.4.11,<6.0.0)
