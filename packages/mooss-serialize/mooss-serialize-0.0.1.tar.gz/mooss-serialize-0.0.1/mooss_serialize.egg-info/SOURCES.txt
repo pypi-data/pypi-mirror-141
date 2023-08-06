@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+mooss/__init__.py
+mooss/serialize/__init__.py
+mooss/serialize/__version__.py
+mooss/serialize/interface.py
+mooss_serialize.egg-info/PKG-INFO
+mooss_serialize.egg-info/SOURCES.txt
+mooss_serialize.egg-info/dependency_links.txt
+mooss_serialize.egg-info/requires.txt
+mooss_serialize.egg-info/top_level.txt
