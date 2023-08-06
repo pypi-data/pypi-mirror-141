@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vpconfig/__init__.py
+vpconfig/vpconfig.py
+vpconfig.egg-info/PKG-INFO
+vpconfig.egg-info/SOURCES.txt
+vpconfig.egg-info/dependency_links.txt
+vpconfig.egg-info/requires.txt
+vpconfig.egg-info/top_level.txt

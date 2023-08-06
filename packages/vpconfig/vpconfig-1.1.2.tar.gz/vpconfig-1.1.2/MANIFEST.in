@@ -1,0 +1,5 @@
+# 包含 include  递归包含 recursive-include  排除 prune
+# include *.txt
+# recursive-include examples *.txt *.py
+# prune examples/sample?/build
+include requirements.txt README.md
