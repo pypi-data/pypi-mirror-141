@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: polinomio
+Version: 0.0.1
+Summary: Librería para trabajar con polinomios
+Home-page: https://github.com/antoyneGG
+Author: Fabian Antoyne Garcia Gallego
+Author-email: fabian.agg@hotmail.com
+License: Student
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Librería polinomio
+
+<br>
+
+Librería que te permite trabajar con polinomios como la clase VD.
+
+
+<br>
+
+## 💡 Prerequisitos
+
+   [Python 3](https://www.python.org/downloads/release/python-370/)
+
+<br>
+
+## 📚 Ejemplo de uso
+
+```
+from polinomio import example
+
+example()
+```
+<br>
+
+## 🐸 Aloha!
+<br>
+
+
