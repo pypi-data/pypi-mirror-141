@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: coloratura
+Version: 0.9.0
+Summary: Awesome cprint() function to colored terminal text. Supported full RGB!
+Home-page: https://github.com/DawidKos/Coloratura
+Author: pyblog.pl
+Author-email: rewolucjazywieniowa@gmail.com
+License: MIT
+Keywords: color colour terminal text ansi windows colorama hue
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+License-File: LICENSE
+
+UNKNOWN
+
