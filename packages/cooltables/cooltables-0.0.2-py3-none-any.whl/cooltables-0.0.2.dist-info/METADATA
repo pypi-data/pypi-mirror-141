@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cooltables
+Version: 0.0.2
+Summary: A tool for easily making text tables in terminal from python lists.
+Home-page: UNKNOWN
+Author: dnorhoj
+Author-email: daniel.norhoj@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CoolTables
+
+Simple tool for making tables, no requirements. Check out example.py
+
+## Usage
+
+The best way to get started is by using the `cooltables.create_table()` function.
+
+```py
+import cooltables
+
+# Some two dimensional list
+data = [
+    ["First", "Row", "(header)"],
+    ["Second", "Row", "data"],
+    ["Third", "Row", "data"],
+]
+
+table = cooltables.create_table(data, theme=cooltables.THIN_THEME)
+
+print(table)
+```
+
+This code produces the following output:
+
+```
+┌────────┬─────┬──────────┐
+│ First  │ Row │ (header) │
+├────────┼─────┼──────────┤
+│ Second │ Row │ data     │
+│ Third  │ Row │ data     │
+└────────┴─────┴──────────┘
+```
+
