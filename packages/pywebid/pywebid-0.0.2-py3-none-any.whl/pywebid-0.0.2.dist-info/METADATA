@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pywebid
+Version: 0.0.2
+Summary: This module provides a WebID implementation.
+Author-email: Kushal Das <mail@kushaldas.in>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: rdflib
+Project-URL: Documentation, https://webid.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/projectliquid/webid
+
+# Python webid
+
+This is a simple Python module to create [WebID](https://www.w3.org/2005/Incubator/webid/spec/identity/) documents.
+
+Read [documentation](https://webid.readthedocs.io/en/latest/index.html) for usage details.
+
+
+## How to install?
+
+```
+python3 -m pip install pywebid
+```
+## License: MIT
+
