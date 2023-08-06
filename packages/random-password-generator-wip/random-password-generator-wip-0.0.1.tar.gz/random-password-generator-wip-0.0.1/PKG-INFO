@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: random-password-generator-wip
+Version: 0.0.1
+Summary: A very basic password generator app
+Home-page: UNKNOWN
+Author: Shivam Khandelwal
+Author-email: shivamkhandelwal555@gmail.com
+License: MIT
+Description: This is a password generator library
+        
+        # Change Log
+        ====================
+        
+        0.0.1 (07/03/2022)
+        --------------------
+        
+        First Release
+Keywords: passowrd,password-generator
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
