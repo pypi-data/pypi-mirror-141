@@ -1,0 +1,15 @@
+cvxpy==1.1.18
+miniball==1.1.0
+optax==0.1.1
+numpy==1.22.2
+scipy==1.8.0
+
+[dev]
+ipykernel==6.9.1
+matplotlib==3.5.1
+flake8==3.7.8
+isort==5.9.1
+black==21.6b0
+pre-commit==2.13.0
+twine==1.14.0
+build
