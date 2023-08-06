@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: orbiteer
+Version: 0.1.0
+Summary: An optimizing chunking command runner
+License: MIT
+Author: Avery Fischer
+Author-email: avery@averyjfischer.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typing-extensions (>=4.1.1,<5.0.0)
