@@ -1,0 +1,48 @@
+{% extends 'dashboard/me.html' %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Partner Information" %}{% endblock%}
+{% block header %}{% endblock header %}
+
+{% block profile_content %}
+  <section class="card shadow-sm p-5 border mb-5">
+    <h3>{% trans "Partner Information" %}</h3>
+    <p>{% trans "Please provide your valid partner profile, This information will appear in several documents ex: Invoice and Bill." %}</p>
+    <div 
+        id="partner-form"
+        hx-get="{% url 'partner_update' %}"
+        hx-trigger="load" >
+    </div>
+    
+    <div class="my-5 border-bottom"></div>
+
+    <h3>{% trans "Contacts and Addresses" %}</h3>
+
+    {% for address in object.addresses.all %}
+      <div class="py-3 mb-3 border-bottom d-flex">
+        <input class="me-3" type="radio" id="html" name="address" value="{{ address.id }}"/>
+        <div>
+          <div>{{ address.get_address_type_display }}: {{ address.name|title }}</div>
+          <div>{{ address.text_line_1 }}</div>
+          <div>
+            {{ address.text_line_2 }}
+            {% if address.phone %}
+              {{ address.phone }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div>
+        {% trans "Your address not set. please add your primary address." %}
+        {% include 'dashboard/me_partner_address_form.html' %}
+      </div>
+    {% endfor %}
+    <div class="d-flex py-3">
+      <button class="btn btn-success me-auto" type="submit">{% trans "Add New" %}</button>
+      <button class="btn btn-primary me-2" type="submit">{% trans "Make Primary" %}</button>
+      <button class="btn btn-primary me-2" type="submit">{% trans "Update" %}</button>
+      <button class="btn btn-danger" type="submit" hx-trigger="click" hx-confirm="Confirm">{% trans "Delete" %}</button>          
+    </div>
+  </section>
+{% endblock %}

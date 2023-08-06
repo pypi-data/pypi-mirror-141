@@ -1,0 +1,68 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls %}
+
+{% if not is_popup %}
+  {% block breadcrumbs %}
+  <div class="breadcrumbs">
+    <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+    &rsaquo; <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>
+    &rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ module_name }}</a>
+    &rsaquo; <a href="{% url opts|admin_urlname:'change' object.pk|admin_urlquote %}">{{ object|truncatewords:"18" }}</a>
+    &rsaquo; {% translate 'History' %}
+  </div>
+  {% endblock %}
+{% endif %}
+
+{% block content %}
+  <div id="content-main" class="container">
+    {% block actions_history %}  
+    <div class="module">
+      <h2>{% trans "Activities" %}</h2>
+      {% if action_list %}
+        <div class="table-responsive">
+          <table id="change-history" class="table mb-0">
+            <thead>
+              <tr>
+                <th width="200" scope="col">{% translate 'Actor' %}</th>
+                <th width="170" scope="col">{% translate 'Date' %}</th>
+                <th scope="col">{% translate 'Activities' %}</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for action in action_list %}
+              <tr>
+                <td scope="row">
+                  <div class="d-flex">
+                    <div class="align-items-top d-flex me-3 media">
+                      <img class="avatar rounded-circle" width="32" height="32" src="{{ action.actor.avatar }}">
+                    </div>
+                    <div class="small">
+                      <div class="fw-bold">
+                        {{ action.actor.get_username }}{% if action.actor.get_full_name %} ({{ action.actor.get_full_name }}){% endif %}
+                      </div>
+                      <div>
+                        {{ action.timesince }}
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="small">
+                  {{ action.timestamp|date:"DATETIME_FORMAT" }}
+                </td>
+                <td class="small">
+                  {{ action.get_note }}
+                </td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+          <p class="p-5 text-center">{% translate 'This object doesn’t have a change history. It probably wasn’t added via this admin site.' %}</p>
+      {% endif %}
+    </div>
+    {% endblock actions_history %}
+    {% block extra_history %}{% endblock extra_history %}
+  </div>
+  
+{% endblock %}

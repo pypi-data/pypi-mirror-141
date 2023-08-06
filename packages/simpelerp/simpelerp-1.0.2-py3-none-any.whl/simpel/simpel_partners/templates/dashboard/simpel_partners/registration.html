@@ -1,0 +1,61 @@
+{% extends 'dashboard/me.html' %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Partner Information" %}{% endblock%}
+{% block header %}{% endblock header %}
+
+
+{% block profile_content %}
+
+<section class="card shadow-sm p-5 border mb-5">
+  <form action="" method="post">
+  <div class="p-6 text-center">
+    <h3>{% trans "Partner Information" %}</h3>
+    <p>{% trans "Please provide your valid partner profile, This information will appear in several documents ex: Invoice and Bill." %}</p>
+  </div>
+
+  {% for field in partner_form %}
+    <div class="row mb-4">
+      <div class="col-lg-3">
+        <label class="d-block fw-bold mb-2" for="{{ field.name }}">{{ field.label }}</label>
+      </div>
+      <div class="col-lg-9">
+        {% render_field field class="form-control" %}
+        {% if field.help_text %}<div class="help">{{ field.help_text }}</div>{% endif %}
+        {% if field.errors %}<div class="errors">{{ field.errors }}</div>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="my-5 border-bottom"></div>
+
+  <h3 class="mb-4">{% trans "Contacts and Addresses" %}</h3>
+  {% for field in address_form %}
+    <div class="row mb-4">
+      <div class="col-lg-3">
+        <label class="d-block fw-bold mb-2" for="{{ field.name }}">{{ field.label }}</label>
+      </div>
+      <div class="col-lg-9">
+        {% render_field field class="form-control" %}
+        {% if field.help_text %}<div class="help">{{ field.help_text }}</div>{% endif %}
+        {% if field.errors %}<div class="errors">{{ field.errors }}</div>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="row mb-4">
+    <div class="col-lg-9">
+      <label class="d-block fw-bold mb-2" for="{{ confirmation_form.confirm.name }}">
+        {% render_field confirmation_form.confirm %}  
+        {{ confirmation_form.confirm.label }}
+      </label>
+      {% if confirmation_form.confirm.help_text %}<div class="help">{{ confirmation_form.confirm.help_text }}</div>{% endif %}
+      {% if confirmation_form.confirm.errors %}<div class="errors">{{ confirmation_form.confirm.errors }}</div>{% endif %}
+    </div>
+  </div>
+  <div class="d-flex py-3">
+    <button class="btn btn-success me-auto" type="submit">{% trans "Register" %}</button>          
+  </div>
+  </form>
+</section>
+
+{% endblock %}
