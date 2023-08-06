@@ -1,0 +1,14 @@
+exact_cover/__init__.py,sha256=VC0P-_Kwb9vS23C1nS01qBofQWo8ACfTgplrTTpHlMk,60
+exact_cover/error.py,sha256=aI-RVtpQDllI5_hnrdUyF23oKqGBs_-7wSaMF2G6fLs,153
+exact_cover/helpers.py,sha256=oAu7-DJheXI1ONEEfYMdPMjt1UyIkx55fULWvnIyzIw,2727
+exact_cover/io.py,sha256=dmnQdsjQhtdcGaGYWybYBvMXz3QEvJ2oaRbpn1WS99A,178
+exact_cover_impl.cp37-win_amd64.pyd,sha256=HdUgcf4KPqxiGa1aJvleor0Tlv61DsHY7puGp55EVq0,15360
+exact_cover/error.py,sha256=aI-RVtpQDllI5_hnrdUyF23oKqGBs_-7wSaMF2G6fLs,153
+exact_cover/helpers.py,sha256=oAu7-DJheXI1ONEEfYMdPMjt1UyIkx55fULWvnIyzIw,2727
+exact_cover/io.py,sha256=dmnQdsjQhtdcGaGYWybYBvMXz3QEvJ2oaRbpn1WS99A,178
+exact_cover/__init__.py,sha256=VC0P-_Kwb9vS23C1nS01qBofQWo8ACfTgplrTTpHlMk,60
+exact_cover-0.8.0.dist-info/entry_points.txt,sha256=W7avsQ2-bNhxORsTZ-yNrHjuQAu-SiFEL7n5SjXlvso,109
+exact_cover-0.8.0.dist-info/LICENSE,sha256=5Rjy4Qz5d6C6oEt02RnI1nx8cjqL6vaeQievmPilH2w,18367
+exact_cover-0.8.0.dist-info/WHEEL,sha256=WD04O_Eo4tKKXRN2oHYbkeZbNRkrcwiifAQ1ZemFjz0,92
+exact_cover-0.8.0.dist-info/METADATA,sha256=_38v5uO9V2vSMiV-_g51gjoo8UtkOVV3i-_KiwsffEs,5813
+exact_cover-0.8.0.dist-info/RECORD,,
