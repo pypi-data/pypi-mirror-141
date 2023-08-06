@@ -1,0 +1,17 @@
+include CHANGELOG.md
+include LICENSE
+include MANIFEST.in
+include README.md
+include CMakeLists.txt
+include setup.py
+include pyproject.toml
+
+include mixstream/CMakeLists.txt
+recursive-include mixstream *.c
+recursive-include mixstream *.cpp
+recursive-include mixstream *.h
+recursive-include mixstream *.pyx
+graft tests
+global-exclude *.py[cod]
+
+prune mixstream/_MixStream.c
