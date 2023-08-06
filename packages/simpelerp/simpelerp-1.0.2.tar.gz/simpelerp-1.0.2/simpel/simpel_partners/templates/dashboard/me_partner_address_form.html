@@ -1,0 +1,36 @@
+{% load i18n %}
+<form
+  hx-post="{% url 'partner_update' %}"
+  hx-trigger="submit"
+  hx-target="this"
+  hx-swap="outerHTML"
+  hx-indicator="#spinner"
+  >
+  {% if messages %}
+    <div class="mb-4">
+      {% for message in messages %}
+        <div class="p-4 mb-3 alert alert-success alert-dismissible fade show" role="alert">
+          {{ message|capfirst }}
+          <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% csrf_token %}
+  
+  {% for field in form %}
+    <div class="row mb-4">
+      <div class="col-lg-3">
+        <label class="d-block fw-bold mb-2" for="{{ field.name }}">{{ field.label }}</label>
+      </div>
+      <div class="col-lg-9">
+        {{ field }}
+        {% if field.help_text %}<div class="help">{{ field.help_text }}</div>{% endif %}
+        {% if field.errors %}<div class="errors">{{ field.errors }}</div>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  
+  <button class="btn btn-success" type="submit">{% trans "Save Update" %}</button>
+
+</form>
