@@ -1,0 +1,2 @@
+[console_scripts]
+contributors-txt = contributors_txt.__main__:main
