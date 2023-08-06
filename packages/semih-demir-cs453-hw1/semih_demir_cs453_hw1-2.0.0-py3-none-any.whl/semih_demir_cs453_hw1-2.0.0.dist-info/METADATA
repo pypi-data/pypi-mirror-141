@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: semih-demir-cs453-hw1
+Version: 2.0.0
+Summary: UNKNOWN
+Author: Süleyman Semih Demir
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: requests (>=2.23.0)
+
+UNKNOWN
+
