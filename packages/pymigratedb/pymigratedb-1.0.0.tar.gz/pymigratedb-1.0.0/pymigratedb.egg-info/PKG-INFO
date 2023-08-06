@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pymigratedb
+Version: 1.0.0
+Summary: This is a package to help you to migrate your database. It will be useful when you work on frameworks or programming languages that don't have a built-in tool to do it or it's little hard to setup.
+Home-page: https://github.com/INDICO-INNOVATION/pymigratedb
+Download-URL: https://github.com/INDICO-INNOVATION/pymigratedb/archive/v_01.tar.gz
+Author: Indico Innovation
+Author-email: suporte@indico.net.br
+License: Apache License
+Keywords: migrate,migration,database,db
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
