@@ -1,0 +1,8 @@
+badlands>=2.2.3
+badlands-companion
+similaritymeasures>=0.4.4
+doegen
+numpy
+pandas
+networkx
+scipy
