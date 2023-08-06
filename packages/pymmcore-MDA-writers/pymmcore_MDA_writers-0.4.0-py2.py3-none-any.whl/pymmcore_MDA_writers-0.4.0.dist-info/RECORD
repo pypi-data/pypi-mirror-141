@@ -1,0 +1,11 @@
+pymmcore_mda_writers/__init__.py,sha256=nbLCIUDENwo0vIfXNYB-ls9AsxT_LguvvD7V6ehebaw,365
+pymmcore_mda_writers/_version.py,sha256=LXsVgL30inwYURXgt8agwHpCAGkWqXpMAmFq8N7WB4Q,142
+pymmcore_mda_writers/_writers.py,sha256=FaS7lATQz-JVAYps52ycQ6F3z-f0b7mJhVx0R0UxmVY,5900
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pymmcore_mda_writers.py,sha256=_N8bFlyMisf_d6UOPLfbgyHPV02vxWHvln1IkB1p5Xc,4670
+tests/test_utils.py,sha256=mDxtHRvm_Yh3whgB4L6lP3MJzJPQEJSIzKhNBoiSGbU,564
+pymmcore_MDA_writers-0.4.0.dist-info/LICENSE,sha256=TD7wqh4XgjPVc6VF0Rt-ak2mINcfrWR1I3RoKphRJ9s,1514
+pymmcore_MDA_writers-0.4.0.dist-info/METADATA,sha256=5tcBaEj7vo9GGYMfwAMq1XjL4_Pe_CV6ZRrr8EPJrcU,3318
+pymmcore_MDA_writers-0.4.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pymmcore_MDA_writers-0.4.0.dist-info/top_level.txt,sha256=ed3cM4LeFDawHIJ5S6YTZC3NE9VoOs5xBnaZNyK1lBk,27
+pymmcore_MDA_writers-0.4.0.dist-info/RECORD,,
