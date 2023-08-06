@@ -1,0 +1,17 @@
+hakai_segmentation/__init__.py,sha256=MjFaJLVYu7etDxu84MCwzJifRdA2Cjx_JukcW9szgjc,210
+hakai_segmentation/cli.py,sha256=xiAiBCh4Vic3MRZHLHwZLI8oLXavTg-NsadK1vhzezM,251
+hakai_segmentation/lib.py,sha256=OEjZ-AqKpYHRZsKx-HkOZ3uhZlTVCtcgtyU1xruf0mQ,1969
+hakai_segmentation/managers.py,sha256=6nddJFMpNvMWXCazy2X9KKPdR3-jsT6Fw9YjgvcKj_Y,5122
+hakai_segmentation/models.py,sha256=PJYNiXjWQOEaQVoSmW9Xc9R6PYaHhiNie7qvT5OjaBk,1194
+hakai_segmentation/data/LRASPP_MobileNetV3_kelp_presence_jit.pt,sha256=BSzOU2XWJWPLoRrZ4NZNvR-pZOvjFuP4i0cm8cFi3Js,13480750
+hakai_segmentation/data/LRASPP_MobileNetV3_mussel_presence_jit.pt,sha256=PGGVe9yzLn_BvC1-OWHqt6RPeiPwoAr0QJnJeoFp8Rg,13495032
+hakai_segmentation/data/__init__.py,sha256=IbQqik6fOc6BPexxhjAW3T8f2yjwp8BaLxm0jmEBgDw,281
+hakai_segmentation/geotiff_io/__init__.py,sha256=5lXR6RXtDaTriopSWBqsErdryEpfbP9L-EHoH9e0N3U,188
+hakai_segmentation/geotiff_io/geotiff_reader.py,sha256=pUJ7MeJY1L1Cam4x7xw6fs5qFH8WlClzy5D4MKBka2Y,4277
+hakai_segmentation/geotiff_io/geotiff_writer.py,sha256=4KWs-dY-Sjnqp9QtRRhdeyhz3y1GQyFmnVeUZMQxWxE,3077
+hakai_segmentation-0.1.9.dist-info/LICENSE.txt,sha256=QCEPMx6qqVU90B2KuQl5Dddl0V-ZWk2GYEJMeqw5cBY,1070
+hakai_segmentation-0.1.9.dist-info/METADATA,sha256=cEZhuMkSVR_C25t7wijUZ8DYs5EsBDRN7DNKEjEiiI8,535
+hakai_segmentation-0.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hakai_segmentation-0.1.9.dist-info/entry_points.txt,sha256=EMBGzsgoWLCxC0AlptS4gcfkeJeeQ3hOO7XFE8OOCxM,52
+hakai_segmentation-0.1.9.dist-info/top_level.txt,sha256=LwpAk-MkvbuBAUI7H_B_6o1BLebeqHo1INw5kLgKBds,19
+hakai_segmentation-0.1.9.dist-info/RECORD,,
