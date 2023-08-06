@@ -1,0 +1,21 @@
+# https://github.com/travigd/ipydraw/blob/main/pyproject.toml
+[build-system]
+requires = [
+    "jupyter_packaging==0.7.9",
+    "jupyterlab==3.2.5",
+    "setuptools==58.0.4",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+# https://github.com/jupyterlab/extension-cookiecutter-ts/blob/3.0/%7B%7Bcookiecutter.python_name%7D%7D/pyproject.toml
+[tool.check-manifest]
+ignore = [
+    "environment.yml",
+    "demo.ipynb",
+    "ipycolorful/labextension/**",
+    "ipycolorful/nbextension/**",
+    ".vscode/**",
+    # https://github.com/jupyter-widgets/widget-ts-cookiecutter/commit/e93224b86b89e98f647f8840c4c1c1b4bca4b681
+    "setup.py",
+]
