@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "orbiteer"
+version = "0.1.0"
+description = "An optimizing chunking command runner"
+authors = ["Avery Fischer <avery@averyjfischer.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+typing-extensions = "^4.1.1"
+
+[tool.poetry.dev-dependencies]
+coverage = {extras = ["toml"], version = "^6.3.2"}
+dlint = "^0.12.0"
+flake8 = "^4.0.1"
+flake8-2020 = "^1.6.1"
+flake8-bugbear = "^22.1.11"
+flake8-comprehensions = "^3.8.0"
+flake8-eradicate = "^1.2.0"
+mypy = "^0.931"
+black = "^22.1.0"
+isort = "^5.10.1"
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = 'black'
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+
+[tool.mypy]
+files = "**/*.py"
+exclude = ".venv/*"
+ignore_errors = false
+warn_no_return = true
+strict_equality = true
+strict_optional = true
+warn_unreachable = true
+check_untyped_defs = true
+namespace_packages = true
+warn_unused_configs = true
+warn_unused_ignores = true
+no_implicit_optional = true
+warn_redundant_casts = true
+disallow_any_generics = true
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+explicit_package_bases = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.run]
+branch = true
+command_line = "-m pytest"
+source = ["."]
+omit = [
+    "tests/*",
+]
+
+[tool.coverage.report]
+show_missing = true
