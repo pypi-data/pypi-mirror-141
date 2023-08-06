@@ -1,0 +1,53 @@
+Metadata-Version: 1.0
+Name: project-makefile
+Version: 0.0.9
+Summary: A generic makefile for projects.
+Home-page: https://github.com/project-makefile/project-makefile
+Author: Alex Clark
+Author-email: aclark@aclark.net
+License: UNKNOWN
+Description: Project Makefile
+        ================
+        
+        A generic makefile for projects.
+        
+        Why
+        ---
+        
+        I like typing ``make <target>`` to perform tasks. 🤷
+        
+        Installation
+        ------------
+        
+        ::
+        
+        	pip install project-makefile
+        
+        Runtime dependencies
+        --------------------
+        
+        Requires ``curl`` in ``PATH``.
+        
+        Usage
+        -----
+        
+        ::
+        
+            Project Makefile
+            Usage:
+            
+            	make <project_dir>
+            
+            Help:
+            
+            	make help
+        
+        Example
+        -------
+        
+        ::
+        
+        	project-makefile .
+        	make django-init
+        
+Platform: UNKNOWN
