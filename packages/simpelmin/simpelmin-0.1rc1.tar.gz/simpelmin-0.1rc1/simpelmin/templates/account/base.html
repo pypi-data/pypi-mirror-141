@@ -1,0 +1,54 @@
+{% extends 'dashboard/base_site.html' %}
+{% load static i18n %}
+
+{% block extrastyle %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}bg-body{% endblock %}
+
+{% block outter_wrapper %}
+  <div class="login-container align-items-center d-flex justify-content-center login-container w-100"
+      style="
+        background-image: url({% static 'simpelmin/img/bridge.png' %});
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position-y: bottom;
+        background-position-x: left;
+      ">
+    <div class="login-wrapper" style="width: 380px;">
+      {% if messages %}
+      <!-- MESSAGES -->
+      <section class="section section-messages py-4">
+        {% for message in messages %}
+          <div class="p-4 mb-1 shadow-sm alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            {{ message|capfirst }}
+            <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      </section>
+      <!-- MESSAGES -->
+    {% endif %}
+      <div class="border bg-white p-6 rounded-3 shadow">
+        <div class="text-center pb-3">
+          <img src="{% static 'simpelmin/img/logo_light.svg' %}" style="height: 56px;">
+        </div>
+        <div class="text-center">
+          <h2 class="h5 fw-bold mb-3">
+            {% block auth_title %}{% endblock %}
+          </h2>
+        </div>
+        {% block auth_body %}{% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock outter_wrapper %}
+
+
+{% block navbar %}{% endblock %}
+{% block page_header %}{% endblock %}
+{% block breadcrumbs_wrapper %}{% endblock %}
+{% block messages_wrapper %}{% endblock %}
+{% block sidenav_left_wrapper %}{% endblock %}
+{% block footer %}{% endblock %}
+{% block tawk_to %}{% endblock %}

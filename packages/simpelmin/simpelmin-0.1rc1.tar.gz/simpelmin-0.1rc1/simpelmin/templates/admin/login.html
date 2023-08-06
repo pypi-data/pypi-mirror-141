@@ -1,0 +1,85 @@
+{% extends "admin/base.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  {{ form.media }}
+{% endblock %}
+
+{% block bodyclass %}bg-body{% endblock %}
+
+{% block outter_wrapper %}
+
+<div class="login-container align-items-center d-flex justify-content-center login-container w-100"
+     style="
+       background-image: url({% static 'simpelmin/img/bridge.png' %});
+       background-repeat: no-repeat;
+       height: 100vh;
+       background-position-y: bottom;
+       background-position-x: right;
+     ">
+  <div class="login-wrapper" style="width: 380px;">
+    <div class="border bg-body p-6 rounded-3 shadow">
+      <div class="text-center pb-3">
+        <img src="{% static 'simpelmin/img/logo_light.svg' %}" style="height: 56px;">
+      </div>
+      <div class="text-center">
+        <div class="h5 fw-bold mb-3">
+          {% trans "Welcome to Simpel Admin" %}
+        </div>
+        <p class="login-box-msg text-center">{% trans "Sign in to your account to continue" %}</p>
+      </div>
+      <div>
+        {% if form.errors and not form.non_field_errors %}
+          <p class="errornote">
+            {% if form.errors.items|length == 1 %}
+              {% translate "Please correct the error below." %}
+            {% else %}
+              {% translate "Please correct the errors below." %}
+            {% endif %}
+          </p>
+        {% endif %}
+  
+        {% if form.non_field_errors %}
+          {% for error in form.non_field_errors %}
+            <p class="errornote">{{ error }}</p>
+          {% endfor %}
+        {% endif %}
+  
+        {% if user.is_authenticated %}
+          <p class="errornote">
+          {% blocktranslate trimmed %}
+              You are authenticated as {{ username }}, but are not authorized to
+              access this page. Would you like to login to a different account?
+          {% endblocktranslate %}
+          </p>
+        {% endif %}
+      </div>
+      <form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
+        <div class="border-0 mb-2">
+          {{ form.username.errors }}
+          {{ form.username.label_tag }}
+          <div><input type="text" class="w-100" name="username" autofocus="" autocapitalize="none" autocomplete="username" maxlength="150" required="" id="id_username"/></div>
+        </div>
+        <div class="border-0 mb-2">
+          {{ form.password.errors }}
+          {{ form.password.label_tag }}
+          <div><input class="w-100" type="password" name="password" autocomplete="current-password" required="" id="id_password"/></div>
+          <input type="hidden" name="next" value="{{ next }}">
+        </div>
+        {% url 'admin_password_reset' as password_reset_url %}
+        {% if password_reset_url %}
+        <div class="password-reset-link">
+          <a href="{{ password_reset_url }}">{% translate 'Forgotten your password or username?' %}</a>
+        </div>
+        {% endif %}
+        <input type="submit" class="btn btn-primary d-block w-100 mb-2" value="{% translate 'Log in' %}">
+        <div class="text-muted small text-center">Balai Riset dan Standardisasi Industri <br/> Bandar Lampung</div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block tawk_to %}{% endblock tawk_to %}

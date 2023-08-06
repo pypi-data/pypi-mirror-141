@@ -1,0 +1,32 @@
+{% extends "account/base.html" %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Sign Up" %}{% endblock%}
+{% block auth_title %}{% trans "Sign Up, It's Free" %}{% endblock%}
+
+{% block auth_body %}
+
+  <p class="login-box-msg text-center">{% trans "Join baristandlab.com, Get certified." %}</p>
+
+  <form action="{% url 'account_signup' %}" method="POST" >
+    {% csrf_token %}
+    {% include 'account/snippets/form_error_list.html' with errors=form.non_field_errors %}
+    {% include 'account/snippets/form_control.html' with field=form.username %}
+    {% include 'account/snippets/form_control.html' with field=form.email %}
+    {% include 'account/snippets/form_control.html' with field=form.password1 %}
+    {% include 'account/snippets/form_control.html' with field=form.password2 %}
+    <div class="col-12">
+      <p class="mb-3 mt-4 small">
+        {% blocktrans trimmed %}
+          By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, which we may update from time to time. We’ll occasionally send you account-related emails.
+        {%endblocktrans%}
+      </p>
+    </div>
+    <button class="btn btn-primary w-100 mb-3" type="submit">{% trans "Signup" %}</button>
+  </form>
+
+  <p class="my-3 text-center small">
+      {% blocktrans trimmed %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+  </p>
+
+{% endblock %}

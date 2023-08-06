@@ -1,0 +1,9 @@
+{% extends "account/base.html" %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Social Network Login Failure" %}{% endblock%}
+{% block auth_title %}{% trans "Social Network Login Failure" %}{% endblock%}
+
+{% block auth_body %}
+  <p class="login-box-msg">{% trans "An error occurred while attempting to login via your social network account." %}</p>
+{% endblock %}

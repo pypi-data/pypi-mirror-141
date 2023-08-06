@@ -1,0 +1,45 @@
+[project]
+name = "simpelmin"
+authors = [
+    {name = "Rizki Sasri Dwitama", email = "sasri.project@gmail.com"},
+]
+readme = "README.md"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+requires-python = ">=3.6"
+dynamic = ["version", "description"]
+
+[project.urls]
+Documentation = "https://gitlab.com/sasriawesome/simpelmin/-/wikis/home"
+Source = "https://gitlab.com/sasriawesome/simpelmin"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.poetry]
+name = "simpelmin"
+version = "0.0.0"
+description = "Simpel Admin Theme"
+authors = ["sasriawesome <sasri.project@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+simpel-erp = {git = "https://gitlab.com/sasriawesome/simpel.git", rev = "main"}
+django-atomics = "^0.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+isort = "^5.10.1"
+django-environ = "^0.8.1"
+flit = "^3.7.1"

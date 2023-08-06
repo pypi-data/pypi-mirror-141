@@ -1,0 +1,71 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+@import "./fonts";
+@import "./bootstrap/bootstrap";
+@import "./django/django";
+
+.bg-image {
+  background-image: url(../img/cart_bg_sm_blue.png);
+  background-position: 100%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+#outter-wrapper {}
+#sidenav-wrapper {
+  z-index: 1000;
+}
+#sidenav-inner {
+  position: fixed;
+  height: calc(100vh - 71px);
+  overflow: hidden;
+  top: 71px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sidenav-inner .accordion-button:after {
+  background-size: 0.8rem;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+#sidenav-wrapper.expand,
+#sidenav-inner.expand {
+  width: 280px;
+}
+#sidenav-wrapper.hide,
+#sidenav-inner.hide {
+  width: 46px;
+}
+#sidenav-inner.hide:hover {
+  background: #fbfcfc !important;
+}
+#sidenav-inner .accordion-item:first-of-type .accordion-collapse,
+#sidenav-inner .accordion-item:last-of-type .accordion-collapse {
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+#content-wrapper {
+  margin-top: 71px;
+  display: block;
+  flex: 1;
+}
+#toolbar-wrapper {
+}
+
+.filter-widget h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.filter-widget ul,
+.filter-widget ol {
+  margin-bottom: 0px;
+}
+
+.polymorphic-type-menu ul {
+  padding: 0;
+  margin-left: 0;
+}
+
+.login-box-msg {
+  font-size: $font-size-sm;
+}

@@ -1,0 +1,26 @@
+{% load i18n simpelcore_tags %}
+
+<tr class="thin">
+  <td colspan="2" rowspan="5" class="align-top p-3 border-0">
+    <strong>Terbilang:</strong>
+    <p>{{ object.grand_total|number_to_text|title }}{% if object.grand_total > 0 %} Rupiah{% endif %}</p>
+  </td>
+  <td colspan="2" class="align-middle"><strong>{% trans "Total" %}</strong></td>
+  <td class="align-middle text-end">{{ object.total|currency }}</td>
+</tr>
+<tr class="thin">
+  <td colspan="2" class="align-middle"><strong>{% trans "Discount" %}</strong></td>
+  <td class="align-middle text-end">{{ object.discount|currency }}</td>
+</tr>
+<tr class="thin">
+  <td colspan="2" class="align-middle"><strong>{% trans "Down Payment" %}</strong></td>
+  <td class="align-middle text-end">{{ object.downpayment|currency }}</td>
+</tr>
+<tr class="thin">
+  <td colspan="2" class="align-middle border-0"><strong>{% trans "Grand Total" %}</strong></td>
+  <td class="align-middle text-end border-0">{{ object.grand_total|currency }}</td>
+</tr>
+<tr class="thin">
+  <td colspan="2" class="align-middle border-0"><strong>{% trans "Payable" %}</strong></td>
+  <td class="align-middle text-end border-0">{% if object.is_payable %}{{ object.payable|currency }}{% else %}{{ 0|currency}}{% endif %}</td>
+</tr>

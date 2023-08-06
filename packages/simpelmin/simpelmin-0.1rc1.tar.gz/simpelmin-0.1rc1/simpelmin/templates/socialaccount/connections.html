@@ -1,0 +1,49 @@
+{% extends 'dashboard/me.html' %}
+{% load static i18n widget_tweaks %}
+
+
+{% block profile_content %}
+  <section class="card shadow-sm p-5 border mb-5">
+    <h3 class="h4">{% trans "Social Account Connections" %}</h3>
+
+    <div class="mb-4">
+      {% if form.accounts %}
+        <p>{% blocktrans trimmed %}You can sign in to your account using any of the following third party:{% endblocktrans %}</p>
+        <form method="post" action="{% url 'socialaccount_connections' %}">
+          {% csrf_token %}
+          <fieldset>
+            {% if form.non_field_errors %}
+              <div id="errorMsg">{{ form.non_field_errors }}</div>
+            {% endif %}
+            {% for base_account in form.accounts %}
+              {% with base_account.get_provider_account as account %}
+                <div>
+                  <label for="id_account_{{ base_account.id }}">
+                    <input id="id_account_{{ base_account.id }}" type="radio" name="account" value="{{ base_account.id }}"/>
+                    <span class="socialaccount_provider {{ base_account.provider }} {{ account.get_brand.id }}">{{account.get_brand.name}}</span>
+                    {{ account }}
+                  </label>
+                </div>
+              {% endwith %}
+            {% endfor %}
+            <div class="pt-3">
+              <button class="btn btn-primary" type="submit">{% trans "Remove" %}</button>
+            </div>
+          </fieldset>
+        </form>
+      {% else %}
+        <p>{% trans 'You currently have no social network accounts connected to this account.' %}</p>
+      {% endif %}
+    </div>
+
+    <h4 class="h5">{% trans 'Add a 3rd Party Account' %}</h4>
+    <p>{% blocktrans trimmed %}You can sign in to your account using any of the following third party:{% endblocktrans %}</p>
+    <div>
+      {% include "socialaccount/snippets/provider_list_no_block.html" with process="connect" %}
+    </div>
+    
+    {% include "socialaccount/snippets/login_extra.html" %}
+
+  </section>
+{% endblock %}
+

@@ -1,0 +1,11 @@
+{% extends "account/base.html" %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Login Cancelled" %}{% endblock%}
+{% block auth_title %}{% trans "Login Cancelled" %}{% endblock%}
+
+{% block auth_body %}
+    <p class="login-box-msg"><p>{% trans "An error occurred while attempting to login via your social network account." %}</p></p>
+    {% url 'account_login' as login_url %}
+    <p>{% blocktrans trimmed %}You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href="{{login_url}}">sign in</a>.{% endblocktrans %}</p>
+{% endblock %}

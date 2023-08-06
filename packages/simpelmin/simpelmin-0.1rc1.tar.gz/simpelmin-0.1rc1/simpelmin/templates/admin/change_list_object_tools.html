@@ -1,0 +1,12 @@
+{% load i18n admin_urls %}
+
+{% block object-tools-items %}
+  {% if has_add_permission %}
+    
+    {% url cl.opts|admin_urlname:'add' as add_url %}
+    {% add_preserved_filters add_url is_popup to_field as filtered_add_url %}
+    {% trans "Add new item" as add_popover %}
+    {% include 'admin/includes/object_tools_item.html' with url=add_url popover=add_popover icon="plus" %}
+
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "account/base.html" %}
+{% load static i18n widget_tweaks socialaccount %}
+
+{% block head_title %}{% trans 'OpenID Sign In' %}{% endblock%}
+{% block auth_title %}{% trans 'OpenID Sign In' %}{% endblock%}
+
+{% block auth_body %}
+  <form id="openid_login_form" class="openid_login" method="post" action="{% url 'openid_login' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-primary w-100 mb-3" type="submit">{% trans "Sign In" %}</button>
+  </form>
+{% endblock %}

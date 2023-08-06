@@ -1,0 +1,28 @@
+{% load i18n widget_tweaks %}
+{% if success_message %}
+<div class="p-4 mb-1 alert alert-success alert-dismissible fade show" role="alert">
+  {{ success_message|capfirst }}
+  <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+<form hx-post="{{ form_action_url }}" hx-trigger="submit" hx-target="this" hx-swap="outerHTML" hx-indicator="#spinner">
+  {% csrf_token %}
+  <div class="row mb-4">
+    <div class="col-lg-6">
+      <label for="{{ form.preferred_language.name }}" class="form-label fw-bold">{{ form.preferred_language.label }}</label>
+      {% render_field form.preferred_language class='form-control' %}
+      {% if form.preferred_language.help_text %}<div class="help">{{ form.preferred_language.help_text }}</div>{% endif %}
+      {% if form.preferred_language.errors %}<div class="errors">{{ form.preferred_language.errors }}</div>{% endif %}
+    </div>
+    <div class="col-lg-6">
+      <label for="{{ form.current_time_zone.name }}" class="form-label fw-bold">{{ form.current_time_zone.label }}</label>
+      {% render_field form.current_time_zone class='form-control' %}
+      {% if form.current_time_zone.help_text %}<div class="help">{{ form.current_time_zone.help_text }}</div>{% endif %}
+      {% if form.current_time_zone.errors %}<div class="errors">{{ form.current_time_zone.errors }}</div>{% endif %}
+    </div>
+  </div>
+  <div class="buttonHolder">
+    <button class="btn btn-success mb-2" type="submit" name="form_action" value="language_preferences" >{% trans 'Save' %}</button>
+    {% comment %} <button class="btn mb-2" type="submit" name="action_primary" >{% trans 'Cancel' %}</button> {% endcomment %}
+  </div>
+</form>

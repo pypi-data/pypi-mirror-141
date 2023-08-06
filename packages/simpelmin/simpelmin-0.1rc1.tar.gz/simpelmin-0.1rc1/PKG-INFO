@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simpelmin
+Version: 0.1rc1
+Summary: Simpel Admin Theme
+Author-email: Rizki Sasri Dwitama <sasri.project@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Project-URL: Documentation, https://gitlab.com/sasriawesome/simpelmin/-/wikis/home
+Project-URL: Source, https://gitlab.com/sasriawesome/simpelmin
+
+

@@ -1,0 +1,54 @@
+{% block sidenav_right_wrapper %}
+    <div x-bind:class="! drawerRightOpen ? 'hide' : 'expand'" id="sidenav-wrapper" class="d-none d-lg-flex sidenav-wrapper-right {% block sidebar_right_classes %}{% endblock %}">
+      <div id="sidenav-inner" x-bind:class="! drawerRightOpen ? 'hide' : 'expand'" class="bg-body border-start shadow-sm">
+        <div x-bind:class="! drawerRightOpen ? '' : 'border-bottom'" class="d-flex justify-content-between align-items-center py-3">
+          <div x-bind:class="! drawerRightOpen ? 'd-none' : 'd-inline-block'" class="ms-4 fs-5">
+            <div class="d-flex">
+              <div class="d-flex flex-fill align-items-center">
+                <input class="form-control mb-0" type="text" placeholder="Search" name="" id="">
+              </div>
+              <div class="align-items-center d-flex justify-content-end p-3">
+                {% comment %} <a href="#" class="link-secondary btn-icon btn-icon-36px hover-light rounded-circle hover-light rounded-circle"><i class="mdi mdi-24px mdi-arrow-left"></i></a> {% endcomment %}
+                {% comment %} <span class="btn-icon btn-icon-36px">20</span> {% endcomment %}
+                {% comment %} <a href="#" class="link-secondary btn-icon btn-icon-36px hover-light rounded-circle"><i class="mdi mdi-24px mdi-arrow-right"></i></a> {% endcomment %}
+                {% comment %} <a href="#" class="link-secondary btn-icon btn-icon-36px hover-light rounded-circle hover-light rounded-circle"><i class="mdi mdi-24px mdi-cog-outline"></i></a> {% endcomment %}
+                {% comment %} <a href="#" class="link-secondary btn-icon btn-icon-36px hover-light rounded-circle hover-light rounded-circle"><i class="mdi mdi-24px mdi-text-box-outline"></i></a> {% endcomment %}
+              </div>
+            </div>
+          </div>
+          <a class="btn-icon btn-icon-46px link-secondary" @click="drawerRightOpen = !drawerRightOpen" href="#">
+            <i x-bind:class="! drawerRightOpen ? 'mdi-{% block sidenav_right_icon %}plus{% endblock %}' : 'mdi-close'" class="mdi mdi-24px"></i>
+          </a>
+        </div>
+        <div x-bind:class="! drawerRightOpen ? 'd-none' : ''" class="flex-fill" style="overflow-y: auto;">
+          <div class="flex-fill" style="overflow-y: auto;">
+            <div class="list-group list-group-flush">
+              {% for product in products %}
+                <div class="list-group-item p-4">
+                  <div class="d-flex">
+                    <div class="flex-fill me-auto">
+                      <span class="me-2 text-muted d-inline-block">{{ product.specific.opts.verbose_name|title }}</span>
+                      <div class="fw-bold">{{ product.name|truncatechars:50 }}</div>
+                      <span class="d-inline-block">{{ product.estimation_price|currency }}</span>
+                    </div>
+                    <div>
+                      <a href="#" class="link-secondary btn-icon btn-icon-36px hover-light rounded-circle"><i class="mdi mdi-24px mdi-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+              
+            </div>
+          </div>
+        </div>
+        <div class="border-top p-2" x-bind:class="! drawerRightOpen ? 'd-none' : 'd-block'">
+          <div class="">
+            <div>
+              <i class="mdi mdi-help-circle-outline"></i>
+              {% trans "Guide" %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock sidenav_right_wrapper %}

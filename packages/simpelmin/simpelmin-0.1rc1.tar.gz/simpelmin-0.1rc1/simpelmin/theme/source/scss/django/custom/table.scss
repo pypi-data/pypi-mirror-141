@@ -1,0 +1,188 @@
+/* TABLES */
+
+// table {
+//   border-collapse: collapse;
+//   border-color: var(--border-color);
+// }
+
+// td {
+//   font-size: 13px;
+//   line-height: 16px;
+//   border-bottom: 1px solid var(--hairline-color);
+//   vertical-align: top;
+//   padding: 8px;
+// }
+
+// th {
+//   font-size: 13px;
+//   line-height: 16px;
+//   border-bottom: 1px solid var(--hairline-color);
+//   vertical-align: top;
+//   padding: 8px;
+//   font-weight: 600;
+//   text-align: left;
+// }
+
+// thead th {
+//   color: var(--body-quiet-color);
+//   padding: 5px 10px;
+//   font-size: 11px;
+//   background: var(--body-bg);
+//   border: none;
+//   border-top: 1px solid var(--hairline-color);
+//   border-bottom: 1px solid var(--hairline-color);
+// }
+
+// tfoot td {
+//   color: var(--body-quiet-color);
+//   padding: 5px 10px;
+//   font-size: 11px;
+//   // background: var(--body-bg);
+//   border: none;
+//   border-top: 1px solid var(--hairline-color);
+//   border-bottom: 1px solid var(--hairline-color);
+//   border-bottom: none;
+//   border-top: 1px solid var(--hairline-color);
+// }
+
+thead th.required {
+  color: var(--body-loud-color);
+}
+
+// tr {
+//   &.alt {
+//     background: var(--darkened-bg);
+//   }
+//   &:nth-child(odd) {
+//     background: var(--body-bg);
+//   }
+// }
+
+.row-form-errors {
+  background: var(--body-bg);
+}
+
+// tr {
+//   &:nth-child(even),
+//   &:nth-child(odd) + .row-form-errors {
+//     background: var(--darkened-bg);
+
+//     .errorlist {
+//       background: var(--darkened-bg);
+//     }
+//   }
+// }
+
+/* SORTABLE TABLES */
+
+thead th {
+  // padding: 5px 10px;
+  // line-height: normal;
+  text-transform: capitalize;
+  @extend .bg-light;
+
+  a {
+    &:link,
+    &:visited {
+      color: var(--body-quiet-color);
+    }
+  }
+
+  &.sorted {
+    background: var(--selected-bg);
+    .text {
+      padding-right: 42px;
+    }
+  }
+}
+
+table thead th .text {
+  span {
+    padding: 8px 10px;
+    display: block;
+  }
+
+  a {
+    display: block;
+    cursor: pointer;
+    padding: 8px 10px;
+
+    &:focus,
+    &:hover {
+      background: var(--selected-bg);
+    }
+  }
+}
+
+thead th.sorted a.sortremove {
+  visibility: hidden;
+}
+
+table thead th.sorted {
+  &:hover a.sortremove {
+    visibility: visible;
+  }
+
+  .sortoptions {
+    display: block;
+    padding: 9px 5px 0 5px;
+    float: right;
+    text-align: right;
+  }
+
+  .sortpriority {
+    font-size: 0.8em;
+    min-width: 12px;
+    text-align: center;
+    vertical-align: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .sortoptions a {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(../img/sorting-icons.svg) 0 0 no-repeat;
+    background-size: 14px auto;
+
+    &.sortremove {
+      background-position: 0 0;
+
+      &:after {
+        content: "\\";
+        position: absolute;
+        top: -6px;
+        left: 3px;
+        font-weight: 200;
+        font-size: 18px;
+        color: var(--body-quiet-color);
+      }
+
+      &:focus,
+      &:hover {
+        background-position: 0 -14px;
+      }
+    }
+
+    &.ascending {
+      background-position: 0 -28px;
+
+      &:focus,
+      &:hover {
+        background-position: 0 -42px;
+      }
+    }
+
+    &.descending {
+      top: 1px;
+      background-position: 0 -56px;
+
+      &:focus,
+      &:hover {
+        background-position: 0 -70px;
+      }
+    }
+  }
+}

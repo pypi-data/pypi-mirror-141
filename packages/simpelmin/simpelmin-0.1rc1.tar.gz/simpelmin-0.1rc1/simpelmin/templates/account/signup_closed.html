@@ -1,0 +1,11 @@
+{% extends "account/base.html" %}
+{% load static i18n %}
+
+{% block head_title %}{% trans "Sign Up Closed" %}{% endblock%}
+{% block auth_title %}{% trans "Sign Up Closed" %}{% endblock%}
+
+{% block auth_body %}
+
+  <p class="login-box-msg">{% trans "We are sorry, but the sign up is currently closed." %}</p>
+
+{% endblock %}

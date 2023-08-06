@@ -1,0 +1,51 @@
+
+/* SIDEBAR */
+
+.delete-confirmation form {
+  input[type="submit"] {
+    background: var(--delete-button-bg);
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: var(--button-fg);
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: var(--delete-button-hover-bg);
+    }
+  }
+
+  .cancel-link {
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: var(--button-fg);
+    background: var(--close-button-bg);
+    margin: 0 0 0 10px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: var(--close-button-hover-bg);
+    }
+  }
+}
+
+/* POPUP */
+
+.popup {
+  #content {
+    padding: 20px;
+  }
+
+  #container {
+    min-width: 0;
+  }
+
+  #header {
+    padding: 10px 20px;
+  }
+}

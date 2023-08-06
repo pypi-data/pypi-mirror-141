@@ -1,0 +1,52 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n static admin_urls simpelcore_tags simpelauth_tags %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-9">
+    <section>
+      <div class="card mb-5 shadow-sm">
+        <div class="card-body p-5">
+          <div class="row">
+            <div class="col-6 mb-3">
+              <div class="text-start">
+                <div>{{ object.salesorder.group|title }}</div>
+                <div class="display-8 mb-3">{{ object.inner_id }}</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div  class="col-lg-7 mb-3">
+              {% include 'admin/simpel_partners/partner_info_block.html' with partner=object.salesorder.customer %}
+            </div>
+            <div class="col-lg-5 mb-3">
+              {% include 'admin/simpel_sales/order_data.html' with object=object.salesorder %}
+            </div>
+          </div>
+          {% if object.salesorder.note %}
+          <div class="col-12 py-3 mb-3">
+            <div class="px-4 border-start border-3">
+              <div>{% trans "Note" %}</div>
+              <div class="small">{{ object.salsorder.note }}</div>
+            </div>
+          </div>
+          {% endif %}
+          <div class="col-12 order-lg-3">
+            {% include 'admin/simpel_sales/order_table.html' with object=object.salesorder show_group=False %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="item-section">
+        {% for item in object.salesorder.items.all %}
+          {% include 'admin/simpel_sales/order_item.html' with object=item %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+  <div class="col-lg-3">
+    {% include 'notices/object_action_logs.html' %}
+  </div>
+</div>
+{% endblock %}

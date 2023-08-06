@@ -1,0 +1,63 @@
+{% extends 'admin/object_history.html' %}
+{% load i18n simpelcore_tags %}
+{% block extra_history %}
+
+<div class="card shadow-sm">
+  <div class="card-header p-4">
+    <h5 class="h5 fw-bold">{% trans "Payments" %}</h5>
+  </div>
+  {% if object.payments.count %}
+    <div class="table-responsive">
+      <table id="change-history" class="table mb-0">
+        <thead>
+          <tr>
+            <th scope="col" width="200">{% translate 'Actor' %}</th>
+            <th scope="col" width="170">{% translate 'Date' %}</th>
+            <th scope="col">{% translate 'Activities' %}</th>
+            <th scope="col" width="120" class="text-end">{% translate 'Amount' %}</th>
+            <th scope="col">{% translate 'Status' %}</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for payment in object.payments %}
+          <tr>
+            <td scope="row">
+              <div class="d-flex">
+                <div class="align-items-top d-flex me-3 media">
+                  <img class="avatar rounded-circle" width="32" height="32" src="{{ payment.user.avatar }}">
+                </div>
+                <div class="small">
+                  <div class="fw-bold">
+                    {{ payment.user.get_username }}{% if payment.user.get_full_name %} ({{ payment.user.get_full_name }}){% endif %}
+                  </div>
+                  <div>
+                    {{ payment.timesince }}
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class="small">
+              {{ payment.created_at|date:"DATETIME_FORMAT" }}
+            </td>
+            <td class="small">
+              {% firstof payment.note "" %}
+            </td>
+            <td class="small text-end">
+              {{ payment.amount|currency }}
+            </td>
+            <td class="small">
+              {{ payment.get_status_display }}
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+  <div class="card-body">
+    <p class="p-5 text-center">{% translate 'This Sales Order doesn’t have a payment history.' %}</p>
+  </div>
+  {% endif %}
+</div>
+
+{% endblock extra_history %}

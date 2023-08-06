@@ -1,0 +1,46 @@
+{% extends 'navbar.html' %}
+{% load i18n static %}
+
+{% block navbar_brand %}
+<a href="{% url 'admin:index' %}" class="align-items-center ff-exo fs-4 fw-bold me-4 text-dark text-decoration-none">
+  <img src="{% static 'simpelmin/img/logo_light.svg' %}" style="height: 42px;">
+</a>
+{% endblock %}
+
+{% block navbar_buttons %}
+  {% url 'admin:simpel_shop_cartitem_changelist' as cart_url %}
+  {% if perms.simpel_sales.add_salesorder or perms.simpel_sales.add_salesorder%}
+    {% if cart_url %}
+      <a class="btn-icon btn-icon-46px hover-light rounded-circle link-secondary me-1" href="{{ cart_url }}">
+        <i class="mdi mdi-24px mdi-cart-outline"></i>
+      </a>
+    {% endif %}
+  {% endif %}
+  {% url 'admin:simpel_sales_salesorder_changelist' as salesorder_url %}
+  {% if perms.simpel_sales.view_salesorder and salesorder_url  %}
+    <a class="btn-icon btn-icon-46px hover-light rounded-circle link-secondary me-1" href="{{ salesorder_url }}">
+      <i class="mdi mdi-24px mdi-text-box-outline"></i>
+    </a>
+  {% endif %}
+{% endblock navbar_buttons %}
+
+{% block account_menu %}
+  {% if user.is_superuser or user.has_setting_perm %}
+    {% url 'admin:settings' as settings_root %}
+    {% if settings_root %}
+      <li><a class="dropdown-item" href="{{ settings_root }}">{% translate 'Settings' %}</a></li>
+    {% endif %}
+  {% endif %}
+  {% if user.is_active and user.is_staff %}
+    {% url 'django-admindocs-docroot' as docsroot %}
+    {% if docsroot %}
+      <li><a class="dropdown-item" href="{{ docsroot }}">{% translate 'Documentation' %}</a></li>
+    {% endif %}
+  {% endif %}
+  <li><hr class="dropdown-divider"></li>
+  {% url 'admin:password_change' as change_password_url %}
+  {% if user.has_usable_password and change_password_url%}
+    <li><a class="dropdown-item" href="{{ change_password_url }}">{% translate 'Change password' %}</a></li>
+  {% endif %}
+  <li><a class="dropdown-item" href="{% url 'admin:logout' %}">{% translate 'Log out' %}</a></li>
+{% endblock account_menu %}

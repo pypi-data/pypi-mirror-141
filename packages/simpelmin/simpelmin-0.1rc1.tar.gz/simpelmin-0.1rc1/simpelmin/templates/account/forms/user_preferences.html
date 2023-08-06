@@ -1,0 +1,24 @@
+{% load i18n widget_tweaks %}
+{% if success_message %}
+<div class="p-4 mb-1 alert alert-success alert-dismissible fade show" role="alert">
+  {{ success_message|capfirst }}
+  <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+<form hx-post="{{ form_action_url }}" hx-trigger="submit" hx-target="this" hx-swap="outerHTML" hx-indicator="#spinner">
+  {% csrf_token %}
+  <div class="row mb-4">
+    <div class="col-lg-6">
+      <label for="{{ form.first_name.name }}" class="form-label fw-bold">{{ form.first_name.label }}</label>
+      {% render_field form.first_name class='form-control' %}
+    </div>
+    <div class="col-lg-6">
+      <label for="{{ form.last_name.name }}" class="form-label fw-bold">{{ form.last_name.label }}</label>
+      {% render_field form.last_name class='form-control' %}
+    </div>
+  </div>
+  <div class="buttonHolder">
+    <button class="btn btn-success mb-2" type="submit" name="form_action" value="user_preferences">{% trans 'Save' %}</button>
+    {% comment %} <button class="btn mb-2" type="submit" >{% trans 'Cancel' %}</button> {% endcomment %}
+  </div>
+</form>

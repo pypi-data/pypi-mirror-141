@@ -1,0 +1,119 @@
+{% extends 'admin/print.html' %}
+{% load i18n simpelcore_tags %}
+
+{% block header_right %}
+<div class="col-print-3 text-end">
+  <div>{{ object.specific.opts.verbose_name|title }}</div>
+  <h2 class="document-title">{{ object.opts.verbose_name|title }}</h2>
+</div>
+{% endblock header_right %}
+
+{% block content %}
+<div id="content-main">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="sales-order-print">
+        
+        <section class="row-print bg-light p-3 rounded mb-4">
+          <div class="col-print-9">
+            <div><strong>#{{ object.inner_id }}</strong></div>
+            <div><strong>{% trans "Created At:" %}</strong> {{ object.created_at }}</div>
+          </div>
+          <div class="col-print-3 text-end">
+            <div>{{ object.get_status_display }}</div>
+            #{{ object.inner_id }}
+          </div>
+          <div class="clear"></div>
+        </section>
+        
+        <section class="customer-section">
+          <table class="table table-borderless table-sm w-100">
+            <tbody>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Customer ID" %}</td>
+                <td class="text-start align-middle">#{{ object.sales_order.inner_id }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Customer ID" %}</td>
+                <td class="text-start align-middle">{{ object.customer.uid|upper }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Customer Name" %}</td>
+                <td class="text-start align-middle">{{ object.customer.name }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Address" %}</td>
+                <td class="text-start align-top">
+                  <div>{{ object.customer.address.render.0 }}</div>
+                  <div>{{ object.customer.address.render.1 }}</div>
+                </td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Email" %}</td>
+                <td class="text-start align-top">{{ object.customer.email }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Phone" %}</td>
+                <td class="text-start align-top">{{ object.customer.phone }}</td>
+              </tr>
+              {% if object.note %}
+                <tr>
+                  <td width="150" class="align-top fw-bold">{% trans "Note" %}</td>
+                  <td class="text-start align-top"><em>{{ object.note }}</em></td>
+                </tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </section>
+
+        <section class="summary-section">
+          <table class="table table-sm w-100">
+            <thead>
+              <tr>
+                <th class="align-middle text-start">{% trans "Name" %}</th>
+                <th width="150" class="align-middle text-end">{% trans "Price" %}</th>
+                <th width="50" class="align-middle text-center">{% trans "Quantity" %}</th>
+                <th width="75" class="align-middle text-center">{% trans "Unit" %}</th>
+                <th width="150" class="align-middle text-end">{% trans "Total" %}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for product_item in object.items.all %}
+                <tr>
+                  <td class="align-middle text-start">{{ product_item.product.name }} {% if product_item.name %} <span class="text-muted">({{ product_item.name }})</span> {% endif %}</td>
+                  <td class="align-middle text-end">{{ product_item.subtotal|currency }} </td>
+                  <td class="align-middle text-center">{{ product_item.quantity }}</td>
+                  <td class="align-middle text-center">{{ product_item.product.unit }}</td>
+                  <td class="align-middle text-end">{{ product_item.total|currency }}</td>
+                </tr>
+              {% endfor %}
+              <tr class="thin">
+                <td colspan="3" rowspan="5" class="align-top p-3">
+                  <strong>Terbilang:</strong>
+                  <p>{{ object.grand_total|number_to_text|title }}{% if object.grand_total > 0 %} Rupiah{% endif %}</p>
+                </td>
+                <td width="150" class="align-middle"><strong>{% trans "Total" %}</strong></td>
+                <td width="150" class="align-middle text-end">{{ object.total|currency }}</td>
+              </tr>
+              <tr class="thin">
+                <td width="150" class="align-middle"><strong>{% trans "Discount" %}</strong></td>
+                <td width="150" class="align-middle text-end">{{ object.discount|currency }}</td>
+              </tr>
+              <tr class="thin">
+                <td width="150" class="align-middle"><strong>{% trans "Down Payment" %}</strong></td>
+                <td width="150" class="align-middle text-end">{{ object.downpayment|currency }}</td>
+              </tr>
+              <tr class="thin">
+                <td width="150" class="align-middle"><strong>{% trans "Grand Total" %}</strong></td>
+                <td width="150" class="align-middle text-end">{{ object.grand_total|currency }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% comment %} 
+This is will shown in each changelist row
+{% endcomment %}
+<div class="dropdown">
+      <a href="#" class="dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <i class="mdi mdi-dots-horizontal mdi-18px"></i>
+      </a>
+      <ul class="px-0 dropdown-menu dropdown-menu-end"
+          aria-labelledby="">
+          {% for child in childs %}
+          <li><a class="dropdown-item" href="{{ child.url }}">{{ child.label }}</a></li>
+          {% endfor %}
+      </ul>
+</div>

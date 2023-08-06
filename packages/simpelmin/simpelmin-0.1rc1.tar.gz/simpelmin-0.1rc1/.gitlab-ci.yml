@@ -1,0 +1,39 @@
+variables:
+  PROJECT_NAME: simpelmin
+  IMAGE_NAME: registry.gitlab.com/sasriawesome/simpelmin
+  CONTAINER_TEST_IMAGE: registry.gitlab.com/sasriawesome/simpelmin:$CI_BUILD_REF_NAME
+  PIP_DISABLE_PIP_VERSION_CHECK: "on"
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  POETRY_VIRTUALENVS_CREATE: "false"
+  POSTGRES_HOST_AUTH_METHOD: "trust"
+  DEBUG: "true"
+
+include:
+  - template: SAST.gitlab-ci.yml
+  - template: Dependency-Scanning.gitlab-ci.yml
+  - template: Secret-Detection.gitlab-ci.yml
+
+test:
+  image: python:3.8
+  variables:
+    SECRET_KEY: testing
+    ENABLE_TEST_API: "true"
+    ENABLE_OPEN_USER_REGISTRATION: "true"
+  services:
+    - redis:6
+    - postgres:14
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .cache/pip
+  script:
+    - pip install poetry
+    - poetry install --no-interaction --no-ansi
+    - ./manage.py test
+
+lint:
+  image: python:3.8
+  script:
+    - pip install poetry
+    - poetry install --no-interaction --no-ansi
+    - isort --check simpelmin
