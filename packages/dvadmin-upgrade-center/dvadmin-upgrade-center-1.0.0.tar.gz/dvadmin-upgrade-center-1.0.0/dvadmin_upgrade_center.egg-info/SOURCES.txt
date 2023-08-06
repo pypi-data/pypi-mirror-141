@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dvadmin_upgrade_center.egg-info/PKG-INFO
+dvadmin_upgrade_center.egg-info/SOURCES.txt
+dvadmin_upgrade_center.egg-info/dependency_links.txt
+dvadmin_upgrade_center.egg-info/top_level.txt
