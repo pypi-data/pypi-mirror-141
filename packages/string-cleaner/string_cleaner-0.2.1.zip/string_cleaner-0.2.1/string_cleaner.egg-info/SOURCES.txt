@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+string_cleaner/__init__.py
+string_cleaner/cleaner.py
+string_cleaner/config.py
+string_cleaner.egg-info/PKG-INFO
+string_cleaner.egg-info/SOURCES.txt
+string_cleaner.egg-info/dependency_links.txt
+string_cleaner.egg-info/not-zip-safe
+string_cleaner.egg-info/top_level.txt
