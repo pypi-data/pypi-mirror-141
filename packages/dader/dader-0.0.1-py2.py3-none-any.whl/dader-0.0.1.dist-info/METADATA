@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dader
+Version: 0.0.1
+Summary: The package of DADER (Domain Adaptation for Deep Entity Resolution).
+Home-page: https://github.com/tuhahaha/dader-package
+Author: Jianhong Tu
+Author-email: tujh@ruc.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: demjson (==2.2.4)
+Requires-Dist: scipy (==1.5.4)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: transformers (==4.6.1)
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: scikit-learn (==0.24.2)
+
+This is a simple example package.
+2021-08-10..
+
