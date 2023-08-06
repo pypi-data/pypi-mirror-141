@@ -1,0 +1,3 @@
+from ._mesh import Mesh as Mesh
+
+def extract_boundary_mesh(mesh: Mesh) -> Mesh: ...
