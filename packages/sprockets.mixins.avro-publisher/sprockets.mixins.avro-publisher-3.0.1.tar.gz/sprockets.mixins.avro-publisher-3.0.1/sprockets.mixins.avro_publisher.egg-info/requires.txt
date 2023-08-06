@@ -1,0 +1,4 @@
+sprockets.mixins.amqp<4,>=3.0.0
+sprockets.mixins.http<3,>=2.3.0
+fastavro<2.0.0,>=0.10.1
+tornado<7,>=6
