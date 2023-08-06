@@ -1,0 +1,4 @@
+cbpro
+requests
+delta-spark
+azure-eventhub

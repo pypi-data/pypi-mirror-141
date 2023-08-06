@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sphinxHub
+Version: 0.0.1
+Summary: Basic library helpers
+Home-page: UNKNOWN
+Author: Ademola Adefioye
+Author-email: ademola.adefioye@atyeti.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
