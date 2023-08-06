@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/alapakam_generics.egg-info/PKG-INFO
+src/alapakam_generics.egg-info/SOURCES.txt
+src/alapakam_generics.egg-info/dependency_links.txt
+src/alapakam_generics.egg-info/top_level.txt
+src/alpakam_generics/__init__.py
+src/alpakam_generics/generic.py
