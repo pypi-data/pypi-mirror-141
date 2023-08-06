@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+inrgif/__init__.py
+inrgif/images_to_gif.py
+inrgif/video_to_gif.py
+inrgif.egg-info/PKG-INFO
+inrgif.egg-info/SOURCES.txt
+inrgif.egg-info/dependency_links.txt
+inrgif.egg-info/requires.txt
+inrgif.egg-info/top_level.txt
