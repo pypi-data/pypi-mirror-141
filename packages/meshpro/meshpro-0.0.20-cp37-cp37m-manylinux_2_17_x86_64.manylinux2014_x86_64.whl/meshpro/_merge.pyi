@@ -1,0 +1,3 @@
+from ._mesh import Mesh as Mesh
+
+def merge_meshes(meshes: list[Mesh]) -> Mesh: ...

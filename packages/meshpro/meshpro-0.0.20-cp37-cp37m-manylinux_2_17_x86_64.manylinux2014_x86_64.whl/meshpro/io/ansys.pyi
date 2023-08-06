@@ -1,0 +1,6 @@
+from .._common import warn as warn
+from .._exceptions import ReadError as ReadError, WriteError as WriteError
+from .._mesh import Mesh as Mesh
+
+def read(filename): ...
+def write(filename, mesh, binary: bool = ...) -> None: ...
