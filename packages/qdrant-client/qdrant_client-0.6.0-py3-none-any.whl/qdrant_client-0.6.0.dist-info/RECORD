@@ -1,0 +1,17 @@
+qdrant_client/__init__.py,sha256=8ReSwag7o-roymzFttcYt0OlvAw-1NSMZyP9nWmqn-c,63
+qdrant_client/parallel_processor.py,sha256=7rv7b4yHwAEmx3b0lyQr4MbvQQUWI9SeNBums9P77zM,5992
+qdrant_client/qdrant_client.py,sha256=Dbe80tvckDwhCpggpJLztn-nfv4oH-C_Ir1MpRfZOnI,12587
+qdrant_openapi_client/__init__.py,sha256=F5cYYq5fXoFFSTgOA9pU57GEEgfRflexm5KgtuN8Lf8,436
+qdrant_openapi_client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdrant_openapi_client/api/collections_api.py,sha256=W_Z3FXwsVIcEupUmYOd8PkwjUW_PmREwaL7IPu4BhK8,15852
+qdrant_openapi_client/api/points_api.py,sha256=H8gbC_PHqLbDptV0SODgnu5_0t0efnzcA7UTrL5ElO0,22141
+qdrant_openapi_client/api_client.py,sha256=_H6CGWOq-yx64ynbv4ccxVU0xoU2csU7ZOYR8otPpWY,6958
+qdrant_openapi_client/apis/__init__.py,sha256=Aa_4SyUCx2ZlDe_nl4s-LKPNBdpDD8RiHktmbQDOn-Q,548
+qdrant_openapi_client/configuration.py,sha256=P7bThTfQxZI6AHDjZ8OgD6-h2caUQEqOPULGQP1el-I,233
+qdrant_openapi_client/exceptions.py,sha256=qUIsippuevch3cVbY6oPltFc2nRLE8reaN2DImFeFWo,1616
+qdrant_openapi_client/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdrant_openapi_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdrant_openapi_client/models/models.py,sha256=j22P8K0PNInYW4EXqKDFqjCqzZGCtjlY_y29IoOQwVQ,32181
+qdrant_client-0.6.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+qdrant_client-0.6.0.dist-info/METADATA,sha256=7-xMK8W5O3m3q8s8YpPURM76Frw4UkdpSzgqhPvhISQ,3064
+qdrant_client-0.6.0.dist-info/RECORD,,
