@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+cemre_biltekin_very_simple_dictionary.egg-info/PKG-INFO
+cemre_biltekin_very_simple_dictionary.egg-info/SOURCES.txt
+cemre_biltekin_very_simple_dictionary.egg-info/dependency_links.txt
+cemre_biltekin_very_simple_dictionary.egg-info/requires.txt
+cemre_biltekin_very_simple_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
