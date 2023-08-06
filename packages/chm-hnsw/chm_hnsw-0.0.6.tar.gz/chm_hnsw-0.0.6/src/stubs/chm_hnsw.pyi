@@ -1,0 +1,16 @@
+from enum import auto, Enum
+import numpy as np
+
+class Space(Enum):
+	ANGULAR = auto()
+	EUCLIDEAN = auto()
+	INNER_PRODUCT = auto()
+
+KnnResults = tuple[np.ndarray, np.ndarray]
+
+class ChmOptimIndexFloat32:
+	def __init__(self, space: Space, dim: int) -> None: ...
+	def add_items(self, data: np.ndarray) -> None: ...
+	def init_index(self, max_elements: int, M: int = 16, ef_construction: int = 200, seed: int = 100) -> None: ...
+	def knn_query(self, data: np.ndarray, K: int) -> KnnResults: ...
+	def set_ef(self, ef: int) -> None: ...
