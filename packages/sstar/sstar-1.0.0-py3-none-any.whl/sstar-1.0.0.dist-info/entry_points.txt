@@ -1,0 +1,3 @@
+[console_scripts]
+sstar = sstar.__main__:main
+
