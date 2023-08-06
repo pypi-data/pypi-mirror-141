@@ -1,0 +1,9 @@
+genderizerQc/__init__.py,sha256=ZvjRocesWdiimXHJw_ytM_mxyYaSjX0JmQ-yhSgnlH4,36
+genderizerQc/genderizer.py,sha256=-2v1EzO5Jyr2LzcTl8HMXB25c29u-lGynz9WBsZXm-k,4520
+genderizerQc/data/filles1980-2020.csv,sha256=QatDLU_9bJ68a3YxPCg1WwjrtqU_PHthDqfhYVM1je4,19398435
+genderizerQc/data/gars1980-2020.csv,sha256=mHkaSynevowHultyWVVVcplVxchyruMjW1qB5pA77Ww,18934528
+genderizerQc-0.1.2.dist-info/LICENSE,sha256=insLaDSCNlrdbkkbZRgdODIGhbzd-OGgd6ZH3RnwH4k,1077
+genderizerQc-0.1.2.dist-info/METADATA,sha256=bjNtWRGqpFy1E48yZ_G7I-Bohqc9olW2MIO6cj2au9Q,448
+genderizerQc-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genderizerQc-0.1.2.dist-info/top_level.txt,sha256=Dwga0XTxpnzYROGwnpfiQIBA_rQ1jcIxfoJmNet4aCE,13
+genderizerQc-0.1.2.dist-info/RECORD,,
