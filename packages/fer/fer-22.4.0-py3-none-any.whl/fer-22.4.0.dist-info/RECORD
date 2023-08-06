@@ -1,0 +1,13 @@
+fer/__init__.py,sha256=TMmlpuf7waD8TbJdTuuu-V-VrUoOn2WdF23_wZX6BV4,1630
+fer/classes.py,sha256=XQCdQM6o6BvEqXMbS5Crq3QWTqJxEH3ZePRXfpquw1U,11879
+fer/fer.py,sha256=wnpzcw8EyUGDUsiMGJZwnd8Rzi3o_Ck7W_bZ9VdSMXk,11195
+fer/utils.py,sha256=_UkWLmEwkDinTi1ca4zfJ7S3JrUBTfd6xGersGpa2Yc,2727
+fer/data/emotion_model.hdf5,sha256=WVNCh_37El4wqUQAKWwl6p9dcG_Kk92K27vtkWeZ6g4,872856
+fer/data/haarcascade_frontalface_default.xml,sha256=7raTSwy_HnsrXr6o_txzrGU_DbX_qkLlzmFTWDARVGY,1254733
+fer/exceptions/__init__.py,sha256=yAUNvS25WFPLzWQo5Xfj_v0plnz2tiJwrto_EPDjYrQ,1222
+fer-22.4.0.dist-info/AUTHORS,sha256=yGYK9WqgyFcCg7e4SHMEGWga3R7vD1S9LR_bFcn5z5g,36
+fer-22.4.0.dist-info/LICENSE,sha256=chWkSe0aANgd5DocTssQgazuGe33K5L8vGjpdbycwz8,1068
+fer-22.4.0.dist-info/METADATA,sha256=7wJeM8xxfaHxa42_XRNZ1Ut38l_VsYnw4DdwXsctt0E,6283
+fer-22.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fer-22.4.0.dist-info/top_level.txt,sha256=zMWjZ7mR0pdfCS6KuLpdTnaRv3zZWPhvfhexsmS5d4k,4
+fer-22.4.0.dist-info/RECORD,,
