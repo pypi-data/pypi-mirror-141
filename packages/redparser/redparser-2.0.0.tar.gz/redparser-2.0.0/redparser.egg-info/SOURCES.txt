@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+redparser/__init__.py
+redparser/__main__.py
+redparser/arguments.py
+redparser/constants.py
+redparser/exceptions.py
+redparser/highlight.py
+redparser/parser.py
+redparser/redparser.py
+redparser/validator.py
+redparser.egg-info/PKG-INFO
+redparser.egg-info/SOURCES.txt
+redparser.egg-info/dependency_links.txt
+redparser.egg-info/entry_points.txt
+redparser.egg-info/top_level.txt
