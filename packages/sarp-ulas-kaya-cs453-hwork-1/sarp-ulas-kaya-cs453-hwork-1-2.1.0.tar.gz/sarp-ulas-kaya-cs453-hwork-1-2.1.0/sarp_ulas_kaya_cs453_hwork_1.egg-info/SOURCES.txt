@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+sarp_ulas_kaya_cs453_hwork_1.egg-info/PKG-INFO
+sarp_ulas_kaya_cs453_hwork_1.egg-info/SOURCES.txt
+sarp_ulas_kaya_cs453_hwork_1.egg-info/dependency_links.txt
+sarp_ulas_kaya_cs453_hwork_1.egg-info/requires.txt
+sarp_ulas_kaya_cs453_hwork_1.egg-info/top_level.txt
