@@ -1,0 +1,3 @@
+[console_scripts]
+create-brandon = create_brandon.create_brandon:main
+create_brandon = create_brandon.create_brandon:main
