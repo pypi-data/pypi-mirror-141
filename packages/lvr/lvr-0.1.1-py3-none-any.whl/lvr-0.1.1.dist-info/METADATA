@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lvr
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://hg.sr.ht/~bwe/lvr
+Author: Benjamin Weber
+Author-email: mail@bwe.im
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: numpy
+Requires-Dist: tabulate
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+**Lvr**
+*******
+
+*lvr* tells you which causes provoke which effects:
+
+.. code-block:: python
+
+    >>> from lvr import Lvr
+    >>> values = [789, 621, 109, 65, 45, 30, 27, 15, 12, 9]
+    >>> Lvr(values).summary(guess=True)
+    {'causes': 0.2, 'effects': 0.8, 'entropy_ratio': 0.71, 'pareto': True}
+
+Links
+=====
+
+  * code repository: https://bitbucket.org/hyllos/lvr
+  * docs: https://lvr.rtfd.io
+
+
