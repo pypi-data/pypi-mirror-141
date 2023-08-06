@@ -1,0 +1,11 @@
+.gitignore
+Makefile
+README.md
+setup.py
+gamest_plugins/retroarch_identifier/__init__.py
+gamest_plugins/retroarch_identifier/module.py
+gamest_retroarch_identifier_plugin.egg-info/PKG-INFO
+gamest_retroarch_identifier_plugin.egg-info/SOURCES.txt
+gamest_retroarch_identifier_plugin.egg-info/dependency_links.txt
+gamest_retroarch_identifier_plugin.egg-info/requires.txt
+gamest_retroarch_identifier_plugin.egg-info/top_level.txt
