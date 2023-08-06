@@ -1,0 +1,13 @@
+kaleidescape/__init__.py,sha256=E3g7fNQ8m1rYN6_-Vscr4aCwFBvpW4WCDieZiqZ_JRY,249
+kaleidescape/connection.py,sha256=vQdiUXPZBtW7S9uDlmam6i-zdGWOg82bmStu8rc3YfY,10706
+kaleidescape/const.py,sha256=xqjHaEUZWlYIKWUm6Sy9G2Tt0DhLHtBXi_1PKNoO7pY,8384
+kaleidescape/device.py,sha256=7XaGbA8Fu0zPLqvTtOAwRhmp-2NlvOz65tRPKRxYojY,24087
+kaleidescape/dispatcher.py,sha256=VmI_92q82BFruQGzlK1LCcEAxzZGyrBvNDNtnZ9DqhQ,2141
+kaleidescape/error.py,sha256=OBaJn6TJRtrzlcOeJ5BZ1CA8qhtO5dgrfzRo88UR7Fc,1467
+kaleidescape/message.py,sha256=3DyiKk3v77DEkBn6VLGI0p-5dXFW1ub8OTckOP8LxiY,37492
+kaleidescape/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykaleidescape-1.0.0.dist-info/LICENSE,sha256=Icph91yCPnF_e4fQNEdQ99VtxOu6vjk8g3d8J_RVvcs,1069
+pykaleidescape-1.0.0.dist-info/METADATA,sha256=OPdX3T0dAaynS4K74AbhxcoW8hwen6nkb25OX40mHUY,1358
+pykaleidescape-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pykaleidescape-1.0.0.dist-info/top_level.txt,sha256=Ay-LjopIx5yHWQvkf2wBVkNUTt4ke5XORZrGpnFhQM0,13
+pykaleidescape-1.0.0.dist-info/RECORD,,
