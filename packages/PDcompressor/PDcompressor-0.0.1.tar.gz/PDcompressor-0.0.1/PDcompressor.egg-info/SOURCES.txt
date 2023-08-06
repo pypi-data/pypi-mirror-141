@@ -1,0 +1,5 @@
+setup.py
+PDcompressor.egg-info/PKG-INFO
+PDcompressor.egg-info/SOURCES.txt
+PDcompressor.egg-info/dependency_links.txt
+PDcompressor.egg-info/top_level.txt
