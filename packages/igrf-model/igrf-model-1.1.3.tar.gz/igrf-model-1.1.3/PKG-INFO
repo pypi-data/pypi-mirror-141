@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: igrf-model
+Version: 1.1.3
+Summary: Pure Python implementation of the IGRF13 magnetic model
+License: MIT
+Author: Tamas Nepusz
+Author-email: ntamas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
