@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zdppy-code
+Version: 0.1.0
+Summary: 统一响应格式和响应状态码
+Author: zhangdapeng520
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
