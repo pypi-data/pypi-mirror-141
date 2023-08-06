@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyspod
+Version: 1.0.0
+Summary: Python Spectral Proper Orthogonal Decomposition
+Home-page: https://github.com/mengaldo/PySPOD
+Author: Gianmarco Mengaldo, Romit Maulik, Andrea Lario
+Author-email: mpegim@nus.edu.sg, rmaulik@anl.gov, alario@sissa.it
+License: MIT
+Keywords: spectral-proper-orthogonal-decomposition spod
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: docs
+License-File: LICENSE.rst
+
+PySPOD is a Python package that implements the Spectral Proper Orthogonal Decomposition (SPOD). SPOD is used to extract perfectly coherent spatio-temporal patterns in complex datasets. Original work on this technique dates back to (Lumley 1970), with recent development brought forward by (Towne et al. 2017), (Schmidt et al. 2018), (Schmidt et al. 2019).
+
+PySPOD comes with a set of tutorials spanning weather and climate, seismic and  fluid mechanics applications, and it can be used for both canonical problems  as well as large datasets. 
+
+
