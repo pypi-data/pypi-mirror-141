@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Emre_s_Dictionary.egg-info/PKG-INFO
+Emre_s_Dictionary.egg-info/SOURCES.txt
+Emre_s_Dictionary.egg-info/dependency_links.txt
+Emre_s_Dictionary.egg-info/requires.txt
+Emre_s_Dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
