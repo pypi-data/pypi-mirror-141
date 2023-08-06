@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jsonism
+Version: 1.0.1
+Summary: A simple JSON schema checker
+Home-page: https://github.com/bmcollier/jsonism
+Author: Ben Collier
+Author-email: bencollier@fastmail.com
+License: 3-Clause BSD
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+UNKNOWN
+
