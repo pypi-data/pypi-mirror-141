@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: vpconfig
+Version: 1.1.2
+Summary: config setting
+Home-page: https://gitee.com/linyin2007/vpconfig.git
+Author: huangsenyan
+Author-email: huangsenyan2022@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.18.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.11.2)
+Requires-Dist: keyring (==23.5.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pkginfo (==1.8.2)
+Requires-Dist: Pygments (==2.11.2)
+Requires-Dist: pyparsing (==3.0.7)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==32.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tqdm (==4.63.0)
+Requires-Dist: twine (==3.8.0)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.7.0)
+
+UNKNOWN
+
