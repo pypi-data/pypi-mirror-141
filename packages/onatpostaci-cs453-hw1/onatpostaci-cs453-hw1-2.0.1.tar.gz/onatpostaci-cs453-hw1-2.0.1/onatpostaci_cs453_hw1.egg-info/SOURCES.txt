@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+onatpostaci_cs453_hw1.egg-info/PKG-INFO
+onatpostaci_cs453_hw1.egg-info/SOURCES.txt
+onatpostaci_cs453_hw1.egg-info/dependency_links.txt
+onatpostaci_cs453_hw1.egg-info/requires.txt
+onatpostaci_cs453_hw1.egg-info/top_level.txt
