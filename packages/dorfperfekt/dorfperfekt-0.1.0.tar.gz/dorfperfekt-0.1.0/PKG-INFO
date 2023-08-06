@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dorfperfekt
+Version: 0.1.0
+Summary: Tile placement suggestions for the game Dorfromantik.
+License: MIT
+Author: amosborne
+Author-email: amosborne@users.noreply.github.com
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PySide6 (>=6.2.3,<7.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
