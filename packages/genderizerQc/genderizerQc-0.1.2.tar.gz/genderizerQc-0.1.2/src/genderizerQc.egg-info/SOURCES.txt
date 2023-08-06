@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/genderizerQc/__init__.py
+src/genderizerQc/genderizer.py
+src/genderizerQc.egg-info/PKG-INFO
+src/genderizerQc.egg-info/SOURCES.txt
+src/genderizerQc.egg-info/dependency_links.txt
+src/genderizerQc.egg-info/requires.txt
+src/genderizerQc.egg-info/top_level.txt

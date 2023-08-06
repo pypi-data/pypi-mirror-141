@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: genderizerQc
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/jaytouz/genderizeQc
+Author: Jérémie Tousignant
+Author-email: tousijer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
