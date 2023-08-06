@@ -1,0 +1,343 @@
+## GitLab CI configuration.
+#
+# Available runners: https://computing.docs.ligo.org/guide/gitlab-ci/
+#
+# Some general advice:
+#
+#   - The idea here is to build and test Finesse on a minimal subset of common
+#     platforms. A good strategy is typically to test the earliest and latest supported
+#     Python release across the various platforms and distribution channels.
+#   - Documentation should be built using the earliest supported Python release.
+#   - Documentation for the syntax here can be found at
+#     https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html.
+#   - IGWN CI templates are used here for convenience. More information can be found at
+#     https://computing.docs.ligo.org/gitlab-ci-templates/.
+
+# Include IGWN computing templates. These set up common testing environments such as
+# conda. Use a fixed git commit for forward compatibility. This can be periodically
+# changed to pull in later enhancements to the templates.
+include:
+  - project: computing/gitlab-ci-templates
+    ref: caf6297a42b914d9a59649e3fcace383062f4d21  # 2022-01-27
+    file: conda.yml
+  - project: computing/gitlab-ci-templates
+    ref: caf6297a42b914d9a59649e3fcace383062f4d21  # 2022-01-27
+    file: macports.yml
+
+stages:
+  - build
+  - test
+  - docs
+  - deploy
+
+###############
+# Build stage #
+###############
+
+.template/build/manylinux: &template-build-manylinux
+  stage: build
+  image: quay.io/pypa/manylinux2014_x86_64
+  before_script:
+    - yum install -y suitesparse-devel
+  script:
+    - ${PYBIN}/pip wheel . --no-deps -w wheelhouse
+    - auditwheel repair wheelhouse/*.whl
+  artifacts:
+    paths:
+      - wheelhouse
+
+# Various Linux flavours on Python 3.8.
+build/manylinux/x86_64/py38:
+  <<: *template-build-manylinux
+  needs: []
+  variables:
+    PYBIN: /opt/python/cp38-cp38/bin
+
+# Various Linux flavours on Python 3.10.
+build/manylinux/x86_64/py310:
+  <<: *template-build-manylinux
+  needs: []
+  variables:
+    PYBIN: /opt/python/cp310-cp310/bin
+
+# Check the Conda development environment builds on Linux, since it's a common way to
+# develop Finesse (no tests get run).
+build/conda-linux/x86_64/py310:
+  stage: build
+  extends:
+    - .conda:base
+  before_script:
+    # Run the `before_script` from the template.
+    - !reference [".conda:base", before_script]
+    # Set up the environment.
+    - mamba env create -n finesse -f environment.yml
+    - conda activate finesse
+    - python --version
+    - make install-conda
+  script:
+    # Simply check it can be imported.
+    - python -c "import finesse"
+
+# A build with special flags set on Cython extensions to enable debugging.
+build/linux-debug/x86_64/py38:
+  stage: build
+  image: python:3.8
+  needs: []
+  before_script:
+    - apt update
+    - apt install -y libsuitesparse-dev
+    # Install editable mode so in-place pyx files are picked up by coverage.
+    - pip3 install -e .
+  script:
+    # Make a platform-specific wheel (with Cython coverage support)
+    - CYTHON_COVERAGE=1 CYTHON_DEBUG=1 pip3 wheel . --no-deps -w wheelhouse
+  artifacts:
+    paths:
+      - wheelhouse
+
+build/conda-osx/x86_64/py38:
+  stage: build
+  extends:
+    - .conda:base
+  tags:
+    - macos_x86_64
+  before_script:
+    # Run the `before_script` from the template.
+    - !reference [".conda:base", before_script]
+    # Set up the environment. On macOS conda is preconfigured in /opt/conda (mambaforge;
+    # only has conda-forge channel).
+    - mamba env create -n finesse -f environment.yml
+    - conda activate finesse
+    - python --version
+  script:
+    # Hack to try and fix codesigning issues (137 SIGKILL), see issue #460
+    - python ./scripts/osx_fix_so.py
+    # The isolated build wants to compile scipy and others from source
+    - mamba install gfortran pkg-config
+    # Do an in-tree build here to prevent PyPI packages clobbering conda-forge ones.
+    - pip wheel . --no-deps --no-build-isolation -w wheelhouse
+    # This is disabled for now as packaging up libomp on osx causes errors
+    # see issue #450
+    #- pip install delocate
+    #- delocate-wheel -vv wheelhouse/*.whl
+  artifacts:
+    paths:
+      - wheelhouse
+
+build/conda-osx/arm64/py38:
+  stage: build
+  extends:
+    - .conda:base
+  tags:
+    - macos_arm64
+  before_script:
+    # Run the `before_script` from the template.
+    - !reference [".conda:base", before_script]
+    # Set up the environment. On OSX conda is preconfigured in /opt/conda (mambaforge;
+    # only has conda-forge channel).
+    - mamba env create -n finesse -f environment.yml
+    - conda activate finesse
+    - python --version
+  script:
+    # Hack to try and fix codesigning issues (137 SIGKILL), see issue #460
+    - python ./scripts/osx_fix_so.py
+    # The isolated build wants to compile scipy and others from source
+    - mamba install gfortran pkg-config
+    # Do an in-tree build here to prevent PyPI packages clobbering conda-forge ones.
+    - pip wheel . --no-deps --no-build-isolation -w wheelhouse
+    # This is disabled for now as packaging up libomp on osx causes errors
+    # see issue #450
+    #- pip install delocate
+    #- delocate-wheel -vv wheelhouse/*.whl
+  artifacts:
+    paths:
+      - wheelhouse
+
+##############
+# Test stage #
+##############
+
+.template/test/linux-debian: &template-test-linux-debian
+  stage: test
+  before_script:
+    - python3 scripts/extract_extra_requirements.py setup.cfg test > requirements-test.txt
+    - pip3 install -r requirements-test.txt
+    - pip3 install -f wheelhouse finesse
+  script:
+    - pytest tests
+  # artifacts:
+  #   when: always
+  #   paths:
+  #     - debug
+
+test/linux-debian/x86_64/py38:
+  needs:
+    - build/manylinux/x86_64/py38
+  image: python:3.8
+  <<: *template-test-linux-debian
+
+test/linux-debian/x86_64/py310:
+  needs:
+    - build/manylinux/x86_64/py310
+  image: python:3.10
+  <<: *template-test-linux-debian
+
+# Test on OSX on x86_64.
+test/conda-osx/x86_64/py38:
+  stage: test
+  needs:
+    - build/conda-osx/x86_64/py38
+  extends:
+    - .conda:base
+  tags:
+    - macos_x86_64
+  before_script:
+    # Run the `before_script` from the template.
+    - !reference [".conda:base", before_script]
+    # Set up the environment. On OSX conda is preconfigured in /opt/conda (mambaforge;
+    # only has conda-forge channel).
+    - mamba env create -n finesse python=3.8
+    - conda activate finesse
+    - python --version
+    - python scripts/extract_extra_requirements.py setup.cfg test > requirements-test.txt
+    - pip install -r requirements-test.txt
+    - pip install -f wheelhouse finesse
+  script:
+    # Temporary - debugging
+    - mamba list --name finesse
+    - pytest tests
+
+# Test on OSX on ARM64 (M1).
+test/conda-osx/arm64/py38:
+  stage: test
+  needs:
+    - build/conda-osx/arm64/py38
+  extends:
+    - .conda:base
+  tags:
+    - macos_arm64
+  before_script:
+    # Run the `before_script` from the template.
+    - !reference [".conda:base", before_script]
+    # Set up the environment. On macOS conda is preconfigured in /opt/conda (mambaforge;
+    # only has conda-forge channel).
+    - mamba env create -n finesse python=3.8
+    - conda activate finesse
+    - python --version
+    - python scripts/extract_extra_requirements.py setup.cfg test > requirements-test.txt
+    - pip install -r requirements-test.txt
+    - pip install -f wheelhouse finesse
+  script:
+    # Temporary - debugging
+    - mamba list --name finesse
+    - pytest tests
+
+
+# Test coverage report generation. The report is used to show coverage details in merge
+# request diff views. See https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html.
+test/coverage:
+  stage: test
+  needs:
+    - build/linux-debug/x86_64/py38
+  image: python:3.8
+  before_script:
+    - apt update
+    - apt install -y libsuitesparse-dev
+    # Dependencies for running the tests.
+    - python3 scripts/extract_extra_requirements.py setup.cfg test > requirements-test.txt
+    - pip3 install -r requirements-test.txt
+    - pip3 install -f wheelhouse finesse
+    # Install coverage extras. The pinned coverage version is due to a Cython
+    # incompatibility with newer versions: https://github.com/cython/cython/issues/3515.
+    - pip3 install pytest-cov pycobertura coverage[toml]==4.5.4
+  script:
+    # Run all tests and generate Cobertura XML formatted coverage report.
+    - pytest --cov=finesse --cov-config=pyproject.toml --cov-report=xml tests
+    # Generate human readable coverage report.
+    - pycobertura show coverage.xml  # Necessary so the GitLab CI regex picks up the total.
+  coverage: '/^TOTAL\s+.*\s+(\d+\.?\d*)%/'  # Regex to allow GitLab to extract and display coverage.
+  artifacts:
+    when: always
+    reports:
+      # Displays coverage in MR diffs.
+      cobertura: coverage.xml
+    # paths:
+    #   - debug
+
+##############
+# Docs stage #
+##############
+
+docs/html:
+  stage: docs
+  needs:
+    - build/manylinux/x86_64/py38
+  image: python:3.8
+  before_script:
+    - python scripts/extract_extra_requirements.py setup.cfg docs > requirements-doc.txt
+    - pip install -r requirements-doc.txt
+    # Sphinx autodoc needs to be able to import finesse and finesse_sphinx.
+    - pip install -f wheelhouse finesse
+  script:
+    - cd docs
+    # Build HTML docs in single process mode. Can go back to "make html" when the
+    # EOFError is fixed in Sphinx. See #270.
+    - make htmlsingleproc
+    - cd ..
+  # Temporary, see #270
+  after_script:
+    - mkdir sphinxlogs
+    - mv /tmp/sphinx-*.log sphinxlogs
+  artifacts:
+    when: always
+    paths:
+      - docs/build/html
+      - sphinxlogs  # Temporary, see #270
+
+# NOTE: the Sphinx docker image used here itself uses python:slim, which is periodically
+# updated to the latest Python release, requiring the `needs` below to be periodically
+# updated to point to the job that produces the wheel for the latest release as well.
+docs/pdf:
+  stage: docs
+  needs:
+    - build/manylinux/x86_64/py310  # See note above.
+  image: sphinxdoc/sphinx-latexpdf
+  allow_failure: true  # Don't force people to fix LaTeX errors that fail the pipeline.
+  before_script:
+    - apt update
+    - apt install -y texlive-latex-base librsvg2-bin  # See #234.
+    - python scripts/extract_extra_requirements.py setup.cfg docs > requirements-doc.txt
+    - pip install -r requirements-doc.txt
+    # Sphinx autodoc needs to be able to import finesse and finesse_sphinx.
+    - pip install -f wheelhouse finesse
+  script:
+    - cd docs
+    - make latexpdf
+    - cd ..
+  artifacts:
+    when: always
+    paths:
+      - docs/build/latex/Finesse3.*
+
+################
+# Deploy stage #
+################
+
+# Publish the documentation only for changes to the develop branch, and only when all
+# tests pass.
+#
+# Useful reading:
+#   https://git.ligo.org/lscsoft/example-ci-project/wikis/automatically-produce-documentation
+#   https://wiki.ligo.org/viewauth/DASWG/GitLigoOrg#Accessing_GitLab_Pages
+pages:
+  stage: deploy
+  needs:
+    - job: docs/html
+  only:
+    refs:
+      - develop
+  script:
+    - mv docs/build/html public
+  artifacts:
+    paths:
+      - public
