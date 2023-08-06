@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+berkeceranPyPI.egg-info/PKG-INFO
+berkeceranPyPI.egg-info/SOURCES.txt
+berkeceranPyPI.egg-info/dependency_links.txt
+berkeceranPyPI.egg-info/requires.txt
+berkeceranPyPI.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
