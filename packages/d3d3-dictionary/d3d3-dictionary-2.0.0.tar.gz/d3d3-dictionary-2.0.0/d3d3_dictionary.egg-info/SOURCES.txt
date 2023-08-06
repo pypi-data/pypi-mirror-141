@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+d3d3_dictionary.egg-info/PKG-INFO
+d3d3_dictionary.egg-info/SOURCES.txt
+d3d3_dictionary.egg-info/dependency_links.txt
+d3d3_dictionary.egg-info/requires.txt
+d3d3_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
