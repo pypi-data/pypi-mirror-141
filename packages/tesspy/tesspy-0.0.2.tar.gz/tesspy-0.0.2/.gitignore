@@ -1,0 +1,16 @@
+tesspy/__pycache__
+tesspy/cache
+.gitTok
+tesspy.egg-info
+.idea
+venv
+tutorials/.ipynb_checkpoints
+tesspy/.ipynb_checkpoints
+/Examples/cache/
+/Examples/.ipynb_checkpoints/
+/tests/cache/
+/docs/readme_pics/.ipynb_checkpoints/
+/docs/readme_pics/cache/
+/docs/.ipynb_checkpoints/
+/dist/
+/build/
