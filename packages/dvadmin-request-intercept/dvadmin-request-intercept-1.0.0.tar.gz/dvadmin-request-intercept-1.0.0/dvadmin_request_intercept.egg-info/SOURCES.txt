@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dvadmin_request_intercept/__init__.py
+dvadmin_request_intercept/apps.py
+dvadmin_request_intercept/middleware.py
+dvadmin_request_intercept.egg-info/PKG-INFO
+dvadmin_request_intercept.egg-info/SOURCES.txt
+dvadmin_request_intercept.egg-info/dependency_links.txt
+dvadmin_request_intercept.egg-info/top_level.txt
