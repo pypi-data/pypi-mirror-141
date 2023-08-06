@@ -1,0 +1,5 @@
+setup.py
+SHU_pipytest/SHU_pipytest.egg-info/PKG-INFO
+SHU_pipytest/SHU_pipytest.egg-info/SOURCES.txt
+SHU_pipytest/SHU_pipytest.egg-info/dependency_links.txt
+SHU_pipytest/SHU_pipytest.egg-info/top_level.txt
