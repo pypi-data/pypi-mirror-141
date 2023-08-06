@@ -1,0 +1,10 @@
+granita/__init__.py,sha256=oxNqDe58chabr4ZH7M4RAD8lj2W-2j4RTRGksER8vMo,171
+granita/__main__.py,sha256=3QNOrSa15mq4xHD0Q0JPdpuYIWYTeeuzoYLwlW7VF0c,450
+granita/config.py,sha256=wHKltGSrJML5z0MhdnUesS0kjBCLMMVI0gYVXr5kqWQ,809
+granita/granita.config.json,sha256=IpzRl1tcO_07KccibJQLdE_NO6TB588DVMXHXlH7AUk,179
+granita/transform.py,sha256=GIW2X04FLTBvkNMAXddsPX_OLFUj0cAHCkbOtWyP4lE,1948
+granita-0.1.0.dist-info/entry_points.txt,sha256=Z55AqdxU4o0Ij-7LRrryAoYhC5rX3rqRvHbbUdV0d0I,48
+granita-0.1.0.dist-info/LICENSE,sha256=T8SqEwP7W3g2N5_nft_CPIHlQ3ISe24IM0neJ2KN6fI,1066
+granita-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+granita-0.1.0.dist-info/METADATA,sha256=m7zbxxb7KTQbaXHLhyxHe49Z2ACm9G_KmwXiCNOSzX0,459
+granita-0.1.0.dist-info/RECORD,,

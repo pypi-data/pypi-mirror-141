@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: granita
+Version: 0.1.0
+Summary: Granita is a simple static site generator for embedding Markdown in HTML templates.
+Author: apple-phi
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: markdown ~=3.3
+Requires-Dist: python-frontmatter ~=1.0
+Requires-Dist: pyquery ~=1.4
+Requires-Dist: typer ~=0.4
+Project-URL: Home, https://github.com/apple-phi/granita
+
+# granita
+
+A super simple static site generator.
+
+
