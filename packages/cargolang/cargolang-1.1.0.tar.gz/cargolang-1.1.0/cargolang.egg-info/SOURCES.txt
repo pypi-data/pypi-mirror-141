@@ -1,0 +1,11 @@
+setup.py
+cargo/__init__.py
+cargo/cargo.py
+cargolang.egg-info/PKG-INFO
+cargolang.egg-info/SOURCES.txt
+cargolang.egg-info/dependency_links.txt
+cargolang.egg-info/entry_points.txt
+cargolang.egg-info/requires.txt
+cargolang.egg-info/top_level.txt
+shell/__init__.py
+shell/shell.py
