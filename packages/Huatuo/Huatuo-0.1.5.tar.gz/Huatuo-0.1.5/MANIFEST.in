@@ -1,0 +1,9 @@
+include Huatuo/data/dict/check.txt
+include Huatuo/data/dict/deny.txt
+include Huatuo/data/dict/department.txt
+include Huatuo/data/dict/disease.txt
+include Huatuo/data/dict/drug.txt
+include Huatuo/data/dict/food.txt
+include Huatuo/data/dict/physical_examination.txt
+include Huatuo/data/dict/producer.txt
+include Huatuo/data/dict/symptom.txt

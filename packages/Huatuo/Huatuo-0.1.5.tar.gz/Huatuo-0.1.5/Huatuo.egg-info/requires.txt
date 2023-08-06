@@ -1,0 +1,6 @@
+tqdm==4.62.3
+numpy==1.21.5
+keras==2.3.1
+tensorflow==2.1.0
+bert4keras==0.10.9
+pyahocorasick==1.4.4
