@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mldrift/__init__.py
+src/mldrift/mldiff.py
+src/mldrift.egg-info/PKG-INFO
+src/mldrift.egg-info/SOURCES.txt
+src/mldrift.egg-info/dependency_links.txt
+src/mldrift.egg-info/top_level.txt
