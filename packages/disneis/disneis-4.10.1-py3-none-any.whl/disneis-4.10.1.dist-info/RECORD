@@ -1,0 +1,14 @@
+disneis/__init__.py,sha256=2ndPssMRL7EGqNhugZHQg44gbvH59c6UMg-3L4Gq4pw,68
+disneis/client.py,sha256=6VOBS9Sh6Ug5cc9rkYmQO61Q0qD1EMDOXMF0vM9OwPg,9901
+disneis/error.py,sha256=WrJo9TaJ3EfywP2UYBuHh81kpneWiMYhruQvZ1AtgnQ,2260
+disneis/http.py,sha256=uMrgPekMwP4Fxh2LUMsfKKS9JXV7Q89HJvg4a8pOrv4,4068
+disneis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disneis/sync.py,sha256=i7P2IFLgdj85bsi9Hkl3KyKeW19vh4JDiBPVevv13B0,7850
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=knlKDupZ--HtMjrWP5z9zpPcR8r40em_BlxLv5j-CuI,97
+test/test_requests.py,sha256=3fD14NcftajbwlrEFVSvWiYeboLUYD8aPjvFy3ppAcE,2080
+disneis-4.10.1.dist-info/LICENSE,sha256=r_zFSFStuu8SGxBjKXJfVzc1qJN4brEBW-L4j0ck2IQ,1067
+disneis-4.10.1.dist-info/METADATA,sha256=rWe2a8jGaqNtz-JdxVifjElh4QlPTJXkQOMe-QFlq54,8205
+disneis-4.10.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+disneis-4.10.1.dist-info/top_level.txt,sha256=C1bC0HXD0wPjM8gbenUfAps_dMKMyhSAzXvwFqU0Aak,13
+disneis-4.10.1.dist-info/RECORD,,
