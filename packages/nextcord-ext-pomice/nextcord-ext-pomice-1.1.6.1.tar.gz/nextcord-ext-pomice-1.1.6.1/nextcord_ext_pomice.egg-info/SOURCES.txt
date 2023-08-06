@@ -1,0 +1,6 @@
+README.md
+setup.py
+nextcord_ext_pomice.egg-info/PKG-INFO
+nextcord_ext_pomice.egg-info/SOURCES.txt
+nextcord_ext_pomice.egg-info/dependency_links.txt
+nextcord_ext_pomice.egg-info/top_level.txt
