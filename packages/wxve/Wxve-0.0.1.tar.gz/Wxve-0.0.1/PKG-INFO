@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Wxve
+Version: 0.0.1
+Summary: A stock data analysis module that combines analytical libraries into intuitive methods.
+Home-page: https://github.com/AG3NTZ3R0/wxve
+Author: Brandon J. Lacy
+Author-email: Z3R0@duck.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AG3NTZ3R0/wxve/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wxve
+
+A simple stock data analysis module that aggregates analytical packages into intuitive methods.
+
+
