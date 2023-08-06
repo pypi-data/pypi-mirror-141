@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pi_compute/__init__.py
+src/pi_compute/pi.py
+src/pi_compute.egg-info/PKG-INFO
+src/pi_compute.egg-info/SOURCES.txt
+src/pi_compute.egg-info/dependency_links.txt
+src/pi_compute.egg-info/top_level.txt
+src/pi_compute/include/pi.cpp
+src/pi_compute/lib/lib_pi.so
