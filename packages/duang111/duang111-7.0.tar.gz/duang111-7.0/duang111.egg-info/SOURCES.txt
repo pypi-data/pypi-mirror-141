@@ -1,0 +1,8 @@
+duang.py
+setup.py
+duang111/__init__.py
+duang111/rrr.py
+duang111.egg-info/PKG-INFO
+duang111.egg-info/SOURCES.txt
+duang111.egg-info/dependency_links.txt
+duang111.egg-info/top_level.txt
