@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ptandroid/__init__.py
+ptandroid/ptandroid.py
+ptandroid.egg-info/PKG-INFO
+ptandroid.egg-info/SOURCES.txt
+ptandroid.egg-info/dependency_links.txt
+ptandroid.egg-info/entry_points.txt
+ptandroid.egg-info/requires.txt
+ptandroid.egg-info/top_level.txt
+ptandroid/utils/__init__.py
+ptandroid/utils/apktool.jar
