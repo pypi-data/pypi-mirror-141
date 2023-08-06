@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpythonprojat2022/__init__.py
+libpythonprojat2022/github_api.py
+libpythonprojat2022.egg-info/PKG-INFO
+libpythonprojat2022.egg-info/SOURCES.txt
+libpythonprojat2022.egg-info/dependency_links.txt
+libpythonprojat2022.egg-info/not-zip-safe
+libpythonprojat2022.egg-info/requires.txt
+libpythonprojat2022.egg-info/top_level.txt
