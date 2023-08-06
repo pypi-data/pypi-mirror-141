@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: libpff-python-ratom
+Version: 20220304
+Summary: Python bindings module for libpff
+Home-page: https://github.com/libyal/libpff/
+Author: Joachim Metz
+Author-email: joachim.metz@gmail.com
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Platform: UNKNOWN
+License-File: COPYING
+License-File: COPYING.LESSER
+License-File: AUTHORS
+
+Built from https://github.com/libratom/libpff for the RATOM project
+
