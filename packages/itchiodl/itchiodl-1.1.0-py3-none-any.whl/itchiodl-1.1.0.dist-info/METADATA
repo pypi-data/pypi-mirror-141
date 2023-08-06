@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: itchiodl
+Version: 1.1.0
+Summary: Python Scripts for downloading / archiving your itchio library
+License: MIT
+Author: Peter Taylor
+Author-email: me@et1.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: clint (>=0.5.1,<0.6.0)
+Requires-Dist: requests
