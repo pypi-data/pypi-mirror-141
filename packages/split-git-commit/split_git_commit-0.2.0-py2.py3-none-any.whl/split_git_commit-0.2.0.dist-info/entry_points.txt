@@ -1,0 +1,3 @@
+[console_scripts]
+split-git-commit = split_git_commit:main
+
