@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+C:/Users/Алексей/PycharmProjects/Set_math/Set_math.py
+C:/Users/Алексей/PycharmProjects/Set_math/__init__.py
+C:/Users/Алексей/PycharmProjects/Set_math/main.py
+C:/Users/Алексей/PycharmProjects/Set_math/prob.py
+set_math.egg-info/PKG-INFO
+set_math.egg-info/SOURCES.txt
+set_math.egg-info/dependency_links.txt
+set_math.egg-info/not-zip-safe
+set_math.egg-info/top_level.txt
