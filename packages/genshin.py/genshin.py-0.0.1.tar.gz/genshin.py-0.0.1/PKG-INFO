@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: genshin.py
+Version: 0.0.1
+Summary: Genshin api wrapper for python
+Home-page: http://github.com/Ehnryu/genshin.py
+Author: Ehnryu/Sakurai07
+Author-email: blzzardst0rm@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: genshin,api,wrapper
+Platform: UNKNOWN

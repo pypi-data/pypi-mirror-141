@@ -1,0 +1,7 @@
+README.md
+setup.py
+genshin/__init__.py
+genshin.py.egg-info/PKG-INFO
+genshin.py.egg-info/SOURCES.txt
+genshin.py.egg-info/dependency_links.txt
+genshin.py.egg-info/top_level.txt
