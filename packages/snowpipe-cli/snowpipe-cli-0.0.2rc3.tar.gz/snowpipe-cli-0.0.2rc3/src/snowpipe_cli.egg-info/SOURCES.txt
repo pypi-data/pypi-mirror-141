@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/snowpipe_cli/__init__.py
+src/snowpipe_cli/__main__.py
+src/snowpipe_cli/snowpipe.py
+src/snowpipe_cli.egg-info/PKG-INFO
+src/snowpipe_cli.egg-info/SOURCES.txt
+src/snowpipe_cli.egg-info/dependency_links.txt
+src/snowpipe_cli.egg-info/entry_points.txt
+src/snowpipe_cli.egg-info/requires.txt
+src/snowpipe_cli.egg-info/top_level.txt
