@@ -1,0 +1,11 @@
+teamleaderApiV1/__init__.py,sha256=zClrs7mjpUYtmKXvHYNCOqwfLY6WKYG47Evx0Dx4m9k,46
+teamleaderApiV1/client.py,sha256=NknzAqhe_zEjeA8WjnvO6etD3jYjNa7_9O8MN-rs0p8,3296
+teamleaderApiV1/files.py,sha256=318eaesKsIR8RJKBvcFihD66StwVxFgXRAn71lDZVCM,793
+teamleaderApiV1/methods.py,sha256=kkqok3T0aB3oXad-kNmf-GHKydq3OoZ6-85lHS4OiGU,1455
+teamleaderApiV1/objects.py,sha256=_a-kKEcGvGVj9jYBuqghgIDGjyzLE2Utks6qipy_L5k,5185
+teamleaderApiV1/privateLists.py,sha256=0qbJ236bDJdIAlom-vQPfuNK7KWQ9F-Fmwf6iqmHSAU,1815
+teamleaderApiV1-0.4.2.dist-info/LICENSE.txt,sha256=k1AyhJyjsfH-xIoXde1XKWLMOP8Lqg0mc3xVRh2Gh5w,1056
+teamleaderApiV1-0.4.2.dist-info/METADATA,sha256=PLAGLad8HtL-X8j7iFCVbRQSBph2NfYtjD-Qw5Rz6VM,754
+teamleaderApiV1-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+teamleaderApiV1-0.4.2.dist-info/top_level.txt,sha256=Rqoz6cqsGjBX5v_nt6uVEj1kdTi_ElfgXnDDdrY0R00,16
+teamleaderApiV1-0.4.2.dist-info/RECORD,,
