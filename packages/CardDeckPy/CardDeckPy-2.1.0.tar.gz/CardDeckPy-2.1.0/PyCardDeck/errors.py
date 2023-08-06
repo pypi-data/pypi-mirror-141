@@ -1,0 +1,2 @@
+class DrawFromEmptyHand(Exception):
+    pass
