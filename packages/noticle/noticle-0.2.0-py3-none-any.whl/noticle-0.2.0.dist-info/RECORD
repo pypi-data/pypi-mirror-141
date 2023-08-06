@@ -1,0 +1,11 @@
+src/__init__.py,sha256=3CqYgAhZ3wEYV2lToIouw0Dxsn91pMvWpLxaZeVWHoo,506
+src/client.py,sha256=20LSDK4_wOW5zYDKmA9NrxVXbdrPnsww6K1Z8sUbAeg,2388
+src/logger.py,sha256=_F9ydHcm4DMolPUxWCqAsnxvJYY3Gxf-aCA8wde_QoY,279
+src/notion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/notion/endpoints/__init__.py,sha256=iEuzG7DERrfHYD-jT4JAXY_x9BQDM1AGFeCy7MDUMDQ,811
+src/notion/endpoints/databases.py,sha256=hHFvNcXvYE3a-u4PEaK4f2qRBcl1qF9tqbkXMsxjJuI,3253
+src/notion/service.py,sha256=L7GsSKu1n27d_K94LlLi1-pqpWYZo6cr-Poge1Zsji4,770
+src/types.py,sha256=MMIKP1_jtbBl8bF8qZtvafAkuyTlpsTiJLyH-PFGHJg,115
+noticle-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+noticle-0.2.0.dist-info/METADATA,sha256=8WqF30xDZnB4tucSJVsPISH7JqA-mmbTm2HqMOWnaes,516
+noticle-0.2.0.dist-info/RECORD,,
