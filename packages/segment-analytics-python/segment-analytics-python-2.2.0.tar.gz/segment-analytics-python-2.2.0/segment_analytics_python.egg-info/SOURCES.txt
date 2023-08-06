@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+analytics/test/client.py
+segment/analytics/__init__.py
+segment/analytics/client.py
+segment/analytics/consumer.py
+segment/analytics/request.py
+segment/analytics/utils.py
+segment/analytics/version.py
+segment_analytics_python.egg-info/PKG-INFO
+segment_analytics_python.egg-info/SOURCES.txt
+segment_analytics_python.egg-info/dependency_links.txt
+segment_analytics_python.egg-info/requires.txt
+segment_analytics_python.egg-info/top_level.txt
