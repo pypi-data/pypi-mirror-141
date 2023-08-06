@@ -1,0 +1,5 @@
+numpy
+tabulate
+
+[test]
+pytest
