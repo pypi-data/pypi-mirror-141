@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+transport_dependency/__init__.py
+transport_dependency/independence_test.py
+transport_dependency/other_coeffs.py
+transport_dependency/td_functions.py
+transport_dependency.egg-info/PKG-INFO
+transport_dependency.egg-info/SOURCES.txt
+transport_dependency.egg-info/dependency_links.txt
+transport_dependency.egg-info/not-zip-safe
+transport_dependency.egg-info/requires.txt
+transport_dependency.egg-info/top_level.txt
