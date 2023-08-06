@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: CardDeckPy
+Version: 1.0.1
+Summary: A library for working with cards, decks, and hands in python
+Home-page: https://replit.com/@IsraelW/Card-Deck-Python
+Author: Israel Waldner
+Author-email: imky171@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyCardDeck
+
+PyCardDeck is a python library for working with card decks, cards and hands in python.
+
+## Create Cards
+
+```python
+from PyCardDeck import Card
+
+ace_spades = Card(14, 'Ace', 'Spades')
+print(ace_spades)
+print(ace_spades.val)
+print(ace_spades.name)
+print(ace_spades.suit)
+# Output: Ace of Spades
+# 14
+# Ace
+# Spades
+```
+
+## Create a Deck
+
+```python
+from PyCardDeck import Deck
+
+deck = Deck([]) # the deck is currently empty
+print(deck) # output []
+```
+
+## Create a `Deck` with Cards
+
+```python
+from PyCardDeck import Deck, Card
+
+ace_spades = Card(14, 'Ace', 'Spades')
+king_spades = Card(13, 'King', 'Spades')
+deck = Deck([ace_spades, king_spades])
+# Output: [{'value': 13, 'name': 'King', 'suit': 'Spades'}, {'value': 14, 'name': 'Ace', 'suit': 'Spades'}]
+```
+
