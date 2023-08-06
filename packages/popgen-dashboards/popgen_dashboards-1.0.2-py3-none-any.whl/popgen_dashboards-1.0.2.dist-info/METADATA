@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: popgen-dashboards
+Version: 1.0.2
+Summary: Short description
+Home-page: https://github.com/kaspermunch/popgen_dashboards
+Author: Kasper Munch
+Author-email: kaspermunch@birc.au.dk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.1)
+Requires-Dist: dash
+Requires-Dist: dash-core-components
+Requires-Dist: dash-html-components
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: matplotlib (>=3.0)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaspermunch/popgen-dashboards/HEAD)
+
+# Popgen Dashboards
+
+
