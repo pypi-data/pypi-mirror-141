@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gatered
+Version: 0.1.4
+Summary: Reddit Gateway API Library
+Home-page: https://github.com/CounterTek/gatered
+License: Apache
+Keywords: reddit,reddit api
+Author: Darwin
+Author-email: darekaze@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiometer (>=0.3.0,<0.4.0)
+Requires-Dist: httpx[http2] (>=0.22.0,<0.23.0)
+Requires-Dist: python-dotenv (>=0.19.2,<0.20.0)
+Project-URL: Repository, https://github.com/CounterTek/gatered
+Description-Content-Type: text/markdown
+
+# GateRed -- Reddit Gateway API Library
+
+[![CI](https://github.com/countertek/gatered/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/countertek/gatered/actions/workflows/ci.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## Todos
+
+- [x] Reddit Gateway API and functions (fetch posts and comments)
+- [x] Add support to fetch past submissions list using pushshift
+- [x] Add GitHub Action CI check and publish flow
+- [x] Publish on PyPI w/ portry
+- [ ] Refine documentation in README and add examples
+- [ ] Prepare test cases
+
+
