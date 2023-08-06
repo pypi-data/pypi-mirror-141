@@ -1,0 +1,10 @@
+ptandroid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptandroid/ptandroid.py,sha256=GVZoo7Ow5tHjaCkJVDgI7bLk-41SmOe0z-zJHdmhIsQ,20173
+ptandroid/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptandroid/utils/apktool.jar,sha256=s5LXy5m1kunFrMPAbxsPGA7d6WxmuGs9aTK3wMQHn-Q,19300357
+ptandroid-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ptandroid-0.0.3.dist-info/METADATA,sha256=z0lPJ4F-kKjYSVlma8KDEMjE83U_eLLbNQwxurw6jkM,3598
+ptandroid-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ptandroid-0.0.3.dist-info/entry_points.txt,sha256=5RMEyDnaPZkSMzcUB_nInj4df6YMgMy-w8bJS083B9o,56
+ptandroid-0.0.3.dist-info/top_level.txt,sha256=-OgjJo0PJhrtgj6YxdkmUv51UsIYS7jeJKew4iMEimw,10
+ptandroid-0.0.3.dist-info/RECORD,,
