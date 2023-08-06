@@ -1,0 +1,5 @@
+setup.py
+src/plantfem.egg-info/PKG-INFO
+src/plantfem.egg-info/SOURCES.txt
+src/plantfem.egg-info/dependency_links.txt
+src/plantfem.egg-info/top_level.txt
