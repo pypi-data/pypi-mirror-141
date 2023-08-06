@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bin/wifi-connect
+wifi_connect.egg-info/PKG-INFO
+wifi_connect.egg-info/SOURCES.txt
+wifi_connect.egg-info/dependency_links.txt
+wifi_connect.egg-info/top_level.txt
