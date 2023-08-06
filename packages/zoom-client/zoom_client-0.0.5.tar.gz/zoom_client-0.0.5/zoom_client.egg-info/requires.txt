@@ -1,0 +1,7 @@
+bandit
+black
+PyJWT
+pylint
+pytest
+ratelimit
+requests
