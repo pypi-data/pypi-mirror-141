@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyEZFinger
+Version: 1.2
+Summary: EZ finger recognizing
+Home-page: UNKNOWN
+Author: seonwoo0808
+Author-email: seonwoo0808@naver.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# Need To Read
+
+you need to download model file!!!
+https://github.com/seonwoo0808/PyEZFinger/raw/main/finger_model.h5
+
+
