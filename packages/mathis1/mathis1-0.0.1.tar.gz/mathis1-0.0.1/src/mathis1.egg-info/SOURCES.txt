@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/mathis.py
+src/mathis1.egg-info/PKG-INFO
+src/mathis1.egg-info/SOURCES.txt
+src/mathis1.egg-info/dependency_links.txt
+src/mathis1.egg-info/top_level.txt
