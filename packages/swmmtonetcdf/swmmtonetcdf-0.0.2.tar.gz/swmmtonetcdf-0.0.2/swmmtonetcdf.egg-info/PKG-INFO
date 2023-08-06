@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: swmmtonetcdf
+Version: 0.0.2
+Summary: A tool to write SWMM output to netcdf
+Home-page: https://github.com/cbuahin/swmmtonetcdf
+Author: Caleb Buahin, Jennifer Wu
+Author-email: caleb.buahin@gmail.com
+License: GNU GPLv3
+Keywords: swmm5,swmm,hydraulics,hydrology,modeling,collection system
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# swmmtonetcdf
+
+A python package for converting swmm output to netcdf.
+
+## Project Information
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+[![Build Test](https://github.com/cbuahin/swmmtonetcdf/actions/workflows/commit.yml/badge.svg)](https://github.com/cbuahin/swmmtonetcdf/actions)
+
+[![Build Test and Deploy](https://github.com/cbuahin/swmmtonetcdf/actions/workflows/deploy.yml/badge.svg)](https://github.com/cbuahin/swmmtonetcdf/actions)
+
+## PyPi Deployment Instructions
+
+1. Install required packages for deployment to pypi
+`pip install --upgrade build`
+`pip install twine`
+
+2. Build codebase and upload to pypi 
+`python -m build`
+`python -m twine upload swmmtonetcdf dist/*`
+
