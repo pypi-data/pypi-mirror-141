@@ -1,0 +1,14 @@
+login_gui/__init__.py,sha256=X2GxNx8p287qZlPZ2WDKlKnZSErxQwuFztiT_lBBrgU,3069
+login_gui/frame.py,sha256=DhP7jY5iQvTYgiXt5zn_shiKQiW476CWG9hMcCJlgbA,2548
+login_gui/loader.py,sha256=qtDiznGEIY2_jWB97V3aP6J6PxQOLpN3GYqtM-SBjiE,2730
+login_gui/user.py,sha256=Os4YcguHF351ZADX_NWPyWmmWLS95JygtmGiG74Fq0A,2015
+login_gui/version.py,sha256=ziP1PNjVuQQOgvZj7UkjDUGfPcd7wOMiqDqCoKpTHZQ,276
+tests/__init__.py,sha256=1VRCYQ3oV46IFmLSBBNiV6OZQUBR0afl8RTd5MQsSRo,513
+tests/runner.py,sha256=jl44vDoDCN-iKA-hj97_yV-RXFfOhbwBI3KMLNSoyaY,756
+tests/test_gui.py,sha256=8pd1FddrmRpII3MJ28ncpBngbOrpPAlxtqMuZl6mLzo,2318
+tests/test_user.py,sha256=9rTKf5BrRIlGmmdb851ZinBu1T1Xqc9-E40zDTzjgrw,1893
+login_gui-2.0.0.dist-info/LICENSE,sha256=oBKd3pIYOvkHKXHcqYJZYM_z8IBkCaVOuOn9Z4JpZCk,1068
+login_gui-2.0.0.dist-info/METADATA,sha256=Pyu0cvJcvVUr2wRfcPXwhmV5GkDCOlPCBZYHFoZTTJk,2599
+login_gui-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+login_gui-2.0.0.dist-info/top_level.txt,sha256=EF2RzpbvHhrYJ8wDRAFy2-reV5MFsu_B9G7prqB6WkU,16
+login_gui-2.0.0.dist-info/RECORD,,
