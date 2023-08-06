@@ -1,0 +1,11 @@
+convertio/__init__.py,sha256=9Ubys-7p0N-PP5Mq8B5tXqBYW4XIOVstHFjkBR5xdg4,23
+convertio/__version__.py,sha256=ccxps2oU5nirbQD3l9za5Bpi5aQHlMJ6aciwwkRo3uQ,292
+convertio/client.py,sha256=f8ts6QxfTSR3EX9Ld7R0JmbAubCzzVWRlVzD3H6WUJ0,8300
+convertio/conversion.py,sha256=TBslSOPhO84jy-FUqpVPdmw0LLK5ztB7cHksGWfeUxM,853
+convertio/options.py,sha256=twtUJBceDiuXthrnveo6oHR7UXLQR1O0-S1O3qQdRSI,2803
+convertio/types.py,sha256=8M-GX2st3f2rkpcyaZJ-SN3BAI_930E76ENOwLkUMNw,1117
+convertio-1.1.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+convertio-1.1.2.dist-info/METADATA,sha256=kxOK8VChs2iCclczd4IaoB5AIwWcrLFvFGsqxkWcEyQ,2638
+convertio-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+convertio-1.1.2.dist-info/top_level.txt,sha256=C-hLNe7CTRsU7no_b0zRJnsvV5HcSjUnPPRuIkME_1Q,10
+convertio-1.1.2.dist-info/RECORD,,
