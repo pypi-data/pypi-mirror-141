@@ -1,0 +1,12 @@
+my_build/__init__.py,sha256=1KqWcXDYvlbb9adG3Or-57hGTQOM3Muvv5Q7L2_38CM,51
+my_build/hello.py,sha256=JmaB7NlCsCYAGi2BBY9RsjaSUqTGyYBTxd_BDPFHA84,162
+my_build/core/CoreClass.cpython-38-darwin.so,sha256=tt5QBUlpLk-J1W8QywruzhXLYLD55KNiFWSMenawjvY,47896
+my_build/core/CoreFunction.cpython-38-darwin.so,sha256=EATSGeLOlVbySm8F56OoR98VKih-Jl2jiIWCe2on4vw,16824
+my_build/core/__init__.py,sha256=-GvO8CrHh7XZvVMxu-_un_HfspAdTHh5JuQUSBG0p_0,353
+my_build/data/a.txt,sha256=B5eUij-QhSWCgYko7KqQrKfKE_GVkfmsqqTfNCaLWBo,8
+my_build/data/a2.txt,sha256=B5eUij-QhSWCgYko7KqQrKfKE_GVkfmsqqTfNCaLWBo,8
+my_build/sub/hello2.py,sha256=t3cM15olG4t0TKQ7qw6jYwka8UMe_BGNJc7q30550RU,221
+my_build-0.0.2.dist-info/METADATA,sha256=xUYNWe9XmsnQ1jKo3xgmzWOD315ooxXKD2OOSH3-e7A,157
+my_build-0.0.2.dist-info/WHEEL,sha256=ffyMch4mpikNEgQnSO9KuZDwpDUZYYRvETsDK3Qu-_A,109
+my_build-0.0.2.dist-info/top_level.txt,sha256=oAlNo8pTWAa_-riWIdvVcXjcbb7upvRcljfs7zouAm0,9
+my_build-0.0.2.dist-info/RECORD,,
