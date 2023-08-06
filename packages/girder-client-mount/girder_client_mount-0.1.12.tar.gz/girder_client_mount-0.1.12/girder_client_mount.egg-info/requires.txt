@@ -1,0 +1,8 @@
+cachetools
+fusepy
+girder-client
+httpio
+python-dateutil
+
+[diskcache]
+diskcache
