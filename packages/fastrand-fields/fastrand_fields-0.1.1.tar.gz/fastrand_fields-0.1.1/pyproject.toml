@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "fastrand_fields"
+version = "0.1.1"
+description = "Package to randomly generate fields such as funny usernames. Suitable for fast microservices."
+authors = ["sam <contact@justsam.io>"]
+license = "GNUv3"
+homepage = "https://github.com/jsam/fastrand_fields"
+repository = "https://github.com/jsam/fastrand_fields"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-isort = "^3.0.0"
+pytest-black = "^0.3.12"
+black = "^22.1.0"
+isort = "^5.10.1"
+pytest-cov = "^3.0.0"
+pytest-flake8 = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py38"]
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | docs/conf.py
+)
+'''
+
+[tool.pydocstyle]
+add_ignore = ["D105", "D107", "D202", "D401"]
+
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 120
+
+
+[tool.pytest.ini_options]
+env_files = [".env"]
+addopts = "--flake8 --cov --cov-report=html:reports/html_dir --cov-report=term-missing --disable-warnings --isort --black -vvv"
+doctest_optionflags = "ALLOW_UNICODE"
+flake8-ignore = ["*.py", "E121", "E126", "E203", "E226", "E231", "W503", "W504", "docs/conf.py", "ALL"]
+flake8-max-line-length = 120
+testpaths = ["conftest.py", "fastrand_fields", "tests"]
+isort_ignore = ""
+markers = [
+    "unit: mark a test as a unit.",
+    "bench: mark a test as a benchmark.",
+]
