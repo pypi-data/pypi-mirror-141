@@ -1,0 +1,11 @@
+setup.py
+compare_package_ex3/__init__.py
+compare_package_ex3/equal.py
+compare_package_ex3/greater.py
+compare_package_ex3/lower.py
+compare_package_ex3/notEqual.py
+compare_package_ex3.egg-info/PKG-INFO
+compare_package_ex3.egg-info/SOURCES.txt
+compare_package_ex3.egg-info/dependency_links.txt
+compare_package_ex3.egg-info/requires.txt
+compare_package_ex3.egg-info/top_level.txt
