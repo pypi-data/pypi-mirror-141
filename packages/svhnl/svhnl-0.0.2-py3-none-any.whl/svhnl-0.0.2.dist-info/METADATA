@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: svhnl
+Version: 0.0.2
+Summary: SVHN dataset preprocessing and annotation file reading and converting python library
+Home-page: https://github.com/nipdep/svhnL.git
+Author: nipdep
+Author-email: nipun1deelaka@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nipdep/svhnL/issues
+Project-URL: Source, https://github.com/nipdep/svhnL/
+Keywords: sample,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: unittest ; extra == 'test'
+
+# svhnL
+SVHN dataset preprocessing and annotation file reading and converting python library
+
+
