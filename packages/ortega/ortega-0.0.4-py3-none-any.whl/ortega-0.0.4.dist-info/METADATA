@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ortega
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: 
+Author: 
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: shapely
+Requires-Dist: attrs
+Requires-Dist: matplotlib
+Requires-Dist: statistics
+
+UNKNOWN
+
