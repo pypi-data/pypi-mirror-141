@@ -1,0 +1,10 @@
+insipid-sphinx-theme
+nbsphinx
+ipykernel
+NumPy
+SymPy>=1.9
+SciPy
+matplotlib>=2.1
+sphinxcontrib-bibtex>=2.1
+sphinx-last-updated-by-git
+sphinx-codeautolink
