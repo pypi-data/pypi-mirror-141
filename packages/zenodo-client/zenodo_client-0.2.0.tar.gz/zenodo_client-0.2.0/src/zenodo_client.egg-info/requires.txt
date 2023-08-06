@@ -1,0 +1,11 @@
+dataclasses_json
+pystow>=0.1.0
+requests
+click
+more_click
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
