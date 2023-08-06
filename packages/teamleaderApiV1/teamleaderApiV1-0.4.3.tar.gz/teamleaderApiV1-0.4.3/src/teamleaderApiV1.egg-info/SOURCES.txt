@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/teamleaderApiV1/__init__.py
+src/teamleaderApiV1/client.py
+src/teamleaderApiV1/files.py
+src/teamleaderApiV1/methods.py
+src/teamleaderApiV1/objects.py
+src/teamleaderApiV1/privateLists.py
+src/teamleaderApiV1.egg-info/PKG-INFO
+src/teamleaderApiV1.egg-info/SOURCES.txt
+src/teamleaderApiV1.egg-info/dependency_links.txt
+src/teamleaderApiV1.egg-info/requires.txt
+src/teamleaderApiV1.egg-info/top_level.txt
