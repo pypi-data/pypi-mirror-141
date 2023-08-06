@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: guvicorn-logger
+Version: 0.1.1
+Summary: 
+Author: carlos.rian
+Author-email: crian.rian@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: gunicorn (>=20.1.0,<21.0.0)
+Requires-Dist: uvicorn (>=0.17.5,<0.18.0)
