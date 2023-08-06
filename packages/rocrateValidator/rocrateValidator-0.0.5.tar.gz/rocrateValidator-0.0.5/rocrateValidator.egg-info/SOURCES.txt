@@ -1,0 +1,12 @@
+setup.py
+rocrateValidator.egg-info/PKG-INFO
+rocrateValidator.egg-info/SOURCES.txt
+rocrateValidator.egg-info/dependency_links.txt
+rocrateValidator.egg-info/not-zip-safe
+rocrateValidator.egg-info/top_level.txt
+validator/__init__.py
+validator/semanticCheck.py
+validator/setup.py
+validator/syntaxCheck.py
+validator/utils.py
+validator/validate.py
