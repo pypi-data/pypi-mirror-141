@@ -1,0 +1,9 @@
+anndata>=0.7.8
+cython>=0.29.24
+episcanpy>=0.3.2
+nb-black>=1.0.7
+pyranges>=0.0.113
+licorice>=0.0.2
+pydk>=0.0.4
+vinplots>=0.0.43
+tqdm>=4.62.3
