@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: signal-backtester
+Version: 1.0.0
+Summary: tiny library for fast backtest on generated signals
+Home-page: https://github.com/xibalbas/signal_backtester
+Author: Ali moradi
+Author-email: ali.mrd318@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/xibalbas/signal_backtester/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+![Alt text](logo.png)
+![GitHub top language](https://img.shields.io/github/languages/top/xibalbas/signal_backtester)
+![GitHub repo size](https://img.shields.io/github/repo-size/xibalbas/signal_backtester)
+
+
+# Signal Backtester
+ a small repo Based on  [Backtesting](https://pypi.org/project/Backtesting/) Lib. only backtest input signals .
+ easiest way to backtest your generated signal
+
+## Quick Start
+### clone the project
+```bash
+git clone https://github.com/xibalbas/signal_backtester.git
+```
+
+### install packages
+```bash
+pip install -r requirements.txt
+```
+
+
+
+
