@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SDF/SDF.py
+src/SDF/__init__.py
+src/Simplify_downloading_files_TG.egg-info/PKG-INFO
+src/Simplify_downloading_files_TG.egg-info/SOURCES.txt
+src/Simplify_downloading_files_TG.egg-info/dependency_links.txt
+src/Simplify_downloading_files_TG.egg-info/requires.txt
+src/Simplify_downloading_files_TG.egg-info/top_level.txt
