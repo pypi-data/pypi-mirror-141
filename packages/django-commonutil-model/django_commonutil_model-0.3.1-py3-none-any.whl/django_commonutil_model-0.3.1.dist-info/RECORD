@@ -1,0 +1,8 @@
+django_commonutil_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_commonutil_model/contentaccess.py,sha256=Nik6i73oT7v2TTqLXIUnRUtcKaZh0Xud6EmOg-qOdvE,1287
+django_commonutil_model/keytextoptions.py,sha256=WAV3-tYpBQCLY9dDi8y09_gGoAPSwRsZ60ntgJhiNPM,2005
+django_commonutil_model/modelfield.py,sha256=Cm5PhC5Wl3O2UmfHnba0QeiFBGdnnVARfB7ZR5zzAnk,894
+django_commonutil_model-0.3.1.dist-info/METADATA,sha256=bYZHDrZ_JwFuA4S165oXEcryyfFsK1aYnF5HjtMYd4M,416
+django_commonutil_model-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_commonutil_model-0.3.1.dist-info/top_level.txt,sha256=3OJxiQFx3QCEVH5yiae0xawyYZsbTV5XTvNQEwq_fyI,24
+django_commonutil_model-0.3.1.dist-info/RECORD,,
