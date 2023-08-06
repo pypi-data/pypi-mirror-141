@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nepali-to-roman
+Version: 0.0.9
+Summary: Converts Nepali Names & Addresses to Romanized English Literals 
+Home-page: https://github.com/Diwas524
+Author: Diwas Pandey & Ishparsh Uprety
+Author-email: uprety.ishparsh@gmail.com
+License: UNKNOWN
+Keywords: Nepali Transliteration,devanagari to English,devanagari,Diwas Pandey,Ishparsh Uprety
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+dkjg
+
+
