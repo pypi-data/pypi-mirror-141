@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./scratchcloudclient/CloudConnection.py
+./scratchcloudclient/CloudUtils.py
+./scratchcloudclient/ScratchSession.py
+./scratchcloudclient/__init__.py
+scratchcloudclient.egg-info/PKG-INFO
+scratchcloudclient.egg-info/SOURCES.txt
+scratchcloudclient.egg-info/dependency_links.txt
+scratchcloudclient.egg-info/top_level.txt
