@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mapyl.egg-info/PKG-INFO
+mapyl.egg-info/SOURCES.txt
+mapyl.egg-info/dependency_links.txt
+mapyl.egg-info/top_level.txt
