@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+issues.txt
+pyproject.toml
+setup.py
+MagicTerminal/__init__.py
+MagicTerminal/magic.py
+MagicTerminal/magic_terminal.egg-info/PKG-INFO
+MagicTerminal/magic_terminal.egg-info/SOURCES.txt
+MagicTerminal/magic_terminal.egg-info/dependency_links.txt
+MagicTerminal/magic_terminal.egg-info/top_level.txt
