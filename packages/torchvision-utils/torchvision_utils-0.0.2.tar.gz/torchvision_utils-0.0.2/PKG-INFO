@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torchvision_utils
+Version: 0.0.2
+Summary: some function for pytorch
+Home-page: https://github.com/pejmanS21/torchvision_utils
+Author: pejmans21
+Author-email: pezhmansamadi21@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pejmanS21/torchvision_utils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# torchvision_utils
+Some useful functions for pytorch
+
+
