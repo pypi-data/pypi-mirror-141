@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oleup-msg-server
+Version: 0.0.1
+Summary: message_server
+Home-page: UNKNOWN
+Author: Ole_Up
+Author-email: oleup@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
