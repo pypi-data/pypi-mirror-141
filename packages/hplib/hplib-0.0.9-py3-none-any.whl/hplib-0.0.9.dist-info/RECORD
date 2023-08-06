@@ -1,0 +1,9 @@
+hplib/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hplib/hplib.py,sha256=ySU0J1bV3fyjNyXRyhryJCjg-TicuPZ2sw75xbzGUSE,32453
+hplib/hplib_database.csv,sha256=L5svgXeNSb0jwUA3FH5XTw2Qou7b8UW3JGyhmMXyQkQ,233501
+hplib/hplib_database.py,sha256=eIs830hiemyl5Q6FDWOPwarWmcqe9OlO1QCO6xZR3Qs,96206
+hplib-0.0.9.dist-info/LICENSE,sha256=xn9iHUQcjOXL-VSTBxE0XnHW0TmIA4KvZHIQ1-FdD1M,1121
+hplib-0.0.9.dist-info/METADATA,sha256=WtIq1DIqgv09TRzAQrdWzwcDH5SB_gwEGMUpIcNwCJ4,5485
+hplib-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hplib-0.0.9.dist-info/top_level.txt,sha256=yoX0TLHa9StanktPKAFs5oHvQNGlpiXN81qRc-naieo,6
+hplib-0.0.9.dist-info/RECORD,,
