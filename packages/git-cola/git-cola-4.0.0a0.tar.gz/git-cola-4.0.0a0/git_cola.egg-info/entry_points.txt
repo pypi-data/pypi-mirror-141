@@ -1,0 +1,12 @@
+[console_scripts]
+cola = cola.main:main
+git-cola = cola.main:main
+git-cola-sequence-editor = cola.sequenceeditor:main
+git-dag = cola.dag:main
+
+[distutils.commands]
+build = extras.build:build
+build_mo = extras.build_mo:build_mo
+build_pot = extras.build_pot:build_pot
+install = extras.install:install
+
