@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: genpipe
+Version: 0.1.0
+Summary: Pipe operator for iterables and generators.
+Author: Noah Pederson
+Author-email: noah@packetlost.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
