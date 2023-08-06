@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+trame_launcher_nomad/__init__.py
+trame_launcher_nomad.egg-info/PKG-INFO
+trame_launcher_nomad.egg-info/SOURCES.txt
+trame_launcher_nomad.egg-info/dependency_links.txt
+trame_launcher_nomad.egg-info/entry_points.txt
+trame_launcher_nomad.egg-info/requires.txt
+trame_launcher_nomad.egg-info/top_level.txt
+trame_launcher_nomad/server/__init__.py
+trame_launcher_nomad/server/main.py
+trame_launcher_nomad/www/__init__.py
+trame_launcher_nomad/www/index.html
+trame_launcher_nomad/www/__pycache__/__init__.cpython-39.pyc

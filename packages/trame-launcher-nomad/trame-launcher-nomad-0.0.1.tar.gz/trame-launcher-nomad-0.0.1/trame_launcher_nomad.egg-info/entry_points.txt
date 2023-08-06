@@ -1,0 +1,3 @@
+[console_scripts]
+trame-launcher-nomad = trame_launcher_nomad:main
+
