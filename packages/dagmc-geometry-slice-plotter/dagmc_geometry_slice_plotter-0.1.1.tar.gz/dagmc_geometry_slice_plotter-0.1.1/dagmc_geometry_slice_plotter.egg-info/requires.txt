@@ -1,0 +1,11 @@
+matplotlib>=3.4.2
+trimesh
+shapely
+scipy
+meshio
+h5py
+setuptools_scm
+
+[tests]
+pytest>=5.4.3
+pytest-cov>=2.12.1
