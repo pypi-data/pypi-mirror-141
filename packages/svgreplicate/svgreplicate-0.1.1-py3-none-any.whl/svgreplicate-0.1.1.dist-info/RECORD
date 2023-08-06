@@ -1,0 +1,7 @@
+svgreplicate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svgreplicate/__main__.py,sha256=NPLToLZerVelrDovOcknFrlffqV-b56K8s5-nmhmOTA,1084
+svgreplicate/svghandler.py,sha256=Zg5mQF6535QLEVp1nlWIeHtfSZ0nrgaitRAKi-rxDz0,3164
+svgreplicate-0.1.1.dist-info/entry_points.txt,sha256=thRz5dOTJiG-xQDkwpg638LkaDrHDGJFK8yn5yw8LpU,59
+svgreplicate-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+svgreplicate-0.1.1.dist-info/METADATA,sha256=R1Q3Dix4ICaTiwRLXFkvx4780M4X3pKlR7QX0dx-gCM,2310
+svgreplicate-0.1.1.dist-info/RECORD,,
