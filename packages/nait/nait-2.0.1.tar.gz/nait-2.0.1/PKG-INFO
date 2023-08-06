@@ -1,0 +1,221 @@
+Metadata-Version: 2.1
+Name: nait
+Version: 2.0.1
+Summary: Easy neural networks
+Home-page: UNKNOWN
+Author: DanishDeveloper
+License: MIT
+Keywords: nait
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+---
+
+
+
+# Nait
+
+
+
+---
+
+
+
+**Neural network module**
+
+**Made to be easy and fast**
+
+
+
+## Network - *class*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`Network()`**
+
+
+
+## train - *method*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`train(x, y, layer_size=4, layers=1, activation_function="linear", generate_network=True, learning_rate=0.01, optimizer="randomize", sample_size=10, epochs=100, exit_increase=0.1, backup=None)`**
+
+
+
+### Arguments
+
+
+
+- x `list` --- training inputs
+
+- y `list` --- training outputs
+
+- layer_size `integer` --- number of neurons in hidden layers
+
+- layers `integer` --- if the time when logged should be displayed in the message
+
+- activation_function `string` --- function applied to the output of each layer (linear / relu / step / sigmoid / leaky_relu)
+
+- generate_network `boolean` --- if the program should generate a new network or try to train the existing one
+
+- learning_rate `float` --- how fast the network learns (faster learning may result in lower precision)
+
+- optimizer `string` --- which optimizer to use (randomize / backpropagate) - 'backpropagate' optimizer is highly unstable and needs normalized inputs
+
+- sample_size `int` --- how many network samples in each batch - only for 'randomize' optimizer
+
+- epochs `integer` --- number of epochs the network should train for
+
+- exit_increase `float` --- exits if the loss gets _ over the lowest loss - only for 'backpropagate' optimizer
+
+- backup `string` --- file to backup network while training (if left blank or set to None the network will not backup)
+
+
+
+## predict - *method*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`predict(input)`**
+
+
+
+### Arguments
+
+
+
+- input `list` --- input
+
+
+
+## save - *method*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`save(file)`**
+
+
+
+### Arguments
+
+
+
+- file `string` --- file to save network to
+
+
+
+## load - *method*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`load(file)`**
+
+
+
+### Arguments
+
+
+
+- file `string` --- file to load network from
+
+
+
+## evaluate - *method*
+
+
+
+---
+
+
+
+### Syntax
+
+
+
+**`evaluate(x, y)`**
+
+
+
+### Arguments
+
+
+
+- x `list` --- testing inputs
+
+- y `list` --- testing outputs
+
+
+
+---
+
+
+
+# Nait v2.0.1 - Change Log
+
+
+
+---
+
+
+
+- Complete re-write
+
+
+
+- Added backpropagate optimizer
+
+
+
+- Changed training display
+
+
+
+---
+
