@@ -1,0 +1,4 @@
+google-cloud-secret-manager
+google-cloud-error-reporting
+google-cloud-pubsub
+google-cloud-tasks
