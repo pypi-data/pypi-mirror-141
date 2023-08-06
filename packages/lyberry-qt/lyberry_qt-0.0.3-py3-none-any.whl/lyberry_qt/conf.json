@@ -1,0 +1,6 @@
+{
+	"player_cmd": "xdg-open {}",
+	"viewer_cmd": "xdg-open {}",
+	"lbrynet_api": "http://localhost:5279",
+	"comment_api": "https://comments.odysee.com/api/v2"
+}
