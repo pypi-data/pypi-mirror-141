@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lingo-api
+Version: 19
+Summary: Python interface to LINGO API
+Home-page: http://www.lindo.com
+Author: Zhe Liu
+Author-email: kevin@lindo.com
+License: UNKNOWN
+Platform: Windows, Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.19)
+
+The Python Interface to LINGO API.
+
+To use this package, users must have the installation of LINGO 19 associated with a valid license file and set up the LINGO_19_HOME (for 32bit) or LINGO64_19_HOME (for 64bits) environment variable, for details see INSTALL.
+
+
