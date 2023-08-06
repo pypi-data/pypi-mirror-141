@@ -1,0 +1,12 @@
+hgdb-replay,sha256=pH3RRqFAUWN6bTZ6pXS3EwF7W5guFoUwLoh5TNTG2S4,2762976
+hgdb-db,sha256=Spp4AeryCtB1uMBLX6viobNvrV58OplBoAQkNhUTWuQ,1541112
+hgdb-rewrite-vcd,sha256=uLj1_B9CTasXYuYht_BvOhswJ8_ypWyzQfht71uZCcg,4916816
+libhgdb.dylib,sha256=eqbfVSQmIhj5-aopRsU_ZAzADlyYHVePIiEqbOnt9-8,8488480
+libhgdb-0.1.0.dist-info/RECORD,,
+libhgdb-0.1.0.dist-info/LICENSE,sha256=aPlbtcF2kaiYaX3M_ESL6KrkZQ2TwYdBu7rP924Sf1w,1325
+libhgdb-0.1.0.dist-info/WHEEL,sha256=u5XbyvaaZYqj6aJYCJRbGE9Kl_iDK4ienpzt9RilaHU,108
+libhgdb-0.1.0.dist-info/top_level.txt,sha256=KEAFsp_lf84ymd9L-YyJdwLZtPIB_KMjJKvrvObE_ZI,8
+libhgdb-0.1.0.dist-info/METADATA,sha256=ASIgB50_7ywuElZjQavAtJM_ZIsZquJpfo-Iby-6Ikc,7669
+libhgdb-0.1.0.data/scripts/hgdb-replay,sha256=l5ecH8SvLXAu46Z_AbqOUZnxNvlTDwOu9s3JItyrbNw,271
+libhgdb-0.1.0.data/scripts/hgdb-db,sha256=1iiY8qyllmQiNkPQZ7czZ1HGa8p6VGnd01oe2m5H7oU,233
+libhgdb-0.1.0.data/scripts/hgdb-rewrite-vcd,sha256=gRbmC7yjr77b5O4GyvBydk-AfTt1C5FhT7_f5W905cA,242
