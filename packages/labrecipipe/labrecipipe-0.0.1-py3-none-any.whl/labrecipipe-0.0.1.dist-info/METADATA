@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: labrecipipe
+Version: 0.0.1
+Summary: vrnopain neurofeedback pipeline
+Home-page: https://github.com/lokinou/labrecipipe
+Author: Loic Botrel
+Author-email: <loic.botrel@uni-wuerzburg.de>
+License: Proprietary
+Keywords: labrecorder,labstreaminglayer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6.6
+
+Remote controller for labrecorder using pipe process. It takes care of sending the TCP messages
+
