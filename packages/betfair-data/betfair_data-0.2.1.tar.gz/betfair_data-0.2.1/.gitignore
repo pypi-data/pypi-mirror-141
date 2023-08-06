@@ -1,0 +1,10 @@
+/target
+/data
+/dist
+/.venv/lib/*
+__pycache__
+*.tar
+*.exe
+*.txt
+*.rs_ignore
+**/.DS_Store
