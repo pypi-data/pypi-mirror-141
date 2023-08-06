@@ -1,0 +1,13 @@
+matplotlib
+numpy
+scipy
+Pillow
+scikit-image
+happy_tools
+
+[:platform_system == "Windows"]
+pywin32
+
+[:python_version < "3.8.0"]
+jsonschema==3.0.2
+importlib_metadata
