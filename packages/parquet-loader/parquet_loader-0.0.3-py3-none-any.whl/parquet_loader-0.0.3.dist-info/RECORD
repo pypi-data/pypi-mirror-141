@@ -1,0 +1,12 @@
+ParquetLoader/__init__.py,sha256=e1dBfCdHpzEjTtZlb3Zj3n_PCWzi3hj-E_axuoZcoeA,489
+ParquetLoader/loader.py,sha256=gGBHQLCAryAEG4TGnxiK5y-A9cG7A_EiAoBr2JtQx0Q,4337
+ParquetLoader/s3.py,sha256=2PEpnkiwg1xut-4NnCQQuEB8vaVG2_QtZh4Av1STBu0,3117
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/local.py,sha256=oBFcDpO3DVi7tx9TCBMgwZleZoCFv00mBc-8wRu-7dU,224
+tests/minio.py,sha256=fuFMb3nfbRratbvqnHqNbMBEwsf-tU_EYsd4dfWlnw8,365
+tests/s3.py,sha256=9uyFATwXWie0nsUK9pMREoaR6vYpoJfJu2PelYsT9bc,332
+parquet_loader-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+parquet_loader-0.0.3.dist-info/METADATA,sha256=ICI2aDb3zSCGJSW0x_cLndyhIi7-R6PNy_nnVZ4lDiE,5464
+parquet_loader-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parquet_loader-0.0.3.dist-info/top_level.txt,sha256=3Hs81fLNVrdglIiGDZirPgx9KUjKd-ps7Lq-6ENtZjw,20
+parquet_loader-0.0.3.dist-info/RECORD,,
