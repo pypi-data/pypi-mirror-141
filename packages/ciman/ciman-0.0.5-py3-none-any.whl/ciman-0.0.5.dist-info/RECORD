@@ -1,0 +1,13 @@
+ciman/__main__.py,sha256=iD0dGFxhW41tpRynP23iamK3JBhp3awmVEmfWYitIr0,1535
+ciman/jsonrules.py,sha256=Qfypz9jYcqHOLp7Njp0WqtmzTPNfequZkStNL_i2GkQ,1036
+ciman/pull.py,sha256=3bdUplPLT2cRp0E57u2MTsTtBAnJHHdI4zGe4y293zc,194
+ciman/registry.py,sha256=QEY1bW3k4WoX0G-i2n2fLbpib8yja-9oEn7xF6cpc8U,4072
+ciman/version.py,sha256=P8W_XGgjz5fygcRdylGsnzMVA8WRVNYCU54UyiKh4-0,142
+ciman/view/info.py,sha256=UIQ0d0iyhXvambxgdqCs3saJrBO3SPCCAqEL_v4Q2ds,2102
+tests/test_version.py,sha256=a-vFysy1Lk7SZpvNUvfx3hEEWN_l5zEVAtmj6P2em7o,86
+ciman-0.0.5.dist-info/LICENSE,sha256=FEpBvIvyf76kCkXeFacXMQwU-tKl9qL3LhM6gBFdQnI,1056
+ciman-0.0.5.dist-info/METADATA,sha256=Hz2mGge1O0PWKYmZMf7dEuwwUCYJJTiDkNAghpj-yYI,1298
+ciman-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ciman-0.0.5.dist-info/entry_points.txt,sha256=DQA2Esnhxy2GhT1OqBSmJzawvyyhcgbHXVc7RlV_gHs,47
+ciman-0.0.5.dist-info/top_level.txt,sha256=o1_xh5loR7364HujElBjeC8Vxo-1dHLAt6geTJEJPTw,12
+ciman-0.0.5.dist-info/RECORD,,
