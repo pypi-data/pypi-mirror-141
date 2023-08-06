@@ -1,0 +1,84 @@
+![penterepTools](https://www.penterep.com/external/penterepToolsLogo.png)
+
+## PTANDROID
+> APK/AXML Data Extractor
+
+ptandroid is a tool for extracting information from android application packages or android manifest files.
+
+## Installation
+
+```
+pip install ptandroid
+```
+
+## Add to PATH
+If you cannot invoke the script in your terminal, its probably because its not in your PATH. Fix it by running commands below.
+
+Add to path for BASH
+```bash
+echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
+source ~/.bashrc
+```
+Add to path for ZSH
+```bash
+echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.zshhrc
+source ~/.zshhrc
+```
+
+## Usage examples
+
+```
+ptandroid -f app.apk                           # Dump information from apk
+ptandroid -f AndroidManifest.xml               # Dump information from AndroidManifest
+ptandroid -f AndroidManifest.xml -a -p -r      # Print activities, providers, receivers
+```
+
+## Options
+```
+   -f   --file          <file>  Load File: app.apk, AndroidManifest.xml [.apk, .xml]
+   -m   --manifest              Print axml content
+   -i   --info                  Print basic file info
+   -c   --components            Print all components information
+   -a   --activities            Print activities info
+   -p   --providers             Print providers info
+   -r   --receivers             Print receivers info
+   -s   --services              Print services info
+   -cu  --content-urls          Print content urls [apk file required]
+   -hu  --https-urls            Print http(s) urls [apk file required]
+   -j   --json                  Enable JSON output
+   -v   --version               Show script version and exit
+   -h   --help                  Show this help message and exit
+```
+
+## Usage examples
+```
+   ptandroid -f app.apk
+   ptandroid -f AndroidManifest.xml
+```
+
+## Dependencies
+    - androguard
+    - defusedxml
+    - ptlibs
+
+We use [androguard](https://github.com/androguard/androguard) and [apktool](https://ibotpeaches.github.io/Apktool/) for parsing APKs. JRE is required.
+
+## Version History
+
+
+* 0.0.1 - 0.0.2
+    * Alpha releases
+
+## Licence
+
+Copyright (c) 2020 HACKER Consulting s.r.o.
+
+ptandroid is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+ptandroid is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with ptandroid. If not, see https://www.gnu.org/licenses/.
+
+## Warning
+
+You are only allowed to run the tool against the websites which you have been given permission to pentest. We do not accept any responsibility for any damage/harm that this application causes to your computer, or your network. Penterep is not responsible for any illegal or malicious use of this code. Be Ethical!
