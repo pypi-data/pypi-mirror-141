@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+# @Time : 2022/3/9 1:39 下午
+# @Author : chendb
+# @Description :
+
+from .util import send_mail_util
+
+class Tool(object):
+
+    def __init__(self):
+        self.mail_from_user = '' # 邮件发送者账号
+        self.mail_from_user_pwd = ''    # 邮件发送者密码
+        self.mail_from_user_host = ''    # 邮件发送者host
+
+    def send_mail_msg(self, to_user, title, content):
+        send_mail_util(self.mail_from_user, self.mail_from_user_pwd, self.mail_from_user_host, to_user, title, content)
