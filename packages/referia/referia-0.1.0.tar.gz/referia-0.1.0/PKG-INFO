@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: referia
+Version: 0.1.0
+Summary: Template files for performing data analysis with python.
+Home-page: https://github.com/lawrennd/referia
+Author: Neil D. Lawrence
+Author-email: email@domain.here
+License: MIT
+Description: 
+        # referia
+        
+        The referia library provides tools for assisting with assessment, originally written as an aide for 2021 REF Assessment and adapted to make it more flexible.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
