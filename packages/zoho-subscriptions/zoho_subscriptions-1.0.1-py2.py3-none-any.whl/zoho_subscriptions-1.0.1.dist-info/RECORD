@@ -1,0 +1,15 @@
+client/__init__.py,sha256=mk5J5DBVtiFF3ywO4RozXpMKJs5W_n0IYEe0GKk7AO0,32
+client/client.py,sha256=HfTZOhvvVb2ZuUwwa07XJzWNnMLiuIpVk24cVPb2dRM,2654
+subscriptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subscriptions/addon.py,sha256=NZoZ8-Lg89vU7pDmznQhmbVulZQCChiViGGODnvshac,2060
+subscriptions/customer.py,sha256=0_Ssoqq6dcSGj6SJeM0vx_Z9dTO5iEKY4BN3dpftD34,3845
+subscriptions/hostedpage.py,sha256=zr6LfnI-6rr5Gh-PA1yka-F9TEQJ6uidFuZ5Q9o8jzI,79
+subscriptions/invoice.py,sha256=ohUi5XzQHWycaCqfoxpXW2Krfj_aEDZ9kqR5i4DeBf4,2744
+subscriptions/plan.py,sha256=ypG30B3_8G_4fb7guEj5bi4fXjiMviYOMLgISSerGAo,4041
+subscriptions/subscription.py,sha256=FwSyYog1Rl8SiFvdVfQffY_JD_R8eoRKcMRWFCqu6Vw,3761
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/constants.py,sha256=tKW7Wl5ZMQVoqJxM10EtFHbbmcUMecbCdcTw3QfW4hY,325
+zoho_subscriptions-1.0.1.dist-info/METADATA,sha256=a_6LU8wP6Gcodm1vzP9vn2i5hpIax8TvVb7KlBCsC20,907
+zoho_subscriptions-1.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+zoho_subscriptions-1.0.1.dist-info/top_level.txt,sha256=YUKGmLlysvHwjXNM-KS2faN-OMRJ5c4-Ed_uvPAfIBU,27
+zoho_subscriptions-1.0.1.dist-info/RECORD,,
