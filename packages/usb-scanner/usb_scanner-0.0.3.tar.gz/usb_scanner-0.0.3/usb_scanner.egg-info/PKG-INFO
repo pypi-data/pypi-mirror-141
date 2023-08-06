@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: usb-scanner
+Version: 0.0.3
+Summary: For use USB barcode scanners
+Home-page: https://github.com/Nels885/usb_scanner
+Author: Lionel VOIRIN
+Author-email: nels885@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# USB Scanner
+
+Package allowing to read a barcode or QR-code from USB scanner listed below.
+
+https://sps.honeywell.com/fr/fr/products/productivity/barcode-scanners/general-purpose-handheld/voyager-xp-1470g-general-duty-scanner
+
+https://www.zebra.com/gb/en/products/scanners/general-purpose-scanners/handheld/ls1203.html
+
+
+## Instructions
+
+1. Install:
+
+```
+pip install usb-scanner
+```
+
+2. Example of use:
+
+```python
+from usb_scanner import Reader
+
+# Initialize Reader object
+r = Reader(keymap="UK")
+
+# Waiting for a barcode to be read
+r.read()
+```
+
+
