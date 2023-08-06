@@ -1,0 +1,11 @@
+urllib3
+requests
+bs4
+pillow
+toposort
+brotli
+publicsuffix2
+loguru
+mitmproxy
+python-dateutil
+numpy
