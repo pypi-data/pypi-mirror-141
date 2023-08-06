@@ -1,0 +1,12 @@
+nordend/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+nordend/__main__.py,sha256=FPpxUb4Bzb6CgBU4ALZYFnrZloH6f-pSihSxQTxEqtg,155
+nordend/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nordend/commands/score.py,sha256=NK64xQIwHUnky6JmNyKpb8td-TKkHDWqPuaC2FavCXU,87
+nordend/commands/squash.py,sha256=Nya5u_zEC2Rbd2qoqhqJGYdcqjhPodBZVGuKtiqPDgQ,37
+nordend/spotipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nordend/spotipy/spotipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nordend/spotipy/spotipy/model.py,sha256=-dSh9GukRllVfgsXA0txF2rlQVE_pAFacuO7zqcJOcc,49
+nordend-0.1.3.dist-info/entry_points.txt,sha256=7ttyN6A-8uUmf40oQzpd-_nP0lE9vr_jISKgvYMDJCw,87
+nordend-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nordend-0.1.3.dist-info/METADATA,sha256=aWkXt9ROk8znUSWgGxyCItLflIF84pE4IvmgIOFXFtU,288
+nordend-0.1.3.dist-info/RECORD,,

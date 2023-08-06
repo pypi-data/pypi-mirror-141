@@ -1,0 +1,4 @@
+[console_scripts]
+nordend_cli=nordend.__main__:main
+score=nordend.commands.score:main
+
