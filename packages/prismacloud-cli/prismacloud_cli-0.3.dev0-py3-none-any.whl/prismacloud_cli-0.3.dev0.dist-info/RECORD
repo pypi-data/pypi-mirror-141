@@ -1,0 +1,10 @@
+prismacloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prismacloud/api.py,sha256=joIDOvDV1e__43I6C9NyTuEMbzOQXtLZkD66luTki8c,3600
+prismacloud/cli.py,sha256=gYJcHDrEJ_iLW6EyU_ZK4K_qinLuHg-vAHgIJ_6_jZw,4556
+prismacloud/version.py,sha256=C9GbSON_cY86L90BCe5bGopP33GaqPUD2Gg5lEu4kiw,19
+prismacloud_cli-0.3.dev0.dist-info/LICENSE,sha256=EOzM4fOSgwdqsdTomroUW1_35DHOG_f6rn_JjRprOtQ,1083
+prismacloud_cli-0.3.dev0.dist-info/METADATA,sha256=5ZXLYl75-trVs2YgdJkPtFrcO9OBpMBCH7Ej7x0hPKE,4138
+prismacloud_cli-0.3.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prismacloud_cli-0.3.dev0.dist-info/entry_points.txt,sha256=xg9HOaIkYKcF9SuFRIbeRBaJkBqUkc6b_iGwpzn6KCo,43
+prismacloud_cli-0.3.dev0.dist-info/top_level.txt,sha256=tqjmWhb_K8YIUOSclZV8o3pYSfq_B93mpYUluUu9RMo,12
+prismacloud_cli-0.3.dev0.dist-info/RECORD,,
