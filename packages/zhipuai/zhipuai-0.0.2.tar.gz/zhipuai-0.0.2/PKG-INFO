@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zhipuai
+Version: 0.0.2
+Summary: Python client library for the ZhipuAI API
+Home-page: https://github.com/shanjiecai/zhipuai-python
+Author: ZhipuAI
+Author-email: jiecai.shan@aminer.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.1
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
