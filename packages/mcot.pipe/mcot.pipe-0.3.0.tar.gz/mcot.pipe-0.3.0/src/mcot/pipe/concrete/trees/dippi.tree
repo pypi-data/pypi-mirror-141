@@ -1,0 +1,78 @@
+echo = 1, 2
+complex = real, imag
+bpx_job=0,1,2,3
+fibre = 1, 2
+space = native
+fit_job=0,1,2,3,4,5,6,7,8,9
+
+
+log
+data (data_dir)
+    bvals
+    bvecs
+    field_orient
+    tphase
+    group
+    data_echo-{echo}.nii.gz (data)
+    nodif_brain_mask.nii.gz (mask)
+data.bedpostX (bpx_dir)
+    ->bedpostx (bpx)
+    average_sinsq_theta.nii.gz
+    data_{bpx_job} (bpx_split_data)
+    diff_parts (bpx_working_dir)
+        data_part_000{bpx_job} (bpx_split_log)
+    logs
+        logs_gpu
+            bpx_done_{bpx_job} (bpx_done)
+        monitor
+fit_phase
+    delta_dphase.nii.gz
+    mean_dphase.nii.gz
+    ->dippi_fits (phase)
+    to_merged (phase_transformed_dir)
+        ->dippi_fits (phase_to_merged)
+fit_grat
+    ->dippi_fits (grat)
+    to_merged (grat_transformed_dir)
+        ->dippi_fits (grat_to_merged)
+    per_tract.csv (tract_table)
+topup
+    acqparams.txt
+    merged_b0.nii.gz
+    ->topup basename=topup (topup)
+    unwarped_b0.nii.gz
+    nodif.nii.gz
+    nodif_brain.nii.gz
+    nodif_brain_mask.nii.gz
+eddy
+    eddy_index.txt
+    magnitude_echo-{echo} (magnitude_echo_dir)
+        merged_dwi.nii.gz (eddy_dwi_in)
+        bvals (eddy_bval)
+        bvecs (eddy_bvec_in)
+        ->eddy basename=out (mag_eddy)
+        apply_{complex} (apply_eddy_dir)
+            unaligned.nii.gz (apply_eddy_in)
+            ->eddy basename=out (apply_eddy)
+        complex_out.nii.gz (complex_eddy_out)
+        field (field_eddy_dir)
+            ref_image.nii.gz (field_eddy_image_in)
+            field_in (field_eddy_in)
+            ->eddy basename=out (field_eddy)
+registration
+    dippi2dmri.mat
+    dippi_nodif_in_dmri.nii.gz
+    dmri2dippi.mat
+    dippi2merged.mat
+deconfound
+    in_phase.nii.gz (confounded_phase)
+    out (deconfound_basename)
+    out_phase.nii.gz (deconfound_phase)
+qc
+    eddy (qc_eddy_dir)
+        motion_parameters.svg (motion_parameters_plot)
+xtract
+    {tract}
+        tract_density.nii.gz
+        tract_orient.nii.gz
+        tract_length.nii.gz

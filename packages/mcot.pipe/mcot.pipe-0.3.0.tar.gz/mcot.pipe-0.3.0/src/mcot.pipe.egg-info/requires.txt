@@ -1,0 +1,9 @@
+dask[array]
+datalad
+file-tree
+fslpy
+loguru
+mcot.utils~=0.1.0
+nibabel
+numpy<1.21
+xarray

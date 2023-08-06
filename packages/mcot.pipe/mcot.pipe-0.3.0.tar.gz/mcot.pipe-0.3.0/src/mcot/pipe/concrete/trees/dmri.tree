@@ -1,0 +1,56 @@
+bpx_job=0,1,2,3
+
+log
+data (data_dir)
+    bvals
+    bvecs
+    data.nii.gz
+    nodif_brain_mask.nii.gz (mask)
+data.bedpostX (bpx_dir)
+    ->bedpostx (bpx)
+    data_{bpx_job} (bpx_split_data)
+    diff_parts (bpx_working_dir)
+        data_part_{bpx_job:04d} (bpx_split_log)
+    logs
+        logs_gpu
+            .bpx_done_{bpx_job} (bpx_done)
+        monitor
+topup
+    acqparams.txt
+    merged_b0.nii.gz
+    ->topup basename=topup (topup)
+    unwarped_b0.nii.gz
+    nodif.nii.gz
+    nodif_brain.nii.gz
+    nodif_brain_mask.nii.gz
+eddy
+    eddy_index.txt
+    merged_dwi.nii.gz (eddy_dwi_in)
+    bvals (eddy_bval)
+    bvecs (eddy_bvec_in)
+    ->eddy basename=out (eddy)
+dti_b{bvalue}
+    data_b{bvalue}.nii.gz (data_shell)
+    data_b{bvalue}.bval (bval_shell)
+    data_b{bvalue}.bvec (bvec_shell)
+    data_b{bvalue} (basename_shell)
+    ->dti basename=dti (dti)
+dki
+    ->dti basename=dki (dki)
+registration
+    dMRI2std.mat (dMRI2std_aff)
+    dMRI2std.nii.gz (dMRI2std_warp)
+    std2dMRI.nii.gz (std2dMRI_warp)
+xtract
+    native (native_xtract)
+        ->xtract (native_xtract)
+        ptx_options.txt (native_ptx_options)
+        tracts (_native_tracts_dir)
+            {native_xtract/tract} (_native_orient_dir)
+                density_localdir.nii.gz (native_xtract/localdir)
+    std (std_xtract)
+        ->xtract (std_xtract)
+        ptx_options.txt (std_ptx_options)
+        tracts (_std_tracts_dir)
+            {std_xtract/tract} (_std_orient_dir)
+                density_localdir.nii.gz (std_xtract/localdir)
