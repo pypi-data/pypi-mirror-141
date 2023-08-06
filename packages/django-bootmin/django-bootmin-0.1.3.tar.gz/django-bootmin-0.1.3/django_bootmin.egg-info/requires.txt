@@ -1,0 +1,5 @@
+django<4.0,>=3.2.7
+django-wkhtmltopdf>=3.4
+django-hookup>=0.0.1
+
+[pos]
