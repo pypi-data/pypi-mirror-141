@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nhpy
+Version: 0.1.0
+Summary: API wraper for nhentai.net
+Home-page: https://github.com/b3yc0d3/nhpy
+Author: b3yc0d3
+Author-email: b3yc0d3@dnmx.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/b3yc0d3/nhpy
+Project-URL: Issue tracker, https://github.com/b3yc0d3/nhpy/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (>=4.10.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: lxml (>=4.6.4)
+
+# nhpy
+nehntai api wrapper for python
+
+
