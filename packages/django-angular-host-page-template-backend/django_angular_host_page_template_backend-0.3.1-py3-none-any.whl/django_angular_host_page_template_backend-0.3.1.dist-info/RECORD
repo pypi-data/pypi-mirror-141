@@ -1,0 +1,10 @@
+angularhostpagetemplate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+angularhostpagetemplate/backend.py,sha256=Lzwt9yqWMugA3iJqCYzMrU3OL4LzVC4uWjxfjKhhdq0,2039
+angularhostpagetemplate/engine.py,sha256=Zm756AtK4j5TDcos2jRpzOOSpmxNcM_l7HpeTSrOpwE,1245
+angularhostpagetemplate/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+angularhostpagetemplate/tool/pulldist.py,sha256=anRfKyrjISASrWUosgZzug6HRXkRgYdLH8OLRdfEdCQ,13964
+django_angular_host_page_template_backend-0.3.1.dist-info/LICENSE.md,sha256=M3RvdmBFJm9Wt7XHKci6KSfqLB9w10jM6-p7NYTutw8,1066
+django_angular_host_page_template_backend-0.3.1.dist-info/METADATA,sha256=KlMjCtlUVI9ShMKDzI1p1Uu38Y9N7yRhsoLv3eTt0FE,466
+django_angular_host_page_template_backend-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_angular_host_page_template_backend-0.3.1.dist-info/top_level.txt,sha256=qLuBuDv-PwBennubg7iKCWcf8iznlCfO13zrvWi0EL0,24
+django_angular_host_page_template_backend-0.3.1.dist-info/RECORD,,
