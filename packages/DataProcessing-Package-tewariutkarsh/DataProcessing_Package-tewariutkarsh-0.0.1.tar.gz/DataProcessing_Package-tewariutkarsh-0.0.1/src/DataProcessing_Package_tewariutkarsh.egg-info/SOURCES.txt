@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DataProcessing_Package/DataProcessing.py
+src/DataProcessing_Package/__init__.py
+src/DataProcessing_Package_tewariutkarsh.egg-info/PKG-INFO
+src/DataProcessing_Package_tewariutkarsh.egg-info/SOURCES.txt
+src/DataProcessing_Package_tewariutkarsh.egg-info/dependency_links.txt
+src/DataProcessing_Package_tewariutkarsh.egg-info/top_level.txt
