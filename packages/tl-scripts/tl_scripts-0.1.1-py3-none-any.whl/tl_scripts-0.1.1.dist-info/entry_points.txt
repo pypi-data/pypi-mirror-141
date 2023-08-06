@@ -1,0 +1,3 @@
+[console_scripts]
+copy_kibana_objects=tl_scripts_cli:__main__
+

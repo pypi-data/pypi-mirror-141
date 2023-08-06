@@ -1,0 +1,7 @@
+tl_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tl_scripts/copy_kibana_objects.py,sha256=xTfhNymUPKI22dfZ65moIJVhsfT8fQXsR9GarVoLcFI,6634
+tl_scripts_cli.py,sha256=ZmmA1DFJ4-XOfmEQJxtdUh4j5d5ArY2vYPhD-OKv_Nk,636
+tl_scripts-0.1.1.dist-info/entry_points.txt,sha256=u75RoabNe9sBdSfmnKAw-6bpm3P0Lo9CunstLAbm6Gc,63
+tl_scripts-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tl_scripts-0.1.1.dist-info/METADATA,sha256=Jb1oZNtFLjSAZRW8l4H4JzUfoTa4iBvHSsqkj8nsbdY,607
+tl_scripts-0.1.1.dist-info/RECORD,,
