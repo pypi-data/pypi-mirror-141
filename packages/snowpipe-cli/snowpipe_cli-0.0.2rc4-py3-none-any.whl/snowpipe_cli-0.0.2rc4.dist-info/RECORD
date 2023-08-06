@@ -1,0 +1,9 @@
+snowpipe_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowpipe_cli/__main__.py,sha256=gRrL-zQCpV6s2JmUrWOR93PhjkbXbqfzJyEdSB6GpmE,69
+snowpipe_cli/snowpipe.py,sha256=9G73vpi5Sol2Pnowl3_O0YkLaa4mkMxE-fyZj83ZD2I,12268
+snowpipe_cli-0.0.2rc4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+snowpipe_cli-0.0.2rc4.dist-info/METADATA,sha256=YY07NJxD-_YpoiP0QuHSTbsYXBkunHBtS6ynfHsBzy8,3585
+snowpipe_cli-0.0.2rc4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snowpipe_cli-0.0.2rc4.dist-info/entry_points.txt,sha256=fP7zk_ajSdE9yjQZziIYfYv2qd47lDNiWyrl86w_ZUY,55
+snowpipe_cli-0.0.2rc4.dist-info/top_level.txt,sha256=k9pXIRA-3NMD1omSr_zZ6uTsGnMEQNVXao9HOGn9i-w,13
+snowpipe_cli-0.0.2rc4.dist-info/RECORD,,
