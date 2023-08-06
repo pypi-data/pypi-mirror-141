@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bartu_teber_cs_453_hw1.egg-info/PKG-INFO
+bartu_teber_cs_453_hw1.egg-info/SOURCES.txt
+bartu_teber_cs_453_hw1.egg-info/dependency_links.txt
+bartu_teber_cs_453_hw1.egg-info/requires.txt
+bartu_teber_cs_453_hw1.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
