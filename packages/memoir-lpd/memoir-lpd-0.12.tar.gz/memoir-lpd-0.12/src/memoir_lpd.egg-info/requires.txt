@@ -1,0 +1,6 @@
+astropy
+importlib-resources
+matplotlib
+numpy
+pandas
+scipy
