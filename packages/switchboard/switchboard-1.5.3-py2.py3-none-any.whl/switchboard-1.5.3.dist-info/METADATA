@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: switchboard
+Version: 1.5.3
+Summary: Feature flipper for Pyramid, Pylons, or TurboGears apps.
+Home-page: https://github.com/switchboardpy/switchboard/
+Author: Kyle Adams
+Author-email: kadams54@users.noreply.github.com
+License: Apache License
+Download-URL: https://github.com/switchboardpy/switchboard/releases
+Keywords: switches feature flipper pyramid pylons turbogears
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pymongo (>=2.4)
+Requires-Dist: blinker (>=1.2)
+Requires-Dist: WebOb (>=0.9)
+Requires-Dist: Mako (>=0.9)
+Requires-Dist: bottle (>=0.12.8)
+Requires-Dist: six
+Requires-Dist: ipaddress ; python_version<'3.3'
+
+UNKNOWN
+
+
