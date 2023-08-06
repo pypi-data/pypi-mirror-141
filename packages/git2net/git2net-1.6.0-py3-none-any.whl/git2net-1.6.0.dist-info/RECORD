@@ -1,0 +1,15 @@
+git2net/__init__.py,sha256=FIn4B3EmPwZ-KVMOMFpu5UuAqHO_hqsPs72Gd0ubkz8,963
+git2net/command_line.py,sha256=0u6A80lcggQ5AXWgLjtG4a21lwrJKwz8Ng2Z5IaLUdU,13706
+git2net/complexity.py,sha256=yIBFpoEhcQcAsJ986Aew74typSeUvQD9YDSKsSVPRk4,14293
+git2net/disambiguation.py,sha256=3AQs8clID-ws98ljn7ZDQRp7EvecjMQj1sBYoNrk7v4,2144
+git2net/extraction.py,sha256=VFjLYPewd9AAI9T2Zqij4HbBaLJAmm4dTsMfm-vQBOA,76366
+git2net/visualisation.py,sha256=-SCw7r8m51p4LTF4MxWkL8Yh56Vy1W19zu9tyaPBse8,25851
+git2net/helpers/binary-extensions/binary-extensions.json,sha256=vGjy5_yTTkIVaOCmAnPMCH1zahS-cZvuPkrzKQ05Zpk,2084
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functions.py,sha256=TtCBiJ2j_vDi7BuFFcp17WOnZ0q0O78hTfkFXWVhL4U,12571
+git2net-1.6.0.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+git2net-1.6.0.dist-info/METADATA,sha256=8bxW6iVoaTNWXTH_hdbIcFKIIePrUqMx-iPolqzvmRk,8579
+git2net-1.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+git2net-1.6.0.dist-info/entry_points.txt,sha256=35dj-mINDc8_T4H1KJ6PJzGS0XcKNmsV9EzVr5PX7mI,54
+git2net-1.6.0.dist-info/top_level.txt,sha256=YaSA9i-0VhdiiJXn-kwLJ6r2chUUcsGW3ylpgBv0188,14
+git2net-1.6.0.dist-info/RECORD,,
