@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jhrtools
+Version: 1.0
+Summary: jet tools
+Author: jihaoran
+Author-email: 944816903@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: typeguard (==2.13.3)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: pathos (==0.2.8)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: simplejson (==3.17.6)
+Requires-Dist: SQLAlchemy (==1.4.32)
+Requires-Dist: tqdm (==4.63.1)
+
+UNKNOWN
+
