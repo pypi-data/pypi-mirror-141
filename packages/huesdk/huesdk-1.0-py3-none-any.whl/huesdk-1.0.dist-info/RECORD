@@ -1,0 +1,11 @@
+huesdk/__init__.py,sha256=yTtq-HbelkgJhZHq13tEuorcG2kuJ1jNTbfSiJXByqw,165
+huesdk/generics.py,sha256=APgS_HIpYPnkThwEShZEAFF2hovBf2fdbYSOwmrK0zE,442
+huesdk/group.py,sha256=fBXjFM59qsMgVHQEeb10cZwPvJAcWd3GnLAsjMMa23k,1723
+huesdk/huesdk.py,sha256=_WMYPO-J53GzYfeL-46tzihBbKLQacQjQIERTNl2A_8,3903
+huesdk/light.py,sha256=A7EH2KjgdQm93_9rJ7VeF4YGG0-ejWY03Y1nHadR8sE,1775
+huesdk/schedule.py,sha256=lIAhi8i3xgF6aDEvQWmR15iL_ozY8IXDmbaqyt-u8CY,1086
+huesdk-1.0.dist-info/LICENSE,sha256=2vajP9rNIxQPWhaUck4twwgi7_opuoRJSorN6Q7jALA,1068
+huesdk-1.0.dist-info/METADATA,sha256=ODc0HREJQYRMGY0VT1dvvZb4-mWpwfQnGkIXc8ssh3Y,3719
+huesdk-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+huesdk-1.0.dist-info/top_level.txt,sha256=sDhl-5CgJmIYIdD4eutcony3P7OOVfbp4AHWUWpY13c,7
+huesdk-1.0.dist-info/RECORD,,
