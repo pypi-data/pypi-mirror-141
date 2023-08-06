@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+TestPackageBBPipesLocal.egg-info/PKG-INFO
+TestPackageBBPipesLocal.egg-info/SOURCES.txt
+TestPackageBBPipesLocal.egg-info/dependency_links.txt
+TestPackageBBPipesLocal.egg-info/top_level.txt
+test/test.py
