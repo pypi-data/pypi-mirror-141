@@ -1,0 +1,2 @@
+[pytest11]
+pytest-network-endpoints = pytest_network_endpoints.plugin
