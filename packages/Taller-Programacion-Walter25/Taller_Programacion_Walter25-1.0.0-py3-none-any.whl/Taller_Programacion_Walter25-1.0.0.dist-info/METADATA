@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Taller-Programacion-Walter25
+Version: 1.0.0
+Summary: Aplicacion que usa numpy para resolver problemas de algebra lineal con matrices
+Home-page: https://github.com/JneWalter25/TallerProgramacionII
+Author: Jorge Walter
+Author-email: jorgewalterpro@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JneWalter25/TallerProgramacionII/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+#Taller de programacion
+##Jorge Walter - Carlos Cala
+##Aplicativos distintos con numpy relacionados con el algebra lineal.
+
