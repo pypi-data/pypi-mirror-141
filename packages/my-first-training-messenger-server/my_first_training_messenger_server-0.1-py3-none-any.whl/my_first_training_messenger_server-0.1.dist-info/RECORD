@@ -1,0 +1,13 @@
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/add_user.py,sha256=PFPBDE0ODAyEPR1XaqYn4w_AlEmZy8ptIVNsKO5_pEY,4017
+server/config_window.py,sha256=kXto3Xa1Nk5ygd4Rfk3YH1UwJYKny2Eq9p1Q51DXhv8,5271
+server/core.py,sha256=OfKLqRMYOC3nQlV4_Grk0S5ORd3zBhxY-mWR45XB_7c,15467
+server/database.py,sha256=G_oJ4S559sbsB5Ne6_qt0yAdpiwSYmi6vjh0YLewZZQ,16274
+server/main_window.py,sha256=L7jyJZhZpr3XLUlEyY9_yoLSoAp3BmH_k-mcizl6SCs,5992
+server/remove_user.py,sha256=N71TznYFgfFuzo1aj9-vqRMJhJUWe8c3XN9rtiC-si4,2545
+server/server.py,sha256=p3ixkY0SU_YgESu3Q6wB_IB_jcHGHhOu5LkV_NvuDEY,4030
+server/stat_window.py,sha256=u6r6OUzkOHc176uFySxRMmOOBMfg1m7ra6WJ1BPfaaQ,2225
+my_first_training_messenger_server-0.1.dist-info/METADATA,sha256=ejgN5wcYzlii5qxa9QL0YKsfN9vyyLhqaFGxO8P1lkA,334
+my_first_training_messenger_server-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+my_first_training_messenger_server-0.1.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+my_first_training_messenger_server-0.1.dist-info/RECORD,,
