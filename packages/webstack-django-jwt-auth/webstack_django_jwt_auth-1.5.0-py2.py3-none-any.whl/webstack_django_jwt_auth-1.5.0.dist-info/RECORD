@@ -1,0 +1,14 @@
+jwt_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jwt_auth/core.py,sha256=D_0_wLEV3UGIVhvuoPt-SQxTFLRrwhl7cykQxQ-IFH4,72
+jwt_auth/exceptions.py,sha256=Ylmwx5mH3K2gvVA17wkZ6J4b4EBMYgY0yHQ7aOXP50o,333
+jwt_auth/forms.py,sha256=IchZkW2GUFLYmsQ-BHeyZn7MMC23x4C8Bf_4jfyYIno,3123
+jwt_auth/middleware.py,sha256=Om5lzeg7V6sktIep6Thu43OfXomIALH2rRm7mVlv5Qo,2964
+jwt_auth/mixins.py,sha256=Ogh8ZTHfQKdmnbSontFM7xQumC1NrXWbsSyIFn9asKk,3340
+jwt_auth/settings.py,sha256=yLpqOnKuqbWajEe3d70-DWFhhKCIaNOe2wqx9CbT0hw,1627
+jwt_auth/utils.py,sha256=99TmW8RAWAUS4QJM2BeuwpOFJ_aWjcNy4NNZdOQv068,2253
+jwt_auth/views.py,sha256=P9HzbFiDnszM7UBtKzKEBtxDoVuzDpv3duM0xS1PRns,2331
+webstack_django_jwt_auth-1.5.0.dist-info/LICENSE,sha256=5yFba_YDOHtZGK3RHPCj24QjECACcLmShcPoOBQ2SGs,1080
+webstack_django_jwt_auth-1.5.0.dist-info/METADATA,sha256=uN0IXX7nR7M3HIxFqKini9J5YKc7tnjGICDATjMy0CM,7186
+webstack_django_jwt_auth-1.5.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+webstack_django_jwt_auth-1.5.0.dist-info/top_level.txt,sha256=aank7zcDOX3oKVvLhpyp6FqeZkYUsjeXQXyWWFe8nUg,9
+webstack_django_jwt_auth-1.5.0.dist-info/RECORD,,
