@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: simpleboxpacking
+Version: 0.0.2
+Summary: Put n same size boxes into a rectangle.
+Home-page: UNKNOWN
+Author: Summer Fang
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Simple bin packaging problem (Same size bins)
+
+There is a bigger rectange R with width W and height H. We are going to fill n same size smaller rectanges r into R. We know the proportion of width and height of r is p. To make the occupied area as big as possible, what is width w of r? 
+
+
+# Publish to pypi.org
+```shell
+$ python publish2pypi.py
+```
+
