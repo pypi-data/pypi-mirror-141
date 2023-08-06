@@ -1,0 +1,15 @@
+Click
+azure-storage-file-datalake>=12.5.0
+azure-synapse-spark>=0.7.0
+azure-identity
+py4j
+loguru
+pandas
+redis
+requests
+scikit-learn
+pyapacheatlas
+pyhocon
+pandavro
+python-snappy
+pyyaml
