@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/paraphrase_metrics/__init__.py
+src/paraphrase_metrics/metrics.py
+src/paraphrase_metrics.egg-info/PKG-INFO
+src/paraphrase_metrics.egg-info/SOURCES.txt
+src/paraphrase_metrics.egg-info/dependency_links.txt
+src/paraphrase_metrics.egg-info/requires.txt
+src/paraphrase_metrics.egg-info/top_level.txt
