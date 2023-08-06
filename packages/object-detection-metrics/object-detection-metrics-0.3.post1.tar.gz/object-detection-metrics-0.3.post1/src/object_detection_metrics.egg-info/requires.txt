@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pycocotools
+scikit-image
+
+[rest]
+docutils>=0.15.2
