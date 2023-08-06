@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+anngtf/__init__.py
+anngtf.egg-info/PKG-INFO
+anngtf.egg-info/SOURCES.txt
+anngtf.egg-info/dependency_links.txt
+anngtf.egg-info/requires.txt
+anngtf.egg-info/top_level.txt
+anngtf/_parse/_add_gtf_annotations_to_adata.py
+anngtf/_parse/_load_gtf_csv.py
+anngtf/_parse/_parse_gtf_to_csv.py
