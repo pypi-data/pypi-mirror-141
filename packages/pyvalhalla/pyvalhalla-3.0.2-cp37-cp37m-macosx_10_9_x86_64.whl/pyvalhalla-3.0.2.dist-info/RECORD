@@ -1,0 +1,13 @@
+pyvalhalla-3.0.2.dist-info/RECORD,,
+pyvalhalla-3.0.2.dist-info/LICENSE,sha256=GjCIq7ycJVwVInrUYN0_trCxaWdAv9yPYynXwyp2fD8,18781
+pyvalhalla-3.0.2.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+pyvalhalla-3.0.2.dist-info/top_level.txt,sha256=mU472JpF5fOfpVQ8UxZ_dwLmecLogajAMO5RmYsU1gw,19
+pyvalhalla-3.0.2.dist-info/METADATA,sha256=qP-LVdpbWan5-jEnA0JN6bI_3dT0zNBpdKG4I7o7lXg,2841
+valhalla/config.py,sha256=kpYm-7RS4Mz3plcfGWNDx1s6tfXjnBGMei1uxhQ7VJM,1488
+valhalla/__init__.py,sha256=1zYy_vEEUH_HKbJPoK15rt9fHK3X7bniYQ5MkI4wBgE,163
+valhalla/__version__.py,sha256=FDUC8xOuizaRKSkyG1VOmlDwzcPJgbzFUWz58fhdUGQ,22
+valhalla/utils.py,sha256=OTdCWoW6H8yWbgrMeBtiiJDdz9EOKGymCLj3B3tiUqU,1925
+valhalla/_valhalla.cpython-37m-darwin.so,sha256=y_-fUnzOSoWMocf0e7YlC2ei2SU-zlVIiFFtxiDjsFw,11141200
+valhalla/actor.py,sha256=HSJMFgFzy0m2_vPKb4Mnnizjg-E-pZOpEgQCvW31blc,4144
+valhalla/valhalla_build_config.py,sha256=2onj0QJ8NjB0Wf_U9kL4EC_sAxYSH7JiDwsPNHHX5FU,30278
+valhalla/.dylibs/libprotobuf-lite.28.dylib,sha256=-gYRI2qCGIFplvyv4ueNSIHOBQtFeHzkkemd9L0pEvs,578960
