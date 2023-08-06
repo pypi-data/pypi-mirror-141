@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+berks_very_simple_dictionary.egg-info/PKG-INFO
+berks_very_simple_dictionary.egg-info/SOURCES.txt
+berks_very_simple_dictionary.egg-info/dependency_links.txt
+berks_very_simple_dictionary.egg-info/requires.txt
+berks_very_simple_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
