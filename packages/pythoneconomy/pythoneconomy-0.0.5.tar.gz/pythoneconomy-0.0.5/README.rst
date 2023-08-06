@@ -1,0 +1,46 @@
+Python-Economy
+=
+
+Require to have Python 3.7 \
+This python package is just to make save files easier.
+
+To install
+-
+    # Windows
+    pip install pythoneconomy
+
+How to Import
+-
+
+    from economy import economy
+  
+Quick Example
+-
+    #To create a Folder with a Fileinside:
+    
+    from economy import economy
+    economy.bal.start(foldername, filename,   {"Variable": 0})
+
+Values
+-
+    #Add Value (Example Output: 1+1 = 2)
+    from economy import economy
+    addvalue(foldername, userdatajsonfilename,valuename, value)
+
+    #Subtract Value (Example Output: 1-1 = 0)
+    subtractvalue(foldername, userdatajsonfilename,valuename, value)
+
+    #Get Value (Example: User: 3 | print(user) | Output: 3)
+    getvalue(foldername, userdatajsonfilename,valuename)
+
+    #Change Value (Example: User:  3 | print(user) | Output: 3 | changevalue(user, 4) | Output: 4)
+    changevalue(foldername, userdatajsonfilename, valuename, value)
+
+    #Add a New Value (Example: User 3 | newvalue(user, {"e":3}) | print(e) | Output: 3)
+    newvalue(foldername, userdatajsonfilename, valuename, value)
+
+- If you have any issues: \
+https://github.com/ErrorThree/Python-Economy/issues
+
+- API Documentation: \
+Coming Soon
