@@ -1,0 +1,9 @@
+compare_numbers/__init__.py,sha256=t9sTDoULJiNFp4RqsjeqvpKKAMHV3PzZGvLjlaB7kDo,105
+compare_numbers/equal.py,sha256=-ocKnuW0cu92_N60sTM3GxJDV_2or-TYBqqt8_4DQ1M,68
+compare_numbers/greater.py,sha256=0yusd7hDA1oxexWge6dSgw33bp3bFBBCQHIxplfRLPk,69
+compare_numbers/lower.py,sha256=fcZFlINOz30quFzjWTpI-s1duFmLemvORf5Pn0WhTsg,67
+compare_numbers/notEqual.py,sha256=gxXLPtiN_8nZzvhdx7AeEkggkxvwMPiefzU64LLGuq4,71
+compare_numbers-0.0.1.dist-info/METADATA,sha256=5xDmR5yhd_dXDodobe4Z-VuEoQDOruDC0Qxp29lO1KU,573
+compare_numbers-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compare_numbers-0.0.1.dist-info/top_level.txt,sha256=OP87UozUHUmVJY6SSG2O5MKpJP_bAGI9ajQhpyMPIZ8,16
+compare_numbers-0.0.1.dist-info/RECORD,,
