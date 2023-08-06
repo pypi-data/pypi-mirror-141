@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-secrets
+Version: 1.1.0
+Summary: 
+License: MIT
+Author: Andy Grabow
+Author-email: andy@freilandkiwis.de
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: future (>=0.16.0,<0.17.0)
+Requires-Dist: six (>=1.11,<2.0)
