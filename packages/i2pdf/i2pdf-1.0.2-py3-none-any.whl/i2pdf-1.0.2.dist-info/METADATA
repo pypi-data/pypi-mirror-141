@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: i2pdf
+Version: 1.0.2
+Summary: A simple CLI app that combines images to a single .pdf
+Home-page: https://github.com/christopher-chandler
+Author: Christopher Michael Chandler
+Author-email: christopher.chandler@outlook.de
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+Requires-Dist: PyYAML
+Requires-Dist: Pillow
+Requires-Dist: PyPDF2
+
+# Image2Pdf
+
+# License
+This app comes with the MIT license
+
+# Dependencies
+
+
+
+
+Combining images to a pdf
+
+
