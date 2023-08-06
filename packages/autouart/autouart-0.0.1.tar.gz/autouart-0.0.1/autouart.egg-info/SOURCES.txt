@@ -1,0 +1,7 @@
+setup.py
+autouart/__init__.py
+autouart/automateUART.py
+autouart.egg-info/PKG-INFO
+autouart.egg-info/SOURCES.txt
+autouart.egg-info/dependency_links.txt
+autouart.egg-info/top_level.txt
