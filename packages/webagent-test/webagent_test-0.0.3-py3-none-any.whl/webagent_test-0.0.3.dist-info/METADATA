@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: webagent-test
+Version: 0.0.3
+Summary: A small test package
+Author: Cynthia
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyperclip
+Requires-Dist: pytest
+Requires-Dist: pytest-html
+Requires-Dist: pytest-rerunfailures
+Requires-Dist: selenium
+
+UNKNOWN
+
