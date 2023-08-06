@@ -1,0 +1,9 @@
+LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+sdf_heroku_deploy/__init__.py,sha256=mtZ5oCLTjZNPt9aS0ClT9TCY2AVGXCCrScnn0SRPbHc,73
+sdf_heroku_deploy/sdfh_cli.py,sha256=7GfGpHt7eEGh5o1WY2YuDOo7K0RFlr0CkRIwkbtl_aM,745
+sdf_heroku_deploy/simple_df_deploy.py,sha256=hXbG7IK79mSOHgrPWipNM5dWqW3DqDenwvV3OGoxnfE,4080
+sdf_heroku_deploy-2.0.0.dist-info/entry_points.txt,sha256=op9PfqY3ICrQiXQJ4trcqOWe7gRYc8xYoAptOHYdaf4,59
+sdf_heroku_deploy-2.0.0.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+sdf_heroku_deploy-2.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sdf_heroku_deploy-2.0.0.dist-info/METADATA,sha256=0SMmEfGV_nC1a7OkOXr6VAdtd5kqX9yxcHbndyeOhEQ,1949
+sdf_heroku_deploy-2.0.0.dist-info/RECORD,,

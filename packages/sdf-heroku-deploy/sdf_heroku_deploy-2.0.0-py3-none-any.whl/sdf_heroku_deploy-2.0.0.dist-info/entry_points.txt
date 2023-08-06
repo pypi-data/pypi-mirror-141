@@ -1,0 +1,3 @@
+[console_scripts]
+sdfh_cli=sdf_heroku_deploy.sdfh_cli:cli
+
