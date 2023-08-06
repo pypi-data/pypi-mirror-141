@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: KurtGroup
+Version: 1.0.1
+Summary: A package containing scripts and programs developed and used in Professor Kurt V. Mikkelsens group at the University of Copenhagen.
+Home-page: UNKNOWN
+Author: Theo Juncker von Buchwald
+Author-email: fnc970@alumni.ku.dk
+License: LICENCSE
+Description: # KurtGroup
+Platform: UNKNOWN
+Requires-Python: >=3.6
