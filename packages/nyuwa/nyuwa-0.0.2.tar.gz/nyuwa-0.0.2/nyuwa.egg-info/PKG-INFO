@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nyuwa
+Version: 0.0.2
+Summary: GIS 算法
+Home-page: https://github.com/
+Author: gisok
+Author-email: gisok@126.com
+License: MIT Licence
+Description: GIS 算法。待扩展。
+Keywords: pip,nyuwa,featureextraction
+Platform: any
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
