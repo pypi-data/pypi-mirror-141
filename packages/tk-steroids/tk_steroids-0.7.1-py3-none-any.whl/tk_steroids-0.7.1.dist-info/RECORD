@@ -1,0 +1,15 @@
+tk_steroids/__init__.py,sha256=1aEC-5_4E4mJP6TC1_2CCxL_l2V6sto_fEn0Kcng8N4,63
+tk_steroids/colors.py,sha256=q2CvuJe27TRrblbk3COQKNjemYMLsqNdZ8Lg5pvuKyQ,4229
+tk_steroids/datamanager.py,sha256=ZfOGYXdvbK-SfBWsqrelzKBWT7fzNcJ9nYqmtb01rjo,4697
+tk_steroids/dialogs.py,sha256=kVVoRCTjqpmRAj3DzCJDybnFflBwbZ7ohQdYVNTACUk,7812
+tk_steroids/elements.py,sha256=4a8otojyblZc0a0G2HGot7HnqiiLcdggZf21miQxXx0,15544
+tk_steroids/imagefeed.py,sha256=6nJ4Ed1iED9ydRXfN8kqVJUFndDasP7V7_oqNmNLP5A,2954
+tk_steroids/matplotlib.py,sha256=czRt6wJKg-UwgpnzdaMFdI4GD-n4B1xciNEbx2iiWts,14821
+tk_steroids/menumaker.py,sha256=EOabYqYmHbLqGcMGXz4X6ugo4n75h0PZH1MAmOXeLjc,7470
+tk_steroids/routines.py,sha256=L27hJ8UdeVCVT6A-QTgVIPJQz60trgmEmZmIOxNpSz0,3268
+tk_steroids/version.py,sha256=2KJZDSMOG7KS82AxYOrZ4ZihYxX0wjfUjDsIZh3L024,22
+tk_steroids-0.7.1.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+tk_steroids-0.7.1.dist-info/METADATA,sha256=tYlDP7hfvu-5qunF-bDtLaInc1BdAv7ms9gnsZfpLtw,2390
+tk_steroids-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tk_steroids-0.7.1.dist-info/top_level.txt,sha256=IAbPqZhtAJwjUmlwYgINCHeEpigaFAq0F_3usmWlFVg,12
+tk_steroids-0.7.1.dist-info/RECORD,,
