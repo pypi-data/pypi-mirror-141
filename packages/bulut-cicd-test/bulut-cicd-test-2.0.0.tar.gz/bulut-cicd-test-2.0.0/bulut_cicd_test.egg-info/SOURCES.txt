@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bulut_cicd_test.egg-info/PKG-INFO
+bulut_cicd_test.egg-info/SOURCES.txt
+bulut_cicd_test.egg-info/dependency_links.txt
+bulut_cicd_test.egg-info/requires.txt
+bulut_cicd_test.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
