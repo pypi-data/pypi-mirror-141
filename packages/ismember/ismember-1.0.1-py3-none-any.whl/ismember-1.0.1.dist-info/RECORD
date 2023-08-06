@@ -1,0 +1,10 @@
+ismember/__init__.py,sha256=4Dxh1590D98ch9yzvDVEWrTHWq73YeQBnzEHYobSmuk,1138
+ismember/example.py,sha256=AQiRiZ2otsqFvTItqbwV9XNLUvYdhUcLqQVPWOVdvS8,3161
+ismember/ismember.py,sha256=smwquJEIyn8VG7_St82c6ZJgrCWeSHDZH_s7iqghPn4,4221
+ismember/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ismember/tests/test_ismember.py,sha256=uZXw1woIfoOP3pPTMSvYciL2onGNvCDJ64OMsSgfmRM,1771
+ismember-1.0.1.dist-info/LICENSE,sha256=cvRnxCEpgjpYbJi7upk-vffgyG1bzv2_BfGg0cb3zL0,1121
+ismember-1.0.1.dist-info/METADATA,sha256=bZ-Pfz4pDnxh7SzsJ_12R2uMyKWy8c_X-LcXIUSKonM,3611
+ismember-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ismember-1.0.1.dist-info/top_level.txt,sha256=ajQaqkk4EvyQMXbnjWxWGbVmTB_tUL61WtNE-RG8Ctc,9
+ismember-1.0.1.dist-info/RECORD,,
