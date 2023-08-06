@@ -1,0 +1,8 @@
+memory_efficient_attention_pytorch/__init__.py,sha256=03TkYKNwqrNLqd31cw-R2kfSgV053f0M1M6MbEduQFE,188
+memory_efficient_attention_pytorch/memory_efficient_attention.py,sha256=FgplLWxBGjJQt1GcjUu1fJNr5h1nVJPv7gaSa9YzVcI,6573
+memory_efficient_attention_pytorch/memory_efficient_cosine_sim_attention.py,sha256=-M5Af0uWXeNVZ5gjEhav7PUuJuPU5jljgIChlE2tngk,6205
+memory_efficient_attention_pytorch-0.0.8.dist-info/LICENSE,sha256=xZDkKtpHE2TPCAeqKe1fjdpKernl1YW-d01j_1ltkAU,1066
+memory_efficient_attention_pytorch-0.0.8.dist-info/METADATA,sha256=D77eJlUvF27lRQpj04e6R8ugXAeQR88Zh380KrFKJnQ,707
+memory_efficient_attention_pytorch-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memory_efficient_attention_pytorch-0.0.8.dist-info/top_level.txt,sha256=qsHVCeWEsnNIL78HjNj6X8Iyb3hDNtiMLkDvrmd-ofU,35
+memory_efficient_attention_pytorch-0.0.8.dist-info/RECORD,,
