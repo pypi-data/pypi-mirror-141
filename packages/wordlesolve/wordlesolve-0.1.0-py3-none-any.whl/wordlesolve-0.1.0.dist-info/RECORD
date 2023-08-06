@@ -1,0 +1,11 @@
+wordlesolve/__init__.py,sha256=7UXXe-jwah2bhEeaRo4EwGOACvnCTQgG7OqHKYnTMwA,5144
+wordlesolve/__main__.py,sha256=k-vVk-bTqeESt02xwRx1Vg_rtK0gKydvmw6hejWYxG8,4395
+wordlesolve/console.py,sha256=kjxaI0AUxWKSjzW1CZ9BTFHyPt4pyVkHiWSF6GAaVIQ,10313
+wordlesolve/ruleset.py,sha256=c9WrCBl3ovvpGKfWCz2VrGfraNdXw3PRmf1p7E3RaJM,16831
+wordlesolve/solver.py,sha256=W8q0tlbvG7tl7heCIv1m7e5eCsSjjOODrROD-GNC0I4,16477
+wordlesolve/wordlist.py,sha256=6tsgrxYVhJ2mPbUiee-saXWpG8K1WrB_mMXLgq2JIqk,168833
+wordlesolve-0.1.0.dist-info/LICENSE,sha256=yUJLtdaA8E2I5ANvJO7JyCHjxjeWIAb7pOgVn_5PyqU,1067
+wordlesolve-0.1.0.dist-info/METADATA,sha256=scmwKJHGUGyhiWSJ-2x4-w9mDvaBXdYW4VQK6rBwzh8,7306
+wordlesolve-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordlesolve-0.1.0.dist-info/top_level.txt,sha256=T4VGh_FLPSIx0fbV-siVlWTw1I2-NjULvIDSsu9i5go,12
+wordlesolve-0.1.0.dist-info/RECORD,,
