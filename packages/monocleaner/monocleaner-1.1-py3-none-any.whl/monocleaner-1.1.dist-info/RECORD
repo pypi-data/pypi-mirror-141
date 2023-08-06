@@ -1,0 +1,15 @@
+monocleaner/__init__.py,sha256=KgxTBcXD-VN0x4DTnpz0YEVu5D97LjLCqZndPIXUZ_4,21
+monocleaner/hardrules.py,sha256=zkIwvssraMfdA9Z5FGDEqZ1PYntloVYOpjbVklohcnY,7693
+monocleaner/lm.py,sha256=5S23zDx-674oge8wljAoJY4cdH4-k_qindxl92OSaoA,13407
+monocleaner/monocleaner.py,sha256=lJ9FIbPKDxOh41QAJZzIPPzgIBcWw1G1ToTGOqTPyjg,5475
+monocleaner/monocleaner_train.py,sha256=HzoSCl5n2CLpHYptMHUWqtnU3FtCF1AZwyurXevwXSk,3278
+monocleaner/tokenizer.py,sha256=_7Yw16-Jg00cW42pYUMPmEJwoYRGZbTIVgYKfIrWXNk,2193
+monocleaner/util.py,sha256=rcQvaoEM7iSEso-c7jVSjXFWcf2ws9lLhXGLtwEklSI,3124
+monocleaner-1.1.data/scripts/monocleaner,sha256=KAcVddlYlaXergoqfGqk7WyQ2uohPO-CmWP_bXHt9gI,460
+monocleaner-1.1.data/scripts/monocleaner-download,sha256=Qbftuzad_lQWy2uDHP3c4Hu-K8byRbcEjrkMkhStUTw,918
+monocleaner-1.1.data/scripts/monocleaner-train,sha256=JSqKo0z-g-RbroIdXplBYsbzpq5_yTcTG4o4L7Zmn0w,466
+monocleaner-1.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+monocleaner-1.1.dist-info/METADATA,sha256=779Nk1-zKyKbJ4vrxFiD2d_9eoc8tmIXwqpRWKWxqjE,7009
+monocleaner-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+monocleaner-1.1.dist-info/top_level.txt,sha256=pCgYYAyGRlhXp5RbVn65FzOjjTIPAVFDk22-mVSXZJM,12
+monocleaner-1.1.dist-info/RECORD,,
