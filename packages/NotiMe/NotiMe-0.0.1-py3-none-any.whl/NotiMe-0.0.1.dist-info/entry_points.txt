@@ -1,0 +1,2 @@
+[console_scripts]
+notime = NotiMe.__main__:main
