@@ -1,0 +1,7 @@
+setup.py
+ex3package1/__init__.py
+ex3package1/hello.py
+ex3package1.egg-info/PKG-INFO
+ex3package1.egg-info/SOURCES.txt
+ex3package1.egg-info/dependency_links.txt
+ex3package1.egg-info/top_level.txt
