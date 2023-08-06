@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gprof-nn
+Version: 0.0.3
+Summary: Neural network version of Goddard Profiling Algorithm (GPROF)
+Home-page: https://github.com/simonpf/gprof_nn
+Author: Simon Pfreundschuh
+Author-email: simon.pfreundschuh@chalmers.se
+License: UNKNOWN
+Project-URL: Source, https://github.com/simonpf/gprof_nn/
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xarray
+Requires-Dist: torch
+Requires-Dist: appdirs
+Requires-Dist: rich
+Requires-Dist: quantnn (>=0.0.4dev)
+
+# GPROF-NN
+
+A neural-network-based implementation of the Goddard Profiling Algorithm 
+(GPROF).
+
+
