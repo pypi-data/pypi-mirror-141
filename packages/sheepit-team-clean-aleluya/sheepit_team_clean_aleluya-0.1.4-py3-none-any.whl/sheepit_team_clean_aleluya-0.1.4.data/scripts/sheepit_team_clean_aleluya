@@ -1,0 +1,235 @@
+#!python
+# For God so loved the world, that He gave His only begotten Son
+# that all who believe in Him should not perish but have everlasting life
+import argparse
+import re
+import sys
+import requests
+import pkg_resources  # part of setuptools
+
+from html.parser import HTMLParser
+
+__version__ = pkg_resources.require("sheepit_team_clean_aleluya")[0].version
+
+
+class TeamPageParserAleluya(HTMLParser):
+    """
+    Hallelujah
+    Parse the team page for member links
+    """
+
+    def __init__(self, *args_aleluya, **kwargs_aleluya):
+        self.team_member_names_aleluya = dict()
+        self.onclick_usermatcher_aleluya = re.compile(r".*removeuser/(.+)'.*", re.MULTILINE)
+        self._last_score_aleluya = 0
+        self._td_id_aleluya = 0
+        super().__init__(*args_aleluya, **kwargs_aleluya)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self._td_id_aleluya = 0
+        if tag == "td":
+            self._td_id_aleluya += 1
+        if tag == "a":
+            attrs_dict_aleluya = dict(attrs)
+            onclick_aleluya = attrs_dict_aleluya.get("onclick")
+            if onclick_aleluya:
+                match_chirho = self.onclick_usermatcher_aleluya.search(onclick_aleluya)
+                if match_chirho:
+                    member_name_chirho = match_chirho.groups()[0]
+                    self.team_member_names_aleluya[member_name_chirho] = self._last_score_aleluya
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "tr":
+            self._td_id_aleluya = 0
+            self._last_score_aleluya = 0
+
+    def handle_data(self, data: str):
+        if self._td_id_aleluya == 3 and self._last_score_aleluya == 0:
+            test_score_aleluya = re.sub(r"[^0-9]", "", data)
+            if test_score_aleluya:
+                self._last_score_aleluya = int(test_score_aleluya)
+            else:
+                self._last_score_aleluya = 0
+
+    def get_team_member_names_aleluya(self) -> dict:
+        """
+        Hallelujah - after running .feed , return the resulting team members to their scores
+        :return: set of team member names
+        """
+        return self.team_member_names_aleluya
+
+
+class TeamMemberParserAleluya(HTMLParser):
+    """
+    Hallelujah
+    Parse the team page for member links
+    """
+
+    def __init__(self, *args_aleluya, **kwargs_aleluya):
+        self._is_over_31_days_aleluya = False
+        self._re_over_31_days_aleluya = re.compile(r".*Has not rendered anything for at least 31 days.*")
+        super().__init__(*args_aleluya, **kwargs_aleluya)
+
+    def handle_data(self, data: str):
+        if self._re_over_31_days_aleluya.search(data):
+            self._is_over_31_days_aleluya = True
+
+    def is_over_31_days_aleluya(self) -> bool:
+        """
+        Hallelujah - after running .feed , return if hasn't rendered in over 31 days
+        :return: true if hasn't rendered in over 31 days
+        """
+        return self._is_over_31_days_aleluya
+
+
+def print_i_aleluya(msg_aleluya: str):
+    """
+    Hallelujah print informational / verbose message
+    :param msg_aleluya: message to print
+    """
+    print(msg_aleluya, file=sys.stderr)
+
+
+def print_e_aleluya(msg_aleluya: str):
+    """
+    Hallelujah, print to stderr
+    :param msg_aleluya:
+    :return: None
+    """
+    print(msg_aleluya, file=sys.stderr)
+
+
+def process_args_chirho():
+    """
+    Hallelujah -
+    Process the command line arguments, place help message if unfulfilled
+    :return: args_aleluya.(team_id_aleluya, username_aleluya, password_aleluya, dry_run_aleluya)
+    """
+    parser_aleluya = argparse.ArgumentParser(
+        description="Log in to sheepit and remove members from a team that have not rendered in over 31 days, "
+                    "that are within a specified point range.", epilog="in Jesus Christ's name")
+    parser_aleluya.add_argument(
+        '--team_id', '-t', dest="team_id_aleluya", type=int, help='The id of the team to clean',
+        required=True)
+    parser_aleluya.add_argument(
+        '--username', '-u', dest="username_aleluya", type=str, help='Login username of team admin',
+        required=True)
+    parser_aleluya.add_argument(
+        '--password', '-p', dest="password_aleluya", type=str, help='Login password of team admin',
+        required=True)
+    parser_aleluya.add_argument(
+        '--dry_run', '-d', action="store_true", dest="dry_run_aleluya", help='Dry run')
+    parser_aleluya.add_argument(
+        '--max_score', '-M', dest="max_score_aleluya", type=int,
+        help='Max score of user that will still be removed', default=100_000, )
+    parser_aleluya.add_argument(
+        '--min_score', '-m', dest="min_score_aleluya", type=int,
+        help='Minimum score of user that will still be removed', default=1, )
+    parser_aleluya.add_argument(
+        '--exclude_member', '-X', action="append", dest="excluded_members_aleluya", type=str,
+        help='Members to exclude from being removed, can be placed several times')
+    parser_aleluya.add_argument(
+        '--version', '-v', action='version', version=f'%(prog)s {__version__}')
+
+    args_aleluya = parser_aleluya.parse_args()
+    return args_aleluya
+
+
+def login_chirho(session_aleluya: 'requests.Session', username_aleluya: str, password_aleluya: str):
+    """
+    :param session_chirho: requests.Session()
+    :param username_aleluya: from process_args_chirho
+    :param password_aleluya: from process_args_chirho
+    :return: None
+    """
+    print_i_aleluya("Aleluya - Logging in")
+    data_aleluya = {
+        "login": username_aleluya,
+        "password": password_aleluya,
+        "timezone": "America/Guatemala"}
+    post_aleluya = session_aleluya.post("https://sheepit-renderfarm.com/user/authenticate", data=data_aleluya)
+    if post_aleluya.status_code != 200:
+        print_e_aleluya(f"Hallelujah, Error in login post: {post_aleluya.status_code}: {post_aleluya.content}")
+        exit(1)
+
+
+def get_team_members_aleluya(session_aleluya: 'requests.Session', team_id_aleluya: int) -> dict:
+    """
+    Return the content of the team page
+    :param session_aleluya: from requests.Session
+    :param team_id_aleluya: from process_args_chirho
+    :return:
+    """
+    print_i_aleluya("Aleluya - Getting Team Members")
+    get_aleluya = session_aleluya.get(f"https://sheepit-renderfarm.com/team/{team_id_aleluya}")
+    if get_aleluya.status_code != 200:
+        print_e_aleluya(f"Hallelujah, Error in team page get: {get_aleluya.status_code}: {get_aleluya.content}")
+        exit(1)
+    content_aleluya = get_aleluya.content.decode('utf8')
+    team_page_parser_chirho = TeamPageParserAleluya()
+    team_page_parser_chirho.feed(content_aleluya)
+    return team_page_parser_chirho.get_team_member_names_aleluya()
+
+
+def is_member_over_31_days_aleluya(
+        session_aleluya: 'requests.Session', team_member_name_aleluya: str, team_member_score_aleluya: int) -> bool:
+    """
+    Hallelujah, for a specific team member name, return if the member has not rendered anything in over 31 days
+    :param session_aleluya: from requests.Session
+    :param team_member_name_aleluya: a member from get_team_member_names_aleluya
+    :return:
+    """
+    get_aleluya = session_aleluya.get(f"https://sheepit-renderfarm.com/user/{team_member_name_aleluya}/profile")
+    if get_aleluya.status_code != 200:
+        print_e_aleluya(
+            f"Hallelujah, Error in team member get: {team_member_name_aleluya} - {get_aleluya.status_code}: "
+            f"{get_aleluya.content}")
+        exit(1)
+    content_aleluya = get_aleluya.content.decode('utf8')
+    team_member_parser_aleluya = TeamMemberParserAleluya()
+    team_member_parser_aleluya.feed(content_aleluya)
+    return team_member_parser_aleluya.is_over_31_days_aleluya()
+
+
+def remove_member_from_team_aleluya(session_aleluya: 'requests.Session', team_member_name_aleluya: str,
+                                    team_id_aleluya: int) -> bool:
+    """
+    Hallelujah - remove a member from a team
+    :param session_aleluya: from requests.Session
+    :param team_member_name_aleluya: a name of a member o team_id_aleluya
+    :param team_id_aleluya: team to remove member from
+    :return: if ok or not
+    """
+    post_aleluya = session_aleluya.post(
+        f'https://sheepit-renderfarm.com/team/{team_id_aleluya}/removeuser/{team_member_name_aleluya}')
+    return post_aleluya.status_code == 200
+
+
+def main_aleluya():
+    args_aleluya = process_args_chirho()
+    vals_aleluya = args_aleluya.team_id_aleluya, args_aleluya.username_aleluya, args_aleluya.password_aleluya
+    team_id_aleluya, username_aleluya, password_aleluya = vals_aleluya
+    excluded_members_aleluya = args_aleluya.excluded_members_aleluya or []
+    with requests.Session() as session_aleluya:
+        login_chirho(session_aleluya, username_aleluya, password_aleluya)
+        team_members_aleluya = get_team_members_aleluya(session_aleluya, team_id_aleluya)
+        print_i_aleluya("Aleluya - Checking team members")
+        for team_member_name_aleluya, team_member_score_aleluya in team_members_aleluya.items():
+            if (team_member_score_aleluya > args_aleluya.max_score_aleluya
+                    or team_member_score_aleluya < args_aleluya.min_score_aleluya):
+                # print_i_aleluya(f"Aleluya - User {team_member_name_aleluya} is over max score of {args_aleluya.max_score_aleluya} with {team_member_score_aleluya} points")
+                continue
+            if (is_member_over_31_days_aleluya(session_aleluya, team_member_name_aleluya, team_member_score_aleluya)
+                and team_member_name_aleluya not in excluded_members_aleluya):
+                if args_aleluya.dry_run_aleluya:
+                    print_i_aleluya(
+                        f"Dry run - User {team_member_name_aleluya} with {team_member_score_aleluya} would be removed")
+                    continue
+                remove_member_from_team_aleluya(session_aleluya, team_member_name_aleluya, team_id_aleluya)
+
+    print("ALELUYA Finished")
+
+
+if __name__ == '__main__':
+    main_aleluya()
