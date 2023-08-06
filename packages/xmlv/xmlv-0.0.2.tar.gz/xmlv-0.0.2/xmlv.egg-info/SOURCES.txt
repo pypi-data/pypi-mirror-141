@@ -1,0 +1,10 @@
+README.md
+setup.py
+xmlv/__init__.py
+xmlv/preprocessing.py
+xmlv/vectorizer.py
+xmlv.egg-info/PKG-INFO
+xmlv.egg-info/SOURCES.txt
+xmlv.egg-info/dependency_links.txt
+xmlv.egg-info/requires.txt
+xmlv.egg-info/top_level.txt
