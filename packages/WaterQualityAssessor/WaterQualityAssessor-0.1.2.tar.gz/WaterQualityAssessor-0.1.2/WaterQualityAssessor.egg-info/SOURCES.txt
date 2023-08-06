@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+WaterQualityAssessor/WaterQualityAssessor.py
+WaterQualityAssessor/__init__.py
+WaterQualityAssessor.egg-info/PKG-INFO
+WaterQualityAssessor.egg-info/SOURCES.txt
+WaterQualityAssessor.egg-info/dependency_links.txt
+WaterQualityAssessor.egg-info/requires.txt
+WaterQualityAssessor.egg-info/top_level.txt
