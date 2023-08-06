@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-o2 = jupyter_o2:main
