@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+suprenam.egg-info/PKG-INFO
+suprenam.egg-info/SOURCES.txt
+suprenam.egg-info/dependency_links.txt
+suprenam.egg-info/top_level.txt
+test/test_examples.py
+test/test_file_system.py
+test/test_get_editable_text.py
+test/test_get_editor_command.py
+test/test_parse_edited_text.py
+test/test_paths_to_inodes_paths.py
+test/test_renamings.py
+test/test_secure_clauses.py
