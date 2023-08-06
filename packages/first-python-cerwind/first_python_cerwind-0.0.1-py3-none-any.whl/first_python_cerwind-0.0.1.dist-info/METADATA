@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: first-python-cerwind
+Version: 0.0.1
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Charlie Day
+Author-email: <charliemday31@gmail.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+
+My first Python package with a slightly longer description
+
