@@ -1,0 +1,14 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jake/__init__.py,sha256=Pte4Eg5T5VIG-wcNipekUkXoBPTk_NsqUw557qzFr-U,589
+jake/app.py,sha256=oeXtbUlV7S8ufPXyQlLw58BzCO8WHZYcvjevn0lA9DE,4059
+jake/command/__init__.py,sha256=VZLi5MI2ApRupd0ktF7DA3iQRsLSHjm99-USsLa9pX8,1857
+jake/command/config.py,sha256=qqx0uMu9w5KIKEqiv7eSgIDRpLYRXm-qQRhi7nS9gio,1172
+jake/command/iq.py,sha256=TL-RM3qGU1py0xSKtwC26Yz8D5u0ogPcaYQNSd-Oq_w,11191
+jake/command/oss.py,sha256=jz5YFzb59JZ9_lMXpuMKwn_04ck_kcrWba44cSG4lL0,15295
+jake/command/sbom.py,sha256=UKMs5gL5yJ1M-Ij16k-9BaWU8iv0MUAkzsGs6_nZoD4,8015
+jake/py.typed,sha256=EFHg9-wbl4yUKjj8V3gUwoBZQam2tFkzh9IuCnmNyew,153
+jake-2.0.0.dist-info/entry_points.txt,sha256=EDd11A9-43gZ7M5x6suT6UIh7p01Die2KH2IizK_H3k,38
+jake-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jake-2.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jake-2.0.0.dist-info/METADATA,sha256=xlc1YIq5e5FQZn-qXs2VkFWYe8jYSmlP6XGTo9kkvzM,29217
+jake-2.0.0.dist-info/RECORD,,
