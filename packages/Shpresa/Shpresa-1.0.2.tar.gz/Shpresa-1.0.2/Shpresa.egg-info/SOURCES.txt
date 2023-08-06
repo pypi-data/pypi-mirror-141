@@ -1,0 +1,6 @@
+setup.py
+Shpresa.egg-info/PKG-INFO
+Shpresa.egg-info/SOURCES.txt
+Shpresa.egg-info/dependency_links.txt
+Shpresa.egg-info/top_level.txt
+mypackage/__init__.py
