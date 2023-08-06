@@ -1,0 +1,15 @@
+wordleaisql/__init__.py,sha256=8_Hjbyam4AqIH33clOTWojZnBXZEpG2KFR8-7_1PasE,46
+wordleaisql/api.py,sha256=IXt1KEkKI-uXk5_E3QkzBnGdTXxz0s3rA4eYQxmkmrQ,17404
+wordleaisql/approx.py,sha256=myXeCJ_0tyIugl_N86TV078kkHSJ5-y3aruV8Eqd1eo,12312
+wordleaisql/base.py,sha256=KLyzjPuRZxPVl7jUa8cE-jWPbQoRStjQ37LYB6qTsbE,4396
+wordleaisql/bigquery.py,sha256=zxm_SkRhX6DFFAiS3ypwDHdjn1IllY1bIdbWcDc4rmM,13904
+wordleaisql/sqlite.py,sha256=hHHMKMIrdy8-NkE7W4Egl-jmqiUojGyXEOodG64eYbo,9703
+wordleaisql/utils.py,sha256=uP7NpZR68ruf3l-ch9KaQI8m-9VkBO2neNWNVFuElXI,8504
+wordleaisql/wordle-judge-all.cpp,sha256=kJoYp6eaWGBiqLey3hv37BQSmudmLUsmoTCFtYdjtlA,2458
+wordleaisql/wordle-vocab.txt,sha256=orqXenlUFXg2uT747ohF-L7dcIXHqfW5cnE0W9GSx-s,77681
+wordleaisql-0.2.1.dist-info/LICENSE,sha256=19pDhZJmbBoCVEzcNZwMGrwXo-uLP1y-cXMAnU5p6XM,1066
+wordleaisql-0.2.1.dist-info/METADATA,sha256=1zFNdgzr-KAOZ68zh5FXMWkUnAfsN6ZVKsutnQx-uSI,11361
+wordleaisql-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wordleaisql-0.2.1.dist-info/entry_points.txt,sha256=Ny8zooFwt6gix42JBmK6ke9kj5myPyjKkP3a07bN5OQ,55
+wordleaisql-0.2.1.dist-info/top_level.txt,sha256=ED5KJlkvg-Jnp7S2-OJcDxg9jFDy9eqNyAcZegzv3Dw,12
+wordleaisql-0.2.1.dist-info/RECORD,,
