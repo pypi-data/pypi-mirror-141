@@ -1,0 +1,4 @@
+Click
+requests
+retrying
+ec2-metadata
