@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: shaffle
+Version: 0.0.1
+Summary: SHA-ffle: Map hash-ables to pseudo-random numbers.
+Home-page: https://github.com/codestem/shaffle
+Author: Pavel
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# shaffle
+SHA-ffle: Map hash-ables to pseudo-random floats.
+
+
