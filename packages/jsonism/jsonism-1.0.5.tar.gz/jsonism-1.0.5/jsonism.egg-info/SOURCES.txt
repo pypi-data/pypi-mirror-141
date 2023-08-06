@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+jsonism/__init__.py
+jsonism/checker.py
+jsonism.egg-info/PKG-INFO
+jsonism.egg-info/SOURCES.txt
+jsonism.egg-info/dependency_links.txt
+jsonism.egg-info/top_level.txt
+tests/__init__.py
+tests/test_check.py
