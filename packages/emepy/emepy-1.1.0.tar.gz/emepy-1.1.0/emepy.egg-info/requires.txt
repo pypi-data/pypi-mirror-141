@@ -1,0 +1,12 @@
+Pillow
+matplotlib
+numpy
+scipy
+simphony
+sklearn
+pandas
+torch
+torchvision
+tdqm
+ElectroMagneticPythonGpu
+shapely
