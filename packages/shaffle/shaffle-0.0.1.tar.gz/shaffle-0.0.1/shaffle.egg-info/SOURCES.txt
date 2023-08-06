@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+shaffle/__init__.py
+shaffle/mapping.py
+shaffle.egg-info/PKG-INFO
+shaffle.egg-info/SOURCES.txt
+shaffle.egg-info/dependency_links.txt
+shaffle.egg-info/top_level.txt
