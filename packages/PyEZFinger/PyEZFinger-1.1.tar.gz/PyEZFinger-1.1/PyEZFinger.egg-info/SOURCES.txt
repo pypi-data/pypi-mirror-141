@@ -1,0 +1,8 @@
+README.md
+setup.py
+EZFinger/__init__.py
+EZFinger/finger.py
+PyEZFinger.egg-info/PKG-INFO
+PyEZFinger.egg-info/SOURCES.txt
+PyEZFinger.egg-info/dependency_links.txt
+PyEZFinger.egg-info/top_level.txt
