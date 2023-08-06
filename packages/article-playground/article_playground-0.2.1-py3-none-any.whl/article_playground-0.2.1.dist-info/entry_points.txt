@@ -1,0 +1,3 @@
+[console_scripts]
+noticle=article_playground.__main__:main
+
