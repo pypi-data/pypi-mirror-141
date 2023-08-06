@@ -1,0 +1,9 @@
+import numpy as np
+from ._mesh import Mesh as Mesh
+from meshio import CellBlock
+from numpy.typing import ArrayLike as ArrayLike
+from typing import Callable
+
+def extract_submesh(mesh: Mesh, point_mask: Union[ArrayLike, None] = ..., cell_mask: Union[list[Union[bool, ArrayLike]], Callable[[CellBlock], Union[bool, ArrayLike]], None] = ...) -> Mesh: ...
+def split_cell_sets(mesh: Mesh, store_orig_node_ids_as: Union[str, None] = ..., orig_node_ids_dtype=...) -> dict[str, Mesh]: ...
+def zone_point_selection(mesh: Mesh, target_zones: list[str]) -> np.ndarray: ...
