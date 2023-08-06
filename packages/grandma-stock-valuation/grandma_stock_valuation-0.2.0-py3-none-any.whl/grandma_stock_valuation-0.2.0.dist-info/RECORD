@@ -1,0 +1,16 @@
+grandma_stock_valuation/__init__.py,sha256=gDnoAhqx-ASXbZZ0GUy5PnYPhVV2MxHrY2PosvCPJhs,455
+grandma_stock_valuation/load_package_data.py,sha256=oB_y5AYVZPLRX5j0oOYx6cjrfbP4mNBLWrGmwA222SQ,1497
+grandma_stock_valuation/portfolio_allocator.py,sha256=0qG9dyOrVhHZNCoO3JBDa2sFCJewpeBGD6Jr0O0wN_g,7100
+grandma_stock_valuation/valuation_model.py,sha256=5Ro6HXWmDFjgY5rdNbiL26ju0LJ8WX4aqP5KlQOXmas,18187
+grandma_stock_valuation/yahoo_data_loader.py,sha256=q92gGCsUgj_kU_3QGS2TmOP0mFLVFDJPfdWdw_lOZ_Q,10860
+grandma_stock_valuation/data/EEMA_EOD.csv.gz,sha256=rgUcVwyjrmufjMhKrwMQyaOf-ku-8H664uILggmUB3A,47174
+grandma_stock_valuation/data/IEV_EOD.csv.gz,sha256=TsnXPYmLKcDF4ZNDmlFerAF0rF6YVmpbPkeU520OyIw,104509
+grandma_stock_valuation/data/IVV_EOD.csv.gz,sha256=f0tUoJ0PrPl8gIxhLImpc9ESjxwLa6m6ZL1FFNOYjjY,122473
+grandma_stock_valuation/data/VPL_EOD.csv.gz,sha256=_7nsveWSucYt0feJe_uJcZbfywHRIe9hyvRi0ShsQD8,83643
+grandma_stock_valuation/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grandma_stock_valuation/utils/logger.py,sha256=pmWM6U8-AMJhAx20HZu0LJFtcb5ZDRH_uXZHXkPwYEc,3491
+grandma_stock_valuation-0.2.0.dist-info/LICENSE.txt,sha256=Pcc_N0uAh2U75dHkDNJSSRDHHgmjkkO5cXNe0uTDW1w,1087
+grandma_stock_valuation-0.2.0.dist-info/METADATA,sha256=ZQjdfoatsIYdMRnZWDazrPjOWL_D9OT9kcsthbSb0Q4,2379
+grandma_stock_valuation-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+grandma_stock_valuation-0.2.0.dist-info/top_level.txt,sha256=lnjH6CSaASUD0mvbDzcm_FVWjjSZSCJCd3fC8NU8tLI,54
+grandma_stock_valuation-0.2.0.dist-info/RECORD,,
