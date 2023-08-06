@@ -1,0 +1,13 @@
+pyqms/__init__.py,sha256=3rLk8Zu4hZavaVE1BysQjzPZDlc5AHNXqn0FcCcrhcg,989
+pyqms/adaptors.py,sha256=qCIooHm9FkX2UR3W7RhhjPFTL6a0lYRC6EJGzvAad9w,21217
+pyqms/isotopologue_library.py,sha256=k99O_rPRTZfQuLo4Ke-j5jltBJ85IpNRRvsmiqOzStk,115823
+pyqms/knowledge_base.py,sha256=Cc8veoCL1_zcJQiLiDvDMqqKLP26cwcFeDqd1b_wHe8,9530
+pyqms/params.py,sha256=3pQHEAyERaZQ0BlLrKzEwhV4fj5LQo5slLWP1GQzE-o,9934
+pyqms/results.py,sha256=2Qpr93wudGs8TY-ca07GvPd2v2LgSaNbGbLlGAZ6_kI,80027
+pyqms/version.txt,sha256=IMEhiG6092IETGUHdF9klFJUMqwitB9ac6jlvxW4uQ4,6
+pyqms/kb/ext/unimod.xml,sha256=owCtc_jFTckj45HsLGRbaD0MzUJ5Ug7vaZ3mrU30oIM,1281190
+pyqms-0.6.4.dist-info/LICENSE,sha256=dGCN7ocSbcQg7Z_A5b88oW21b8uYCu_rqiBeOvdbTng,1073
+pyqms-0.6.4.dist-info/METADATA,sha256=W4RI7KHFns9C5evYKfywAiHtSaBr-bZYa-VoDqAxQGg,1579
+pyqms-0.6.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyqms-0.6.4.dist-info/top_level.txt,sha256=JmApZKOz4mYXFZcYXQmK1olLuhiDbirFEpo-EZK3mqE,6
+pyqms-0.6.4.dist-info/RECORD,,
