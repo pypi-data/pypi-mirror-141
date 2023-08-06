@@ -1,0 +1,12 @@
+cp_tcgen-0.11.data/scripts/genout,sha256=ZBDKvqJPZTMl4ZNyKk6WwzXbKf32AFJyu3NtzHMr7_g,2759
+cp_tcgen-0.11.data/scripts/tcgen,sha256=giU-Y7xjNBYG_oZ16mJWos1XyPJWjc5411HugoT32KY,2071
+tcgen/__init__.py,sha256=VMasjuvToG0Pgzp9mE7K7ovHGm3J7nqQ4crx5nrwIJ0,107
+tcgen/_version.py,sha256=9VKqxH3Oo-yNjphSktFImTjRZADAm4DegPVCpmEa3Q8,17
+tcgen/datatypes.py,sha256=KTSvZJk2h-JR90uFLR0ShKWwumAzT-PJ_BfdvTeIFAQ,13172
+tcgen/generator.py,sha256=WtvyN_7VLVhk5_bzu5yeEfOpqASc6eIx0Z1Ab4JK83E,556
+tcgen/primitives.py,sha256=hWT4-8vLyKCozS7KBlETmtqVaGy1j6ZPXdHnFfSapbg,10540
+cp_tcgen-0.11.dist-info/LICENSE,sha256=SijBRzvI1BgeWZnDc5KIoFylCLsBFPAHTEmwvR9lyw0,1067
+cp_tcgen-0.11.dist-info/METADATA,sha256=3WSp5EY3UXEmdKlJCG5NNwH0r7A3ibS1mN34kCejBj8,1785
+cp_tcgen-0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cp_tcgen-0.11.dist-info/top_level.txt,sha256=CX4geKjp_H9KXJKNa3JODbtt7jrPVet9BESsr5K7ClA,6
+cp_tcgen-0.11.dist-info/RECORD,,
