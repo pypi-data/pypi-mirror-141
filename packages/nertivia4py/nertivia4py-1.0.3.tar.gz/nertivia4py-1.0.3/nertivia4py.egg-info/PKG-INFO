@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nertivia4py
+Version: 1.0.3
+Summary: A Python wrapper for the Nertivia API
+Home-page: https://github.com/bentettmar/nertivia4py
+Author: Ben Tettmar
+Author-email: hello@benny.fun
+License: MIT
+Keywords: nertivia,api,wrapper,python,bot,nertivia.py,nertivia4py
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Nertivia4PY
+A Python wrapper for the Nertivia API.  
+Support Nertivia server : https://nertivia.net/i/nertivia4py
+
+> ### Install
+> ```
+> pip install nertivia4py
+> ```
+
+> ### Example 
+> ```python
+> import nertivia4py
+> 
+> token = "TOKEN_HERE"
+> prefix = "!"
+> 
+> bot = nertivia4py.Bot(prefix)
+> 
+> @bot.event
+> def on_success(event):
+>     print("Connected!")
+> 
+> @bot.command(name="ping", description="Ping command.")
+> def ping_command(message, args):
+>     message.reply("Pong!")
+> 
+> bot.run(token)
+> ```  
+> 
+> For more examples, take a look at the examples folder in the github repo.
+
+
