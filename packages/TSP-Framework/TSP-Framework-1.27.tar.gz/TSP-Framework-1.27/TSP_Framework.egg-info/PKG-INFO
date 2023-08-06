@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TSP-Framework
+Version: 1.27
+Summary: Framework para resolver el problema del vendedor viajero aplicando metodos de busqueda como Simulated Annealing, Genetic Algorithm, Local Search o Iterated Local Search
+Home-page: https://github.com/Javernaver/TSP-Framework
+Author: Javier del Canto, Jorge Polanco
+Author-email: javier.delcanto.m@mail.pucv.cl, jorge.polanco.sanmartin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+https://github.com/Javernaver/TSP-Framework
+
