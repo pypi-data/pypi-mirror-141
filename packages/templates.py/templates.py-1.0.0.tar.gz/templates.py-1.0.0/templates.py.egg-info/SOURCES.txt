@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+templates.py
+templates.py.egg-info/PKG-INFO
+templates.py.egg-info/SOURCES.txt
+templates.py.egg-info/dependency_links.txt
+templates.py.egg-info/requires.txt
+templates.py.egg-info/top_level.txt
