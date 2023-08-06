@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: paraphrase-metrics
+Version: 0.0.1
+Summary: Paraphrase Metrics
+Home-page: https://github.com/tlkh/paraphrase-metrics
+Author: Timothy Liu
+Author-email: timothy_liu@mymail.sutd.edu.sg
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tlkh/paraphrase-metrics/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: spacy
+Requires-Dist: scipy
+Requires-Dist: textdistance[extras]
+Requires-Dist: scikit-learn
+Requires-Dist: ipywidgets
+Requires-Dist: tqdm
+Requires-Dist: rouge
+Requires-Dist: nltk
+Requires-Dist: spacy-transformers
+Requires-Dist: sentencepiece
+Requires-Dist: sacrebleu (==1.*)
+
+# paraphrase-metrics
+
+Metrics for better understanding of Paraphrases
+
+`pip install paraphrase-metrics`
+
+## About
+
+A python package containing implementations of word position deviation (WPD) and lexical deviation (LD) proposed in "Towards Better Characterization of Paraphrases" (ACL 2022). 
+
+For a simple demo, please see [demo.ipynb](demo.ipynb).
+
+## Paper
+
+The full code associated with the ACL 2022 paper "Towards Better Characterization of Paraphrases" can be found in the `./paper/` folder. 
+
