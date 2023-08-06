@@ -1,0 +1,3 @@
+[console_scripts]
+validatejson = validatejson.validate:run_app
+
