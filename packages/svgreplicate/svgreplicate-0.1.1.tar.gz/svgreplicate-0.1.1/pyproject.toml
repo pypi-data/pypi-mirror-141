@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "svgreplicate"
+version = "0.1.1"
+description = "Tool for batch modifying and replicating SVG-files"
+authors = ["Jan Hein de Jong <janhein.dejong@gmail.com>"]
+homepage = "https://github.com/janheindejong/svgreplicate"
+repository = "https://github.com/janheindejong/svgreplicate"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+mypy = "^0.931"
+pytest = "^7.0.1"
+autoflake = "^1.4"
+isort = "^5.10.1"
+
+[tool.poetry.scripts]
+svgreplicate = 'svgreplicate.__main__:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
