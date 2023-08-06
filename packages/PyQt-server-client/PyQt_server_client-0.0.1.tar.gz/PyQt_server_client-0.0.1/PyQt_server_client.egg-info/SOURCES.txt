@@ -1,0 +1,14 @@
+setup.py
+PyQt_server_client.egg-info/PKG-INFO
+PyQt_server_client.egg-info/SOURCES.txt
+PyQt_server_client.egg-info/dependency_links.txt
+PyQt_server_client.egg-info/requires.txt
+PyQt_server_client.egg-info/top_level.txt
+server/__init__.py
+server/add_user.py
+server/config_window.py
+server/core.py
+server/database.py
+server/main_window.py
+server/remove_user.py
+server/stat_window.py
