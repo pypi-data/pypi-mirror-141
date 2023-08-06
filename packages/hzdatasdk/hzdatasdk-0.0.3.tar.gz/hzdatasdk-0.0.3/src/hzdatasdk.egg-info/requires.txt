@@ -1,0 +1,6 @@
+six
+pandas
+msgpack
+zlib
+sqlalchemy
+grpcio
