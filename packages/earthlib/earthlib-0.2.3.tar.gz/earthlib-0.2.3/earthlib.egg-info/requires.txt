@@ -1,0 +1,7 @@
+earthengine-api
+folium
+matplotlib
+numpy
+pandas
+spectral
+tqdm
