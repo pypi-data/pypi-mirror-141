@@ -1,0 +1,5 @@
+pytest>=4.6
+
+[test]
+numpy
+astropy>=4.0
