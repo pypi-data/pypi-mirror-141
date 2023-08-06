@@ -1,0 +1,32 @@
+name: Build
+on:
+    # branches:
+    #   - '*'
+    #   - '*/*'
+    #   - '**'
+    #   - '!main'
+  push:
+    branches:
+      main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Setup
+        run: pip install ga4gh.gks.metaschema
+      - name: Make
+        run: cd schema && make all
+      - name: Add changed
+        run: git add schema/vod.* && git add schema/catvars.* && git add schema/defs
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Build schema objects [auto-generated]
+          commit-message: Build schema objects [auto-generated]
+          author: GitHub <noreply@github.com>
+          branch: build
+          delete-branch: true

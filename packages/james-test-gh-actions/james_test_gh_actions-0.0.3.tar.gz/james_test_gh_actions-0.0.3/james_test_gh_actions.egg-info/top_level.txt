@@ -1,0 +1,4 @@
+build
+dist
+james_test_gh_actions
+venv
