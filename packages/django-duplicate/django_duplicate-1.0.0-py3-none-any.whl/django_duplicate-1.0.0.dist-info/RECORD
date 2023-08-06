@@ -1,0 +1,11 @@
+duplicate/__init__.py,sha256=Sl1CxrWNvQBSYFiOzcY1lhtAUoSzx3e0ihyyZP1nyZ8,54
+duplicate/apps.py,sha256=M2q_bGY-6X-ZoqgbdtUfPoD50EFaBmOGKHJHn4VOZdo,179
+duplicate/checks.py,sha256=yGdfayiNLShIWNQ6SIRBc9YxKMgDQWwDkN_OZJK3zwk,2285
+duplicate/duplicates.py,sha256=s4FPW3_vV0y66X61v4F_VsJe6Kefk_CL2UQfaTNsrwg,12288
+duplicate/exceptions.py,sha256=wSUMU1v2LtF7z0Dra_j0NzDagv91dw8yemzRMVR6asM,355
+duplicate/models.py,sha256=rZJnp7ZRYNBRExfjukITQiFdizFE2rnNKT2qsOltPOs,370
+duplicate/utils.py,sha256=FxWgTpqQvzzj-_HCWJEFXj9EodEVbJDu82WbRPtl66U,5395
+django_duplicate-1.0.0.dist-info/METADATA,sha256=2AStsAmfdtVi2HZZsCcbG5grrSUyNRCUrs36U4OtWP4,3615
+django_duplicate-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_duplicate-1.0.0.dist-info/top_level.txt,sha256=P4TM6WcFLoXDzy1nHCQz3EiZImu5mmfWv-Suuek4t8w,10
+django_duplicate-1.0.0.dist-info/RECORD,,
