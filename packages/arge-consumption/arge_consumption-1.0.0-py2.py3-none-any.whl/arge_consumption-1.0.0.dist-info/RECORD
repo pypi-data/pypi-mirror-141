@@ -1,0 +1,7 @@
+arge_consumption/__init__.py,sha256=s1pVNjB9a73aIXV60ZLh-esBomJtRwpQ4OceF9ZkEUw,129
+arge_consumption/client.py,sha256=ZNNOd6tWboDxu8ngnAu9aAQssD8vdWY9DLyPLTJysdM,3341
+arge_consumption/errors.py,sha256=l4XCUZO0H5wZ8LaxphYPDEzvNvifTiUrXAb_Doz0Zys,630
+arge_consumption/responses.py,sha256=xff-b7mFOXCgQkpRGkyRxoHbx9nrTtOVfWAHxd1HRmE,4774
+arge_consumption-1.0.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+arge_consumption-1.0.0.dist-info/METADATA,sha256=wyuKP-VdfBrrucxVJQyB3_a7AXtI_8jV5qHOve53OLQ,990
+arge_consumption-1.0.0.dist-info/RECORD,,
