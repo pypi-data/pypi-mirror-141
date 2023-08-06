@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sheet-loader
+Version: 0.1.0
+Summary: Description
+Home-page: https://github.com/mumblepins/sheet-loader/
+License: LGPL-3.0-or-later
+Author: Daniel Sullivan
+Author-email: mumblepins@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: fastapi
+Provides-Extra: s3path
+Requires-Dist: chardet (>=4.0.0,<5.0.0)
+Requires-Dist: fastapi (>=0.74.1,<0.75.0); extra == "fastapi"
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: s3path (>=0.3.3,<0.4.0); extra == "s3path"
+Project-URL: Documentation, https://mumblepins.github.io/sheet-loader/
+Project-URL: Repository, https://github.com/mumblepins/sheet-loader/
+Description-Content-Type: text/markdown
+
+# Python Template Repo
