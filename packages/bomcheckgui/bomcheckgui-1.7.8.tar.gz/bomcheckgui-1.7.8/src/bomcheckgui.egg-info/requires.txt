@@ -1,0 +1,2 @@
+bomcheck>=1.8
+pyside2>=5.15
