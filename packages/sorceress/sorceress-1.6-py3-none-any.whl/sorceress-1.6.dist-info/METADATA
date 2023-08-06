@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sorceress
+Version: 1.6
+Summary: Optical Illusions with Python
+Home-page: https://github.com/emportent/sorceress
+Author: Enes Altun
+Author-email: enesaltun2@gmail.com
+License: MIT
+Keywords: Optical-Illusion,illusions,optical
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENCE.txt
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: colour-science
+Requires-Dist: imageio
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Provides-Extra: dev
+Requires-Dist: imageio ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+Python Package For Creating Optical Illusions
+
+Author: Enes Altun
+
+instructions: https://github.com/altunenes/sorceress
+
+Change Log
+==========
+
+0.0.1 (21/6/2021)
+
+-First Release
+
+1.2 (7/9/2021)
+--------------
+
+Bug fixes
+
+1.4 (7/9/2021) 
+--------------
+
+New illusions have been added
+
+1.5 (9/14/2021)
+
