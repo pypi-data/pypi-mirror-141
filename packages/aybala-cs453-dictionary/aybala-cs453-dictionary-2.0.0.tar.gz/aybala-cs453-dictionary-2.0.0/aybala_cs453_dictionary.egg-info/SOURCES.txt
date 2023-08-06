@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+aybala_cs453_dictionary.egg-info/PKG-INFO
+aybala_cs453_dictionary.egg-info/SOURCES.txt
+aybala_cs453_dictionary.egg-info/dependency_links.txt
+aybala_cs453_dictionary.egg-info/requires.txt
+aybala_cs453_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
