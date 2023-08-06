@@ -1,0 +1,36 @@
+choice array * {
+    * array<<^^\ -> array$ - /^^>>;
+}
+
+shuffle array * {
+    shuffledArray: [];
+    oldArray: array<<>>;
+    .. oldArray$ > \ {
+        e: oldArray<<^^\ -> oldArray$ - /^^>>;
+        shuffledArray+: [e];
+        oldArray-: [e];
+    }
+    * shuffledArray;
+}
+
+choices array k * {
+    o: [];
+    .. o$ < k {
+        o+: [array<<^^\ -> array$ - /^^>>];
+    }
+    * o;
+}
+
+sample array k * {
+    ? k > array$ {
+        "the sample cannot be bigger than the array"!!!;
+    }
+    o: [];
+    oldArray: array<<>>;
+    .. o$ < k {
+        e: oldArray<<^^\ -> oldArray$ - /^^>>;
+        o+: [e];
+        oldArray-: [e];
+    }
+    * o;
+}
