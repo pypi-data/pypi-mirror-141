@@ -1,0 +1,12 @@
+fonticon_mdi6/__init__.py,sha256=BApZBsbC8gAhfP2R7usspKob3r2ipDDVOKv4pLDpJyQ,66
+fonticon_mdi6/_iconfont.py,sha256=7caSywdpDXPz8QUUiIHHTxZ_FbSqiC0cTBxI-o3HElI,709
+fonticon_mdi6/mdi6.py,sha256=_W_FSjHsCk3NQJORjFFmdevmjeuorSlGA4fEBwbQQsE,230121
+fonticon_mdi6/_tests/test_font.py,sha256=Huaa0dW-uC_vfKMuEUhfsyAJe7Q0w_ViQ0zhq4FntfM,230
+fonticon_mdi6/fonts/LICENSE.txt,sha256=O65jBbyqbRAhm5mfZcNCA0wtQLHA6FZ_oIYF5zzLqCk,992
+fonticon_mdi6/fonts/materialdesignicons-webfont.ttf,sha256=npTU2-LofqSV8NQth5FGvHTExOkQd2pJFUoV7vo371k,1147844
+fonticon_materialdesignicons6-6.5.95.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fonticon_materialdesignicons6-6.5.95.dist-info/METADATA,sha256=VLRnsXE9DtO469QjsBr8wDjN2yZ3mVGAonlYWj3qLRw,957
+fonticon_materialdesignicons6-6.5.95.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+fonticon_materialdesignicons6-6.5.95.dist-info/entry_points.txt,sha256=6ghD37LH5GtbEm4Z8lS-AZCtOX_EuXdBUd3zjHVJYbc,45
+fonticon_materialdesignicons6-6.5.95.dist-info/top_level.txt,sha256=8D2S-OxlBczJbxkbveeQGCLRYqW5SPniZFfvA4prMy0,14
+fonticon_materialdesignicons6-6.5.95.dist-info/RECORD,,
