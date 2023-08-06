@@ -1,0 +1,5 @@
+setup.py
+papamoon0113.egg-info/PKG-INFO
+papamoon0113.egg-info/SOURCES.txt
+papamoon0113.egg-info/dependency_links.txt
+papamoon0113.egg-info/top_level.txt
