@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lddya
+Version: 1.2.9
+Summary: 修复了栅格图类无法直接获取地图数据(之前必须读取文件得到数据)的bug。
+Home-page: https://github.com/not_define/please_wait
+Author: lidongdong
+Author-email: 927052521@qq.com
+License: MIT Licence
+Description: 具体功能，请自行挖掘。
+Keywords: pip,license,licensetool,tool,gm
+Platform: any
