@@ -1,0 +1,14 @@
+azure-core
+azure-digitaltwins-core
+azure-identity
+azure-kusto-data
+azure-kusto-ingest
+azure-storage-blob
+azure-storage-queue
+cma
+jsonschema
+numpy
+openpyxl
+pandas
+pytest
+python-dateutil
