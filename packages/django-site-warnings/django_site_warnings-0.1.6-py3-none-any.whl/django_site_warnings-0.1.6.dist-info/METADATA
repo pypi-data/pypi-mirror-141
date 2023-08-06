@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: django-site-warnings
+Version: 0.1.6
+Summary: Django application allow to create site warnings, make subscription, and receive notifies.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: django extentions,django manage site
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: django-app-requires (>=0.2.3)
+Requires-Dist: django-simpletask2
+Requires-Dist: django-safe-fields (>=0.1.6)
+Requires-Dist: django-horizontal-list-filter
+Requires-Dist: django-admin-global-sidebar
+Requires-Dist: django-server-controller
+
+# django-events
+
+Django application allow to create site warnings, make subscription, and receive notifies.
+
+## Install
+
+```
+pip install django-site-warnings
+```
+
+## Releases
+
+### v0.1.2
+
+- First release.
+
+### v0.1.4
+
+- Make title length longer. 
+
+### v0.1.6
+
+- Test for Django 3.2.
+- Work with django-simpletask2.
+
+
