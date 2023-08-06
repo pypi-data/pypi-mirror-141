@@ -1,0 +1,2 @@
+{{  section.render('MLI.KLIME Reason Code Text')}}
+{{  section.render('MLI.Local Interpretability Row Information', show_row_value=True, show_klime_table=True, show_loco_plot=False, show_ice_plots=False)}}

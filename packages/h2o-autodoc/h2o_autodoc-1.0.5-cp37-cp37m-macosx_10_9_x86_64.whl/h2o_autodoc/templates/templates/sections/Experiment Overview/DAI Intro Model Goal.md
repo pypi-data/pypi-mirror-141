@@ -1,0 +1,3 @@
+The final selected model was developed using the Driverless AI software.  Driverless AI trains models to access the performance of using different algorithms with different parameters and features (see **Models for Optimization Summary**). As a result, the final model is only selected after verifying that alternative models do not perform better, based on the model developer’s specified evaluation metric.
+
+The goal of this experiment is to determine which optimized model will generate the {{ scorer_direction }} **{{experiment.score_f_name}}** for predicting the model’s target, named *{{params._params.target_col}}*. 
