@@ -1,0 +1,10 @@
+imageGenie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imageGenie/classify.py,sha256=F7sllX9BH5j9JP8jOv6OM_GAiC5eSFWbfGJohevzGaU,1087
+imageGenie/constants.py,sha256=bX3EA6k6oTJu-XvJ2Zc1_7BwVjYMhQzGOnR7HWdO5_0,109
+imageGenie/customNet.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imageGenie/trainingModule.py,sha256=imS9xFMvSb7n7CgBOZD4XhptDHozhgwLu3TnFj3wK_A,3218
+imageGenie-0.0.6.dist-info/LICENCE,sha256=BYsUHEKv_Ic3qxQueAm8zz35MQrRZlwX0SU3m0fsXVA,1068
+imageGenie-0.0.6.dist-info/METADATA,sha256=hvny9w0UC0rwaainG24OmGXeguL7On5QdmfAZIkU_DA,944
+imageGenie-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imageGenie-0.0.6.dist-info/top_level.txt,sha256=I-YbUxK9HnD_H-B590_auZNHYiNGdDLsQJ4Z0sviPkk,11
+imageGenie-0.0.6.dist-info/RECORD,,
