@@ -1,0 +1,38 @@
+name: plower39
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - xarray
+  - dask
+  - joblib
+  - pyscaffold
+  - black
+  - coverage
+  - hypothesis
+  - pytest
+  - pytest-cov
+  - setuptools
+  - sphinx
+  - sphinx-copybutton
+  - sphinx_rtd_theme
+  - sphinx-automodapi
+  - furo
+  - tox
+  - tox-conda
+  - pre-commit
+  - lxml
+  - beautifulsoup4
+  - html5lib
+  - loguru
+  - requests
+  - importlib_metadata
+  - scipy
+  - pip:
+    - sphinxemoji
+    # - hypothesis-fspaths
