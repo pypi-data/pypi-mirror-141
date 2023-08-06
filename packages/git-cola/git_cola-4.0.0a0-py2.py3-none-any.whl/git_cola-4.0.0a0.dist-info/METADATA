@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: git-cola
+Version: 4.0.0a0
+Summary: A sleek and powerful Git GUI
+Home-page: https://github.com/git-cola/git-cola
+Author: David Aguilar
+Author-email: davvid@gmail.com
+License: GPL-2.0
+Platform: any
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=2.7
+License-File: COPYING
+Requires-Dist: qtpy (>=1.1.0)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Requires-Dist: PyQt5 (>=5.6.0) ; python_version >= "3.0"
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: jaraco.packaging (>=9) ; extra == 'docs'
+Requires-Dist: rst.linker (>=1.9) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (!=3.7.3,>=3.5) ; extra == 'testing'
+Requires-Dist: pytest-checkdocs (>=1.2.3) ; extra == 'testing'
+Requires-Dist: pytest-flake8 ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-enabler (>=1.0.1) ; extra == 'testing'
+Requires-Dist: pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Requires-Dist: pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Requires-Dist: PySide2 ; (python_version == "2.7") and extra == 'testing'
+Requires-Dist: PyQt5 ; (python_version >= "3.0") and extra == 'testing'
+
+Git Cola is a powerful Git GUI with a slick and intuitive user interface.
+
