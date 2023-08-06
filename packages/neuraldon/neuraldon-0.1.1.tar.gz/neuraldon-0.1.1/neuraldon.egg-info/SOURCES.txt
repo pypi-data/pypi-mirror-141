@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+neuraldon.egg-info/PKG-INFO
+neuraldon.egg-info/SOURCES.txt
+neuraldon.egg-info/dependency_links.txt
+neuraldon.egg-info/not-zip-safe
+neuraldon.egg-info/top_level.txt
+package/__init__.py
+package/array.py
+package/number.py
