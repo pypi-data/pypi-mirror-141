@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jwang_package
+Version: 0.0.1
+Summary: A small example package
+Author: Wang Chun
+Author-email: 2854836020@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 说明
+
+这是一个树莓派扩展板的底层驱动库
+

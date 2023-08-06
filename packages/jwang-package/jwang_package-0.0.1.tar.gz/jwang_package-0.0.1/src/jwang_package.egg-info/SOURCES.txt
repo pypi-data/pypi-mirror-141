@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jwang_package/__init__.py
+src/jwang_package/example.py
+src/jwang_package.egg-info/PKG-INFO
+src/jwang_package.egg-info/SOURCES.txt
+src/jwang_package.egg-info/dependency_links.txt
+src/jwang_package.egg-info/top_level.txt
