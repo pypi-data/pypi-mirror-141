@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/ac4y_service/__init__.py
+src/ac4y_service/ac4y_process_result.py
+src/ac4y_service.egg-info/PKG-INFO
+src/ac4y_service.egg-info/SOURCES.txt
+src/ac4y_service.egg-info/dependency_links.txt
+src/ac4y_service.egg-info/top_level.txt
