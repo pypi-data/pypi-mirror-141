@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+src/container/__init__.py
+src/container_py.egg-info/PKG-INFO
+src/container_py.egg-info/SOURCES.txt
+src/container_py.egg-info/dependency_links.txt
+src/container_py.egg-info/top_level.txt
