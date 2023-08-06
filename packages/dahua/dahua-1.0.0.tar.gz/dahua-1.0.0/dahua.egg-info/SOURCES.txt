@@ -1,0 +1,6 @@
+main.py
+setup.py
+dahua.egg-info/PKG-INFO
+dahua.egg-info/SOURCES.txt
+dahua.egg-info/dependency_links.txt
+dahua.egg-info/top_level.txt
