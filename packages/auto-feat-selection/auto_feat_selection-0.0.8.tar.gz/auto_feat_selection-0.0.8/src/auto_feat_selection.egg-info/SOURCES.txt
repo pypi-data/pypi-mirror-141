@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/auto_feat_select_rupakbob/__init__.py
+src/auto_feat_select_rupakbob/auto_feat_selection.py
+src/auto_feat_selection.egg-info/PKG-INFO
+src/auto_feat_selection.egg-info/SOURCES.txt
+src/auto_feat_selection.egg-info/dependency_links.txt
+src/auto_feat_selection.egg-info/top_level.txt
