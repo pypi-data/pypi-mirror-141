@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: photoarchiver
+Version: 0.1
+Summary: Archive your photos and files using file timestamps and geolocation.
+Home-page: http://github.com/baigo/photoarchiver
+Author: Martín Baigorria Alonso
+Author-email: martinbaigorria@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: exifread
+Requires-Dist: reverse-geocoder
+Requires-Dist: tqdm
+
+UNKNOWN
+
