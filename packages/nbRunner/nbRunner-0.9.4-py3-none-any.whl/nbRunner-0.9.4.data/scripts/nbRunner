@@ -1,0 +1,96 @@
+#!python
+import argparse
+import nbclient
+import nbformat
+import nbparameterise
+import sys
+import time
+
+parser = argparse.ArgumentParser(
+    description='Notebook Runner',
+    add_help=False
+)
+parser.add_argument('Notebook')
+parser.add_argument('--use_notebook_client',default=False,action='store_true', help="Warning: Using this disables stdin")
+parser.add_argument('--master_debug',default=False,action='store_true', help="")
+
+nboargs, unknown = parser.parse_known_args()
+
+debugMode = nboargs.master_debug
+debug_cell_sourcecode = debugMode
+debug_print_cell_numbers = debugMode
+debug_sleep_between_cells = 0
+debug_print_args=debugMode
+debug_print_params=debugMode
+with open(nboargs.Notebook, 'rb') as f:
+    nb = nbformat.read(f, as_version=4)
+
+notebook_params = nbparameterise.extract_parameters(nb)
+if debug_print_params:
+    print('orginal params', notebook_params)
+
+
+parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+flagglessArgs={}
+for item in notebook_params:
+    name =item.name
+    if item.name.startswith('__') and item.name.endswith('__'):
+        name=name.replace('__','')
+        flagglessArgs[name] = item.name
+    else:    
+        name = f'--{name}'
+    if item.type == list:
+        parser.add_argument(f'{name}',  choices=item.value, help = f"{item.comment if item.comment is not None else ''}")    
+    else:
+        parser.add_argument(f'{name}', nargs='?', default=item.value, type=item.type, help = f"{item.comment if item.comment is not None else ''}  (default: %(default)s)")
+
+
+args = sys.argv
+if debug_print_args:
+    print(args)
+args.pop(0)
+args.pop(0)
+if debug_print_args:
+    print(args)
+args, unknown = parser.parse_known_args(args)
+if debug_print_args:
+    print('NBARGS',args,unknown)
+
+
+final_args = {}
+args = vars(args)
+for a in args:
+    if a in flagglessArgs:
+        final_args[f'__{a}__'] = args[a]
+    else:
+        final_args[a]=args[a]
+
+
+
+new_params = nbparameterise.parameter_values(notebook_params,**final_args)
+if debug_print_params:
+    print('replacement params', new_params)
+new_nb = nbparameterise.replace_definitions(nb, new_params)
+
+
+
+if not nboargs.use_notebook_client:
+    for cell_index, cell in enumerate(new_nb['cells']):
+        if cell['cell_type'] =='code':
+            if debug_cell_sourcecode:
+                print(cell)
+            if debug_print_cell_numbers:
+                print(f"[{cell_index}]")
+            exec(cell['source'])
+            if debug_print_cell_numbers:
+                print()
+            if debug_sleep_between_cells>0:
+                time.sleep(debug_sleep_between_cells)
+
+
+else:
+    print("Using Notebook client")
+    output = nbclient.execute(new_nb)
+    for item in output['cells']:
+        for o in item['outputs']:
+            print(o['text'].strip())
