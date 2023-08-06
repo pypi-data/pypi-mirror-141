@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "default_mutable"
+version = "0.1.0"
+description = "Prevent mutable default arguments behavior"
+authors = ["Rood Repo <roodrepo@gmail.com>"]
+license = "MIT"
+keywords = ["default arguments", "default list", "default dict", "decorator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+homepage = "https://github.com/roodrepo/default_mutable"
+repository = "https://github.com/roodrepo/default_mutable"
+readme = "README.md"
+include = [
+    "LICENSE",
+]
+[tool.poetry.dependencies]
+python = "^3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
