@@ -1,0 +1,3 @@
+[console_scripts]
+sqlacodegen_gw = sqlacodegen_gw.main:main
+

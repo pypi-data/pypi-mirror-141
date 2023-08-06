@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sqlacodegen-gw
+Version: 0.0.1
+Summary: change columns name fake camel style
+Home-page: https://github.com/derek-zl
+Author: derek
+Author-email: chongchongzl@163.com
+License: UNKNOWN
+Keywords: sqlacodegen_gw
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+change columns name fake camel style for gw
+
