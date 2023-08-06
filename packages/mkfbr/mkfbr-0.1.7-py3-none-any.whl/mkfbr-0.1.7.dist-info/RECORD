@@ -1,0 +1,11 @@
+LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+mkfbr/__init__.py,sha256=nI2Cd-S5shOykugumujbwQsm-00xvT-vOQIM3Oyq22c,73
+mkfbr/database/address.db,sha256=RG54KvqVgCyev-Zf3uMZBmKccLC96vLSI1GOibYQPyA,54353920
+mkfbr/generators.py,sha256=KCsEsxwd_2rr8tIal4FYdEGbup2dF_KRK6ay7BmB4dI,3670
+mkfbr/json/content.json,sha256=lSn6FMVFUA2vk3Nlg2ILMxwJW3kJTHGHSpfMjgTDxH8,189803
+mkfbr/mkfbr.py,sha256=5_U_fZQl5mMpknD_OEr06rXPYdzatANHUYnSBQEYCcQ,2004
+mkfbr/models.py,sha256=AScXwLVPwb3wNtKdtb9K7sgadtKHFw1a_R7VdvkRk5Y,1361
+mkfbr-0.1.7.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+mkfbr-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mkfbr-0.1.7.dist-info/METADATA,sha256=zkrAR6WWEkkRdy2jBYUopahKLLOVS-IBfsx59ehZDAU,3448
+mkfbr-0.1.7.dist-info/RECORD,,
