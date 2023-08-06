@@ -1,0 +1,7 @@
+tqdm>=4.6
+imap-tools>=0.5
+importlib_resources
+
+[testing]
+pytest>=6.0
+tox>=3.24

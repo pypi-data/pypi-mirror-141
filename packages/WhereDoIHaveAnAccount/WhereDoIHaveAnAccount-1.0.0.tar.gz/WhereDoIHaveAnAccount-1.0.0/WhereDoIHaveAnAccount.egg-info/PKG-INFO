@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: WhereDoIHaveAnAccount
+Version: 1.0.0
+Summary: Simple tool to find out where you have accounts
+Home-page: https://github.com/H3nkl3r/WhereDoIHaveAnAccount
+Author: Timo Kühne
+License: AGPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: testing
+License-File: LICENSE
+
+UNKNOWN
+
