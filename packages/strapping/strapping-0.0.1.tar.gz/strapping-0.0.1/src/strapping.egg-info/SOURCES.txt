@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/bootstrap/__init__.py
+src/strapping.egg-info/PKG-INFO
+src/strapping.egg-info/SOURCES.txt
+src/strapping.egg-info/dependency_links.txt
+src/strapping.egg-info/requires.txt
+src/strapping.egg-info/top_level.txt
