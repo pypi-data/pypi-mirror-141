@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spark-wheel-test
+Version: 0.0.1
+Summary: A small example package to demonstrate how to build helper classes using pyspark.
+Home-page: UNKNOWN
+Author: Daniel Yu
+Author-email: daniel.yu@ipt.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyspark-wheel-template
+
