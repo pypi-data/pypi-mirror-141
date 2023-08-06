@@ -1,0 +1,10 @@
+incremental
+
+[dev]
+twisted
+twine
+click
+incremental
+wheel
+black==21.12b0
+datamodel-code-generator==0.11.14
