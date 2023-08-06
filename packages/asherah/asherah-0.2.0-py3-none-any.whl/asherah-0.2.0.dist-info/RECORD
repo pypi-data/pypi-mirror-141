@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=SdmmdcxtE8z6RUzfWqyZnHYFRW4lUtYTVHrBSmN5XIU,133
+README.md,sha256=ILc44I6m4eIwD6rsYQpqYQTnW53lNVa810jHCQ7eY9g,595
+asherah/__init__.py,sha256=shMN60rpS_zNnai9AOISYo5MDHvebyrUcuFGbBHWRW8,148
+asherah/asherah.py,sha256=QOvHyUXeIEDQyNOpB5z98HOgJRTUu_4n4nwc7pWbqZE,4678
+asherah/exceptions.py,sha256=r-xH75LSQHVD0eTFceW8VHCNWaO_wwQnRBZe9pxCyM0,144
+asherah/libasherah/libasherah-arm64.dylib,sha256=4bAPb1y86i1IBPSa_bLpmCibu-OOeusEEalYjl7izkc,14699842
+asherah/libasherah/libasherah-arm64.so,sha256=KemF591bSK6hORvnTmIbQQKW7klwuOUD3JJg7fXzGWE,16697504
+asherah/libasherah/libasherah-x64.dylib,sha256=l-CY4DUFmTKZR-Lg_NVRxTvd5EoNSlBgV5qBjV0VqeY,15161288
+asherah/libasherah/libasherah-x64.so,sha256=dZ36aaJ1sVi3VqVmvyQV-UdhYcdUnThTPjASYruLbjw,16715632
+asherah/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asherah/types.py,sha256=PawXxZ1U4m6DUlv0XJOoGIRGiHsI6T2IJdJ_OD28k2s,1518
+asherah-0.2.0.dist-info/LICENSE,sha256=bPXcK-zeYL8ou0EnzCC6K8nQZn_pp3AIifZa-KlmDNg,1098
+asherah-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+asherah-0.2.0.dist-info/METADATA,sha256=SKArjpq4xNMD-xUMBmVucSsANNXx6omR5lfBhAIRcBM,1712
+asherah-0.2.0.dist-info/RECORD,,
