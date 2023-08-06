@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pytest-network-endpoints
+Version: 0.0.4
+Summary: Network endpoints plugin for pytest
+Author: Szymon Basan
+Author-email: szymon.basan@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# pytest-network-endpoints
+Pytest plugin for defining remote network nodes.
+This plugin introduces **--networkfile** option and session scoped **endpoints** fixture which will contain automatically generated and configured clients for given type.
+
+Predefined types avaiable:
+| yaml type key | endpoint class | comment
+| ----------- | ----------- | ----------- |
+| .ssh | [pytest_network_endpoints.ssh.SshEndpoint](pytest_network_endpoints/ssh.py) | wrapper for [paramiko](https://www.paramiko.org) |
+| .tunnel | [pytest_network_endpoints.tunnel.TunnelEndpoint](pytest_network_endpoints/tunnel.py) | wrapper for [sshtunnel](https://github.com/pahaz/sshtunnel/) |
+| .snmp | [pytest_network_endpoints.snmp.SnmpEndpoint](pytest_network_endpoints/snmp.py) | wrapper for [easysnmp](https://easysnmp.readthedocs.io) |
+| .winrm | [pytest_network_endpoints.winrm.WinrmEndpoint](pytest_network_endpoints/winrm.py)| wrapper for [pywinrm](https://pypi.org/project/pywinrm), [winrmcp](https://pypi.org/project/winrmcp)  |
+
+
+
+# install
+```shell
+pip install pytest-network-endpoints
+```
+easysnmp may require additional binary packages on your system: https://easysnmp.readthedocs.io/en/latest/#installation
+# usage
+```shell
+pytest --networkfile=example.yml
+```
+### example.yml
+```yaml
+- name: host-1
+  type: .ssh
+  ssh_params:
+    hostname: 192.0.2.13
+    port: 2222
+    username: root
+    key_filename: config/id_ecdsa
+    allow_agent: False
+```
+### test_example.py
+```python
+def test_ssh_server(endpoints):
+    assert "root" in endpoints["host-1"].cmd("whoami")
+```
+### test_smart.py
+```python
+import pytest_network_endpoints.ssh.SshEndpoint
+
+@pytest.fixture
+def host1(endpoints) -> SshEndpoint:
+    return devices["host-1"]
+
+def test_ssh_server(host1: SshEndpoint):
+    assert "root" in host1.cmd("whoami")
+```
+please see [test](test) directory for more usage examples
+# standalone
+This package can be used without pytest
+```python
+from pytest_network_endpoints.plugin import create_endpoints_from_networkfile
+endpoints = create_endpoints_from_networkfile('path/to/networkfile.yml')
+```
+
