@@ -1,0 +1,9 @@
+
+[AES Encryption]
+pycryptodomex
+
+[LZ4 Compression]
+lz4
+
+[Pretty Table]
+prettytable
