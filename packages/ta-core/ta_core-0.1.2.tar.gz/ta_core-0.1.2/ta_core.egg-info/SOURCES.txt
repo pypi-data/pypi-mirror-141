@@ -1,0 +1,13 @@
+AUTHORS.rst
+LICENSE
+README.md
+setup.cfg
+setup.py
+ta_core/__init__.py.py
+ta_core/status.py
+ta_core.egg-info/PKG-INFO
+ta_core.egg-info/SOURCES.txt
+ta_core.egg-info/dependency_links.txt
+ta_core.egg-info/not-zip-safe
+ta_core.egg-info/requires.txt
+ta_core.egg-info/top_level.txt
