@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+smolog/src/smolog.py
+smolog/src/smolog.egg-info/PKG-INFO
+smolog/src/smolog.egg-info/SOURCES.txt
+smolog/src/smolog.egg-info/dependency_links.txt
+smolog/src/smolog.egg-info/top_level.txt

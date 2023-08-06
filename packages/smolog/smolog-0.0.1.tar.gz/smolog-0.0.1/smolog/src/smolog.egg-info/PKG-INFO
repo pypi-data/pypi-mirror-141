@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: smolog
+Version: 0.0.1
+Summary: Smol log pkg in python
+Home-page: UNKNOWN
+Author: Mateusz Bednarski
+Author-email: msz.bednarski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# smolog
+smol logging in python
+
+features:
+-   colors = pid % len(colors)
+-   file trace
+-   date
+-   process pid
+-   log scopes
+
