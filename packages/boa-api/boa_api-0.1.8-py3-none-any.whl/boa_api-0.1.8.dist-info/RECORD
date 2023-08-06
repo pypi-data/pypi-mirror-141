@@ -1,0 +1,10 @@
+boaapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boaapi/boa_client.py,sha256=YDxSpfG5q3f1ERu_QPn8iqQ4Fw7-sfHQ0U6FrhYmp7Q,13296
+boaapi/job_handle.py,sha256=8_ZFA72tdJqevsxdaagNqDo7m03PlnhCCVfQNCzvC-E,4312
+boaapi/status.py,sha256=_WGo4pxRR9jxRkmxr00AE6MjNW6IO8WckhB46ok8DMs,218
+boaapi/util.py,sha256=-AhVDhtK8GVmwoZNrblgr8HjPYXtXCoZzB4hdyI2QeA,3397
+boa_api-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+boa_api-0.1.8.dist-info/METADATA,sha256=y4edJVQ3LlGawOK6Z9u2dDNOocVUF0GgA_6coP2dSuE,2649
+boa_api-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boa_api-0.1.8.dist-info/top_level.txt,sha256=OC7J3VUOAUPWOjKHXgjBk_0Mxd9iIcRzItAEuVWYRLo,7
+boa_api-0.1.8.dist-info/RECORD,,
