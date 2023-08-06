@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastrand-fields
+Version: 0.1.1
+Summary: Package to randomly generate fields such as funny usernames. Suitable for fast microservices.
+Home-page: https://github.com/jsam/fastrand_fields
+License: GNUv3
+Author: sam
+Author-email: contact@justsam.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/jsam/fastrand_fields
