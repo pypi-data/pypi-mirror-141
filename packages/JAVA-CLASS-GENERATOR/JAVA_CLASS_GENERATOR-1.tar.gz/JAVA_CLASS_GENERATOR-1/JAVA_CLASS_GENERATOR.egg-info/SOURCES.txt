@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+JAVA_CLASS_GENERATOR/java_class_generator.py
+JAVA_CLASS_GENERATOR.egg-info/PKG-INFO
+JAVA_CLASS_GENERATOR.egg-info/SOURCES.txt
+JAVA_CLASS_GENERATOR.egg-info/dependency_links.txt
+JAVA_CLASS_GENERATOR.egg-info/entry_points.txt
+JAVA_CLASS_GENERATOR.egg-info/top_level.txt
