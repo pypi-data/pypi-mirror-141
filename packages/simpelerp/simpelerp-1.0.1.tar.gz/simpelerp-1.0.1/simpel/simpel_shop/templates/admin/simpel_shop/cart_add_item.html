@@ -1,0 +1,95 @@
+{% extends 'admin/base_site.html' %}
+{% load i18n simpelcore_tags %}
+
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block content %}
+<div class="col-md-12">
+  <div class="card card-body p-4">
+
+    <form action="" method="post">
+      {{ form.media }}
+        
+      {% csrf_token %}
+      {% if form.non_field_errors %}<div class="errornote">{{ form.non_field_errors }}</div>{% endif %}
+      <table class="table w-100 mb-3">
+      {% for field in form.hidden_fields %}
+        {{ field }}
+      {% endfor %}
+      <tr>
+        <td class="align-middle" width="150">{{ form.reference.label }}</td>
+        <td class="align-middle">
+          {{ form.reference }}
+          {% if form.reference.help_text %}<div class="help">{{ form.reference.help_text }}</div>{% endif %}
+          {% if form.reference.errors %}<div class="errors">{{ form.reference.errors }}</div>{% endif %}
+        </td>
+      </tr>
+      <tr>
+        <td class="align-middle" width="150">{{ form.name.label }}</td>
+        <td class="align-middle">
+          {{ form.name }}
+          {% if form.name.help_text %}<div class="help">{{ form.name.help_text }}</div>{% endif %}
+          {% if form.name.errors %}<div class="errors">{{ form.name.errors }}</div>{% endif %}
+        </td>
+      </tr>
+      <tr>
+        <td class="align-middle" width="150">{{ form.quantity.label }}</td>
+        <td class="align-middle">
+          {{ form.quantity }}
+          {% if form.quantity.help_text %}<div class="help">{{ form.quantity.help_text }}</div>{% endif %}
+          {% if form.quantity.errors %}<div class="errors">{{ form.quantity.errors }}</div>{% endif %}
+        </td>
+      </tr>
+      <tr>
+        <td class="align-middle" width="150">{{ form.note.label }}</td>
+        <td class="align-middle">
+          {{ form.note }}
+          {% if form.note.help_text %}<div class="help">{{ form.note.help_text }}</div>{% endif %}
+          {% if form.note.errors %}<div class="errors">{{ form.note.errors }}</div>{% endif %}
+        </td>
+      </tr>
+      </table>
+      
+      {% if product.recommended_items.count %}
+      <div>
+        <div class="mb-2">
+          {% trans "Recommended Bundled Items" %}
+          <p class="small text-muted">{% trans "Anda bisa menambah/menghapus nanti." %}</p>
+        </div>
+        <table class="bg-white border mb-6 table w-100">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Nama</th>
+              <th>Satuan</th>
+              <th class="text-end">Harga</th>
+              <th class="text-center">{% trans "Quantity" %}</th>
+              <th class="text-end">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in product.recommended_items.all %}
+              <tr class="thin">
+                <td><input type="checkbox" checked {% if item.required %}disabled{% endif %} name="bundles" value="{{ item.id }}"></td>
+                <td>{% if item.required %}<strong>{{ item.product }} <span class="text-danger">*<span></strong>{% else %}{{ item.product }}{% endif %}</td>
+                <td>{{ item.bundle.unit }}</td>
+                <td class="text-end">{{ item.product.specific.price|currency }}</td>
+                <td class="text-center">{{ item.quantity }}</td>
+                <td class="text-end">{{ item.total|currency }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+
+      <div class="bg-opacity-10 bg-light border button-holder p-3 rounded-3">
+        <button class="btn btn-primary" type="submit">{% trans "Submit Form" %}</button>
+        <a href="{{ cancel_url }}" class="btn btn-secondary">{% trans "Cancel, take me back" %}</a>
+      </div>
+    </form>
+
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% load i18n %}
+<div class="alert alert-block bg-soft alert-{{ notice.level }} mb-2">
+  <small>{{ notice.timesince }} ago</small>
+  <div style="margin: 0;">
+    <strong>{{ notice.actor|title }}</strong>
+    {{ notice.verb }}
+    {% if notice.target %}
+      {% if notice.target.absolute_url %}<a href="{{ notice.target.absolute_url }}" title="{{ notice.target }}">{% endif %}
+        {{ notice.target|truncatechars:13 }}
+      {% if notice.target.absolute_url %}</a>{% endif %}
+    {% endif %}
+    {% if notice.action_object %}
+      {% trans "on" %}
+      {% if notice.action_object.absolute_url %}<a href="{{ notice.action_object.absolute_url }}" title="{{ notice.action_object }}">{% endif %}
+        {{ notice.action_object|truncatechars:13 }}
+      {% if notice.action_object.absolute_url %}</a>{% endif %}
+    {% endif %}
+  </div>
+  {% if notice.description %}
+    <div>{{ notice.description|linebreaksbr }}</div>
+  {% endif %}
+  <div class="notice-actions">
+    {% for action in notice.data.actions %}
+      <small><a class="btn" href="{{ action.href }}">{{ action.title }}</a></small>
+    {% endfor %}
+  </div>
+</div>
