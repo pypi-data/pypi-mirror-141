@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: survivalvolume
+Version: 1.2.4
+Summary: Plotting tools for survival data
+Home-page: https://git@bitbucket.org/genomematt/SurvivalVolume.git
+Author: Matthew Wakefield
+Author-email: matthew.wakefield@unimelb.edu.au
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
