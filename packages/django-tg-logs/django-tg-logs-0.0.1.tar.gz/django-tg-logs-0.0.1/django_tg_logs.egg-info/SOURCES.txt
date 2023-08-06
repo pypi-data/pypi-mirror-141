@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+django-tg-logs/__init__.py
+django-tg-logs/middleware.py
+django_tg_logs.egg-info/PKG-INFO
+django_tg_logs.egg-info/SOURCES.txt
+django_tg_logs.egg-info/dependency_links.txt
+django_tg_logs.egg-info/requires.txt
+django_tg_logs.egg-info/top_level.txt
