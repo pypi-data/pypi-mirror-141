@@ -1,0 +1,17 @@
+pymongowatch_attributes.py,sha256=UNlWKu8sfS1eLXbzyJuPDKOqemiNVZYkZE_MrCI0kXE,2799
+pymongo/watcher/__init__.py,sha256=GUKelI6bBO9j674VQcD4k7tbkolmokVmDEUBE3SJi5k,5637
+pymongo/watcher/base.py,sha256=I1OT86gZ4kJEipMqjm85pf110CDBY_lVY816fKwkNyQ,4561
+pymongo/watcher/csv_utils.py,sha256=V7dzYOrpwwzf7v4zrKu25fvhgakZZH3j2jyJphnKHkU,6118
+pymongo/watcher/cursor.py,sha256=HswiQ7C7oJ5alAGKVWOMGOsIJ9MmI05d6BpOSmwBXOQ,7101
+pymongo/watcher/filters.py,sha256=MlfxfHAflF3lx4gVCIBbh8xYA8jEZBzV8Lfry4ml3Wk,5329
+pymongo/watcher/logger.py,sha256=mpJQdydGsEONXBr5mHNBv6rxPVibeqLQw8GM76t8UIk,26660
+pymongo_mask/pymongo.py,sha256=0XsnWiWSXWEmjIysccMFtpwrxrGvgsbU9ZIy0AkLPFA,5632
+pymongowatch-0.3.0.data/data/etc/pymongowatch.yaml,sha256=k4t-vj9sZt1ja-IHC3K7gQe4LRsxrYwNuYGeatqjJBQ,3886
+pymongowatch_mask_installer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymongowatch_mask_installer/main.py,sha256=xJKD7qEks5lJ6UAcw18l0mjICuhwQL0ERUpY9fr-NE4,9583
+pymongowatch-0.3.0.dist-info/LICENSE.org,sha256=2itzVZ5eTTEEa3Rmb8MJ6OlTQh2k8Sh7E8gZr9PR71I,34920
+pymongowatch-0.3.0.dist-info/METADATA,sha256=FpmHdjpBdGgBXuzqNzcfg4nO32s_5NK6_C8z9tIwXpA,24654
+pymongowatch-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pymongowatch-0.3.0.dist-info/entry_points.txt,sha256=8Ly4LtyyGO4y8MMzb09ndafpNdO3xCkVe5UgSKP2Ngs,135
+pymongowatch-0.3.0.dist-info/top_level.txt,sha256=F81ny_nNWOEdZTdmzBG10Tz2DM9_AAHuXxfw-AkI9es,77
+pymongowatch-0.3.0.dist-info/RECORD,,

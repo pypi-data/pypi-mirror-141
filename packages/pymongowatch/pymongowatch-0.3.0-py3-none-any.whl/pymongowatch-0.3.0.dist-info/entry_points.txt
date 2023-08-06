@@ -1,0 +1,4 @@
+[console_scripts]
+pymongowatch-csv = pymongo.watcher.csv_utils:main
+pymongowatch-install-mask = pymongowatch_mask_installer.main:main
+
