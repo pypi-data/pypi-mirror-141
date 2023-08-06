@@ -1,0 +1,29 @@
+#!/usr/bin/expect -f
+set type [lindex $argv 0]
+set user [lindex $argv 1]
+set host [lindex $argv 2]
+set port [lindex $argv 3]
+set locPath [lindex $argv 4]
+set serPath [lindex $argv 5]
+set password [lindex $argv 6]
+set param [lindex $argv 7]
+set timeout -1
+
+switch $type {
+    pwd {
+        spawn scp -r $user@$host:$serPath $locPath
+        expect "*assword:*"
+        send "$password\r"
+}
+    no_pwd {
+        spawn scp -r $user@$host:$serPath $locPath
+
+    }
+    key {
+        spawn scp -r -i $param $user@$host:$serPath $locPath
+    }
+}
+
+interact
+
+
