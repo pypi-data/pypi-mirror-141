@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yolov5_detect.egg-info/PKG-INFO
+src/yolov5_detect.egg-info/SOURCES.txt
+src/yolov5_detect.egg-info/dependency_links.txt
+src/yolov5_detect.egg-info/top_level.txt
+src/yolov5detect/__init__.py
+src/yolov5detect/annotation.py
+src/yolov5detect/detect.py
+src/yolov5detect/models/__init__.py
+src/yolov5detect/models/backend.py
+src/yolov5detect/utils/__init__.py
+src/yolov5detect/utils/color.py
+src/yolov5detect/utils/rectangle.py
+src/yolov5detect/utils/vision.py
