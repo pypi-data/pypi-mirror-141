@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+validin/validin.egg-info/PKG-INFO
+validin/validin.egg-info/SOURCES.txt
+validin/validin.egg-info/dependency_links.txt
+validin/validin.egg-info/top_level.txt

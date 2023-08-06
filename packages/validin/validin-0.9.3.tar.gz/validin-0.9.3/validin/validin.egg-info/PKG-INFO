@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: validin
+Version: 0.9.3
+Summary: Console input validator for python, allows for any condition to be checked in a clean and consice syntax
+Home-page: https://github.com/iarla-crewe/validin
+Author: Iarla Crewe
+Author-email: iarla.crewe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# validin
+Console input validator for python, allows for any condition to be checked in a clean and consice syntax
+
+
+## Docs (temporary):
+```
+from validin import get_input
+import validin.validators as valid
+```
+
+Use get_input to get valid user input
+
+Example get_input() use:
+- name = get_input("What's your name? ", valid.IsLetters())
+- age = get_input("How old are you? ", valid.IsNaturalNumGreaterThan(18))
+
+
+Input Validators:
+- IsNaturalNum
+- IsNaturalNumLessThan
+- IsLetters
+- IsLettersAndSymbols
+- IsAlphanumeric
+- IsAlphanumericAndSymbols
+- IsOption
+
+To create a new validator, 
+    create a NewValidator() class with the condition and invalid input message wanted.
+For a validator with more advanced functionality (such as dynamic invalid input messages), 
+    create an InputValidator subclass (see the docs)
+
