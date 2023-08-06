@@ -1,0 +1,10 @@
+rpg_handbook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpg_handbook/__main__.py,sha256=VNHlMRCEi1ITXqcyI55xNjDAvkmyyQ2sCbg2DH4Y4aI,472
+rpg_handbook/commands/__init__.py,sha256=9uFc9JUYhDy2WwvC6YMugHGbAio05S25BOrFXyrCBb4,1113
+rpg_handbook/commands/strip-hi.py,sha256=jHQnkN6l-uGYIFjWJ0_QIu-FFWEZdMeuJgEas_poDgY,3069
+rpg_handbook/commands/version.py,sha256=xiHznan3zMg-xiFkaF4dQtlI07DTjqHeYLEjSQazGoo,285
+rpg_handbook/constants.py,sha256=gxN6GJTxAtC9KZurTIOO62sN4yNjnpP7ggVgpPQhgp4,657
+rpg_handbook-0.1.0.dist-info/entry_points.txt,sha256=RnrdhqNauFjFVwxJkdLIKKHkD8Nrl16LYUX_FfSC5Us,50
+rpg_handbook-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rpg_handbook-0.1.0.dist-info/METADATA,sha256=7mstbH_Jge1qyiatFEaxGDNr56RZUPYhkuynoIgDwfk,963
+rpg_handbook-0.1.0.dist-info/RECORD,,
