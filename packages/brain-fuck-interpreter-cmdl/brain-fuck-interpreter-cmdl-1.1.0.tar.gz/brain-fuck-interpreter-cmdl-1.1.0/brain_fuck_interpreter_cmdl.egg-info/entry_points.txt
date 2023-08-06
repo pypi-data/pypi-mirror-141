@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    brainfuck=brainfuck:run
+    
