@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: stardust
+Version: 0.0.3
+Summary: Stardust is micro web framework inspired by serverless and lambda deployments.
+Home-page: https://github.com/lukefx/stardust.git
+Author: Luca Simone
+Author-email: info@lucasimone.info
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# Stardust
+
+Micro framework inspired by the simple lambda or serveless deployment.
+
+Usage:
+
+```sh
+$ pip install stardust
+```
+
+Create a file with a coroutine function that returns a dict, for example `app.py`:
+```python
+async def serve(req):
+    return {
+      'hello': 'world'
+    }
+```
+
+Now just start the framework, nothing more to do...
+```sh
+$ stardust app.py
+```
+
+You're up and running! 🎉
+
+### Contributing
+
+Clone the project, install all the dependencies with:
+
+```bash
+$ pipenv install
+```
+
+Linting:
+
+```bash
+$ pipenv run lint
+```
+
