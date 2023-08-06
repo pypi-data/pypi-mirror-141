@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: afpapi
+Version: 0.1.1
+Summary: Python package to check returns of any weights of Ken French 49 industry portfolios against MVO and Equal Weights
+Home-page: https://github.com/rwuebker/afpapi
+Author: Rick Wuebker
+Author-email: richard_wuebker@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
