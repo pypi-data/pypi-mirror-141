@@ -1,0 +1,3 @@
+User-defined settings control the Driverless AI experiment framework. {% if experiment.parameters.seed == True %} In the *{{experiment.description }}* experiment, the setting for reproducibility was turned on. The following settings can be used to reproduce the *{{experiment.description}}* experiment’s results given the same environment. {% else %} The *{{experiment.description}}* experiment did not turn on the reproducible settings, which means the results may not be the same if the same experiment settings are tested. 
+
+{% endif %}
