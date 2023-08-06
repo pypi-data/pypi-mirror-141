@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: clion
+Version: 0.3.0
+Summary: Minimalistic library for building CLI applications
+Home-page: https://github.com/yshym/clion
+Author: Yevhen Shymotiuk
+Author-email: yshym@pm.me
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/yshym/clion
