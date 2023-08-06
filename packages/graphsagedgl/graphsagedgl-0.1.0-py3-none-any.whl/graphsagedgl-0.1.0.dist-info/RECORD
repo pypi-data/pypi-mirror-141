@@ -1,0 +1,9 @@
+graphsagedgl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphsagedgl/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphsagedgl-0.1.0.dist-info/LICENSE,sha256=vH5VZOvdaD2UXwn8FrQ70zbo_6adCRzxC4Z29793J5g,1073
+graphsagedgl-0.1.0.dist-info/METADATA,sha256=eUQX4O7ZL32ZBfHqtqMvca5cmWZTqXlP1JHlBTYvYcw,621
+graphsagedgl-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+graphsagedgl-0.1.0.dist-info/top_level.txt,sha256=Io74XcamT8vjagbek3NNO-QUAycpFpxtHUGHmRxVFKs,19
+graphsagedgl-0.1.0.dist-info/RECORD,,
