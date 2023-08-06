@@ -1,0 +1,3 @@
+kivy_garden.frostedglass
+cefpython3==66.0
+kivy
