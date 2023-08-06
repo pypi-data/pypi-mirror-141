@@ -1,0 +1,11 @@
+firefly_auth_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefly_auth_middleware/application/__init__.py,sha256=TPCkmTs3htVIDt1KKs3M7XHtKh6iayqB80ckxO8VPCg,26
+firefly_auth_middleware/application/middleware.py,sha256=muS9lmwZtysuQpL_TK6uulgr1ptSGv7J-Cjr5eb-W7k,2011
+firefly_auth_middleware/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefly_auth_middleware/infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefly_auth_middleware/presentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefly_auth_middleware-0.1.7.dist-info/METADATA,sha256=O65xLHEPchU2q-pA0QBKORqxbpt4gRo-ZTAVoCudQzI,416
+firefly_auth_middleware-0.1.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+firefly_auth_middleware-0.1.7.dist-info/entry_points.txt,sha256=v9Ox2HM5RwFMlTiUmzulIsSyeInWnLt3JLxnnjuetJs,59
+firefly_auth_middleware-0.1.7.dist-info/top_level.txt,sha256=kKmHbdw-v1RHtOj86iEguXKS6iyKmJWAjMPugpxMjO0,24
+firefly_auth_middleware-0.1.7.dist-info/RECORD,,
