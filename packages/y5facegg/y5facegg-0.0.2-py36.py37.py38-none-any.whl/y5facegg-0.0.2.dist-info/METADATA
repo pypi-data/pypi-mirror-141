@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: y5facegg
+Version: 0.0.2
+Summary: Packaged version of the Yolov5 facial landmark detector
+Home-page: https://github.com/chienlq/y5facegg
+Author: 
+License: GPL
+Keywords: deep-learning,pytorch,object-detection,YOLOv5
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: charset-normalizer (==2.0.7)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: dataclasses (==0.8)
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: idna (==2.10)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: matplotlib (==3.3.4)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: opencv-python (==4.2.0.34)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: scipy (==1.5.4)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tensorboard (==2.7.0)
+Requires-Dist: torch (==1.7.0)
+Requires-Dist: torchvision (==0.8.1)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: urllib3 (==1.25.11)
+Requires-Dist: pycocotools (>=2.0)
+Requires-Dist: thop
+
+<h4 align="center">
+  pip install y5facegg
+</h4>
+
+## <div align="center">Use from Python</div>
+
+
+<details open>
+<summary>Usage</summary>
+
+```python
+import cv2
+from y5facegg import Y5FACE
+
+# set model params
+model_path = "y5facegg/weights/yolov5s-face.pt"
+device = "cuda:0" # or "cpu"
+
+# init yolov5 model
+model = Y5FACE(model_path, device)
+
+# load an image
+image_path = 'https://github.com/ultralytics/yolov5/blob/master/data/images/bus.jpg'
+
+# perform inference
+bgr_image = cv2.imread(image_path)
+res_img = model.predict(bgr_image)
+cv2.imwrite('result.jpg', res_img)
+
+```
+
+<details closed>
+
+
+
