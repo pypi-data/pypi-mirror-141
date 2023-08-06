@@ -1,0 +1,15 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+imageGenie/__init__.py
+imageGenie/classify.py
+imageGenie/constants.py
+imageGenie/customNet.py
+imageGenie/trainingModule.py
+imageGenie.egg-info/PKG-INFO
+imageGenie.egg-info/SOURCES.txt
+imageGenie.egg-info/dependency_links.txt
+imageGenie.egg-info/requires.txt
+imageGenie.egg-info/top_level.txt

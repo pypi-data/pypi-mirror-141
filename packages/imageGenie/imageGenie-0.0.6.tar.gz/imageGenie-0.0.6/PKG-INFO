@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: imageGenie
+Version: 0.0.6
+Summary: State of the Art low-code Deep Learning Package for Image Classification
+Home-page: https://github.com/ravi0531rp/imageGenie
+Author: Ravi Prakash
+Author-email: ravi.0531.rp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+## ImageGenie
+
+* Training a model to classify between different classes is tough. 
+* This single package lets us harness the power of the state of the art models without any hassle of
+  coding them ourselves.
+* Just 3 lines of code and we're done.
+
+### Installation
+
+```
+pip install imageGenie
+```
+
