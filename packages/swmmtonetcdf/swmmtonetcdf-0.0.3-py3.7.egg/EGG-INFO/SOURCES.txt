@@ -1,0 +1,14 @@
+README.md
+setup.py
+swmmtonetcdf/__init__.py
+swmmtonetcdf/__main__.py
+swmmtonetcdf/swmmtonetcdf.py
+swmmtonetcdf.egg-info/PKG-INFO
+swmmtonetcdf.egg-info/SOURCES.txt
+swmmtonetcdf.egg-info/dependency_links.txt
+swmmtonetcdf.egg-info/entry_points.txt
+swmmtonetcdf.egg-info/requires.txt
+swmmtonetcdf.egg-info/top_level.txt
+swmmtonetcdf/tests/__init__.py
+swmmtonetcdf/tests/test_swmm_output_export.py
+swmmtonetcdf/tests/data/__init__.py
