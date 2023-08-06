@@ -1,0 +1,10 @@
+pretty_help/__init__.py,sha256=UNiF7aNDE6ylZbK3XDClZTqyWFspK9WKPut8FWq7wOE,74
+pretty_help/menu.py,sha256=iQeglHVlfszO7xCNQB4oE1tMWtdFaX_T4AYaVi8e9bU,5307
+pretty_help/pretty_help.py,sha256=ek_4P9CRKZIbvAUOLwpJRuBm0W1DF2fl-QJbrnIb6V4,13848
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_discord_pretty_help.py,sha256=EDFNZr-S4w9UQt5AVTj9cwPmtQHslcRjBa8Gg4DR3VA,5459
+tessa_pretty_help-0.0.1.2.dist-info/LICENSE,sha256=hMiFdt6cEEcUJjrtfw-_0oMzUykZXv_cTLbNEOC_yas,1091
+tessa_pretty_help-0.0.1.2.dist-info/METADATA,sha256=XIwcp--8UVHIbqL9M3sW69skww6upMtiwTE4TDuybjc,3793
+tessa_pretty_help-0.0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tessa_pretty_help-0.0.1.2.dist-info/top_level.txt,sha256=xlHqR-GgPsuNgwUF0m4RI2dIzqDKo5SalIwZQxtPYvo,18
+tessa_pretty_help-0.0.1.2.dist-info/RECORD,,
