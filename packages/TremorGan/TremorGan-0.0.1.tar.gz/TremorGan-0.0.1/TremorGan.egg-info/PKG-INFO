@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TremorGan
+Version: 0.0.1
+Summary: Generate Tremor data using a Generative Adversarial Network
+Home-page: UNKNOWN
+Author: Anas Ibrahim
+Author-email: aibrah43@uwo.ca
+License: UNKNOWN
+Keywords: Tremor data generator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+

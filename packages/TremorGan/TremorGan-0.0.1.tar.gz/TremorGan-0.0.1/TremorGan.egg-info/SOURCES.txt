@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+Library link.txt
+MANIFEST.in
+README.txt
+__init__.py
+ptgan.py
+setup.py
+TremorGan.egg-info/PKG-INFO
+TremorGan.egg-info/SOURCES.txt
+TremorGan.egg-info/dependency_links.txt
+TremorGan.egg-info/requires.txt
+TremorGan.egg-info/top_level.txt

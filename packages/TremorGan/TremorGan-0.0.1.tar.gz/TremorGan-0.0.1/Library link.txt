@@ -1,0 +1,1 @@
+https://pypi.org/project/PT-GAN/0.0.1/
