@@ -1,0 +1,15 @@
+merge_dictionaries-0.1.0.data/scripts/merge-dictionaries,sha256=k9n302d0K6y5-rTmANRkiL_gZuHGr8yCRAF8VIF3Mys,511
+mergedictionaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mergedictionaries/app/__init__.py,sha256=yPJG2Mpcmg1gXxBnYvUz1K-ytvvwsBXPxFYXaiSqtwU,21
+mergedictionaries/app/app.py,sha256=FVuFGkA2pYVRFs2KPLUcjymlD_uDmtiOp_chDPhG-J4,2996
+mergedictionaries/output/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mergedictionaries/output/jetbrains.py,sha256=WaDz1r1o7SDhuaPte1RqpAsJMVP4J9itTsReIvQRtyw,1214
+mergedictionaries/sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mergedictionaries/sources/jetbrains.py,sha256=QdO3v_J1zNQJhQ0G1g-6yk8Woo898fm8SWIfeZpHOtM,1340
+mergedictionaries/write/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mergedictionaries/write/jetbrains.py,sha256=PLJaILpLdCcNBthg_Kk6ZR1CaTryeq6pnw0fM9TaolY,790
+merge_dictionaries-0.1.0.dist-info/LICENSE,sha256=oxqTAqvVhah1xN-mI8GcGnodOViwOmkwQZ4pfKTYGoM,1302
+merge_dictionaries-0.1.0.dist-info/METADATA,sha256=UAuWzC8KIlFcUvwSri-cJjhlXdMwYXoqvRP-G2UKJJM,2633
+merge_dictionaries-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+merge_dictionaries-0.1.0.dist-info/top_level.txt,sha256=AI1xt1nH6p3aexu4MENE-Hy0Iy_vl9H3iSmUFjjlB98,18
+merge_dictionaries-0.1.0.dist-info/RECORD,,
