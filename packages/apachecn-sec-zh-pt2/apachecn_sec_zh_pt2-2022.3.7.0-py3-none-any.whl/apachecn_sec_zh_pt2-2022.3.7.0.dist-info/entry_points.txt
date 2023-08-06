@@ -1,0 +1,4 @@
+[console_scripts]
+ApachecnSecZhPt2 = ApachecnSecZhPt2.__main__:main
+apachecn-sec-zh-pt2 = ApachecnSecZhPt2.__main__:main
+
