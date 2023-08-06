@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FRS1
+Version: 0.0.1
+Summary: Face Recogition for Siamese(FRS)
+Home-page: https://github.com/xalphonseinbaraj/FRS1
+Author: AlphonseInbarajXavier
+Author-email: xalphonse@gmail.com
+License: MIT license
+Keywords: Siamese_Checking_Model
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+
+This is for face recgnition using siamese model
+
+

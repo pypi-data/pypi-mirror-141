@@ -1,0 +1,12 @@
+FRS1/Image_Dataset_Generator.py,sha256=D3efkE8f4V0W6-aT0j5oMTHV6KYkeRwV5Xz6UrkyHRw,1596
+FRS1/__init__.py,sha256=Uc6biVgoxGouDkedvirsXb62ht_AHbcJcUubo0soWYw,107
+FRS1/face_recognizeronly.py,sha256=ELoZUKCyz0VaI-m7ZvnNyJvnLLf3RYbEahhM6wlwxuM,2388
+FRS1/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+FRS1/nn4.small2.v1.h5,sha256=7d2Kv-xTItTc7jnTr4-4uNgJVSS3DY1QhdrX3pFQxEs,15365752
+FRS1/shape_predictor_68_face_landmarks.dat,sha256=-9wsuA65qnp1hnLL_doyumMA7-m25seimf9-c2sRuS8,99693937
+FRS1-0.0.1.dist-info/AUTHORS.rst,sha256=qUtzVi92d4x0LLZ4Mqn51AJH3Enjjq0jsCd4RxQnUgc,228
+FRS1-0.0.1.dist-info/LICENSE,sha256=Xk-vzNNY2ROB9YoL9DdQdpDW7rG-uzhVfwQ_myDRNAM,1066
+FRS1-0.0.1.dist-info/METADATA,sha256=mEgBgdJZJjFSQJG7uXe6MmQcjQ9OwfR_pk8OA3tVxWs,612
+FRS1-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+FRS1-0.0.1.dist-info/top_level.txt,sha256=r6wYUgedmQAuLI0X2D7qHSWWXEE_W9SnC7o53kCVk5s,5
+FRS1-0.0.1.dist-info/RECORD,,
