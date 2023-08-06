@@ -1,0 +1,10 @@
+lazyscribe/__init__.py,sha256=qw72DVDhcD6Q2zRKAZpuDtYnFneVQFKN3-Obbf5nf9k,245
+lazyscribe/_meta.py,sha256=NsycCFKm8cB9ewYyX0Q1QY_uNZN7VNWhnfw2OOv6SgE,41
+lazyscribe/experiment.py,sha256=u_hGdOe28IARYINPt0P7VhjeMc5Sr5QaBOG8Y3WIDbg,7995
+lazyscribe/linked.py,sha256=gHnGdRXgFbEAQ-OwTSBZzRIiVUnYsXQgvQI4-jM_2hE,2639
+lazyscribe/project.py,sha256=eotrJ8omAfeeh4k2wc5qZisKBxENMY0lwD5JjCvFePo,13635
+lazyscribe/test.py,sha256=wD_oTGBR5e34F1kpjf_IRPWe5Zj-G969iXzBqjthcBs,1253
+lazyscribe-0.2.0.dist-info/METADATA,sha256=BWGnRkJYWG9rGK4iA53aUJIEVn30B_piVaNJh9_A36A,4768
+lazyscribe-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lazyscribe-0.2.0.dist-info/top_level.txt,sha256=Ge22vqzeczFYLZ5SYe6u9H-XxgFscnBV1F-sdyk8YVE,11
+lazyscribe-0.2.0.dist-info/RECORD,,
