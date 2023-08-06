@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: EasyMCDM
+Version: 0.1.0
+Summary: A easy to use Multi-Criteria Decision-Making (MCDM) toolkit which propose implementations for Electre, Promethee and much more.
+Home-page: https://EasyMCDM.github.io/
+Author: Yanis Labrak & Others
+Author-email: yanis.labrak@univ-avignon.fr
+License: UNKNOWN
+Keywords: python,MCDM,toolkit,easy,Multiple-criteria decision analysis,Multi-Criteria Decision-Making,methods,Multi-Criteria Decision-Making (MCDM)
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: prettytable
+
+# Build PyPi package
+
+Build: `python setup.py sdist bdist_wheel`
+
+Upload: `twine upload dist/*`
+
+# Citation
+
+If you want to cite the tool you can use this:
+
+```bibtex
+@misc{EasyMCDM,
+  title={EasyMCDM},
+  author={Yanis Labrak},
+  publisher={GitHub},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/qanastek/EasyMCDM}},
+  year={2022}
+}
+```
+
+
