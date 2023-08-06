@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+scaleutil/scaleutil-run
+scaleutil.egg-info/PKG-INFO
+scaleutil.egg-info/SOURCES.txt
+scaleutil.egg-info/dependency_links.txt
+scaleutil.egg-info/top_level.txt
