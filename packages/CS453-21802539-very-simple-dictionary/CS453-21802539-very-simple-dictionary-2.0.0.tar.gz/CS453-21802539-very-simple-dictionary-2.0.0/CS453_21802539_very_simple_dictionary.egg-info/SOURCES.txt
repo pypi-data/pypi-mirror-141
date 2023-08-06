@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+CS453_21802539_very_simple_dictionary.egg-info/PKG-INFO
+CS453_21802539_very_simple_dictionary.egg-info/SOURCES.txt
+CS453_21802539_very_simple_dictionary.egg-info/dependency_links.txt
+CS453_21802539_very_simple_dictionary.egg-info/requires.txt
+CS453_21802539_very_simple_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
