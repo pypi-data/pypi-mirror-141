@@ -1,0 +1,12 @@
+{
+  "_comment": "This file has been formatted by fmt_info.py",
+  "height": 2.2,
+  "inrow_spacing": 0.2,
+  "latitude": 45.1,
+  "longitude": 9.6,
+  "rootstock": "SO4",
+  "row_azimuth": 35,
+  "row_spacing": 2.2,
+  "species": "grape",
+  "variety": "Cabernet sauvignon"
+}
