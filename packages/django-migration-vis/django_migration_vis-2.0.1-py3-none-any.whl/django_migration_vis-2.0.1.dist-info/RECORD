@@ -1,0 +1,8 @@
+django_migration_vis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_migration_vis/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_migration_vis/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_migration_vis/management/commands/visualizemigrations.py,sha256=1zYRyCkxPUl3jb7Gmbe1riAJTrq6Hrc4JwKVdLRq-dg,3800
+django_migration_vis-2.0.1.dist-info/METADATA,sha256=8n8Xy2ztZQnEC1cw7Asf3ONmFfFpxr19wG7AVlVcuhg,1423
+django_migration_vis-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_migration_vis-2.0.1.dist-info/top_level.txt,sha256=TiuEcCh78GAxCwb8tSFnoO50D8pRqr4BrEIcSzw0g7c,21
+django_migration_vis-2.0.1.dist-info/RECORD,,
