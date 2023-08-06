@@ -1,0 +1,18 @@
+# Project exclude paths
+/venv/
+test_data
+.cache
+build
+dist
+*.egg-info
+*.bak
+__pycache__
+.idea
+*.har*
+src/spoofbot/replay/*.crt
+src/spoofbot/replay/*.ext
+src/spoofbot/replay/*.csr
+src/spoofbot/replay/*.key
+src/spoofbot/replay/*.pem
+src/spoofbot/replay/*.srl
+src/spoofbot/replay/*.sh
