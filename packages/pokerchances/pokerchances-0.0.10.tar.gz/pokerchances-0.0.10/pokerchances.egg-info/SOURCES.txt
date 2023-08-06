@@ -1,0 +1,10 @@
+setup.py
+pokerchances/__init__.py
+pokerchances/combtypes.py
+pokerchances/poker_chances.py
+pokerchances/poker_chances2.py
+pokerchances.egg-info/PKG-INFO
+pokerchances.egg-info/SOURCES.txt
+pokerchances.egg-info/dependency_links.txt
+pokerchances.egg-info/requires.txt
+pokerchances.egg-info/top_level.txt
