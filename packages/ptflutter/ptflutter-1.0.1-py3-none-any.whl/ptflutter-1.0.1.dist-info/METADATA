@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: ptflutter
+Version: 1.0.1
+Summary: A code generator for Flutter
+Home-page: https://github.com/tien-px/pt_flutter_tools
+Author: Pham Xuan Tien
+Author-email: tienpx.x.x@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clipboard (>=0.0.4)
+Requires-Dist: PyYAML (>=6.0.0)
+Requires-Dist: cssutils (>=2.2.0)
+Requires-Dist: Jinja2 (>=2.10)
+Requires-Dist: arghandler (>=1.2)
+
+# Code generator for Flutter apps
+## Installation:
+### Install using pip3:
+### Install Python on Mac
+Open Terminal and run:
+```
+$ brew install python3
+```
+### Install Python on Windows
+```
+https://www.python.org/downloads/
+```
+### Install Tool:
+```
+$ pip3 install ptflutter
+```
+### Update:
+```
+$ pip3 install -U ptflutter
+```
+### Uninstall:
+```
+$ pip3 uninstall ptflutter
+```
+## 1. Generates image class:
+Run:
+
+```
+$ ptflutter gen image
+```
+#### Example:
+Run:
+```
+$ ptflutter gen image
+```
+Output:
+```
+lib/generated/images.g.dart
+```
+
+## 2. Generates localization class:
+Run:
+
+```
+$ ptflutter gen localization
+```
+#### Example:
+Run:
+```
+$ ptflutter gen localization
+```
+Output:
+```
+lib/generated/i18n.g.dart
+```
+

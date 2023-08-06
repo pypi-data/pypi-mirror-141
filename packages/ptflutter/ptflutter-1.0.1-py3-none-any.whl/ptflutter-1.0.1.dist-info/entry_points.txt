@@ -1,0 +1,2 @@
+[console_scripts]
+ptflutter = ptflutter.__main__:main
