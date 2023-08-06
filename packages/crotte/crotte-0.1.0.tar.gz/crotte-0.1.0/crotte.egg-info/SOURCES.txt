@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+crotte.egg-info/PKG-INFO
+crotte.egg-info/SOURCES.txt
+crotte.egg-info/dependency_links.txt
+crotte.egg-info/requires.txt
+crotte.egg-info/top_level.txt
+regressors/__init__.py
+regressors/regressors.py

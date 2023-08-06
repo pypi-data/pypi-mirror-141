@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: crotte
+Version: 0.1.0
+Summary: Small personal project to learn about numpy and classes.
+Home-page: https://github.com/kristin54/linreg
+Author: Kristina
+License: MIT
+Keywords: linear regression project
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# linreg
+
+## Description
+
+This is a personal demo to get familiar with  the numpy arrays and linear regression algorithm. 
+
+
+package contains a linear regression class with fit and predict functions. 
+
+
+## Example
+from # from linreg.regressors import LinearRegression
+
+regressor=LinearRegression()
+regressor.fit(X,y)
+y_predict=regressor.predict(X_predict)
+
+
