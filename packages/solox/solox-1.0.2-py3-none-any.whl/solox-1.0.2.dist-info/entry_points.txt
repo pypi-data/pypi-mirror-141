@@ -1,0 +1,3 @@
+[console_scripts]
+solox = solox.run:main
+
