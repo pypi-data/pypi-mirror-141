@@ -1,0 +1,11 @@
+README.md
+setup.py
+macaw/__init__.py
+macaw/generators.py
+macaw/macaw.py
+macaw/version.py
+macaw_py.egg-info/PKG-INFO
+macaw_py.egg-info/SOURCES.txt
+macaw_py.egg-info/dependency_links.txt
+macaw_py.egg-info/requires.txt
+macaw_py.egg-info/top_level.txt
