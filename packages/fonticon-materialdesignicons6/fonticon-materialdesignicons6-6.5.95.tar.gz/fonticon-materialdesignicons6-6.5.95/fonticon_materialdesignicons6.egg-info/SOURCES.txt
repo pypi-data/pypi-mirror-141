@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+fonticon_materialdesignicons6.egg-info/PKG-INFO
+fonticon_materialdesignicons6.egg-info/SOURCES.txt
+fonticon_materialdesignicons6.egg-info/dependency_links.txt
+fonticon_materialdesignicons6.egg-info/entry_points.txt
+fonticon_materialdesignicons6.egg-info/requires.txt
+fonticon_materialdesignicons6.egg-info/top_level.txt
+fonticon_mdi6/__init__.py
+fonticon_mdi6/_iconfont.py
+fonticon_mdi6/mdi6.py
+fonticon_mdi6/_tests/test_font.py
+fonticon_mdi6/fonts/LICENSE.txt
+fonticon_mdi6/fonts/materialdesignicons-webfont.ttf

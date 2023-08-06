@@ -1,0 +1,2 @@
+[superqt.fonticon]
+mdi6 = fonticon_mdi6:MDI6
