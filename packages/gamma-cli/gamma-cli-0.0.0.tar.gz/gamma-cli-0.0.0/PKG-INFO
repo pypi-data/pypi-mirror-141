@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gamma-cli
+Version: 0.0.0
+Summary: 
+Author: Niels Freier
+Author-email: freier.niels@bcg.com
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
