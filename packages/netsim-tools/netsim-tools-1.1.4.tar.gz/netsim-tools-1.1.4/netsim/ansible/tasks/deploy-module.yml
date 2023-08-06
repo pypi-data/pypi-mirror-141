@@ -1,0 +1,26 @@
+#
+# Deploy module-specific configuration (specified in "item") to a device
+#
+- debug:
+    msg: |
+      {{ config_module }} configuration for {{ inventory_hostname }}
+      =========================================
+      {{ lookup('template',item) }}
+    verbosity: 1
+  tags: [ test,module ]
+  with_first_found:
+  - "../templates/{{ config_module }}/{{ netlab_device_type }}.j2"
+  - "../templates/missing.j2"
+
+- include_tasks: "{{ item }}"
+  tags: [ module ]
+  with_first_found:
+  - "{{netlab_device_type}}/{{ config_module }}.yml"
+  - "deploy-config/{{netlab_device_type}}.yml"
+  - "../missing.yml"
+  args:
+    apply:
+      vars:
+        config_template: "../templates/{{ config_module }}/{{netlab_device_type}}.j2"
+        netsim_action: "{{ config_module }}"
+      tags: [ always ]

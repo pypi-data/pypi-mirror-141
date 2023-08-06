@@ -1,0 +1,54 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: Deploy device configuration
+  hosts: all
+  strategy: "{{ netsim_strategy|default('linear') }}"
+  gather_facts: false
+  tasks:
+  - set_fact:
+      netlab_device_type: "{{ netlab_device_type|default(ansible_network_os) }}"
+    tags: [ always ]
+
+  - name: Find initial configuration template
+    debug:
+      msg: |
+        Config for {{ inventory_hostname }} (type {{ netlab_device_type }})
+        ===================================
+        {{ lookup('template',item) }}
+      verbosity: 1
+    vars:
+      config_module: initial
+    with_first_found:
+    - "templates/{{ config_module }}/{{ netlab_device_type }}.j2"
+    - "templates/missing.j2"
+    tags: [ initial,test ]
+
+  - include_tasks: "{{ item }}"
+    name: Deploy initial device configuration
+    tags: [ initial ]
+    with_first_found:
+    - "tasks/{{netlab_device_type}}/initial.yml"
+    - "tasks/deploy-config/{{netlab_device_type}}.yml"
+    - "missing.yml"
+    args:
+      apply:
+        vars:
+          config_template: "templates/initial/{{netlab_device_type}}.j2"
+          netsim_action: initial
+        tags: [ always ]
+
+  - name: Deploy module-specific configurations
+    include_tasks: "tasks/deploy-module.yml"
+    tags: [ module,test ]
+    loop: "{{ module | default([]) }}"
+    loop_control:
+      loop_var: config_module
+    when: module is defined and (not(modlist is defined) or config_module in modlist)
+
+  - name: Deploy custom deployment templates
+    include_tasks: "tasks/deploy-custom-config.yml"
+    tags: [ custom,test ]
+    loop: "{{ config | default([]) }}"
+    loop_control:
+      loop_var: custom_config
+    when: config is defined
