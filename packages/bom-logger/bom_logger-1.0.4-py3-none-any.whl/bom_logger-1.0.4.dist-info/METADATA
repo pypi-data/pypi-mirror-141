@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bom-logger
+Version: 1.0.4
+Summary: Log fun.
+Home-page: https://github.com/bomt1me/bomlog
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bom-configuration
+
+# bom-logger
+
+![pipeline](https://github.com/bomt1me/bomlog/actions/workflows/dev.yml/badge.svg)
+
+Welcome to bom-logger.
+
+

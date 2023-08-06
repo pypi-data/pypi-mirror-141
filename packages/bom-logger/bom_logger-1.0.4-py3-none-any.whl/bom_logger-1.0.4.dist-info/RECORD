@@ -1,0 +1,8 @@
+bom_logger-1.0.4-py3.8-nspkg.pth,sha256=5RlHBTSikI1gpKx5zTNPswNFibLg-8lRj69viLf7w4o,524
+bom/logger/__init__.py,sha256=9YXvleTsg4k71A8k6M3EaSOUgRA-9fkBo2gFvhh0NsI,337
+bom/logger/formatter.py,sha256=G-wCeAkjPF9zoeVtkq9yW1ZmagdK_RffX-8VfEJXHl8,2661
+bom_logger-1.0.4.dist-info/METADATA,sha256=mHICFDsJclpB6O1gnqH5fh1ad2NPTxKthW4LG911gHQ,372
+bom_logger-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bom_logger-1.0.4.dist-info/namespace_packages.txt,sha256=6zytg4lnnobI96dO-ZEadPOCslrrFmf4t2Pnv-y8x0Y,4
+bom_logger-1.0.4.dist-info/top_level.txt,sha256=6zytg4lnnobI96dO-ZEadPOCslrrFmf4t2Pnv-y8x0Y,4
+bom_logger-1.0.4.dist-info/RECORD,,
