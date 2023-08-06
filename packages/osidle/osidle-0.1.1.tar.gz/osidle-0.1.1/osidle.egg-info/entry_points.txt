@@ -1,0 +1,4 @@
+[console_scripts]
+osidle = osidle.analysis:osidle_analysis
+osidled = osidle.monitor:osidle_monitor
+
