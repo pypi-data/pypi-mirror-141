@@ -1,0 +1,5 @@
+setup.py
+pandas_storage_compressor.egg-info/PKG-INFO
+pandas_storage_compressor.egg-info/SOURCES.txt
+pandas_storage_compressor.egg-info/dependency_links.txt
+pandas_storage_compressor.egg-info/top_level.txt
