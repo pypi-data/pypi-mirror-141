@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lcov_cobertura/lcov_cobertura.py
+lcov_cobertura.egg-info/PKG-INFO
+lcov_cobertura.egg-info/SOURCES.txt
+lcov_cobertura.egg-info/dependency_links.txt
+lcov_cobertura.egg-info/entry_points.txt
+lcov_cobertura.egg-info/requires.txt
+lcov_cobertura.egg-info/top_level.txt
+test/test_lcov_cobertura.py
