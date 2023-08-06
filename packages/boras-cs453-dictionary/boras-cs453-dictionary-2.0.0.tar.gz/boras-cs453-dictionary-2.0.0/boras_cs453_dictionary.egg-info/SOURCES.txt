@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+boras_cs453_dictionary.egg-info/PKG-INFO
+boras_cs453_dictionary.egg-info/SOURCES.txt
+boras_cs453_dictionary.egg-info/dependency_links.txt
+boras_cs453_dictionary.egg-info/requires.txt
+boras_cs453_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
