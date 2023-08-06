@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pynterpol
+Version: 1.0.1
+Summary: Fast image interpolation
+Home-page: https://github.com/FlorentBrunet/pynterpol
+Author: Florent Brunet
+Author-email: florent.brunet@algostia.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/FlorentBrunet/pynterpol/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pynterpol
+
+Fast image interpolation in Python.
+
+## Installation
+
+```shell
+python -m pip install pynterpol
+```
+
+## Usage
+
+```python
+from pynterpol import interp_bilinear_u8
+import cv2
+
+img = cv2.imread('image.jpg')
+
+interpolated_values = interp_bilinear_u8(img, [100.1, 100.8], [50.5, 51.2])
+```
+
+## Distribution
+
+```shell
+python -m pip install --upgrade build twine
+python -m pip build
+python -m twine upload --repository testpypi dist/*
+```
+
+
