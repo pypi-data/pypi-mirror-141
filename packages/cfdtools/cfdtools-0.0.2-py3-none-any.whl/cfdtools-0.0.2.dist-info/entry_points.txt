@@ -1,0 +1,3 @@
+[console_scripts]
+cfdinfo=cfdtools._cli:info
+
