@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+selin_cs453_hw1_section1.egg-info/PKG-INFO
+selin_cs453_hw1_section1.egg-info/SOURCES.txt
+selin_cs453_hw1_section1.egg-info/dependency_links.txt
+selin_cs453_hw1_section1.egg-info/requires.txt
+selin_cs453_hw1_section1.egg-info/top_level.txt
