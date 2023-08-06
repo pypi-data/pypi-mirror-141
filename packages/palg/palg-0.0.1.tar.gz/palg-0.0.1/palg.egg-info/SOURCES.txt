@@ -1,0 +1,6 @@
+setup.py
+p/__init__.py
+palg.egg-info/PKG-INFO
+palg.egg-info/SOURCES.txt
+palg.egg-info/dependency_links.txt
+palg.egg-info/top_level.txt
