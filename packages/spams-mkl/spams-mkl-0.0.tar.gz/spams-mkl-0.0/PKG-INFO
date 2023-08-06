@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: spams-mkl
+Version: 0.0
+Summary: Python interface for SPAMS
+Home-page: https://pypi.python.org/pypi/spams/
+Author: Julien Mairal
+Author-email: spams.dev@inria.fr
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+License: UNKNOWN
+Description: Use `spams <https://pypi.python.org/pypi/spams/>`_ instead.
+Platform: all

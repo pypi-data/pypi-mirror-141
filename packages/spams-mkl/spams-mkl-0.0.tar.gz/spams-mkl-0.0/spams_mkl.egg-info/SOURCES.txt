@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+spams_mkl.egg-info/PKG-INFO
+spams_mkl.egg-info/SOURCES.txt
+spams_mkl.egg-info/dependency_links.txt
+spams_mkl.egg-info/not-zip-safe
+spams_mkl.egg-info/requires.txt
+spams_mkl.egg-info/top_level.txt
