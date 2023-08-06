@@ -1,0 +1,14 @@
+{% load i18n widget_tweaks %}
+<form hx-post="{{ form_action_url }}" hx-trigger="submit" hx-target="this" hx-swap="outerHTML" hx-indicator="#spinner">
+{% csrf_token %}
+  {% trans "Associate a new email address with your account. When you add a new email, we’ll send you a confirmation link to verify the address." %}
+  </p>
+    {% csrf_token %}
+    <div class="mb-4">
+      <label for="{{ form.email.name }}" class="form-label">{{ form.email.label }}</label>
+      {% render_field form.email class='form-control' %}
+      {% if form.email.help_text %}<div class="help">{{ form.email.help_text }}</div>{% endif %}
+      {% if form.email.errors %}<div class="errors">{{ form.email.errors }}</div>{% endif %}
+    </div>
+    <button name="action_add" class="btn btn-success" type="submit"><i class="bi bi-plus-lg me-2"></i>{% trans "Add E-mail" %}</button>
+</form>

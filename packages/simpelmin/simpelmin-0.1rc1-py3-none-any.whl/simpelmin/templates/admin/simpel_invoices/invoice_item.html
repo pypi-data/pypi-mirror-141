@@ -1,0 +1,49 @@
+{% load i18n admin_urls simpelcore_tags %}
+
+{% with object.product.specific as product %}
+  {% if product.is_deliverable or  object.bundles.count %}
+    <div class="card shadow-sm mb-4">
+      <div class="card-header d-flex px-5 py-4">
+        <div class="me-auto">
+          <div class="mb-1">
+            <strong>{{ product.inner_id }}</strong>
+            <span>{{ product.name|truncatechars:60 }}</span>
+          </div>
+          <h5 class="fs-5 fw-bold">{% firstof object.name product.name %}</h5>
+        </div>
+        <div class="text-end">
+          <span class="small">{{ object.quantity }} x {{ object.subtotal|currency }}</span>
+          <div class="fs-5 fw-bold">{{ object.total|currency }}</div>
+        </div>
+      </div>
+      <div class="card-body">
+        {% if object.bundles.count %}
+          <div class="table-responsive">
+            <table class="table m-0 border small">
+              <thead>
+                <tr>
+                  <th class="align-middle" width="110">{% trans "#" %}</th>
+                  <th class="align-middle">{% trans "Item" %}</th>
+                  <th class="align-middle text-end">{% trans "Price" %}</th>
+                  <th class="align-middle text-center">{% trans "Quantity" %}</th>
+                  <th class="align-middle text-end">{% trans "Total" %}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for orderitem_bundle in object.bundles.all %}
+                  <tr>
+                    <td>{{ orderitem_bundle.product.inner_id }}</td>
+                    <td>{{ orderitem_bundle.product.name }}</td>
+                    <td class="text-end">{{ orderitem_bundle.product.total_price|currency }}</td>
+                    <td class="text-center">{{ orderitem_bundle.quantity }} {{ orderitem_bundle.product.unit }}</td>
+                    <td class="text-end">{{ orderitem_bundle.total|currency }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endwith %}

@@ -1,0 +1,15 @@
+/* OBJECT TOOLS */
+
+.object-tools {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
+  a {
+    @extend .btn;
+    @extend .btn-secondary;
+    @extend .btn-sm;
+  }
+}

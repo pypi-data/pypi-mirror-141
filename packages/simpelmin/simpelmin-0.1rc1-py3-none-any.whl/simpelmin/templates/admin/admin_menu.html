@@ -1,0 +1,9 @@
+<div id="adminMenu" class="module border bg-light p-5px mb-1 {{ classnames }}">
+  <ul class="mb-0">
+    {% for menu in menus %}
+      <li>
+        <a href="{{ menu.url }}">{{ menu.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

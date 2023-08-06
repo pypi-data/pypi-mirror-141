@@ -1,0 +1,34 @@
+{% load i18n static %}
+{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr,auto' }}">
+  <head>
+    {% block extrahead %}{% endblock %}
+    {% block extrastyle %}{% endblock %}
+    {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE">{% endblock %}
+    {% block main_css %}{% endblock main_css %}
+    {% block extra_css %}{% endblock extra_css %}
+  </head>
+
+  <body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}" data-admin-utc-offset="{% now "Z" %}">
+    
+    {% block navbar %}{% endblock navbar %}
+
+    {% block outter_wrapper %}
+      <div id="outter-wrapper"
+           class="{% block outter_classes %}{% endblock %}"
+           x-data="{% block outter_xdata %}{% endblock %}"
+        >
+        {% block sidenav_left_wrapper %}{% endblock %}
+        {% block main_wrapper %}{% endblock %}
+        {% block sidenav_right_wrapper %}{% endblock %}
+      </div>
+    {% endblock %}
+    
+    {% comment %} Scripts {% endcomment %}
+    {% block main_js %}{% endblock main_js %}
+    {% block extra_js %}{% endblock extra_js %}
+    {% block tawk_to %}{% endblock tawk_to %}
+  </body>
+</html>

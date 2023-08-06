@@ -1,0 +1,41 @@
+{% load i18n simpelcore_tags %}
+{% if items.count %}
+  <div class="table-responsive mb-4">
+    <table class="table border">
+      <thead>
+        <tr>
+          <th class="align-middle" width="110">{% trans "#" %}</th>
+          <th class="align-middle">{% trans "Item" %}</th>
+          <th class="align-middle text-end">{% trans "Price" %}</th>
+          <th class="align-middle text-end">{% trans "Quantity" %}</th>
+          <th class="align-middle text-end">{% trans "Total" %}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% regroup items.all by group_verbose as group_list %}
+        {% for group in group_list %}
+          <tr>
+            <td colspan="5"><strong>{{ group.grouper }}</strong></td>
+          </tr>
+          {% for item in group.list %}
+          <tr>
+            <td>{{ item.product.inner_id }}</td>
+            <td>{{ item.product.name }}</td>
+            <td class="text-end">{{ item.subtotal|currency }}</td>
+            <td class="text-end">{{ item.quantity }} {{ item.product.unit }}</td>
+            <td class="text-end">{{ item.total|currency }}</td>
+          </tr>
+          {% endfor %}
+        {% endfor %}
+        <tr>
+          <td colspan="4" class="text-end fw-bold">{% trans "Total Order" %}</td>
+          <td class="text-end">{{ cart.total_order|currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+{% else %}
+  <div class="w-100 border rounded p-6 text-center mb-4">
+    {% trans "Please select service group !" %}
+  </div>
+{% endif %}

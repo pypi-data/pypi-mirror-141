@@ -1,0 +1,22 @@
+{% extends "account/base.html" %}
+{% load static i18n widget_tweaks socialaccount %}
+
+{% block head_title %}{% trans "Sign Up" %}{% endblock%}
+{% block auth_title %}{% trans "Sign Up, It's Free" %}{% endblock%}
+
+{% block auth_body %}
+  <p class="login-box-msg">
+  {% blocktrans trimmed with provider_name=account.get_provider.name site_name=site.name %}You are about to use your {{provider_name}} account to login to
+  {{site_name}}. As a final step, please complete the following form:{% endblocktrans %}</p>
+
+  <form class="signup" id="signup_form" method="post" action="{% url 'socialaccount_signup' %}">
+    {% csrf_token %}
+    {% include 'account/snippets/form_error_list.html' with errors=form.non_field_errors %}
+    {% include 'account/snippets/form_control.html' with field=form.username %}
+    {% include 'account/snippets/form_control.html' with field=form.email %}
+    {% if redirect_field_value %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+    {% endif %}
+    <button class="btn btn-primary w-100 mb-3" type="submit">{% trans "Signup" %}</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,99 @@
+{% extends 'admin/print.html' %}
+{% load i18n simpelcore_tags %}
+
+{% block content %}
+<div id="content-main">
+  <div class="row">
+    <div class="col-md-12">
+
+      <div id="sales-order-print">
+        <section class="row-print p-3 rounded mb-4" style="background-color:#efefef;">
+          <div class="col-print-9">
+            <div><strong>#{{ object.inner_id }}</strong></div>
+            <div><strong>{% trans "Created At:" %}</strong> {{ object.created_at }}</div>
+          </div>
+          <div class="col-print-3 text-end">
+            <div>{{ object.get_status_display }}</div>
+            <h2 class="document-title">{{ object.grand_total|currency }}</h2>
+            #{{ object.inner_id }}
+          </div>
+          <div class="clear"></div>
+        </section>
+        
+        {% with object.sales_order.customer as customer %}
+        <section class="customer-section mb-5">
+          <table class="table table-borderless table-sm w-100">
+            <tbody>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Created At:" %}</td>
+                <td class="text-start align-middle">{{ object.created_at }}</td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Customer ID" %}</td>
+                <td class="text-start align-middle">{{ customer.uid|upper }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-middle fw-bold">{% trans "Customer Name" %}</td>
+                <td class="text-start align-middle">{{ customer.name }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Address" %}</td>
+                <td class="text-start align-top">
+                  <div>{{ customer.address.render.0 }}</div>
+                  <div>{{ customer.address.render.1 }}</div>
+                </td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Email" %}</td>
+                <td class="text-start align-top">{{ customer.email }}</td>
+              </tr>
+              <tr>
+                <td width="150" class="align-top fw-bold">{% trans "Phone" %}</td>
+                <td class="text-start align-top">{{ customer.phone }}</td>
+              </tr>
+              {% if object.note %}
+                <tr>
+                  <td width="150" class="align-top fw-bold">{% trans "Note" %}</td>
+                  <td class="text-start align-top"><em>{{ object.note }}</em></td>
+                </tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </section>
+        {% endwith %}
+
+        <section class="item-section">
+          {% for item in object.sales_order.items.all %}
+            <div class="">
+              {% if item.name %}<span class="d-inline-block text-muted mb-2">{{ item.name }}</span>{% endif %}
+              <h3>{{ item.product }}</h3>
+              {% block deliverable_information %}
+                <div class="border mb-3 p-3 rounded-3">
+                  <span class="badge badge-sm bg-secondary float-end">{% trans "Deliverable Information" %}</span>
+                  {% if item.deliverable_information %}
+                    <div class="fw-bold">{{ item.deliverable_information.name }}</div>
+                    <div>
+                      <strong>{% trans "Email" %}:</strong> {{ item.deliverable_information.email }}
+                      <strong>{% trans "Phone" %}:</strong> {{ item.deliverable_information.phone }}
+                    </div>
+                    <div>{{ item.deliverable_information.address }}</div>
+                  {% else %}
+                    {% trans "Certificate holder not set. Customer information will be used." %}
+                  {% endif %}
+                </div>
+              {% endblock deliverable_information %}
+              
+              {% include 'admin/table_bundles.html' with item=item pricing=False %}
+  
+            </div>
+          {% endfor %}
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

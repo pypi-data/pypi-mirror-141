@@ -1,0 +1,34 @@
+{% load i18n widget_tweaks %}
+{% if success_message %}
+<div class="p-4 mb-1 alert alert-success alert-dismissible fade show" role="alert">
+  {{ success_message|capfirst }}
+  <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+<form hx-post="{{ form_action_url }}" hx-trigger="submit" hx-target="this" hx-swap="outerHTML" hx-indicator="#spinner">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="{{ form.full_name.name }}" class="form-label fw-bold">{{ form.full_name.label }}</label>
+    {% render_field form.full_name class='form-control' %}
+    {% if form.full_name.help_text %}<div class="help">{{ form.full_name.help_text }}</div>{% endif %}
+    {% if form.full_name.errors %}<div class="errors">{{ form.full_name.errors }}</div>{% endif %}
+  </div>
+  <div class="row mb-4">
+    <div class="col-lg-6">
+      <label for="{{ form.short_name.name }}" class="form-label fw-bold">{{ form.short_name.label }}</label>
+      {% render_field form.short_name class='form-control' %}
+      {% if form.short_name.help_text %}<div class="help">{{ form.short_name.help_text }}</div>{% endif %}
+      {% if form.short_name.errors %}<div class="errors">{{ form.short_name.errors }}</div>{% endif %}
+    </div>
+    <div class="col-lg-6">
+      <label for="{{ form.gender.name }}" class="form-label fw-bold">{{ form.gender.label }}</label>
+      {% render_field form.gender class='form-control' %}
+      {% if form.gender.help_text %}<div class="help">{{ form.gender.help_text }}</div>{% endif %}
+      {% if form.gender.errors %}<div class="errors">{{ form.gender.errors }}</div>{% endif %}
+    </div>
+  </div>
+  <div class="buttonHolder">
+    <button class="btn btn-success mb-2" type="submit" name="form_action" value="profile_preferences" >{% trans 'Save' %}</button>
+    {% comment %} <button class="btn mb-2" type="submit" name="action_primary" >{% trans 'Cancel' %}</button> {% endcomment %}
+  </div>
+</form>

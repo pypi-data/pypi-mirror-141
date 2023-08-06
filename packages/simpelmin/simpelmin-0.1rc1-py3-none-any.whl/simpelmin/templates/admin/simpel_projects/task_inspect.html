@@ -1,0 +1,15 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n admin_urls simpelcore_tags %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-9">
+    <section>
+      {% include 'admin/simpel_projects/task_item.html' %}
+    </section>
+  </div>
+  <div class="col-lg-3">
+    {% include 'notices/object_action_logs.html' %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "account/base.html" %}
+{% load static i18n widget_tweaks %}
+
+{% block head_title %}{% trans "Sign In" %}{% endblock%}
+{% block auth_title %}{% trans "Welcome Back" %}{% endblock auth_title %}
+
+{% block auth_body %}
+    <p class="login-box-msg text-center">{% trans "Sign in to your account to continue" %}</p>
+    <form action="" method="POST" class="mb-3">
+      {% csrf_token %}
+      {% include 'account/snippets/form_error_list.html' with errors=form.non_field_errors %}
+      {% include 'account/snippets/form_control.html' with field=form.login %}
+      {% include 'account/snippets/form_control.html' with field=form.password %}
+      <div class="row">
+        <!-- /.col -->
+        <div class="col-7">
+          <div class="icheck-primary">
+            {% render_field form.remember class="me-1" %}
+            <label for="{{ form.remember.name }}">
+              {% trans "Remember Me" %}
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-5">
+          <button class="btn btn-primary w-100 mb-3" type="submit">{% trans "Login" %}</button>
+        </div>
+      </div>
+    </form>
+
+    {% include 'account/snippets/social_login.html' %}
+
+    <div class="small text-center">
+      <a href="{% url 'account_reset_password' %}">{% trans "I forgot my password" %}</a> |
+      <a href="{% url 'account_signup' %}" class="text-center">{% trans "Register a new account." %}</a>
+    </div>
+
+{% endblock auth_body %}

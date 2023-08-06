@@ -1,0 +1,8 @@
+<div class="form-group row mb-2">
+  <div class="{{ col_label_classes }}">
+    <label for="{{ field.name }}" class="form-label">{{ field.label }}</label>
+  </div>
+  <div class="{{ col_input_classes }}">
+    {% include 'account/snippets/form_control.html' with field=field %}
+  </div>
+</div>

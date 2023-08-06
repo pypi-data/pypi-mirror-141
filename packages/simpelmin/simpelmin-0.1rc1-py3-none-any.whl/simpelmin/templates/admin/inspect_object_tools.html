@@ -1,0 +1,29 @@
+{% load i18n static admin_urls %}
+
+{% if has_add_permission %}
+  {% url opts|admin_urlname:'add' as add_url %}
+  {% trans "Create New Sales Order" as add_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=add_url popover=add_popover icon="plus" %}
+{% endif %}
+
+{% url opts|admin_urlname:'print' object.pk|admin_urlquote as print_url %}
+{% if print_url and has_print_permission %}
+  {% trans "Print as PDF" as print_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=print_url popover=print_popover icon="printer-outline" %}
+{% endif %}
+
+{% url opts|admin_urlname:'history' object.pk|admin_urlquote as history_url %}
+{% trans "Show activities" as history_popover %}
+{% include 'admin/includes/object_tools_item.html' with url=history_url popover=history_popover icon="history" %}
+
+{% if has_change_permission %}
+  {% url opts|admin_urlname:'change' object.pk|admin_urlquote as change_url %}
+  {% trans "Edit this item" as change_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=change_url popover=change_popover icon="pencil-plus-outline" %}
+{% endif %}
+
+{% if has_delete_permission %}
+  {% url opts|admin_urlname:'delete' object.pk|admin_urlquote as delete_url %}
+  {% trans "Delete this item" as delete_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=delete_url popover=delete_popover icon="trash-can-outline" %}          
+{% endif %}

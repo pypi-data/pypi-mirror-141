@@ -1,0 +1,185 @@
+{
+  "status": "done",
+  "assets": {
+    "fonts/materialdesignicons-webfont.eot": {
+      "name": "fonts/materialdesignicons-webfont.eot",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/materialdesignicons-webfont.eot"
+    },
+    "fonts/materialdesignicons-webfont.woff2": {
+      "name": "fonts/materialdesignicons-webfont.woff2",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/materialdesignicons-webfont.woff2"
+    },
+    "fonts/materialdesignicons-webfont.woff": {
+      "name": "fonts/materialdesignicons-webfont.woff",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/materialdesignicons-webfont.woff"
+    },
+    "fonts/materialdesignicons-webfont.ttf": {
+      "name": "fonts/materialdesignicons-webfont.ttf",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/materialdesignicons-webfont.ttf"
+    },
+    "fonts/Roboto-Bold-webfont.woff": {
+      "name": "fonts/Roboto-Bold-webfont.woff",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/Roboto-Bold-webfont.woff"
+    },
+    "fonts/Roboto-Regular-webfont.woff": {
+      "name": "fonts/Roboto-Regular-webfont.woff",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/Roboto-Regular-webfont.woff"
+    },
+    "fonts/Roboto-Light-webfont.woff": {
+      "name": "fonts/Roboto-Light-webfont.woff",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/fonts/Roboto-Light-webfont.woff"
+    },
+    "img/icon-yes.svg": {
+      "name": "img/icon-yes.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-yes.svg"
+    },
+    "img/icon-alert.svg": {
+      "name": "img/icon-alert.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-alert.svg"
+    },
+    "img/icon-no.svg": {
+      "name": "img/icon-no.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-no.svg"
+    },
+    "img/icon-changelink.svg": {
+      "name": "img/icon-changelink.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-changelink.svg"
+    },
+    "img/sorting-icons.svg": {
+      "name": "img/sorting-icons.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/sorting-icons.svg"
+    },
+    "img/icon-addlink.svg": {
+      "name": "img/icon-addlink.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-addlink.svg"
+    },
+    "img/search.svg": {
+      "name": "img/search.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/search.svg"
+    },
+    "img/selector-icons.svg": {
+      "name": "img/selector-icons.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/selector-icons.svg"
+    },
+    "img/icon-unknown.svg": {
+      "name": "img/icon-unknown.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-unknown.svg"
+    },
+    "img/icon-unknown-alt.svg": {
+      "name": "img/icon-unknown-alt.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-unknown-alt.svg"
+    },
+    "img/icon-clock.svg": {
+      "name": "img/icon-clock.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-clock.svg"
+    },
+    "img/icon-calendar.svg": {
+      "name": "img/icon-calendar.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/icon-calendar.svg"
+    },
+    "img/calendar-icons.svg": {
+      "name": "img/calendar-icons.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/calendar-icons.svg"
+    },
+    "img/inline-delete.svg": {
+      "name": "img/inline-delete.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/inline-delete.svg"
+    },
+    "img/cart_bg_sm_blue.png": {
+      "name": "img/cart_bg_sm_blue.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/cart_bg_sm_blue.png"
+    },
+    "css/main.bundle.css": {
+      "name": "css/main.bundle.css",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/css/main.bundle.css"
+    },
+    "js/main.js": {
+      "name": "js/main.js",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/js/main.js"
+    },
+    "img/avatar_female.png": {
+      "name": "img/avatar_female.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/avatar_female.png"
+    },
+    "img/avatar_male.png": {
+      "name": "img/avatar_male.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/avatar_male.png"
+    },
+    "img/bridge.png": {
+      "name": "img/bridge.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/bridge.png"
+    },
+    "img/ecommerce-bg.png": {
+      "name": "img/ecommerce-bg.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/ecommerce-bg.png"
+    },
+    "img/error-403.png": {
+      "name": "img/error-403.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/error-403.png"
+    },
+    "img/error-404.png": {
+      "name": "img/error-404.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/error-404.png"
+    },
+    "img/error-500.png": {
+      "name": "img/error-500.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/error-500.png"
+    },
+    "img/favicon.ico": {
+      "name": "img/favicon.ico",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/favicon.ico"
+    },
+    "img/favicon.svg": {
+      "name": "img/favicon.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/favicon.svg"
+    },
+    "img/favicon_120.png": {
+      "name": "img/favicon_120.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/favicon_120.png"
+    },
+    "img/favicon_32.png": {
+      "name": "img/favicon_32.png",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/favicon_32.png"
+    },
+    "img/logo_light.svg": {
+      "name": "img/logo_light.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/logo_light.svg"
+    },
+    "img/noresults.svg": {
+      "name": "img/noresults.svg",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/img/noresults.svg"
+    },
+    "css/print.bundle.css": {
+      "name": "css/print.bundle.css",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/css/print.bundle.css"
+    },
+    "js/print.js": {
+      "name": "js/print.js",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/js/print.js"
+    },
+    "js/shared.js": {
+      "name": "js/shared.js",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/js/shared.js"
+    },
+    "js/runtime.js": {
+      "name": "js/runtime.js",
+      "path": "/home/rizkisasri/simpellab/simpelmin/static/simpelmin/js/runtime.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "css/main.bundle.css",
+      "js/main.js"
+    ],
+    "print": [
+      "css/print.bundle.css",
+      "js/print.js"
+    ],
+    "shared": [
+      "js/runtime.js",
+      "js/shared.js"
+    ]
+  },
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \"}\".\n    ╷\n117 │ }\n    │  ^\n    ╵\n  source/scss/print.scss 117:2  root stylesheet"
+}

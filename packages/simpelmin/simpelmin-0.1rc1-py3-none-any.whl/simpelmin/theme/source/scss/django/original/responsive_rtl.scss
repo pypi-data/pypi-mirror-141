@@ -1,0 +1,100 @@
+/* TABLETS */
+
+@media (max-width: 1024px) {
+  [dir="rtl"] {
+    .colMS {
+      margin-right: 0;
+    }
+
+    #user-tools {
+      text-align: right;
+    }
+
+    #changelist .actions {
+      label {
+        padding-left: 10px;
+        padding-right: 0;
+      }
+
+      select {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    }
+
+    .change-list .filtered {
+      .results,
+      .paginator {
+        margin-left: 0;
+      }
+    }
+
+    .filtered {
+      #toolbar,
+      div.xfull,
+      .actions {
+        margin-left: 0;
+      }
+    }
+
+    #changelist-filter {
+      margin-left: 0;
+    }
+
+    .inline-group {
+      ul.tools a.add,
+      div.add-row a,
+      .tabular tr.add-row td a {
+        padding: 8px 26px 8px 10px;
+        background-position: calc(100% - 8px) 9px;
+      }
+    }
+
+    .related-widget-wrapper-link + .selector {
+      margin-right: 0;
+      margin-left: 15px;
+    }
+
+    .selector .selector-filter label {
+      margin-right: 0;
+      margin-left: 8px;
+    }
+
+    .object-tools li {
+      float: right;
+
+      + li {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    }
+
+    .dashboard .module table td a {
+      padding-left: 0;
+      padding-right: 16px;
+    }
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+  [dir="rtl"] {
+    .aligned {
+      .related-lookup,
+      .datetimeshortcuts {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+
+      ul {
+        margin-right: 0;
+      }
+    }
+
+    #changelist-filter {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

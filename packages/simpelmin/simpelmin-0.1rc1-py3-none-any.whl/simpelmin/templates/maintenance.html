@@ -1,0 +1,16 @@
+{% extends 'base_error.html' %}
+{% load i18n static %}
+
+{% block title %}{% trans "Maintenance" %}{% endblock %} 
+
+{% block error_title %}
+  {% trans "Maintenance!" %}
+{% endblock %}
+
+{% block error_description %}
+  {% trans "It's always time for a coffee break. We should be back by the time you finish your coffee." %}
+{% endblock %}
+
+{% block error_image %}
+  <img class="img-fluid" src="{% static 'simpelmin/img/error-500.png' %}" alt="500 Server Error">
+{% endblock %}

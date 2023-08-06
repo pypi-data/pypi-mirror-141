@@ -1,0 +1,70 @@
+{% load i18n simpelcore_tags %}
+
+<div class="table-responsive mb-4">
+  <table class="table border small">
+    <thead>
+      <tr>
+        <th class="align-middle" width="110">{% trans "#" %}</th>
+        <th class="align-middle">{% trans "Item" %}</th>
+        <th class="align-middle text-end">{% trans "Price" %}</th>
+        <th class="align-middle text-end">{% trans "Quantity" %}</th>
+        <th class="align-middle text-end">{% trans "Total" %}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% regroup object.items.all by group_verbose as group_list %}
+      {% for group in group_list %}
+        {% if show_group %}
+          <tr>
+            <td colspan="5"><strong>{{ group.grouper }}</strong></td>
+          </tr>
+        {% endif %}
+        {% for item in group.list %}
+        <tr>
+          <td>{{ item.inner_id }}</td>
+          <td>{{ item.product.name }}</td>
+          <td class="text-end" width="130">{{ item.subtotal|currency }}</td>
+          <td class="text-end">{{ item.quantity }} {{ item.product.unit }}</td>
+          <td class="text-end" width="130">{{ item.total|currency }}</td>
+        </tr>
+        {% endfor %}
+      {% endfor %}
+      <tr class="thin">
+        <td colspan="2" rowspan="8" class="align-top p-3 border-0">
+          <strong>Terbilang:</strong>
+          <p>{{ object.grand_total|number_to_text|title }}{% if object.grand_total > 0 %} Rupiah{% endif %}</p>
+        </td>
+        <td colspan="2" class="align-middle"><strong>{% trans "Total" %}</strong></td>
+        <td class="align-middle text-end">{{ object.total|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Discount" %}</strong></td>
+        <td class="align-middle text-end">{{ object.discount|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Down Payment" %}</strong></td>
+        <td class="align-middle text-end">{{ object.downpayment|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Grand Total" %}</strong></td>
+        <td class="align-middle text-end">{{ object.grand_total|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Repayment" %}</strong></td>
+        <td class="align-middle text-end">{{ object.repayment|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Paid" %}</strong></td>
+        <td class="align-middle text-end">{{ object.paid|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle"><strong>{% trans "Payable" %}</strong></td>
+        <td class="align-middle text-end">{{ object.payable|currency }}</td>
+      </tr>
+      <tr class="thin">
+        <td colspan="2" class="align-middle border-0"><strong>{% trans "Refund" %}</strong></td>
+        <td class="align-middle text-end border-0">{{ object.refund|currency }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

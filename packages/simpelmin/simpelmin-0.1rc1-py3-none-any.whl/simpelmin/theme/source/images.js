@@ -1,0 +1,15 @@
+import './img/admin/avatar_female.png'
+import './img/admin/avatar_male.png'
+
+import './img/admin/ecommerce-bg.png'
+import './img/admin/favicon.ico'
+import './img/admin/favicon.svg'
+import './img/admin/favicon_32.png'
+import './img/admin/favicon_120.png'
+import './img/admin/logo_light.svg'
+import './img/admin/bridge.png'
+import './img/admin/noresults.svg'
+
+import './img/admin/error-500.png'
+import './img/admin/error-404.png'
+import './img/admin/error-403.png'

@@ -1,0 +1,37 @@
+{% load i18n static %}
+
+
+{% if not is_popup and is_nav_sidebar_enabled %}
+  <div x-bind:class="! drawerLeftOpen ? 'hide' : 'expand'" id="sidenav-wrapper" class="d-none d-lg-flex sidenav-wrapper-left">
+    <div id="sidenav-inner" x-bind:class="! drawerLeftOpen ? 'hide' : 'expand'" class="bg-body border-end shadow-sm">
+      <div x-bind:class="! drawerLeftOpen ? '' : 'border-bottom'" class="d-flex justify-content-between align-items-center py-3">
+        <div x-bind:class="! drawerLeftOpen ? 'd-none' : 'd-inline-block'" class="ms-2">
+          {% block sidenav_left_title %}
+          <a href="#" class="link-dark fw-bold fs-5 ps-3">
+            {% trans "Simpel Applications" %}
+          </a>
+          {% endblock %}
+        </div>
+        <a class="btn-icon btn-icon-46px link-secondary" @click="drawerLeftOpen = !drawerLeftOpen" href="#">
+          <i x-bind:class="! drawerLeftOpen ? 'mdi-apps' : 'mdi-close'" class="mdi mdi-24px"></i>
+        </a>
+      </div>
+      <div class="flex-fill" x-bind:class="! drawerLeftOpen ? 'd-none' : ''" style="overflow-y: auto;">
+        <div class="accordion accordion-flush radius-0" id="accordionAppMenu">
+          {% block sidenav_left_body %}
+          {% for app in available_apps %}
+            {% include 'admin/app_models.html' with app=app%}
+            {% endfor %}
+          {% endblock sidenav_left_body %}
+        </div>
+      </div>
+      <div class="border-top p-3 d-block small" x-bind:class="! drawerLeftOpen ? 'd-none' : 'd-block'">
+        <div class="text-center">
+          {% block sidenav_left_footer %}
+          {{ version_verbose }}
+          {% endblock sidenav_left_footer %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

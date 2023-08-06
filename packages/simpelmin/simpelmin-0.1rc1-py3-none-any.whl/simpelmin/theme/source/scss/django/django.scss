@@ -1,0 +1,27 @@
+@import './custom/base';
+@import './custom/table';
+@import './custom/forms';
+@import './custom/widgets';
+@import './custom/object_tools';
+@import './custom/changelists';
+@import './custom/forms';
+// @import './custom/responsive';
+
+.page-header {
+  @extend .p-4;
+  @extend .rounded;
+  h1 {
+    @extend .display-8;
+    @extend .text-primary;
+    @extend .fw-bold;
+    margin-bottom: 0px;
+  }
+  h2 {
+    @extend .display-9;
+  }
+}
+
+.app-list {
+  @extend .mb-3;
+  @extend .rounded;
+}
