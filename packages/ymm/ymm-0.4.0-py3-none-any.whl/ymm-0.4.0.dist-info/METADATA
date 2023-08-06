@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ymm
+Version: 0.4.0
+Summary: Composable Query Meta Language
+Home-page: https://github.com/TheSwanFactory/ymm
+Author: Ernest Prabhakar
+Author-email: ernest.prabhakar@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TheSwanFactory/ymm/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nbformat
+Requires-Dist: pandas
+Requires-Dist: pyspark
+Requires-Dist: pytz
+Requires-Dist: quilt3
+
+# ymm
+YAML Mimics Makefiles
+
+Because I love YAML, and miss `rake`.
+I tried PyPyr, which is brilliant but painfully verbose.
+
+
