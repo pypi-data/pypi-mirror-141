@@ -1,0 +1,17 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+entry.py,sha256=6anz2WuKIzwJA0lRUnXWDcZOVpVPHEZ0KCE1QjzCnYo,587
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model/initializations.py,sha256=GbCvvQzh4CDGEV5EHSCUbySG9YzbVQlCxpiiP2ypmFg,5463
+model/modules.py,sha256=nf9C6K2H6nMVeajR8025XlvIsF4Y-gjJgi1t2cS7xao,3161
+model/neural_admixture.py,sha256=UQrrOkGPCDAgqG8VgFaWB-a9U7pyhQfGharudNjUr68,9336
+model/switchers.py,sha256=vvBoQbRKu0ZhtApw-xl1coiy5P3Z8W9pjk-sDjZI8II,1186
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/inference.py,sha256=VZY7R6D64HQfpyAefifEmYw_AcSyFSGaFLLW4ar0Ing,1913
+src/snp_reader.py,sha256=6buyWoHZKMDFl9W0JKLqh1EekTapvBfFfzgGLzgzAV4,2568
+src/train.py,sha256=wFlHllgsZSgP14gLzwNiEpys-OiyEPJOJ5fSJKVrCiE,4786
+src/utils.py,sha256=GvqRM4CWIbevQf7IHAGkS8DqhGITRYxJWtCiofM7fDo,9318
+neural_admixture-1.1.2.dist-info/METADATA,sha256=X6ilsQjep7L2Ky7QC2W0L6tI_wM9Mbo1my_j4kB9bCI,14623
+neural_admixture-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neural_admixture-1.1.2.dist-info/entry_points.txt,sha256=kfFUtpfaSKFwkH-ipH1zQFB58tUreJq03Hfb-01bQvw,49
+neural_admixture-1.1.2.dist-info/top_level.txt,sha256=g2Vf1li4CaDFshgxm7ftzklTxXsPRi2YL9cKpHoVjJA,11
+neural_admixture-1.1.2.dist-info/RECORD,,
