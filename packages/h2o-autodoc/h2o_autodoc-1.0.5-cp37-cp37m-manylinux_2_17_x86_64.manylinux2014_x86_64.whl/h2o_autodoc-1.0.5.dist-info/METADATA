@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: h2o-autodoc
+Version: 1.0.5
+Summary: Create a machine learning model documentation
+Home-page: https://www.h2o.ai/products/h2o-autodoc/
+Author: H2O.ai
+Author-email: sales@h2o.ai
+License: Proprietary License
+Project-URL: Documentation, https://docs.h2o.ai/h2o_autodoc/latest-stable/userguide/index.html
+Keywords: machine learning,data science,automated model documentation,h2o,autodoc,h2o-3,sklearn
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6,<3.10
+License-File: LICENSE
+Requires-Dist: Cython (==0.29.21)
+Requires-Dist: docxtpl (==0.10.0)
+Requires-Dist: matplotlib (>=3.2.1)
+Requires-Dist: jinja2 (==2.11.3)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: pillow (==8.3.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: boto3 (==1.9.201)
+Requires-Dist: cryptography (==3.1.1) ; platform_machine == "ppc64le"
+Requires-Dist: packaging (==21.0) ; platform_machine == "ppc64le"
+Requires-Dist: cryptography (==3.4.7) ; platform_machine == "x86_64"
+
+H2O Automated Model Documentation (AutoDoc) is a Python package that automatically creates model documentation for supervised learning models created in H2O-3 and Scikit-Learn. Automated documentation is used in production in H2O Driverless AI. This industry-leading capability is now available as a new commercial module.
+
+Key Capabilities
+
+- Distributed Automatic document generation in Microsoft Word (docx) or Markup (.md) formats.
+- Out-of-the-box documentation template included
+- Template customization available to fit with your organization’s standards and requirements
+- Support for models generated in H2O-3 and Scikit-Learn
+- Support for H2O-3: Deep Learning, Random Forest, GLM, Gradient Boosted Machines, Stacked Ensembles, and XGBoost models
+
+Please send feedback to help improve the client and documentation to sales@h2o.ai.
+

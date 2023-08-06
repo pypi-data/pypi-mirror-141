@@ -1,0 +1,2 @@
+{% if not validation_schema.user_provided_valid_data %}{{ validation_schema.internal_valid_info.text }}
+{% if images.get(validation_schema.internal_valid_info.image) %}{{ images.get(validation_schema.internal_valid_info.image) }}{% endif %}{% endif %}
