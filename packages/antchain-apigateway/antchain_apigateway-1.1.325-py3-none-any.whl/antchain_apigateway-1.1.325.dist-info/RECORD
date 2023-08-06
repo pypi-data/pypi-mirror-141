@@ -1,0 +1,8 @@
+antchain_sdk_apigateway/__init__.py,sha256=FJmYWc02sUDLYu_wG1_co0m4vtQE78dCcxEGEXmOPGQ,23
+antchain_sdk_apigateway/client.py,sha256=MErHHwWBKTL5wbf279G6j_WWXuGCGqb_mpisLU0ulkk,382535
+antchain_sdk_apigateway/models.py,sha256=uas7_KQdbqvh059pcCe5YEkQIcu0GdHhUJLsKP4yAAo,941323
+antchain_apigateway-1.1.325.dist-info/LICENSE,sha256=0CFItL6bHvxqS44T6vlLoW2R4Zaic304OO3WxN0oXF0,600
+antchain_apigateway-1.1.325.dist-info/METADATA,sha256=VsgNu_zNuSy6yso83q5YKOvAvIbIqK8uKZyBlr5yfug,2044
+antchain_apigateway-1.1.325.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+antchain_apigateway-1.1.325.dist-info/top_level.txt,sha256=H5Cbk1-DoMW00u_bHsl2krbVfk8sNb-KQhCDthHNC1M,24
+antchain_apigateway-1.1.325.dist-info/RECORD,,
