@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rapydo
+Version: 2.2
+Summary: Manage and deploy projects based on RAPyDo framework
+Home-page: https://rapydo.github.io/docs
+License: MIT
+Keywords: http,api,rest,web,backend,rapydo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.0
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
