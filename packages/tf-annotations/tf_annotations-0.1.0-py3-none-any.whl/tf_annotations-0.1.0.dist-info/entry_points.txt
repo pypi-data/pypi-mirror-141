@@ -1,0 +1,3 @@
+[console_scripts]
+tf-annotations=tf_annotations.cmd:cli
+

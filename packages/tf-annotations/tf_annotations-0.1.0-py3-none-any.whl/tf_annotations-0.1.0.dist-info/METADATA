@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tf-annotations
+Version: 0.1.0
+Summary: Tool to report on annotations such as TODO
+Author: Russell Whelan
+Author-email: russell.whelan+python@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: toml (>=0.10.2,<0.11.0)
