@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sqleyes
+Version: 0.1.0
+Summary: A CLI in Python that analyzes raw SQL queries for common anti-patterns
+Home-page: https://leonardomathon.nl
+Author: Leonardo Mathon
+Author-email: info@leonardomathon.nl
+License: MIT
+Keywords: SQL,anti-patterns,analysis
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+<img src="./design/logo-combined.svg" alt="SQLEyes" title="SQLEyes logo" style="max-width:100%; width:100%">
+
+---
+
+![Tests](https://github.com/mCodingLLC/SlapThatLikeButton-TestingStarterProject/actions/workflows/tests.yml/badge.svg)
+
+## About SQLEyes
+
+Sqleyes is a CLI tool for analyzing simple, raw SQL queries for common sql anti-patterns.
+
+### Repository
+
+This repository contains the main SQLEyes package as well as the unit tests
+
+> This project was developed as a master's graduation project at Eindhoven University of Technology
+> Code boilerplate and best practices from [best-practice-and-impact](https://github.com/best-practice-and-impact/example-package-python)
+
+
