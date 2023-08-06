@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "akismet-async"
+version = "0.0.1"
+description = "An async Python interface to the Akismet API."
+authors = ["Arni Inaba Kjartansson <arni@inaba.is>"]
+license = "MIT"
+repository = "https://github.com/arni-inaba/akismet-async"
+readme = "README.md"
+packages = [
+    { include = "akismet" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = "^0.22.0"
+strenum = "0.4.7"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.7.0"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
