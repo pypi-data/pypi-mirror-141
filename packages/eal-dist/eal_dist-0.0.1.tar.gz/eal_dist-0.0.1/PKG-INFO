@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: eal_dist
+Version: 0.0.1
+Summary: Object tracking software for EAL
+Home-page: https://easyaimlock.com
+Author: EasyAimLock
+Author-email: support@easyaimlock.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://easyaimlock.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[EAL_DIST]
+# Easy Aim Lock
+Easy Aim Lock is a computer vision object detection project based on deep learning models such as the ones 
+typically found in facial recognition software or self-driving cars. Object classification is a technique 
+that predicts the probability of different object categories (person, dog, cat, etc.) in an image, it essentially 
+answers the question “Whats on the screen?”. Object localization can predict the probability of an object in the 
+image along with its location in the image. This technique basically answers “Where on the screen is it? Object 
+detection combines the two techniques above to identify multiple objects in an image in real-time. 
+
+[Change Log]
+All notable changes to this project will be documented in this file,
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+
+## [3.2.9.2] - 2022-02-18 (TEST BUILD)
+### Added
+- EAL Augmentor with several augmentation options  
+- Instant Presets / create, swap or delete EAL settings instantly from the main status bar 
+- NEW GPC v4.0 “EAL.gpc” Titan script, drag to any slot and load
+- Image Capture format option for .png or .jpg
+- Zoom level and detection zone values displayed in GUI overlay
+- Label Maker can copy and convert all images to a different format
+- Manual Swap to manually switch to alternate weapon (OCR disabled while alt active)
+- Mini Map, turns toward closest enemy on radar when activated
+- Range Extender 
+- Frame Skip option added to System tab to increase FPS
+- Pixel Scope Zoom slider on Aim tab 
+- Ability to drag and change tabs order
+- Ability to change image set root directory auto save location on Training tab
+- Options for manually switching dual OCR area on Options tab
+- Motion Sensor on Shoot tab
+- Motion Sensor color on Views tab 
+- Auto Shot option for ADS only on Shoot tab
+- Label Maker “E” key to clear last selection in current image
+- Label Maker “W” key to auto label the current image only
+- Auto Shot rumble feedback option on Shoot tab
+- Shows bounding box around avoidance targets
+- New gpc v4.0 led status RED = EAL not loaded / WHITE = EAL loaded correctly
+- Splash Screen
+
+### Changed
+- Optimized target array selection
+- Removed Auto Aim reset tick
+- Can set image capture size to capture the detection box
+- Label Maker can resize, image scales to frame
+- Label Maker can now handle multiple image aspect ratios 
+- Label Maker Purge button now moves images to _purge folder
+- Mini Map FOV adjustable down to 2 degrees 
+- Secondary button for activating OCR is customizable now on the Database tab
+- Auto aim zone ratio defaults to user setting if lower than target ratio
+- Ultra mode modified to increase accuracy over performance by 20%
+- Helper file protocol changed, added readme file. Must install gbc to sd card from zip
+- Default OCR capture button changed to f2
+- Rounder corners in themed mode
+- Moved tabs to top for symmetry
+- Combined gamepad and kill cam overlays into one tab
+- Changed “Views” tab name to “Colors”
+- Moved Zone Effects to Overlays tab
+- Auto labels stop at 6 decimals instead of 9
+
+### Fixed
+- Target Shot Box color and toggle fixed
+- Aim delay fixed
+- Error handling for weights or cfg file missing (additional fix for restoring cuda)
+- Error on color avoidance debug selection menu
+- Toggle text color adjusting for theme brightness
+- Ability to close OCR text selection window using the exit button
+- index out of range error when csv deleted or moved
+
+
+## [3.2.0] – 2021-11-22
+### Added
+- Debug log
+- EAL Label Maker (index slider, remember index, removed cursor, optional annotations overwrite)
+- OCR delay timer
+- Ability to Change Account Device 
+- Field loss strength slider
+- Color activated dual OCR
+- Multi color avoidance x5
+- Ability to load and run large and tiny Yolo v4 custom weights and cfg
+
+### Changed
+- Dataset location (files go to folder now instead of zip)
+
+### Fixed
+- Error caused by dampener set to 0 
+- Underride value
+- Item detection overwriting wrong weapon
+
+
+## [3.0.1] – 2021-11-04
+### Fixed
+- Fixed crash error caused by OCR detection missing from items list
+
+
+## [3.0.0] – 2021-11-03
+### Added
+- Import / Export Settings file from Settings menu or System tab 
+
+### Changed
+- Switched XIM Modifier and Override locations in the GUI 
+- Optimized OCR list indexing 
+
+### Fixed
+- Corrected issue of OCR loading database items without full matching string
+
+
+## [2.9.0] – 2021-11-01
+### Added
+- Dampening slider for controlling aim speed near target
+- XIM modifier slider on System Tab to change the sensitivity of the dampening field
+- Referral Program see Help menu for more info (Exchange 600 Points for a lifetime code)
+- Customizable Themes and GUI Colors
+- Zip file has additional compression
+- Added spin boxes to all the slider values
+- GPC debug mode at the top of the System tab to verify values received by the GBC
+- Capture Size on Training tab to change size of dataset images
+- Aim Zone slider on the Shot tab to adjust the auto aim priority within the target
+- External Lens effects to change the appearance outside the target zone
+- Minimal frame for Target zone border
+- Complete Change Log on the About window
+- Window can resize and save position 
+
+### Changed
+- Override default to 20
+- Override max to 100
+- Override min to stick noise +1
+- All values have spin adjuster
+- Updated tooltips
+- Increased Max training database size to 1000mb
+- Hip Mod min to 5
+
+### Fixed
+- Rapid fire from database 
+- Hip mod saving 
+- Crash Error with database file location missing path variable
+- Activity timeout flag saving
+
+
+## [2.8.0] – 2021-10-21
+### Added
+- Color Avoidance (left click to select screen color / right click to select previous color)
+- Advanced Avoidance settings on the system tab
+- Custom OCR Active color
+
+### Changed
+- Improved gui tab contrast for better visibility  
+- Moved OCR timer to options tab
+- Reduced external file requirements, csv will auto generate and controller files are no longer required
+
+### Fixed
+- Predictions toggle
+- Issue for pasting prediction as description in the database
+- Aim delay
+- About window
+- Max zip size not preventing auto save
+- Activity timer
+- Database population
+- Override value 
+
+
+## [2.6.0] – 2021-10-12
+### Added
+- Full csv validation, will warn of extra commas in database
+- Optimized detection FPS with MS DirectShow
+- Ability to generates default csv database file if no database detected
+- Custom color selection system
+- Targeting indicators in addition to bounding box
+- Training image names are more explicit to prevent overlap in shared datasets
+- Gbc feedback output when it receives global options and database values
+- Discord link to new registered users confirmation
+
+### Fixed
+- MS DirectShow issue of crashing when closing script (major code rewrite)
+- Shot hold timer
+- Issue of ‘train_path’ not found
+- Auto Update
+
+
+## [2.1.0] – 2021-09-30
+### Added
+- Ability to change or reset password 
+- Ability to set all of your IC setting from the gui without opening the IC 
+- Ability to add to, change and edit the csv files from within the gui 
+- Ability to set weapons from the database without needing OCR on 
+- Ability to load custom object detection models 
+- Ability to create image datasets for training new models
+
