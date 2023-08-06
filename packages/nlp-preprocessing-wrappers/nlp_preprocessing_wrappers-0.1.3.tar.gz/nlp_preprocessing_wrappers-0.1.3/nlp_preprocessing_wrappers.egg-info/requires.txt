@@ -1,0 +1,9 @@
+spacy<3.3,>=3.2
+stanza<1.4,>=1.2
+overrides<7.0.0,>=6.0.0
+
+[all]
+torch<1.11,>=1.5
+
+[torch]
+torch<1.11,>=1.5
