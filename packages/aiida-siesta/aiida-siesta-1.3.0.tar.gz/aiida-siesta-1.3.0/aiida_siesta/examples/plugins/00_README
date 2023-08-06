@@ -1,0 +1,21 @@
+This folder contains examples devoted to explain how to perform several tasks making use of the plugins 
+distributed in aiida_siesta.
+These examples should be consider templates that users should modify according to their will in order
+to perform specific tasks on their own particular system.
+All the examples can be run with the following syntax:
+	runaiida example_name.py {--send, --dont-send} {options}
+The choice "--send" submits the example to the daemon. The choice "--dont-send" creates a test folder
+in /submit_test, but it does not actually run the calculation.
+The "options" might vary according to the example, but almost always the first argument that can 
+be passed is "code@computer", that specifies the name of the AiiDA code to be used in the example.
+Therefore the line:
+	runaiida example_name.py {--send, --dont-send} code@computer
+should almost always be able to run the example without errors, unless your "computer" requires
+to pass the name of the account or the queue where to run the calculation. In that case,
+this information must be provoded inside the script, in the "resources" dictionary.
+
+The siesta/example_lua_relax.py and siesta/example_neb.py examples require the passing of
+the lua_elements_path as third option, after {--send, --dont-send} code@computer. Follow the
+siesta documentation for a better understanding of the meaning of the lua_elements_path.
+
+Read ../00_README for info about pseudo families.
