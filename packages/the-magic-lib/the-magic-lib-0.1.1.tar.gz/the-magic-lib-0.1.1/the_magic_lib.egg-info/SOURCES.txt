@@ -1,0 +1,9 @@
+README.md
+setup.py
+magic_lib/__init__.py
+magic_lib/magicclass.py
+magic_lib/magicfunctions.py
+the_magic_lib.egg-info/PKG-INFO
+the_magic_lib.egg-info/SOURCES.txt
+the_magic_lib.egg-info/dependency_links.txt
+the_magic_lib.egg-info/top_level.txt
