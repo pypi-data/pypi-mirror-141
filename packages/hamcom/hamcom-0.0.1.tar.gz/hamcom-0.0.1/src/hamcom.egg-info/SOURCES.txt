@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hamcom/__init__.py
+src/hamcom/hamcom.py
+src/hamcom.egg-info/PKG-INFO
+src/hamcom.egg-info/SOURCES.txt
+src/hamcom.egg-info/dependency_links.txt
+src/hamcom.egg-info/top_level.txt
