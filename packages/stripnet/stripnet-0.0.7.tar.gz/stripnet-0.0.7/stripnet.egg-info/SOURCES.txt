@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+stripnet/__init__.py
+stripnet/stripnet.py
+stripnet/utils.py
+stripnet.egg-info/PKG-INFO
+stripnet.egg-info/SOURCES.txt
+stripnet.egg-info/dependency_links.txt
+stripnet.egg-info/requires.txt
+stripnet.egg-info/top_level.txt
