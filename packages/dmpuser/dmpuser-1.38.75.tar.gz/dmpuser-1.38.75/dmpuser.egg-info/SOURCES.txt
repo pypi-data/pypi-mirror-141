@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+dmpuser/__init__.py
+dmpuser.egg-info/PKG-INFO
+dmpuser.egg-info/SOURCES.txt
+dmpuser.egg-info/dependency_links.txt
+dmpuser.egg-info/not-zip-safe
+dmpuser.egg-info/top_level.txt
