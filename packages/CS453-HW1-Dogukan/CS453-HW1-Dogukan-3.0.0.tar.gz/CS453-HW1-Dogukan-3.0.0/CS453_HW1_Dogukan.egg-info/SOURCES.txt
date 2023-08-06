@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+CS453_HW1_Dogukan.egg-info/PKG-INFO
+CS453_HW1_Dogukan.egg-info/SOURCES.txt
+CS453_HW1_Dogukan.egg-info/dependency_links.txt
+CS453_HW1_Dogukan.egg-info/requires.txt
+CS453_HW1_Dogukan.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
