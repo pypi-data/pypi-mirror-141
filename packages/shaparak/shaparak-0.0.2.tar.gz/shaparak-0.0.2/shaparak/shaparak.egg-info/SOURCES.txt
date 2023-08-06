@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+shaparak/shaparak.egg-info/PKG-INFO
+shaparak/shaparak.egg-info/SOURCES.txt
+shaparak/shaparak.egg-info/dependency_links.txt
+shaparak/shaparak.egg-info/top_level.txt
