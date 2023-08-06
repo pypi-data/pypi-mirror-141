@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Pyntel4004_cli.egg-info/PKG-INFO
+Pyntel4004_cli.egg-info/SOURCES.txt
+Pyntel4004_cli.egg-info/dependency_links.txt
+Pyntel4004_cli.egg-info/entry_points.txt
+Pyntel4004_cli.egg-info/requires.txt
+Pyntel4004_cli.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Pyntel4004-cli
+Version: 0.0.1a1
+Summary: CLI (Command Line Interface for Pyntel4004)
+Home-page: https://github.com/alshapton/Pyntel4004-CLI/tree/main
+Download-URL: https://github.com/alshapton/Pyntel4004-CLI/tree/main
+Author: Andrew Shapton
+Author-email: alshapton@gmail.com
+Maintainer: Andrew Shapton
+Maintainer-email: alshapton@gmail.com
+License: MIT
+Keywords: python3,intel,4004,CPU,Command Line
+Platform: Linux
+Platform: Darwin
+Platform: Windows
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
