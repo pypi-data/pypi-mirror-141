@@ -1,0 +1,8 @@
+xarray_cube/__init__.py,sha256=F221_ZszWHwqcXrVP0Qx0lWL3HEdcd6kgByz2LJCt2Y,188
+xarray_cube/accessor.py,sha256=op4N1eLk5-NQSeBwoU1tDv_YjF79IYLz0i7YsD4oaIY,531
+xarray_cube/converter.py,sha256=hmKaeoKy3DdON5Ly993ffzrNqg3Dinxhtva6EV9GT4k,577
+xarray_cube/cube.py,sha256=YCS6QjfJ0VZ2wEvX-4qhMJta7ZQTlVPI18sh37UCH10,2598
+xarray_cube-0.3.1.dist-info/LICENSE,sha256=Jz24OgdZ3JDZI6L13WDRzJ1AGQiXdqpHvIioAjM6A28,1084
+xarray_cube-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+xarray_cube-0.3.1.dist-info/METADATA,sha256=hlKJSoc9y99eBP2CF4eH3qCj7l5zZK786UbtWEhiigY,1511
+xarray_cube-0.3.1.dist-info/RECORD,,
