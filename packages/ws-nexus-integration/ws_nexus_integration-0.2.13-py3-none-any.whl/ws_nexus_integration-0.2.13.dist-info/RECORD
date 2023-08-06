@@ -1,0 +1,12 @@
+ws_nexus_integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_nexus_integration/_version.py,sha256=ngs_WcJHHoeLYc3qMYf2xqeGhnEiYFuti_c-jmVli78,110
+ws_nexus_integration/conftest.py,sha256=8pq47emj1ga1bJYTikfdf86LQD4O9PFX0kovWwGD2Vg,374
+ws_nexus_integration/nexus_integration.py,sha256=dyGq639Fqz_n1ahMEELTGmmS89_RdRF5xrY_jxDPl3Q,18438
+ws_nexus_integration/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_nexus_integration/tests/test_nexus_integration.py,sha256=l2opjnFLg7rQUCQ-PeCS-VQzJyw51NNzYp2NseS1eDo,10687
+ws_nexus_integration-0.2.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_nexus_integration-0.2.13.dist-info/METADATA,sha256=wRp94uJSokGunYLAE8XIrF8u9yT4pnS5Y0Ks63Ji78w,8636
+ws_nexus_integration-0.2.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ws_nexus_integration-0.2.13.dist-info/entry_points.txt,sha256=nagUrE5czk2YhoWaa3EzbaAcFKlH5RtIvy9at91sRdI,86
+ws_nexus_integration-0.2.13.dist-info/top_level.txt,sha256=A0JoTqbJ8wjMbyeAJZv-wk3B8TLdV3tvKppgdJhLMkM,21
+ws_nexus_integration-0.2.13.dist-info/RECORD,,
