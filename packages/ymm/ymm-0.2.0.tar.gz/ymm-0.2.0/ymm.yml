@@ -1,0 +1,45 @@
+# - install
+# - test
+# - watch
+# - release
+# - dev
+install:
+    - python3 -m pip install -r requirements.txt
+build:
+    - pip3 install --upgrade pytest
+    - pip3 install --upgrade pytest-watch
+    - pip3 install --upgrade build
+    - pip3 install --upgrade twine
+
+test:
+    - python3 -m pytest
+
+echo:
+    - echo Test Succesful
+    - echo {__version__}
+
+test-install:
+    - python3 -m pip install -r requirements.txt
+    - ymm -v
+    - ymm -d echo
+
+watch:
+    - pytest-watch
+release:
+    - prerelease --no-input
+    - release --no-input
+    - python3 -m build
+    - python3 -m twine upload dist/*
+    - postrelease --no-input
+
+dev:
+    - cat version.txt
+    - echo old_version {__version__}
+    - echo next_version {__version_next__}
+    - sed -i .new s/{__version__}/{__version_next__}/ version.txt
+    - ls -lt
+    - cat version.txt.new
+    #- mv version.txt.new version.txt
+    - git commit -am {__version_next__}
+    #- git push
+    - cat version.txt
