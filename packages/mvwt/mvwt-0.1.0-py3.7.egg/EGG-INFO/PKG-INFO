@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: mvwt
+Version: 0.1.0
+Summary: Minimum viable weight tracker
+Home-page: https://github.com/Craskermasker/mvwt
+Author: Evan C Edmond
+Author-email: eedmond@gmail.com
+License: GNU General Public License v3
+Description: ====
+        mvwt
+        ====
+        
+        
+        .. image:: https://img.shields.io/pypi/v/mvwt.svg
+                :target: https://pypi.python.org/pypi/mvwt
+        
+        .. image:: https://img.shields.io/travis/Craskermasker/mvwt.svg
+                :target: https://travis-ci.com/Craskermasker/mvwt
+        
+        .. image:: https://readthedocs.org/projects/mvwt/badge/?version=latest
+                :target: https://mvwt.readthedocs.io/en/latest/?version=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Minimum viable weight tracker
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://mvwt.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2021-03-14)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: mvwt
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
