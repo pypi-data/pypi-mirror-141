@@ -1,0 +1,15 @@
+numpy
+
+[docs]
+matplotlib
+sphinx
+
+[plot]
+matplotlib
+
+[tests]
+flake8
+pytest
+pytest-cov
+scipy
+twine
