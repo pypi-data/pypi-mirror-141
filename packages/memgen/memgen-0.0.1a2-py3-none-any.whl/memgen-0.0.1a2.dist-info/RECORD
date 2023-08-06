@@ -1,0 +1,13 @@
+memgen/__init__.py,sha256=tuunFc0li0VBXkarHT3KlfkPr7vcx7yRzoZq96M8z4Y,438
+memgen/__main__.py,sha256=JpxVd67K8Kol-8dmL3WT6u3glQucYlSpSuedzlsiPGE,61
+memgen/box_shape.py,sha256=DcXIUFDPhgD-eb5iErr7vPG15D97m4Zo5HfKzRM42rk,146
+memgen/defaults.py,sha256=Bnyfqo3_YOghizjHwcHt1q_A04ln4-FChvUP7rwXzr4,243
+memgen/memgen.py,sha256=35i-ZpR7EEuZp9whOBxjl7UOUVoH-Pzdg4DvQSlIR9k,2258
+memgen/parse_cli.py,sha256=DmRyi5hjmYUfTZI4zQmsRefT_UjTHaS5LTIu9q2N8y8,1766
+memgen/test_memgen.py,sha256=HlFIIjxs0Ine5sL6puqHzXL3ttQm0hHWS7W2aS3RoXE,960
+memgen/test_parse_cli.py,sha256=HEhOUyDUb-OXBErgqFMp-bmZV5zu2t4-CUvoFbti2lU,1335
+memgen-0.0.1a2.dist-info/METADATA,sha256=h0ZafK3NFypNowVmL1K0Z9JMeLQo4yAbvpci6_OA4WQ,5437
+memgen-0.0.1a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memgen-0.0.1a2.dist-info/entry_points.txt,sha256=21JM1-oQURLsFZd7XBuEjKp2g9LgBbfe_uGgtt3SnRY,39
+memgen-0.0.1a2.dist-info/top_level.txt,sha256=QlXXbwVqIZI_H9ppVS2EUjfzy1JgH7wSxcWSw92yAek,7
+memgen-0.0.1a2.dist-info/RECORD,,
