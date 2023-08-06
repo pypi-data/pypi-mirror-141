@@ -1,0 +1,11 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ossindex/__init__.py,sha256=rcWbLNESXKyEjvZhT52yQK1R04ccme4s_5tVbLIAzGo,761
+ossindex/exception.py,sha256=anFh8ZGUWiuC5U2SjDAbctC4HWinJgE28mMWmBLQQjI,860
+ossindex/model.py,sha256=j1gGxRscrqRgRU7KMPkSHcxQqPrR8Fo3b6FjDTqZa3E,8993
+ossindex/ossindex.py,sha256=3pAHQvhUA_o_ig2kpw5eEvdpUQ62ONcW_LnR6ClA-g4,10350
+ossindex/py.typed,sha256=EFHg9-wbl4yUKjj8V3gUwoBZQam2tFkzh9IuCnmNyew,153
+ossindex/serializer.py,sha256=MKr9RfdhWhrlldmyanXXma5Q50yZld6D5WbDCeOFzHk,3104
+ossindex_lib-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ossindex_lib-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ossindex_lib-1.0.0.dist-info/METADATA,sha256=sYAWUH_LgpCsyB5zkSdLA_dukOO0pVI46XhM7q3S9M0,5685
+ossindex_lib-1.0.0.dist-info/RECORD,,
