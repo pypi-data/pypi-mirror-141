@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ng-client
+Version: 1.0.0
+Summary: ng_client
+Home-page: UNKNOWN
+Author: Oz Oz
+Author-email: oz.oz@oz.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
