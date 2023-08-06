@@ -1,0 +1,15 @@
+rocks/__init__.py,sha256=p_0DC7UF8NJp55gt43CpWLOMXOqVxncr3DBzznUBPm8,1467
+rocks/cli.py,sha256=PBuX4GLGJrHqGE0AzewRP0RG6wKKJC4rsRu5ipV3bYo,7641
+rocks/core.py,sha256=M7H9LSIuZLQ0q72qorJSrrpyrSz_SOGW82g-MMgjfG4,24505
+rocks/datacloud.py,sha256=d7qAE85oNMYjBW_72dYda2laSzWla-J8MH50W5wPsdM,15124
+rocks/definitions.py,sha256=23EGo6Pu-W_OrUeKjibFEhEGUsVrqs8jIhUpbKzfBsc,7044
+rocks/index.py,sha256=K-eFmmtHYERrGo1oegB3nExjHTDRdAlcGz72CUEHW_s,8107
+rocks/plots.py,sha256=xWoMSF4kneIbZxpYCk2iOHeevPi4b3l_ILt_WEaKgBw,6300
+rocks/resolve.py,sha256=ciW9c0HzbajM6gVYW06R1wXnOauAFEukBLFTaNHRTCk,10697
+rocks/ssodnet.py,sha256=4nTgZtl70FdnM_Rr7VMsQkqBUb6KaFwEvhY1M0y_iVA,9377
+rocks/utils.py,sha256=Ch0qIHiM8WuZaMcKQikPPMi_TZcJ8OVzs7DtxNKB7SY,11120
+space_rocks-1.4.16.dist-info/entry_points.txt,sha256=Fvmxv7qxS2ci9rFw6t0apjpArZm8SnvLrXqdLZn6yvQ,45
+space_rocks-1.4.16.dist-info/LICENSE,sha256=bYwlkz3WCC3gsjHr6h5vWUDDUVGb2v8dmrdDRavqfx0,1067
+space_rocks-1.4.16.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+space_rocks-1.4.16.dist-info/METADATA,sha256=Fa0ZlvVEW0ujRIy-yQ8pg3m6OKMypgoQgxQvwPbTCXI,2771
+space_rocks-1.4.16.dist-info/RECORD,,
