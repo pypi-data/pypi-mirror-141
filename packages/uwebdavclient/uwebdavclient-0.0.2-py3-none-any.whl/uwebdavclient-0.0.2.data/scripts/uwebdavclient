@@ -1,0 +1,8 @@
+#!python
+
+import uwebdavclient
+import sys
+
+status = uwebdavclient.command_line()
+
+sys.exit(status)
