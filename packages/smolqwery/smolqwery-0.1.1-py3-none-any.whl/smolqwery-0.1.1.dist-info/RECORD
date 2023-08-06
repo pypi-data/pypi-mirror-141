@@ -1,0 +1,13 @@
+smolqwery/__init__.py,sha256=zHh8ynYpayafJFxia-hwI-GnzEep7f19utwXhb-n1-w,62
+smolqwery/_utils.py,sha256=uv02ZBUq0mDPiS-w2MXFnvUT1Sgc5Nh55l1VnZOjae8,6154
+smolqwery/apps.py,sha256=Uckx9SwRQFNfGSPNIK_CKl2UrCyz4xnO10o3KEqFe-s,225
+smolqwery/bigqwery.py,sha256=N-plFrDRQfXWeod_UtVlXB7IcG_89pJ_-Zhqzes9EIU,3818
+smolqwery/config.py,sha256=-Pp9maVxAR1o34zrtw1RkbPWbx1BxAt_-Agiv6Mi_MY,3486
+smolqwery/extractor.py,sha256=bqrPieaRX8ga7PPe9JhogIzyrVPOD5sV8oDYU2ofxxI,18066
+smolqwery/management/commands/smolqwery_extract.py,sha256=MVkWeLeOVy-OgFWBweaj4IfTiC4E9vAVbD3u8USukX4,894
+smolqwery/management/commands/smolqwery_make_migrations.py,sha256=Y8UPigzEjVEcPCtJzkkKPyUSZLEazdfgIHAcBzeheFU,1203
+smolqwery/management/commands/smolqwery_print_extract.py,sha256=_co74sHmF01LeshzSTZ6_56yApBCCiuOyg3uZAf7a50,2109
+smolqwery/swallow.py,sha256=fFNup6cRJKX2t17BSyJwNEnRx_kJVLGCisRWbLHGJtY,13200
+smolqwery-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+smolqwery-0.1.1.dist-info/METADATA,sha256=gEJ3RkgbH-a-NpbmQq1HnzR-Yv59OQD45l6qK1z5qx4,9923
+smolqwery-0.1.1.dist-info/RECORD,,
