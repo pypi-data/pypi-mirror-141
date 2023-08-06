@@ -1,0 +1,5 @@
+pydevmgr_ua>=0.3
+jinja2
+
+[QT]
+pyqt5
