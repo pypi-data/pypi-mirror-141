@@ -1,0 +1,12 @@
+aws_prototyping_sdk/__init__.py,sha256=n41oOGraY6-RPH34lo3eNT2pE8kSqFViwqRr3KPEU-w,2333
+aws_prototyping_sdk/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_prototyping_sdk/_jsii/__init__.py,sha256=vP7DF9UWDv-XlDPBvRYSwByXtfyvfU2OIIx8V7kusls,406
+aws_prototyping_sdk/_jsii/aws-prototyping-sdk@0.0.28.jsii.tgz,sha256=-aYkSqHJ4dyEobee4owtoxQh1PanHbm5JRU6pHc6EAQ,66311
+aws_prototyping_sdk/pdk_pipeline/__init__.py,sha256=zyRul7ieR9ALQpiZ1HZhP3ddhHYbCosQa6nPYQ0nHsQ,34583
+aws_prototyping_sdk/pdk_projen/__init__.py,sha256=8oUvLgA7VvznTVa4V75qT84k5SG1vbpyTkxTQQ_WgD0,396019
+aws_prototyping_sdk-0.0.28.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_prototyping_sdk-0.0.28.dist-info/METADATA,sha256=88HdKv5dK3O1126V2GbyIIMtPShARmh1nkRRTJezeKc,3099
+aws_prototyping_sdk-0.0.28.dist-info/NOTICE,sha256=rwbaqlCoDwQBQfrmpJC2a7fgpa9_fdimqKhPY3kH2T0,87
+aws_prototyping_sdk-0.0.28.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_prototyping_sdk-0.0.28.dist-info/top_level.txt,sha256=GI4X33MSLMhT7o3n6FDj9jqf2xWUdJ3qEo1cWYKXylw,20
+aws_prototyping_sdk-0.0.28.dist-info/RECORD,,
