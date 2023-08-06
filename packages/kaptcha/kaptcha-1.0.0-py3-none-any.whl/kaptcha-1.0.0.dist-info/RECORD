@@ -1,0 +1,11 @@
+kaptcha/__init__.py,sha256=iphBA9Gc0eaMmTTE72vZQlGRRcGRVjP1P10dUcxuqNw,290
+kaptcha/captcha.py,sha256=QHNjxYYGaw7Og3BBS_HeuZMrBTUwlged-0UGALu8zNI,9556
+kaptcha/font1.ttf,sha256=Rnqe97VMkeuL6Ysu8T84VykwLSKV-rUQH4APHIRTsXA,171508
+kaptcha/font2.ttf,sha256=uIchkdVjKtPZjnLcddNiHRTfwjDUG6btVAz_urwFSMA,42452
+kaptcha/font3.ttf,sha256=WXO0NiNkM4Fj8-RNhY5Ga47Uc1EA5UeGyyNJw623628,92956
+kaptcha/font4.ttf,sha256=KGwFfwSkH7j6Bj7tkyPZ8ZQj86G0V-1YMOiF53hzliU,314452
+kaptcha-1.0.0.dist-info/LICENSE,sha256=_kQECCfbk9IzH8HKurgrH83wgUwvPk7MlGRpL1o8Xqg,1110
+kaptcha-1.0.0.dist-info/METADATA,sha256=75Lyh4uLCtLoew3RKD5HqtjmPoZsjp5MRHQwmLb-Rpw,99338
+kaptcha-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kaptcha-1.0.0.dist-info/top_level.txt,sha256=Vr2MkaSm9gVnSmM4rFuqhn5J9uAQYVpAWqQlNBGT-QU,8
+kaptcha-1.0.0.dist-info/RECORD,,
