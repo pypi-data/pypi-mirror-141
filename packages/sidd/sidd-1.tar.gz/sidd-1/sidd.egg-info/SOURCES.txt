@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+sidd/__init__.py
+sidd/siddcolors.py
+sidd/siddcompares.py
+sidd/siddmain.py
+sidd.egg-info/PKG-INFO
+sidd.egg-info/SOURCES.txt
+sidd.egg-info/dependency_links.txt
+sidd.egg-info/requires.txt
+sidd.egg-info/top_level.txt
