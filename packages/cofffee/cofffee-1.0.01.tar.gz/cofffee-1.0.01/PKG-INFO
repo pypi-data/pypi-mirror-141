@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: cofffee
+Version: 1.0.01
+Summary: A complete python visualizer, using an intuitive, conssistent, and approachable, OOP framework.
+Home-page: https://github.com/Brian-Masse/Coffee
+Author: Brian J. Masse
+Author-email: brianm25it@gmail.com
+License: MIT
+Download-URL: https://github.com/Brian-Masse/Coffee/archive/refs/tags/v1.0.01-public.tar.gz
+Description: UNKNOWN
+Keywords: Visualization,python,pandas,rendering,data,customizable,powerful,intuitive
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
