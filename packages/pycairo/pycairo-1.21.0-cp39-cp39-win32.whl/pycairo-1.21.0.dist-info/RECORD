@@ -1,0 +1,13 @@
+cairo/__init__.py,sha256=471Ajy2oTGSGRXwB0mRbm0t1DI4vplz0ds2br1zfpP8,685
+cairo/__init__.pyi,sha256=CMIsThO9XJl13BSwkIGP0oSlRS4mBMrq0KVyQb-w0yI,213185
+cairo/_cairo.cp39-win32.pyd,sha256=1YjSqY6pNkUC1GAMQMYlJuKMVAWUtIi43oX2u9eHUJk,129024
+cairo/cairo.dll,sha256=HjUw1byg-hmLPs-Mf3kDct5aDpeDtFasZ5FdVgZUMT0,2064384
+cairo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cairo/include/py3cairo.h,sha256=gKhDzJuUCXwzOCmdquWVfO-TT66w2J681_N8TG8i5E8,9044
+pycairo-1.21.0.dist-info/COPYING,sha256=v30r37Ux-cL_mDyFTqv6fFq7yQOu9RcPs1jl8wV7KWs,691
+pycairo-1.21.0.dist-info/COPYING-LGPL-2.1,sha256=ALACkE0EmlkYNB5f4UZRcVR3JY7b2W7oyAn6HDeB_wU,27038
+pycairo-1.21.0.dist-info/COPYING-MPL-1.1,sha256=-gEncASv8xSIgVHqUjvfOQmSiS4TUjmE8iFpXUjHRVs,26225
+pycairo-1.21.0.dist-info/METADATA,sha256=1KnCqSdDHHI-B1m-B34zJom_ZHrqTzBnQHr89AghGsg,3211
+pycairo-1.21.0.dist-info/WHEEL,sha256=X8cdtIU66DYAo85qapZVraRkrIO1r6o3xQTPmTpdkp0,96
+pycairo-1.21.0.dist-info/top_level.txt,sha256=zRFtIX8FGZTYAzTLUHL8JXBe73fGCTltgKiiPHy43eo,6
+pycairo-1.21.0.dist-info/RECORD,,
