@@ -1,0 +1,3 @@
+[console_scripts]
+propylen=propylen:cli
+
