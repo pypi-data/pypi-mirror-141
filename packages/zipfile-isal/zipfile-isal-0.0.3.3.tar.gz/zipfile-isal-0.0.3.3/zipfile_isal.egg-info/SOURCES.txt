@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test/test_zipfile.py
+zipfile_isal/__init__.py
+zipfile_isal/_patcher.py
+zipfile_isal/_zipfile.py
+zipfile_isal.egg-info/PKG-INFO
+zipfile_isal.egg-info/SOURCES.txt
+zipfile_isal.egg-info/dependency_links.txt
+zipfile_isal.egg-info/requires.txt
+zipfile_isal.egg-info/top_level.txt
