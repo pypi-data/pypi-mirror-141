@@ -1,0 +1,9 @@
+README.md
+setup.py
+magniv/__init__.py
+magniv.egg-info/PKG-INFO
+magniv.egg-info/SOURCES.txt
+magniv.egg-info/dependency_links.txt
+magniv.egg-info/entry_points.txt
+magniv.egg-info/requires.txt
+magniv.egg-info/top_level.txt
