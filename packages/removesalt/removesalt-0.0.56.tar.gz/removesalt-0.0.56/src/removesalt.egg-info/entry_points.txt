@@ -1,0 +1,2 @@
+[console_scripts]
+removesalt = removesalt.skeleton:my_app

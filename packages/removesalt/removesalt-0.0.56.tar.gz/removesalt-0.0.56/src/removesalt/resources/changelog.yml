@@ -1,0 +1,28 @@
+changelog:
+- iris_control_panel: 0.1.88
+  decoder: 220218
+  history:
+  - https://basecamp.com/2498935/projects/17971091/todos/444122740#comment_847968981
+- iris_control_panel: 0.1.87
+  decoder: 220218
+  changes:
+    decoder: |
+      Windows Iris with modified get::IpLiveConn and set::IpLiveConn
+  history:
+  - https://basecamp.com/2498935/projects/17971091/todos/456539835#comment_847866627
+- iris_control_panel: 0.1.87
+  decoder: 220203
+  changes:
+    panel: |
+      * "auto-start-enc-ws = yes" should start service automatically
+      * if "app-mode = Iris", then windows service name is StreamboxIris
+      * (Iris/Win32) start Iris-WS if app-mode is "Iris"
+      * (Iris/Win32) experimental color change on start/stop btns on Info-Pane
+  history:
+  - https://basecamp.com/2498935/projects/17971091/todos/456539835#comment_847659309
+- iris: 0.1.84
+  decoder: 220203
+  history:
+    - https://basecamp.com/2498935/projects/17971091/todos/456539835#comment_847456589
+    - https://basecamp.com/2498935/projects/17971091/todos/444122740#comment_846969970
+    - https://basecamp.com/2498935/projects/17971091/todos/444122740#comment_845879194
