@@ -1,0 +1,12 @@
+swmmtonetcdf/__init__.py,sha256=wIdFJy0qm26Hk655gVPIEtxY2QbYvhw0aWOvOhwGMg8,281
+swmmtonetcdf/__main__.py,sha256=biu1-A8t8d7FKVghLbtX7YNtVKKlwo718X7qq0wGncs,2561
+swmmtonetcdf/swmmtonetcdf.py,sha256=hCCqlI9v8o5SlhRdQrXONoTIXCm3eB9_UG3VRw0WBYw,10971
+swmmtonetcdf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swmmtonetcdf/tests/test_swmm_output_export.py,sha256=6KTS0o-HufrfnFeW3b_zwFvrRSW4bMKCDtuHHx3KJRI,4885
+swmmtonetcdf/tests/data/__init__.py,sha256=PrBjDl70zpBrhvV4NM5EYte1WhYfbhBzp1uxyA5W55I,112
+swmmtonetcdf-0.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+swmmtonetcdf-0.0.2.dist-info/METADATA,sha256=5flmS73qQeaFwQXpimhns4WMtXE2TLfqXBWoz89ujd0,1958
+swmmtonetcdf-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+swmmtonetcdf-0.0.2.dist-info/entry_points.txt,sha256=Ag7tB795Ru6OaqM8mmntO4IMkyN2lToWAPdK5EXq_kA,51
+swmmtonetcdf-0.0.2.dist-info/top_level.txt,sha256=eFgq_d1BTSjAIHXRaXAWNHp3k0TyyDxusiEPtJbO9v0,13
+swmmtonetcdf-0.0.2.dist-info/RECORD,,
