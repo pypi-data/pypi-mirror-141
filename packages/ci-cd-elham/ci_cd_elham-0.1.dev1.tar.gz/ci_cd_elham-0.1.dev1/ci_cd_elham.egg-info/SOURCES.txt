@@ -1,0 +1,16 @@
+.gitignore
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/test-publish.yaml
+ci_cd_elham.egg-info/PKG-INFO
+ci_cd_elham.egg-info/SOURCES.txt
+ci_cd_elham.egg-info/dependency_links.txt
+ci_cd_elham.egg-info/requires.txt
+ci_cd_elham.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
+tests/__init__.py
+tests/dictionary/__init__.py
+tests/dictionary/test_dictionary.py
