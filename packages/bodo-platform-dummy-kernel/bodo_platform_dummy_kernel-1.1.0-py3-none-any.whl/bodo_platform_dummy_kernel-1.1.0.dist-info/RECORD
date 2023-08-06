@@ -1,0 +1,10 @@
+bodo_platform_dummy_kernel/__init__.py,sha256=k8EDJKLulPTHpy7kYBPgohRMYTDd8axhumWNsVFpS3Y,153
+bodo_platform_dummy_kernel/__main__.py,sha256=_JiuNS8aag-FcwPkHvfw0yOOYd7JA7FxHdtSrjuOCM8,125
+bodo_platform_dummy_kernel/_version.py,sha256=kMGj5F5N3mPVlflWWWtG0yqIS7UTD0wRlasVI1jZ5x0,497
+bodo_platform_dummy_kernel/install.py,sha256=9nDuN9CFlzJW_qVtJqdRUKZQcmi3xSmoPuEtEBH3uAE,1916
+bodo_platform_dummy_kernel/kernel.py,sha256=uzeaoE8g8ZJ08CrkTtIPLqb_VFwLXPZVvN97fxlCrUU,2192
+bodo_platform_dummy_kernel-1.1.0.dist-info/LICENSE,sha256=CZ8jfgkAwOVjKEGOCuuT3ei6c0AJwh6hYe9CUxZmITo,1317
+bodo_platform_dummy_kernel-1.1.0.dist-info/METADATA,sha256=NegPzbI9Dc7QRQjqiscSehBLWDngRZp0yVvSRFb0m1k,1333
+bodo_platform_dummy_kernel-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bodo_platform_dummy_kernel-1.1.0.dist-info/top_level.txt,sha256=RH1q5c_4dk4Vi9KV9zFWujMUaaZoqRjZAxHyV6ixPYc,27
+bodo_platform_dummy_kernel-1.1.0.dist-info/RECORD,,
