@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: h2sastscan-reports
+Version: 1.1
+Summary: A library for creating beautiful HTML reports from H2-sastscan results. SARIF and Grafeas formats are supported..
+Home-page: https://gitlab.com/hhammoudi/h2sastscan-reports
+Author: H2 Security
+Author-email: blue-team@h2security.io
+License: UNKNOWN
+Description: # Introduction
+        
+         A library for creating beautiful HTML reports from H2-sastscan results. SARIF and Grafeas formats are supported..
+        
+        ## Installation
+        
+        ```bash
+        pip install h2sastscan-reports
+        ```
+        
+        ## Usage
+        
+         This package is used by [h2-sastscan](https://gitlab.com/hhammoudi/h2-sast-scan), a tool for performing static analysis and security testing. 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
