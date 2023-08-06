@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: is-int-even
+Version: 0.0.1
+Summary: Is a number even?
+Home-page: https://github.com/sifte/is-int-even
+Author: sifte
+Maintainer: sifte
+License: MIT
+Project-URL: Github, https://github.com/sifte/is-int-even
+Keywords: even number
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# is-even
+Returns true if the number passed is even, returns false if it is not.
+
+Inspired by [samuelmarina/is-even](https://github.com/samuelmarina/is-even) and is the python version of it :)
+
+## Installing
+```sh
+pip install -U git+https://github.com/sifte/is-even.git
+```
+
+## Example
+```py
+from even import is_even
+
+is_even(0) # true
+is_even(1) # true
+is_even(2) # true
+# and so on...  current limit is 125,000
+```
+
+
+
