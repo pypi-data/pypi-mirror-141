@@ -1,0 +1,4 @@
+h2-vulnerability-db
+defusedxml
+PyYAML
+rich
