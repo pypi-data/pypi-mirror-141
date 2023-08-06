@@ -1,0 +1,11 @@
+malbook/__init__.py,sha256=KEjt0wZCQxb1i4nNv7acwaVTBQSinpSB6DIJUhJywFc,71
+malbook/__main__.py,sha256=PquASEVpp01jl97kjr8rYcjPgRiRsd439nPfaSkMd2E,6069
+malbook/environment.py,sha256=AJtUShLjjcq08ge9u6Sxq1iNXHQeQr0h2BXUC0olFvQ,10583
+malbook/errors.py,sha256=Si37Bq0pmc9Cz71ZTpcJxJHDSeqeoVcW3F-Ty0QBSPc,471
+malbook/framework.py,sha256=A_dC9IgcU5mr8s_KVCTpg8RP6oo3DXPReNgNXkXISeI,9517
+malbook-0.0.12.dist-info/LICENSE,sha256=Ldl2UhtuuPczVQ8_RbBnaAihrNW7W3hvwhj5K6_St6c,1069
+malbook-0.0.12.dist-info/METADATA,sha256=H9Pm7aL9DrsHiCyk9UbmooITQblRdeGPOWRW48Vjzlg,931
+malbook-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+malbook-0.0.12.dist-info/entry_points.txt,sha256=2JSKoGZaMuduFDBYPOH6Mt_OT4hrR_QnUp8beNjNjN8,51
+malbook-0.0.12.dist-info/top_level.txt,sha256=2foLosZPY5tiw8AsSFVDikO4MwrI1o_aJoMUrk3pAyo,8
+malbook-0.0.12.dist-info/RECORD,,
