@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: create-ascii
+Version: 0.0.1
+Summary: Simple Python module to convert images into ascii text art.
+Home-page: https://github.com/Acedev003/create_ascii
+Author: Acedev003
+Author-email: acedeveloper003@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Acedev003/create_ascii/issues
+Project-URL: Source Code, https://github.com/Acedev003/create_ascii
+Keywords: ascii,image,ascii-art
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Terminals
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+
+# create-ascii
+Simple python module to convert images to ascii text art.
+
+

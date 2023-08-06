@@ -1,0 +1,11 @@
+create_ascii/__init__.py,sha256=fU2KdX2ysKwo-gnu4um19v88VdWhi4Z-SlWvYtVjgDw,74
+create_ascii/ascii_image.py,sha256=w8MuzNYYvm1bDvWDMlWaT1KkcVK4Jping4vipO2fyas,11847
+create_ascii/command_line.py,sha256=JkJ2ZUM6pcn8JHVuGPodoDrE8TEn8ssY4JwK73Eo9hw,131
+create_ascii/util.py,sha256=jKOmllGjSYM1CYFNhu-Zk4clg5Hb5QjlKsxYqhqEDuc,1411
+create_ascii/assets/courier.ttf,sha256=tNqSD6UNh0vOLKsFF-RzI4Sm7vj-fh5lPSvvy4qsGqY,68304
+create_ascii-0.0.1.dist-info/LICENSE,sha256=2mJcN7SRQ_bDUt3WXNMy23uIl-rk2Hw3PLFOUB2LltE,1087
+create_ascii-0.0.1.dist-info/METADATA,sha256=W9psxEPShJPsaEPWGUYXbXxJNzPrunKyoF1etvHxIFY,905
+create_ascii-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+create_ascii-0.0.1.dist-info/entry_points.txt,sha256=IaIbxQruYKInX88JsvMNPH4ObQwmwbapOG9VsJKHuvc,64
+create_ascii-0.0.1.dist-info/top_level.txt,sha256=xsxNQkQrZO_-HUrrPiSOZSyCBRjlfJPbdyGT0ErMROI,13
+create_ascii-0.0.1.dist-info/RECORD,,
