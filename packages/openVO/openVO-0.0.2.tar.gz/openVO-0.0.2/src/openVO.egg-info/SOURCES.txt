@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/openVO/__init__.py
+src/openVO/camera.py
+src/openVO.egg-info/PKG-INFO
+src/openVO.egg-info/SOURCES.txt
+src/openVO.egg-info/dependency_links.txt
+src/openVO.egg-info/top_level.txt
