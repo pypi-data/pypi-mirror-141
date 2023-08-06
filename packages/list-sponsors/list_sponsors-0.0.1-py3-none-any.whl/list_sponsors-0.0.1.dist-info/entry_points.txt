@@ -1,0 +1,2 @@
+[console_scripts]
+list-sponsors = list_sponsors.__main__:main

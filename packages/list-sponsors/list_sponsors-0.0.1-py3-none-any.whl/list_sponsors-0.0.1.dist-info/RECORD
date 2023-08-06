@@ -1,0 +1,13 @@
+list_sponsors/__init__.py,sha256=XOL6wHg6Soy0p0rLr8rTl6ER9yKknp0H1d0WjfbxA50,88
+list_sponsors/__main__.py,sha256=BzHgt51lpm1_zngUSrve4xNhYRTEQSyKnzhBUH0YjiQ,3194
+list_sponsors/__version__.py,sha256=XROi_gOkXgy_ipSIzX2zSfCtnvq3Oyn4WZecBQZ09Q0,201
+list_sponsors/_const.py,sha256=MIkciOhtXeGZjvDCTCr774Qtd-LOIcyY8WjGqrbUuQk,144
+list_sponsors/_gh_client.py,sha256=WYyTFk3XxTmCpkGlCYfKVafJijIyevYZ3MiGvRtwh2M,5092
+list_sponsors/_logger.py,sha256=zZPj2fxZXUDH1oBmRsSGEUDzZ-llyzBp6YIWEUU6yVE,1995
+list_sponsors/_sponsor.py,sha256=HvqD_q9pToXfg_jRYiOlqi504UKP6OXAc_xeIJRVX3E,2691
+list_sponsors-0.0.1.dist-info/LICENSE,sha256=RUZ4zkGMhOgorxXb-560kdTPpeV75HRx84Gt5im_9CE,1074
+list_sponsors-0.0.1.dist-info/METADATA,sha256=aJS9CnBkJfcU3_e7WExxDVoPUJInDqsAMl3tw7ARST0,3809
+list_sponsors-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+list_sponsors-0.0.1.dist-info/entry_points.txt,sha256=w2rf_8ozl7IKHON1aeNKEwm_01JU9Kn0BFSRKeSIsSo,62
+list_sponsors-0.0.1.dist-info/top_level.txt,sha256=EVbtnYON4OHbzDHqipu2OiLPCOUGl1mfRwQenDktL6w,14
+list_sponsors-0.0.1.dist-info/RECORD,,
