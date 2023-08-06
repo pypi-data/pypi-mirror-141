@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mathix/__init__.py
+src/mathix/example.py
+src/mathix.egg-info/PKG-INFO
+src/mathix.egg-info/SOURCES.txt
+src/mathix.egg-info/dependency_links.txt
+src/mathix.egg-info/top_level.txt
