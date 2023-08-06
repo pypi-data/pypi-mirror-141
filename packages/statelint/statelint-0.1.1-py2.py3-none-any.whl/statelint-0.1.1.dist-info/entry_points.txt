@@ -1,0 +1,3 @@
+[console_scripts]
+statelint = statelint.cli:main
+
