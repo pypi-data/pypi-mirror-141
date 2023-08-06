@@ -1,0 +1,15 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+README.txt
+requirements.txt
+requirements_dev.txt
+setup.py
+Siamese_Checking_Model/__init__.py
+Siamese_Checking_Model.egg-info/PKG-INFO
+Siamese_Checking_Model.egg-info/SOURCES.txt
+Siamese_Checking_Model.egg-info/dependency_links.txt
+Siamese_Checking_Model.egg-info/not-zip-safe
+Siamese_Checking_Model.egg-info/top_level.txt
+Siamese_Checking_Model/models/shape_predictor_68_face_landmarks.dat

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: Siamese_Checking_Model
+Version: 0.0.2
+Summary: Models used for face_recognition by siamese neural network.
+Home-page: https://github.com/xalphonseinbaraj/Siamese_Checking_Model
+Author: AlphonseInbarajXavier
+Author-email: xalphonse@gmail.com
+License: MIT license
+Description: Siamese_Checking_Model
+        This package contains only the models used for face recognization by siamese neural network 'Siamese_Checking_Model' <'https://github.com/xalphonseinbaraj/Siamese_Checking_Model'>
+        
+        
+Keywords: Siamese_Checking_Model
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
