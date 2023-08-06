@@ -1,0 +1,3 @@
+[console_scripts]
+granita=granita.__main__:app
+
