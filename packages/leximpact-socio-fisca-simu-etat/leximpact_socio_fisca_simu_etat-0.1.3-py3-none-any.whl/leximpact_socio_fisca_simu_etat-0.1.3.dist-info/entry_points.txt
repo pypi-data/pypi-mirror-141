@@ -1,0 +1,3 @@
+[console_scripts]
+api=leximpact_socio_fisca_simu_etat_api.server:start_dev
+
