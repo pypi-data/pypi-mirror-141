@@ -1,0 +1,12 @@
+omnetinireader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omnetinireader/config_parser.py,sha256=d57NsjlS--chmjNpDblPVZ8rS7-nxvJx2mMyHCZ0drQ,19045
+omnetinireader/version.py,sha256=8vC_K808nf5VIPF3QnIMagDnFz2C38xmUKxUGF5Uzgw,1341
+omnetinireader/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omnetinireader/tests/test_config_parser.py,sha256=bZbd6vsT1n_7uQjo93W_szQzpLoysUX29QANMzq14k4,12653
+omnetinireader/tests/dir1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omnetinireader/tests/dir2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omnetinireader-1.7.3.dist-info/LICENSE,sha256=IGa5QksBLvjjRCTUaQzHm2ZD9tGMOnrl8BjxvGDx-X0,1079
+omnetinireader-1.7.3.dist-info/METADATA,sha256=O4ZCpy5svbfa6pA8aPXmhHl_TB03J3-jRLlG4O4xWI0,727
+omnetinireader-1.7.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omnetinireader-1.7.3.dist-info/top_level.txt,sha256=AiRNwYk8Uu14fyoW1QWjVwdvzmXUuf8IiJr7F3HGElA,15
+omnetinireader-1.7.3.dist-info/RECORD,,
