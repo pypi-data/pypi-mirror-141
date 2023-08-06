@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyheader/__init__.py
+pyheader/header.py
+pyheader.egg-info/PKG-INFO
+pyheader.egg-info/SOURCES.txt
+pyheader.egg-info/dependency_links.txt
+pyheader.egg-info/top_level.txt
