@@ -1,0 +1,14 @@
+convertimage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convertimage/convertexcel.py,sha256=KUQFqVZaWKjHM45OLocNAroiXtKBJSroQK9xyIHOVXk,2724
+convertimage/convertimage.py,sha256=1ttlUC5asGgJ44ePbXya2euFK61J63P1nLssAiSGi3U,2486
+convertimage/convertword.py,sha256=f48JzzIvR3c5PmcLEQqgBN2B6jW2Z9EXsOx-9xkXdoU,2021
+pdfconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfconverter/convertexcel.py,sha256=KUQFqVZaWKjHM45OLocNAroiXtKBJSroQK9xyIHOVXk,2724
+pdfconverter/convertimage.py,sha256=1ttlUC5asGgJ44ePbXya2euFK61J63P1nLssAiSGi3U,2486
+pdfconverter/convertword.py,sha256=Rx8VYTY2rNvdeANQlA88n6Vvb8RrUk4fPF8ET1xNrxM,2037
+pdfconverter/pdfconverter.py,sha256=1aZnI26PdhTXiipNfpceikXfv3jmfFy0rh9Pte05UEc,355
+pdfconverter-0.9.27.dist-info/METADATA,sha256=D7ZCBmUCNBgrPO0VPdmJ47u6_TS9xX8jRNUxz1Pfxr0,1871
+pdfconverter-0.9.27.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdfconverter-0.9.27.dist-info/entry_points.txt,sha256=72Pm7q8j3zQswTz2uPPMu1sR5SEAtgbVN4gKWDghh4A,201
+pdfconverter-0.9.27.dist-info/top_level.txt,sha256=3WprF0sqgqYDj_U6oP8-lCw7kvybLopq1ZwOO91vL58,13
+pdfconverter-0.9.27.dist-info/RECORD,,
