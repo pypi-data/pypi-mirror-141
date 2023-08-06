@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyostra
+Version: 0.0.1
+Summary: THe internal Python package used for the Ostra projects such as the advanced NFTs generator.
+Home-page: UNKNOWN
+Author: Yoratoni
+Author-email: twingearas@gmail.com
+License: MIT
+Keywords: ostra
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+
+
+PYOSTRA CHANGELOG
+=================
+
+0.0.1 (03/05/2022)
+------------------
+- First release of the pyostra package.
+
