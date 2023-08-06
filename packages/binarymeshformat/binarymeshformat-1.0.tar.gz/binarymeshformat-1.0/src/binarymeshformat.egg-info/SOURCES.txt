@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/binarymeshformat/__init__.py
+src/binarymeshformat/meshdata.py
+src/binarymeshformat/reader.py
+src/binarymeshformat/writer.py
+src/binarymeshformat.egg-info/PKG-INFO
+src/binarymeshformat.egg-info/SOURCES.txt
+src/binarymeshformat.egg-info/dependency_links.txt
+src/binarymeshformat.egg-info/top_level.txt
