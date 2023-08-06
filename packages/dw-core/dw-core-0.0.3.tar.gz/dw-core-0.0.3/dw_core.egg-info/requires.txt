@@ -1,0 +1,13 @@
+TakeTheTime<0.4.0,>=0.3.1
+appdirs<2.0.0,>=1.4.3
+deprecation
+iso8601<0.2.0,>=0.1.12
+jsonschema<4.0,>=3.1
+peewee<4.0.0,>=3.0.0
+python-json-logger
+strict-rfc3339<0.8,>=0.7
+timeslot
+tomlkit
+
+[mongo]
+pymongo<4.0.0,>=3.10.0
