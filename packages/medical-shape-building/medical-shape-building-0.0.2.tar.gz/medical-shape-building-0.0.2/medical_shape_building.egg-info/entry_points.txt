@@ -1,0 +1,2 @@
+[console_scripts]
+shapebuilding = shape_building.entrypoints.subcommands:main

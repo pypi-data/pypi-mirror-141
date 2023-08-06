@@ -1,0 +1,9 @@
+torch>=1.7
+pytorch-lightning>=1.5
+rising>=0.2.1
+scikit-image>=0.18
+torchio>=0.18.71
+medical-shape
+rich
+sklearn
+tqdm
