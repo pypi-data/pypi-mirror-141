@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+metehanDictionary886.egg-info/PKG-INFO
+metehanDictionary886.egg-info/SOURCES.txt
+metehanDictionary886.egg-info/dependency_links.txt
+metehanDictionary886.egg-info/requires.txt
+metehanDictionary886.egg-info/top_level.txt
