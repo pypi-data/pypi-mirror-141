@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include djf_surveys/templates *
+recursive-include docs *
