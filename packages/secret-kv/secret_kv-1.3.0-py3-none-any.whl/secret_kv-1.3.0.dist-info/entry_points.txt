@@ -1,0 +1,3 @@
+[console_scripts]
+secret-kv=secret_kv.__main__:run
+
