@@ -1,0 +1,9 @@
+README.md
+setup.py
+JupyterPy/__init__.py
+JupyterPy/core.py
+JupyterPy.egg-info/PKG-INFO
+JupyterPy.egg-info/SOURCES.txt
+JupyterPy.egg-info/dependency_links.txt
+JupyterPy.egg-info/requires.txt
+JupyterPy.egg-info/top_level.txt
