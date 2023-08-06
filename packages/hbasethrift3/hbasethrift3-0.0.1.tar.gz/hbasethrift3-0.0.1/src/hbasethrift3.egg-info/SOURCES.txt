@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/hbasethrift3.egg-info/PKG-INFO
+src/hbasethrift3.egg-info/SOURCES.txt
+src/hbasethrift3.egg-info/dependency_links.txt
+src/hbasethrift3.egg-info/top_level.txt
