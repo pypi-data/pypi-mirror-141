@@ -1,0 +1,8 @@
+MANIFEST.in
+requirements.txt
+setup.py
+lambler/__init__.py
+lambler.egg-info/PKG-INFO
+lambler.egg-info/SOURCES.txt
+lambler.egg-info/dependency_links.txt
+lambler.egg-info/top_level.txt
