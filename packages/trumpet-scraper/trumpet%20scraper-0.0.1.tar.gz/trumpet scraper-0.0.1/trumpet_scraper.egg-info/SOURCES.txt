@@ -1,0 +1,8 @@
+setup.py
+Trumpetpackage/Trumpetscrape2.py
+Trumpetpackage/__init__.py
+trumpet_scraper.egg-info/PKG-INFO
+trumpet_scraper.egg-info/SOURCES.txt
+trumpet_scraper.egg-info/dependency_links.txt
+trumpet_scraper.egg-info/requires.txt
+trumpet_scraper.egg-info/top_level.txt
