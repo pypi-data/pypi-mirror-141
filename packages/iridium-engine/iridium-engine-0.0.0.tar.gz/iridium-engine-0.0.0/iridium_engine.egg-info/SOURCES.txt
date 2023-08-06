@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+iridium/__init__.py
+iridium/iridium.py
+iridium_engine.egg-info/PKG-INFO
+iridium_engine.egg-info/SOURCES.txt
+iridium_engine.egg-info/dependency_links.txt
+iridium_engine.egg-info/top_level.txt
