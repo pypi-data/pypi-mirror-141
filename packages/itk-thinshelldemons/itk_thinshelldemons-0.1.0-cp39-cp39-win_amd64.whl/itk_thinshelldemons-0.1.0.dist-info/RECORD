@@ -1,0 +1,15 @@
+itk/ThinShellDemonsPython.py,sha256=BcdgG-wEe69EoWVHWqs6_AyHiZZsFwo2jEAaBWq3RAw,2763
+itk/_ThinShellDemonsPython.pyd,sha256=zpXZUdcHtXIcKIyIyvjvLcOzDYf8uHutfUQhy2X6n-M,2629632
+itk/__init_thinshelldemons__.py,sha256=0V7x6x41ZoLadfx3o2I7KZ_jV9h3Mw8WlQeryYe4jVo,1449
+itk/itkThinShellDemonsMetricv4Python.py,sha256=wWO4HJNL4tPJv9IfShZTFoBv14KIzpEs0guEAZKzuQo,138219
+itk/Configuration/ThinShellDemonsConfig.py,sha256=kGIyQ-5G5SWiW5Fvj3u-l6vtWEHU1XPP7wWayEbNQ0I,2384
+itk/Configuration/ThinShellDemons_snake_case.py,sha256=9vod4cFmYt5kmtm1e6v9EGK_ZPA-PDivTkxICPlGqzM,27
+itk_thinshelldemons.libs/.load-order-itk_thinshelldemons-0.1.0,sha256=xEED_EW8Vf_zCWJJr6TSrDWgujMkcujMSwNzmKJYT24,25
+itk_thinshelldemons.libs/msvcp140.dll,sha256=ZKscE6wTZ5ofNVQAE4s9qv2yawmMr4_tt7JWy560TO8,565640
+itk_thinshelldemons.libs/tbb12.dll,sha256=UCsfkHG-NAS3U-91Sa9QlQLW6cIkbMO-ooijh_tOHus,302080
+itk_thinshelldemons-0.1.0.dist-info/DELVEWHEEL,sha256=WIIfhId5iwmA6OXIHbOqYHx6r0498C62OrycbzG_xyU,8
+itk_thinshelldemons-0.1.0.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_thinshelldemons-0.1.0.dist-info/METADATA,sha256=hS7GhdEmWaKdG_Jmu_EZER2fW0Olk-FT-jPfSOE2Qdk,1286
+itk_thinshelldemons-0.1.0.dist-info/WHEEL,sha256=agPHDgQgdU8NSWIKgA1v7gpVJM51Mj4k7QPUWbVb89Y,93
+itk_thinshelldemons-0.1.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_thinshelldemons-0.1.0.dist-info/RECORD,,
