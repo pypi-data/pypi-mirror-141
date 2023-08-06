@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+simple_cs453_homework1_dictionary_pasha.egg-info/PKG-INFO
+simple_cs453_homework1_dictionary_pasha.egg-info/SOURCES.txt
+simple_cs453_homework1_dictionary_pasha.egg-info/dependency_links.txt
+simple_cs453_homework1_dictionary_pasha.egg-info/requires.txt
+simple_cs453_homework1_dictionary_pasha.egg-info/top_level.txt
