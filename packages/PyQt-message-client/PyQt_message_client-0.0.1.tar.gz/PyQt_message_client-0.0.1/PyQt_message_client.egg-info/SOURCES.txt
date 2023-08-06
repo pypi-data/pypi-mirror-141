@@ -1,0 +1,14 @@
+setup.py
+PyQt_message_client.egg-info/PKG-INFO
+PyQt_message_client.egg-info/SOURCES.txt
+PyQt_message_client.egg-info/dependency_links.txt
+PyQt_message_client.egg-info/requires.txt
+PyQt_message_client.egg-info/top_level.txt
+client/__init__.py
+client/add_contact.py
+client/database.py
+client/del_contact.py
+client/main_window.py
+client/main_window_conv.py
+client/start_dialog.py
+client/transport.py
