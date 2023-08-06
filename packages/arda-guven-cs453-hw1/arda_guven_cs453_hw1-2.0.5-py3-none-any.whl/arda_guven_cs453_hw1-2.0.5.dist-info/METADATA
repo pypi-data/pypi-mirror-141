@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: arda-guven-cs453-hw1
+Version: 2.0.5
+Summary: UNKNOWN
+Author: Arda Güven Çiftçi
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: requests (>=2.23.0)
+
+UNKNOWN
+
