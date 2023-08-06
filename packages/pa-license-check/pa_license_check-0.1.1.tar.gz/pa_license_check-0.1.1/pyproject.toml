@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pa_license_check"
+version = "0.1.1"
+description = "Simple Script that logins to a Palo Alto firewall and checks license status\n to be used in conjunction with a monitoring software, like Nagios that reads exit codes"
+authors = ["Angelo Poggi <angelo.poggi@opti9tech.com>"]
+readme = "README.md"
+homepage = "https://github.com/purplecomputer/pa_license_check"
+keywords = ["palo alto", "palo alto licensing", "licensing check"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.4"
+configparser = "^5.2.0"
+requests = "^2.27.1"
+DateTime = "^4.4"
+python-dateutil = "^2.8.2"
+urllib3 = "^1.26.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+palicensecheck = 'pa_license_check.cli:cli'
