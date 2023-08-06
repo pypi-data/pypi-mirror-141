@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bin/jet-stream
+cloud-jet-stream/__init__.py
+cloud_jet_stream.egg-info/PKG-INFO
+cloud_jet_stream.egg-info/SOURCES.txt
+cloud_jet_stream.egg-info/dependency_links.txt
+cloud_jet_stream.egg-info/requires.txt
+cloud_jet_stream.egg-info/top_level.txt

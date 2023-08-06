@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cloud-jet-stream
+Version: 0.0.1
+Summary: AWS Cloud Development Toolkit
+Home-page: http://pypi.python.org/pypi/jet-stream/
+Author: Ryan Moos
+Author-email: ryan@moos.engineering
+License: LICENSE
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jet-stream
+Jet Stream is a Custom AWS Cloud Toolkit to Assist in CDK Deployments, and Other AWS Activities. A CLI tool is available to generate the necessary AWS CDK Files in Addition to Custom Toolkit Files.
+
+
+## Getting Started
+
+
+## Examples 
+ 
+
+
+
+## References
+
+
+
+
