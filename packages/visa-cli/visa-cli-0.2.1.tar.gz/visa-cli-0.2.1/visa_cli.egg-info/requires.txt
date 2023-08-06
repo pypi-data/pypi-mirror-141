@@ -1,0 +1,5 @@
+art
+prompt-toolkit
+requests
+pandas
+tabulate
