@@ -1,0 +1,20 @@
+run_signtool: False
+cleanbuild: True
+release: True
+stop_all_uploads: False
+defaults:
+  - override hydra/job_logging: custom
+iris_icon: Streambox_iris_icon.ico
+product_guid: 4DAE9226-90FE-11EC-B7AA-30D9D9EED5CB
+product_version: 0.1.8 # don't hand edit this, use "bump2version" to update it, see .bumpversion.cfg
+product_name: Iris
+splash_image: IRIS Decoder Placard.png
+company_name: Streambox
+bin_path: streambox_iris
+work: build
+work1: ${work}/work1
+deploy: ${work}/deploy
+bundle: ${work1}/iris.exe
+zip_ver: ${work1}/streambox_iris_win_${product_version}.zip
+zip_no_ver: ${work1}/streambox_iris_win.zip
+only_deploy: False
