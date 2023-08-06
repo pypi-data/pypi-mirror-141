@@ -1,0 +1,3 @@
+[console_scripts]
+convertimage = pdfconverter.convertimage:main
+
