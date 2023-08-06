@@ -1,0 +1,17 @@
+moodlews/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moodlews/service.py,sha256=bYsFqFhbMq9Xer98P71QpaFvApepX2LDrzKnM2Z3Y-U,1653
+welearnbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+welearnbot/__main__.py,sha256=JyzGwMo5xAwGGtcBOxQivWcV-m-7tG9daIaJyukNO5U,84
+welearnbot/action_handlers.py,sha256=2qMrj9JGLSjgJ8geaB_KKeffcQoRwKE0bzGjCLOyDjY,8291
+welearnbot/constants.py,sha256=yzOPT-Vt6dYjJvJOiDokxsP8CYjQRF6R8ZEsus3w4zo,109
+welearnbot/gcal.py,sha256=gYk68EELsDLVc-U7qQ1aSrJUyQu-wszbGYkkoKOpGbc,3986
+welearnbot/parser.py,sha256=vEGmatyJH-dtGhIHpOdy1GkjloG4MM1wBKPzP4vMj3I,2227
+welearnbot/resolvers.py,sha256=9EFLaA1S3KFO5eV7lXsWJzv7L06pcKDEnAGqUip6xAw,4409
+welearnbot/utils.py,sha256=hPS_WO18BgiYZR-dRAr6pB2xHtON4QdcRttIcszKkMc,4925
+welearnbot/welearnbot.py,sha256=LLis3LCMayePDFL7fWwBgmYfjn2p62o7I4_R1QnQLWY,1721
+welearn_bot_iiserkol-1.2.5.dist-info/LICENSE,sha256=PhflIpTUSIU9LZDMkYU4Xfq0G0HneS9zyNcKSxsiI7M,1069
+welearn_bot_iiserkol-1.2.5.dist-info/METADATA,sha256=I8FATJ7lPfK63oCrTbavNKXh0JAopbxMjAeSLBYikUk,7631
+welearn_bot_iiserkol-1.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+welearn_bot_iiserkol-1.2.5.dist-info/entry_points.txt,sha256=vUjw9vueA4Ph0-CCqWTSFgJZyy8sciFVSBzPHotXQSk,59
+welearn_bot_iiserkol-1.2.5.dist-info/top_level.txt,sha256=jSPqMFOCm9Xj2YX4FnLyRFfIQdYLep5JS8eudJ3wV_Q,20
+welearn_bot_iiserkol-1.2.5.dist-info/RECORD,,
