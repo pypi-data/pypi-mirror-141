@@ -1,0 +1,96 @@
+#!/usr/bin/python3
+from re import A
+from build import os
+from config import config
+from const import*
+from color import colored
+from files import getfiles
+import sys
+from web import runWeb
+import requests
+
+
+# global variables
+global status_code
+status_code = 0
+global json_response
+json_response = ''
+global arguments
+arguments = []
+
+# default method will be help
+method = 'help'
+# all other command methods
+commands = ['help', 'cerate', 'build', 'run-web', 'run-desktop']
+
+
+def main():
+    # arguments that passed from cmd line
+    for i in range(len(sys.argv)):
+        if len(sys.argv) > 1:
+            arguments.append(sys.argv[i])
+    # remove 1st item from arguments list which is the filename
+    try:
+        arguments.pop(0)
+    except:
+        pass
+    try:
+        if(arguments[0] == commands[1]):
+            new_project(arguments[1])
+        elif(arguments[0] == commands[3]):
+            runWeb()
+    except Exception as e:
+        print(e)
+
+
+def new_project(appname):
+    appname = input(f'app name : ({arguments[1]}) ')
+    version = input(f'version : (1.0.0) ')
+    description = input(f'description : (Using Kiqpo, we built this app.) ')
+    git_repository = input(f'git repository : (www.github.com/kiqpo) ')
+    author = input(f'author : (shajin) ')
+
+    if(appname == ""):
+        appname = arguments[1]
+    if(version == ""):
+        version = '1.0.0'
+    if(description == ""):
+        description = 'Using Kiqpo, we built this app.'
+    if(git_repository == ""):
+        git_repository = "www.github.com/kiqpo"
+    if(author == ""):
+        author = "shajin"
+
+    print(config(appname=appname, version=version,
+          description=description, url=git_repository))
+    print()
+    print(colored(124, 179, 66,
+          f'Writing to {os.getcwd()}/{appname}/config.yaml'))
+    print()
+    print()
+
+    try:
+        Response = requests.get(baseurl+releases)
+        if(Response.status_code == 200):
+
+            global status_code
+            status_code = Response.status_code
+            global json_response
+            json_response = Response.json()
+            getfiles(json_response, appname=appname, version=version,
+                     description=description, git_repository=git_repository)
+
+        else:
+            # error when send a get requests & status_code is not 200.
+            print(colored(
+                244, 67, 54, f'A connection error has occurred and we are unable to process your request'))
+    except Exception as e:
+        print(e)
+        # error when send a get requests.
+        print(colored(244, 67, 54,
+              f'Unable to process your request due to a connection error'))
+        print('We suggest checking your Internet connection')
+
+
+if __name__ == '__main__':
+    main()
