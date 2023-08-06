@@ -1,0 +1,7 @@
+README.md
+setup.py
+locache/__init__.py
+locache.egg-info/PKG-INFO
+locache.egg-info/SOURCES.txt
+locache.egg-info/dependency_links.txt
+locache.egg-info/top_level.txt
