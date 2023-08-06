@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-simple-worker
+Version: 0.2
+Summary: Django Simple Worker
+Home-page: https://www.idea-loop.com/
+Author: idealoop
+Author-email: noreply@idea-loop.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: django
+
+# Django Simple Worker
+
+
+#### Installation
+```shell
+pip install django-simple-worker
+```
+
+#### Usage
+TODO
+
+
