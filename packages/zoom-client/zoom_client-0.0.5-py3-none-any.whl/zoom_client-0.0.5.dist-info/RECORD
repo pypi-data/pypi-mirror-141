@@ -1,0 +1,11 @@
+zoom_client/__init__.py,sha256=5CUrhRarPWSGrceLu3gH3P5iEpYk9wbCGdzor4fkNJ0,52
+zoom_client/client.py,sha256=51ak9j0srOMTKJ-9PBhhRX1QcA3uuLEf9n8GCgzYoqY,3420
+zoom_client/modules/dashboard.py,sha256=h-rhKfyZS44Wr5FyzPAonj4XmoAKgM6VnoIgUWmqYcc,4451
+zoom_client/modules/group.py,sha256=hlyOawEyS8MhFnUrnLGIXXWn2e-z2czlNG3lxWZYAg8,2184
+zoom_client/modules/report.py,sha256=hBwY1Pmq__w0hxKXvqocJJCI6XcI_fcsEwN5KGdxjSY,1951
+zoom_client/modules/users.py,sha256=xaxvR7OTtx_pKgId_pjFl6oq0Y75x1I5cWzqBtELVWQ,8347
+zoom_client-0.0.5.dist-info/LICENSE,sha256=nYtN0lMesMi2JYqBLKlEQX_gfUMSF_HwNWId9sUS6Lg,1081
+zoom_client-0.0.5.dist-info/METADATA,sha256=CA9VK9HmOAVm3JmmaGKUb1rNHDADTvsVixlqcrx41pM,2672
+zoom_client-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zoom_client-0.0.5.dist-info/top_level.txt,sha256=IPQVTI3H_FGPKL6oMiduCVfItX_i4n1ov8DCyDxj3AU,12
+zoom_client-0.0.5.dist-info/RECORD,,
