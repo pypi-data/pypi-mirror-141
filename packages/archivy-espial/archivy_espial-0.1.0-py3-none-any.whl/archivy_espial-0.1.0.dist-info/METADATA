@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: archivy-espial
+Version: 0.1.0
+Summary: Add automated organization and discovery to your Archivy knowledge base.
+Home-page: UNKNOWN
+Author: Uzay-G
+Author-email: halcyon@disroot.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: espial (>=0.2.1)
+Requires-Dist: archivy
+
+UNKNOWN
+
