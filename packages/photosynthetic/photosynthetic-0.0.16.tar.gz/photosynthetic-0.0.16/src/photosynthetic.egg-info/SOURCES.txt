@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/photosynthetic/Cloud.py
+src/photosynthetic/Colors.py
+src/photosynthetic/Debug.py
+src/photosynthetic/Histogram.py
+src/photosynthetic/Palette.py
+src/photosynthetic/PaletteImage.py
+src/photosynthetic/__init__.py
+src/photosynthetic/colors.json
+src/photosynthetic.egg-info/PKG-INFO
+src/photosynthetic.egg-info/SOURCES.txt
+src/photosynthetic.egg-info/dependency_links.txt
+src/photosynthetic.egg-info/requires.txt
+src/photosynthetic.egg-info/top_level.txt
