@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cusfbamboo
+Version: 0.2.1
+Summary: Cooling system modelling for liquid rocket engines
+Home-page: https://github.com/cuspaceflight/bamboo
+Author: Daniel Gibbons
+Author-email: daniel.u.gibbons@gmail.com
+License: 	gpl-3.0
+Download-URL: https://github.com/cuspaceflight/bamboo/archive/refs/tags/0.2.1.tar.gz
+Description: UNKNOWN
+Keywords: rocket,engine,liquid,cooling,spaceflight,thermal
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
