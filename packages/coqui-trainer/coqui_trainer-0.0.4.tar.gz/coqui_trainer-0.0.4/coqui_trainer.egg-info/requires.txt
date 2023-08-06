@@ -1,0 +1,10 @@
+torch>=1.7
+coqpit
+fsspec
+
+[dev]
+black
+coverage
+isort
+nose
+pylint==2.10.2
