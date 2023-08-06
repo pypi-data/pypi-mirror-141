@@ -1,0 +1,16 @@
+cofffee/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cofffee/axis.py,sha256=p2zXO4indkJpL6cev_6DlaoqtEyRTijjKFpNJvG1FHc,4360
+cofffee/color.py,sha256=cbFOCOg3aEnu-TGJYbGvxfPd1rLjtdNKsNyIS-NtXaM,5065
+cofffee/graph_props.py,sha256=2lM3vRnx3TcvvMElv7gf8FPJn4g5VWoscfGGcysSMd8,5967
+cofffee/grapher.py,sha256=ySaxxku9G3jN1YWoya_BdWgY71k_bDbX42L3et9bij0,552
+cofffee/graphers.py,sha256=PaSffXP9u_7nQ_YEPINVb9YDWzK8hbZ4-_4x6JS64BA,13977
+cofffee/palletts.py,sha256=sjiRcTfoW9c5mCNAHWA75dUlGT6ADQwvVjz9kP9POxY,1258
+cofffee/pyg.py,sha256=NkWKfxLVV7FbHPVJb5dh66nGHIFodTbu8CTk_2CvKDA,2173
+cofffee/test.py,sha256=NMjGD6P1dBE46Xd4GTPjeQsziYON3N51zd42IHyA70Q,2481
+cofffee/data/coffee.xlsx,sha256=w76fEUU6eqJlMCgzgOUIMoE8KB_-T_B4010E6BHKlMc,121323
+cofffee/extra/icon.png,sha256=iO8besTt67tfw__pFCDyj7CLJcoAwtcY3vmHbmxcG0s,7022926
+cofffee-1.0.12.dist-info/LICENSE.txt,sha256=JIRfe4aYNbz2dedGoeO-Ks0y_06Iz470UA7ALEvvigo,1065
+cofffee-1.0.12.dist-info/METADATA,sha256=uqSA1x7oXIUi4mxjXL6tG22DcncILY88aSuu0csqcac,1049
+cofffee-1.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cofffee-1.0.12.dist-info/top_level.txt,sha256=Z-SgLRjMfM3x9axqboO_b6h2LdjDizMbXK8WWJuBH2k,8
+cofffee-1.0.12.dist-info/RECORD,,
