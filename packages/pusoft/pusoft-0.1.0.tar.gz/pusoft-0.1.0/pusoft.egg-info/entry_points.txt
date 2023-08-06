@@ -1,0 +1,4 @@
+[console_scripts]
+pupm = pusoft.pusoft_package_manager:cmd
+pusoft = pusoft.home_page:cmd
+
