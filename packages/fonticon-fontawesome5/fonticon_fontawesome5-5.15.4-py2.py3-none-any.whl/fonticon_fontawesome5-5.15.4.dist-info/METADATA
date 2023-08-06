@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: fonticon-fontawesome5
+Version: 5.15.4
+Summary: FontAwesome 5 extension for superqt font icons
+Home-page: https://github.com/tlambert03/fonticon-fontawesome5
+Author: Talley Lambert
+Author-email: talley.lambert@gmail.com
+License: MIT license
+Project-URL: Source Code, https://github.com/tlambert03/fonticon-fontawesome5
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: superqt ; extra == 'testing'
+Requires-Dist: pytest-qt ; extra == 'testing'
+
+# fonticon-fontawesome5
+
+[![License](https://img.shields.io/pypi/l/fonticon-fontawesome5.svg?color=green)](https://github.com/tlambert03/fonticon-fontawesome5/raw/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/fonticon-fontawesome5.svg?color=green)](https://pypi.org/project/fonticon-fontawesome5)
+[![Python Version](https://img.shields.io/pypi/pyversions/fonticon-fontawesome5.svg?color=green)](https://python.org)
+[![CI](https://github.com/tlambert03/fonticon-fontawesome5/workflows/ci/badge.svg)](https://github.com/tlambert03/fonticon-fontawesome5/actions)
+[![codecov](https://codecov.io/gh/tlambert03/fonticon-fontawesome5/branch/master/graph/badge.svg)](https://codecov.io/gh/tlambert03/fonticon-fontawesome5)
+
+FontAwesome 5 extension for superqt font icons
+
+```sh
+pip install superqt fonticon-fontawesome5
+```
+
+```python
+
+from fonticon_fa5 import FA5S
+from qtpy.QtCore import QSize
+from qtpy.QtWidgets import QApplication, QPushButton
+from superqt.fonticon import icon, pulse
+
+app = QApplication([])
+
+btn2 = QPushButton()
+btn2.setIcon(icon(FA5S.spinner, animation=pulse(btn2)))
+btn2.setIconSize(QSize(225, 225))
+btn2.show()
+
+app.exec_()
+```
+
+

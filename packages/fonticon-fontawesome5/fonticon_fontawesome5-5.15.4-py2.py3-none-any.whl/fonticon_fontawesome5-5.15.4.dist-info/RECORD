@@ -1,0 +1,16 @@
+fonticon_fa5/__init__.py,sha256=mFiCqPAqjlZ4EYEC52VpxxZwSoui99Q06qskQSkCfRM,128
+fonticon_fa5/_iconfont.py,sha256=7caSywdpDXPz8QUUiIHHTxZ_FbSqiC0cTBxI-o3HElI,709
+fonticon_fa5/fa5b.py,sha256=nqjJ8oa1daiD-22qJnqNQIXI2LVllfsPJmxnyVrWjGY,11604
+fonticon_fa5/fa5r.py,sha256=rryCLVJ1dBs6AZRPPSE0tx7wWfw0SIVVI1eNhCbPpek,4140
+fonticon_fa5/fa5s.py,sha256=5VWaipYUH-fZz86tgYjIFMzToi-LWDBXaVCVHhXyxkU,25902
+fonticon_fa5/_tests/test_font.py,sha256=TQALjOG50vHRGZgwdp3az0KTFXQZNfG71rh7z7ROBos,491
+fonticon_fa5/fonts/Font Awesome 5 Brands-Regular-400.otf,sha256=cNqWHryjwBLbbJvzeIFT1pA1fZQiakAJED9wc0FHBro,476372
+fonticon_fa5/fonts/Font Awesome 5 Free-Regular-400.otf,sha256=lS9OLEX-7aCZOCSVus8M9LcqcFFpnOPC35yEbXCk_Mw,97112
+fonticon_fa5/fonts/Font Awesome 5 Free-Solid-900.otf,sha256=e97haet_BLPgjeYp-1MOx_7Y8dG0qYJ9cCMx0ifiQkA,591768
+fonticon_fa5/fonts/LICENSE.txt,sha256=53l0jf516E-XTfPHvAf4QgEaEAFZFYsPH0my8qWlFcs,1548
+fonticon_fontawesome5-5.15.4.dist-info/LICENSE,sha256=dPip5qoTiWIdub_yUmCyrtsTOOLCva3kQb-nSS92VWs,2622
+fonticon_fontawesome5-5.15.4.dist-info/METADATA,sha256=A04zlHdup5cgTTGSYMsN273Nx6qrdWiVbWVfXwpGHk8,2147
+fonticon_fontawesome5-5.15.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+fonticon_fontawesome5-5.15.4.dist-info/entry_points.txt,sha256=0KtDmlqFtjQ_uv34zaUYakzq65x3J0QYiT65vuVAfpg,94
+fonticon_fontawesome5-5.15.4.dist-info/top_level.txt,sha256=niIymnL8_coth61_xEEA3xJ7dZowRWHdXtyJ7XwGPt0,13
+fonticon_fontawesome5-5.15.4.dist-info/RECORD,,
