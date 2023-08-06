@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: python-include
+Version: 2.0.0
+Summary: Relative imports that actually work
+Home-page: https://github.com/jeff-hykin/python-include
+Author: Jeff Hykin
+Author-email: jeff.hykin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Install
+
+`pip install python-include`
+
+# Use
+
+```python
+import python_include
+
+# import [name] from-anywhere (doesnt pollute global namespace)
+hello = python_include.file("./path/to/file/with/hello/func/code.py", {"__file__":__file__}).hello
+hello()
+
+# import [*everything*] from-anywhere (does pollute global namespace)
+python_include.file("./path/to/file/with/hello/func/code.py", globals())
+hello() # function that was defined inside that^ "code.py"
+```
+
+

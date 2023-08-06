@@ -1,0 +1,8 @@
+include/__init__.py,sha256=keFjJq9Uk_6mFHzeYvxtp1KKySnMzbIowhOXSmPS_10,29
+include/main.py,sha256=cRRQ9aJZXOd_MwZSzZ5Qo8-uieb3HiRXJhLm2KXELCs,5792
+python_include/__init__.py,sha256=czuNk__i4trEZ8OcfehO9st3tFEHtYEIMpVqgFvrZhI,36
+python_include/main.py,sha256=B6MUvwoG0MknQsmptuqbqIm-E7GHoeRLUidQV2t6k1s,5840
+python_include-2.0.0.dist-info/METADATA,sha256=-3wFmNZnHWzsDWsx3cwBe2ivSM08JtzOzvU-XHkX1nA,769
+python_include-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_include-2.0.0.dist-info/top_level.txt,sha256=DDPCMdf6tQ0_ZKDyhMjJOgAWxkbu3pJGO7RaSuwLops,15
+python_include-2.0.0.dist-info/RECORD,,
