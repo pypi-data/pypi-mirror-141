@@ -1,0 +1,13 @@
+pytest_cairo/__init__.py,sha256=Mwe7ZO1mBWWuAbjP8M8QedLu0bEE0Sf_SQzf3IsI_tI,149
+pytest_cairo/_version.py,sha256=cqMRlSvtXNenfrMB-M-Tt6_yTB4wzKdaO5USAZtNm0o,142
+pytest_cairo/context.py,sha256=l4Rz1SSO3n47qX68R6DUdlhNdld2P4oVbASMvaa5grw,3279
+pytest_cairo/contract.py,sha256=0POKz6OM5JzW8uMQkjt_4NCpWq8ApXUFWp_7paDHqAc,3617
+pytest_cairo/info_collector.py,sha256=m-hMy1ttvGGWgO4kVbpXbj11eqhGZ8DcWa92yceYSXQ,3678
+pytest_cairo/patch.py,sha256=qflFgiNsQ1N1P5s5H2W7xflrtOjbnkb-AFlYz8IRVhM,441
+pytest_cairo/plugin.py,sha256=a7kmCZSs3N3jfkK2JGIlLk7qD4CFcOOsjhCHS7ujxGE,2321
+pytest_cairo-0.0.3.dist-info/LICENSE,sha256=CwhGZuzJTJQXTKAC4l-hczTEMi5XzUCfr6xQohNwXMA,1067
+pytest_cairo-0.0.3.dist-info/METADATA,sha256=vEhcSNFMmNZx5mzhRGEaVWVlBLC_Fiw1sB58hLA7HzU,2127
+pytest_cairo-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_cairo-0.0.3.dist-info/entry_points.txt,sha256=iWXUtAtBSXMJVKSzTdB59kZs-CVPED4ra1LYrH8vkYo,46
+pytest_cairo-0.0.3.dist-info/top_level.txt,sha256=pQrYEbNxpGiLItQQm2-aUM0DMhPqKe4QoQpDNZp8fNY,13
+pytest_cairo-0.0.3.dist-info/RECORD,,
