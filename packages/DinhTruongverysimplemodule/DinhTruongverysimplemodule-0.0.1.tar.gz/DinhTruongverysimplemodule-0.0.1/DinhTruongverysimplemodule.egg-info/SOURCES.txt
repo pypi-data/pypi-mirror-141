@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+DinhTruongverysimplemodule.egg-info/PKG-INFO
+DinhTruongverysimplemodule.egg-info/SOURCES.txt
+DinhTruongverysimplemodule.egg-info/dependency_links.txt
+DinhTruongverysimplemodule.egg-info/top_level.txt
