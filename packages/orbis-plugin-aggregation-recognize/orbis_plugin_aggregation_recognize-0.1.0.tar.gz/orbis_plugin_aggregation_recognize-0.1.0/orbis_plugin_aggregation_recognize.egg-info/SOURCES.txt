@@ -1,0 +1,9 @@
+README.md
+setup.py
+orbis_plugin_aggregation_recognize/__init__.py
+orbis_plugin_aggregation_recognize/main.py
+orbis_plugin_aggregation_recognize.egg-info/PKG-INFO
+orbis_plugin_aggregation_recognize.egg-info/SOURCES.txt
+orbis_plugin_aggregation_recognize.egg-info/dependency_links.txt
+orbis_plugin_aggregation_recognize.egg-info/requires.txt
+orbis_plugin_aggregation_recognize.egg-info/top_level.txt
