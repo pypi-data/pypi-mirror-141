@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+py_wordle_helper.egg-info/PKG-INFO
+py_wordle_helper.egg-info/SOURCES.txt
+py_wordle_helper.egg-info/dependency_links.txt
+py_wordle_helper.egg-info/entry_points.txt
+py_wordle_helper.egg-info/top_level.txt
+wordlehelper/__init__.py
+wordlehelper/words.py

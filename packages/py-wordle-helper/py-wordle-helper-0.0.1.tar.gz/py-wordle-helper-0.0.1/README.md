@@ -1,0 +1,33 @@
+# Wordle Helper 
+
+A python application to help solving puzzle for https://www.nytimes.com/games/wordle/index.html
+
+## How it words
+
+To call wordlehelper use command 
+
+```
+% wordle-helper search
+```
+
+**output**
+
+```    
+Type first letter, blank if unknown >> a
+Type second letter, blank if unknown >> 
+Type third letter, blank if unknown >> 
+Type fourth letter, blank if unknown >> t
+Type fifth letter, blank if unknown >> 
+
+List with Position Characters ['abate', 'abets', 'abote', 'abstr', 'abuta', 'abuts', 'acate', 'accts', 'aceta', 'acute', 'adati', 'adaty', 'adyta', 'adits', 'agata', 'agate', 'agaty', 'agete', 'airth', 'airts', 'alate', 'alite', 'ality', 'aluta', 'amate', 'amati', 'amita', 'amity', 'anita', 'aorta', 'apptd', 'arati', 'arete', 'arite', 'arith', 'aueto', 'aunty', 'aunts', 'aweto', 'axite', 'azote', 'azoth'] 
+
+Type all character that has to be included in word (separated with comma) >> r
+
+List After Filter 2, included character ['abstr', 'airth', 'airts', 'aorta', 'arati', 'arete', 'arite', 'arith'] 
+
+Type all character that has to be excluded from word (separated with comma) >> o, e,z
+
+List After Filter 1, excluded character ['abstr', 'airth', 'airts', 'arati', 'arith'] 
+
+Final List ['abstr', 'airth', 'airts', 'arati', 'arith']
+```
