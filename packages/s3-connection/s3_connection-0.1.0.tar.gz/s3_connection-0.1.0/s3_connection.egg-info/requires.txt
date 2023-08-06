@@ -1,0 +1,10 @@
+boto3==1.17.13
+numpy
+pandas
+regex
+requests
+s3fs==0.5.2
+s3transfer==0.3.4
+tensorflow
+tensorflow-estimator
+python-dotenv==0.19.2

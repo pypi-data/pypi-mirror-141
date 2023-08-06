@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: s3-connection
+Version: 0.1.0
+Summary: A package with functions for reading/writing different file types from/to AWS s3 storage.
+Home-page: UNKNOWN
+Author: Jamie O'Brien
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
