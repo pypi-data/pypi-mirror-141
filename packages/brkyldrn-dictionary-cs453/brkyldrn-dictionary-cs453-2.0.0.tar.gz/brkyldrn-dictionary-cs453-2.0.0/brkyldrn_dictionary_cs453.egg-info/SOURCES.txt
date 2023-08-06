@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+brkyldrn_dictionary_cs453.egg-info/PKG-INFO
+brkyldrn_dictionary_cs453.egg-info/SOURCES.txt
+brkyldrn_dictionary_cs453.egg-info/dependency_links.txt
+brkyldrn_dictionary_cs453.egg-info/requires.txt
+brkyldrn_dictionary_cs453.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
