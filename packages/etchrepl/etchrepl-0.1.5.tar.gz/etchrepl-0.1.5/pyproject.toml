@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["GingerIndustries"]
+description = "A repl for Etch. Nothing much to see here."
+name = "etchrepl"
+version = "0.1.5"
+[tool.poetry.dependencies]
+etchlang = "*"
+python = "^3.8"
+requests = "^2.27.1"
+toml = "^0.10.2"
+[tool.poetry.scripts]
+etch = "etchrepl:main"
