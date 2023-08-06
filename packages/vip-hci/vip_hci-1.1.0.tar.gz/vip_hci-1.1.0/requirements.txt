@@ -1,0 +1,17 @@
+numpy
+scipy
+astropy
+photutils
+scikit-learn
+scikit-image
+emcee==2.2.1
+nestle
+corner
+pandas
+matplotlib<=3.4.3
+psutil
+pyprind
+munch
+opencv-python
+pytest
+hciplot
