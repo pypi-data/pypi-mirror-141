@@ -1,0 +1,13 @@
+MR_Package/__init__.py,sha256=5Y0xfoAB-RyakOCAzm66X89e8CS-VsUv2FzVX6ubzI0,1553
+MR_Package/file_io.py,sha256=bRIFE_0FWbg2RdVdD2qmt40PyHBcMcOQezJDlaGN5nw,953
+MR_Package/logger.py,sha256=X5ckt6HpXTlOGCA26ByrExHD8D3lNOnNLaIsJt_DVhk,1891
+MR_Package/mail_log.py,sha256=yM64qZ56CLf4IdPHHPNsDTWPfFjxdIdzadsweLnWnYE,1889
+MR_Package/math.py,sha256=IJNnxW23HKpz7lb3pcnfTvhAcozUTmHVWNym4Iyxtxc,9028
+MR_Sidepackage/__init__.py,sha256=T-6JKk3lrMDBSDoqEQwxaFWyAcgRCaFaUtpOj5xubC0,23
+SimpleMySQL/__init__.py,sha256=m3Tr1JWYlATqzcXC88v4_tRXpX26BLsTb7yCxR_Copo,69
+SimpleMySQL/connect.py,sha256=pYPVXpPY5DIO-WE6fwohtb7AFdsNqK7o2Jh-65aSYgg,1585
+MR_Package-1.1.7.dist-info/LICENSE,sha256=VCMuNcdh15fk8JusMPxZDKbYTE5EsUsqL1BVoP4I6eo,1089
+MR_Package-1.1.7.dist-info/METADATA,sha256=2sQJO7DilVjee8DDwZi_wbJoOuUyGw7FBo0VIIFQIc4,746
+MR_Package-1.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MR_Package-1.1.7.dist-info/top_level.txt,sha256=3jtKgjgMFjW4m2guUYIsfSDpWHsEVv1R7OzOonKjVxI,38
+MR_Package-1.1.7.dist-info/RECORD,,
