@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sdputils
+Version: 1.0.1
+Summary: Utils' functions to use inside the Semantix Data Platform for data transformation.
+Author: Lucas S. Maximiano
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (==1.2.4)
+
+UNKNOWN
+
