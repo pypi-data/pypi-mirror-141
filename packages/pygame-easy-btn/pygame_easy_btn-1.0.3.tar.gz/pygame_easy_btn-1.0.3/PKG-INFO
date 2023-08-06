@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pygame_easy_btn
+Version: 1.0.3
+Summary: python package for pygame to make buttons
+Author: Amin shahrabi
+Author-email: shahrabiamin70@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+python package for pygame to make buttons with cool hovers , resize , functions and more all in a really fast and easy way !
+
+example:
+
+    import pygame, sys, pygame_easy_btn
+    pygame.init()
+
+    width, height = 1280, 720
+    screen = pygame.display.set_mode((width, height), 0, 32)
+    pygame.display.set_caption("example")
+    fps = 30
+    clock = pygame.time.Clock()
+
+    def main():
+        print ("hi" )
+        screen.fill((0, 0, 0))
+
+    def main1():
+        print ("hi" )
+        screen.fill((0, 0, 0))
+        
+    while True:
+        print (pygame_easy_btn.clicked)
+        pygame_easy_btn.mainloop()
+        screen.fill((255, 255, 255))
+        pygame_easy_btn.img_button_with_hover(screen, 50, 50, "help.png", "help2.png", 50, 50, main)
+        pygame_easy_btn.img_button_with_hover(screen, 200, 400, "help.png", "help2.png", 50, 50, main1)
+        pygame_easy_btn.img_button_without_hover(screen, 200, 200, "help.png", 50, 50, main)
+        pygame_easy_btn.shape_button_with_hover(screen, 500, 200, (0, 0, 0), (20, 20, 20), 100, 100, main)
+        pygame_easy_btn.shape_button_without_hover(screen, 500, 500, (0, 0, 0), 100, 100, main)
+        pygame_easy_btn.text_button_with_hover(screen, "Hi ", 700, 600, (0, 0, 0) , (255, 0, 0), clicked_function=main)
+        for event in pygame.event.get():
+            pass
+
+
+        pygame.display.update()
+        clock.tick(fps)
+
+document:
+    # you must enter this command in gameloop:
+    pygame_easy_btn.mainloop()
+    #you can put an image button with hover in screen using :
+    
+    pygame.img_button_with_hover(surface, X pos, Y pos, file, hover_file, scale width, scale height, When clicked call this function)
+
+    #you can put an image button without hover in screen using :
+    
+    pygame.img_button_without_hover(surface, X pos, Y pos, file, scale width, scale height, When clicked call this function)
+
+    #you can put rectangle button with hover in screen using :
+
+    pygame.shape_button_with_hover(surface , x_position, y_position , color, hover_color, width, height, When clicked call this function)
+
+    #you can put rectangle button without hover in screen using :
+
+    pygame.shape_button_without_hover(surface , x_position, y_position , color, width, height, When clicked call this function)
+
+    #you can put text button with hover in screen using :
+
+    pygame.text_button_with_hover(surface , text , x_position, y_position , color, hover_color,  font = pygame.font.Font(None, 40), When clicked call this function)
+
+    #you can put text button without hover in screen using :
+
+    pygame.text_button_without_hover(surface , text , x_position, y_position , color,  font = pygame.font.Font(None, 40), When clicked call this function)
+
+
