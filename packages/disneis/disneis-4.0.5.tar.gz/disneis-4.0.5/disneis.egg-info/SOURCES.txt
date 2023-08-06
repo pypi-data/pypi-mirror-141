@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+disneis/__init__.py
+disneis/client.py
+disneis/error.py
+disneis/http.py
+disneis/py.typed
+disneis/sync.py
+disneis.egg-info/PKG-INFO
+disneis.egg-info/SOURCES.txt
+disneis.egg-info/dependency_links.txt
+disneis.egg-info/requires.txt
+disneis.egg-info/top_level.txt
+test/__init__.py
+test/conftest.py
+test/test_requests.py
