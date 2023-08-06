@@ -1,0 +1,9 @@
+awsdsc/__init__.py,sha256=F8OVhAhMXSkvvXYgZtbPn2SG1AQC3joK4yu-FrHt81Y,22
+awsdsc/exception.py,sha256=xsYfQClUhsK-cdUetrp7zaq2VsgX5yhMbK8PGHCjUd0,347
+awsdsc/main.py,sha256=zXOAC7d0RMljUd-jz3I35ZbFBWi_fkUa7_ci4xoDY4E,9692
+awsdsc/processor.py,sha256=uHyIWylytXLuFw7Xx86MBiB7WTCi8XQC1PAMteuNWqg,21812
+awsdsc-0.2.9.dist-info/METADATA,sha256=has_X8ver-G3iSKriDHL7DjT5s1cgnFuEEHIDPyxGVs,836
+awsdsc-0.2.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+awsdsc-0.2.9.dist-info/entry_points.txt,sha256=K3ZVUa9z-CPRLNF1LWAF48o6miAq8qRxMpF8-bMK8B8,44
+awsdsc-0.2.9.dist-info/top_level.txt,sha256=OWFmpzvZsFG85WgEj0K1ySDVblrbFNMw9SgXXIsjaPM,7
+awsdsc-0.2.9.dist-info/RECORD,,
