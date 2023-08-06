@@ -1,0 +1,11 @@
+gitpython==3.*
+
+[dev]
+build
+ipdb
+ipython
+black
+flake8
+pytest
+pytest-watch
+coverage
