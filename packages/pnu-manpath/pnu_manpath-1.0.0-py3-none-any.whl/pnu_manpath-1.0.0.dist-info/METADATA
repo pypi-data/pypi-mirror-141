@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: pnu-manpath
+Version: 1.0.0
+Summary: display search path for manual pages
+Home-page: https://github.com/HubTou/manpath/
+Author: Hubert Tournier
+Author-email: nobody@nowhere.invalid
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/HubTou/manpath/issues
+Keywords: pnu-project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License
+Requires-Dist: pnu-libpnu
+Requires-Dist: pnu-libmanconf
+
+# Installation
+Depending on if you want only this tool, the full set of PNU tools, or PNU plus a selection of additional third-parties tools, use one of these commands:
+
+pip install [pnu-manpath](https://pypi.org/project/pnu-manpath/)
+<br>
+pip install [PNU](https://pypi.org/project/PNU/)
+<br>
+pip install [pytnix](https://pypi.org/project/pytnix/)
+
+# MANPATH(1), MANPATH(3)
+This repository includes a command-line utility:
+* [manpath(1)](https://github.com/HubTou/manpath/blob/main/MANPATH.1.md) - display search path for manual pages
+
+And a Python library:
+* [manpath(3)](https://github.com/HubTou/manpath/blob/main/MANPATH.3.md) - return the search path for manual pages
+
+
+
+
