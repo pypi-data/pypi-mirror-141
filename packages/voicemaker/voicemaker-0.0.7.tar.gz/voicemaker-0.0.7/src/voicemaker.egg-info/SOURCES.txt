@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/voicemaker/__init__.py
+src/voicemaker/voicemaker.py
+src/voicemaker.egg-info/PKG-INFO
+src/voicemaker.egg-info/SOURCES.txt
+src/voicemaker.egg-info/dependency_links.txt
+src/voicemaker.egg-info/requires.txt
+src/voicemaker.egg-info/top_level.txt
