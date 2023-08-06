@@ -1,0 +1,15 @@
+etch/__init__.py,sha256=9YDmEskr1nhQFHHEFsVIWqoliAgoarE9GtQk73wPweg,4359
+etch/api.py,sha256=1mfUpdS3rSlVCm8vzte2gAZudiIYlRwE4rcTrwHLYiU,1027
+etch/instructions.py,sha256=EWaklU8-XEUbG-OPd9xnR1SplXLrXgpb5p8DZfRmH6s,4497
+etch/mixins/__init__.py,sha256=YhnHMfOhYRi4oXz0qiHd3w8bd9ORCBaMh5F2WJIjQ3Y,127
+etch/parser/lexer.py,sha256=8gBaaO7UYf8xINwMr9jTZIHDjw5qYCvd3r45Ao2lbkw,2495
+etch/parser/parser.py,sha256=6Yxbsso5yT4ylUURHmTbPVman4YeeFxcpvqqRNtgOyc,5543
+etch/stdlib/__init__.py,sha256=taCA2WOvEdw2O97R203tgHZg8YLQciTKxetDC7nSOYg,119
+etch/stdlib/json.py,sha256=h9fjf8hi_RRUsLS-pwBhBXykxZ64hwCmht8BraSk7rw,226
+etch/stdlib/net.py,sha256=z-9-_44ivt2fztUkmNG0IZ58vPfLaEonQ2CrJlHqU30,22
+etch/stdlib/rand.py,sha256=r-EATlvyvRfEFN0-_eVv1o_6u8JA0-tgacHMZsaSC_8,323
+etch/stdlib/str.py,sha256=MuUqOWS23Cwm0mKWd-fBZp8NwDC8fODypTLLLhinwto,227
+etch/utils.py,sha256=_UCSzEZlkH-GQwUSD6hHFOyZeRWOc7FVfa6KBp2IrUo,1346
+etchlang-0.0.1a4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+etchlang-0.0.1a4.dist-info/METADATA,sha256=IOIOy8_MkPOYhYbDGYmU9c0I8jAv772TZLyvnv96KYk,495
+etchlang-0.0.1a4.dist-info/RECORD,,
