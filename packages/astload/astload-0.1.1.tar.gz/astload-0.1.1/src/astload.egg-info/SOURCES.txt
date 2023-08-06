@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/astload/__init__.py
+src/astload.egg-info/PKG-INFO
+src/astload.egg-info/SOURCES.txt
+src/astload.egg-info/dependency_links.txt
+src/astload.egg-info/requires.txt
+src/astload.egg-info/top_level.txt
