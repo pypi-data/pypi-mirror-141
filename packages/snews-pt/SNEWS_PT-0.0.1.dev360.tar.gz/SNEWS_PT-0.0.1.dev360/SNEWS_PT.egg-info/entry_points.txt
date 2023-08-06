@@ -1,0 +1,3 @@
+[console_scripts]
+snews_pt = SNEWS_PT.__main__:main
+
