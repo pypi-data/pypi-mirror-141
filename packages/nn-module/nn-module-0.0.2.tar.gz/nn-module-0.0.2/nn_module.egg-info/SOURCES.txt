@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nn_module.egg-info/PKG-INFO
+nn_module.egg-info/SOURCES.txt
+nn_module.egg-info/dependency_links.txt
+nn_module.egg-info/top_level.txt
