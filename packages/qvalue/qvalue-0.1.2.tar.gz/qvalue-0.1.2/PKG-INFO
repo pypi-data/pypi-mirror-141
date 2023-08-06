@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: qvalue
+Version: 0.1.2
+Summary: Converts p-values in q-values in order to account for multiple hypotheses testing, see (Storey and Tibshirani, 2003)
+Home-page: UNKNOWN
+Author: byoryn
+Author-email: barwechin@163.com
+License: 3-clause BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy (>=1.5)
+Requires: scipy (>=0.8)
