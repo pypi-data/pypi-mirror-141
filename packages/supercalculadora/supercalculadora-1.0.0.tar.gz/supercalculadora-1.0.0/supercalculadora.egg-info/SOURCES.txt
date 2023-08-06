@@ -1,0 +1,9 @@
+README.md
+setup.py
+supercalculadora/__init__.py
+supercalculadora.egg-info/PKG-INFO
+supercalculadora.egg-info/SOURCES.txt
+supercalculadora.egg-info/dependency_links.txt
+supercalculadora.egg-info/entry_points.txt
+supercalculadora.egg-info/requires.txt
+supercalculadora.egg-info/top_level.txt
