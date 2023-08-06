@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: createminecraftserver
+Version: 1.0
+Summary: Create a minecraft server on a Linux OS.
+Home-page: https://github.com/Rapha149/CreateMinecraftServer
+Author: Rapha149
+License: GPL-3.0
+Project-URL: Code, https://github.com/Rapha149/CreateMinecraftServer
+Project-URL: Issues, https://github.com/Rapha149/CreateMinecraftServer/issues
+Keywords: minecraft,server,linux
+Platform: UNKNOWN
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CreateMinecraftServer
+
+[![PyPi Version](https://img.shields.io/pypi/v/createminecraftserver.svg?style=flat-square)](https://pypi.org/project/createminecraftserver/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/createminecraftserver.svg?style=flat-square)](https://pypi.org/project/createminecraftserver/)
+[![GitHub stars](https://img.shields.io/github/stars/Rapha149/CreateMinecraftServer.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/Rapha149/CreateMinecraftServer/)
+
+A python / bash script to create a Minecraft Paper server quickly with many options.
+
+## Requirements
+- Bash
+- Python 3
+
+## Installation
+`pip install createminecraftserver`
+
+## Executing
+You just have to execute the command `cms`.
+

@@ -1,0 +1,5 @@
+pathlib
+pyyaml
+urllib3
+packaging
+nbt>=1.5.1

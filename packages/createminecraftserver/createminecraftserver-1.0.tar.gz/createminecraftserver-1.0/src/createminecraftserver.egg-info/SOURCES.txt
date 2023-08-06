@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/createminecraftserver/__init__.py
+src/createminecraftserver/main.py
+src/createminecraftserver.egg-info/PKG-INFO
+src/createminecraftserver.egg-info/SOURCES.txt
+src/createminecraftserver.egg-info/dependency_links.txt
+src/createminecraftserver.egg-info/entry_points.txt
+src/createminecraftserver.egg-info/requires.txt
+src/createminecraftserver.egg-info/top_level.txt
