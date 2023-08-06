@@ -1,0 +1,10 @@
+exact_cover/__init__.py,sha256=gJHJ4UTZx-UJoUcX5dx635s5-mmISTNfTDFE9UcoBrs,59
+exact_cover/error.py,sha256=x8DnQkZNGjgrL2oQGv5PboCyWdHqZyJ0BDDoO1-Ef-Y,143
+exact_cover/helpers.py,sha256=bEDVFBM6BiEF4E3SSwBA0CrmgGGqtKqk4hxGvQBwe6I,2623
+exact_cover/io.py,sha256=1MdJcZTCnW0rUUqYg-sGX-v-J8WRC4Jy3cLsLbUnz7s,169
+exact_cover_impl.cpython-37m-x86_64-linux-gnu.so,sha256=YcOlBGv_8xuuzTYJnHjjIOXiXQcBNJLbT-izNAu5ZME,83656
+exact_cover-0.8.0.dist-info/entry_points.txt,sha256=W7avsQ2-bNhxORsTZ-yNrHjuQAu-SiFEL7n5SjXlvso,109
+exact_cover-0.8.0.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+exact_cover-0.8.0.dist-info/WHEEL,sha256=ZkLBPMyTCy2MCfHYLKQtAnI0ySNSPdustf9GRnK2Urw,104
+exact_cover-0.8.0.dist-info/METADATA,sha256=_38v5uO9V2vSMiV-_g51gjoo8UtkOVV3i-_KiwsffEs,5813
+exact_cover-0.8.0.dist-info/RECORD,,
