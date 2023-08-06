@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: puredb
+Version: 2022.3.9.16.17
+Summary: 封装自用的leveldb
+Home-page: UNKNOWN
+Author: chenzongwei
+Author-email: 17695480342@163.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+License-File: LICENSE
+
+python版的leveldb太难用了，自己封装一下
+
