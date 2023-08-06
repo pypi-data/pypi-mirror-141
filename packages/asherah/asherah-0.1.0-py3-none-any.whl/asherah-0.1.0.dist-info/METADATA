@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: asherah
+Version: 0.1.0
+Summary: Asherah envelope encryption and key rotation library
+Home-page: https://github.com/godaddy/asherah-python/
+License: MIT
+Keywords: encryption
+Author: Jeremiah Gowdy
+Author-email: jeremiah@gowdy.me
+Maintainer: GoDaddy
+Maintainer-email: oss@godaddy.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: cobhan (>=0.3.0,<0.4.0)
+Project-URL: Repository, https://github.com/godaddy/asherah-python/
+Description-Content-Type: text/markdown
+
+# asherah-python
+
+Asherah envelope encryption and key rotation library
+
+This is a wrapper of the Asherah Go implementation using the Cobhan FFI library
+
+Example code:
+
+```python
+from asherah import Asherah, AsherahConfig
+
+config = AsherahConfig(
+    kms_type='static',
+    metastore='memory',
+    service_name='TestService',
+    product_id='TestProduct',
+    verbose=True,
+    session_cache=True
+)
+crypt = Asherah()
+crypt.setup(config)
+
+data = b"mysecretdata"
+
+encrypted = crypt.encrypt("partition", data)
+print(encrypted)
+
+decrypted = crypt.decrypt("partition", encrypted)
+print(decrypted)
+```
+
