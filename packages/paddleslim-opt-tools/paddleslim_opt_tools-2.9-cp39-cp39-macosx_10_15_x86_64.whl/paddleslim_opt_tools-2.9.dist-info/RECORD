@@ -1,0 +1,9 @@
+paddlelite/__init__.py,sha256=yTKTSUPE9Y8sxTNG3Kb-5Wyma0fnz5IsqH4Vb6QJqpM,873
+paddlelite/lite.so,sha256=iuoVrDPYgbATw5RTyKVkM3m9-h3z8I25GEznuSYVkpo,21690432
+paddlelite/libs/libiomp5.dylib,sha256=uHhWKMlaF2ddTIjWpVd560n1ndMXa8GImssysHZe7x4,2839696
+paddlelite/libs/libmklml.dylib,sha256=HMApIpnzYjbRDXnnaR5OjnWHhmYR1DlACOqdhRdLRBQ,90332320
+paddleslim_opt_tools-2.9.data/scripts/paddle_lite_opt,sha256=Kmz6_N5n9_M7JlvlYZE7laD7p5Fu7K_5ejTOfi9F51Y,4900
+paddleslim_opt_tools-2.9.dist-info/METADATA,sha256=H7sPeBRfhN0sjDZgd9pZfT7TQQv0gNmzensl4VUqkdM,155
+paddleslim_opt_tools-2.9.dist-info/WHEEL,sha256=1aIKcOiZwCaey2y-OH_J-W7IhsRHMsIvvidnI8v_CqQ,110
+paddleslim_opt_tools-2.9.dist-info/top_level.txt,sha256=b3U0N5QLAxUDw34sLWIngLikHmsrxHoFQu_jNPw2h-Y,11
+paddleslim_opt_tools-2.9.dist-info/RECORD,,
