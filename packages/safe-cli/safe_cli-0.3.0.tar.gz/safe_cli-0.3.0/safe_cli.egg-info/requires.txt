@@ -1,0 +1,11 @@
+colorama>=0.4
+gnosis-py>=3
+prompt_toolkit>=3
+pyfiglet>=0.8
+pygments>=2
+requests>=2
+tabulate>=0.8
+
+[:python_version < "3.8"]
+cached-property==1.5.2
+typing_extensions>=4
