@@ -1,0 +1,2 @@
+from classification.softmax_class import SoftMaxClasser
+from classification.svm import SVM
