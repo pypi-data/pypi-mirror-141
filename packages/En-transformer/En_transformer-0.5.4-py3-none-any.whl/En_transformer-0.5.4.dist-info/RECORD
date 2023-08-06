@@ -1,0 +1,9 @@
+en_transformer/__init__.py,sha256=mM6QmOtQ8BNT_itanuWE_0tH_rDesPI_eDCKHlb02JM,78
+en_transformer/en_transformer.py,sha256=OX1L4IUUGbT_hRXYfX4vrtkOyU8o8551WfeHuKwRQqY,20202
+en_transformer/rotary.py,sha256=dqLz69lV6IylCfJU051NvFFBQBz0OxKXm2d4nYrgu2E,853
+en_transformer/utils.py,sha256=ApY4ByDf9zp15uu9WDYE-CxT6jiHQmea9JmIx0Z8WRY,462
+En_transformer-0.5.4.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+En_transformer-0.5.4.dist-info/METADATA,sha256=26hJED2IUFRBg3riwQAGf7g3w_bE4AKv0dpdlPHqi2w,659
+En_transformer-0.5.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+En_transformer-0.5.4.dist-info/top_level.txt,sha256=Tgw4UJl5RznaOm6RZjV_WZlTMSo98DR9Um2ZiJuXGxA,15
+En_transformer-0.5.4.dist-info/RECORD,,
