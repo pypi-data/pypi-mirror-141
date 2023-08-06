@@ -1,0 +1,14 @@
+attachment_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attachment_downloader/cli.py,sha256=66sn7rMsWPd6GDnA2utv3dQQfNKQDjd2dl-xSNxe1IE,553
+attachment_downloader/logging.py,sha256=zb1mFgY-5VmZ46FsoafKzMVmnRtRhVwtxryJKmS2G4Y,919
+attachment_downloader/version.py,sha256=i4mSKZR6njz9jYH8YYtfNXWPV5hIqPzXDUX5i_Cf-RE,40
+attachment_downloader/version_info.py,sha256=2xJlnTEZCpWKhqsr0d_BD3h77un8izXgtssm3xbwmFs,1475
+attachment_downloader-1.2.2.data/scripts/attachment-downloader,sha256=W0tc2Vx4d_JSayDFPgj90f9ry1VKJtjbKTbRsjebvMU,8309
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/attachment_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/attachment_downloader/test_cli.py,sha256=kjNKhNRMU5FmywT234A0llbJB7GQ3ydhYnaeJAxkg-k,1130
+attachment_downloader-1.2.2.dist-info/LICENSE.txt,sha256=0V5viVLSutgnkBKhnXl3ULRvSYt8Xb9ZEA49ciyhPOk,1056
+attachment_downloader-1.2.2.dist-info/METADATA,sha256=cRT7AGo3BWbUxEAv2SaC3SPgqQGsovTrJMnHg9W3Srk,2135
+attachment_downloader-1.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+attachment_downloader-1.2.2.dist-info/top_level.txt,sha256=zb3DTxLHSMckzKJPcjP1U-sQUxh8VG2ZAzeXRWuhHI8,28
+attachment_downloader-1.2.2.dist-info/RECORD,,
