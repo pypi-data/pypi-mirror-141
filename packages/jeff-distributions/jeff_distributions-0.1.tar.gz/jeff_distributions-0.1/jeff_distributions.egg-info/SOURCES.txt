@@ -1,0 +1,10 @@
+setup.py
+jeff_distributions/Binomialdistribution.py
+jeff_distributions/Gaussiandistribution.py
+jeff_distributions/Generaldistribution.py
+jeff_distributions/__init__.py
+jeff_distributions.egg-info/PKG-INFO
+jeff_distributions.egg-info/SOURCES.txt
+jeff_distributions.egg-info/dependency_links.txt
+jeff_distributions.egg-info/not-zip-safe
+jeff_distributions.egg-info/top_level.txt
