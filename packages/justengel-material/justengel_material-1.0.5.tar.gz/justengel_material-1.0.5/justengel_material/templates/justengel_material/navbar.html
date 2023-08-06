@@ -1,0 +1,30 @@
+<!-- Dropdown Structure -->
+{% if NAVBAR_ITEMS is defined and NAVBAR_ITEMS|length > 0 %}
+  {% for link in NAVBAR_ITEMS %}
+    {% if link.links is defined and link.links|length > 0 %}
+  <ul id="{{ link.name|name_to_id }}_dropdown" class="dropdown-content">
+      {% for lo in link.links %}
+    <li><a href="{{ lo.href }}">{{ lo.name }}</a></li>
+      {% endfor %}
+  </ul>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- Nav Bar -->
+<nav class="primary-color">
+    <div class="nav-wrapper">
+        {% if SHOW_SIDENAV or FIXED_SIDENAV %}
+        <a href="#" data-target="nav-sidenav" class="sidenav-trigger{% if FIXED_SIDENAV %} hide-on-large{% else %} show-on-small show-on-medium-and-up{% endif %}"><i class="material-icons">menu</i></a>
+        {% endif %}
+
+        {% block site_name %}
+        <a href="/" class="brand-logo center">{% if MATERIALIZE_SITE_NAME %}{{ MATERIALIZE_SITE_NAME }}{% elif MATERIALIZE_TITLE %}{{ MATERIALIZE_TITLE }}{% else %}{{ site_name }}{% endif %}</a>
+        {% endblock %}
+
+        <!-- Navbar navigation items -->
+        <ul id="navbar-items" class="right hide-on-med-and-down">
+            {% include_block 'navbar_items'|with_theme %}
+        </ul>
+    </div>
+</nav>
