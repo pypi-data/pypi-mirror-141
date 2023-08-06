@@ -1,0 +1,3 @@
+[console_scripts]
+alcss = alcss.run:main
+
