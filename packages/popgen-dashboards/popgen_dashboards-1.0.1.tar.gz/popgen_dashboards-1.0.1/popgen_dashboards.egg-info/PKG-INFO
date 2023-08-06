@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: popgen-dashboards
+Version: 1.0.1
+Summary: Short description
+Home-page: https://github.com/kaspermunch/popgen_dashboards
+Author: Kasper Munch
+Author-email: kaspermunch@birc.au.dk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# template-repo
+
+Template repository
+
+
