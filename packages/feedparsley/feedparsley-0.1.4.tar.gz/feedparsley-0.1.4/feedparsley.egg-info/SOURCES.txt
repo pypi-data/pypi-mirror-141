@@ -1,0 +1,10 @@
+README.md
+setup.py
+feedparsley/__init__.py
+feedparsley/feedparsley.py
+feedparsley.egg-info/PKG-INFO
+feedparsley.egg-info/SOURCES.txt
+feedparsley.egg-info/dependency_links.txt
+feedparsley.egg-info/entry_points.txt
+feedparsley.egg-info/requires.txt
+feedparsley.egg-info/top_level.txt
