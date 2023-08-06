@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: antic
+Version: 0.2.4
+Summary: UNKNOWN
+Home-page: https://github.com/wbhart/antic
+Author: the Antic authors
+License: LGPL 2.1+
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: gpl-2.0.txt
+
+Antic is an algebraic number theory library in C.
+
+We do not recommend to install Antic from PyPI as it has dependencies that are not available on PyPI.
+
+Please consult Antic's home page for further details: https://github.com/wbhart/antic
+
