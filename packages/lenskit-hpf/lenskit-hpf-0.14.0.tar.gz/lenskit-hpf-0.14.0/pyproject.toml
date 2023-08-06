@@ -1,0 +1,64 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "lenskit-hpf"
+authors = [
+    { name = "Michael Ekstrand", email = "michaelekstrand@boisestate.edu" }
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+]
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">= 3.7"
+dependencies = [
+    "lenskit==0.14.*",
+    "hpfrec==0.2.*"
+]
+dynamic = ["description", "version"]
+
+[project.urls]
+homepage = "https://lkpy.lenskit.org/projects/lenskit-hpf"
+GitHub = "https://github.com/lenskit/lenskit-hpf"
+
+[project.optional-dependencies]
+test = [
+    "pytest >= 6",
+    "pytest-doctestplus >= 0.9",
+]
+dev = [
+    "flit >= 3",
+    "packaging >= 20",
+    "flake8 >= 3",
+    "coverage >= 5",
+    "pytest-cov >= 2.12",
+]
+doc = [
+    "lenskit[doc]"
+]
+
+[tool.flit.module]
+name = "lenskit_hpf"
+
+[tool.flit.sdist]
+exclude = [
+    ".github",
+    "*.ipynb",
+    "docs",
+    "data",
+    "examples",
+    "build-tools",
+    "tests",
+]
+
+[tool.conda-lock]
+channels = ["conda-forge"]
