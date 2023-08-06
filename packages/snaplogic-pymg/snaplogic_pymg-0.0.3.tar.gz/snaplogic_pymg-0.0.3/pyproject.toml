@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "pymongo=3.12.0",
+    "redis",
+    "python-dotenv",
+    "pymongo",
+    "numpy",
+    "setuptools",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
