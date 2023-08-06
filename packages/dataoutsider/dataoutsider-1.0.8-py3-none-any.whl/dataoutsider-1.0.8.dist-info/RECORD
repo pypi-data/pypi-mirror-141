@@ -1,0 +1,11 @@
+dataoutsider/__init__.py,sha256=Af35bbTJagx03gBqzN4idDgKPdZE7ghQJ1XntxrJSV8,113
+dataoutsider/__main__.py,sha256=41guj54g1FasKlwoo3e4WV0aRu6g08acA__MPZbWGWw,97
+dataoutsider/multi_chord.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataoutsider/pie_tree.py,sha256=HOL_uZLVNS5arrhyhh8VPANn_GAVt6F-h7ibK6tLn8w,7103
+dataoutsider/data/aircraft_2020.csv,sha256=FR3OwIOZL3ZVsvUeA4-nXUrnC-Gn1tv2Bcr7wsEdzSM,944427
+dataoutsider/data/athlete_events.csv,sha256=rgrVkwwvaTjc_BU3vQrUKFyR6UsyxAU0p8rADIlp9sQ,36182944
+dataoutsider-1.0.8.dist-info/LICENSE.txt,sha256=s54Z3TUFdKaCNDs1umE4mjJLeWE8JsJyVpP1Pr_ChQU,1026
+dataoutsider-1.0.8.dist-info/METADATA,sha256=_ZOIZJUPM6cjS2I1A2MCfExlRQNw2Tl1_8rK7_078rA,3710
+dataoutsider-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dataoutsider-1.0.8.dist-info/top_level.txt,sha256=1kh-IXGLVr7m4dhQId_8kWRRXMdGSGE1KUVUK6k5bWc,13
+dataoutsider-1.0.8.dist-info/RECORD,,
