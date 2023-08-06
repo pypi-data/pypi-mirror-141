@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: anacore
+Version: 2.11.0
+Summary: Libraries for managing standard file formats and objects from NGS.
+Home-page: https://github.com/bialimed/anacore
+Author: Frederic Escudie
+Author-email: escudie.frederic@iuct-oncopole.fr
+License: GNU GPL v3
+Description: UNKNOWN
+Keywords: bio NGS
+Platform: UNKNOWN
+Requires-Python: >=3.5
