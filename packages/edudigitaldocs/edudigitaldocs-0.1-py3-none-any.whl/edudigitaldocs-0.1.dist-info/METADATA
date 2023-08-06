@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: edudigitaldocs
+Version: 0.1
+Summary: A small aplication for creating template print documents for schools with connectionon with Edupage
+Home-page: UNKNOWN
+Author: Vanessa Bielená
+Author-email: vanessabielena@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: tkinter
+Requires-Dist: logging
+Requires-Dist: json
+Requires-Dist: fpdf
+Requires-Dist: tkinter.filedialog
+Requires-Dist: edupage-api
+
+UNKNOWN
+
+
