@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: hitgpa
+Version: 0.2.0
+Summary: Query data from jwes and calculate GPA in many kinds of arithmetics
+Home-page: https://github.com/inclyc/HIT-GPA-Converter
+Author: inclyc
+Author-email: axoford@icloud.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/inclyc/HIT-GPA-Converter/issues
+Project-URL: Source, https://github.com/inclyc/HIT-GPA-Converter
+Keywords: Harbin Institute of Technology,HIT,GPA
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: gpalib
+Requires-Dist: hitutil-en
+Requires-Dist: lxml
+Requires-Dist: pandas
+
+# 哈工大GPA转换工具
+
+## 简介
+
+自动从jwes获取你的成绩，并按照你想要的算分方法算分。
+
+## 如何安装
+
+### Step 1
+
+```
+pip install hitgpa
+```
+
+### Step 2 可以使用了，来试一试吧！
+
+```bash
+hitgpa -u [你的学工号] -p [你的学工密码]
+```
+
+**实际命令中不带中括号**
+
+例如：
+
+```bash
+hitgpa -u 7203619999 -p <secret>
+```
+
+### Step X
+
+如果Step 2中的命令不能用，你可以尝试：
+
+```
+python -m hitgpa <其他参数>
+```
+
+例如：
+
+```bash
+python -m hitgpa -u 120L030412 -p <secret>
+```
+
+
+## 基本使用说明
+
+```
+python -m hitgpa -h
+usage: __main__.py [-h] [-o OUTPUT_FILE] [-i INPUT_FILE] [-u USERNAME] [-p PASSWORD]
+                   [--input-type {transcript,converted,final}] [--output-type {transcript,converted,final}]
+                   [--test-course-only]
+
+options:
+  -h, --help            show this help message and exit
+  -o OUTPUT_FILE, --output-file OUTPUT_FILE
+                        输出文件路径
+  -i INPUT_FILE, --input-file INPUT_FILE
+                        输入成绩单文件的路径，CSV格式，如果你想通过jwes查询数据，不要使用这个参数
+  -u USERNAME, --username USERNAME
+                        如果你想查询jwes成绩，需要提供你的学工号
+  -p PASSWORD, --password PASSWORD
+                        如果你想查询jwes成绩，需要提供你的学工密码
+  --input-type {transcript,converted,final}
+                        输入文件的类型 transcript（成绩单） converted（四分制成绩） final（结果） 默认为 transcript
+  --output-type {transcript,converted,final}
+                        想要的文件类型 transcript（成绩单） converted（四分制成绩） final（结果） 默认为 final
+  --test-course-only    只计算考试课成绩，不计算考查课
+```
+
+## 使用示例
+
+这个程序将你的成绩处理抽象为三个阶段
+
+```
+transcript --- 完全的成绩单，可以来源于jwes，也可以来源于文件
+converted --- 被转换为四分制的成绩，可以来源于transcript处理，也可以直接来源于文件
+final -- 最终处理的结果，以各种折算方法计算的加权平均成绩
+```
+
+### 直接输出查询完成后的结果
+
+```
+hitgpa -u [你的学工号] -p [你的学工密码]
+```
+
+### 不转换成4分制，直接输出
+
+```
+hitgpa -u [你的学工号] -p [你的学工密码] --output-type transcript
+```
+
+### 不计算加权学分绩，输出各个学科转换后的情况
+
+```
+hitgpa -u [你的学工号] -p [你的学工密码] --output-type converted
+```
+
+### 从文件my_grades.csv中读取，你的csv必须包含总成绩、课程名、学分，等列。
+
+```
+hitgpa -i my_grades.csv
+```
+
+## 法律信息
+
+
+本程序以AGPLv3开源发布。具体信息请见[LICENSE](./LICENSE)文件，本作品的诞生离不开[gpalib](https://github.com/inclyc/gpa)，[hitutil-en](https://github.com/inclyc/hitutil)等开源库。
+
