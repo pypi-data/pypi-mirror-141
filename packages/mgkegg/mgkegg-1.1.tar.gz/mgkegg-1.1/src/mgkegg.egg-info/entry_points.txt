@@ -1,0 +1,2 @@
+[console_scripts]
+mgkegg = mgkegg.__main__:main
