@@ -1,0 +1,9 @@
+src/__init__.py,sha256=wOzrsjVY-LvQtBg22y6w3iTDaPZu5YImtnjZ3je8shQ,45
+src/extract.py,sha256=BauHSDzAbuCrwE3oS18c6IuEh9LquOM9s5UsWeIW-JY,1569
+src/lib.py,sha256=To7DeImEftFiXXllSMMQCu6kAweu1F-BR7OyqDgnRJg,513
+bandcamp_extract-0.1.3.dist-info/LICENSE.md,sha256=gAccU3ZehVRhDl6VL2O_vhe-VYCOvAvOnn4OOc9EPIw,1076
+bandcamp_extract-0.1.3.dist-info/METADATA,sha256=6s9juZLSTy_cX9gp3GHGhF_K82OhwwhFKgGT778pAm4,2169
+bandcamp_extract-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bandcamp_extract-0.1.3.dist-info/entry_points.txt,sha256=f35bJ_AiUkDnEtmCnfqiE_vrsi48xML9hkPXGQ_Tyh8,47
+bandcamp_extract-0.1.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+bandcamp_extract-0.1.3.dist-info/RECORD,,
