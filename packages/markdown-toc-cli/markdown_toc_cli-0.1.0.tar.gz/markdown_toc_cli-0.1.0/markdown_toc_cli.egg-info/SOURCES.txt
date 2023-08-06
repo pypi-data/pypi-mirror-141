@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+markdown_toc_cli/__init__.py
+markdown_toc_cli/markdown_toc_cli.py
+markdown_toc_cli.egg-info/PKG-INFO
+markdown_toc_cli.egg-info/SOURCES.txt
+markdown_toc_cli.egg-info/dependency_links.txt
+markdown_toc_cli.egg-info/entry_points.txt
+markdown_toc_cli.egg-info/requires.txt
+markdown_toc_cli.egg-info/top_level.txt
