@@ -1,0 +1,9 @@
+rnc/__init__.py,sha256=lPghSyXj_kESU6nLneopXPmPg5-2RdFE7wa7zg1_A4c,2905
+rnc/corpora.py,sha256=Gcnlfq0XVvALIO8sLV8Gma_W1KMg7JA8AkBpHTHKEdg,52298
+rnc/corpora_params.py,sha256=Eq2Y3uIuQ-9cW1SqplH-RJdNaN-qSVuQSToyuTehOc8,4248
+rnc/corpora_requests.py,sha256=y1gXubMbgAZ8vy6PNyqkAnOKailH64A_O-PTofO-GXk,16947
+rnc/examples.py,sha256=tTw_IYlQK0CCAMkuvNgcul8VXSLHavJiwn7_m1_qgR0,21313
+rnc-0.8.0.dist-info/LICENSE,sha256=cP0FR0cZU45FAfKCjwT_o0Hj1F62ORH-IQNVIVqtMUQ,1063
+rnc-0.8.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rnc-0.8.0.dist-info/METADATA,sha256=FCug8IRBzZaLkJjmqdAcs3MRAASmaCKKZ6fnjYIjqNA,14580
+rnc-0.8.0.dist-info/RECORD,,
