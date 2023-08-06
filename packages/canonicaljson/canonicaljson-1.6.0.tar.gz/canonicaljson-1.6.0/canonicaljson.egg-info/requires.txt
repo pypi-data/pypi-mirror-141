@@ -1,0 +1,4 @@
+simplejson>=3.14.0
+
+[frozendict]
+frozendict>=1.0
