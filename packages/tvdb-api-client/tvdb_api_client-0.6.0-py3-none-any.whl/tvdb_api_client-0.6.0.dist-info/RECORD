@@ -1,0 +1,10 @@
+tvdb_api_client/__init__.py,sha256=7I6g05zZRI3IgcY7gYUfiIEFjAO4snggR-oWF4CkEzI,72
+tvdb_api_client/client.py,sha256=m2LzdVlB73JfbYhORpSvtv7AJmKu_kXgJsEGsUByE6I,10637
+tvdb_api_client/constants.py,sha256=dGfnL504YVa2xobtDnfaExrNyFIT6UoORZ6eQQCt-kQ,63
+tvdb_api_client/dataclasses.py,sha256=oEaJhR-rHrKrCuMWejxw32GzlVZ6pJrG2Echg3LHank,3730
+tvdb_api_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvdb_api_client/utils.py,sha256=sog6pgCHlSyl59ykuuuLKDEa0vGAGBFtr8RLyV6aexM,429
+tvdb_api_client-0.6.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+tvdb_api_client-0.6.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tvdb_api_client-0.6.0.dist-info/METADATA,sha256=bA9qqyqK0xaNvoSHMGR3pEODrcVH0VcTdxXJyWKAuy8,3011
+tvdb_api_client-0.6.0.dist-info/RECORD,,
