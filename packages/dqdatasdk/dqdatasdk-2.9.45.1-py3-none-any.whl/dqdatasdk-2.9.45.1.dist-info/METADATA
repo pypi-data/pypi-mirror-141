@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dqdatasdk
+Version: 2.9.45.1
+Summary: dqdatasdk api system
+Home-page: 
+Author: digquant
+Author-email: it@digquant.com
+License: LICENSE
+Keywords: dqdatasdk
+Platform: UNKNOWN
+Requires-Dist: rqdatac (<=2.9.45.1,>=2.9.45.1)
+
+UNKNOWN
+
