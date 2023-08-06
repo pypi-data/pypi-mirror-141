@@ -1,0 +1,15 @@
+resolve_hash-0.1.0.data/scripts/resolve-hash,sha256=--v0R8HrQO3BwTwX9JqkRc4ZZnClLdobHDEADIjI9gg,853
+resolvehash/__init__.py,sha256=PH_9nK-_Cv314Ir4n_hLS1APCq_DZy6f3hhQMIBNnt8,278
+resolvehash/resolvehash.py,sha256=NJIrurrFDyuZX1Gb0XSnV7HfpujxmSwgLr5NH99j0oQ,1433
+resolvehash/search/__init__.py,sha256=VmVPUKu5AMl1p7z4KSJE5X0YmVoPLnjuePBBhR76L6Q,310
+resolvehash/search/vcs.py,sha256=3dhe68AqnT1N67nuwWNl7eEwJoo4DDqWmlK0jxPuWsE,2173
+resolvehash/vcs/__init__.py,sha256=PH_9nK-_Cv314Ir4n_hLS1APCq_DZy6f3hhQMIBNnt8,278
+resolvehash/vcs/gerrit.py,sha256=q5Kx41QBdlVlF48NSgrDCSoxT8KeRXXITP6zlnwjsLw,1075
+resolvehash/vcs/github.py,sha256=cUIOxoyJ1N-i2igIzcnJ4RaCWh-w_Q_JkWNiTuiaTnA,630
+resolvehash/vcs/gitlab.py,sha256=BBfEFOTZ2pW96I-S4fLfOWzWa52zx76abK6IeNn0gWY,673
+resolvehash/vcs/phabricator.py,sha256=bctDRoQ5MhKee9E7cOG4sbq2Bm-Q7nOYDOb2TzdtIjg,2474
+resolve_hash-0.1.0.dist-info/LICENSE,sha256=oxqTAqvVhah1xN-mI8GcGnodOViwOmkwQZ4pfKTYGoM,1302
+resolve_hash-0.1.0.dist-info/METADATA,sha256=zRaC0lOaw0W151AB2auktooJeeeeARaKkA3n-H06l1Q,3504
+resolve_hash-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resolve_hash-0.1.0.dist-info/top_level.txt,sha256=ltLkEmrLW0yI0XrnvlH53KKVUy1weUSg1Hx0qAjvGTs,12
+resolve_hash-0.1.0.dist-info/RECORD,,
