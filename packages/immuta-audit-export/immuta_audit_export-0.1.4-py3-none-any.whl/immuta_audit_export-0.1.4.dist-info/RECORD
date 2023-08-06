@@ -1,0 +1,11 @@
+immuta_audit_export/.DS_Store,sha256=4Yfbr-e-WmqRpaOnEhnnuvFfhTpaz8S6vbPhEA_O8bY,6148
+immuta_audit_export/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+immuta_audit_export/input_record.py,sha256=H1TUu9ESeB7nalybDfBEuocMkX6izFPvkzMR01hGQLo,98
+immuta_audit_export/main.py,sha256=aHg0CBAu4dqS4xiccD45nH-VuZhArkFb78tYnETm-Gw,1588
+immuta_audit_export/s3_config.py,sha256=scC74nuSgjRSmqqInrEIuk1ab4cQhAzZB_T67X66lm8,678
+immuta_audit_export/s3_export_record.py,sha256=KC4Su4YHk8h6JaH6V5bsOjA5Yq7ZC6ehufnzDNb5eNA,928
+immuta_audit_export/s3_export_schema.py,sha256=RPtB2z9wGElXaN7OKG83JSMKnaBpCUYmydv5JGU0Z9Q,123
+immuta_audit_export/s3_transform_record.py,sha256=nmFokL3A0hqyt5CGb8g94ZeGhsi3ynjQuHQxIJYMx1g,318
+immuta_audit_export-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+immuta_audit_export-0.1.4.dist-info/METADATA,sha256=ciMe4ZYyoXMpfIQSgqoMeH_EvZ5eRphpm12Goa5ycuc,383
+immuta_audit_export-0.1.4.dist-info/RECORD,,
