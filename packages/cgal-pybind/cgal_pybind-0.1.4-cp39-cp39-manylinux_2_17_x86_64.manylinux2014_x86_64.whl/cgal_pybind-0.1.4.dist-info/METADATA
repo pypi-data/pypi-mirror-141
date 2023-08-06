@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cgal-pybind
+Version: 0.1.4
+Summary: Python bindings for some CGAL classes
+Home-page: https://github.com/BlueBrain/cgal-pybind
+Author: Blue Brain Project, EPFL
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: numpy (>=1.14.5)
+Provides-Extra: tests
+Requires-Dist: trimesh (>=2.38.10) ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
