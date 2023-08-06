@@ -1,0 +1,9 @@
+numeph/__init__.py,sha256=WvoOlR2nDBS5eaC7FHrUfQyyDmT6FVICxsResEmlWf0,101
+numeph/core.py,sha256=er2NMt4EDzipV11HYtZnII9RNNqJeTsGoKq-NU56H2M,8530
+numeph/julian.py,sha256=TP0ZeE38FxEly0jDaPrgs-HwULFgssocnq5R8w1ke7g,2127
+numeph/utils.py,sha256=twjVGfIeed7Qy9pVqscDH69EWX5EJ-ad1qiifNsd7ok,754
+numeph-0.3.3.dist-info/LICENSE.txt,sha256=UvLHY_L3xBb48esYOsyk5vyjK5vXbrYFOavCY8qZpM4,1092
+numeph-0.3.3.dist-info/METADATA,sha256=CJQgVMV8dVe__QWL9Zx0sVhJbiXBcp3-DqAYQIiuYUQ,1786
+numeph-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+numeph-0.3.3.dist-info/top_level.txt,sha256=WAsipVq68icXAdmQ4OFuWlLMwjd8Oxip7Fwike0RKbw,7
+numeph-0.3.3.dist-info/RECORD,,
