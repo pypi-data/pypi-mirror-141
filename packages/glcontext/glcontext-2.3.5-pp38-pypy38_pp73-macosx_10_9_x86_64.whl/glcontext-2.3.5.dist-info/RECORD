@@ -1,0 +1,9 @@
+glcontext/__init__.py,sha256=aXu-U-SwfejJJr7DyLgSjdM_LuPIyh9e2CSM3LtdZJc,4225
+glcontext/darwin.cpython-38-darwin.so,sha256=G3vQsQDkSVwpKwHmrJL4wabQFJDqpe7KAqEnhLujsNc,36896
+glcontext/darwin.pypy38-pp73-darwin.so,sha256=Ry3At0GxQ-q3PmNMCEP3Eocpiyp2q_92PHIYYx9Dn44,35648
+glcontext/empty.py,sha256=VKFrqfVCIo1IlyWoEO5sCzeFt3Bw3J520mH7diMgcBM,260
+glcontext-2.3.5.dist-info/LICENSE,sha256=U0OitJbbMjfgMqEfzVxtGDtKjyiC-z2W2rH8ESTxOcE,1078
+glcontext-2.3.5.dist-info/METADATA,sha256=Qoc0DtHBD3MGFNVjCvUw8pFAwJj6OeN25x0dxkxqDPQ,6069
+glcontext-2.3.5.dist-info/WHEEL,sha256=eMXieGdYIPAvPgWZuPjv3Y7MrdPX-HD5sJnupwu3tEk,116
+glcontext-2.3.5.dist-info/top_level.txt,sha256=IosXQkJ9R4RvrG2uHZJtIQAHYoKmvTeBTb-zdwzFLDE,10
+glcontext-2.3.5.dist-info/RECORD,,
