@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: debloch
+Version: 0.3
+Summary: Blochwave simulator for Continuous Electron Diffraction
+Home-page: https://pypi.org/project/debloch
+Author: Tarik Ronan Drevon
+Author-email: tarik.drevon@stfc.ac.uk
+License: UNKNOWN
+Project-URL: Documentation, https://pyscatspheres.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ccp4/debloch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License 
+Classifier: Operating System :: POSIX :: Linux 
+Requires-Python: >=3.8
+Requires-Dist: EDutilities (>=0.2)
+Requires-Dist: colorama
+Requires-Dist: crystals
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# debloch
+
+
+A python Blochwave solver for Continuous Electron Diffraction.
+
+
+
+
+
+Also contains a and a wrapper for FELIX, an efficient fortran implement blohwave based dynamical refinement solver.
+
+

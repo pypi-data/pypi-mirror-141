@@ -1,0 +1,9 @@
+debloch/__init__.py,sha256=YrB7xnnaP1yjpCgCh5sa1dkSn1acegZ4geU0sGIHjyU,14
+debloch/bloch.py,sha256=w7xN5t_4DxkRPb_ex7TGQYLHZILsvWlRSYCYPlYjAcg,35924
+debloch/bloch_pp.py,sha256=MtoOm21j5MyQ-iwSou8E-p2iYNHVnAHiWHPksSxlgyw,6797
+debloch/util.py,sha256=yds7hega2cGqWEw7hJkr6GCr1pMFXKRRTh1YGA57nrs,5187
+debloch-0.3.dist-info/LICENSE,sha256=onZ-8FP_3tQxotewxqyoC4ohsXIFjkl3z0in0G1DOIU,1351
+debloch-0.3.dist-info/METADATA,sha256=fG1OIug-eibywwY-_KUr4QEjzugDbc5BbN8iasaxmVE,930
+debloch-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+debloch-0.3.dist-info/top_level.txt,sha256=Y2EuQifwcUDdqUNwHgJcVVwuER61f3nwHGjzFm6ZRGo,8
+debloch-0.3.dist-info/RECORD,,
