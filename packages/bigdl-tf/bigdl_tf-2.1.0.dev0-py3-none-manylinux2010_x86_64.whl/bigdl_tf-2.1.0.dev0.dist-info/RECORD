@@ -1,0 +1,6 @@
+bigdl/share/tflibs/linux-x86_64/libtensorflow_framework-zoo.so,sha256=_H8G-vwTK_I_UIYiPvH5ZxY2iT7UDhcGK0AoxHEH-Hk,33727744
+bigdl/share/tflibs/linux-x86_64/libtensorflow_jni.so,sha256=mRYOnoj7t3_PyeMO2GtAcz4R5lW6WeQcBiHF32BHjNQ,210554568
+bigdl_tf-2.1.0.dev0.dist-info/METADATA,sha256=Iu2vDFfp8fPTMVrFMzM2U3T50a-IvdP7OZWZ5GWrXOU,299
+bigdl_tf-2.1.0.dev0.dist-info/WHEEL,sha256=6BG5YXnEZTJy2RL9DxcTouJBI1-VutQkyjJp5KilWOw,109
+bigdl_tf-2.1.0.dev0.dist-info/top_level.txt,sha256=iGuLfZARD_qANcIMfy0tbbrC3EtCg6BSiH8icc3dLWs,6
+bigdl_tf-2.1.0.dev0.dist-info/RECORD,,
