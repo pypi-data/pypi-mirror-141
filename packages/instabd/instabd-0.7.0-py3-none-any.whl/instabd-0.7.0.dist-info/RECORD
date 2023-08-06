@@ -1,0 +1,9 @@
+instabd/__init__.py,sha256=HsQrU2hJROYUH9GOVvxUpD3IbxX4KBlmXPLt8KmbD-I,86
+instabd/client.py,sha256=sabjDZeJRhzVinpcCDJntBeBdFLC7Nw-7nh5f09WMHo,2665
+instabd/exceptions.py,sha256=nHcUJURF1ApVbv4enSm4qb9FAR6zSp6rKLPwfhD6IeQ,1110
+instabd/request.py,sha256=6vs7eCcXN-fDB1Sf7TtEb0dodcfpoCg9QdCktC8LQYY,1232
+instabd/schemas.py,sha256=1e1wRtXjLa7IlxWV-qXV0o57gBjjbLtYUwGf4cGjhEo,1405
+instabd/user_client.py,sha256=yV4tR8MRAgahu8LxzwOVn-KOou4RWLlm6n6-DnsTHA8,3030
+instabd-0.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+instabd-0.7.0.dist-info/METADATA,sha256=wg7KHgi4y6L67y6BYbdZj_t9XPlp6XX4-k80DS6E5wQ,443
+instabd-0.7.0.dist-info/RECORD,,
