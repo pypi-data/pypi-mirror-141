@@ -1,0 +1,28 @@
+[project]
+name = "immuta_audit_export"
+version = "0.1.0"
+description = "test"
+authors = [
+    {name = "Thomas Kluyver", email = "thomas@kluyver.me.uk"},
+]
+readme = "README.rst"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.5"
+
+[tool.poetry]
+name = "immuta_audit_export"
+version = "0.1.8"
+description = "Scaffold for serverless audit exporting"
+authors = ["LukeBoyer <boyer.l@husky.neu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.21.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["flit_core >=3.2"]
+build-backend = "flit_core.buildapi"
