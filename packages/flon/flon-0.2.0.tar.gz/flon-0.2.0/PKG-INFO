@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: flon
+Version: 0.2.0
+Summary: FLON parser for Python
+Home-page: https://gitlab.com/flon-lang/pyflon
+Author: Maximillian Strand
+Author-email: maximillian.strand@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://gitlab.com/flon-lang/pyflon
