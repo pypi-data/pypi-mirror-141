@@ -1,0 +1,3 @@
+[console_scripts]
+load_daft = daft_property_price_register.bin.load:main
+scrape_daft = daft_property_price_register.bin.scrape:main

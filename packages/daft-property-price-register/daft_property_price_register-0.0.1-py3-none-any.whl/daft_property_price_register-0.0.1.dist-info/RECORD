@@ -1,0 +1,16 @@
+daft_property_price_register/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daft_property_price_register/constants.py,sha256=kcydcem6qxqW5ujoZznd3NoPbL2m7UIlZd2UzY05GxA,320
+daft_property_price_register/logging.py,sha256=tycfad8bwqU_0zboCwSr3t4GJQ4uzGYgsohcouOpRvg,1476
+daft_property_price_register/utils.py,sha256=5-AzEDgEC_EeuQNrfzI6WTEZtv4OI4Pzkl_9hTFW8lc,38
+daft_property_price_register/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daft_property_price_register/bin/load.py,sha256=EhohuF2BFVTbtVhR5ikGgcowKTQpWEAl9oSP7r8vF0E,334
+daft_property_price_register/bin/scrape.py,sha256=ufckLfiswFqLB2lDhkMnW8Hf5iIX07tPPKOqVNYZuM4,3922
+daft_property_price_register/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daft_property_price_register/models/daft_sale.py,sha256=8XYod1fLs5Yua33vFZw9nojEHIwqHBPsV-7UDFYeezs,4481
+daft_property_price_register/resources/DAFT.csv.tar.gz,sha256=lkEhRzM49IZqOOe6Ku3BsSi45FqYF-5SCU0lfT6xZl4,9688522
+daft_property_price_register-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+daft_property_price_register-0.0.1.dist-info/METADATA,sha256=KpFxxkTDcD7KoYHk1kjfU0ZXThC-ZGIDl4vvNgQQDhs,402
+daft_property_price_register-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+daft_property_price_register-0.0.1.dist-info/entry_points.txt,sha256=IwX1CZbqXGMve8a-Vr88zsF2LgeqdA8eySa5vAbvI6Y,132
+daft_property_price_register-0.0.1.dist-info/top_level.txt,sha256=3-3A3D2PgTPjlztSt-CDBPM45jixrQjW8TqaIUJA6dI,29
+daft_property_price_register-0.0.1.dist-info/RECORD,,
