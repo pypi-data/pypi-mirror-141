@@ -1,0 +1,9 @@
+colour
+rich
+click
+rich-click
+
+[testing]
+setuptools
+pytest
+pytest-cov
