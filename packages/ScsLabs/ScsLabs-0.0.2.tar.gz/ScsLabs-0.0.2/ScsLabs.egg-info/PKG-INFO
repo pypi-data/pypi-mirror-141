@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ScsLabs
+Version: 0.0.2
+Summary: ScsLabs adalah modul edukasi untuk Pemula / Expert.
+Home-page: https://github.com/SkullCyberSecurity/ScsLabs
+Author: TomsDroid
+Author-email: tomsdroid@kingeagle.tech
+License: MIT
+Description:  
+         ​#​ ​**[​ScsLabs​](https://pypi.org/project/ScsLabs/)**​ ~ Alat bantu untuk para Pelajar & Pengembangan 
+         ​Skull Cyber Security Labs adalah modul Python untuk pembelajaran yang dapat menjalankan perintah pada program komputer.
+        
+         #​ ​[Dokumentasi ScsLabs](https://github.com/SkullCyberSecurity/ScsLabs/)
+         
+         ​#​ ​Fitur yang tersedia saat ini: 
+         ​-​ DNS Loockup (Whois Domain Loockup) ​`whois_domain("example.com")` 
+         ​-​ APNIC Lockup (IP Address Loockup) ​`whois_ip("ip")`
+        
+Keywords: scs,skullcybersecurity,whois-domain,whois
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
