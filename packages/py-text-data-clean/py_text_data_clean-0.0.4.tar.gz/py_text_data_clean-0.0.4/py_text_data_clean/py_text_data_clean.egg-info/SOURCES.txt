@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+py_text_data_clean/py_text_data_clean.egg-info/PKG-INFO
+py_text_data_clean/py_text_data_clean.egg-info/SOURCES.txt
+py_text_data_clean/py_text_data_clean.egg-info/dependency_links.txt
+py_text_data_clean/py_text_data_clean.egg-info/top_level.txt
+py_text_data_clean/pytextdataclean/__init__.py
+py_text_data_clean/pytextdataclean/textclean.py
