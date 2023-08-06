@@ -1,0 +1,3 @@
+[console_scripts]
+s3-uri-to-url = s3_uri_to_url.main:uri2url
+
