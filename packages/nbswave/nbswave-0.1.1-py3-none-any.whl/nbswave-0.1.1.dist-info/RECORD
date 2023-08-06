@@ -1,0 +1,9 @@
+LICENSE,sha256=NG0aYXKGlLVC0G14O9nmLSTTJTziQr4GskDtF_a72xU,1086
+nbswave/__init__.py,sha256=4_h9meXMCLqsSk-Gd_Ga7oN72OBsncettC62vkLG6vE,21
+nbswave/audio.py,sha256=d2DZKeWGsZqR6dqgGrTr5IStgY8S_pFEWuPgnD1y7jk,4832
+nbswave/main.py,sha256=g0EZYHt7tHw3PbbnrebG-gIj7eY4kpfvx6yp8gWWS9g,6405
+nbswave/nbs.py,sha256=8k8APvV004PuQ1gb39_pU_ds8773r2e0LUJ3OKqNmHA,5873
+nbswave-0.1.1.dist-info/LICENSE,sha256=NG0aYXKGlLVC0G14O9nmLSTTJTziQr4GskDtF_a72xU,1086
+nbswave-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nbswave-0.1.1.dist-info/METADATA,sha256=tTGgTp9gX6h3HU1-oOUlGuAW0mocQWpBb00pE874vGo,3745
+nbswave-0.1.1.dist-info/RECORD,,
