@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: thatool
+Version: 0.7
+Summary: TYPE YOUR DESCRIPTION HERE
+Home-page: UNKNOWN
+Author: Cao Thang
+Author-email: caothangckt@gmail.com
+License: UNKNOWN
+Description: This package contains the docs for several in-house codes to handle some specific tasks.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
