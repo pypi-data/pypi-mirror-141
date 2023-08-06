@@ -1,0 +1,10 @@
+README.md
+setup.py
+brain_fuck_interpreter_cmdl.egg-info/PKG-INFO
+brain_fuck_interpreter_cmdl.egg-info/SOURCES.txt
+brain_fuck_interpreter_cmdl.egg-info/dependency_links.txt
+brain_fuck_interpreter_cmdl.egg-info/entry_points.txt
+brain_fuck_interpreter_cmdl.egg-info/requires.txt
+brain_fuck_interpreter_cmdl.egg-info/top_level.txt
+brainfuck/__init__.py
+brainfuck/brainfuck.py
