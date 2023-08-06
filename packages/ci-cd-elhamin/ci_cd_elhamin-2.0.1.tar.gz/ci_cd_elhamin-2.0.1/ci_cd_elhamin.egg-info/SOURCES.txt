@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+ci_cd_elhamin.egg-info/PKG-INFO
+ci_cd_elhamin.egg-info/SOURCES.txt
+ci_cd_elhamin.egg-info/dependency_links.txt
+ci_cd_elhamin.egg-info/requires.txt
+ci_cd_elhamin.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
