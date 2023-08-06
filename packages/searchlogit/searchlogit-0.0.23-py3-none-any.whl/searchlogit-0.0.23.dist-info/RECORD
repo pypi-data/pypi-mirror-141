@@ -1,0 +1,15 @@
+searchlogit/__init__.py,sha256=bTC6Uge2XytYF3QZaRcmnZqTst8j9sRI3whayMqiSKM,248
+searchlogit/_choice_model.py,sha256=DXhfbNdfRwAkppfu1s44jQbvlUdCOfVEhKOxLhse4jQ,31559
+searchlogit/_device.py,sha256=J-kr-RvPJH1bCLKk3CvFyOWTqn2nt5l0anpZtX9poZA,2723
+searchlogit/boxcox_functions.py,sha256=BUk3EhMUgUM8JppsyKPIX4XrNb1hD-iS8_HP7sFG1z0,4658
+searchlogit/latent_class_mixed_model.py,sha256=0eh3t8y7525dVYAmfnLI9bjSzZh3BQRN-Tu6Vs4HClQ,39546
+searchlogit/latent_class_model.py,sha256=8pQrmA-t5VgCCcz7T4yAZRWeXbMIg0aToV1q2SJzESE,34876
+searchlogit/latent_class_model_mixed.py,sha256=gl7HHzlNxTyAMPcE4fGRu2GAK22a-KjkxcaRqXVDrHI,37231
+searchlogit/mixed_logit.py,sha256=VL7eh6lpeKsD9pDiHVT1JeSs7kikehLRqQVDlCVTM2A,55266
+searchlogit/multinomial_logit.py,sha256=1cbRA8eXwu6hHUEB8NmPYZ-V-dylmfLa3Y23gUaQXjE,15375
+searchlogit/search.py,sha256=XZ8XlE7_ik-HjQoBgnAOZ4cZYpH6mKAso97rQH9UfX8,82271
+searchlogit-0.0.23.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+searchlogit-0.0.23.dist-info/METADATA,sha256=qv4jcV2YZLGWCH9xv7sZqidYBk4rfWLEa8jlLEGUgZw,435
+searchlogit-0.0.23.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+searchlogit-0.0.23.dist-info/top_level.txt,sha256=TMHYdiE3j21SgWKFg4UVSOdERgMvaWYjHQ89WQLF2Bc,12
+searchlogit-0.0.23.dist-info/RECORD,,
