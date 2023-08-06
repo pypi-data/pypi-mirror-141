@@ -1,0 +1,3 @@
+[numcodecs.codecs]
+aec = gribscan.aeccodec:AECCodec
+rawgrib = gribscan.rawgribcodec:RawGribCodec
