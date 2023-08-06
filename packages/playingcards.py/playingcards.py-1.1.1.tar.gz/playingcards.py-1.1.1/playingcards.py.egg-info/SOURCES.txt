@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+playingcards/__init__.py
+playingcards/card.py
+playingcards/cardcollection.py
+playingcards/deck.py
+playingcards.py.egg-info/PKG-INFO
+playingcards.py.egg-info/SOURCES.txt
+playingcards.py.egg-info/dependency_links.txt
+playingcards.py.egg-info/top_level.txt
