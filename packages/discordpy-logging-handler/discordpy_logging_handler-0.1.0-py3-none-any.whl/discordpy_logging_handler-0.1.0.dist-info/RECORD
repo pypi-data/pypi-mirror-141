@@ -1,0 +1,9 @@
+discordpy_logging_handler/__init__.py,sha256=R2xRQ7kgR6jpHFwvEti82Fx7CaWxCeSLmMeHFKmCaMY,95
+discordpy_logging_handler/_datetime.py,sha256=Fm5X4V1YZzocKYQSCTRDhN0bfFcnYty8yhIWrhkz2Q4,101
+discordpy_logging_handler/_embed.py,sha256=Xlv5_4jWlHPjqhmy5E6fN4QpJDGyYIAE-XVtVJtBZp8,230
+discordpy_logging_handler/handler.py,sha256=hClNEsVs7ckm88_0YtarMNHyVvCfedT0PUTGlnPwB9A,1461
+poetry.lock,sha256=xczyFSz3_gO2nLGASomzvcorKB1KXeqnvZ7rvvB6l8I,85600
+tox.ini,sha256=rao7UR6Mz43IBzyc7wCW1n_9WZPuYG42GDfYdEJTNUs,1169
+discordpy_logging_handler-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+discordpy_logging_handler-0.1.0.dist-info/METADATA,sha256=ywhmV9bdc_2EY191JTxRZTlAu2H_jzAJcF7FQXjQrjo,1502
+discordpy_logging_handler-0.1.0.dist-info/RECORD,,
