@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: norerun
+Version: 1.0.0
+Summary: Backup to store results of functions, so they do not need to be rerun
+Home-page: https://github.com/aLahat/remember/issues
+Author: Albert
+Author-email: lahat.albert@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/aLahat/remember/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# remember
+Backup to store results of functions, so they do not need to be rerun.
+As long as the function is unchanged, and the inputs are the same
+
+```
+from remember import remember
+@remember
+def count(n):
+  for i in range(n):
+    pass
+  return i
+
+count(1000000000) #this is going to take a few seconds
+
+count(1000000000) #now this is inmediate
+```
+
+
