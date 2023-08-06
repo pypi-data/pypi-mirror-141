@@ -1,0 +1,10 @@
+CHANGELOG.txt
+License.txt
+MANIFEST.in
+README.md
+setup.py
+ranaana/__init__.py
+ranaana.egg-info/PKG-INFO
+ranaana.egg-info/SOURCES.txt
+ranaana.egg-info/dependency_links.txt
+ranaana.egg-info/top_level.txt
