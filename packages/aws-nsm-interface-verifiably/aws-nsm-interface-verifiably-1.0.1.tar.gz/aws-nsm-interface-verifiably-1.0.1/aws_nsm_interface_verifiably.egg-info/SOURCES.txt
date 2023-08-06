@@ -1,0 +1,10 @@
+README.md
+setup.py
+aws_nsm_interface_verifiably/__init__.py
+aws_nsm_interface_verifiably/exceptions.py
+aws_nsm_interface_verifiably/structs.py
+aws_nsm_interface_verifiably.egg-info/PKG-INFO
+aws_nsm_interface_verifiably.egg-info/SOURCES.txt
+aws_nsm_interface_verifiably.egg-info/dependency_links.txt
+aws_nsm_interface_verifiably.egg-info/requires.txt
+aws_nsm_interface_verifiably.egg-info/top_level.txt
