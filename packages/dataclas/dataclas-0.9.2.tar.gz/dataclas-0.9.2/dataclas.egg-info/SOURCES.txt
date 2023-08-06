@@ -1,0 +1,14 @@
+.coveragerc
+LICENSE
+MANIFEST.in
+README.rst
+dataclass.py
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+tox.ini
+dataclas.egg-info/PKG-INFO
+dataclas.egg-info/SOURCES.txt
+dataclas.egg-info/dependency_links.txt
+dataclas.egg-info/top_level.txt
