@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/acfr/__init__.py
+src/acfr/acfr.py
+src/acfr.egg-info/PKG-INFO
+src/acfr.egg-info/SOURCES.txt
+src/acfr.egg-info/dependency_links.txt
+src/acfr.egg-info/top_level.txt
