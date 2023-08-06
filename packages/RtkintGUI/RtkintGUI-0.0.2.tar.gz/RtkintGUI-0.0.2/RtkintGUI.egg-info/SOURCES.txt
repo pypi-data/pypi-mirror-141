@@ -1,0 +1,8 @@
+Licenses.txt
+README.md
+setup.py
+RtkintGUI.egg-info/PKG-INFO
+RtkintGUI.egg-info/SOURCES.txt
+RtkintGUI.egg-info/dependency_links.txt
+RtkintGUI.egg-info/top_level.txt
+rtkintGUI/__init__.py

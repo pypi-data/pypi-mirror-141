@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: RtkintGUI
+Version: 0.0.2
+Summary: Sipmle GUI
+Home-page: UNKNOWN
+Author: Rana Anter
+Author-email: ranaanter919@gmail.com
+License: MIT
+Keywords: GUI
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: Licenses.txt
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
