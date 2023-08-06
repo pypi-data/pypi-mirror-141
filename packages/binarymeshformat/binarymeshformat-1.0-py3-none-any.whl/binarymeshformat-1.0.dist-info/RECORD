@@ -1,0 +1,9 @@
+binarymeshformat/__init__.py,sha256=wznBDDgsJu4ywuR914YBRnoPVzEmsPoJWVuXBDEVBaw,991
+binarymeshformat/meshdata.py,sha256=SdTgNTDB-Vj6C4wNm-5BXcIAX44Eh0JnG0yqYoSnUTY,1129
+binarymeshformat/reader.py,sha256=bQqKR3iGfMIUf5Fxdq3Fm2igWqEfNseUQQXjP_Qyji8,3937
+binarymeshformat/writer.py,sha256=cOlNgrSFQFleCWR2sQOJCjwEqt1KgD-kMT8Te7t0R3U,3869
+binarymeshformat-1.0.dist-info/LICENSE,sha256=eVHT5RuAHTi9GJOFh38YMSrJRwP5CYssji99pdGO0bE,1075
+binarymeshformat-1.0.dist-info/METADATA,sha256=--G-cSQgedkewICB90f9RIvmYFBgSb-aMbdKb23IhFk,2219
+binarymeshformat-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+binarymeshformat-1.0.dist-info/top_level.txt,sha256=igFApNQLmm7iILaRLAGD68e2UB8wDSC75EKV0JtpvNY,17
+binarymeshformat-1.0.dist-info/RECORD,,
