@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yaw-cli
+Version: 0.1.1
+Summary: Query weather via cli
+Home-page: UNKNOWN
+Author: dynamicfire
+Author-email: plus@plusnow.me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: Path
+
+UNKNOWN
+
+
