@@ -1,0 +1,32 @@
+.freeDrawing{
+     width:  30px;
+    }
+.icon {
+     width:  50px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      z-index: 1;
+      color: black;
+      background: white;
+      fill: #79005D;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+       box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .icon:hover {
+    background:  #79005D;
+    fill: white;
+     box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .navigation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+  }
