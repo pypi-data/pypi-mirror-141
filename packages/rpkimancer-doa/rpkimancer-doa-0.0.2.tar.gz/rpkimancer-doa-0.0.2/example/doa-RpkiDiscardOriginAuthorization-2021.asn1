@@ -1,0 +1,60 @@
+DiscardOriginAuthorization-2021 {
+    iso(1) member-body(2) us(840) rsadsi(113549) pkcs(1) pkcs9(9) smime(16) mod(0)
+    666 }
+
+DEFINITIONS EXPLICIT TAGS ::=
+BEGIN
+
+CONTENT-TYPE ::= CLASS {
+    &id OBJECT IDENTIFIER UNIQUE,
+    &Type OPTIONAL
+    } WITH SYNTAX {
+    [TYPE &Type] IDENTIFIED BY &id
+    }
+
+ct-discardOriginAuthorization CONTENT-TYPE ::=
+   { TYPE DiscardOriginAuthorization IDENTIFIED BY
+     id-ct-discardOriginAuthorization }
+
+id-ct-discardOriginAuthorization OBJECT IDENTIFIER ::=
+   { iso(1) member-body(2) us(840) rsadsi(113549) pkcs(1)
+     pkcs-9(9) id-smime(16) id-ct(1) TBD }
+
+
+DiscardOriginAuthorization ::= SEQUENCE {
+   version             [0] INTEGER DEFAULT 0,
+   asID                ASId,
+   peerASID            SEQUENCE OF ASId DEFAULT &asID,
+   ipAddrBlocks        IPListRange,
+   communities         SEQUENCE SIZE(1..MAX) OF Community }
+
+ASId ::= INTEGER
+
+IPListRange ::= SEQUENCE (SIZE(1..MAX)) OF IPAddressFamily
+
+IPAddressFamily ::= SEQUENCE {
+    addressFamily        OCTET STRING (SIZE(2..3)),
+    addressesOrRanges    SEQUENCE OF IPAddressOrRange,
+    prefixLengthRange    PrefixLengthRange OPTIONAL } -- if omitted, assume hostroutes
+
+PrefixLengthRange ::= SEQUENCE {
+    minlength		 INTEGER,
+    maxlength            INTEGER
+}
+
+IPAddressOrRange ::= CHOICE {
+    addressPrefix        IPAddress,
+    addressRange         IPAddressRange
+}
+
+IPAddressRange ::= SEQUENCE {
+    min  IPAddress,
+    max  IPAddress }
+
+IPAddress ::= BIT STRING
+
+Community ::= CHOICE {
+   bgpCommunity        [0] OCTET STRING (SIZE(4)),
+   bgpLargeCommunity   [1] OCTET STRING (SIZE(12)) }
+
+END

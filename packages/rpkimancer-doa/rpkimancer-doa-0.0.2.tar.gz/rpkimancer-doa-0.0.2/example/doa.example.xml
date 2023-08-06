@@ -1,0 +1,35 @@
+<DiscardOriginAuthorization>
+
+  <asID>
+    15562
+  </asID>
+
+  <ipAddrBlocks>
+    <IPAddressFamily>
+      <addressFamily>00 02</addressFamily>
+      <addressesOrRanges>
+        <addressPrefix>
+          001000000000000100000110011111000010000010001100
+        </addressPrefix>
+      </addressesOrRanges>
+      <prefixLengthRange>
+        <minlength>
+          64
+        </minlength>
+        <maxlength>
+          128
+        </maxlength>
+      </prefixLengthRange>
+    </IPAddressFamily>
+  </ipAddrBlocks>
+
+  <communities>
+      <bgpCommunity>
+        4294902426
+      </bgpCommunity>
+      <bgpCommunity>
+        4294967041
+      </bgpCommunity>
+  </communities>
+
+</DiscardOriginAuthorization>

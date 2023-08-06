@@ -1,0 +1,8 @@
+[rpkimancer.asn1.modules]
+RpkiDiscardOriginAuthorization-2021 = rpkimancer_doa.asn1
+
+[rpkimancer.cli.conjure]
+ConjureDoa = rpkimancer_doa.conjure:ConjureDoa
+
+[rpkimancer.sigobj]
+DiscardOriginAuthorization = rpkimancer_doa.sigobj:DiscardOriginAuthorization
