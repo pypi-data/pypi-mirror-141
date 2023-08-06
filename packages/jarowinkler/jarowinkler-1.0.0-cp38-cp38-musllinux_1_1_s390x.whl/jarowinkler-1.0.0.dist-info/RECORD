@@ -1,0 +1,9 @@
+jarowinkler/_initialize.cpython-38-s390x-linux-gnu.so,sha256=beg3-Yr2eeANc56lFicjUEoj24YRaCwENL4Hnj6wNR4,290408
+jarowinkler/__init__.py,sha256=JrJtB5-4wtOgHoPaYDQIwktTvwHVNLoTBVii5mDmRRE,98
+jarowinkler-1.0.0.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+jarowinkler-1.0.0.dist-info/METADATA,sha256=G7TbIcYke25-QhvuB9HYgGoTBUPa560lIfhBth9xVz4,5300
+jarowinkler-1.0.0.dist-info/top_level.txt,sha256=ZjqECtLGE14oi_6_qPsDYACOf3Ewt_p1FvMH8tfLS1I,12
+jarowinkler-1.0.0.dist-info/RECORD,,
+jarowinkler-1.0.0.dist-info/WHEEL,sha256=lh1iPH42z9_pS_ML_s6xZ6cf30y568kk60gEXd_Jb_Y,104
+jarowinkler.libs/libgcc_s-26206cc5.so.1,sha256=ZP9Xx35ZnhZLrGhaTuUF0RPLUj4yQbsqx0qIZx4OVKk,64256
+jarowinkler.libs/libstdc++-abeb3405.so.6.0.28,sha256=aLIIi8AuOZF9KRcuCQahq8CpFjiSKq4FpNDrTmBUtLM,2822408
