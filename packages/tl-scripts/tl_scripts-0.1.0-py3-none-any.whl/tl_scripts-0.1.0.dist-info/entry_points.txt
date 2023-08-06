@@ -1,0 +1,3 @@
+[console_scripts]
+copy_kibana_objects=copy_kibana_objects:__main__
+
