@@ -1,0 +1,11 @@
+csc_dummy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csc_dummy/__main__.py,sha256=-rzABlppMj_PQgiLBTycGBo4eFWP6wyITT3wJjk-wMw,232
+csc_dummy/csc_dummy_server.py,sha256=ukoht_DKndo9HwryQ6FOjEHe7c8XZ31WbvD2frsMDBc,18421
+csc_dummy/runner.py,sha256=UAmUFn9I7dpsxf47fg7KT5FA_7ADACNH25rVPr24nUU,504
+csc_dummy/version.py,sha256=dkAFZcKmvJbI4W576Fs2wv-JIZkeKTfSR45VB6E4XMk,51
+certomancer_csc_dummy-0.1.1.dist-info/LICENSE,sha256=HmbEPoMttKsR_5f_Vu8WKt23EPJikfHPPzn7E-CYecw,1080
+certomancer_csc_dummy-0.1.1.dist-info/METADATA,sha256=h9_IWN41l8h7mZnuFBFb3GhWRXMqJZ9wwWWewvAlU6s,4638
+certomancer_csc_dummy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+certomancer_csc_dummy-0.1.1.dist-info/entry_points.txt,sha256=7lkD-27Og1a2ITqNgZ2T6j6Qs6eOUkYCgUzXtYHIOVk,62
+certomancer_csc_dummy-0.1.1.dist-info/top_level.txt,sha256=liuTa2JcjKoEYtZxxUV_7tq8j19_1lVVro-Ipz3buxM,10
+certomancer_csc_dummy-0.1.1.dist-info/RECORD,,
