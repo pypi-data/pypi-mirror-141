@@ -1,0 +1,13 @@
+jsonism/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonism/checker.py,sha256=d6r7uJ30njXOJF2q8o698XRlGkY3K6yw1fQ36HthU8s,3873
+jsonism/types.py,sha256=c6BnpjHK3tUlr5nKPTF7dt5NE4D-7pDroDqMFZzKfpg,3269
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=j_ptFyASyTL7kwVbDHYarH8xsvdFkKOK0nKZ0XP2pf0,7220
+tests/test_check.py,sha256=7Op8IML_F5HpcNGUIajApaePsMjEg7az3TXZtXIkLaE,6670
+tests/test_types.py,sha256=cUnO9S25_xl29TJmHpt53PwyD90UicQLTis-iAi12SY,2468
+tests/test_values.py,sha256=jH_xgr-57EAVSw55SZEB0bWW-_azBv1st4dys0pSEJ0,2400
+jsonism-1.1.1.dist-info/LICENSE.md,sha256=P-L2sds5rqPKvbOJFVkTjQb48KLng_MS2glKCtlgkR0,1455
+jsonism-1.1.1.dist-info/METADATA,sha256=GuYJaFIfoWH5y8wNdByvVW0IRVtN5n54FalCEUp3oLs,3335
+jsonism-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jsonism-1.1.1.dist-info/top_level.txt,sha256=C7SitlFDG0kyj_13Ht31aSIIjSJF6KCf1cYC23N5a78,14
+jsonism-1.1.1.dist-info/RECORD,,
