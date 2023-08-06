@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "my_sky_scanner" # nome del modulo su pypi
+authors = [{name = "Simone Sangeniti", email = "sangeniti.ss@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "requests >=2.27.0",
+    "pytz"
+]
+
+[project.urls]
+Source = "https://github.com/Sn4k3ss/mySkyScanner_module"
+Documentation = "https://github.com/Sn4k3ss/mySkyScanner_module"
+Home = "https://github.com/Sn4k3ss/mySkyScanner_module"
+
+[tool.flit.module]
+name = "my_sky_scanner" # nome delle cartella contenente il modulo
+
+[project.optional-dependencies] # for development 
+test = ["pytest"]

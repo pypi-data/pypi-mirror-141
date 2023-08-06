@@ -1,0 +1,7904 @@
+{
+    "airports": [
+        {
+            "City": "Aalborg",
+            "State": "Denmark",
+            "Acronym": "AAL"
+        },
+        {
+            "City": "Aalesund",
+            "State": "Norway",
+            "Acronym": "AES"
+        },
+        {
+            "City": "Aarhus",
+            "State": "Denmark",
+            "Acronym": "AAR"
+        },
+        {
+            "City": "Abbotsford, BC",
+            "State": "Canada",
+            "Acronym": "YXX"
+        },
+        {
+            "City": "Abbotsford, BC ",
+            "State": "Canada ",
+            "Acronym": "YXX"
+        },
+        {
+            "City": "Aberdeen ",
+            "State": "Scotland",
+            "Acronym": "ABZ"
+        },
+        {
+            "City": "Aberdeen, SD ",
+            "State": "USA ",
+            "Acronym": "ABR"
+        },
+        {
+            "City": "Abidjan",
+            "State": "Ivory Coast",
+            "Acronym": "ABJ"
+        },
+        {
+            "City": "Abilene, TX ",
+            "State": "USA ",
+            "Acronym": "ABI"
+        },
+        {
+            "City": "Abu Dhabi",
+            "State": "United Arab Emirates",
+            "Acronym": "AUH"
+        },
+        {
+            "City": "Abuja",
+            "State": "Nigeria",
+            "Acronym": "ABV"
+        },
+        {
+            "City": "Acapulco",
+            "State": "Mexico",
+            "Acronym": "ACA"
+        },
+        {
+            "City": "Accra",
+            "State": "Ghana",
+            "Acronym": "ACC"
+        },
+        {
+            "City": "Adana",
+            "State": "Turkey",
+            "Acronym": "ADA"
+        },
+        {
+            "City": "Addis Ababa",
+            "State": "Ethiopia",
+            "Acronym": "ADD"
+        },
+        {
+            "City": "Adelaide, S.A.",
+            "State": "Australia",
+            "Acronym": "ADL"
+        },
+        {
+            "City": "Aden",
+            "State": "Yemen",
+            "Acronym": "ADE"
+        },
+        {
+            "City": "Adiyaman",
+            "State": "Turkey",
+            "Acronym": "ADF"
+        },
+        {
+            "City": "Agadir",
+            "State": "Morocco",
+            "Acronym": "AGA"
+        },
+        {
+            "City": "Agana",
+            "State": "Guam",
+            "Acronym": "GUM"
+        },
+        {
+            "City": "Aguadilla",
+            "State": "Puerto Rico",
+            "Acronym": "BQN"
+        },
+        {
+            "City": "Aguascalientes",
+            "State": "Mexico",
+            "Acronym": "AGU"
+        },
+        {
+            "City": "Ahe",
+            "State": "French Polynesia",
+            "Acronym": "AHE"
+        },
+        {
+            "City": "Ahmedabad",
+            "State": "India",
+            "Acronym": "AMD"
+        },
+        {
+            "City": "Ajaccio, Corsica",
+            "State": "France",
+            "Acronym": "AJA"
+        },
+        {
+            "City": "Akita",
+            "State": "Japan",
+            "Acronym": "AXT"
+        },
+        {
+            "City": "Akron, OH ",
+            "State": "USA ",
+            "Acronym": "CAK"
+        },
+        {
+            "City": "Alamosa, CO ",
+            "State": "USA ",
+            "Acronym": "ALS"
+        },
+        {
+            "City": "Albany, GA ",
+            "State": "USA ",
+            "Acronym": "ABY"
+        },
+        {
+            "City": "Albany, NY ",
+            "State": "USA ",
+            "Acronym": "ALB"
+        },
+        {
+            "City": "Albenga",
+            "State": "Italy",
+            "Acronym": "ALL"
+        },
+        {
+            "City": "Albuquerque, NM ",
+            "State": "USA ",
+            "Acronym": "ABQ"
+        },
+        {
+            "City": "Albury, N.S.W.",
+            "State": "Australia",
+            "Acronym": "ABX"
+        },
+        {
+            "City": "Alexandria",
+            "State": "Egypt",
+            "Acronym": "ALY"
+        },
+        {
+            "City": "Alexandria",
+            "State": "Egypt",
+            "Acronym": "HBE"
+        },
+        {
+            "City": "Alexandria, LA ",
+            "State": "USA ",
+            "Acronym": "AEX"
+        },
+        {
+            "City": "Alexandroupolis",
+            "State": "Greece",
+            "Acronym": "AXD"
+        },
+        {
+            "City": "Alghero, Sardinia",
+            "State": "Italy",
+            "Acronym": "AHO"
+        },
+        {
+            "City": "Algiers",
+            "State": "Algeria",
+            "Acronym": "ALG"
+        },
+        {
+            "City": "Alicante",
+            "State": "Spain",
+            "Acronym": "ALC"
+        },
+        {
+            "City": "Alice Springs, N.T.",
+            "State": "Australia",
+            "Acronym": "ASP"
+        },
+        {
+            "City": "Alice Town, North Bimini Island",
+            "State": "Bahamas",
+            "Acronym": "NSB"
+        },
+        {
+            "City": "Allentown, PA ",
+            "State": "USA ",
+            "Acronym": "ABE"
+        },
+        {
+            "City": "Alliance, NE ",
+            "State": "USA ",
+            "Acronym": "AIA"
+        },
+        {
+            "City": "Almaty",
+            "State": "Kazakhstan",
+            "Acronym": "ALA"
+        },
+        {
+            "City": "Almeria",
+            "State": "Spain",
+            "Acronym": "LEI"
+        },
+        {
+            "City": "Alor Setar",
+            "State": "Malaysia",
+            "Acronym": "AOR"
+        },
+        {
+            "City": "Alpena, MI ",
+            "State": "USA ",
+            "Acronym": "APN"
+        },
+        {
+            "City": "Alta",
+            "State": "Norway",
+            "Acronym": "ALF"
+        },
+        {
+            "City": "Altenrhein",
+            "State": "Switzerland",
+            "Acronym": "ACH"
+        },
+        {
+            "City": "Altoona, PA ",
+            "State": "USA ",
+            "Acronym": "AOO"
+        },
+        {
+            "City": "Amarillo, TX ",
+            "State": "USA ",
+            "Acronym": "AMA"
+        },
+        {
+            "City": "Amman",
+            "State": "Jordan",
+            "Acronym": "AMM"
+        },
+        {
+            "City": "Amsterdam",
+            "State": "Netherlands",
+            "Acronym": "AMS"
+        },
+        {
+            "City": "Anahim Lake, BC",
+            "State": "Canada",
+            "Acronym": "YAA"
+        },
+        {
+            "City": "Anahim Lake, BC ",
+            "State": "Canada ",
+            "Acronym": "YAA"
+        },
+        {
+            "City": "Anchorage, AK ",
+            "State": "USA ",
+            "Acronym": "ANC"
+        },
+        {
+            "City": "Ancona",
+            "State": "Italy",
+            "Acronym": "AOI"
+        },
+        {
+            "City": "Andros Town",
+            "State": "Bahamas",
+            "Acronym": "ASD"
+        },
+        {
+            "City": "Angeles City",
+            "State": "Philippines",
+            "Acronym": "CRK"
+        },
+        {
+            "City": "Angra do Heroismo, Terceira Island",
+            "State": "Azores",
+            "Acronym": "TER"
+        },
+        {
+            "City": "Ankara",
+            "State": "Turkey",
+            "Acronym": "ESB"
+        },
+        {
+            "City": "Annaba",
+            "State": "Algeria",
+            "Acronym": "AAE"
+        },
+        {
+            "City": "Annecy",
+            "State": "France",
+            "Acronym": "NCY"
+        },
+        {
+            "City": "Antalya",
+            "State": "Turkey",
+            "Acronym": "AYT"
+        },
+        {
+            "City": "Antananarivo",
+            "State": "Madagascar",
+            "Acronym": "TNR"
+        },
+        {
+            "City": "Antofagasta",
+            "State": "Chile",
+            "Acronym": "ANF"
+        },
+        {
+            "City": "Antwerp",
+            "State": "Belgium",
+            "Acronym": "ANR"
+        },
+        {
+            "City": "Aomori",
+            "State": "Japan",
+            "Acronym": "AOJ"
+        },
+        {
+            "City": "Aosta",
+            "State": "Italy",
+            "Acronym": "AOT"
+        },
+        {
+            "City": "Appleton, WI ",
+            "State": "USA ",
+            "Acronym": "ATW"
+        },
+        {
+            "City": "Ardabil",
+            "State": "Iran",
+            "Acronym": "ADU"
+        },
+        {
+            "City": "Arequipa",
+            "State": "Peru",
+            "Acronym": "AQP"
+        },
+        {
+            "City": "Argostoli, Kefalonia Island",
+            "State": "Greece",
+            "Acronym": "EFL"
+        },
+        {
+            "City": "Arica",
+            "State": "Chile",
+            "Acronym": "ARI"
+        },
+        {
+            "City": "Arkhangelsk",
+            "State": "Russia",
+            "Acronym": "ARH"
+        },
+        {
+            "City": "Armidale, N.S.W.",
+            "State": "Australia",
+            "Acronym": "ARM"
+        },
+        {
+            "City": "Arrecife, Lanzarote Island",
+            "State": "Canary Islands",
+            "Acronym": "ACE"
+        },
+        {
+            "City": "Arusha",
+            "State": "Tanzania",
+            "Acronym": "ARK"
+        },
+        {
+            "City": "Arviat, NWT",
+            "State": "Canada",
+            "Acronym": "YEK"
+        },
+        {
+            "City": "Arviat, NWT",
+            "State": "Canada ",
+            "Acronym": "YEK"
+        },
+        {
+            "City": "Arvidsjaur",
+            "State": "Sweden",
+            "Acronym": "AJR"
+        },
+        {
+            "City": "Asheville, NC ",
+            "State": "USA ",
+            "Acronym": "AVL"
+        },
+        {
+            "City": "Asmara",
+            "State": "Eritrea",
+            "Acronym": "ASM"
+        },
+        {
+            "City": "Aspen, CO ",
+            "State": "USA ",
+            "Acronym": "ASE"
+        },
+        {
+            "City": "Astana",
+            "State": "Kazakhstan",
+            "Acronym": "TSE"
+        },
+        {
+            "City": "Asuncion",
+            "State": "Paraguay",
+            "Acronym": "ASU"
+        },
+        {
+            "City": "Aswan",
+            "State": "Egypt",
+            "Acronym": "ASW"
+        },
+        {
+            "City": "Athens",
+            "State": "Greece",
+            "Acronym": "ATH"
+        },
+        {
+            "City": "Athens, GA ",
+            "State": "USA ",
+            "Acronym": "AHN"
+        },
+        {
+            "City": "Atlanta, GA ",
+            "State": "USA ",
+            "Acronym": "ATL"
+        },
+        {
+            "City": "Atlantic City, NJ ",
+            "State": "USA ",
+            "Acronym": "ACY"
+        },
+        {
+            "City": "Auckland",
+            "State": "New Zealand",
+            "Acronym": "AKL"
+        },
+        {
+            "City": "Augusta, GA ",
+            "State": "USA ",
+            "Acronym": "AGS"
+        },
+        {
+            "City": "Augusta, ME ",
+            "State": "USA ",
+            "Acronym": "AUG"
+        },
+        {
+            "City": "Austin, TX ",
+            "State": "USA ",
+            "Acronym": "AUS"
+        },
+        {
+            "City": "Avarua, Rarotonga Island",
+            "State": "Cook Islands",
+            "Acronym": "RAR"
+        },
+        {
+            "City": "Ayers Rock, N.T.",
+            "State": "Australia",
+            "Acronym": "AYQ"
+        },
+        {
+            "City": "Bacolod",
+            "State": "Philippines",
+            "Acronym": "BCD"
+        },
+        {
+            "City": "Badajoz",
+            "State": "Spain",
+            "Acronym": "BJZ"
+        },
+        {
+            "City": "Baghdad",
+            "State": "Iraq",
+            "Acronym": "SDA"
+        },
+        {
+            "City": "Bagotville, PQ",
+            "State": "Canada",
+            "Acronym": "YBG"
+        },
+        {
+            "City": "Bagotville, PQ ",
+            "State": "Canada ",
+            "Acronym": "YBG"
+        },
+        {
+            "City": "Baie-Comeau, PQ",
+            "State": "Canada",
+            "Acronym": "YBC"
+        },
+        {
+            "City": "Baie-Comeau, PQ ",
+            "State": "Canada ",
+            "Acronym": "YBC"
+        },
+        {
+            "City": "Bakersfield, CA ",
+            "State": "USA ",
+            "Acronym": "BFL"
+        },
+        {
+            "City": "Baku",
+            "State": "Azerbaijan",
+            "Acronym": "BAK"
+        },
+        {
+            "City": "Baku",
+            "State": "Azerbaijan",
+            "Acronym": "GYD"
+        },
+        {
+            "City": "Balaton",
+            "State": "Hungary",
+            "Acronym": "SOB"
+        },
+        {
+            "City": "Balephuil",
+            "State": "Scotland",
+            "Acronym": "TRE"
+        },
+        {
+            "City": "Balikpapan, Kalimantan",
+            "State": "Indonesia",
+            "Acronym": "BPN"
+        },
+        {
+            "City": "Ballina, N.S.W.",
+            "State": "Australia",
+            "Acronym": "BNK"
+        },
+        {
+            "City": "Balmaceda",
+            "State": "Chile",
+            "Acronym": "BBA"
+        },
+        {
+            "City": "Baltimore, MD ",
+            "State": "USA ",
+            "Acronym": "BWI"
+        },
+        {
+            "City": "Ban Me Thuot",
+            "State": "Vietnam",
+            "Acronym": "BMV"
+        },
+        {
+            "City": "Bandar Seri Begawan",
+            "State": "Brunei",
+            "Acronym": "BWN"
+        },
+        {
+            "City": "Bangalore",
+            "State": "India",
+            "Acronym": "BLR"
+        },
+        {
+            "City": "Bangda",
+            "State": "China",
+            "Acronym": "BPX"
+        },
+        {
+            "City": "Bangkok",
+            "State": "Thailand",
+            "Acronym": "BKK"
+        },
+        {
+            "City": "Bangor, ME ",
+            "State": "USA ",
+            "Acronym": "BGR"
+        },
+        {
+            "City": "Bangui",
+            "State": "Central African Republic",
+            "Acronym": "BGF"
+        },
+        {
+            "City": "Banjul",
+            "State": "Gambia",
+            "Acronym": "BJL"
+        },
+        {
+            "City": "Bar Harbor, ME ",
+            "State": "USA ",
+            "Acronym": "BHB"
+        },
+        {
+            "City": "Barcelona",
+            "State": "Spain",
+            "Acronym": "BCN"
+        },
+        {
+            "City": "Bardufoss",
+            "State": "Norway",
+            "Acronym": "BDU"
+        },
+        {
+            "City": "Bari",
+            "State": "Italy",
+            "Acronym": "BRI"
+        },
+        {
+            "City": "Barisal",
+            "State": "Bangladesh",
+            "Acronym": "BZL"
+        },
+        {
+            "City": "Barranquilla",
+            "State": "Colombia",
+            "Acronym": "BAQ"
+        },
+        {
+            "City": "Barrow, AK",
+            "State": "USA ",
+            "Acronym": "BRW"
+        },
+        {
+            "City": "Basel",
+            "State": "Switzerland",
+            "Acronym": "BSL"
+        },
+        {
+            "City": "Basseterre",
+            "State": "St. Kitts",
+            "Acronym": "SKB"
+        },
+        {
+            "City": "Bastia, Corsica",
+            "State": "France",
+            "Acronym": "BIA"
+        },
+        {
+            "City": "Bathurst, N.S.W.",
+            "State": "Australia",
+            "Acronym": "BHS"
+        },
+        {
+            "City": "Baton Rouge, LA ",
+            "State": "USA ",
+            "Acronym": "BTR"
+        },
+        {
+            "City": "Bauru",
+            "State": "Brazil",
+            "Acronym": "BAU"
+        },
+        {
+            "City": "Beaumont, TX ",
+            "State": "USA ",
+            "Acronym": "BPT"
+        },
+        {
+            "City": "Beauvais",
+            "State": "France",
+            "Acronym": "BVA"
+        },
+        {
+            "City": "Beckley, WV ",
+            "State": "USA ",
+            "Acronym": "BKW"
+        },
+        {
+            "City": "Bedford, MA ",
+            "State": "USA ",
+            "Acronym": "BED"
+        },
+        {
+            "City": "Beef Island, Tortola",
+            "State": "British Virgin Islands",
+            "Acronym": "EIS"
+        },
+        {
+            "City": "Beijing",
+            "State": "China",
+            "Acronym": "BJS"
+        },
+        {
+            "City": "Beirut",
+            "State": "Lebanon",
+            "Acronym": "BEY"
+        },
+        {
+            "City": "Belem",
+            "State": "Brazil",
+            "Acronym": "BEL"
+        },
+        {
+            "City": "Belfast",
+            "State": "Northern Ireland",
+            "Acronym": "BFS"
+        },
+        {
+            "City": "Belfast",
+            "State": "Northern Ireland",
+            "Acronym": "BHD"
+        },
+        {
+            "City": "Belgrade",
+            "State": "Serbia and Montenegro",
+            "Acronym": "BEG"
+        },
+        {
+            "City": "Belize City",
+            "State": "Belize",
+            "Acronym": "BZE"
+        },
+        {
+            "City": "Bellingham, WA ",
+            "State": "USA ",
+            "Acronym": "BLI"
+        },
+        {
+            "City": "Belo Horizonte",
+            "State": "Brazil",
+            "Acronym": "CNF"
+        },
+        {
+            "City": "Bemidji, MN ",
+            "State": "USA ",
+            "Acronym": "BJI"
+        },
+        {
+            "City": "Benbecula",
+            "State": "Scotland",
+            "Acronym": "BEB"
+        },
+        {
+            "City": "Benguela",
+            "State": "Angola",
+            "Acronym": "BUG"
+        },
+        {
+            "City": "Bergamo",
+            "State": "Italy",
+            "Acronym": "BGY"
+        },
+        {
+            "City": "Bergen",
+            "State": "Norway",
+            "Acronym": "BGO"
+        },
+        {
+            "City": "Berlin",
+            "State": "Germany",
+            "Acronym": "BER - All Airports"
+        },
+        {
+            "City": "Berlin",
+            "State": "Germany",
+            "Acronym": "SXF"
+        },
+        {
+            "City": "Berlin",
+            "State": "Germany",
+            "Acronym": "THF"
+        },
+        {
+            "City": "Berlin",
+            "State": "Germany",
+            "Acronym": "TXL"
+        },
+        {
+            "City": "Berne",
+            "State": "Switzerland",
+            "Acronym": "BRN"
+        },
+        {
+            "City": "Bethel, AK ",
+            "State": "USA ",
+            "Acronym": "BET"
+        },
+        {
+            "City": "Bettles, AK ",
+            "State": "USA ",
+            "Acronym": "BTT"
+        },
+        {
+            "City": "Biak, Papua",
+            "State": "Indonesia",
+            "Acronym": "BIK"
+        },
+        {
+            "City": "Biarritz",
+            "State": "France",
+            "Acronym": "BIQ"
+        },
+        {
+            "City": "Bilbao",
+            "State": "Spain",
+            "Acronym": "BIO"
+        },
+        {
+            "City": "Billings, MT ",
+            "State": "USA ",
+            "Acronym": "BIL"
+        },
+        {
+            "City": "Billund",
+            "State": "Denmark",
+            "Acronym": "BLL"
+        },
+        {
+            "City": "Binghamton, NY ",
+            "State": "USA ",
+            "Acronym": "BGM"
+        },
+        {
+            "City": "Bintulu, Sarawak",
+            "State": "Malaysia",
+            "Acronym": "BTU"
+        },
+        {
+            "City": "Birmingham",
+            "State": "England",
+            "Acronym": "BHX"
+        },
+        {
+            "City": "Birmingham, AL ",
+            "State": "USA ",
+            "Acronym": "BHM"
+        },
+        {
+            "City": "Bishkek",
+            "State": "Kyrgyzstan",
+            "Acronym": "FRU"
+        },
+        {
+            "City": "Bismarck, ND ",
+            "State": "USA ",
+            "Acronym": "BIS"
+        },
+        {
+            "City": "Bissau",
+            "State": "Guinea-Bissau",
+            "Acronym": "OXB"
+        },
+        {
+            "City": "Blantyre",
+            "State": "Malawi",
+            "Acronym": "BLZ"
+        },
+        {
+            "City": "Blenheim",
+            "State": "New Zealand",
+            "Acronym": "BHE"
+        },
+        {
+            "City": "Bloemfontein",
+            "State": "South Africa",
+            "Acronym": "BFN"
+        },
+        {
+            "City": "Bloomington, IL ",
+            "State": "USA ",
+            "Acronym": "BMI"
+        },
+        {
+            "City": "Bloomington, IN ",
+            "State": "USA ",
+            "Acronym": "BMG"
+        },
+        {
+            "City": "Bluefield, WV ",
+            "State": "USA ",
+            "Acronym": "BLF"
+        },
+        {
+            "City": "Bodo",
+            "State": "Norway",
+            "Acronym": "BOO"
+        },
+        {
+            "City": "Bogota",
+            "State": "Colombia",
+            "Acronym": "BOG"
+        },
+        {
+            "City": "Boise, ID ",
+            "State": "USA ",
+            "Acronym": "BOI"
+        },
+        {
+            "City": "Bologna",
+            "State": "Italy",
+            "Acronym": "BLQ"
+        },
+        {
+            "City": "Bolzano",
+            "State": "Italy",
+            "Acronym": "BZO"
+        },
+        {
+            "City": "Bordeaux",
+            "State": "France",
+            "Acronym": "BOD"
+        },
+        {
+            "City": "Borlange",
+            "State": "Sweden",
+            "Acronym": "BLE"
+        },
+        {
+            "City": "Boston, MA ",
+            "State": "USA ",
+            "Acronym": "BOS"
+        },
+        {
+            "City": "Bozeman, MT ",
+            "State": "USA ",
+            "Acronym": "BZN"
+        },
+        {
+            "City": "Brasilia",
+            "State": "Brazil",
+            "Acronym": "BSB"
+        },
+        {
+            "City": "Bratislava",
+            "State": "Slovakia",
+            "Acronym": "BTS"
+        },
+        {
+            "City": "Brazzaville",
+            "State": "Congo",
+            "Acronym": "BZV"
+        },
+        {
+            "City": "Bremen",
+            "State": "Germany",
+            "Acronym": "BRE"
+        },
+        {
+            "City": "Brest",
+            "State": "France",
+            "Acronym": "BES"
+        },
+        {
+            "City": "Bridgetown",
+            "State": "Barbados",
+            "Acronym": "BGI"
+        },
+        {
+            "City": "Brindisi",
+            "State": "Italy",
+            "Acronym": "BDS"
+        },
+        {
+            "City": "Brisbane, Qld.",
+            "State": "Australia",
+            "Acronym": "BNE"
+        },
+        {
+            "City": "Bristol",
+            "State": "England",
+            "Acronym": "BRS"
+        },
+        {
+            "City": "Broken Hill, N.S.W.",
+            "State": "Australia",
+            "Acronym": "BHQ"
+        },
+        {
+            "City": "Brookings, SD ",
+            "State": "USA ",
+            "Acronym": "BKX"
+        },
+        {
+            "City": "Broome, W.A.",
+            "State": "Australia",
+            "Acronym": "BME"
+        },
+        {
+            "City": "Brownsville, TX ",
+            "State": "USA ",
+            "Acronym": "BRO"
+        },
+        {
+            "City": "Brunswick, GA ",
+            "State": "USA ",
+            "Acronym": "BQK"
+        },
+        {
+            "City": "Brussels",
+            "State": "Belgium",
+            "Acronym": "BRU"
+        },
+        {
+            "City": "Bucharest",
+            "State": "Romania",
+            "Acronym": "OTP"
+        },
+        {
+            "City": "Budapest",
+            "State": "Hungary",
+            "Acronym": "BUD"
+        },
+        {
+            "City": "Buenos Aires",
+            "State": "Argentina",
+            "Acronym": "EZE"
+        },
+        {
+            "City": "Buffalo, NY ",
+            "State": "USA ",
+            "Acronym": "BUF"
+        },
+        {
+            "City": "Bujumbura",
+            "State": "Burundi",
+            "Acronym": "BJM"
+        },
+        {
+            "City": "Bulawayo",
+            "State": "Zimbabwe",
+            "Acronym": "BUQ"
+        },
+        {
+            "City": "Bundaberg, Qld.",
+            "State": "Australia",
+            "Acronym": "BDB"
+        },
+        {
+            "City": "Burbank, CA ",
+            "State": "USA ",
+            "Acronym": "BUR"
+        },
+        {
+            "City": "Buri Ram",
+            "State": "Thailand",
+            "Acronym": "BFV"
+        },
+        {
+            "City": "Burlington, IA ",
+            "State": "USA ",
+            "Acronym": "BRL"
+        },
+        {
+            "City": "Burlington, MA ",
+            "State": "USA ",
+            "Acronym": "BBF"
+        },
+        {
+            "City": "Burlington, VT ",
+            "State": "USA ",
+            "Acronym": "BTV"
+        },
+        {
+            "City": "Busan, Korea",
+            "State": "Republic of",
+            "Acronym": "PUS"
+        },
+        {
+            "City": "Butte, MT ",
+            "State": "USA ",
+            "Acronym": "BTM"
+        },
+        {
+            "City": "Butuan",
+            "State": "Philippines",
+            "Acronym": "BXU"
+        },
+        {
+            "City": "Bydgoszcz",
+            "State": "Poland",
+            "Acronym": "BZG"
+        },
+        {
+            "City": "Caen",
+            "State": "France",
+            "Acronym": "CFR"
+        },
+        {
+            "City": "Cagayan de Oro",
+            "State": "Philippines",
+            "Acronym": "CGY"
+        },
+        {
+            "City": "Cagliari, Sardinia",
+            "State": "Italy",
+            "Acronym": "CAG"
+        },
+        {
+            "City": "Cairns, Qld.",
+            "State": "Australia",
+            "Acronym": "CNS"
+        },
+        {
+            "City": "Cairo",
+            "State": "Egypt",
+            "Acronym": "CAI"
+        },
+        {
+            "City": "Calcutta",
+            "State": "India",
+            "Acronym": "CCU"
+        },
+        {
+            "City": "Calgary, AB",
+            "State": "Canada",
+            "Acronym": "YYC"
+        },
+        {
+            "City": "Calgary, AB ",
+            "State": "Canada ",
+            "Acronym": "YYC"
+        },
+        {
+            "City": "Cali",
+            "State": "Colombia",
+            "Acronym": "CLO"
+        },
+        {
+            "City": "Calvi, Corsica",
+            "State": "France",
+            "Acronym": "CLY"
+        },
+        {
+            "City": "Campbell River, BC",
+            "State": "Canada",
+            "Acronym": "YBL"
+        },
+        {
+            "City": "Campbell River, BC ",
+            "State": "Canada ",
+            "Acronym": "YBL"
+        },
+        {
+            "City": "Campbeltown",
+            "State": "Scotland",
+            "Acronym": "CAL"
+        },
+        {
+            "City": "Campeche",
+            "State": "Mexico",
+            "Acronym": "CPE"
+        },
+        {
+            "City": "Canberra, A.C.T.",
+            "State": "Australia",
+            "Acronym": "CBR"
+        },
+        {
+            "City": "Cancun",
+            "State": "Mexico",
+            "Acronym": "CUN"
+        },
+        {
+            "City": "Cap-aux-Meules, ",
+            "State": "Canada ",
+            "Acronym": "YGR"
+        },
+        {
+            "City": "Cap-aux-Meules, Magdalens Islands, PQ",
+            "State": "Canada",
+            "Acronym": "YGR"
+        },
+        {
+            "City": "Cape Girardeau, MO ",
+            "State": "USA ",
+            "Acronym": "CGI"
+        },
+        {
+            "City": "Cape Town",
+            "State": "South Africa",
+            "Acronym": "CPT"
+        },
+        {
+            "City": "Caracas",
+            "State": "Venezuela",
+            "Acronym": "CCS"
+        },
+        {
+            "City": "Cardiff",
+            "State": "Wales",
+            "Acronym": "CWL"
+        },
+        {
+            "City": "Carlsbad, CA ",
+            "State": "USA ",
+            "Acronym": "CLD"
+        },
+        {
+            "City": "Carlsbad, NM ",
+            "State": "USA ",
+            "Acronym": "CNM"
+        },
+        {
+            "City": "Cartagena",
+            "State": "Colombia",
+            "Acronym": "CTG"
+        },
+        {
+            "City": "Casablanca",
+            "State": "Morocco",
+            "Acronym": "CMN"
+        },
+        {
+            "City": "Casper, WY ",
+            "State": "USA ",
+            "Acronym": "CPR"
+        },
+        {
+            "City": "Castlegar, BC",
+            "State": "Canada",
+            "Acronym": "YCG"
+        },
+        {
+            "City": "Castlegar, BC ",
+            "State": "Canada ",
+            "Acronym": "YCG"
+        },
+        {
+            "City": "Castries",
+            "State": "St. Lucia",
+            "Acronym": "SLU"
+        },
+        {
+            "City": "Catania, Sicily",
+            "State": "Italy",
+            "Acronym": "CTA"
+        },
+        {
+            "City": "Cayenne",
+            "State": "French Guiana",
+            "Acronym": "CAY"
+        },
+        {
+            "City": "Cayman Brac",
+            "State": "Cayman Islands",
+            "Acronym": "CYB"
+        },
+        {
+            "City": "Cebu",
+            "State": "Philippines",
+            "Acronym": "CEB"
+        },
+        {
+            "City": "Cedar Rapids, IA ",
+            "State": "USA ",
+            "Acronym": "CID"
+        },
+        {
+            "City": "Ceduna, S.A.",
+            "State": "Australia",
+            "Acronym": "CED"
+        },
+        {
+            "City": "Champaign, IL ",
+            "State": "USA ",
+            "Acronym": "CMI"
+        },
+        {
+            "City": "Changchun",
+            "State": "China",
+            "Acronym": "CGQ"
+        },
+        {
+            "City": "Changsha",
+            "State": "China",
+            "Acronym": "CSX"
+        },
+        {
+            "City": "Chania, Crete",
+            "State": "Greece",
+            "Acronym": "CHQ"
+        },
+        {
+            "City": "Charleston, SC ",
+            "State": "USA ",
+            "Acronym": "CHS"
+        },
+        {
+            "City": "Charleston, WV ",
+            "State": "USA ",
+            "Acronym": "CRW"
+        },
+        {
+            "City": "Charleville, Qld.",
+            "State": "Australia",
+            "Acronym": "CTL"
+        },
+        {
+            "City": "Charlotte Amalie, St. Thomas",
+            "State": "U.S. Virgin Islands",
+            "Acronym": "STT"
+        },
+        {
+            "City": "Charlotte, NC ",
+            "State": "USA ",
+            "Acronym": "CLT"
+        },
+        {
+            "City": "Charlottesville, VA ",
+            "State": "USA ",
+            "Acronym": "CHO"
+        },
+        {
+            "City": "Charlottetown, PEI",
+            "State": "Canada",
+            "Acronym": "YYG"
+        },
+        {
+            "City": "Charlottetown, PEI ",
+            "State": "Canada ",
+            "Acronym": "YYG"
+        },
+        {
+            "City": "Chattanooga, TN ",
+            "State": "USA ",
+            "Acronym": "CHA"
+        },
+        {
+            "City": "Chengdu",
+            "State": "China",
+            "Acronym": "CTU"
+        },
+        {
+            "City": "Chennai (Madras)",
+            "State": "India",
+            "Acronym": "MAA"
+        },
+        {
+            "City": "Chetumal",
+            "State": "Mexico",
+            "Acronym": "CTM"
+        },
+        {
+            "City": "Cheyenne, WY ",
+            "State": "USA ",
+            "Acronym": "CYS"
+        },
+        {
+            "City": "Chiang Mai",
+            "State": "Thailand",
+            "Acronym": "CNX"
+        },
+        {
+            "City": "Chiang Rai",
+            "State": "Thailand",
+            "Acronym": "CEI"
+        },
+        {
+            "City": "Chibougamau, PQ",
+            "State": "Canada",
+            "Acronym": "YMT"
+        },
+        {
+            "City": "Chibougamau, PQ ",
+            "State": "Canada ",
+            "Acronym": "YMT"
+        },
+        {
+            "City": "Chicago, IL ",
+            "State": "USA ",
+            "Acronym": "CHI - All "
+        },
+        {
+            "City": "Chicago, IL ",
+            "State": "USA ",
+            "Acronym": "MDW"
+        },
+        {
+            "City": "Chicago, IL ",
+            "State": "USA ",
+            "Acronym": "ORD"
+        },
+        {
+            "City": "Chico, CA ",
+            "State": "USA ",
+            "Acronym": "CIC"
+        },
+        {
+            "City": "Chihuahua",
+            "State": "Mexico",
+            "Acronym": "CUU"
+        },
+        {
+            "City": "Chios",
+            "State": "Greece",
+            "Acronym": "JKH"
+        },
+        {
+            "City": "Chisinau",
+            "State": "Moldova",
+            "Acronym": "KIV"
+        },
+        {
+            "City": "Chongqing",
+            "State": "China",
+            "Acronym": "CKG"
+        },
+        {
+            "City": "Christchurch",
+            "State": "New Zealand",
+            "Acronym": "CHC"
+        },
+        {
+            "City": "Christiansted, St. Croix",
+            "State": "U.S. Virgin Islands",
+            "Acronym": "STX"
+        },
+        {
+            "City": "Churchill, MB",
+            "State": "Canada",
+            "Acronym": "YYQ"
+        },
+        {
+            "City": "Churchill, MB ",
+            "State": "Canada ",
+            "Acronym": "YYQ"
+        },
+        {
+            "City": "Cincinnati, OH ",
+            "State": "USA ",
+            "Acronym": "CVG"
+        },
+        {
+            "City": "Ciudad Bolivar",
+            "State": "Venezuela",
+            "Acronym": "CBL"
+        },
+        {
+            "City": "Ciudad Del Carmen",
+            "State": "Mexico",
+            "Acronym": "CME"
+        },
+        {
+            "City": "Ciudad del Este",
+            "State": "Paraguay",
+            "Acronym": "AGT"
+        },
+        {
+            "City": "Ciudad Juarez",
+            "State": "Mexico",
+            "Acronym": "CJS"
+        },
+        {
+            "City": "Ciudad Obregon",
+            "State": "Mexico",
+            "Acronym": "CEN"
+        },
+        {
+            "City": "Ciudad Victoria",
+            "State": "Mexico",
+            "Acronym": "CVM"
+        },
+        {
+            "City": "Clarksburg, WV ",
+            "State": "USA ",
+            "Acronym": "CKB"
+        },
+        {
+            "City": "Clermont-Ferrand",
+            "State": "France",
+            "Acronym": "CFE"
+        },
+        {
+            "City": "Cleveland, OH ",
+            "State": "USA ",
+            "Acronym": "CLE"
+        },
+        {
+            "City": "Clovis, NM ",
+            "State": "USA ",
+            "Acronym": "CVN"
+        },
+        {
+            "City": "Cockburn Town, San Salvador Island",
+            "State": "Bahamas",
+            "Acronym": "ZSA"
+        },
+        {
+            "City": "Cody, WY ",
+            "State": "USA ",
+            "Acronym": "COD"
+        },
+        {
+            "City": "Coffs Harbour, N.S.W.",
+            "State": "Australia",
+            "Acronym": "CFS"
+        },
+        {
+            "City": "Colima",
+            "State": "Mexico",
+            "Acronym": "CLQ"
+        },
+        {
+            "City": "College Station, TX ",
+            "State": "USA ",
+            "Acronym": "CLL"
+        },
+        {
+            "City": "Cologne",
+            "State": "Germany",
+            "Acronym": "CGN"
+        },
+        {
+            "City": "Colombo",
+            "State": "Sri Lanka",
+            "Acronym": "CMB"
+        },
+        {
+            "City": "Colorado Springs, CO ",
+            "State": "USA ",
+            "Acronym": "COS"
+        },
+        {
+            "City": "Columbia, MO ",
+            "State": "USA ",
+            "Acronym": "COU"
+        },
+        {
+            "City": "Columbia, SC ",
+            "State": "USA ",
+            "Acronym": "CAE"
+        },
+        {
+            "City": "Columbus, GA ",
+            "State": "USA ",
+            "Acronym": "CSG"
+        },
+        {
+            "City": "Columbus, IN ",
+            "State": "USA ",
+            "Acronym": "CLU"
+        },
+        {
+            "City": "Columbus, MS ",
+            "State": "USA ",
+            "Acronym": "GTR"
+        },
+        {
+            "City": "Columbus, NE ",
+            "State": "USA ",
+            "Acronym": "OLU"
+        },
+        {
+            "City": "Columbus, OH ",
+            "State": "USA ",
+            "Acronym": "CMH"
+        },
+        {
+            "City": "Conakry",
+            "State": "Guinea",
+            "Acronym": "CKY"
+        },
+        {
+            "City": "Concepcion",
+            "State": "Chile",
+            "Acronym": "CCP"
+        },
+        {
+            "City": "Connaught",
+            "State": "Ireland",
+            "Acronym": "NOC"
+        },
+        {
+            "City": "Coober Pedy, S.A.",
+            "State": "Australia",
+            "Acronym": "CPD"
+        },
+        {
+            "City": "Copenhagen",
+            "State": "Denmark",
+            "Acronym": "CPH"
+        },
+        {
+            "City": "Copiapo",
+            "State": "Chile",
+            "Acronym": "CPO"
+        },
+        {
+            "City": "Cordoba",
+            "State": "Argentina",
+            "Acronym": "COR"
+        },
+        {
+            "City": "Cordova, AK ",
+            "State": "USA ",
+            "Acronym": "CDV"
+        },
+        {
+            "City": "Cork",
+            "State": "Ireland",
+            "Acronym": "ORK"
+        },
+        {
+            "City": "Corpus Christi, TX ",
+            "State": "USA ",
+            "Acronym": "CRP"
+        },
+        {
+            "City": "Cotabato",
+            "State": "Philippines",
+            "Acronym": "CBO"
+        },
+        {
+            "City": "Cozumel",
+            "State": "Mexico",
+            "Acronym": "CZM"
+        },
+        {
+            "City": "Cranbrook, BC",
+            "State": "Canada",
+            "Acronym": "YXC"
+        },
+        {
+            "City": "Cranbrook, BC ",
+            "State": "Canada ",
+            "Acronym": "YXC"
+        },
+        {
+            "City": "Crotone",
+            "State": "Italy",
+            "Acronym": "CRV"
+        },
+        {
+            "City": "Cubi Point Nas",
+            "State": "Philippines",
+            "Acronym": "NCP"
+        },
+        {
+            "City": "Culiacan",
+            "State": "Mexico",
+            "Acronym": "CUL"
+        },
+        {
+            "City": "Curitiba",
+            "State": "Brazil",
+            "Acronym": "CWB"
+        },
+        {
+            "City": "Cusco",
+            "State": "Peru",
+            "Acronym": "CUZ"
+        },
+        {
+            "City": "Da Nang",
+            "State": "Vietnam",
+            "Acronym": "DAD"
+        },
+        {
+            "City": "Dakar",
+            "State": "Senegal",
+            "Acronym": "DKR"
+        },
+        {
+            "City": "Dalaman",
+            "State": "Turkey",
+            "Acronym": "DLM"
+        },
+        {
+            "City": "Dali City",
+            "State": "China",
+            "Acronym": "DLU"
+        },
+        {
+            "City": "Dalian",
+            "State": "China",
+            "Acronym": "DLC"
+        },
+        {
+            "City": "Dallas, TX ",
+            "State": "USA ",
+            "Acronym": "DAL"
+        },
+        {
+            "City": "Dallas, TX ",
+            "State": "USA ",
+            "Acronym": "DFW"
+        },
+        {
+            "City": "Damascus",
+            "State": "Syria",
+            "Acronym": "DAM"
+        },
+        {
+            "City": "Dangriga",
+            "State": "Belize",
+            "Acronym": "DGA"
+        },
+        {
+            "City": "Dar es Salaam",
+            "State": "Tanzania",
+            "Acronym": "DAR"
+        },
+        {
+            "City": "Darwin, N.T.",
+            "State": "Australia",
+            "Acronym": "DRW"
+        },
+        {
+            "City": "Davao",
+            "State": "Philippines",
+            "Acronym": "DVO"
+        },
+        {
+            "City": "Dawadmi",
+            "State": "Saudi Arabia",
+            "Acronym": "DWD"
+        },
+        {
+            "City": "Dayong",
+            "State": "China",
+            "Acronym": "DYG"
+        },
+        {
+            "City": "Dayton, OH ",
+            "State": "USA ",
+            "Acronym": "DAY"
+        },
+        {
+            "City": "Daytona Beach, FL ",
+            "State": "USA ",
+            "Acronym": "DAB"
+        },
+        {
+            "City": "Deadmans Cay, Long Island",
+            "State": "Bahamas",
+            "Acronym": "LGI"
+        },
+        {
+            "City": "Deboyne",
+            "State": "Papua-New Guinea",
+            "Acronym": "DOY"
+        },
+        {
+            "City": "Decatur, IL ",
+            "State": "USA ",
+            "Acronym": "DEC"
+        },
+        {
+            "City": "Deer Lake, NF",
+            "State": "Canada",
+            "Acronym": "YDF"
+        },
+        {
+            "City": "Deer Lake, NF ",
+            "State": "Canada ",
+            "Acronym": "YDF"
+        },
+        {
+            "City": "Delhi",
+            "State": "India",
+            "Acronym": "DEL"
+        },
+        {
+            "City": "Denpasar, Bali",
+            "State": "Indonesia",
+            "Acronym": "DPS"
+        },
+        {
+            "City": "Denver, CO ",
+            "State": "USA ",
+            "Acronym": "DEN"
+        },
+        {
+            "City": "Des Moines, IA ",
+            "State": "USA ",
+            "Acronym": "DSM"
+        },
+        {
+            "City": "Detroit, MI ",
+            "State": "USA ",
+            "Acronym": "DTT - All "
+        },
+        {
+            "City": "Detroit, MI ",
+            "State": "USA ",
+            "Acronym": "DTW"
+        },
+        {
+            "City": "Devils Lake, ND ",
+            "State": "USA ",
+            "Acronym": "DVL"
+        },
+        {
+            "City": "Devonport, Tas.",
+            "State": "Australia",
+            "Acronym": "DPO"
+        },
+        {
+            "City": "Dhahran",
+            "State": "Saudi Arabia",
+            "Acronym": "DHA"
+        },
+        {
+            "City": "Dhaka",
+            "State": "Bangladesh",
+            "Acronym": "DAC"
+        },
+        {
+            "City": "Dickinson, ND ",
+            "State": "USA ",
+            "Acronym": "DIK"
+        },
+        {
+            "City": "Dien-Bien-Phu",
+            "State": "Vietnam",
+            "Acronym": "DIN"
+        },
+        {
+            "City": "Dillingham, AK ",
+            "State": "USA ",
+            "Acronym": "DLG"
+        },
+        {
+            "City": "Dipolog",
+            "State": "Philippines",
+            "Acronym": "DPL"
+        },
+        {
+            "City": "Djibouti",
+            "State": "Djibouti",
+            "Acronym": "JIB"
+        },
+        {
+            "City": "Dnepropetrovsk",
+            "State": "Ukraine",
+            "Acronym": "DNK"
+        },
+        {
+            "City": "Dodge City, KS ",
+            "State": "USA ",
+            "Acronym": "DDC"
+        },
+        {
+            "City": "Doha",
+            "State": "Qatar",
+            "Acronym": "DOH"
+        },
+        {
+            "City": "Doncaster",
+            "State": "England",
+            "Acronym": "DSA"
+        },
+        {
+            "City": "Donetsk",
+            "State": "Ukraine",
+            "Acronym": "DOK"
+        },
+        {
+            "City": "Dortmund",
+            "State": "Germany",
+            "Acronym": "DTM"
+        },
+        {
+            "City": "Dothan, AL ",
+            "State": "USA ",
+            "Acronym": "DHN"
+        },
+        {
+            "City": "Douala",
+            "State": "Cameroon",
+            "Acronym": "DLA"
+        },
+        {
+            "City": "Dresden",
+            "State": "Germany",
+            "Acronym": "DRS"
+        },
+        {
+            "City": "Dryden, ON",
+            "State": "Canada",
+            "Acronym": "YHD"
+        },
+        {
+            "City": "Dryden, ON ",
+            "State": "Canada ",
+            "Acronym": "YHD"
+        },
+        {
+            "City": "Du Bois, PA ",
+            "State": "USA ",
+            "Acronym": "DUJ"
+        },
+        {
+            "City": "Dubai",
+            "State": "United Arab Emirates",
+            "Acronym": "DXB"
+        },
+        {
+            "City": "Dubbo, N.S.W.",
+            "State": "Australia",
+            "Acronym": "DBO"
+        },
+        {
+            "City": "Dublin",
+            "State": "Ireland",
+            "Acronym": "DUB"
+        },
+        {
+            "City": "Dubrovnik",
+            "State": "Croatia",
+            "Acronym": "DBV"
+        },
+        {
+            "City": "Dubuque, IA ",
+            "State": "USA ",
+            "Acronym": "DBQ"
+        },
+        {
+            "City": "Duluth, MN ",
+            "State": "USA ",
+            "Acronym": "DLH"
+        },
+        {
+            "City": "Dumaguete",
+            "State": "Philippines",
+            "Acronym": "DGT"
+        },
+        {
+            "City": "Dunedin",
+            "State": "New Zealand",
+            "Acronym": "DUD"
+        },
+        {
+            "City": "Durango",
+            "State": "Mexico",
+            "Acronym": "DGO"
+        },
+        {
+            "City": "Durango, CO ",
+            "State": "USA ",
+            "Acronym": "DRO"
+        },
+        {
+            "City": "Durban",
+            "State": "South Africa",
+            "Acronym": "DUR"
+        },
+        {
+            "City": "Dushanbe",
+            "State": "Tajikistan",
+            "Acronym": "DYU"
+        },
+        {
+            "City": "Dusseldorf",
+            "State": "Germany",
+            "Acronym": "DUS"
+        },
+        {
+            "City": "Dutch Harbor, Un Island, AK",
+            "State": "USA ",
+            "Acronym": "DUT"
+        },
+        {
+            "City": "East London",
+            "State": "South Africa",
+            "Acronym": "ELS"
+        },
+        {
+            "City": "East Midlands",
+            "State": "England",
+            "Acronym": "EMA"
+        },
+        {
+            "City": "Eau Claire, WI ",
+            "State": "USA ",
+            "Acronym": "EAU"
+        },
+        {
+            "City": "Edinburgh",
+            "State": "Scotland",
+            "Acronym": "EDI"
+        },
+        {
+            "City": "Edmonton, AB",
+            "State": "Canada",
+            "Acronym": "YEG"
+        },
+        {
+            "City": "Edmonton, AB ",
+            "State": "Canada ",
+            "Acronym": "YEG"
+        },
+        {
+            "City": "Eek, AK ",
+            "State": "USA ",
+            "Acronym": "EEK"
+        },
+        {
+            "City": "Ekaterinburg, Siberia",
+            "State": "Russia",
+            "Acronym": "SVX"
+        },
+        {
+            "City": "El Calafate",
+            "State": "Argentina",
+            "Acronym": "FTE"
+        },
+        {
+            "City": "El Centro, CA ",
+            "State": "USA ",
+            "Acronym": "IPL"
+        },
+        {
+            "City": "El Dorado, AR ",
+            "State": "USA ",
+            "Acronym": "ELD"
+        },
+        {
+            "City": "El Paso, TX ",
+            "State": "USA ",
+            "Acronym": "ELP"
+        },
+        {
+            "City": "El Salvador",
+            "State": "Chile",
+            "Acronym": "ESR"
+        },
+        {
+            "City": "Elko, NV ",
+            "State": "USA ",
+            "Acronym": "EKO"
+        },
+        {
+            "City": "Elmira, NY ",
+            "State": "USA ",
+            "Acronym": "ELM"
+        },
+        {
+            "City": "Emerald, Qld.",
+            "State": "Australia",
+            "Acronym": "EMD"
+        },
+        {
+            "City": "Enid, OK ",
+            "State": "USA ",
+            "Acronym": "WDG"
+        },
+        {
+            "City": "Entebbe",
+            "State": "Uganda",
+            "Acronym": "EBB"
+        },
+        {
+            "City": "Erfurt",
+            "State": "Germany",
+            "Acronym": "ERF"
+        },
+        {
+            "City": "Erie, PA ",
+            "State": "USA ",
+            "Acronym": "ERI"
+        },
+        {
+            "City": "Esbjerg",
+            "State": "Denmark",
+            "Acronym": "EBJ"
+        },
+        {
+            "City": "Escanaba, MI ",
+            "State": "USA ",
+            "Acronym": "ESC"
+        },
+        {
+            "City": "Eugene, OR ",
+            "State": "USA ",
+            "Acronym": "EUG"
+        },
+        {
+            "City": "Eureka, CA",
+            "State": "USA ",
+            "Acronym": "ACV"
+        },
+        {
+            "City": "Evansville, IN ",
+            "State": "USA ",
+            "Acronym": "EVV"
+        },
+        {
+            "City": "Evenes",
+            "State": "Norway",
+            "Acronym": "EVE"
+        },
+        {
+            "City": "Fairbanks, AK ",
+            "State": "USA ",
+            "Acronym": "FAI"
+        },
+        {
+            "City": "Fargo, ND ",
+            "State": "USA ",
+            "Acronym": "FAR"
+        },
+        {
+            "City": "Farmington, NM ",
+            "State": "USA ",
+            "Acronym": "FMN"
+        },
+        {
+            "City": "Faro",
+            "State": "Portugal",
+            "Acronym": "FAO"
+        },
+        {
+            "City": "Fayetteville, AR ",
+            "State": "USA ",
+            "Acronym": "XNA"
+        },
+        {
+            "City": "Fayetteville, NC ",
+            "State": "USA ",
+            "Acronym": "FAY"
+        },
+        {
+            "City": "Fernando de Noronha",
+            "State": "Brazil",
+            "Acronym": "FEN"
+        },
+        {
+            "City": "Figari, Corsica",
+            "State": "France",
+            "Acronym": "FSC"
+        },
+        {
+            "City": "Flagstaff, AZ ",
+            "State": "USA ",
+            "Acronym": "FLG"
+        },
+        {
+            "City": "Flin Flon, MB",
+            "State": "Canada",
+            "Acronym": "YFO"
+        },
+        {
+            "City": "Flin Flon, MB ",
+            "State": "Canada ",
+            "Acronym": "YFO"
+        },
+        {
+            "City": "Flint, MI ",
+            "State": "USA ",
+            "Acronym": "FNT"
+        },
+        {
+            "City": "Florence",
+            "State": "Italy",
+            "Acronym": "FLR"
+        },
+        {
+            "City": "Florence, SC ",
+            "State": "USA ",
+            "Acronym": "FLO"
+        },
+        {
+            "City": "Flores",
+            "State": "Guatemala",
+            "Acronym": "FRS"
+        },
+        {
+            "City": "Fort Dodge, IA ",
+            "State": "USA ",
+            "Acronym": "FOD"
+        },
+        {
+            "City": "Fort Lauderdale, FL ",
+            "State": "USA ",
+            "Acronym": "FLL"
+        },
+        {
+            "City": "Fort Leonard Wood, MO",
+            "State": "USA ",
+            "Acronym": "TBN"
+        },
+        {
+            "City": "Fort McMurray, AB",
+            "State": "Canada",
+            "Acronym": "YMM"
+        },
+        {
+            "City": "Fort McMurray, AB ",
+            "State": "Canada ",
+            "Acronym": "YMM"
+        },
+        {
+            "City": "Fort Myers, FL ",
+            "State": "USA ",
+            "Acronym": "RSW"
+        },
+        {
+            "City": "Fort Nelson, BC",
+            "State": "Canada",
+            "Acronym": "YYE"
+        },
+        {
+            "City": "Fort Nelson, BC ",
+            "State": "Canada ",
+            "Acronym": "YYE"
+        },
+        {
+            "City": "Fort Saint John, BC",
+            "State": "Canada",
+            "Acronym": "YXJ"
+        },
+        {
+            "City": "Fort Saint John, BC ",
+            "State": "Canada ",
+            "Acronym": "YXJ"
+        },
+        {
+            "City": "Fort Smith, AR ",
+            "State": "USA ",
+            "Acronym": "FSM"
+        },
+        {
+            "City": "Fort Smith, NWT",
+            "State": "Canada",
+            "Acronym": "YSM"
+        },
+        {
+            "City": "Fort Smith, NWT",
+            "State": "Canada ",
+            "Acronym": "YSM"
+        },
+        {
+            "City": "Fort Walton Beach, FL ",
+            "State": "USA ",
+            "Acronym": "VPS"
+        },
+        {
+            "City": "Fort Wayne, IN ",
+            "State": "USA ",
+            "Acronym": "FWA"
+        },
+        {
+            "City": "Fort Yukon, AK ",
+            "State": "USA ",
+            "Acronym": "FYU"
+        },
+        {
+            "City": "Fort-de-France",
+            "State": "Martinique",
+            "Acronym": "FDF"
+        },
+        {
+            "City": "Frankfurt",
+            "State": "Germany",
+            "Acronym": "FRA"
+        },
+        {
+            "City": "Fredericton, NB",
+            "State": "Canada",
+            "Acronym": "YFC"
+        },
+        {
+            "City": "Fredericton, NB ",
+            "State": "Canada ",
+            "Acronym": "YFC"
+        },
+        {
+            "City": "Freeport, Grand Bahama Island",
+            "State": "Bahamas",
+            "Acronym": "FPO"
+        },
+        {
+            "City": "Freetown",
+            "State": "Sierra Leone",
+            "Acronym": "FNA"
+        },
+        {
+            "City": "Fresno, CA ",
+            "State": "USA ",
+            "Acronym": "FAT"
+        },
+        {
+            "City": "Friedrichshafen",
+            "State": "Germany",
+            "Acronym": "FDH"
+        },
+        {
+            "City": "Fukuoka",
+            "State": "Japan",
+            "Acronym": "FUK"
+        },
+        {
+            "City": "Fukushima",
+            "State": "Japan",
+            "Acronym": "FKS"
+        },
+        {
+            "City": "Funchal",
+            "State": "Madeira",
+            "Acronym": "FNC"
+        },
+        {
+            "City": "Fuzhou",
+            "State": "China",
+            "Acronym": "FOC"
+        },
+        {
+            "City": "Gainesville, FL ",
+            "State": "USA ",
+            "Acronym": "GNV"
+        },
+        {
+            "City": "Gander, NF",
+            "State": "Canada",
+            "Acronym": "YQX"
+        },
+        {
+            "City": "Gander, NF ",
+            "State": "Canada ",
+            "Acronym": "YQX"
+        },
+        {
+            "City": "Garden City, KS",
+            "State": "USA ",
+            "Acronym": "GCK"
+        },
+        {
+            "City": "Gaspe, PQ",
+            "State": "Canada",
+            "Acronym": "YGP"
+        },
+        {
+            "City": "Gaspe, PQ ",
+            "State": "Canada ",
+            "Acronym": "YGP"
+        },
+        {
+            "City": "Gdansk",
+            "State": "Poland",
+            "Acronym": "GDN"
+        },
+        {
+            "City": "General Santos",
+            "State": "Philippines",
+            "Acronym": "GES"
+        },
+        {
+            "City": "Geneva",
+            "State": "Switzerland",
+            "Acronym": "GVA"
+        },
+        {
+            "City": "Genoa",
+            "State": "Italy",
+            "Acronym": "GOA"
+        },
+        {
+            "City": "George Town, Great Exuma Island",
+            "State": "Bahamas",
+            "Acronym": "GGT"
+        },
+        {
+            "City": "Georgetown",
+            "State": "Guyana",
+            "Acronym": "GEO"
+        },
+        {
+            "City": "Georgetown, Grand Cayman Island",
+            "State": "Cayman Islands",
+            "Acronym": "GCM"
+        },
+        {
+            "City": "Gillette, WY ",
+            "State": "USA ",
+            "Acronym": "GCC"
+        },
+        {
+            "City": "Gisborne",
+            "State": "New Zealand",
+            "Acronym": "GIS"
+        },
+        {
+            "City": "Gladstone, Qld.",
+            "State": "Australia",
+            "Acronym": "GLT"
+        },
+        {
+            "City": "Glasgow",
+            "State": "Scotland",
+            "Acronym": "GLA"
+        },
+        {
+            "City": "Glasgow",
+            "State": "Scotland",
+            "Acronym": "PIK"
+        },
+        {
+            "City": "Glendive, MT ",
+            "State": "USA ",
+            "Acronym": "GDV"
+        },
+        {
+            "City": "Gold Coast, Qld.",
+            "State": "Australia",
+            "Acronym": "OOL"
+        },
+        {
+            "City": "Gothenburg",
+            "State": "Sweden",
+            "Acronym": "GOT"
+        },
+        {
+            "City": "Gove, N.T.",
+            "State": "Australia",
+            "Acronym": "GOV"
+        },
+        {
+            "City": "Governor's Harbour, Eleuthera Island",
+            "State": "Bahamas",
+            "Acronym": "GHB"
+        },
+        {
+            "City": "Granada",
+            "State": "Spain",
+            "Acronym": "GRX"
+        },
+        {
+            "City": "Grand Forks, ND ",
+            "State": "USA ",
+            "Acronym": "GFK"
+        },
+        {
+            "City": "Grand Island, NE ",
+            "State": "USA ",
+            "Acronym": "GRI"
+        },
+        {
+            "City": "Grand Junction, CO ",
+            "State": "USA ",
+            "Acronym": "GJT"
+        },
+        {
+            "City": "Grand Rapids, MI ",
+            "State": "USA ",
+            "Acronym": "GRR"
+        },
+        {
+            "City": "Grande Prairie, AB",
+            "State": "Canada",
+            "Acronym": "YQU"
+        },
+        {
+            "City": "Grande Prairie, AB ",
+            "State": "Canada ",
+            "Acronym": "YQU"
+        },
+        {
+            "City": "Graz",
+            "State": "Austria",
+            "Acronym": "GRZ"
+        },
+        {
+            "City": "Great Bend, KS ",
+            "State": "USA ",
+            "Acronym": "GBD"
+        },
+        {
+            "City": "Great Falls, MT ",
+            "State": "USA ",
+            "Acronym": "GTF"
+        },
+        {
+            "City": "Green Bay, WI ",
+            "State": "USA ",
+            "Acronym": "GRB"
+        },
+        {
+            "City": "Greenbrier, WV",
+            "State": "USA ",
+            "Acronym": "LWB"
+        },
+        {
+            "City": "Greensboro, NC ",
+            "State": "USA ",
+            "Acronym": "GSO"
+        },
+        {
+            "City": "Greenville, MS ",
+            "State": "USA ",
+            "Acronym": "GLH"
+        },
+        {
+            "City": "Greenville, NC ",
+            "State": "USA ",
+            "Acronym": "PGV"
+        },
+        {
+            "City": "Greenville, SC ",
+            "State": "USA ",
+            "Acronym": "GSP"
+        },
+        {
+            "City": "Griffith, N.S.W.",
+            "State": "Australia",
+            "Acronym": "GFF"
+        },
+        {
+            "City": "Guadalajara",
+            "State": "Mexico",
+            "Acronym": "GDL"
+        },
+        {
+            "City": "Guangzhou",
+            "State": "China",
+            "Acronym": "CAN"
+        },
+        {
+            "City": "Guatemala City",
+            "State": "Guatemala",
+            "Acronym": "GUA"
+        },
+        {
+            "City": "Guayaquil",
+            "State": "Ecuador",
+            "Acronym": "GYE"
+        },
+        {
+            "City": "Guaymas",
+            "State": "Mexico",
+            "Acronym": "GYM"
+        },
+        {
+            "City": "Guernsey",
+            "State": "Channel Islands",
+            "Acronym": "GCI"
+        },
+        {
+            "City": "Guilin",
+            "State": "China",
+            "Acronym": "KWL"
+        },
+        {
+            "City": "Gulfport, MS ",
+            "State": "USA ",
+            "Acronym": "GPT"
+        },
+        {
+            "City": "Gunnison, CO ",
+            "State": "USA ",
+            "Acronym": "GUC"
+        },
+        {
+            "City": "Gustavia",
+            "State": "St. Barts",
+            "Acronym": "SBH"
+        },
+        {
+            "City": "Hagerstown, MD ",
+            "State": "USA ",
+            "Acronym": "HGR"
+        },
+        {
+            "City": "Haikou, Hainan Island",
+            "State": "China",
+            "Acronym": "HAK"
+        },
+        {
+            "City": "Hailar",
+            "State": "China",
+            "Acronym": "HLD"
+        },
+        {
+            "City": "Hakodate",
+            "State": "Japan",
+            "Acronym": "HKD"
+        },
+        {
+            "City": "Halifax, NS",
+            "State": "Canada",
+            "Acronym": "YHZ"
+        },
+        {
+            "City": "Halifax, NS ",
+            "State": "Canada ",
+            "Acronym": "YHZ"
+        },
+        {
+            "City": "Halmstad",
+            "State": "Sweden",
+            "Acronym": "HAD"
+        },
+        {
+            "City": "Hamburg",
+            "State": "Germany",
+            "Acronym": "HAM"
+        },
+        {
+            "City": "Hamilton",
+            "State": "Bermuda",
+            "Acronym": "BDA"
+        },
+        {
+            "City": "Hamilton",
+            "State": "New Zealand",
+            "Acronym": "HLZ"
+        },
+        {
+            "City": "Hamilton Island, Whitsunday Island, Qld.",
+            "State": "Australia",
+            "Acronym": "HTI"
+        },
+        {
+            "City": "Hamilton, ON",
+            "State": "Canada",
+            "Acronym": "YHM"
+        },
+        {
+            "City": "Hamilton, ON ",
+            "State": "Canada ",
+            "Acronym": "YHM"
+        },
+        {
+            "City": "Hammerfest",
+            "State": "Norway",
+            "Acronym": "HFT"
+        },
+        {
+            "City": "Hana, Maui, HI",
+            "State": "USA ",
+            "Acronym": "HNM"
+        },
+        {
+            "City": "Hancock, MI ",
+            "State": "USA ",
+            "Acronym": "CMX"
+        },
+        {
+            "City": "Hanga Roa, Easter Island",
+            "State": "Chile",
+            "Acronym": "IPC"
+        },
+        {
+            "City": "Hangzhou",
+            "State": "China",
+            "Acronym": "HGH"
+        },
+        {
+            "City": "Hannover",
+            "State": "Germany",
+            "Acronym": "HAJ"
+        },
+        {
+            "City": "Hanoi",
+            "State": "Vietnam",
+            "Acronym": "HAN"
+        },
+        {
+            "City": "Harare",
+            "State": "Zimbabwe",
+            "Acronym": "HRE"
+        },
+        {
+            "City": "Harbin",
+            "State": "China",
+            "Acronym": "HRB"
+        },
+        {
+            "City": "Harlingen, TX ",
+            "State": "USA ",
+            "Acronym": "HRL"
+        },
+        {
+            "City": "Harrisburg, PA ",
+            "State": "USA ",
+            "Acronym": "MDT"
+        },
+        {
+            "City": "Harrison, AR ",
+            "State": "USA ",
+            "Acronym": "HRO"
+        },
+        {
+            "City": "Hartford, CT ",
+            "State": "USA ",
+            "Acronym": "BDL"
+        },
+        {
+            "City": "Hat Yai",
+            "State": "Thailand",
+            "Acronym": "HDY"
+        },
+        {
+            "City": "Haugesund",
+            "State": "Norway",
+            "Acronym": "HAU"
+        },
+        {
+            "City": "Havana",
+            "State": "Cuba",
+            "Acronym": "HAV"
+        },
+        {
+            "City": "Havre, MT ",
+            "State": "USA ",
+            "Acronym": "HVR"
+        },
+        {
+            "City": "Hays, KS",
+            "State": "USA ",
+            "Acronym": "HYS"
+        },
+        {
+            "City": "Hefei",
+            "State": "China",
+            "Acronym": "HFE"
+        },
+        {
+            "City": "Helena, MT ",
+            "State": "USA ",
+            "Acronym": "HLN"
+        },
+        {
+            "City": "Helsingborg",
+            "State": "Sweden",
+            "Acronym": "AGH"
+        },
+        {
+            "City": "Helsinki",
+            "State": "Finland",
+            "Acronym": "HEL"
+        },
+        {
+            "City": "Hemavan",
+            "State": "Sweden",
+            "Acronym": "HMV"
+        },
+        {
+            "City": "Hengchun",
+            "State": "Taiwan",
+            "Acronym": "HCN"
+        },
+        {
+            "City": "Heraklion, Crete",
+            "State": "Greece",
+            "Acronym": "HER"
+        },
+        {
+            "City": "Hermosillo",
+            "State": "Mexico",
+            "Acronym": "HMO"
+        },
+        {
+            "City": "Hibbing, MN ",
+            "State": "USA ",
+            "Acronym": "HIB"
+        },
+        {
+            "City": "Hilo, Hawaii ",
+            "State": "USA ",
+            "Acronym": "Big"
+        },
+        {
+            "City": "Hilton Head Island, SC ",
+            "State": "USA ",
+            "Acronym": "HHH"
+        },
+        {
+            "City": "Ho Chi Minh City (Saigon)",
+            "State": "Vietnam",
+            "Acronym": "SGN"
+        },
+        {
+            "City": "Hobart, Tas.",
+            "State": "Australia",
+            "Acronym": "HBA"
+        },
+        {
+            "City": "Hobbs, NM ",
+            "State": "USA ",
+            "Acronym": "HOB"
+        },
+        {
+            "City": "Hof",
+            "State": "Germany",
+            "Acronym": "HOQ"
+        },
+        {
+            "City": "Hohhot",
+            "State": "China",
+            "Acronym": "HET"
+        },
+        {
+            "City": "Hokitika",
+            "State": "New Zealand",
+            "Acronym": "HKK"
+        },
+        {
+            "City": "Homer, AK",
+            "State": "USA ",
+            "Acronym": "HOM"
+        },
+        {
+            "City": "Hong Kong",
+            "State": "China",
+            "Acronym": "HKG"
+        },
+        {
+            "City": "Honiara, Guadalcanal",
+            "State": "Solomon Islands",
+            "Acronym": "HIR"
+        },
+        {
+            "City": "Honolulu, Oahu, HI",
+            "State": "USA ",
+            "Acronym": "HNL"
+        },
+        {
+            "City": "Hoolehua, Molokai, HI",
+            "State": "USA ",
+            "Acronym": "MKK"
+        },
+        {
+            "City": "Horn Island, Qld.",
+            "State": "Australia",
+            "Acronym": "HID"
+        },
+        {
+            "City": "Hot Springs, AR ",
+            "State": "USA ",
+            "Acronym": "HOT"
+        },
+        {
+            "City": "Houmt Souk",
+            "State": "Tunisia",
+            "Acronym": "DJE"
+        },
+        {
+            "City": "Houston, TX ",
+            "State": "USA ",
+            "Acronym": "EFD"
+        },
+        {
+            "City": "Houston, TX ",
+            "State": "USA ",
+            "Acronym": "HOU"
+        },
+        {
+            "City": "Houston, TX ",
+            "State": "USA ",
+            "Acronym": "IAH"
+        },
+        {
+            "City": "Hualien",
+            "State": "Taiwan",
+            "Acronym": "HUN"
+        },
+        {
+            "City": "Hue",
+            "State": "Vietnam",
+            "Acronym": "HUI"
+        },
+        {
+            "City": "Humberside",
+            "State": "England",
+            "Acronym": "HUY"
+        },
+        {
+            "City": "Huntington, WV ",
+            "State": "USA ",
+            "Acronym": "HTS"
+        },
+        {
+            "City": "Huntsville, AL ",
+            "State": "USA ",
+            "Acronym": "HSV"
+        },
+        {
+            "City": "Hurghada",
+            "State": "Egypt",
+            "Acronym": "HRG"
+        },
+        {
+            "City": "Huron, SD",
+            "State": "USA ",
+            "Acronym": "HON"
+        },
+        {
+            "City": "Hyannis, MA ",
+            "State": "USA ",
+            "Acronym": "HYA"
+        },
+        {
+            "City": "Hyderabad",
+            "State": "India",
+            "Acronym": "HYD"
+        },
+        {
+            "City": "Ibadan",
+            "State": "Nigeria",
+            "Acronym": "IBA"
+        },
+        {
+            "City": "Ibiza",
+            "State": "Spain",
+            "Acronym": "IBZ"
+        },
+        {
+            "City": "Idaho Falls, ID ",
+            "State": "USA ",
+            "Acronym": "IDA"
+        },
+        {
+            "City": "Ikaria Island",
+            "State": "Greece",
+            "Acronym": "JIK"
+        },
+        {
+            "City": "Iloilo",
+            "State": "Philippines",
+            "Acronym": "ILO"
+        },
+        {
+            "City": "Indianapolis, IN ",
+            "State": "USA ",
+            "Acronym": "IND"
+        },
+        {
+            "City": "Innsbruck",
+            "State": "Austria",
+            "Acronym": "INN"
+        },
+        {
+            "City": "International Falls, MN ",
+            "State": "USA ",
+            "Acronym": "INL"
+        },
+        {
+            "City": "Invercargill",
+            "State": "New Zealand",
+            "Acronym": "IVC"
+        },
+        {
+            "City": "Inverness",
+            "State": "Scotland",
+            "Acronym": "INV"
+        },
+        {
+            "City": "Inyokern, CA ",
+            "State": "USA ",
+            "Acronym": "IYK"
+        },
+        {
+            "City": "Ioannina",
+            "State": "Greece",
+            "Acronym": "IOA"
+        },
+        {
+            "City": "Ipoh",
+            "State": "Malaysia",
+            "Acronym": "IPH"
+        },
+        {
+            "City": "Iqaluit, Nunavut",
+            "State": "Canada",
+            "Acronym": "YFB"
+        },
+        {
+            "City": "Iqaluit, Nunavut ",
+            "State": "Canada ",
+            "Acronym": "YFB"
+        },
+        {
+            "City": "Irkutsk, Siberia",
+            "State": "Russia",
+            "Acronym": "IKT"
+        },
+        {
+            "City": "Iron Mountain, MI ",
+            "State": "USA ",
+            "Acronym": "IMT"
+        },
+        {
+            "City": "Ironwood, MI",
+            "State": "USA ",
+            "Acronym": "IWD"
+        },
+        {
+            "City": "Islamabad-Rawalpindi",
+            "State": "Pakistan",
+            "Acronym": "ISB"
+        },
+        {
+            "City": "Islay Island",
+            "State": "Scotland",
+            "Acronym": "ILY"
+        },
+        {
+            "City": "Islip, NY ",
+            "State": "USA ",
+            "Acronym": "ISP"
+        },
+        {
+            "City": "Istanbul",
+            "State": "Turkey",
+            "Acronym": "IST"
+        },
+        {
+            "City": "Istanbul",
+            "State": "Turkey",
+            "Acronym": "SAW"
+        },
+        {
+            "City": "Ithaca, NY ",
+            "State": "USA ",
+            "Acronym": "ITH"
+        },
+        {
+            "City": "Ivalo",
+            "State": "Finland",
+            "Acronym": "IVL"
+        },
+        {
+            "City": "Iwami",
+            "State": "Japan",
+            "Acronym": "IWJ"
+        },
+        {
+            "City": "Ixtapa",
+            "State": "Mexico",
+            "Acronym": "ZIH"
+        },
+        {
+            "City": "Izmir",
+            "State": "Turkey",
+            "Acronym": "ADB"
+        },
+        {
+            "City": "Izumo",
+            "State": "Japan",
+            "Acronym": "IZO"
+        },
+        {
+            "City": "Jackson Hole, WY ",
+            "State": "USA ",
+            "Acronym": "JAC"
+        },
+        {
+            "City": "Jackson, MS ",
+            "State": "USA ",
+            "Acronym": "JAN"
+        },
+        {
+            "City": "Jackson, TN ",
+            "State": "USA ",
+            "Acronym": "MKL"
+        },
+        {
+            "City": "Jacksonville, FL ",
+            "State": "USA ",
+            "Acronym": "JAX"
+        },
+        {
+            "City": "Jacksonville, NC ",
+            "State": "USA ",
+            "Acronym": "OAJ"
+        },
+        {
+            "City": "Jakarta, Java",
+            "State": "Indonesia",
+            "Acronym": "CGK"
+        },
+        {
+            "City": "Jakarta, Java",
+            "State": "Indonesia",
+            "Acronym": "JKT - All Airports"
+        },
+        {
+            "City": "Jalapa",
+            "State": "Mexico",
+            "Acronym": "JAL"
+        },
+        {
+            "City": "Jamestown, ND ",
+            "State": "USA ",
+            "Acronym": "JMS"
+        },
+        {
+            "City": "Jamestown, NY ",
+            "State": "USA ",
+            "Acronym": "JHW"
+        },
+        {
+            "City": "Jeddah",
+            "State": "Saudi Arabia",
+            "Acronym": "JED"
+        },
+        {
+            "City": "Jeju, Korea",
+            "State": "Republic of",
+            "Acronym": "CJU"
+        },
+        {
+            "City": "Jerez de La Frontera",
+            "State": "Spain",
+            "Acronym": "XRY"
+        },
+        {
+            "City": "Jersey",
+            "State": "Channel Islands",
+            "Acronym": "JER"
+        },
+        {
+            "City": "Jiamusi",
+            "State": "China",
+            "Acronym": "JMU"
+        },
+        {
+            "City": "Jijiga",
+            "State": "Ethiopia",
+            "Acronym": "JIJ"
+        },
+        {
+            "City": "Joensuu",
+            "State": "Finland",
+            "Acronym": "JOE"
+        },
+        {
+            "City": "Johannesburg",
+            "State": "South Africa",
+            "Acronym": "JNB"
+        },
+        {
+            "City": "Johnstown, PA ",
+            "State": "USA ",
+            "Acronym": "JST"
+        },
+        {
+            "City": "Johor Bahru",
+            "State": "Malaysia",
+            "Acronym": "JHB"
+        },
+        {
+            "City": "Jonesboro, AR ",
+            "State": "USA ",
+            "Acronym": "JBR"
+        },
+        {
+            "City": "Jonkoping",
+            "State": "Sweden",
+            "Acronym": "JKG"
+        },
+        {
+            "City": "Joplin, MO ",
+            "State": "USA ",
+            "Acronym": "JLN"
+        },
+        {
+            "City": "Juneau, AK ",
+            "State": "USA ",
+            "Acronym": "JNU"
+        },
+        {
+            "City": "Jyvaskyla",
+            "State": "Finland",
+            "Acronym": "JYV"
+        },
+        {
+            "City": "Kabul",
+            "State": "Afghanistan",
+            "Acronym": "KBL"
+        },
+        {
+            "City": "Kagoshima",
+            "State": "Japan",
+            "Acronym": "KOJ"
+        },
+        {
+            "City": "Kahului, Maui, HI ",
+            "State": "USA ",
+            "Acronym": "OGG"
+        },
+        {
+            "City": "Kailua-Kona, HI",
+            "State": "USA ",
+            "Acronym": "KOA"
+        },
+        {
+            "City": "Kaitaia",
+            "State": "New Zealand",
+            "Acronym": "KAT"
+        },
+        {
+            "City": "Kajaani",
+            "State": "Finland",
+            "Acronym": "KAJ"
+        },
+        {
+            "City": "Kalamazoo, MI ",
+            "State": "USA ",
+            "Acronym": "AZO"
+        },
+        {
+            "City": "Kalaupapa, Molokai, HI",
+            "State": "USA ",
+            "Acronym": "LUP"
+        },
+        {
+            "City": "Kalgoorlie, W.A.",
+            "State": "Australia",
+            "Acronym": "KGI"
+        },
+        {
+            "City": "Kalibo",
+            "State": "Philippines",
+            "Acronym": "KLO"
+        },
+        {
+            "City": "Kaliningrad",
+            "State": "Russia",
+            "Acronym": "KGD"
+        },
+        {
+            "City": "Kalispell, MT ",
+            "State": "USA ",
+            "Acronym": "FCA"
+        },
+        {
+            "City": "Kalmar",
+            "State": "Sweden",
+            "Acronym": "KLR"
+        },
+        {
+            "City": "Kamloops, BC",
+            "State": "Canada",
+            "Acronym": "YKA"
+        },
+        {
+            "City": "Kamloops, BC ",
+            "State": "Canada ",
+            "Acronym": "YKA"
+        },
+        {
+            "City": "Kamuela, Hawaii ",
+            "State": "USA ",
+            "Acronym": "KOA"
+        },
+        {
+            "City": "Kansas City, MO ",
+            "State": "USA ",
+            "Acronym": "MCI"
+        },
+        {
+            "City": "Kaohsiung",
+            "State": "Taiwan",
+            "Acronym": "KHH"
+        },
+        {
+            "City": "Kapalua, Maui, HI",
+            "State": "USA ",
+            "Acronym": "JHM"
+        },
+        {
+            "City": "Karachi",
+            "State": "Pakistan",
+            "Acronym": "KHI"
+        },
+        {
+            "City": "Karaganda",
+            "State": "Kazakhstan",
+            "Acronym": "KGF"
+        },
+        {
+            "City": "Karlstad",
+            "State": "Sweden",
+            "Acronym": "KSD"
+        },
+        {
+            "City": "Karratha, W.A.",
+            "State": "Australia",
+            "Acronym": "KTA"
+        },
+        {
+            "City": "Karup",
+            "State": "Denmark",
+            "Acronym": "KRP"
+        },
+        {
+            "City": "Kashi",
+            "State": "China",
+            "Acronym": "KHG"
+        },
+        {
+            "City": "Kathmandu",
+            "State": "Nepal",
+            "Acronym": "KTM"
+        },
+        {
+            "City": "Katowice",
+            "State": "Poland",
+            "Acronym": "KTW"
+        },
+        {
+            "City": "Kearney, NE ",
+            "State": "USA ",
+            "Acronym": "EAR"
+        },
+        {
+            "City": "Kelowna, BC",
+            "State": "Canada",
+            "Acronym": "YLW"
+        },
+        {
+            "City": "Kelowna, BC ",
+            "State": "Canada ",
+            "Acronym": "YLW"
+        },
+        {
+            "City": "Kenai, AK ",
+            "State": "USA ",
+            "Acronym": "ENA"
+        },
+        {
+            "City": "Kenora, ON",
+            "State": "Canada",
+            "Acronym": "YQK"
+        },
+        {
+            "City": "Kenora, ON ",
+            "State": "Canada ",
+            "Acronym": "YQK"
+        },
+        {
+            "City": "Kerikeri",
+            "State": "New Zealand",
+            "Acronym": "KKE"
+        },
+        {
+            "City": "Ketchikan, AK ",
+            "State": "USA ",
+            "Acronym": "KTN"
+        },
+        {
+            "City": "Key West, FL ",
+            "State": "USA ",
+            "Acronym": "EYW"
+        },
+        {
+            "City": "Kharkov",
+            "State": "Ukraine",
+            "Acronym": "HRK"
+        },
+        {
+            "City": "Khartoum",
+            "State": "Sudan",
+            "Acronym": "KRT"
+        },
+        {
+            "City": "Khon Kaen",
+            "State": "Thailand",
+            "Acronym": "KKC"
+        },
+        {
+            "City": "Kiel",
+            "State": "Germany",
+            "Acronym": "KEL"
+        },
+        {
+            "City": "Kiev",
+            "State": "Ukraine",
+            "Acronym": "KBP"
+        },
+        {
+            "City": "Kigali",
+            "State": "Rwanda",
+            "Acronym": "KGL"
+        },
+        {
+            "City": "Killeen, TX ",
+            "State": "USA ",
+            "Acronym": "GRK"
+        },
+        {
+            "City": "King Salmon, AK",
+            "State": "USA ",
+            "Acronym": "AKN"
+        },
+        {
+            "City": "Kingman, AZ ",
+            "State": "USA ",
+            "Acronym": "IGM"
+        },
+        {
+            "City": "Kingscote, Kangaroo Island, S.A.",
+            "State": "Australia",
+            "Acronym": "KGC"
+        },
+        {
+            "City": "Kingston",
+            "State": "Jamaica",
+            "Acronym": "KIN"
+        },
+        {
+            "City": "Kingston",
+            "State": "Jamaica",
+            "Acronym": "KTP"
+        },
+        {
+            "City": "Kingston, ON",
+            "State": "Canada",
+            "Acronym": "YGK"
+        },
+        {
+            "City": "Kingston, ON ",
+            "State": "Canada ",
+            "Acronym": "YGK"
+        },
+        {
+            "City": "Kingstown",
+            "State": "St. Vincent",
+            "Acronym": "SVD"
+        },
+        {
+            "City": "Kinshasa",
+            "State": "Zaire",
+            "Acronym": "FIH"
+        },
+        {
+            "City": "Kirksville, MO ",
+            "State": "USA ",
+            "Acronym": "IRK"
+        },
+        {
+            "City": "Kirkwall, Orkney Islands",
+            "State": "Scotland",
+            "Acronym": "KOI"
+        },
+        {
+            "City": "Kiruna",
+            "State": "Sweden",
+            "Acronym": "KRN"
+        },
+        {
+            "City": "Kisangani",
+            "State": "Zaire",
+            "Acronym": "FKI"
+        },
+        {
+            "City": "Kittila",
+            "State": "Finland",
+            "Acronym": "KTT"
+        },
+        {
+            "City": "Klagenfurt",
+            "State": "Austria",
+            "Acronym": "KLU"
+        },
+        {
+            "City": "Klamath Falls, OR ",
+            "State": "USA ",
+            "Acronym": "LMT"
+        },
+        {
+            "City": "Knoxville, TN ",
+            "State": "USA ",
+            "Acronym": "TYS"
+        },
+        {
+            "City": "Kodiak, AK ",
+            "State": "USA ",
+            "Acronym": "ADQ"
+        },
+        {
+            "City": "Koh Samui",
+            "State": "Thailand",
+            "Acronym": "USM"
+        },
+        {
+            "City": "Kokkola",
+            "State": "Finland",
+            "Acronym": "KOK"
+        },
+        {
+            "City": "Komatsu",
+            "State": "Japan",
+            "Acronym": "KMQ"
+        },
+        {
+            "City": "Koror",
+            "State": "Palau",
+            "Acronym": "ROR"
+        },
+        {
+            "City": "Kos",
+            "State": "Greece",
+            "Acronym": "KGS"
+        },
+        {
+            "City": "Kosrae",
+            "State": "Micronesia",
+            "Acronym": "KSA"
+        },
+        {
+            "City": "Kota Bharu",
+            "State": "Malaysia",
+            "Acronym": "KBR"
+        },
+        {
+            "City": "Kota Kinabalu, Sabah",
+            "State": "Malaysia",
+            "Acronym": "BKI"
+        },
+        {
+            "City": "Krabi",
+            "State": "Thailand",
+            "Acronym": "KBV"
+        },
+        {
+            "City": "Krakow",
+            "State": "Poland",
+            "Acronym": "KRK"
+        },
+        {
+            "City": "Kralendijk",
+            "State": "Bonaire",
+            "Acronym": "BON"
+        },
+        {
+            "City": "Kramfors",
+            "State": "Sweden",
+            "Acronym": "KRF"
+        },
+        {
+            "City": "Kristiansand",
+            "State": "Norway",
+            "Acronym": "KRS"
+        },
+        {
+            "City": "Kristianstad",
+            "State": "Sweden",
+            "Acronym": "KID"
+        },
+        {
+            "City": "Kuala Lumpur",
+            "State": "Malaysia",
+            "Acronym": "KUL"
+        },
+        {
+            "City": "Kuala Terengganu",
+            "State": "Malaysia",
+            "Acronym": "TGG"
+        },
+        {
+            "City": "Kuantan",
+            "State": "Malaysia",
+            "Acronym": "KUA"
+        },
+        {
+            "City": "Kuching, Sarawak",
+            "State": "Malaysia",
+            "Acronym": "KCH"
+        },
+        {
+            "City": "Kumamoto",
+            "State": "Japan",
+            "Acronym": "KMJ"
+        },
+        {
+            "City": "Kunming",
+            "State": "China",
+            "Acronym": "KMG"
+        },
+        {
+            "City": "Kuopio",
+            "State": "Finland",
+            "Acronym": "KUO"
+        },
+        {
+            "City": "Kushiro",
+            "State": "Japan",
+            "Acronym": "KUH"
+        },
+        {
+            "City": "Kuwait",
+            "State": "Kuwait",
+            "Acronym": "KWI"
+        },
+        {
+            "City": "Kzyl Orda",
+            "State": "Kazakhstan",
+            "Acronym": "KZO"
+        },
+        {
+            "City": "La Coruna",
+            "State": "Spain",
+            "Acronym": "LCG"
+        },
+        {
+            "City": "La Crosse, WI ",
+            "State": "USA ",
+            "Acronym": "LSE"
+        },
+        {
+            "City": "La Paz",
+            "State": "Mexico",
+            "Acronym": "LAP"
+        },
+        {
+            "City": "La Paz",
+            "State": "Bolivia",
+            "Acronym": "LPB"
+        },
+        {
+            "City": "La Romana",
+            "State": "Dominican Republic",
+            "Acronym": "LRM"
+        },
+        {
+            "City": "La Serena",
+            "State": "Chile",
+            "Acronym": "LSC"
+        },
+        {
+            "City": "Lafayette, LA ",
+            "State": "USA ",
+            "Acronym": "LFT"
+        },
+        {
+            "City": "Lagos",
+            "State": "Nigeria",
+            "Acronym": "LOS"
+        },
+        {
+            "City": "Lahad Datu, Sabah",
+            "State": "Malaysia",
+            "Acronym": "LDU"
+        },
+        {
+            "City": "Lahore",
+            "State": "Pakistan",
+            "Acronym": "LHE"
+        },
+        {
+            "City": "Lake Charles, LA ",
+            "State": "USA ",
+            "Acronym": "LCH"
+        },
+        {
+            "City": "Lake Havasu City, AZ ",
+            "State": "USA ",
+            "Acronym": "HII"
+        },
+        {
+            "City": "Lamezia Terme",
+            "State": "Italy",
+            "Acronym": "SUF"
+        },
+        {
+            "City": "Lanai City, Lanai, HI",
+            "State": "USA ",
+            "Acronym": "LNY"
+        },
+        {
+            "City": "Lancaster, PA ",
+            "State": "USA ",
+            "Acronym": "LNS"
+        },
+        {
+            "City": "Langkawi",
+            "State": "Malaysia",
+            "Acronym": "LGK"
+        },
+        {
+            "City": "Lannion",
+            "State": "France",
+            "Acronym": "LAI"
+        },
+        {
+            "City": "Lansing, MI ",
+            "State": "USA ",
+            "Acronym": "LAN"
+        },
+        {
+            "City": "Lanzhou",
+            "State": "China",
+            "Acronym": "LHW"
+        },
+        {
+            "City": "Laramie, WY ",
+            "State": "USA ",
+            "Acronym": "LAR"
+        },
+        {
+            "City": "Laredo, TX ",
+            "State": "USA ",
+            "Acronym": "LRD"
+        },
+        {
+            "City": "Larnaca",
+            "State": "Cyprus",
+            "Acronym": "LCA"
+        },
+        {
+            "City": "Las Cruces, NM ",
+            "State": "USA ",
+            "Acronym": "LRU"
+        },
+        {
+            "City": "Las Palmas, Grand Canary Island",
+            "State": "Canary Islands",
+            "Acronym": "LPA"
+        },
+        {
+            "City": "Las Vegas, NV ",
+            "State": "USA ",
+            "Acronym": "LAS"
+        },
+        {
+            "City": "Latrobe, PA ",
+            "State": "USA ",
+            "Acronym": "LBE"
+        },
+        {
+            "City": "Launceston, Tas.",
+            "State": "Australia",
+            "Acronym": "LST"
+        },
+        {
+            "City": "Laurel, MS ",
+            "State": "USA ",
+            "Acronym": "PIB"
+        },
+        {
+            "City": "Lawton, OK ",
+            "State": "USA ",
+            "Acronym": "LAW"
+        },
+        {
+            "City": "Lazaro Cardenas",
+            "State": "Mexico",
+            "Acronym": "LZC"
+        },
+        {
+            "City": "Le Havre",
+            "State": "France",
+            "Acronym": "LEH"
+        },
+        {
+            "City": "Lebanon, NH ",
+            "State": "USA ",
+            "Acronym": "LEB"
+        },
+        {
+            "City": "Leeds",
+            "State": "England",
+            "Acronym": "LBA"
+        },
+        {
+            "City": "Legaspi",
+            "State": "Philippines",
+            "Acronym": "LGP"
+        },
+        {
+            "City": "Leipzig",
+            "State": "Germany",
+            "Acronym": "LEJ"
+        },
+        {
+            "City": "Leon",
+            "State": "Mexico",
+            "Acronym": "BJX"
+        },
+        {
+            "City": "Leon",
+            "State": "Spain",
+            "Acronym": "LEN"
+        },
+        {
+            "City": "Lerwick, Shetland Islands",
+            "State": "Scotland",
+            "Acronym": "LSI"
+        },
+        {
+            "City": "Lethbridge, AB",
+            "State": "Canada",
+            "Acronym": "YQL"
+        },
+        {
+            "City": "Lethbridge, AB ",
+            "State": "Canada ",
+            "Acronym": "YQL"
+        },
+        {
+            "City": "Lewiston, ID ",
+            "State": "USA ",
+            "Acronym": "LWS"
+        },
+        {
+            "City": "Lewiston, ME ",
+            "State": "USA ",
+            "Acronym": "LEW"
+        },
+        {
+            "City": "Lewistown, MT ",
+            "State": "USA ",
+            "Acronym": "LWT"
+        },
+        {
+            "City": "Lexington, KY ",
+            "State": "USA ",
+            "Acronym": "LEX"
+        },
+        {
+            "City": "Lhasa, Tibet",
+            "State": "China",
+            "Acronym": "LXA"
+        },
+        {
+            "City": "Liberal, KS",
+            "State": "USA ",
+            "Acronym": "LBL"
+        },
+        {
+            "City": "Liberia",
+            "State": "Costa Rica",
+            "Acronym": "LIR"
+        },
+        {
+            "City": "Libreville",
+            "State": "Gabon",
+            "Acronym": "LBV"
+        },
+        {
+            "City": "Lihue, Kauai, HI",
+            "State": "USA ",
+            "Acronym": "LIH"
+        },
+        {
+            "City": "Lijiang City",
+            "State": "China",
+            "Acronym": "LJG"
+        },
+        {
+            "City": "Lille",
+            "State": "France",
+            "Acronym": "LIL"
+        },
+        {
+            "City": "Lilongwe",
+            "State": "Malawi",
+            "Acronym": "LLW"
+        },
+        {
+            "City": "Lima",
+            "State": "Peru",
+            "Acronym": "LIM"
+        },
+        {
+            "City": "Limoges",
+            "State": "France",
+            "Acronym": "LIG"
+        },
+        {
+            "City": "Lincang",
+            "State": "China",
+            "Acronym": "LNJ"
+        },
+        {
+            "City": "Lincoln, NE ",
+            "State": "USA ",
+            "Acronym": "LNK"
+        },
+        {
+            "City": "Linkoping",
+            "State": "Sweden",
+            "Acronym": "LPI"
+        },
+        {
+            "City": "Linz",
+            "State": "Austria",
+            "Acronym": "LNZ"
+        },
+        {
+            "City": "Lisbon",
+            "State": "Portugal",
+            "Acronym": "LIS"
+        },
+        {
+            "City": "Little Rock, AR ",
+            "State": "USA ",
+            "Acronym": "LIT"
+        },
+        {
+            "City": "Liverpool",
+            "State": "England",
+            "Acronym": "LPL"
+        },
+        {
+            "City": "Ljubljana",
+            "State": "Slovenia",
+            "Acronym": "LJU"
+        },
+        {
+            "City": "Logrono",
+            "State": "Spain",
+            "Acronym": "RJL"
+        },
+        {
+            "City": "Lome",
+            "State": "Togo",
+            "Acronym": "LFW"
+        },
+        {
+            "City": "London",
+            "State": "England",
+            "Acronym": "LCY"
+        },
+        {
+            "City": "London",
+            "State": "England",
+            "Acronym": "LGW"
+        },
+        {
+            "City": "London",
+            "State": "England",
+            "Acronym": "LHR"
+        },
+        {
+            "City": "London",
+            "State": "England",
+            "Acronym": "LON - All Airports"
+        },
+        {
+            "City": "London",
+            "State": "England",
+            "Acronym": "STN"
+        },
+        {
+            "City": "London, ON",
+            "State": "Canada",
+            "Acronym": "YXU"
+        },
+        {
+            "City": "London, ON ",
+            "State": "Canada ",
+            "Acronym": "YXU"
+        },
+        {
+            "City": "Londonderry",
+            "State": "Northern Ireland",
+            "Acronym": "LDY"
+        },
+        {
+            "City": "Long Banga",
+            "State": "Malaysia",
+            "Acronym": "LBP"
+        },
+        {
+            "City": "Long Beach, CA ",
+            "State": "USA ",
+            "Acronym": "LGB"
+        },
+        {
+            "City": "Longreach, Qld.",
+            "State": "Australia",
+            "Acronym": "LRE"
+        },
+        {
+            "City": "Longview, TX ",
+            "State": "USA ",
+            "Acronym": "GGG"
+        },
+        {
+            "City": "Longyearbyen, Svalbard",
+            "State": "Norway",
+            "Acronym": "LYR"
+        },
+        {
+            "City": "Loreto",
+            "State": "Mexico",
+            "Acronym": "LTO"
+        },
+        {
+            "City": "Lorient",
+            "State": "France",
+            "Acronym": "LRT"
+        },
+        {
+            "City": "Los Angeles, CA ",
+            "State": "USA ",
+            "Acronym": "LAX"
+        },
+        {
+            "City": "Los Angeles, CA ",
+            "State": "USA ",
+            "Acronym": "QLA-All"
+        },
+        {
+            "City": "Los Cabos",
+            "State": "Mexico",
+            "Acronym": "SJD"
+        },
+        {
+            "City": "Louisville, KY, USA ",
+            "State": "USA ",
+            "Acronym": "SDF"
+        },
+        {
+            "City": "Lourdes",
+            "State": "France",
+            "Acronym": "LDE"
+        },
+        {
+            "City": "Luanda",
+            "State": "Angola",
+            "Acronym": "LAD"
+        },
+        {
+            "City": "Lubbock, TX ",
+            "State": "USA ",
+            "Acronym": "LBB"
+        },
+        {
+            "City": "Lubumbashi",
+            "State": "Zaire",
+            "Acronym": "FBM"
+        },
+        {
+            "City": "Lugano",
+            "State": "Switzerland",
+            "Acronym": "LUG"
+        },
+        {
+            "City": "Lugansk",
+            "State": "Ukraine",
+            "Acronym": "VSG"
+        },
+        {
+            "City": "Lukla",
+            "State": "Nepal",
+            "Acronym": "LUA"
+        },
+        {
+            "City": "Lulea",
+            "State": "Sweden",
+            "Acronym": "LLA"
+        },
+        {
+            "City": "Lusaka",
+            "State": "Zambia",
+            "Acronym": "LUN"
+        },
+        {
+            "City": "Luton",
+            "State": "England",
+            "Acronym": "LTN"
+        },
+        {
+            "City": "Luxembourg",
+            "State": "Luxembourg",
+            "Acronym": "LUX"
+        },
+        {
+            "City": "Luxor",
+            "State": "Egypt",
+            "Acronym": "LXR"
+        },
+        {
+            "City": "Lycksele",
+            "State": "Sweden",
+            "Acronym": "LYC"
+        },
+        {
+            "City": "Lynchburg, VA ",
+            "State": "USA ",
+            "Acronym": "LYH"
+        },
+        {
+            "City": "Lyon",
+            "State": "France",
+            "Acronym": "LYS"
+        },
+        {
+            "City": "Mackay, Qld.",
+            "State": "Australia",
+            "Acronym": "MKY"
+        },
+        {
+            "City": "Macon, GA ",
+            "State": "USA ",
+            "Acronym": "MCN"
+        },
+        {
+            "City": "Madison, WI ",
+            "State": "USA ",
+            "Acronym": "MSN"
+        },
+        {
+            "City": "Madrid",
+            "State": "Spain",
+            "Acronym": "MAD"
+        },
+        {
+            "City": "Mae Hong Son",
+            "State": "Thailand",
+            "Acronym": "HGN"
+        },
+        {
+            "City": "Magdalens Islands, PQ",
+            "State": "",
+            "Acronym": ""
+        },
+        {
+            "City": "Mahebourg",
+            "State": "Mauritius",
+            "Acronym": "MRU"
+        },
+        {
+            "City": "Majuro",
+            "State": "Marshall Islands",
+            "Acronym": "MAJ"
+        },
+        {
+            "City": "Mala Mala",
+            "State": "South Africa",
+            "Acronym": "AAM"
+        },
+        {
+            "City": "Malabo, Bioko Island",
+            "State": "Equatorial Guinea",
+            "Acronym": "SSG"
+        },
+        {
+            "City": "Malaga",
+            "State": "Spain",
+            "Acronym": "AGP"
+        },
+        {
+            "City": "Male",
+            "State": "Maldives",
+            "Acronym": "MLE"
+        },
+        {
+            "City": "Malmo",
+            "State": "Sweden",
+            "Acronym": "MMA - All Airports"
+        },
+        {
+            "City": "Malmo",
+            "State": "Sweden",
+            "Acronym": "MMX"
+        },
+        {
+            "City": "Managua",
+            "State": "Nicaragua",
+            "Acronym": "MGA"
+        },
+        {
+            "City": "Manama",
+            "State": "Bahrain",
+            "Acronym": "BAH"
+        },
+        {
+            "City": "Manaus",
+            "State": "Brazil",
+            "Acronym": "MAO"
+        },
+        {
+            "City": "Manchester",
+            "State": "England",
+            "Acronym": "MAN"
+        },
+        {
+            "City": "Manchester, NH ",
+            "State": "USA ",
+            "Acronym": "MHT"
+        },
+        {
+            "City": "Mangrove Cay, Andros Island",
+            "State": "Bahamas",
+            "Acronym": "MAY"
+        },
+        {
+            "City": "Manhattan, KS ",
+            "State": "USA ",
+            "Acronym": "MHK"
+        },
+        {
+            "City": "Manila",
+            "State": "Philippines",
+            "Acronym": "MNL"
+        },
+        {
+            "City": "Manistee, MI ",
+            "State": "USA ",
+            "Acronym": "MBL"
+        },
+        {
+            "City": "Manzanillo",
+            "State": "Mexico",
+            "Acronym": "ZLO"
+        },
+        {
+            "City": "Manzini",
+            "State": "Swaziland",
+            "Acronym": "MTS"
+        },
+        {
+            "City": "Mao, Minorca",
+            "State": "Spain",
+            "Acronym": "MAH"
+        },
+        {
+            "City": "Maputo",
+            "State": "Mozambique",
+            "Acronym": "MPM"
+        },
+        {
+            "City": "Maracaibo",
+            "State": "Venezuela",
+            "Acronym": "MAR"
+        },
+        {
+            "City": "Mariehamn, Aland",
+            "State": "Finland",
+            "Acronym": "MHQ"
+        },
+        {
+            "City": "Marilia",
+            "State": "Brazil",
+            "Acronym": "MII"
+        },
+        {
+            "City": "Marion, IL ",
+            "State": "USA ",
+            "Acronym": "MWA"
+        },
+        {
+            "City": "Mariupol",
+            "State": "Ukraine",
+            "Acronym": "MPW"
+        },
+        {
+            "City": "Maroochydore, Qld.",
+            "State": "Australia",
+            "Acronym": "MCY"
+        },
+        {
+            "City": "Marquette, MI ",
+            "State": "USA ",
+            "Acronym": "MQT"
+        },
+        {
+            "City": "Marrakech",
+            "State": "Morocco",
+            "Acronym": "RAK"
+        },
+        {
+            "City": "Marrakech",
+            "State": "Morocco",
+            "Acronym": "RAK"
+        },
+        {
+            "City": "Marseille",
+            "State": "France",
+            "Acronym": "MRS"
+        },
+        {
+            "City": "Marsh Harbour, Abaco Island",
+            "State": "Bahamas",
+            "Acronym": "MHH"
+        },
+        {
+            "City": "Martha's Vineyard, MA ",
+            "State": "USA ",
+            "Acronym": "MVY"
+        },
+        {
+            "City": "Maseru",
+            "State": "Lesotho",
+            "Acronym": "MSU"
+        },
+        {
+            "City": "Mason City, IA ",
+            "State": "USA ",
+            "Acronym": "MCW"
+        },
+        {
+            "City": "Massena, NY ",
+            "State": "USA ",
+            "Acronym": "MSS"
+        },
+        {
+            "City": "Matsu",
+            "State": "Taiwan",
+            "Acronym": "MFK"
+        },
+        {
+            "City": "Matsuyama",
+            "State": "Japan",
+            "Acronym": "MYJ"
+        },
+        {
+            "City": "Mazatlan",
+            "State": "Mexico",
+            "Acronym": "MZT"
+        },
+        {
+            "City": "McAllen, TX ",
+            "State": "USA ",
+            "Acronym": "MFE"
+        },
+        {
+            "City": "McCook, NE ",
+            "State": "USA ",
+            "Acronym": "MCK"
+        },
+        {
+            "City": "Medan, Sumatra",
+            "State": "Indonesia",
+            "Acronym": "MES"
+        },
+        {
+            "City": "Medellin",
+            "State": "Colombia",
+            "Acronym": "MDE"
+        },
+        {
+            "City": "Medford, OR ",
+            "State": "USA ",
+            "Acronym": "MFR"
+        },
+        {
+            "City": "Medicine Hat, AB",
+            "State": "Canada",
+            "Acronym": "YXH"
+        },
+        {
+            "City": "Medicine Hat, AB ",
+            "State": "Canada ",
+            "Acronym": "YXH"
+        },
+        {
+            "City": "Melbourne, FL ",
+            "State": "USA ",
+            "Acronym": "MLB"
+        },
+        {
+            "City": "Melbourne, Vic.",
+            "State": "Australia",
+            "Acronym": "AVV"
+        },
+        {
+            "City": "Melbourne, Vic.",
+            "State": "Australia",
+            "Acronym": "MEL"
+        },
+        {
+            "City": "Melilla",
+            "State": "Spain",
+            "Acronym": "MLN"
+        },
+        {
+            "City": "Memanbetsu",
+            "State": "Japan",
+            "Acronym": "MMB"
+        },
+        {
+            "City": "Memphis, TN ",
+            "State": "USA ",
+            "Acronym": "MEM"
+        },
+        {
+            "City": "Mendoza",
+            "State": "Argentina",
+            "Acronym": "MDZ"
+        },
+        {
+            "City": "Merida",
+            "State": "Mexico",
+            "Acronym": "MID"
+        },
+        {
+            "City": "Meridian, MS ",
+            "State": "USA ",
+            "Acronym": "MEI"
+        },
+        {
+            "City": "Merimbula, N.S.W.",
+            "State": "Australia",
+            "Acronym": "MIM"
+        },
+        {
+            "City": "Metz",
+            "State": "France",
+            "Acronym": "ETZ"
+        },
+        {
+            "City": "Mexicali",
+            "State": "Mexico",
+            "Acronym": "MXL"
+        },
+        {
+            "City": "Mexico City",
+            "State": "Mexico",
+            "Acronym": "MEX"
+        },
+        {
+            "City": "Miami, FL ",
+            "State": "USA ",
+            "Acronym": "MIA"
+        },
+        {
+            "City": "Mian Yang",
+            "State": "China",
+            "Acronym": "MIG"
+        },
+        {
+            "City": "Midland, TX ",
+            "State": "USA ",
+            "Acronym": "MAF"
+        },
+        {
+            "City": "Mikonos",
+            "State": "Greece",
+            "Acronym": "JMK"
+        },
+        {
+            "City": "Milan",
+            "State": "Italy",
+            "Acronym": "LIN"
+        },
+        {
+            "City": "Milan",
+            "State": "Italy",
+            "Acronym": "MIL - All"
+        },
+        {
+            "City": "Milan",
+            "State": "Italy",
+            "Acronym": "MXP"
+        },
+        {
+            "City": "Mildura, Vic.",
+            "State": "Australia",
+            "Acronym": "MQL"
+        },
+        {
+            "City": "Miles City, MT",
+            "State": "USA ",
+            "Acronym": "MLS"
+        },
+        {
+            "City": "Milwaukee, WI ",
+            "State": "USA ",
+            "Acronym": "MKE"
+        },
+        {
+            "City": "Minneapolis, MN ",
+            "State": "USA ",
+            "Acronym": "MSP"
+        },
+        {
+            "City": "Minot, ND ",
+            "State": "USA ",
+            "Acronym": "MOT"
+        },
+        {
+            "City": "Minsk",
+            "State": "Belarus",
+            "Acronym": "MHP"
+        },
+        {
+            "City": "Minsk",
+            "State": "Belarus",
+            "Acronym": "MSQ"
+        },
+        {
+            "City": "Miri, Sarawak",
+            "State": "Malaysia",
+            "Acronym": "MYY"
+        },
+        {
+            "City": "Misawa",
+            "State": "Japan",
+            "Acronym": "MSJ"
+        },
+        {
+            "City": "Missoula, MT ",
+            "State": "USA ",
+            "Acronym": "MSO"
+        },
+        {
+            "City": "Miyazaki",
+            "State": "Japan",
+            "Acronym": "KMI"
+        },
+        {
+            "City": "Mobile, AL ",
+            "State": "USA ",
+            "Acronym": "MOB"
+        },
+        {
+            "City": "Modesto, CA ",
+            "State": "USA ",
+            "Acronym": "MOD"
+        },
+        {
+            "City": "Mogadishu",
+            "State": "Somalia",
+            "Acronym": "MGQ"
+        },
+        {
+            "City": "Moline, IL ",
+            "State": "USA ",
+            "Acronym": "MLI"
+        },
+        {
+            "City": "Mombasa",
+            "State": "Kenya",
+            "Acronym": "MBA"
+        },
+        {
+            "City": "Monastir",
+            "State": "Tunisia",
+            "Acronym": "MIR"
+        },
+        {
+            "City": "Monclova",
+            "State": "Mexico",
+            "Acronym": "LOV"
+        },
+        {
+            "City": "Moncton, NB",
+            "State": "Canada",
+            "Acronym": "YQM"
+        },
+        {
+            "City": "Moncton, NB ",
+            "State": "Canada ",
+            "Acronym": "YQM"
+        },
+        {
+            "City": "Monroe, LA ",
+            "State": "USA ",
+            "Acronym": "MLU"
+        },
+        {
+            "City": "Monrovia",
+            "State": "Liberia",
+            "Acronym": "ROB"
+        },
+        {
+            "City": "Mont-Joli, PQ",
+            "State": "Canada",
+            "Acronym": "YYY"
+        },
+        {
+            "City": "Mont-Joli, PQ ",
+            "State": "Canada ",
+            "Acronym": "YYY"
+        },
+        {
+            "City": "Montego Bay",
+            "State": "Jamaica",
+            "Acronym": "MBJ"
+        },
+        {
+            "City": "Monterey, CA ",
+            "State": "USA ",
+            "Acronym": "MRY"
+        },
+        {
+            "City": "Monterrey",
+            "State": "Mexico",
+            "Acronym": "MTY"
+        },
+        {
+            "City": "Montevideo",
+            "State": "Uruguay",
+            "Acronym": "MVD"
+        },
+        {
+            "City": "Montgomery, AL ",
+            "State": "USA ",
+            "Acronym": "MGM"
+        },
+        {
+            "City": "Montpellier",
+            "State": "France",
+            "Acronym": "MPL"
+        },
+        {
+            "City": "Montreal, PQ",
+            "State": "Canada",
+            "Acronym": "YMQ-All"
+        },
+        {
+            "City": "Montreal, PQ",
+            "State": "Canada",
+            "Acronym": "YUL"
+        },
+        {
+            "City": "Montreal, PQ ",
+            "State": "Canada ",
+            "Acronym": "YMQ All "
+        },
+        {
+            "City": "Montreal, PQ ",
+            "State": "Canada ",
+            "Acronym": "YUL"
+        },
+        {
+            "City": "Montrose, CO ",
+            "State": "USA ",
+            "Acronym": "MTJ"
+        },
+        {
+            "City": "Mora",
+            "State": "Sweden",
+            "Acronym": "MXX"
+        },
+        {
+            "City": "Moree, N.S.W.",
+            "State": "Australia",
+            "Acronym": "MRZ"
+        },
+        {
+            "City": "Morelia",
+            "State": "Mexico",
+            "Acronym": "MLM"
+        },
+        {
+            "City": "Morgantown, WV ",
+            "State": "USA ",
+            "Acronym": "MGW"
+        },
+        {
+            "City": "Moroni",
+            "State": "Comoro Islands",
+            "Acronym": "HAH"
+        },
+        {
+            "City": "Moruya, N.S.W.",
+            "State": "Australia",
+            "Acronym": "MYA"
+        },
+        {
+            "City": "Moscow",
+            "State": "Russia",
+            "Acronym": "MOW All"
+        },
+        {
+            "City": "Moscow",
+            "State": "Russia",
+            "Acronym": "SVO"
+        },
+        {
+            "City": "Moscow",
+            "State": "Russia",
+            "Acronym": "VKO"
+        },
+        {
+            "City": "Moses Lake, WA",
+            "State": "USA ",
+            "Acronym": "MWH"
+        },
+        {
+            "City": "Mount Gambier, S.A.",
+            "State": "Australia",
+            "Acronym": "MGB"
+        },
+        {
+            "City": "Mount Isa, Qld.",
+            "State": "Australia",
+            "Acronym": "ISA"
+        },
+        {
+            "City": "Mudanjiang",
+            "State": "China",
+            "Acronym": "MDG"
+        },
+        {
+            "City": "Mulhouse",
+            "State": "France",
+            "Acronym": "EAP - All"
+        },
+        {
+            "City": "Mulhouse",
+            "State": "France",
+            "Acronym": "MLH"
+        },
+        {
+            "City": "Mulu",
+            "State": "Malaysia",
+            "Acronym": "MZV"
+        },
+        {
+            "City": "Mumbai (Bombay)",
+            "State": "India",
+            "Acronym": "BOM"
+        },
+        {
+            "City": "Munich",
+            "State": "Germany",
+            "Acronym": "MUC"
+        },
+        {
+            "City": "Munster",
+            "State": "Germany",
+            "Acronym": "FMO"
+        },
+        {
+            "City": "Murcia",
+            "State": "Spain",
+            "Acronym": "MJV"
+        },
+        {
+            "City": "Murmansk",
+            "State": "Russia",
+            "Acronym": "MMK"
+        },
+        {
+            "City": "Muscat",
+            "State": "Oman",
+            "Acronym": "MCT"
+        },
+        {
+            "City": "Muscle Shoals, AL",
+            "State": "USA ",
+            "Acronym": "MSL"
+        },
+        {
+            "City": "Muskegon, MI ",
+            "State": "USA ",
+            "Acronym": "MKG"
+        },
+        {
+            "City": "Myrtle Beach, SC ",
+            "State": "USA ",
+            "Acronym": "MYR"
+        },
+        {
+            "City": "Mytilene, Lesbos Island",
+            "State": "Greece",
+            "Acronym": "MJT"
+        },
+        {
+            "City": "N'Djamena",
+            "State": "Chad",
+            "Acronym": "NDJ"
+        },
+        {
+            "City": "Nadi",
+            "State": "Fiji",
+            "Acronym": "NAN"
+        },
+        {
+            "City": "Nador",
+            "State": "Morocco",
+            "Acronym": "NDR"
+        },
+        {
+            "City": "Nagasaki",
+            "State": "Japan",
+            "Acronym": "NGS"
+        },
+        {
+            "City": "Nagoya",
+            "State": "Japan",
+            "Acronym": "NGO"
+        },
+        {
+            "City": "Nagoya",
+            "State": "Japan",
+            "Acronym": "NKM"
+        },
+        {
+            "City": "Naha, Okinawa",
+            "State": "Japan",
+            "Acronym": "OKA"
+        },
+        {
+            "City": "Nairobi",
+            "State": "Kenya",
+            "Acronym": "NBO"
+        },
+        {
+            "City": "Nakhon Si Thammarat",
+            "State": "Thailand",
+            "Acronym": "NST"
+        },
+        {
+            "City": "Nanaimo, BC",
+            "State": "Canada",
+            "Acronym": "YCD"
+        },
+        {
+            "City": "Nanaimo, BC ",
+            "State": "Canada ",
+            "Acronym": "YCD"
+        },
+        {
+            "City": "Nanchang",
+            "State": "China",
+            "Acronym": "KHN"
+        },
+        {
+            "City": "Nangen",
+            "State": "Taiwan",
+            "Acronym": "LZN"
+        },
+        {
+            "City": "Nanjing",
+            "State": "China",
+            "Acronym": "NKG"
+        },
+        {
+            "City": "Nanki Shirahama",
+            "State": "Japan",
+            "Acronym": "SHM"
+        },
+        {
+            "City": "Nanning",
+            "State": "China",
+            "Acronym": "NNG"
+        },
+        {
+            "City": "Nantes",
+            "State": "France",
+            "Acronym": "NTE"
+        },
+        {
+            "City": "Nantucket, MA ",
+            "State": "USA ",
+            "Acronym": "ACK"
+        },
+        {
+            "City": "Napier",
+            "State": "New Zealand",
+            "Acronym": "NPE"
+        },
+        {
+            "City": "Naples",
+            "State": "Italy",
+            "Acronym": "NAP"
+        },
+        {
+            "City": "Naples, FL ",
+            "State": "USA ",
+            "Acronym": "APF"
+        },
+        {
+            "City": "Narrabri, N.S.W.",
+            "State": "Australia",
+            "Acronym": "NAA"
+        },
+        {
+            "City": "Narrandera, N.S.W.",
+            "State": "Australia",
+            "Acronym": "NRA"
+        },
+        {
+            "City": "Narvik",
+            "State": "Norway",
+            "Acronym": "NVK"
+        },
+        {
+            "City": "Naryan Mar",
+            "State": "Russia",
+            "Acronym": "NNM"
+        },
+        {
+            "City": "Nashville, TN ",
+            "State": "USA ",
+            "Acronym": "BNA"
+        },
+        {
+            "City": "Nassau",
+            "State": "Bahamas",
+            "Acronym": "NAS"
+        },
+        {
+            "City": "Nassau",
+            "State": "Bahamas",
+            "Acronym": "PID"
+        },
+        {
+            "City": "Naze, Amami-O Island",
+            "State": "Japan",
+            "Acronym": "ASJ"
+        },
+        {
+            "City": "Nelson",
+            "State": "New Zealand",
+            "Acronym": "NSN"
+        },
+        {
+            "City": "Nelspruit",
+            "State": "South Africa",
+            "Acronym": "MQP"
+        },
+        {
+            "City": "New Bern, NC ",
+            "State": "USA ",
+            "Acronym": "EWN"
+        },
+        {
+            "City": "New Haven, CT ",
+            "State": "USA ",
+            "Acronym": "HVN"
+        },
+        {
+            "City": "New Orleans, LA ",
+            "State": "USA ",
+            "Acronym": "MSY"
+        },
+        {
+            "City": "New York, NY ",
+            "State": "USA ",
+            "Acronym": "JFK"
+        },
+        {
+            "City": "New York, NY ",
+            "State": "USA ",
+            "Acronym": "LGA"
+        },
+        {
+            "City": "New York, NY ",
+            "State": "USA ",
+            "Acronym": "NYC -All"
+        },
+        {
+            "City": "Newark, NJ ",
+            "State": "USA ",
+            "Acronym": "EWR"
+        },
+        {
+            "City": "Newburgh, NY ",
+            "State": "USA ",
+            "Acronym": "SWF"
+        },
+        {
+            "City": "Newcastle",
+            "State": "England",
+            "Acronym": "NCL"
+        },
+        {
+            "City": "Newcastle, N.S.W.",
+            "State": "Australia",
+            "Acronym": "NTL"
+        },
+        {
+            "City": "Newman, W.A.",
+            "State": "Australia",
+            "Acronym": "ZNE"
+        },
+        {
+            "City": "Newport News, VA ",
+            "State": "USA ",
+            "Acronym": "PHF"
+        },
+        {
+            "City": "Niamey",
+            "State": "Niger",
+            "Acronym": "NIM"
+        },
+        {
+            "City": "Nice",
+            "State": "France",
+            "Acronym": "NCE"
+        },
+        {
+            "City": "Niigata",
+            "State": "Japan",
+            "Acronym": "KIJ"
+        },
+        {
+            "City": "Ningbo",
+            "State": "China",
+            "Acronym": "NGB"
+        },
+        {
+            "City": "Nizhniy Novgorod",
+            "State": "Russia",
+            "Acronym": "GOJ"
+        },
+        {
+            "City": "Nome, AK ",
+            "State": "USA ",
+            "Acronym": "OME"
+        },
+        {
+            "City": "Norfolk, VA ",
+            "State": "USA ",
+            "Acronym": "ORF"
+        },
+        {
+            "City": "Norrkoping",
+            "State": "Sweden",
+            "Acronym": "NRK"
+        },
+        {
+            "City": "North Bay, ON",
+            "State": "Canada",
+            "Acronym": "YYB"
+        },
+        {
+            "City": "North Bay, ON ",
+            "State": "Canada ",
+            "Acronym": "YYB"
+        },
+        {
+            "City": "North Bend, OR ",
+            "State": "USA ",
+            "Acronym": "OTH"
+        },
+        {
+            "City": "North Eleuthera",
+            "State": "Bahamas",
+            "Acronym": "ELH"
+        },
+        {
+            "City": "North Platte, NE ",
+            "State": "USA ",
+            "Acronym": "LBF"
+        },
+        {
+            "City": "Norwich",
+            "State": "England",
+            "Acronym": "NWI"
+        },
+        {
+            "City": "Nouakchott",
+            "State": "Mauritania",
+            "Acronym": "NKC"
+        },
+        {
+            "City": "Noumea",
+            "State": "New Caledonia",
+            "Acronym": "GEA"
+        },
+        {
+            "City": "Noumea",
+            "State": "New Caledonia",
+            "Acronym": "NOU"
+        },
+        {
+            "City": "Novosibirsk, Siberia",
+            "State": "Russia",
+            "Acronym": "OVB"
+        },
+        {
+            "City": "Nuevo Laredo",
+            "State": "Mexico",
+            "Acronym": "NLD"
+        },
+        {
+            "City": "Nuremberg",
+            "State": "Germany",
+            "Acronym": "NUE"
+        },
+        {
+            "City": "Oakland, CA ",
+            "State": "USA ",
+            "Acronym": "OAK"
+        },
+        {
+            "City": "Oaxaca",
+            "State": "Mexico",
+            "Acronym": "OAX"
+        },
+        {
+            "City": "Obihiro",
+            "State": "Japan",
+            "Acronym": "OBO"
+        },
+        {
+            "City": "Ocho Rios",
+            "State": "Jamaica",
+            "Acronym": "OCJ"
+        },
+        {
+            "City": "Odate Noshiro",
+            "State": "Japan",
+            "Acronym": "ONJ"
+        },
+        {
+            "City": "Odessa",
+            "State": "Ukraine",
+            "Acronym": "ODS"
+        },
+        {
+            "City": "Ogdensburg, NY ",
+            "State": "USA ",
+            "Acronym": "OGS"
+        },
+        {
+            "City": "Oita",
+            "State": "Japan",
+            "Acronym": "OIT"
+        },
+        {
+            "City": "Oklahoma City, OK ",
+            "State": "USA ",
+            "Acronym": "OKC"
+        },
+        {
+            "City": "Olbia, Sardinia",
+            "State": "Italy",
+            "Acronym": "OLB"
+        },
+        {
+            "City": "Olympic Dam, S.A.",
+            "State": "Australia",
+            "Acronym": "OLP"
+        },
+        {
+            "City": "Omaha, NE ",
+            "State": "USA ",
+            "Acronym": "OMA"
+        },
+        {
+            "City": "Omsk, Siberia",
+            "State": "Russia",
+            "Acronym": "OMS"
+        },
+        {
+            "City": "Ontario, CA ",
+            "State": "USA ",
+            "Acronym": "ONT"
+        },
+        {
+            "City": "Orange County, CA ",
+            "State": "USA ",
+            "Acronym": "SNA"
+        },
+        {
+            "City": "Orange, N.S.W.",
+            "State": "Australia",
+            "Acronym": "OAG"
+        },
+        {
+            "City": "Oranjestad",
+            "State": "Aruba",
+            "Acronym": "AUA"
+        },
+        {
+            "City": "Oranjestad",
+            "State": "St. Eustatius",
+            "Acronym": "EUX"
+        },
+        {
+            "City": "Orebro",
+            "State": "Sweden",
+            "Acronym": "ORB"
+        },
+        {
+            "City": "Orlando, FL ",
+            "State": "USA ",
+            "Acronym": "MCO"
+        },
+        {
+            "City": "Ornskoldsvik",
+            "State": "Sweden",
+            "Acronym": "OER"
+        },
+        {
+            "City": "Osaka",
+            "State": "Japan",
+            "Acronym": "ITM"
+        },
+        {
+            "City": "Osaka",
+            "State": "Japan",
+            "Acronym": "KIX"
+        },
+        {
+            "City": "Osaka",
+            "State": "Japan",
+            "Acronym": "OSA - All Airports"
+        },
+        {
+            "City": "Oshkosh, WI ",
+            "State": "USA ",
+            "Acronym": "OSH"
+        },
+        {
+            "City": "Oslo",
+            "State": "Norway",
+            "Acronym": "OSL"
+        },
+        {
+            "City": "Osorno",
+            "State": "Chile",
+            "Acronym": "ZOS"
+        },
+        {
+            "City": "Ostersund",
+            "State": "Sweden",
+            "Acronym": "OSD"
+        },
+        {
+            "City": "Ostrava",
+            "State": "Czech Republic",
+            "Acronym": "OSR"
+        },
+        {
+            "City": "Ottawa, ON",
+            "State": "Canada",
+            "Acronym": "YOW"
+        },
+        {
+            "City": "Ottawa, ON ",
+            "State": "Canada ",
+            "Acronym": "YOW"
+        },
+        {
+            "City": "Ouagadougou",
+            "State": "Burkina Faso",
+            "Acronym": "OUA"
+        },
+        {
+            "City": "Oulu",
+            "State": "Finland",
+            "Acronym": "OUL"
+        },
+        {
+            "City": "Owensboro, KY ",
+            "State": "USA ",
+            "Acronym": "OWB"
+        },
+        {
+            "City": "Oxnard, CA ",
+            "State": "USA ",
+            "Acronym": "OXR"
+        },
+        {
+            "City": "Paderborn",
+            "State": "Germany",
+            "Acronym": "PAD"
+        },
+        {
+            "City": "Paducah, KY ",
+            "State": "USA ",
+            "Acronym": "PAH"
+        },
+        {
+            "City": "Page, AZ",
+            "State": "USA ",
+            "Acronym": "PGA"
+        },
+        {
+            "City": "Pago Pago, Tutuila",
+            "State": "American Samoa",
+            "Acronym": "PPG"
+        },
+        {
+            "City": "Pajala",
+            "State": "Sweden",
+            "Acronym": "PJA"
+        },
+        {
+            "City": "Palembang, Sumatra",
+            "State": "Indonesia",
+            "Acronym": "PLM"
+        },
+        {
+            "City": "Palermo, Sicily",
+            "State": "Italy",
+            "Acronym": "PMO"
+        },
+        {
+            "City": "Palm Springs, CA ",
+            "State": "USA ",
+            "Acronym": "PSP"
+        },
+        {
+            "City": "Palma, Mallorca",
+            "State": "Spain",
+            "Acronym": "PMI"
+        },
+        {
+            "City": "Palmas",
+            "State": "Brazil",
+            "Acronym": "PMW"
+        },
+        {
+            "City": "Palmerston North",
+            "State": "New Zealand",
+            "Acronym": "PMR"
+        },
+        {
+            "City": "Pamplona",
+            "State": "Spain",
+            "Acronym": "PNA"
+        },
+        {
+            "City": "Panama City",
+            "State": "Panama",
+            "Acronym": "PTY"
+        },
+        {
+            "City": "Panama City, FL ",
+            "State": "USA ",
+            "Acronym": "PFN"
+        },
+        {
+            "City": "Papeete, Tahiti",
+            "State": "French Polynesia",
+            "Acronym": "PPT"
+        },
+        {
+            "City": "Paphos",
+            "State": "Cyprus",
+            "Acronym": "PFO"
+        },
+        {
+            "City": "Paraburdoo, W.A.",
+            "State": "Australia",
+            "Acronym": "PBO"
+        },
+        {
+            "City": "Paramaribo",
+            "State": "Suriname",
+            "Acronym": "PBM"
+        },
+        {
+            "City": "Paris",
+            "State": "France",
+            "Acronym": "CDG"
+        },
+        {
+            "City": "Paris",
+            "State": "France",
+            "Acronym": "ORY"
+        },
+        {
+            "City": "Paris",
+            "State": "France",
+            "Acronym": "PAR -All"
+        },
+        {
+            "City": "Parkersburg, WV ",
+            "State": "USA ",
+            "Acronym": "PKB"
+        },
+        {
+            "City": "Parkes, N.S.W.",
+            "State": "Australia",
+            "Acronym": "PKE"
+        },
+        {
+            "City": "Pasco, WA ",
+            "State": "USA ",
+            "Acronym": "PSC"
+        },
+        {
+            "City": "Pau",
+            "State": "France",
+            "Acronym": "PUF"
+        },
+        {
+            "City": "Pellston, MI ",
+            "State": "USA ",
+            "Acronym": "PLN"
+        },
+        {
+            "City": "Penang, Penang Island",
+            "State": "Malaysia",
+            "Acronym": "PEN"
+        },
+        {
+            "City": "Pendleton, OR ",
+            "State": "USA ",
+            "Acronym": "PDT"
+        },
+        {
+            "City": "Pensacola, FL ",
+            "State": "USA ",
+            "Acronym": "PNS"
+        },
+        {
+            "City": "Penticton, BC",
+            "State": "Canada",
+            "Acronym": "YYF"
+        },
+        {
+            "City": "Penticton, BC ",
+            "State": "Canada ",
+            "Acronym": "YYF"
+        },
+        {
+            "City": "Peoria, IL ",
+            "State": "USA ",
+            "Acronym": "PIA"
+        },
+        {
+            "City": "Perpignan",
+            "State": "France",
+            "Acronym": "PGF"
+        },
+        {
+            "City": "Perth, W.A.",
+            "State": "Australia",
+            "Acronym": "PER"
+        },
+        {
+            "City": "Perugia",
+            "State": "Italy",
+            "Acronym": "PEG"
+        },
+        {
+            "City": "Peshawar",
+            "State": "Pakistan",
+            "Acronym": "PEW"
+        },
+        {
+            "City": "Petropavlovsk-Kamchatsky, Siberia",
+            "State": "Russia",
+            "Acronym": "PKC"
+        },
+        {
+            "City": "Philadelphia, PA ",
+            "State": "USA ",
+            "Acronym": "PHL"
+        },
+        {
+            "City": "Philipsburg",
+            "State": "St. Maarten",
+            "Acronym": "SXM"
+        },
+        {
+            "City": "Phitsanulok",
+            "State": "Thailand",
+            "Acronym": "PHS"
+        },
+        {
+            "City": "Phnom Penh",
+            "State": "Cambodia",
+            "Acronym": "PNH"
+        },
+        {
+            "City": "Phoenix, AZ ",
+            "State": "USA ",
+            "Acronym": "PHX"
+        },
+        {
+            "City": "Phuket",
+            "State": "Thailand",
+            "Acronym": "HKT"
+        },
+        {
+            "City": "Piedras Negras",
+            "State": "Mexico",
+            "Acronym": "PDS"
+        },
+        {
+            "City": "Pierre, SD ",
+            "State": "USA ",
+            "Acronym": "PIR"
+        },
+        {
+            "City": "Pinehurst, NC ",
+            "State": "USA ",
+            "Acronym": "SOP"
+        },
+        {
+            "City": "Pisa",
+            "State": "Italy",
+            "Acronym": "PSA"
+        },
+        {
+            "City": "Pittsburgh, PA ",
+            "State": "USA ",
+            "Acronym": "PIT"
+        },
+        {
+            "City": "Placencia",
+            "State": "Belize",
+            "Acronym": "PLJ"
+        },
+        {
+            "City": "Plattsburgh, NY ",
+            "State": "USA ",
+            "Acronym": "PLB"
+        },
+        {
+            "City": "Pleiku",
+            "State": "Vietnam",
+            "Acronym": "PXU"
+        },
+        {
+            "City": "Pocatello, ID ",
+            "State": "USA ",
+            "Acronym": "PIH"
+        },
+        {
+            "City": "Pohnpei",
+            "State": "Micronesia",
+            "Acronym": "PNI"
+        },
+        {
+            "City": "Pointe-A-Pitre, Grande-Terre",
+            "State": "Guadeloupe",
+            "Acronym": "PTP"
+        },
+        {
+            "City": "Ponca City, OK ",
+            "State": "USA ",
+            "Acronym": "PNC"
+        },
+        {
+            "City": "Ponta Delgada, Sao Miguel Island",
+            "State": "Azores",
+            "Acronym": "PDL"
+        },
+        {
+            "City": "Port Hardy, BC",
+            "State": "Canada",
+            "Acronym": "YZT"
+        },
+        {
+            "City": "Port Hardy, BC",
+            "State": "Canada ",
+            "Acronym": "YZT"
+        },
+        {
+            "City": "Port Hedland, W.A.",
+            "State": "Australia",
+            "Acronym": "PHE"
+        },
+        {
+            "City": "Port Lincoln, S.A.",
+            "State": "Australia",
+            "Acronym": "PLO"
+        },
+        {
+            "City": "Port Macquarie, N.S.W.",
+            "State": "Australia",
+            "Acronym": "PQQ"
+        },
+        {
+            "City": "Port Moresby",
+            "State": "Papua-New Guinea",
+            "Acronym": "POM"
+        },
+        {
+            "City": "Port of Spain",
+            "State": "Trinidad and Tobago",
+            "Acronym": "POS"
+        },
+        {
+            "City": "Port Vila, Efate Island",
+            "State": "Vanuatu",
+            "Acronym": "VLI"
+        },
+        {
+            "City": "Port-au-Prince",
+            "State": "Haiti",
+            "Acronym": "PAP"
+        },
+        {
+            "City": "Portland, ME ",
+            "State": "USA ",
+            "Acronym": "PWM"
+        },
+        {
+            "City": "Portland, OR ",
+            "State": "USA ",
+            "Acronym": "PDX"
+        },
+        {
+            "City": "Portland, Vic.",
+            "State": "Australia",
+            "Acronym": "PTJ"
+        },
+        {
+            "City": "Porto",
+            "State": "Portugal",
+            "Acronym": "OPO"
+        },
+        {
+            "City": "Porto Alegre",
+            "State": "Brazil",
+            "Acronym": "POA"
+        },
+        {
+            "City": "Porto Santo",
+            "State": "Madeira",
+            "Acronym": "PXO"
+        },
+        {
+            "City": "Portsmouth, NH ",
+            "State": "USA ",
+            "Acronym": "PSM"
+        },
+        {
+            "City": "Powell River, BC",
+            "State": "Canada",
+            "Acronym": "YPW"
+        },
+        {
+            "City": "Powell River, BC ",
+            "State": "Canada ",
+            "Acronym": "YPW"
+        },
+        {
+            "City": "Poznan",
+            "State": "Poland",
+            "Acronym": "POZ"
+        },
+        {
+            "City": "Prague",
+            "State": "Czech Republic",
+            "Acronym": "PRG"
+        },
+        {
+            "City": "Prescott, AZ ",
+            "State": "USA ",
+            "Acronym": "PRC"
+        },
+        {
+            "City": "Presque Isle, ME ",
+            "State": "USA ",
+            "Acronym": "PQI"
+        },
+        {
+            "City": "Prince George, BC",
+            "State": "Canada",
+            "Acronym": "YXS"
+        },
+        {
+            "City": "Prince George, BC ",
+            "State": "Canada ",
+            "Acronym": "YXS"
+        },
+        {
+            "City": "Prince Rupert, BC",
+            "State": "Canada",
+            "Acronym": "YPR"
+        },
+        {
+            "City": "Prince Rupert, BC ",
+            "State": "Canada ",
+            "Acronym": "YPR"
+        },
+        {
+            "City": "Proserpine, Qld.",
+            "State": "Australia",
+            "Acronym": "PPP"
+        },
+        {
+            "City": "Providence, RI ",
+            "State": "USA ",
+            "Acronym": "PVD"
+        },
+        {
+            "City": "Providenciales Island",
+            "State": "Turks and Caicos Islands",
+            "Acronym": "PLS"
+        },
+        {
+            "City": "Provincetown, MA ",
+            "State": "USA ",
+            "Acronym": "PVC"
+        },
+        {
+            "City": "Pucon",
+            "State": "Chile",
+            "Acronym": "ZPC"
+        },
+        {
+            "City": "Puebla",
+            "State": "Mexico",
+            "Acronym": "PBC"
+        },
+        {
+            "City": "Pueblo, CO ",
+            "State": "USA ",
+            "Acronym": "PUB"
+        },
+        {
+            "City": "Puerto del Rosario, Fuerteventura Island",
+            "State": "Canary Islands",
+            "Acronym": "FUE"
+        },
+        {
+            "City": "Puerto Escondido",
+            "State": "Mexico",
+            "Acronym": "PXM"
+        },
+        {
+            "City": "Puerto Montt",
+            "State": "Chile",
+            "Acronym": "PMC"
+        },
+        {
+            "City": "Puerto Plata",
+            "State": "Dominican Republic",
+            "Acronym": "POP"
+        },
+        {
+            "City": "Puerto Princesa",
+            "State": "Philippines",
+            "Acronym": "PPS"
+        },
+        {
+            "City": "Puerto Vallarta",
+            "State": "Mexico",
+            "Acronym": "PVR"
+        },
+        {
+            "City": "Pullman, WA ",
+            "State": "USA ",
+            "Acronym": "PUW"
+        },
+        {
+            "City": "Punta Arenas, Tierra del Fuego",
+            "State": "Chile",
+            "Acronym": "PUQ"
+        },
+        {
+            "City": "Punta Cana",
+            "State": "Dominican Republic",
+            "Acronym": "PUJ"
+        },
+        {
+            "City": "Punta Gorda",
+            "State": "Belize",
+            "Acronym": "PND"
+        },
+        {
+            "City": "Puttaparthi",
+            "State": "India",
+            "Acronym": "PUT"
+        },
+        {
+            "City": "Pyongyang",
+            "State": "North Korea",
+            "Acronym": "FNJ"
+        },
+        {
+            "City": "Qingdao",
+            "State": "China",
+            "Acronym": "TAO"
+        },
+        {
+            "City": "Quebec, PQ",
+            "State": "Canada",
+            "Acronym": "YQB"
+        },
+        {
+            "City": "Quebec, PQ ",
+            "State": "Canada ",
+            "Acronym": "YQB"
+        },
+        {
+            "City": "Queenstown",
+            "State": "New Zealand",
+            "Acronym": "ZQN"
+        },
+        {
+            "City": "Queretaro",
+            "State": "Mexico",
+            "Acronym": "QRO"
+        },
+        {
+            "City": "Quesnel, BC",
+            "State": "Canada",
+            "Acronym": "YQZ"
+        },
+        {
+            "City": "Quesnel, BC ",
+            "State": "Canada ",
+            "Acronym": "YQZ"
+        },
+        {
+            "City": "Quimper",
+            "State": "France",
+            "Acronym": "UIP"
+        },
+        {
+            "City": "Quincy, IL ",
+            "State": "USA ",
+            "Acronym": "UIN"
+        },
+        {
+            "City": "Quito",
+            "State": "Ecuador",
+            "Acronym": "UIO"
+        },
+        {
+            "City": "Rach Gia",
+            "State": "Vietnam",
+            "Acronym": "VKG"
+        },
+        {
+            "City": "Raleigh, NC ",
+            "State": "USA ",
+            "Acronym": "RDU"
+        },
+        {
+            "City": "Rangoon",
+            "State": "Myanmar (Burma)",
+            "Acronym": "RGN"
+        },
+        {
+            "City": "Rankin Inlet, NWT",
+            "State": "Canada",
+            "Acronym": "YRT"
+        },
+        {
+            "City": "Rankin Inlet, NWT",
+            "State": "Canada ",
+            "Acronym": "YRT"
+        },
+        {
+            "City": "Ranong",
+            "State": "Thailand",
+            "Acronym": "UNN"
+        },
+        {
+            "City": "Rapid City, SD ",
+            "State": "USA ",
+            "Acronym": "RAP"
+        },
+        {
+            "City": "Recife",
+            "State": "Brazil",
+            "Acronym": "REC"
+        },
+        {
+            "City": "Red Lake, ON",
+            "State": "Canada",
+            "Acronym": "YRL"
+        },
+        {
+            "City": "Red Lake, ON ",
+            "State": "Canada ",
+            "Acronym": "YRL"
+        },
+        {
+            "City": "Redding, CA ",
+            "State": "USA ",
+            "Acronym": "RDD"
+        },
+        {
+            "City": "Redmond, OR ",
+            "State": "USA ",
+            "Acronym": "RDM"
+        },
+        {
+            "City": "Reggio di Calabria",
+            "State": "Italy",
+            "Acronym": "REG"
+        },
+        {
+            "City": "Regina, SK",
+            "State": "Canada",
+            "Acronym": "YQR"
+        },
+        {
+            "City": "Regina, SK ",
+            "State": "Canada ",
+            "Acronym": "YQR"
+        },
+        {
+            "City": "Rennes",
+            "State": "France",
+            "Acronym": "RNS"
+        },
+        {
+            "City": "Reno, NV ",
+            "State": "USA ",
+            "Acronym": "RNO"
+        },
+        {
+            "City": "Reykjavik",
+            "State": "Iceland",
+            "Acronym": "KEF"
+        },
+        {
+            "City": "Reykjavik",
+            "State": "Iceland",
+            "Acronym": "REK - All Airports"
+        },
+        {
+            "City": "Reykjavik",
+            "State": "Iceland",
+            "Acronym": "RKV"
+        },
+        {
+            "City": "Reynosa",
+            "State": "Mexico",
+            "Acronym": "REX"
+        },
+        {
+            "City": "Rhinelander, WI",
+            "State": "USA ",
+            "Acronym": "RHI"
+        },
+        {
+            "City": "Rhodes",
+            "State": "Greece",
+            "Acronym": "RHO"
+        },
+        {
+            "City": "Richmond, VA ",
+            "State": "USA ",
+            "Acronym": "RIC"
+        },
+        {
+            "City": "Riga",
+            "State": "Latvia",
+            "Acronym": "RIX"
+        },
+        {
+            "City": "Rimini",
+            "State": "Italy",
+            "Acronym": "RMI"
+        },
+        {
+            "City": "Rio de Janeiro",
+            "State": "Brazil",
+            "Acronym": "GIG"
+        },
+        {
+            "City": "Rio de Janeiro",
+            "State": "Brazil",
+            "Acronym": "RIO - All Airports"
+        },
+        {
+            "City": "Rio de Janeiro",
+            "State": "Brazil",
+            "Acronym": "SDU"
+        },
+        {
+            "City": "Riverton, WY ",
+            "State": "USA ",
+            "Acronym": "RIW"
+        },
+        {
+            "City": "Riyadh",
+            "State": "Saudi Arabia",
+            "Acronym": "RUH"
+        },
+        {
+            "City": "Roanoke, VA ",
+            "State": "USA ",
+            "Acronym": "ROA"
+        },
+        {
+            "City": "Roberval, PQ",
+            "State": "Canada",
+            "Acronym": "YRJ"
+        },
+        {
+            "City": "Roberval, PQ ",
+            "State": "Canada ",
+            "Acronym": "YRJ"
+        },
+        {
+            "City": "Rochester, MN ",
+            "State": "USA ",
+            "Acronym": "RST"
+        },
+        {
+            "City": "Rochester, NY ",
+            "State": "USA ",
+            "Acronym": "ROC"
+        },
+        {
+            "City": "Rock Sound",
+            "State": "Bahamas",
+            "Acronym": "RSD"
+        },
+        {
+            "City": "Rock Springs, WY ",
+            "State": "USA ",
+            "Acronym": "RKS"
+        },
+        {
+            "City": "Rockford, IL ",
+            "State": "USA ",
+            "Acronym": "RFD"
+        },
+        {
+            "City": "Rockhampton, Qld.",
+            "State": "Australia",
+            "Acronym": "ROK"
+        },
+        {
+            "City": "Rockland, ME ",
+            "State": "USA ",
+            "Acronym": "RKD"
+        },
+        {
+            "City": "Rodez",
+            "State": "France",
+            "Acronym": "RDZ"
+        },
+        {
+            "City": "Roma, Qld.",
+            "State": "Australia",
+            "Acronym": "RMA"
+        },
+        {
+            "City": "Rome",
+            "State": "Italy",
+            "Acronym": "CIA"
+        },
+        {
+            "City": "Rome",
+            "State": "Italy (FCO-Leonardo Da Vinci",
+            "Acronym": "FCO"
+        },
+        {
+            "City": "Rome",
+            "State": "Italy",
+            "Acronym": "ROM-All"
+        },
+        {
+            "City": "Ronne",
+            "State": "Denmark",
+            "Acronym": "RNN"
+        },
+        {
+            "City": "Ronneby",
+            "State": "Sweden",
+            "Acronym": "RNB"
+        },
+        {
+            "City": "Roseau",
+            "State": "Dominica",
+            "Acronym": "DOM"
+        },
+        {
+            "City": "Rostov",
+            "State": "Russia",
+            "Acronym": "ROV"
+        },
+        {
+            "City": "Roswell, NM ",
+            "State": "USA ",
+            "Acronym": "ROW"
+        },
+        {
+            "City": "Rotorua",
+            "State": "New Zealand",
+            "Acronym": "ROT"
+        },
+        {
+            "City": "Rotterdam",
+            "State": "Netherlands",
+            "Acronym": "RTM"
+        },
+        {
+            "City": "Rouen",
+            "State": "France",
+            "Acronym": "URO"
+        },
+        {
+            "City": "Rouyn-Noranda, PQ",
+            "State": "Canada",
+            "Acronym": "YUY"
+        },
+        {
+            "City": "Rouyn-Noranda, PQ ",
+            "State": "Canada ",
+            "Acronym": "YUY"
+        },
+        {
+            "City": "Rovaniemi",
+            "State": "Finland",
+            "Acronym": "RVN"
+        },
+        {
+            "City": "Roxas City",
+            "State": "Philippines",
+            "Acronym": "RXS"
+        },
+        {
+            "City": "Rutland, VT ",
+            "State": "USA ",
+            "Acronym": "RUT"
+        },
+        {
+            "City": "Rzeszow",
+            "State": "Poland",
+            "Acronym": "RZE"
+        },
+        {
+            "City": "Saba Island",
+            "State": "Saba",
+            "Acronym": "SAB"
+        },
+        {
+            "City": "Sacramento, CA ",
+            "State": "USA ",
+            "Acronym": "SMF"
+        },
+        {
+            "City": "Saga",
+            "State": "Japan",
+            "Acronym": "HSG"
+        },
+        {
+            "City": "Saginaw, MI ",
+            "State": "USA ",
+            "Acronym": "MBS"
+        },
+        {
+            "City": "Saint John, NB",
+            "State": "Canada",
+            "Acronym": "YSJ"
+        },
+        {
+            "City": "Saint John, NB ",
+            "State": "Canada ",
+            "Acronym": "YSJ"
+        },
+        {
+            "City": "Saint-Denis",
+            "State": "Reunion",
+            "Acronym": "RUN"
+        },
+        {
+            "City": "Saint-Pierre",
+            "State": "Reunion",
+            "Acronym": "ZSE"
+        },
+        {
+            "City": "Saipan",
+            "State": "Northern Mariana Islands",
+            "Acronym": "SPN"
+        },
+        {
+            "City": "Salina, KS ",
+            "State": "USA ",
+            "Acronym": "SLN"
+        },
+        {
+            "City": "Salisbury, MD ",
+            "State": "USA ",
+            "Acronym": "SBY"
+        },
+        {
+            "City": "Salt Lake City, UT ",
+            "State": "USA ",
+            "Acronym": "SLC"
+        },
+        {
+            "City": "Saltillo",
+            "State": "Mexico",
+            "Acronym": "SLW"
+        },
+        {
+            "City": "Salvador",
+            "State": "Brazil",
+            "Acronym": "SSA"
+        },
+        {
+            "City": "Salzburg",
+            "State": "Austria",
+            "Acronym": "SZG"
+        },
+        {
+            "City": "Samsun",
+            "State": "Turkey",
+            "Acronym": "SZF"
+        },
+        {
+            "City": "San Andres",
+            "State": "Colombia",
+            "Acronym": "ADZ"
+        },
+        {
+            "City": "San Andros",
+            "State": "Bahamas",
+            "Acronym": "SAQ"
+        },
+        {
+            "City": "San Angelo, TX ",
+            "State": "USA ",
+            "Acronym": "SJT"
+        },
+        {
+            "City": "San Antonio, TX ",
+            "State": "USA ",
+            "Acronym": "SAT"
+        },
+        {
+            "City": "San Carlos de Bariloche",
+            "State": "Argentina",
+            "Acronym": "BRC"
+        },
+        {
+            "City": "San Diego, CA ",
+            "State": "USA ",
+            "Acronym": "SAN"
+        },
+        {
+            "City": "San Francisco, CA ",
+            "State": "USA ",
+            "Acronym": "QSF -All"
+        },
+        {
+            "City": "San Francisco, CA ",
+            "State": "USA ",
+            "Acronym": "SFO"
+        },
+        {
+            "City": "San Jose",
+            "State": "Costa Rica",
+            "Acronym": "SJO"
+        },
+        {
+            "City": "San Jose, CA ",
+            "State": "USA ",
+            "Acronym": "SJC"
+        },
+        {
+            "City": "San Juan",
+            "State": "Puerto Rico",
+            "Acronym": "SJU"
+        },
+        {
+            "City": "San Luis Obispo, CA ",
+            "State": "USA ",
+            "Acronym": "SBP"
+        },
+        {
+            "City": "San Luis Potosi",
+            "State": "Mexico",
+            "Acronym": "SLP"
+        },
+        {
+            "City": "San Salvador",
+            "State": "El Salvador",
+            "Acronym": "SAL"
+        },
+        {
+            "City": "San Sebastian",
+            "State": "Spain",
+            "Acronym": "EAS"
+        },
+        {
+            "City": "Sanaa",
+            "State": "Yemen",
+            "Acronym": "SAH"
+        },
+        {
+            "City": "Sand Point, AK ",
+            "State": "USA ",
+            "Acronym": "SDP"
+        },
+        {
+            "City": "Sandakan, Sabah",
+            "State": "Malaysia",
+            "Acronym": "SDK"
+        },
+        {
+            "City": "Sandefjord",
+            "State": "Norway",
+            "Acronym": "TRF"
+        },
+        {
+            "City": "Sandspit, Queen Charlotte Islands, BC",
+            "State": "Canada",
+            "Acronym": "YZP"
+        },
+        {
+            "City": "Sandspit, Queen Charlotte Islands, BC",
+            "State": "Canada ",
+            "Acronym": "YZP"
+        },
+        {
+            "City": "Santa Barbara, CA ",
+            "State": "USA ",
+            "Acronym": "SBA"
+        },
+        {
+            "City": "Santa Cruz",
+            "State": "Spain",
+            "Acronym": "SPC"
+        },
+        {
+            "City": "Santa Cruz de Tenerife",
+            "State": "Canary Islands",
+            "Acronym": "TFN"
+        },
+        {
+            "City": "Santa Fe, NM ",
+            "State": "USA ",
+            "Acronym": "SAF"
+        },
+        {
+            "City": "Santa Maria, CA ",
+            "State": "USA ",
+            "Acronym": "SMX"
+        },
+        {
+            "City": "Santa Maria, Sal Island",
+            "State": "Cape Verde",
+            "Acronym": "SID"
+        },
+        {
+            "City": "Santa Rosa",
+            "State": "Argentina",
+            "Acronym": "RSA"
+        },
+        {
+            "City": "Santa Rosa, CA ",
+            "State": "USA ",
+            "Acronym": "STS"
+        },
+        {
+            "City": "Santander",
+            "State": "Spain",
+            "Acronym": "SDR"
+        },
+        {
+            "City": "Santiago",
+            "State": "Chile",
+            "Acronym": "SCL"
+        },
+        {
+            "City": "Santiago",
+            "State": "Dominican Republic",
+            "Acronym": "STI"
+        },
+        {
+            "City": "Santo Domingo",
+            "State": "Dominican Republic",
+            "Acronym": "SDQ"
+        },
+        {
+            "City": "Sanya",
+            "State": "China",
+            "Acronym": "SYX"
+        },
+        {
+            "City": "Sao Jose So Rio Preto",
+            "State": "Brazil",
+            "Acronym": "SJP"
+        },
+        {
+            "City": "Sao Paulo",
+            "State": "Brazil",
+            "Acronym": "CGH"
+        },
+        {
+            "City": "Sao Paulo",
+            "State": "Brazil",
+            "Acronym": "GRU"
+        },
+        {
+            "City": "Sao Paulo",
+            "State": "Brazil",
+            "Acronym": "SAO - All Airports"
+        },
+        {
+            "City": "Sapporo",
+            "State": "Japan",
+            "Acronym": "CTS"
+        },
+        {
+            "City": "Sapporo",
+            "State": "Japan",
+            "Acronym": "OKD"
+        },
+        {
+            "City": "Sarajevo",
+            "State": "Bosnia and Herzegovina",
+            "Acronym": "SJJ"
+        },
+        {
+            "City": "Saranac Lake, NY ",
+            "State": "USA ",
+            "Acronym": "SLK"
+        },
+        {
+            "City": "Sarasota, FL ",
+            "State": "USA ",
+            "Acronym": "SRQ"
+        },
+        {
+            "City": "Sarnia, ON",
+            "State": "Canada",
+            "Acronym": "YZR"
+        },
+        {
+            "City": "Sarnia, ON ",
+            "State": "Canada ",
+            "Acronym": "YZR"
+        },
+        {
+            "City": "Saskatoon, SK",
+            "State": "Canada",
+            "Acronym": "YXE"
+        },
+        {
+            "City": "Saskatoon, SK ",
+            "State": "Canada ",
+            "Acronym": "YXE"
+        },
+        {
+            "City": "Sault Ste. Marie, MI",
+            "State": "USA ",
+            "Acronym": "CIU"
+        },
+        {
+            "City": "Sault Ste. Marie, ON",
+            "State": "Canada",
+            "Acronym": "YAM"
+        },
+        {
+            "City": "Sault Ste. Marie, ON",
+            "State": "Canada ",
+            "Acronym": "YAM"
+        },
+        {
+            "City": "Savannah, GA ",
+            "State": "USA ",
+            "Acronym": "SAV"
+        },
+        {
+            "City": "Scottsbluff, NE ",
+            "State": "USA ",
+            "Acronym": "BFF"
+        },
+        {
+            "City": "Seattle, WA ",
+            "State": "USA ",
+            "Acronym": "SEA"
+        },
+        {
+            "City": "Semipalatinsk",
+            "State": "Kazakhstan",
+            "Acronym": "PLX"
+        },
+        {
+            "City": "Seoul, Korea",
+            "State": "Republic of",
+            "Acronym": "GMP"
+        },
+        {
+            "City": "Seoul, Korea",
+            "State": "Republic of",
+            "Acronym": "ICN"
+        },
+        {
+            "City": "Sept-Iles, PQ",
+            "State": "Canada",
+            "Acronym": "YZV"
+        },
+        {
+            "City": "Sept-Iles, PQ",
+            "State": "Canada ",
+            "Acronym": "YZV"
+        },
+        {
+            "City": "Seville",
+            "State": "Spain",
+            "Acronym": "SVQ"
+        },
+        {
+            "City": "Shanghai",
+            "State": "China",
+            "Acronym": "PVG"
+        },
+        {
+            "City": "Shanghai",
+            "State": "China",
+            "Acronym": "SHA"
+        },
+        {
+            "City": "Shannon",
+            "State": "Ireland",
+            "Acronym": "SNN"
+        },
+        {
+            "City": "Shantou",
+            "State": "China",
+            "Acronym": "SWA"
+        },
+        {
+            "City": "Sharjah",
+            "State": "United Arab Emirates",
+            "Acronym": "SHJ"
+        },
+        {
+            "City": "Sharm El Sheikh",
+            "State": "Egypt",
+            "Acronym": "SSH"
+        },
+        {
+            "City": "Shenandoah Valley Airport, VA ",
+            "State": "USA ",
+            "Acronym": "SHD"
+        },
+        {
+            "City": "Shenyang",
+            "State": "China",
+            "Acronym": "SHE"
+        },
+        {
+            "City": "Shenzhen",
+            "State": "China",
+            "Acronym": "SZX"
+        },
+        {
+            "City": "Sheridan, WY ",
+            "State": "USA ",
+            "Acronym": "SHR"
+        },
+        {
+            "City": "Shijiazhuang",
+            "State": "China",
+            "Acronym": "SJW"
+        },
+        {
+            "City": "Shreveport, LA ",
+            "State": "USA ",
+            "Acronym": "SHV"
+        },
+        {
+            "City": "Sibu, Sarawak",
+            "State": "Malaysia",
+            "Acronym": "SBW"
+        },
+        {
+            "City": "Sidney, MT ",
+            "State": "USA ",
+            "Acronym": "SDY"
+        },
+        {
+            "City": "Silver City, NM ",
+            "State": "USA ",
+            "Acronym": "SVC"
+        },
+        {
+            "City": "Singapore",
+            "State": "Singapore",
+            "Acronym": "SIN"
+        },
+        {
+            "City": "Sioux City, IA ",
+            "State": "USA ",
+            "Acronym": "SUX"
+        },
+        {
+            "City": "Sioux Falls, SD ",
+            "State": "USA ",
+            "Acronym": "FSD"
+        },
+        {
+            "City": "Sioux Lookout, ON",
+            "State": "Canada",
+            "Acronym": "YXL"
+        },
+        {
+            "City": "Sioux Lookout, ON",
+            "State": "Canada ",
+            "Acronym": "YXL"
+        },
+        {
+            "City": "Sitka, AK ",
+            "State": "USA ",
+            "Acronym": "SIT"
+        },
+        {
+            "City": "Skagway, AK ",
+            "State": "USA ",
+            "Acronym": "SGY"
+        },
+        {
+            "City": "Skelleftea",
+            "State": "Sweden",
+            "Acronym": "SFT"
+        },
+        {
+            "City": "Skopje",
+            "State": "Macedonia",
+            "Acronym": "SKP"
+        },
+        {
+            "City": "Smithers, BC",
+            "State": "Canada",
+            "Acronym": "YYD"
+        },
+        {
+            "City": "Smithers, BC",
+            "State": "Canada ",
+            "Acronym": "YYD"
+        },
+        {
+            "City": "Sofia",
+            "State": "Bulgaria",
+            "Acronym": "SOF"
+        },
+        {
+            "City": "Sonderborg",
+            "State": "Denmark",
+            "Acronym": "SGD"
+        },
+        {
+            "City": "Songpan Jiuzhai Huanglong",
+            "State": "China",
+            "Acronym": "JZH"
+        },
+        {
+            "City": "South Andros",
+            "State": "Bahamas",
+            "Acronym": "TZN"
+        },
+        {
+            "City": "South Bend, IN ",
+            "State": "USA ",
+            "Acronym": "SBN"
+        },
+        {
+            "City": "Southampton",
+            "State": "England",
+            "Acronym": "SOU"
+        },
+        {
+            "City": "Split",
+            "State": "Croatia",
+            "Acronym": "SPU"
+        },
+        {
+            "City": "Spokane, WA ",
+            "State": "USA ",
+            "Acronym": "GEG"
+        },
+        {
+            "City": "Springfield, IL ",
+            "State": "USA ",
+            "Acronym": "SPI"
+        },
+        {
+            "City": "Springfield, MA ",
+            "State": "USA ",
+            "Acronym": "CEF"
+        },
+        {
+            "City": "Springfield, MO ",
+            "State": "USA ",
+            "Acronym": "SGF"
+        },
+        {
+            "City": "Springfield, VT ",
+            "State": "USA ",
+            "Acronym": "VSF"
+        },
+        {
+            "City": "St. Cloud, MN ",
+            "State": "USA ",
+            "Acronym": "STC"
+        },
+        {
+            "City": "St. George, UT ",
+            "State": "USA ",
+            "Acronym": "SGU"
+        },
+        {
+            "City": "St. George's",
+            "State": "Grenada",
+            "Acronym": "GND"
+        },
+        {
+            "City": "St. John's",
+            "State": "Antigua",
+            "Acronym": "ANU"
+        },
+        {
+            "City": "St. John's, NF",
+            "State": "Canada",
+            "Acronym": "YYT"
+        },
+        {
+            "City": "St. John's, NF ",
+            "State": "Canada ",
+            "Acronym": "YYT"
+        },
+        {
+            "City": "St. Louis, MO ",
+            "State": "USA ",
+            "Acronym": "STL"
+        },
+        {
+            "City": "St. Petersburg",
+            "State": "Russia",
+            "Acronym": "LED"
+        },
+        {
+            "City": "St. Petersburg, FL ",
+            "State": "USA ",
+            "Acronym": "PIE"
+        },
+        {
+            "City": "State College, PA ",
+            "State": "USA ",
+            "Acronym": "SCE"
+        },
+        {
+            "City": "Stavanger",
+            "State": "Norway",
+            "Acronym": "SVG"
+        },
+        {
+            "City": "Steamboat Springs, CO ",
+            "State": "USA ",
+            "Acronym": "SBS"
+        },
+        {
+            "City": "Stella Maris, Long Island",
+            "State": "Bahamas",
+            "Acronym": "SML"
+        },
+        {
+            "City": "Stockholm",
+            "State": "Sweden",
+            "Acronym": "ARN"
+        },
+        {
+            "City": "Stockholm",
+            "State": "Sweden",
+            "Acronym": "BMA"
+        },
+        {
+            "City": "Stockholm",
+            "State": "Sweden",
+            "Acronym": "STO-All"
+        },
+        {
+            "City": "Stornoway, Isle of Lewis",
+            "State": "Scotland",
+            "Acronym": "SYY"
+        },
+        {
+            "City": "Storuman",
+            "State": "Sweden",
+            "Acronym": "SQO"
+        },
+        {
+            "City": "Strasbourg",
+            "State": "France",
+            "Acronym": "SXB"
+        },
+        {
+            "City": "Stuttgart",
+            "State": "Germany",
+            "Acronym": "STR"
+        },
+        {
+            "City": "Subic Bay",
+            "State": "Philippines",
+            "Acronym": "SFS"
+        },
+        {
+            "City": "Sudbury, ON",
+            "State": "Canada",
+            "Acronym": "YSB"
+        },
+        {
+            "City": "Sudbury, ON ",
+            "State": "Canada ",
+            "Acronym": "YSB"
+        },
+        {
+            "City": "Sukhothai",
+            "State": "Thailand",
+            "Acronym": "THS"
+        },
+        {
+            "City": "Sun Valley, ID ",
+            "State": "USA ",
+            "Acronym": "SUN"
+        },
+        {
+            "City": "Sundsvall",
+            "State": "Sweden",
+            "Acronym": "SDL"
+        },
+        {
+            "City": "Surabaya, Java",
+            "State": "Indonesia",
+            "Acronym": "SUB"
+        },
+        {
+            "City": "Surat Thani",
+            "State": "Thailand",
+            "Acronym": "URT"
+        },
+        {
+            "City": "Suva",
+            "State": "Fiji",
+            "Acronym": "SUV"
+        },
+        {
+            "City": "Sydney, Cape Breton Island, NS",
+            "State": "Canada",
+            "Acronym": "YQY"
+        },
+        {
+            "City": "Sydney, Cape Breton Island, NS",
+            "State": "Canada ",
+            "Acronym": "YQY"
+        },
+        {
+            "City": "Sydney, N.S.W.",
+            "State": "Australia",
+            "Acronym": "SYD"
+        },
+        {
+            "City": "Syracuse, NY ",
+            "State": "USA ",
+            "Acronym": "SYR"
+        },
+        {
+            "City": "Szczecin",
+            "State": "Poland",
+            "Acronym": "SZZ"
+        },
+        {
+            "City": "Taba",
+            "State": "Egypt",
+            "Acronym": "TCP"
+        },
+        {
+            "City": "Tabriz",
+            "State": "Iran",
+            "Acronym": "TBZ"
+        },
+        {
+            "City": "Tacloban",
+            "State": "Philippines",
+            "Acronym": "TAC"
+        },
+        {
+            "City": "Taegu",
+            "State": "South Korea",
+            "Acronym": "TAE"
+        },
+        {
+            "City": "Tagbilaran",
+            "State": "Philippines",
+            "Acronym": "TAG"
+        },
+        {
+            "City": "Taichung",
+            "State": "Taiwan",
+            "Acronym": "RMQ"
+        },
+        {
+            "City": "Taipei",
+            "State": "Taiwan",
+            "Acronym": "TPE"
+        },
+        {
+            "City": "Taipei",
+            "State": "Taiwan",
+            "Acronym": "TSA"
+        },
+        {
+            "City": "Taiyuan",
+            "State": "China",
+            "Acronym": "TYN"
+        },
+        {
+            "City": "Takamatsu",
+            "State": "Japan",
+            "Acronym": "TAK"
+        },
+        {
+            "City": "Tallahassee, FL ",
+            "State": "USA ",
+            "Acronym": "TLH"
+        },
+        {
+            "City": "Tallinn",
+            "State": "Estonia",
+            "Acronym": "TLL"
+        },
+        {
+            "City": "Tampa, FL ",
+            "State": "USA ",
+            "Acronym": "TPA"
+        },
+        {
+            "City": "Tampere",
+            "State": "Finland",
+            "Acronym": "TMP"
+        },
+        {
+            "City": "Tampico",
+            "State": "Mexico",
+            "Acronym": "TAM"
+        },
+        {
+            "City": "Tamworth, N.S.W.",
+            "State": "Australia",
+            "Acronym": "TMW"
+        },
+        {
+            "City": "Tangier",
+            "State": "Morocco",
+            "Acronym": "TNG"
+        },
+        {
+            "City": "Tapachula",
+            "State": "Mexico",
+            "Acronym": "TAP"
+        },
+        {
+            "City": "Tashkent",
+            "State": "Uzbekistan",
+            "Acronym": "TAS"
+        },
+        {
+            "City": "Taupo",
+            "State": "New Zealand",
+            "Acronym": "TUO"
+        },
+        {
+            "City": "Tauranga",
+            "State": "New Zealand",
+            "Acronym": "TRG"
+        },
+        {
+            "City": "Tawau, Sabah",
+            "State": "Malaysia",
+            "Acronym": "TWU"
+        },
+        {
+            "City": "Tbilisi",
+            "State": "Georgia",
+            "Acronym": "TBS"
+        },
+        {
+            "City": "Teesside",
+            "State": "England",
+            "Acronym": "MME"
+        },
+        {
+            "City": "Tegucigalpa",
+            "State": "Honduras",
+            "Acronym": "TGU"
+        },
+        {
+            "City": "Tehran",
+            "State": "Iran",
+            "Acronym": "THR"
+        },
+        {
+            "City": "Tel Aviv",
+            "State": "Israel",
+            "Acronym": "TLV"
+        },
+        {
+            "City": "Telluride, CO",
+            "State": "USA ",
+            "Acronym": "TEX"
+        },
+        {
+            "City": "Temuco",
+            "State": "Chile",
+            "Acronym": "ZCO"
+        },
+        {
+            "City": "Tenerife Island",
+            "State": "Canary Islands",
+            "Acronym": "TCI - All Airports"
+        },
+        {
+            "City": "Tenerife Island",
+            "State": "Canary Islands",
+            "Acronym": "TFS"
+        },
+        {
+            "City": "Tenerife Island",
+            "State": "Canary Islands",
+            "Acronym": "TVI - All Airports"
+        },
+        {
+            "City": "Tepic",
+            "State": "Mexico",
+            "Acronym": "TPQ"
+        },
+        {
+            "City": "Termez",
+            "State": "Uzbekistan",
+            "Acronym": "TMJ"
+        },
+        {
+            "City": "Terrace, BC",
+            "State": "Canada",
+            "Acronym": "YXT"
+        },
+        {
+            "City": "Terrace, BC",
+            "State": "Canada ",
+            "Acronym": "YXT"
+        },
+        {
+            "City": "Texarkana, AR ",
+            "State": "USA ",
+            "Acronym": "TXK"
+        },
+        {
+            "City": "The Valley",
+            "State": "Anguilla",
+            "Acronym": "AXA"
+        },
+        {
+            "City": "Thessaloniki",
+            "State": "Greece",
+            "Acronym": "SKG"
+        },
+        {
+            "City": "Thief River Falls, MN ",
+            "State": "USA ",
+            "Acronym": "TVF"
+        },
+        {
+            "City": "Thira, Santorini Island",
+            "State": "Greece",
+            "Acronym": "JTR"
+        },
+        {
+            "City": "Thompson, MB",
+            "State": "Canada",
+            "Acronym": "YTH"
+        },
+        {
+            "City": "Thompson, MB ",
+            "State": "Canada ",
+            "Acronym": "YTH"
+        },
+        {
+            "City": "Thunder Bay, ON",
+            "State": "Canada",
+            "Acronym": "YQT"
+        },
+        {
+            "City": "Thunder Bay, ON ",
+            "State": "Canada ",
+            "Acronym": "YQT"
+        },
+        {
+            "City": "Tianjin",
+            "State": "China",
+            "Acronym": "TSN"
+        },
+        {
+            "City": "Tijuana",
+            "State": "Mexico",
+            "Acronym": "TIJ"
+        },
+        {
+            "City": "Timaru",
+            "State": "New Zealand",
+            "Acronym": "TIU"
+        },
+        {
+            "City": "Timmins, ON",
+            "State": "Canada",
+            "Acronym": "YTS"
+        },
+        {
+            "City": "Timmins, ON ",
+            "State": "Canada ",
+            "Acronym": "YTS"
+        },
+        {
+            "City": "Tirana",
+            "State": "Albania",
+            "Acronym": "TIA"
+        },
+        {
+            "City": "Tobago",
+            "State": "Trinidad and Tobago",
+            "Acronym": "TAB"
+        },
+        {
+            "City": "Toksook Bay, AK ",
+            "State": "USA ",
+            "Acronym": "OOK"
+        },
+        {
+            "City": "Tokyo",
+            "State": "Japan",
+            "Acronym": "HND"
+        },
+        {
+            "City": "Tokyo",
+            "State": "Japan",
+            "Acronym": "NRT"
+        },
+        {
+            "City": "Tokyo",
+            "State": "Japan",
+            "Acronym": "TYO - All Airports"
+        },
+        {
+            "City": "Toledo, OH ",
+            "State": "USA ",
+            "Acronym": "TOL"
+        },
+        {
+            "City": "Toluca",
+            "State": "Mexico",
+            "Acronym": "TLC"
+        },
+        {
+            "City": "Tongren",
+            "State": "China",
+            "Acronym": "TEN"
+        },
+        {
+            "City": "Topeka, KS ",
+            "State": "USA ",
+            "Acronym": "TOP"
+        },
+        {
+            "City": "Toronto, ON",
+            "State": "Canada",
+            "Acronym": "YTO - All Airports"
+        },
+        {
+            "City": "Toronto, ON",
+            "State": "Canada",
+            "Acronym": "YTZ"
+        },
+        {
+            "City": "Toronto, ON",
+            "State": "Canada",
+            "Acronym": "YYZ"
+        },
+        {
+            "City": "Toronto, ON ",
+            "State": "Canada ",
+            "Acronym": "YTO -All "
+        },
+        {
+            "City": "Toronto, ON ",
+            "State": "Canada ",
+            "Acronym": "YTZ"
+        },
+        {
+            "City": "Toronto, ON ",
+            "State": "Canada ",
+            "Acronym": "YYZ"
+        },
+        {
+            "City": "Torreon",
+            "State": "Mexico",
+            "Acronym": "TRC"
+        },
+        {
+            "City": "Toulon",
+            "State": "France",
+            "Acronym": "TLN"
+        },
+        {
+            "City": "Toulouse",
+            "State": "France",
+            "Acronym": "TLS"
+        },
+        {
+            "City": "Townsville, Qld.",
+            "State": "Australia",
+            "Acronym": "TSV"
+        },
+        {
+            "City": "Trang",
+            "State": "Thailand",
+            "Acronym": "TST"
+        },
+        {
+            "City": "Trat",
+            "State": "Thailand",
+            "Acronym": "TDX"
+        },
+        {
+            "City": "Traverse City, MI ",
+            "State": "USA ",
+            "Acronym": "TVC"
+        },
+        {
+            "City": "Treasure Cay, Abaco Island",
+            "State": "Bahamas",
+            "Acronym": "TCB"
+        },
+        {
+            "City": "Trenton, NJ ",
+            "State": "USA ",
+            "Acronym": "TTN"
+        },
+        {
+            "City": "Tri-City Airport, TN ",
+            "State": "USA ",
+            "Acronym": "TRI"
+        },
+        {
+            "City": "Trieste",
+            "State": "Italy",
+            "Acronym": "TRS"
+        },
+        {
+            "City": "Tripoli",
+            "State": "Libya",
+            "Acronym": "TIP"
+        },
+        {
+            "City": "Tromso",
+            "State": "Norway",
+            "Acronym": "TOS"
+        },
+        {
+            "City": "Trondheim",
+            "State": "Norway",
+            "Acronym": "TRD"
+        },
+        {
+            "City": "Truk",
+            "State": "Micronesia",
+            "Acronym": "TKK"
+        },
+        {
+            "City": "Tucson, AZ ",
+            "State": "USA ",
+            "Acronym": "TUS"
+        },
+        {
+            "City": "Tulsa, OK ",
+            "State": "USA ",
+            "Acronym": "TUL"
+        },
+        {
+            "City": "Tunis",
+            "State": "Tunisia",
+            "Acronym": "TUN"
+        },
+        {
+            "City": "Tupelo, MS ",
+            "State": "USA ",
+            "Acronym": "TUP"
+        },
+        {
+            "City": "Turin",
+            "State": "Italy",
+            "Acronym": "TRN"
+        },
+        {
+            "City": "Turku",
+            "State": "Finland",
+            "Acronym": "TKU"
+        },
+        {
+            "City": "Tuxtla Gutierrez",
+            "State": "Mexico",
+            "Acronym": "TGZ"
+        },
+        {
+            "City": "Twin Falls, ID ",
+            "State": "USA ",
+            "Acronym": "TWF"
+        },
+        {
+            "City": "Tyler, TX ",
+            "State": "USA ",
+            "Acronym": "TYR"
+        },
+        {
+            "City": "Ubon Ratchathani",
+            "State": "Thailand",
+            "Acronym": "UBP"
+        },
+        {
+            "City": "Udon Thani",
+            "State": "Thailand",
+            "Acronym": "UTH"
+        },
+        {
+            "City": "Ujung Pandang, Sulawesi",
+            "State": "Indonesia",
+            "Acronym": "UPG"
+        },
+        {
+            "City": "Ulan Bator",
+            "State": "Mongolia",
+            "Acronym": "ULN"
+        },
+        {
+            "City": "Umea",
+            "State": "Sweden",
+            "Acronym": "UME"
+        },
+        {
+            "City": "Una",
+            "State": "Brazil",
+            "Acronym": "UNA"
+        },
+        {
+            "City": "Unalakleet, AK ",
+            "State": "USA ",
+            "Acronym": "UNK"
+        },
+        {
+            "City": "Urumqi, Sinkiang",
+            "State": "China",
+            "Acronym": "URC"
+        },
+        {
+            "City": "Ushuaia, Tierra del Fuego",
+            "State": "Argentina",
+            "Acronym": "USH"
+        },
+        {
+            "City": "Ust Kamenogorsk",
+            "State": "Kazakhstan",
+            "Acronym": "UKK"
+        },
+        {
+            "City": "Utapao",
+            "State": "Thailand",
+            "Acronym": "UTP"
+        },
+        {
+            "City": "Vaasa",
+            "State": "Finland",
+            "Acronym": "VAA"
+        },
+        {
+            "City": "Vail, CO ",
+            "State": "USA ",
+            "Acronym": "EGE"
+        },
+        {
+            "City": "Val-d'Or, PQ",
+            "State": "Canada",
+            "Acronym": "YVO"
+        },
+        {
+            "City": "Val-d'Or, PQ",
+            "State": "Canada ",
+            "Acronym": "YVO"
+        },
+        {
+            "City": "Valdez, AK ",
+            "State": "USA ",
+            "Acronym": "VDZ"
+        },
+        {
+            "City": "Valdivia",
+            "State": "Chile",
+            "Acronym": "ZAL"
+        },
+        {
+            "City": "Valdosta, GA ",
+            "State": "USA ",
+            "Acronym": "VLD"
+        },
+        {
+            "City": "Valencia",
+            "State": "Spain",
+            "Acronym": "VLC"
+        },
+        {
+            "City": "Valladolid",
+            "State": "Spain",
+            "Acronym": "VLL"
+        },
+        {
+            "City": "Valletta",
+            "State": "Malta",
+            "Acronym": "MLA"
+        },
+        {
+            "City": "Vancouver, BC",
+            "State": "Canada",
+            "Acronym": "YVR"
+        },
+        {
+            "City": "Vancouver, BC ",
+            "State": "Canada ",
+            "Acronym": "YVR"
+        },
+        {
+            "City": "Varanasi",
+            "State": "India",
+            "Acronym": "VNS"
+        },
+        {
+            "City": "Varna",
+            "State": "Bulgaria",
+            "Acronym": "VAR"
+        },
+        {
+            "City": "Vasteras",
+            "State": "Sweden",
+            "Acronym": "VST"
+        },
+        {
+            "City": "Vaxjo",
+            "State": "Sweden",
+            "Acronym": "VXO"
+        },
+        {
+            "City": "Venice",
+            "State": "Italy",
+            "Acronym": "VCE"
+        },
+        {
+            "City": "Veracruz",
+            "State": "Mexico",
+            "Acronym": "VER"
+        },
+        {
+            "City": "Verona",
+            "State": "Italy",
+            "Acronym": "VRN"
+        },
+        {
+            "City": "Victoria, BC",
+            "State": "Canada",
+            "Acronym": "YYJ"
+        },
+        {
+            "City": "Victoria, BC ",
+            "State": "Canada ",
+            "Acronym": "YYJ"
+        },
+        {
+            "City": "Victoria, Mahe Island",
+            "State": "Seychelles",
+            "Acronym": "SEZ"
+        },
+        {
+            "City": "Victoria, TX ",
+            "State": "USA ",
+            "Acronym": "VCT"
+        },
+        {
+            "City": "Vienna",
+            "State": "Austria",
+            "Acronym": "VIE"
+        },
+        {
+            "City": "Vientiane",
+            "State": "Laos",
+            "Acronym": "VTE"
+        },
+        {
+            "City": "Vieques",
+            "State": "Puerto Rico",
+            "Acronym": "VQS"
+        },
+        {
+            "City": "Vieux Fort",
+            "State": "St. Lucia",
+            "Acronym": "UVF"
+        },
+        {
+            "City": "Vigo",
+            "State": "Spain",
+            "Acronym": "VGO"
+        },
+        {
+            "City": "Vilhelmina",
+            "State": "Sweden",
+            "Acronym": "VHM"
+        },
+        {
+            "City": "Villahermosa",
+            "State": "Mexico",
+            "Acronym": "VSA"
+        },
+        {
+            "City": "Vilnius",
+            "State": "Lithuania",
+            "Acronym": "VNO"
+        },
+        {
+            "City": "Vinh City",
+            "State": "Vietnam",
+            "Acronym": "VII"
+        },
+        {
+            "City": "Visalia, CA ",
+            "State": "USA ",
+            "Acronym": "VIS"
+        },
+        {
+            "City": "Visby",
+            "State": "Sweden",
+            "Acronym": "VBY"
+        },
+        {
+            "City": "Vitoria",
+            "State": "Spain",
+            "Acronym": "VIT"
+        },
+        {
+            "City": "Vladivostok, Siberia",
+            "State": "Russia",
+            "Acronym": "VVO"
+        },
+        {
+            "City": "Volgograd",
+            "State": "Russia",
+            "Acronym": "VOG"
+        },
+        {
+            "City": "Wabush, Labrador, NF",
+            "State": "Canada",
+            "Acronym": "YWK"
+        },
+        {
+            "City": "Wabush, Labrador, NF ",
+            "State": "Canada ",
+            "Acronym": "YWK"
+        },
+        {
+            "City": "Waco, TX ",
+            "State": "USA ",
+            "Acronym": "ACT"
+        },
+        {
+            "City": "Wagga-Wagga, N.S.W.",
+            "State": "Australia",
+            "Acronym": "WGA"
+        },
+        {
+            "City": "Wajima",
+            "State": "Japan",
+            "Acronym": "NTQ"
+        },
+        {
+            "City": "Walla Walla, WA ",
+            "State": "USA ",
+            "Acronym": "ALW"
+        },
+        {
+            "City": "Wanganui",
+            "State": "New Zealand",
+            "Acronym": "WAG"
+        },
+        {
+            "City": "Warri",
+            "State": "Nigeria",
+            "Acronym": "QRW"
+        },
+        {
+            "City": "Warsaw",
+            "State": "Poland",
+            "Acronym": "WAW"
+        },
+        {
+            "City": "Washington DC ",
+            "State": "USA ",
+            "Acronym": "DCA"
+        },
+        {
+            "City": "Washington DC ",
+            "State": "USA ",
+            "Acronym": "IAD"
+        },
+        {
+            "City": "Washington DC ",
+            "State": "USA ",
+            "Acronym": "WAS - All Airports "
+        },
+        {
+            "City": "Waterloo, IA ",
+            "State": "USA ",
+            "Acronym": "ALO"
+        },
+        {
+            "City": "Watertown, NY ",
+            "State": "USA ",
+            "Acronym": "ART"
+        },
+        {
+            "City": "Watertown, SD ",
+            "State": "USA ",
+            "Acronym": "ATY"
+        },
+        {
+            "City": "Wausau, WI ",
+            "State": "USA ",
+            "Acronym": "CWA"
+        },
+        {
+            "City": "Weipa, Qld.",
+            "State": "Australia",
+            "Acronym": "WEI"
+        },
+        {
+            "City": "Wellington",
+            "State": "New Zealand",
+            "Acronym": "WLG"
+        },
+        {
+            "City": "Wenatchee, WA ",
+            "State": "USA ",
+            "Acronym": "EAT"
+        },
+        {
+            "City": "West Palm Beach, FL ",
+            "State": "USA ",
+            "Acronym": "PBI"
+        },
+        {
+            "City": "West Yellowstone, MT",
+            "State": "USA ",
+            "Acronym": "WYS"
+        },
+        {
+            "City": "Westport",
+            "State": "New Zealand",
+            "Acronym": "WSZ"
+        },
+        {
+            "City": "Whakatane",
+            "State": "New Zealand",
+            "Acronym": "WHK"
+        },
+        {
+            "City": "Whangarei",
+            "State": "New Zealand",
+            "Acronym": "WRE"
+        },
+        {
+            "City": "White Plains, NY ",
+            "State": "USA ",
+            "Acronym": "HPN"
+        },
+        {
+            "City": "Whitehorse, YT",
+            "State": "Canada",
+            "Acronym": "YXY"
+        },
+        {
+            "City": "Whitehorse, YT ",
+            "State": "Canada ",
+            "Acronym": "YXY"
+        },
+        {
+            "City": "Whyalla, S.A.",
+            "State": "Australia",
+            "Acronym": "WYA"
+        },
+        {
+            "City": "Wichita Falls, TX ",
+            "State": "USA ",
+            "Acronym": "SPS"
+        },
+        {
+            "City": "Wichita, KS ",
+            "State": "USA ",
+            "Acronym": "ICT"
+        },
+        {
+            "City": "Wick",
+            "State": "Scotland",
+            "Acronym": "WIC"
+        },
+        {
+            "City": "Wilkes-Barre, PA ",
+            "State": "USA ",
+            "Acronym": "AVP"
+        },
+        {
+            "City": "Willemstad",
+            "State": "Curacao",
+            "Acronym": "CUR"
+        },
+        {
+            "City": "Williams Lake, BC",
+            "State": "Canada",
+            "Acronym": "YWL"
+        },
+        {
+            "City": "Williams Lake, BC",
+            "State": "Canada ",
+            "Acronym": "YWL"
+        },
+        {
+            "City": "Williamsport, PA ",
+            "State": "USA ",
+            "Acronym": "IPT"
+        },
+        {
+            "City": "Williston, ND ",
+            "State": "USA ",
+            "Acronym": "ISN"
+        },
+        {
+            "City": "Wilmington, DE ",
+            "State": "USA ",
+            "Acronym": "ILG"
+        },
+        {
+            "City": "Wilmington, NC ",
+            "State": "USA ",
+            "Acronym": "ILM"
+        },
+        {
+            "City": "Windsor, ON",
+            "State": "Canada",
+            "Acronym": "YQG"
+        },
+        {
+            "City": "Windsor, ON ",
+            "State": "Canada ",
+            "Acronym": "YQG"
+        },
+        {
+            "City": "Winnipeg, MB",
+            "State": "Canada",
+            "Acronym": "YWG"
+        },
+        {
+            "City": "Winnipeg, MB ",
+            "State": "Canada ",
+            "Acronym": "YWG"
+        },
+        {
+            "City": "Wolf Point, MT",
+            "State": "USA ",
+            "Acronym": "OLF"
+        },
+        {
+            "City": "Worland, WY ",
+            "State": "USA ",
+            "Acronym": "WRL"
+        },
+        {
+            "City": "Wrangell, AK ",
+            "State": "USA ",
+            "Acronym": "WRG"
+        },
+        {
+            "City": "Wroclaw",
+            "State": "Poland",
+            "Acronym": "WRO"
+        },
+        {
+            "City": "Wuhan",
+            "State": "China",
+            "Acronym": "WUH"
+        },
+        {
+            "City": "Xi'an",
+            "State": "China",
+            "Acronym": "XIY"
+        },
+        {
+            "City": "Xiamen",
+            "State": "China",
+            "Acronym": "XMN"
+        },
+        {
+            "City": "Xichang",
+            "State": "China",
+            "Acronym": "XIC"
+        },
+        {
+            "City": "Yakima, WA ",
+            "State": "USA ",
+            "Acronym": "YKM"
+        },
+        {
+            "City": "Yakutat, AK ",
+            "State": "USA ",
+            "Acronym": "YAK"
+        },
+        {
+            "City": "Yamagata",
+            "State": "Japan",
+            "Acronym": "GAJ"
+        },
+        {
+            "City": "Yangyang, Korea",
+            "State": "Republic of",
+            "Acronym": "YNY"
+        },
+        {
+            "City": "Yanji",
+            "State": "China",
+            "Acronym": "YNJ"
+        },
+        {
+            "City": "Yantai",
+            "State": "China",
+            "Acronym": "YNT"
+        },
+        {
+            "City": "Yaounde",
+            "State": "Cameroon",
+            "Acronym": "NSI"
+        },
+        {
+            "City": "Yaounde",
+            "State": "Cameroon",
+            "Acronym": "YAO"
+        },
+        {
+            "City": "Yap",
+            "State": "Micronesia",
+            "Acronym": "YAP"
+        },
+        {
+            "City": "Yellowknife, NWT",
+            "State": "Canada",
+            "Acronym": "YZF"
+        },
+        {
+            "City": "Yellowknife, NWT",
+            "State": "Canada ",
+            "Acronym": "YZF"
+        },
+        {
+            "City": "Yerevan",
+            "State": "Armenia",
+            "Acronym": "EVN"
+        },
+        {
+            "City": "Yogyakarta, Java",
+            "State": "Indonesia",
+            "Acronym": "JOG"
+        },
+        {
+            "City": "Yuma, AZ ",
+            "State": "USA ",
+            "Acronym": "YUM"
+        },
+        {
+            "City": "Zacatecas",
+            "State": "Mexico",
+            "Acronym": "ZCL"
+        },
+        {
+            "City": "Zadar",
+            "State": "Croatia",
+            "Acronym": "ZAD"
+        },
+        {
+            "City": "Zagreb",
+            "State": "Croatia",
+            "Acronym": "ZAG"
+        },
+        {
+            "City": "Zamboanga",
+            "State": "Philippines",
+            "Acronym": "ZAM"
+        },
+        {
+            "City": "Zanzibar",
+            "State": "Tanzania",
+            "Acronym": "ZNZ"
+        },
+        {
+            "City": "Zaragoza",
+            "State": "Spain",
+            "Acronym": "ZAZ"
+        },
+        {
+            "City": "Zhengzhou",
+            "State": "China",
+            "Acronym": "CGO"
+        },
+        {
+            "City": "Zhoushan",
+            "State": "China",
+            "Acronym": "HSN"
+        },
+        {
+            "City": "Zurich",
+            "State": "Switzerland",
+            "Acronym": "ZRH"
+        }
+    ]
+}
