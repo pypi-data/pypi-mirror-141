@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pururin
+Version: 0.0.1
+Summary: Pururin unofficial API
+Home-page: https://github.com/sinkaroid/pururin
+Author: sinkaroid
+Author-email: anakmancasan@gmail.com
+License: MIT
+Description: # Gawain
+        Booru armor wrapper
+        [![Testing](https://github.com/sinkaroid/gawain/actions/workflows/test.yml/badge.svg)](https://github.com/sinkaroid/gawain/actions/workflows/test.yml)
+        
+        ```py
+        import asyncio
+        from gawain import Booru
+        
+        
+        async def get():
+            data = Booru()
+            print(data.gelbooru(tags="cat_girl", limit=100, pid=1, block="loli", shuffle=True))
+        
+        
+        async def main():
+            await asyncio.gather(get())
+        
+        asyncio.run(main())
+        
+        ```
+Keywords: pururin,doujin,wrapper
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
