@@ -1,0 +1,5 @@
+setup.py
+compareex3module.egg-info/PKG-INFO
+compareex3module.egg-info/SOURCES.txt
+compareex3module.egg-info/dependency_links.txt
+compareex3module.egg-info/top_level.txt
