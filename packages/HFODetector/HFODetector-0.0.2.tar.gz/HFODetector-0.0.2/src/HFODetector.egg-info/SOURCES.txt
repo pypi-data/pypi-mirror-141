@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/HFODetector.egg-info/PKG-INFO
+src/HFODetector.egg-info/SOURCES.txt
+src/HFODetector.egg-info/dependency_links.txt
+src/HFODetector.egg-info/requires.txt
+src/HFODetector.egg-info/top_level.txt
