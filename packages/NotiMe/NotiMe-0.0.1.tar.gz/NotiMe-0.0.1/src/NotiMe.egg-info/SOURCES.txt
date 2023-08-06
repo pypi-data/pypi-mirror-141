@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/NotiMe/NotiMe.py
+src/NotiMe/__init__.py
+src/NotiMe/__main__.py
+src/NotiMe.egg-info/PKG-INFO
+src/NotiMe.egg-info/SOURCES.txt
+src/NotiMe.egg-info/dependency_links.txt
+src/NotiMe.egg-info/entry_points.txt
+src/NotiMe.egg-info/requires.txt
+src/NotiMe.egg-info/top_level.txt
