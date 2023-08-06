@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fmp-quant
+Version: 0.1.5
+Summary: Financial Modeling Prep Wrapper and Quant Package
+Home-page: UNKNOWN
+Author: Francisco Ruiz
+Author-email: <franciscruiz11219@gmail.com>
+License: UNKNOWN
+Keywords: python,finance,quantitative finance,wrapper,financial modelling prep,financial algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: ta
+
+Financial Modeling Prep Wrapper and Quant Package
+
