@@ -1,0 +1,11 @@
+glcontext/egl.pypy37-pp73-x86_64-linux-gnu.so,sha256=QkgO185HJluraD8m882b6bgn9f53mCTrlt98Wb-a3xk,17864
+glcontext/empty.py,sha256=VKFrqfVCIo1IlyWoEO5sCzeFt3Bw3J520mH7diMgcBM,260
+glcontext/x11.pypy37-pp73-x86_64-linux-gnu.so,sha256=SCBL4-deucfEbKP69kGO-AkqGXlmpwFSJqXeBQJi9rQ,18104
+glcontext/__init__.py,sha256=aXu-U-SwfejJJr7DyLgSjdM_LuPIyh9e2CSM3LtdZJc,4225
+glcontext/egl.cpython-37m-x86_64-linux-gnu.so,sha256=1_U7TJIfXT_AgmQxAgv_cTY35oge7UwBfV8Ojfd4M8Y,50976
+glcontext/x11.cpython-37m-x86_64-linux-gnu.so,sha256=tdCxJqkheA1wMztlkBGwBSdmTS07nhto-1Hp3IMyYsM,55224
+glcontext-2.3.5.dist-info/WHEEL,sha256=A3icTRG3Pitw4LTLQaUO-nfbONcUd5uHbu7WFeET7hA,245
+glcontext-2.3.5.dist-info/RECORD,,
+glcontext-2.3.5.dist-info/METADATA,sha256=Qoc0DtHBD3MGFNVjCvUw8pFAwJj6OeN25x0dxkxqDPQ,6069
+glcontext-2.3.5.dist-info/LICENSE,sha256=U0OitJbbMjfgMqEfzVxtGDtKjyiC-z2W2rH8ESTxOcE,1078
+glcontext-2.3.5.dist-info/top_level.txt,sha256=IosXQkJ9R4RvrG2uHZJtIQAHYoKmvTeBTb-zdwzFLDE,10
