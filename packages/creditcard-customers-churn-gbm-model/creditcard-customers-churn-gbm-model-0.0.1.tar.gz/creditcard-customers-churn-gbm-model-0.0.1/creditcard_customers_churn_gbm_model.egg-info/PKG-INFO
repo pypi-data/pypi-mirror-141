@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: creditcard-customers-churn-gbm-model
+Version: 0.0.1
+Summary: Example Credit Card Customer Churn dataset Gradient Boosting model package from Train In Data.
+Home-page: https://github.com/yejiseoung/CreditCard_Churn
+Author: ZoeYS
+Author-email: yejiseoung.ds@gmail.com
+License: BSD-3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+Example Credit Card Customer Churn dataset Gradient Boosting model package from Train In Data.
+
