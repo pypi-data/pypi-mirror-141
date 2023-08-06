@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+pymatgen>=2017.12.30
