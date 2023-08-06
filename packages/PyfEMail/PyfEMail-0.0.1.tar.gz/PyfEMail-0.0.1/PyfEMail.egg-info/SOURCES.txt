@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+PyfEMail.egg-info/PKG-INFO
+PyfEMail.egg-info/SOURCES.txt
+PyfEMail.egg-info/dependency_links.txt
+PyfEMail.egg-info/requires.txt
+PyfEMail.egg-info/top_level.txt
+src/Mail.py
+src/Sendemail.py
