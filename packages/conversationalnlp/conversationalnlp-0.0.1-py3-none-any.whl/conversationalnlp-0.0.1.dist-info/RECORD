@@ -1,0 +1,14 @@
+conversationalnlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conversationalnlp/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conversationalnlp/models/wav2vec2/__init__.py,sha256=O6Og6KHhmcCExYK8ygRwygPn3Ura6wfsJNszDlQXY6c,77
+conversationalnlp/models/wav2vec2/datacollator.py,sha256=-CZQFctIZVkmX__TO1PPU_DfINSUGhqfulNj0ysDrJ4,3305
+conversationalnlp/models/wav2vec2/dataset.py,sha256=erFe4OhAQB1RT1g9jtZoj7SLLp_cD4t_J1BmoElQDSw,6255
+conversationalnlp/models/wav2vec2/fileprep.py,sha256=Pifzm0tmOdLH9GHJoI5qL-WoOFbuKMqqQZ1QX-5vC-8,5018
+conversationalnlp/utils/__init__.py,sha256=hMw401qP-R9lbO4Nr7m6QTw9ru5I2_D8NvsJi3VoVgw,53
+conversationalnlp/utils/customdatetime.py,sha256=ZuDkV5KeUTGzGpei9ey6qNjCrHqnHDqnXKpJVGQAUIs,578
+conversationalnlp/utils/filesys.py,sha256=Ay35tIb2Mq-DPpcmUgbJ87zfJ8lvVKIAOv8UCssfCco,3760
+conversationalnlp-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conversationalnlp-0.0.1.dist-info/METADATA,sha256=SvGPQXVI-32gTMHm8xcwWB9KG6Pqw5_pP3kDV8bAu44,521
+conversationalnlp-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+conversationalnlp-0.0.1.dist-info/top_level.txt,sha256=tTkbhSN8MWEF4RDdzjk0a754HDp2qnCJRB0KcA1wGH4,18
+conversationalnlp-0.0.1.dist-info/RECORD,,
