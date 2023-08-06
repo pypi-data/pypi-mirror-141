@@ -1,0 +1,16 @@
+bioimageit_formats/__init__.py,sha256=O3UFNw3I7e3lkLuaFKnhf7jlHZaJ7xWndzSZyXIG_hk,373
+bioimageit_formats/_factory.py,sha256=2djugjEtFsnrF_O9KhEVPZmLG7oGYO_tnzP1YPtytu8,1633
+bioimageit_formats/_formats.py,sha256=_FEDYgJ5douv4nB-Db-wHDMpjlwDNgLM1IeAk0pdkXo,5087
+bioimageit_formats/_reader.py,sha256=uLcIPbEEI_Qu_KeEvnGtY0vCpsHnDWk44UQBwom9Cc0,909
+bioimageit_formats/_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioimageit_formats/_plugins/_csv.py,sha256=XhhEEdpWpsGEVHGzZESSSNWf_FX9jSa0MAd-JPmx9Pk,1634
+bioimageit_formats/_plugins/_imagetiff.py,sha256=pc9XyNGL1zHHbkS6cweUeSxphPRmY5I7hoBb819YYWE,567
+bioimageit_formats/_plugins/_movietxt.py,sha256=5zy_OQCs1QfGO6Xobnp5ao6DBsLZab56GXXMWfYz9Ow,1066
+bioimageit_formats/_plugins/_trackmate.py,sha256=eY0YMySey8Oh1K52aMSfl4LAqLnei-b6tTRavAKIHto,2419
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_csv.py,sha256=qrLA1QJpK7XEyTgyvsUHkGk6zdemPbGFutPsvJGJWPY,696
+bioimageit_formats-0.1.0.dist-info/LICENSE,sha256=peSvNV4kXHOgZE2bAoLwsz4w0WHfrq_4bHczy1Uq5DA,1644
+bioimageit_formats-0.1.0.dist-info/METADATA,sha256=Qw4onFo_-qRpnzKHhlc3QFjmGdva6Z2X-prwuns5LcA,1326
+bioimageit_formats-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bioimageit_formats-0.1.0.dist-info/top_level.txt,sha256=cYGydQ9LKsVkygeBSa1qsAbLXlFRBJjwl8geOxCYz5I,25
+bioimageit_formats-0.1.0.dist-info/RECORD,,
