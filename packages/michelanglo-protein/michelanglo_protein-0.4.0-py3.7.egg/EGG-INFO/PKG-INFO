@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: michelanglo-protein
+Version: 0.4.0
+Summary: protein module for Michelanglo
+Home-page: https://github.com/matteoferla/MichelaNGLo-protein-module
+Author: Matteo Ferla
+Author-email: matteo@well.ox.ac.uk
+License: UNKNOWN
+Description: See github readme.md
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
