@@ -1,0 +1,9 @@
+LICENSE
+README.md
+puredb.py
+setup.py
+puredb.egg-info/PKG-INFO
+puredb.egg-info/SOURCES.txt
+puredb.egg-info/dependency_links.txt
+puredb.egg-info/requires.txt
+puredb.egg-info/top_level.txt

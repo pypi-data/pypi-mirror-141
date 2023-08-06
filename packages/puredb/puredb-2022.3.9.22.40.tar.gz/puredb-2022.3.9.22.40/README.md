@@ -1,0 +1,1 @@
+python版的leveldb太难用了，自己封装一下
