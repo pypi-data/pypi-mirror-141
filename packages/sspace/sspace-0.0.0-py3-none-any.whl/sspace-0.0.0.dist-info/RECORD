@@ -1,0 +1,15 @@
+sspace/__init__.py,sha256=RmoZ6jGRAQz_D8oXggMh4gA3Qtx4JSm0bXrN71pQL8g,371
+sspace/conditionals.py,sha256=z5w18x_1567e0UEA-fEr2zN6jO7RbZSOhhT1AmKQkVI,4598
+sspace/convert.py,sha256=p5GSfB3WB4-1N9TD5zqJJIbmcGvGj3xtUsCnq7-_JZU,4466
+sspace/parser.py,sha256=Wo3A8onsOYOeEZ-lGgZxE-JT_yOL6Qrl2GB2FlwAHgs,2296
+sspace/space.py,sha256=QtEAsydY02e1Tubh6S8LLn0sB4r5vWerloPGHuuhJTI,25954
+sspace/utils.py,sha256=aCsUzlH7wSZa9sxaG6aUEj5MaDmylMGhJ_s8U4tman0,209
+sspace/backends/__init__.py,sha256=VxdyaB84t2Kc8Dvntj_ByogG4VaKPqCn1Ldxo-OyoOg,120
+sspace/backends/cspace.py,sha256=GsUtDcZw_Ym7_EC8Cmqm9X5-tEPUpViKvNy1l_l8n9s,4203
+sspace/backends/ospace.py,sha256=WFgju-s-DHs6GlUqpNpf6-rem5zWq73bwbq4IVikH9U,2925
+sspace/backends/serializer.py,sha256=aOanFrbl3UDN3koEpqxAv06f5NygvHNXcvzU8fzaYc0,5271
+sspace-0.0.0.dist-info/LICENSE,sha256=u8Y1neqErUUKNmOnZEq2kJOnLxEBLYw4Exyj3jPSqVk,1555
+sspace-0.0.0.dist-info/METADATA,sha256=0aJ71HLNDv-riG9JLRo94czCVRNHoVWBFvTTZAwGXW4,1505
+sspace-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sspace-0.0.0.dist-info/top_level.txt,sha256=cTQlPGoLNeyrMVgPYVqHVrVuByCPb1jA4xJjmV-FrGY,7
+sspace-0.0.0.dist-info/RECORD,,
