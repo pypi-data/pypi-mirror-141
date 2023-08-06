@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bert-for-sequence-classification
+Version: 0.0.1a0
+Summary: Easy fine-tuning for BERT models
+Home-page: UNKNOWN
+Author: Tatiana Iazykova
+Author-email: tania_yazykova@bk.ru
+License: UNKNOWN
+Description: # bert-for-sequence-classification
+        Pipeline for easy fine-tuning of BERT architecture for sequence classification
+        
+        ## Quick Start
+        
+        ### Installation
+        
+        `pip install bert-for-sequence-classification`
+        
+        ### CLI Use
+        
+        `bert-clf-train --path_to_config <path to yaml file>`
+        
+        Example config file is found [here](config.yaml)
+        
+        ### Jupyter notebook
+        
+        Example notebook is found [here](example/pipeline_example.ipynb)
+        
+        
+Keywords: python,bert,deep learning,nlp
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
