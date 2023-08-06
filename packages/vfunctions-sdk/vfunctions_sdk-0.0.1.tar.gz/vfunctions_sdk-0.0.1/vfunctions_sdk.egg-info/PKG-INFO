@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vfunctions-sdk
+Version: 0.0.1
+Summary: A package to manage development inside nitro enclaves.
+Home-page: UNKNOWN
+Author: Verifiably
+Author-email: atul@verifiably.com
+License: UNKNOWN
+Description: # vFunctions SDK
+        
+        Python package to use vFunctions.
+        
+        For an use case example visit the [Verifiably documentation](https://developer.verifiably.com/examples/) page.
+        
+Keywords: python,nitro-enclave,security
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
