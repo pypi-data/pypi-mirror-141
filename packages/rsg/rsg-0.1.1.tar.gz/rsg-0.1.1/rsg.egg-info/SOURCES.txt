@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+rsg/__init__.py
+rsg/core.py
+rsg.egg-info/PKG-INFO
+rsg.egg-info/SOURCES.txt
+rsg.egg-info/dependency_links.txt
+rsg.egg-info/top_level.txt
+rsg/utils/__init__.py
+rsg/utils/helpers.py
