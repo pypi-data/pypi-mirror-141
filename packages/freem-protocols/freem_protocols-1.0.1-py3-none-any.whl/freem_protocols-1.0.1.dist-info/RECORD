@@ -1,0 +1,13 @@
+freem_protocols/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freem_protocols/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freem_protocols/freem_box/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freem_protocols/freem_box/audio_pb2.py,sha256=Ah-N3JSU7PTWJ9rxPL3hx0LBvhqwI0FgWB144SY-mLE,8630
+freem_protocols/freem_box/audio_pb2.pyi,sha256=0ky2jysEMZVLomOILSIqOxHbtDKsxQQga0cZcwyOYTc,11022
+freem_protocols/freem_box/audio_pb2_grpc.py,sha256=VEubAFCBcSOVs_Xzg7oYgNxDhehnDCKzZLk9JS3VuAs,2851
+freem_protocols/freem_box/spotify_pb2.py,sha256=AkgY9_DJGFqA8Twx3Iy9TOk3_5AagMCzfr6_zoL8dfw,5023
+freem_protocols/freem_box/spotify_pb2.pyi,sha256=k1iSmuxh67G-ICMwt5uRexH7JHEloEJV-Z2ySSr0CKw,4484
+freem_protocols/freem_box/spotify_pb2_grpc.py,sha256=ifTUsaPgreNa8Cab27F0u2YA2sMHNZjHWNcW2Sh7URg,4528
+freem_protocols-1.0.1.dist-info/METADATA,sha256=ANvveAoNBsRbJCH8HdNnb2IEHASxWzl32hk_J_Zu3qE,462
+freem_protocols-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+freem_protocols-1.0.1.dist-info/top_level.txt,sha256=4S4i9KicX-7juk5sXqJWRYtKA3TdMZc1QqpSWob6r9A,16
+freem_protocols-1.0.1.dist-info/RECORD,,
