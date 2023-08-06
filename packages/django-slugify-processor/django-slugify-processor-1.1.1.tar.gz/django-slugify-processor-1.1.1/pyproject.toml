@@ -1,0 +1,98 @@
+[tool.poetry]
+name = "django-slugify-processor"
+version = "1.1.1"
+description = "pipeline for slugification edgecases in django"
+
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'Environment :: Web Environment',
+  'Framework :: Django',
+  'Framework :: Django :: 2.2',
+  'Framework :: Django :: 3.1',
+  'Framework :: Django :: 3.2',
+  'Framework :: Django :: 4.0',
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: MIT License',
+  'Operating System :: OS Independent',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.7',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: Implementation :: CPython',
+  'Programming Language :: Python :: Implementation :: PyPy',
+  'Topic :: Utilities'
+]
+
+license = "MIT"
+
+authors = [
+    "Tony Narlock <tony@git-pull.com>"
+]
+
+readme = 'README.md'
+packages = [
+    { include = "django_slugify_processor" }
+]
+include = [
+    { path = "tests", format = "sdist" }
+]
+keywords = ["django", "slug", "text"]
+
+homepage = "https://django-slugify-processor.git-pull.com"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tony/django-slugify-processor/issues"
+Documentation = "https://django-slugify-processor.git-pull.com"
+Repository = "https://github.com/tony/django-slugify-processor"
+Changes = "https://github.com/tony/django-slugify-processor/blob/master/CHANGES"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django-extensions = {version="*", optional = true}
+Django = ">=2.2"
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+sphinx = "*"
+furo = "^2022.2.23"
+sphinx-autobuild = "^2021.3.14"
+sphinx-autodoc-typehints = "~1.17.0"
+sphinx-issues = "^3.0.0"
+sphinx-inline-tabs = { version = "*", python = "^3.7" }
+sphinxext-opengraph = "*"
+sphinx-copybutton = "^0.5.0"
+myst_parser = "~0.17.0"
+
+### Testing ###
+pytest = "*"
+pytest-rerunfailures = "*"
+pytest-django = "*"
+pytest-watcher = "^0.2.3"
+django-extensions = "*"
+tox = {version = "^3.24.5", extras = ["test"]}
+tox-poetry-installer = {extras = ["poetry"], version = "^0.8.3"}
+
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = "*"
+
+### Format ###
+black = "*"
+isort = "*"
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx-issues", "sphinx-autodoc-typehints", "sphinx-autobuild", "sphinx-copybutton", "sphinxext-opengraph", "sphinx-inline-tabs", "myst_parser", "furo"]
+test = ["pytest", "pytest-rerunfailures", "pytest-django", "pytest-watcher", "django-extensions", "tox-poetry-installer"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0", "poetry>=1.1.12"]
+build-backend = "poetry.core.masonry.api"
