@@ -1,0 +1,14 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/manpath.1.gz
+man/manpath.3.gz
+src/manpath/__init__.py
+src/manpath/main.py
+src/pnu_manpath.egg-info/PKG-INFO
+src/pnu_manpath.egg-info/SOURCES.txt
+src/pnu_manpath.egg-info/dependency_links.txt
+src/pnu_manpath.egg-info/entry_points.txt
+src/pnu_manpath.egg-info/requires.txt
+src/pnu_manpath.egg-info/top_level.txt
