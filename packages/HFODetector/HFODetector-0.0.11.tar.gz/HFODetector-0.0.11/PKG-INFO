@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: HFODetector
+Version: 0.0.11
+Summary: Package for detecting HFOs
+Home-page: 
+Author: Taylor Chung
+Author-email: taylorchung@ucla.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HFODetector
+## RMS detector
+#### Installation
+`pip install HFODetector==0.0.10`
+
+#### Example usage 
+`test.py`
+```
+import numpy as np
+from HFODetector.RMSDetector import RMS_detector
+
+if __name__ == "__main__":
+    edf_path = "example_edf.edf"
+    detector = RMS_detector()
+    channel_names, start_end = detector.predict_edf(edf_path)
+    np.savez_compressed("test_results.npz", channels=channel_names, start_end=HFOs)
+```
+`python3 test.py` to generate `test_results.npz`
+
+`test_results.npz` will contain the following:
+- `start_end` : start and end timestamps of detected edfs ((N,2) array)
+- `channel_names` : names of channels corresponding to the detected edfs ((N,) array)
+
