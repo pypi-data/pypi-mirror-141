@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ipygo/__init__.py
+src/ipygo/clear.py
+src/ipygo/ftbase.cp38-win_amd64.pyd
+src/ipygo/ftcore.cp38-win_amd64.pyd
+src/ipygo/ftdemo.cp38-win_amd64.pyd
+src/ipygo.egg-info/PKG-INFO
+src/ipygo.egg-info/SOURCES.txt
+src/ipygo.egg-info/dependency_links.txt
+src/ipygo.egg-info/top_level.txt
