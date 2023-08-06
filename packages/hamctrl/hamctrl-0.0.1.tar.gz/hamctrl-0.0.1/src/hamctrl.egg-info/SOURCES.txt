@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hamctrl/__init__.py
+src/hamctrl/hamctrl.py
+src/hamctrl.egg-info/PKG-INFO
+src/hamctrl.egg-info/SOURCES.txt
+src/hamctrl.egg-info/dependency_links.txt
+src/hamctrl.egg-info/top_level.txt
