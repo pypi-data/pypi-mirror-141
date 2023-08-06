@@ -1,0 +1,10 @@
+numpy
+torch
+matplotlib
+wandb
+ale-py
+gym
+kornia
+supersuit
+stable_baselines3
+einops
