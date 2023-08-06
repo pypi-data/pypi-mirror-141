@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+dictionary/__init__.py
+dictionary/dictionary.py
+turan_mert_duran_dictionary_hw1.egg-info/PKG-INFO
+turan_mert_duran_dictionary_hw1.egg-info/SOURCES.txt
+turan_mert_duran_dictionary_hw1.egg-info/dependency_links.txt
+turan_mert_duran_dictionary_hw1.egg-info/requires.txt
+turan_mert_duran_dictionary_hw1.egg-info/top_level.txt
