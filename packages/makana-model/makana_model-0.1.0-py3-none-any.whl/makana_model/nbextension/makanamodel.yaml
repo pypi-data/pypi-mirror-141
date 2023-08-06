@@ -1,0 +1,11 @@
+Type: IPython Notebook Extension
+Name: Makana Model Extension
+Link: README.md
+Description: A little extension to give Makana Model functionality to the IPython notebook
+Main: main.js
+Compatibility: 4.x, 5.x
+Parameters:
+- name: makana_model
+  description: Set makana model on when a notebook opens
+  input_type: checkbox
+  default: true
