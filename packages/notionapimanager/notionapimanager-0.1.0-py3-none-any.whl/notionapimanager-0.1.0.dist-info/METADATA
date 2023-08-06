@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: notionapimanager
+Version: 0.1.0
+Summary: Python package for consulting, creating and editing Notion databases
+License: MIT
+Author: Ruben Chulia Mena
+Author-email: rubchume@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
