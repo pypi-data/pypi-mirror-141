@@ -1,0 +1,17 @@
+databaseci/__init__.py,sha256=EEmLGYfLggxOxn2X_A_GIxkS38pcQYeDzFBqkTDVBys,63
+databaseci/call.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/command.py,sha256=bhds2ZpEMOJXfA0HuFcDKk1nKpFkk0aIauZ0Hd_2Fyw,260
+databaseci/conn.py,sha256=LnAYKuv0fXPNWz4N_ZWMfAx0Z8z1H3rml0zNuFY2dFM,1118
+databaseci/copy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/database.py,sha256=L8HdDqRZWMlkTTRTT-WyBwzWNscQ0UxRSkP-Xab7-U0,2445
+databaseci/do.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/paging.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/psyco.py,sha256=u4rjCeyNVtzRhpHbzkPC1qUeOpzXNm2xWlaTmuPJYqM,509
+databaseci/schema.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/summary.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci/util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databaseci-5.0.0.dist-info/entry_points.txt,sha256=VtVn2H9abqPMNe4icM5PvHnP5VYl9Ud-7OYc7K5nXbU,53
+databaseci-5.0.0.dist-info/LICENSE.md,sha256=1GFwfqvfKRXOgKBklGAs5ilKM-qbPhrUSHyljc-xkaY,952
+databaseci-5.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+databaseci-5.0.0.dist-info/METADATA,sha256=AnnOXbGNbM_KPqgDQbuSwIeijF6W0ei6UD-R02XqEQ0,803
+databaseci-5.0.0.dist-info/RECORD,,
