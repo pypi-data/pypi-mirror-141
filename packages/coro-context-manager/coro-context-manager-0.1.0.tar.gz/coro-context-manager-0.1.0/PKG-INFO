@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: coro-context-manager
+Version: 0.1.0
+Summary: A simple object to wrap couroutines to make them awaitable or used via an asyn context manager
+Author: Zach Schumacher
+Author-email: zachary@simplebet.io
+Requires-Python: >=3.7,<=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
