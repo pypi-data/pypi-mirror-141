@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+deputil/__init__.py
+deputil/errors.py
+deputil.egg-info/PKG-INFO
+deputil.egg-info/SOURCES.txt
+deputil.egg-info/dependency_links.txt
+deputil.egg-info/requires.txt
+deputil.egg-info/top_level.txt
+requirements/base.txt
+requirements/dev.txt
+requirements/rtd.txt
