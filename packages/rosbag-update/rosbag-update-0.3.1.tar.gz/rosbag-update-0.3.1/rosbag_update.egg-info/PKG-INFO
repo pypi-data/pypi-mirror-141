@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rosbag-update
+Version: 0.3.1
+Summary: Updates topic data types on ROS bags, solves checksum errors
+Home-page: https://github.com/yt/rosbag-update
+Author: Tayfun Yurdaer
+Author-email: tayfun@adastec.com
+License: MIT
+Download-URL: https://github.com/yt/rosbag-update/archive/refs/tags/v0.3.1.tar.gz
+Description: # Rosbag update
+        Updates topic data types on ROS bags, solves checksum errors.
+        Doesn't need any migration file.
+        
+        
+        # Requirements
+        Requires the new ros message to be imported and following the structure of `{package}/msg/{messagename}.msg` for example you should be able to import message in python with `from mypackage.msg import MyMessage`
+        
+        # Installation
+        ```
+        pip install rosbag-update
+        ```
+        OR
+        ```
+        pip3 install rosbag-update
+        ```
+        
+        # Run
+        ```
+        rosbag_update -b [bag-path]
+        ```
+        
+        # Notes
+        - Please ignore the error message `Failed to load Python extension for LZ4 support. LZ4 compression will not be available.`
+          
+Keywords: ROS,rosbag,update
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown

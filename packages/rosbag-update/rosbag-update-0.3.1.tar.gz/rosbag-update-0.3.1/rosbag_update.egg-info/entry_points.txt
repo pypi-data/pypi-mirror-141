@@ -1,0 +1,3 @@
+[console_scripts]
+rosbag_update = rosbag_update.rosbag_update:main
+

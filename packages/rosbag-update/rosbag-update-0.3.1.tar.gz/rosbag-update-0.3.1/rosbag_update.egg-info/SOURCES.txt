@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+rosbag_update/__init__.py
+rosbag_update/rosbag_update.py
+rosbag_update.egg-info/PKG-INFO
+rosbag_update.egg-info/SOURCES.txt
+rosbag_update.egg-info/dependency_links.txt
+rosbag_update.egg-info/entry_points.txt
+rosbag_update.egg-info/requires.txt
+rosbag_update.egg-info/top_level.txt
