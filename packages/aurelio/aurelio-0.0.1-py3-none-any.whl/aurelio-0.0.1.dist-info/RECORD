@@ -1,0 +1,13 @@
+aurelio/__init__.py,sha256=W0yAVGgn-ZDozMmhUV-Mf6IzLwhk8f3jzS_5FNAZhTs,31
+aurelio/_dict.py,sha256=P6ZrURnkvOQmvw3T-8ebC9GBryY9YYREAfiXVRF_Dmw,1281
+aurelio/clients/__init__.py,sha256=M5cS9AzoqWzGZ5eKr2tD1-NuVyKMvclFolseZ7cVHM0,53
+aurelio/clients/abstract_client.py,sha256=BXMobwuc1A0p_VTNs6X5BHf9fOUtcCLkRx5c2_z1DqQ,735
+aurelio/clients/redis_client.py,sha256=6YCDLA5UpGjdKlxsAU4dv4ATf2mXf7k6dazlpAJ0Zhc,1256
+aurelio/exceptions.py,sha256=kxCFQthoj8K6LaDg_UXrD4dLkijZRdpdMwOuOQbWOg8,83
+aurelio/settings/__init__.py,sha256=GGKMl-djSIHCWFFbnve7f0OlvMY30HED_YnhXI2VUhw,58
+aurelio/settings/redis_settings.py,sha256=MHYK4rhmVV4Q3p_vN9cZs65pW0KMSYBErO_V3bnbWk0,1147
+aurelio/utils.py,sha256=yf8KK0Fx-yusICK9-qyhiWzy4cZPLctTDA7Y3czvebA,361
+aurelio-0.0.1.dist-info/LICENSE,sha256=v2BfbBXIw-SwRJ_c0pJpBXV3h4mEoR3qkV-Bsh5uCCU,1075
+aurelio-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aurelio-0.0.1.dist-info/METADATA,sha256=SLysTHxyu1ubzRXa_7U7ofV980dFVgGApxEIfZKWQxA,581
+aurelio-0.0.1.dist-info/RECORD,,
