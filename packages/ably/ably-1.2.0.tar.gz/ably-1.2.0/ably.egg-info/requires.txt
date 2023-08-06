@@ -1,0 +1,10 @@
+methoddispatch<4,>=3.0.2
+msgpack<2,>=1.0.0
+httpx<1,>=0.20.0
+h2<5,>=4.0.0
+
+[crypto]
+pycryptodome
+
+[oldcrypto]
+pycrypto>=2.6.1
