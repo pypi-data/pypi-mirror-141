@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+CardDeckPy.egg-info/PKG-INFO
+CardDeckPy.egg-info/SOURCES.txt
+CardDeckPy.egg-info/dependency_links.txt
+CardDeckPy.egg-info/top_level.txt
+PyCardDeck/__init__.py
+PyCardDeck/card.py
+PyCardDeck/deck.py
+PyCardDeck/hand.py
