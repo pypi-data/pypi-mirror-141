@@ -1,0 +1,11 @@
+[metadata]
+name = {{ package_name }}
+
+[options]
+install_requires =
+    sila2
+include_package_data = True
+packages = find:
+
+[options.package_data]
+{{ package_name }}.generated = */*.sila.xml
