@@ -1,0 +1,15 @@
+unitexpr/__init__.py,sha256=tGxh0_9XMG9-4pwCSLS6Tj7BVT8-A11iRGoomd_YzoU,666
+unitexpr/_unitexpr.py,sha256=1DsFDENY9x5LKhLfkDj-9cQ81reRacn99xT0YB79ifw,27334
+unitexpr/errors.py,sha256=irf4c97FtvV5CG7W1BG6vXLVXxCXm_4LZDB3pk5aLBY,1271
+unitexpr/qarray.py,sha256=-AGJPd7egerRmALlqqmHufLvkXZc0vQka3p0ZzTZqT8,10869
+unitexpr/quantity.py,sha256=EsgYCuT8GP2gPs1PKQKrou-GwyESLq6Z1bNHXqIKUyA,415
+unitexpr/sc_units.py,sha256=ajEamKJN5KfmikUGg-EJ3KK3B1_DtV1PYKfHT16Qh9c,3400
+unitexpr/si_units.py,sha256=f6K7aWLskrJvapG-US0t-AHBrqKm2fmtyrInvyTJ82g,3012
+unitexpr/unit.py,sha256=0R3NACyH51kney2J9ArBMCCVjmYRw122EquIbCOlRmY,9428
+unitexpr/unit_dict.py,sha256=w4TEbphz_wlGpVlqBCA4NrQ1TARj0NjR-NPPrJCVtqM,6991
+unitexpr/unit_symbol.py,sha256=qk5KWF_bovYYqgwvqrJ4FjEHUamAF5DBRQ9w9P_AW-8,1369
+unitexpr-0.1.5.dist-info/LICENSE,sha256=iOiyQZnKCSJKco-9fP-s1MeIIyFEM49m6Uy3yz8PaCo,1518
+unitexpr-0.1.5.dist-info/METADATA,sha256=STOSHUm4ZMvuZdfkI27DvLtvwXux3g8pAQtYID5HkIo,11421
+unitexpr-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+unitexpr-0.1.5.dist-info/top_level.txt,sha256=0RlUKGK6fEY4_dsPcRsR-4kY8ECgjE_xTVhkl--dNCE,9
+unitexpr-0.1.5.dist-info/RECORD,,
