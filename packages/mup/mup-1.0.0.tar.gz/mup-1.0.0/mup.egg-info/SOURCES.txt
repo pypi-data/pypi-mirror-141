@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mup/__init__.py
+mup/coord_check.py
+mup/infshape.py
+mup/init.py
+mup/layer.py
+mup/optim.py
+mup/shape.py
+mup.egg-info/PKG-INFO
+mup.egg-info/SOURCES.txt
+mup.egg-info/dependency_links.txt
+mup.egg-info/requires.txt
+mup.egg-info/top_level.txt
