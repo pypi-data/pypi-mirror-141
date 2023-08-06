@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: michelanglo_transpiler
+Version: 1.0.1
+Summary: Transpiler module for Michelanglo
+Home-page: https://github.com/matteoferla/MichelaNGLo-transpiler
+Author: Matteo Ferla
+Author-email: matteo@well.ox.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
