@@ -1,0 +1,6 @@
+guvicorn_logger/__init__.py,sha256=q0j9CKwr8F6quYOdQ1M1KddoCbbJB46xGJEHEBohzyc,50
+guvicorn_logger/core.py,sha256=EeRZNa_cHL3oiaCQa5H8f5uVRyiA4jULj08017gjM20,4227
+guvicorn_logger/logger.py,sha256=p0xd_5bOEUpD-k2DzR6j2jwzjIdTV3UUq8np_xWbcls,2465
+guvicorn_logger-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+guvicorn_logger-0.1.4.dist-info/METADATA,sha256=wKZmEci5q2lJI6p3G3ctOAQCQbwV9tqQq20YhO7EitM,1440
+guvicorn_logger-0.1.4.dist-info/RECORD,,
