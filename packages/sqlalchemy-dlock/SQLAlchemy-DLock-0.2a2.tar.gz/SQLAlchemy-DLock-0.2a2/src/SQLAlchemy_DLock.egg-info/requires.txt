@@ -1,0 +1,6 @@
+SQLAlchemy>=1.2
+
+[asyncio]
+sqlalchemy[asyncio]>=1.4
+aiomysql
+asyncpg
