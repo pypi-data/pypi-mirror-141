@@ -1,0 +1,12 @@
+cryptography==36.0.1
+pyyaml==6.0
+mypy-extensions==0.4.3
+
+[dev]
+pytest==6.2.2
+pytest-cov==2.11.1
+codecov==2.1.11
+pylint==2.7.2
+mypy==0.931
+lxml==4.8.0
+types-PyYAML==6.0.4
