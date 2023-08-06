@@ -1,0 +1,10 @@
+promisedio/promise/__init__.py,sha256=C2lFLxXDlcPV4VoWy6rTvHtSctkTlzVoh3Eea3pFWuY,189
+promisedio/promise/capsule/promisedio/promise.h,sha256=PSRXvhGIrQzPUwPf-5cI2NsosTPZ7Go-mpjp09mC_Qs,7520
+promisedio/promise/clinic/promise.c.h,sha256=hvahqt7SJ5QR4iLM98EwI0B4XEogovlIDsy7tbeLxt8,13881
+promisedio/promise/promise.c,sha256=sYNWXDauZ10eDa2hhm-OG_D3MuSyAHwflidVSc0kVCw,46996
+promisedio/promise/_promise.cpython-310-darwin.so,sha256=X5e1_H_7UxBoXWZmtv8mOOfXT8HOt10o6ryH1XWU6Gk,181215
+promisedio/promise/_promise_debug.cpython-310-darwin.so,sha256=PeNGqz-H_PP_Q3oYtrL3gHuxSXLYr6ZRJitPBc8KnXg,183839
+promisedio_promise-1.0.23.dist-info/LICENSE,sha256=pamYNvr8cvDvPjmjljGisSB_9Fb0KgLYTT4mUUOZo-o,1107
+promisedio_promise-1.0.23.dist-info/WHEEL,sha256=kG7gbqQ7xgqqdTXhWnXpARMA0S5tgBoKivM0mCxEPyQ,102
+promisedio_promise-1.0.23.dist-info/METADATA,sha256=7YkUMKjMOZfRFRHEEFl3i3ImXUJf0Kqlf6riaKoMv_k,3358
+promisedio_promise-1.0.23.dist-info/RECORD,,
