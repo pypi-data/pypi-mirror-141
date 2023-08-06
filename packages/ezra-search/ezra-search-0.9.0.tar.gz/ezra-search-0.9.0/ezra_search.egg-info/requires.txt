@@ -1,0 +1,4 @@
+Flask
+tables
+OpenCC>=1.1.3
+jieba

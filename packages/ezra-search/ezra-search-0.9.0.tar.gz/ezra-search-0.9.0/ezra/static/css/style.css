@@ -1,0 +1,79 @@
+[v-cloak] {
+    display: none;
+}
+
+.cover-heading {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.search-heading {
+    font-weight: 300;
+    color: #343a40;
+    text-align: center;
+}
+
+em {
+    color: #ea4335;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.search-result a {
+    color: #1a0dab;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .10);
+}
+
+.search-result a:visited {
+    color: #609;
+}
+
+.search-result a:hover {
+    text-decoration: underline;
+}
+
+.low-relevant {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-weight: 300;
+}
+
+.nav-scroller {
+    font-size: .875rem;
+    height: 2em;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.nav-scroller a {
+    padding: .25em 0;
+    margin: 0 .5em;
+    color: #6c757d;
+    border-bottom-width: 2px;
+}
+
+.nav-scroller a.active {
+    color: black;
+    border-bottom-style: solid;
+}
+
+.nav-scroller a:hover {
+    border-bottom-style: solid;
+    text-decoration: none;
+}
+
+footer {
+    font-size: .875rem;
+}
+
+footer p {
+    margin-bottom: .5em;
+}
