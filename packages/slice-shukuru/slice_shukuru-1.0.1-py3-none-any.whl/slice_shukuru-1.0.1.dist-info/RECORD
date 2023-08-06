@@ -1,0 +1,10 @@
+slice/__init__.py,sha256=PypCLrSSs20OBjVYlX6mNMyzDyIqNStIhu2QFt0NJ2w,132
+slice/__main__.py,sha256=hRheLmJkGuzj1COQCFNrETyuokjuUcS5I_BFqrm3Lw0,1795
+slice/slicing.py,sha256=8ipVgT7gqW0aK45fQOo2pRdqiV8Mpg2o-RvThoLNz-8,2335
+slice/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slice/tests/test_slice.py,sha256=GkvWn9g_MLNmznj74QKRMTwb1bGLGAGsWMeAdoMJYN4,615
+slice_shukuru-1.0.1.dist-info/LICENSE,sha256=ky6bzqCBAIKyd3rZce56Q_CTGIbTIsQC2UiLfKtJ20k,1518
+slice_shukuru-1.0.1.dist-info/METADATA,sha256=0_m8WM2CazjQn3nB3jt1AAHf-tWDQfwQ9m94-2g5Aag,2284
+slice_shukuru-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slice_shukuru-1.0.1.dist-info/top_level.txt,sha256=lxyUAeWGecJnCrkbg9s4RuR5J9npxSfqlS8p0Rx1Ffk,6
+slice_shukuru-1.0.1.dist-info/RECORD,,
