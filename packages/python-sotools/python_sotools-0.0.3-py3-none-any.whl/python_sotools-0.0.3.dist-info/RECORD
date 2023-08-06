@@ -1,0 +1,13 @@
+python_sotools-0.0.3.data/scripts/ldd.py,sha256=bm9xBE_JlFdvtv9UKp_itj_jLt5s8qH0dnWeUs1NsdI,403
+python_sotools-0.0.3.data/scripts/sowhich.py,sha256=A42Nkn7dFVC6Z9o6GKLAWtEuI4bVXXthreLvxdnknFI,305
+sotools/__init__.py,sha256=ypMc7NyGdGWrx1ynbp-wT2Dc7HeR0C5hwv0V6dMnCDc,2248
+sotools/dl_cache.py,sha256=hdeKR5Ezb0r1YIz-yb8bFnf3FMNBj6wrHqaDIqQfPrs,5369
+sotools/ldd.py,sha256=PumHTgyztzDv-FAHA8HgzlPr43rhBTsxonAE636alsU,356
+sotools/libraryset.py,sha256=qzLjmL89A83UVWqv3orOVmlRS6l6712n1rdiU2FocKI,10590
+sotools/linker.py,sha256=zvyB-gAwmIKtIYstwSTd4Z_fcN5vVjXiAjuman3mBzI,1523
+sotools/util.py,sha256=F4ZvNByzOyTBivyqLb5cavwMnEEdYFs9W0BMPGooi9I,124
+sotools/version.py,sha256=3I-8jSbbk9pyyLnNt4kHsY5Gs33w9reIKmd5eTLr-kM,174
+python_sotools-0.0.3.dist-info/METADATA,sha256=NfdJI1CKTTK0KMT09Fk9tuxF9IDydc2OglRXyEPgoOw,539
+python_sotools-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_sotools-0.0.3.dist-info/top_level.txt,sha256=u0pFYRMtAMcA2EL6QSQFBsyWso5pG3M2bWZb3wIq1XU,8
+python_sotools-0.0.3.dist-info/RECORD,,
