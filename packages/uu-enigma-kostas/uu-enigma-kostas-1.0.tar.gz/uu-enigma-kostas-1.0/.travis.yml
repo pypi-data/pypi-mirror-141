@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.9"
+
+# Don't send email notifications for everything...
+notifications:
+  email: false
+
+ install:
+  - pip install pytest
+
+script:
+  - py.test
+ 
