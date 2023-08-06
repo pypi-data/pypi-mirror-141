@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: sap-ai-core-metaflow
+Version: 1.0.2
+Summary: A Metaflow plugin to execute flows on Argo Workflows
+Home-page: https://www.sap.com/
+Author: SAP SE
+License: SAP DEVELOPER LICENSE AGREEMENT
+Download-URL: https://pypi.python.org/pypi/sap-ai-core-metaflow
+Project-URL: Documentation, https://help.sap.com/viewer/808d9d442fb0484e9b818924feeb9add/INTERNAL/en-US/499309d6e371419fb7a88b7d68c20a31.html
+Keywords: SAP AI Core Metaflow plugin
+Platform: Linux
+Platform: Mac OS-X
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: metaflow (<2.5.1,>=2.5.0)
+Provides-Extra: kubernetes
+Requires-Dist: kubernetes ; extra == 'kubernetes'
+
+sap-ai-core-metaflow
+====================
+
+`sap-ai-core-metaflow` is a `Metaflow <https://metaflow.org/>`_ plugin to execute flows on `Argo Workflows <https://argoproj.github.io/argo-workflows/>`_.
+
+It adds Argo Workflows capabilities on top of Metaflow's `@kubernetes` decorator similar
+to `step-functions` and `@batch`.
+
+Installation
+------------
+
+::
+
+  pip install sap-ai-core-metaflow[kubernetes]
+
+
+Configuration
+-------------
+
+Plugin requires configured Metaflow::
+
+  metaflow configure eks
+
+
+Usage
+-----
+
+Resembles Metaflow's step-functions command::
+
+  cd metaflow-tutorials
+  python 00-helloworld/helloworld.py argo create
+  python 00-helloworld/helloworld.py argo trigger
+  python 00-helloworld/helloworld.py argo list-runs
+
+To see sub-commands' detailed information, run::
+
+  python 00-helloworld/helloworld.py argo [sub-command] --help
+
+

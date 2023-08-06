@@ -1,0 +1,12 @@
+metaflow_extensions/sap/plugins/__init__.py,sha256=SCrUtukHHOAq9tPYTSVldoEO66vpzIPHdtFF6Vr8NQ0,527
+metaflow_extensions/sap/plugins/argo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaflow_extensions/sap/plugins/argo/argo_cli.py,sha256=yPqmivJaUSjvpqUYM910j3nftMj8YisYwZhSJ_Czxz4,8179
+metaflow_extensions/sap/plugins/argo/argo_client.py,sha256=hFJt4uJpAJNoaBf2kXLIZHLBHO41_M8Nkf74dfQAXa8,3871
+metaflow_extensions/sap/plugins/argo/argo_convert_aggregation.py,sha256=VwE00eDBUrHlvl_jidEKkcw_uAFdXOOvx2Az11f2648,734
+metaflow_extensions/sap/plugins/argo/argo_decorator.py,sha256=QrTCB0N3Ck6rJkA4JhN04qnwBmOTrdRJgeQMz_qV0Io,2063
+metaflow_extensions/sap/plugins/argo/argo_workflow.py,sha256=ggpOIne5_H9OD_HZQb10EqaDi6TXKlCHfEvWb-2WaOo,24353
+sap_ai_core_metaflow-1.0.2.dist-info/LICENSE.txt,sha256=UjY2_1FXajJYmo35dYTdpqbYjJ7bntyi9_9KcjO-egs,12570
+sap_ai_core_metaflow-1.0.2.dist-info/METADATA,sha256=JNQgOpHF06kQ7jL4JPlcel2ZtR57oJ-Ls0q6q3lIL3Y,2289
+sap_ai_core_metaflow-1.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sap_ai_core_metaflow-1.0.2.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+sap_ai_core_metaflow-1.0.2.dist-info/RECORD,,
