@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "voltorb-flip"
+version = "1.1.0"
+description = "A minigame of the Goldenrod and Celadon Game Corners in the Korean and Western releases of Pokémon HeartGold and SoulSilver."
+authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/fferegrino/voltorb-flip"
+repository = "https://github.com/fferegrino/voltorb-flip"
+
+[tool.poetry.scripts]
+voltorb-flip = 'voltorb_flip.__main__:cli'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.4"
+rich = "^11.2.0"
+
+[tool.poetry.dev-dependencies]
+advbumpversion = "^1.2.0"
+bandit = "^1.7.4"
+black = "^22.1.0"
+isort = "^5.10.1"
+pylint = "^2.12.2"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
