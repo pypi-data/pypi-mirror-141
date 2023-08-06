@@ -1,0 +1,2 @@
+[sceptre.template_handlers]
+package = package_template_handler:PackageTemplateHandler

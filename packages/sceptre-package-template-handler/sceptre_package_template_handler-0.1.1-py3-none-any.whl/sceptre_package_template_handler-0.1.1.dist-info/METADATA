@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sceptre-package-template-handler
+Version: 0.1.1
+Summary: A template handler for sceptre for downloadable packages
+Home-page: https://github.com/sigdba/sceptre_package_template_handler
+Author: Dan Boitnott
+Author-email: boitnott@sigcorp.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# A Package Manager For Sceptre
+
+
