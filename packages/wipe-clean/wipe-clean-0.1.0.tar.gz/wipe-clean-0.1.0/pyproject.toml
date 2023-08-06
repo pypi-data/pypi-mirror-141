@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wipe-clean"
+version = "0.1.0"
+description = "Wipe clean your console."
+authors = ["wenop <wenoptics@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+rich = "^11.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+wipe-clean = "wipe_clean.main:main"
