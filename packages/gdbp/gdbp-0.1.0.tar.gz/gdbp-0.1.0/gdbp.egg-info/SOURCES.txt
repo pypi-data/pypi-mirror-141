@@ -1,0 +1,9 @@
+README.md
+setup.py
+gdbp/__init__.py
+gdbp/rw_utils.py
+gdbp.egg-info/PKG-INFO
+gdbp.egg-info/SOURCES.txt
+gdbp.egg-info/dependency_links.txt
+gdbp.egg-info/requires.txt
+gdbp.egg-info/top_level.txt
