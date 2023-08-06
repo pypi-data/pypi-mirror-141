@@ -1,0 +1,8 @@
+aws_account/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_account/cli.py,sha256=lBzoJsCYHQQVbj2WnAZt54Qycv9p7KIr0Mp7fJms5g8,7367
+aws_account/test/test_cli.py,sha256=jrUY0iVj0mbrEgQdSFqOc3BdGkIEdMojl11PAJSItl0,1829
+aws_account-0.1.6.dist-info/entry_points.txt,sha256=G_JNoSoLUT8vg7qbF7xvMAdGU-wsSdXdIRwUAri5bwg,52
+aws_account-0.1.6.dist-info/LICENSE,sha256=dxtsk4PMgWP4bEagF0KqG505kKmzDBg97_fStXYUQqQ,11343
+aws_account-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aws_account-0.1.6.dist-info/METADATA,sha256=Etuj0BzwihYrAfQfyDqRLrMfcc88tf6CWh9nOHPKpIM,745
+aws_account-0.1.6.dist-info/RECORD,,
