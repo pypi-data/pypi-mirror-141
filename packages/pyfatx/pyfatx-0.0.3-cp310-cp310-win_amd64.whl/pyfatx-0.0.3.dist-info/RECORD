@@ -1,0 +1,8 @@
+pyfatx/__init__.py,sha256=-2jtbRA-z3KspzRpf0hj848NW9_v2zNV7Y4xizr2ry4,4812
+pyfatx/__main__.py,sha256=I-WBdkejn3vqECkUnIBCjeGI__-mGsoKZYBJydV8Td8,2090
+pyfatx/libfatx.cp310-win_amd64.pyd,sha256=KxJVRnvHyLVmoVbd7Xa7NsZ6mQJE5c-GE6a_d0F8zZk,61952
+pyfatx-0.0.3.dist-info/LICENSE.txt,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+pyfatx-0.0.3.dist-info/METADATA,sha256=r9-jZC5Dhg4pA--cK0OYh1jrG6vyIvdfI8wmNqazUQA,301
+pyfatx-0.0.3.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+pyfatx-0.0.3.dist-info/top_level.txt,sha256=FCF7hFdfcuBU8ebBdAKr9-CmYIb_AiLvyemrzyqsdeM,7
+pyfatx-0.0.3.dist-info/RECORD,,
