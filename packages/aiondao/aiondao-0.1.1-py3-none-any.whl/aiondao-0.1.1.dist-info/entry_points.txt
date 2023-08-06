@@ -1,0 +1,3 @@
+[console_scripts]
+aiondao=aiondao.cli:app
+

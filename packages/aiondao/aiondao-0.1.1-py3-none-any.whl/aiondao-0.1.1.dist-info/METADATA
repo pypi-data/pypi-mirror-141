@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aiondao
+Version: 0.1.1
+Summary: 
+Author: kivo360
+Author-email: kivo360@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: Mesa (>=0.9.0,<0.10.0)
+Requires-Dist: addict (>=2.4.0,<3.0.0)
+Requires-Dist: auto-all (>=1.4.1,<2.0.0)
+Requires-Dist: cadCAD (>=0.4.28,<0.5.0)
+Requires-Dist: celery[redis] (>=5.2.3,<6.0.0)
+Requires-Dist: cytoolz (>=0.11.2,<0.12.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: devtools (>=0.8.0,<0.9.0)
+Requires-Dist: fastapi (>=0.74.1,<0.75.0)
+Requires-Dist: keyring (>=23.5.0,<24.0.0)
+Requires-Dist: libcst (>=0.4.1,<0.5.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: networkx (>=2.6.3,<3.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: wrapt (>=1.13.3,<2.0.0)
