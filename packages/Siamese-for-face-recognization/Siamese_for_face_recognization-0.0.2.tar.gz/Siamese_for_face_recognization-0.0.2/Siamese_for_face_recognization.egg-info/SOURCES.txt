@@ -1,0 +1,15 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+README.txt
+requirements.txt
+requirements_dev.txt
+setup.py
+Siamese_for_face_recognization/__init__.py
+Siamese_for_face_recognization.egg-info/PKG-INFO
+Siamese_for_face_recognization.egg-info/SOURCES.txt
+Siamese_for_face_recognization.egg-info/dependency_links.txt
+Siamese_for_face_recognization.egg-info/not-zip-safe
+Siamese_for_face_recognization.egg-info/top_level.txt
+Siamese_for_face_recognization/models/nn4.small2.v1.h5

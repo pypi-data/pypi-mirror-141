@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Siamese-for-face-recognization
+Version: 0.0.2
+Summary: Models used for face_recognition by siamese neural network.
+Home-page: https://github.com/xalphonseinbaraj/Siamese_for_face_recognization
+Author: AlphonseInbarajXavier
+Author-email: xalphonse@gmail.com
+License: MIT license
+Description: Siamese for face recognization
+        This package contains only the models used for face recognization by siamese neural network `Siamese_for_face_recognization <'https://github.com/xalphonseinbaraj/Siamese_for_face_recognization'>`__.
+        
+        See  `Siamese_for_face_recognization <'https://github.com/xalphonseinbaraj/Siamese_for_face_recognization'>`__ for more information.
+        
+        
+Keywords: Siamese_for_face_recognization
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
