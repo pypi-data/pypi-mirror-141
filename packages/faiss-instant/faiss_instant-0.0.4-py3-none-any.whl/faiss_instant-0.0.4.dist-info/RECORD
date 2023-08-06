@@ -1,0 +1,10 @@
+faiss_instant/encode.py,sha256=Wa4nKbxl6xaeRKn1qGLWeV5r4hinSXinLWgOvVnOGDY,5078
+faiss_instant/encode_and_index.py,sha256=HE6fRSjpV9rN1yGFS1nwSWjRc8ZuElwo6fAVOBsHYPI,1509
+faiss_instant/evaluate.py,sha256=E2eLjyaq-0bzsXtlwyTZOow2Ja78ZrS6dLTaoFysmmk,3360
+faiss_instant/index.py,sha256=9ZREYaluJScOdYXGhkTWbQ908Lx_Kk933RIOSAWDU10,4218
+faiss_instant/info.py,sha256=5BBUOpXlVkRyFKfrz_KfcagQXRhb1hG441yNkbmrAEA,1692
+faiss_instant-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+faiss_instant-0.0.4.dist-info/METADATA,sha256=GPJRUnPlZtrCW5d1blknATiUblEz93FMABcHlroE6tQ,5448
+faiss_instant-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+faiss_instant-0.0.4.dist-info/top_level.txt,sha256=QA0F9zMW28WQU6ZeSN7M33apXm4yoFLEbMXs6aihVwQ,14
+faiss_instant-0.0.4.dist-info/RECORD,,
