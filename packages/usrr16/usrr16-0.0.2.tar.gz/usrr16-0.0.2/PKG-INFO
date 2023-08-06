@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: usrr16
+Version: 0.0.2
+Summary: USR-R16 / USR-R16-T controller
+Home-page: https://github.com/v1a0/usr-r16
+Download-URL: https://github.com/V1A0/usr-r16/archive/refs/tags/v0.0.2.tar.gz
+Author: v1a0
+Author-email: contact@v1a0.dev
+License: gpl-3.0
+Keywords: relay,usr-r16,usr-r16-t,usrr16,usrr16t,lonhand,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# USR-R16 / USR-R16-T
+
+Simpe USR-R16 / USR-R16-T boards controller class
+
+# Example
+
+```python
+from usrr16 import UsrR16
+
+r16 = UsrR16(host='192.168.0.99', port=8899, password='admin')
+r16.turn_off_all()
+
+r16.invert(relay=1)
+r16.turn_on(relay=2)
+r16.turn_off(relay=2)
+
+r16.turn_on(3)
+print(r16.state(3)) # True
+
+r16.turn_off(3)
+print(r16.state(3)) # False
+```
+
+# Installation
+
+```
+pip install usrr16
+```
+
+> Contributors: @v1a0, @horga83
+>
+> Based on [@wowks/USR-R16](https://github.com/wowks/USR-R16) and [xtodx/php-USR-R16](https://github.com/xtodx/php-USR-R16)
+> 
+> Thank you!
+
+
