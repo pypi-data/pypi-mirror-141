@@ -1,0 +1,12 @@
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/add_user.py,sha256=wMwKrYotSnNiuKWd1OXKzYGOQ4NV6ab3vv_mzU7BMCI,3962
+server/config_window.py,sha256=VUj9Ai44aztAfyobBkeXS0zsbmOnnrpRVN7HFdSknO4,5398
+server/core.py,sha256=P5UUXx6c7hk_dWlIiRthBb_bqj_n81EMLDu4a9gv-FY,15295
+server/database.py,sha256=nSB4VC9TLS_UIpHELCm2B14OfP4ZFTojEcDrG9uXEYA,16641
+server/main_window.py,sha256=TXOeSyUQ9Q9HvHhAb7qoXGHD5L7VVkrsYNQjrhKDRZA,6137
+server/remove_user.py,sha256=WTPF_1RddyYNr8_dk0jOebvAkZoyUgKCEDP_WvCl59U,2276
+server/stat_window.py,sha256=APY8_hr56p5DBZNoNd2HPswUl7mShuzqE6wuajAbLE8,2282
+PyQt_server_client-0.0.1.dist-info/METADATA,sha256=IPWgGGZ1_39xUR-IvEjajmFPTtl6DruVcXekOCO333g,314
+PyQt_server_client-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyQt_server_client-0.0.1.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+PyQt_server_client-0.0.1.dist-info/RECORD,,
