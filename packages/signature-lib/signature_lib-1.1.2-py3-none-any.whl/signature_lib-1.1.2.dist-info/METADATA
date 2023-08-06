@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: signature-lib
+Version: 1.1.2
+Summary: Base application for signature
+Home-page: UNKNOWN
+Author: Python-Group-UFPS
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+

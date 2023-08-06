@@ -1,0 +1,14 @@
+signaturelib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signaturelib/services.py,sha256=nWEYU77Vj9lQR5tXf9hpSAou2OWDs7RKKZXTcTYtqSY,9274
+signaturelib/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signaturelib/model/dao/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signaturelib/model/dao/file_dao.py,sha256=XuGAO-Um5I-aNNfNypVQQ3bxY-lVfQft7WlflAMxHcI,2062
+signaturelib/model/dao/signature_request_dao.py,sha256=i4eK7nj8npRXhY9U_3bYmxMpIdC04Y0gpmI_bzlQQt0,3828
+signaturelib/model/dao/signature_request_user_dao.py,sha256=gQdfKIYSAk-flxGgNo3NKL3-39cWN0jQILmiZd0vd6E,4519
+signaturelib/model/dao/user_dao.py,sha256=Q-ZmHGg9jyhQT06esGlcYN248AzIMQBA8oQj5G64-60,2400
+signaturelib/model/dto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signaturelib/model/dto/model_dto.py,sha256=SaFKvSgeDj70B_LsOKozgcBhJuoLFF4hOGMUJ-MTaho,4357
+signature_lib-1.1.2.dist-info/METADATA,sha256=TEF_dxPxbYmQG4Fn2XKWh4pfGi1mD0pi-8yeNGPjtEk,230
+signature_lib-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+signature_lib-1.1.2.dist-info/top_level.txt,sha256=BEfhggIDw58d95wjWyTxrQnUyoOvatFnYZ_OEc2I2vc,13
+signature_lib-1.1.2.dist-info/RECORD,,
