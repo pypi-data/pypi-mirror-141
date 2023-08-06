@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: langma
+Version: 0.0.3
+Summary: Awesome NLP framework you are waiting for ✨
+Home-page: https://github.com/szj2ys/Qomolangma
+Author: szj
+Author-email: szj2ys@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: gensim (<4.0.0,>=3.8.1)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: tqdm
+Requires-Dist: bert4keras (>=0.9.1)
+Requires-Dist: scikit-learn (>=0.21.1)
+Requires-Dist: tensorflow (>=2.1.0)
+Requires-Dist: tensorflow-addons
+Requires-Dist: click
+Requires-Dist: click-help-colors
+
+
+<p align="center">
+    <img width="350" height="150" src="https://cdn.jsdelivr.net/gh/szj2ys/Qomolangma/langma/logo.png"/>
+</p>
+
+<h3 align="center">
+    <p>Awesome NLP framework you are waiting for ✨</p>
+</h3>
+
+
+<p align="center">
+    <a href="https://python.org/pypi/Qomolangma">
+        <img src="https://badge.fury.io/py/Qomolangma.svg" alt="Version"/>
+    </a>
+    <a href="https://python.org/pypi/Qomolangma">
+        <img src="https://img.shields.io/pypi/l/Qomolangma.svg?color=orange" alt="License"/>
+    </a>
+    <a href="https://python.org/pypi/Qomolangma">
+        <img src="https://static.pepy.tech/badge/Qomolangma?color=blue" alt="pypi total downloads"/>
+    </a>
+    <a href="https://python.org/pypi/Qomolangma">
+        <img src="https://img.shields.io/github/last-commit/szj2ys/Qomolangma?color=blue" alt="GitHub last commit"/>
+    </a>
+</p>
+
+`Qomolangma` is the highest mountain on Earth
+Snow-capped mountains, azure sky, golden rays of sunshine, the pure and 
+mysterious aura of Tibet has excited the imagination of so many people of the world. 
+
+And also in the world of NLP, `Qomolangma` want to be a peak in natural 
+language processing
+
+## Installation⚙ 🔑 🎛️ 🙈 🎠 ❌ 🎉 
+```shell
+pip install langma
+```
+
+hahahaha...`Qomolangma` is now on your environment, enjoy...
+
+if you don't know what to do and how, enter `langma -h` for help on 
+terminal
+
+## REFERENCES
+- [logly](https://www.logoly.pro/)
+- [Kashgari](https://github.com/BrikerMan/Kashgari/)
+
+
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/szj2ys/Qomolangma/langma/everest.jpeg"/>
+</p>
+
+
+
