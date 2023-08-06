@@ -1,0 +1,9 @@
+ckip_transformers/__init__.py,sha256=sgYqfJ631IasbmShoTI-yV0Z5YwZijGC65dpL9iurkk,403
+ckip_transformers/nlp/__init__.py,sha256=pyURs3hzqIO212C0oMs8yB1begJF_y-_RADletcBFBA,298
+ckip_transformers/nlp/driver.py,sha256=ree2gvio45O0DDOXfQO9s11TpPm1J1X6bkNLTKxES4A,12143
+ckip_transformers/nlp/util.py,sha256=-ut2bFRGumo7Dirq2FoDQo_l8p5V4O4EOg0MWopQ_Sc,9308
+ckip_transformers-0.2.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ckip_transformers-0.2.8.dist-info/METADATA,sha256=ZorBs27dXqer0nVxzykNw0bPwW2offE22g6KWlkgv3g,25017
+ckip_transformers-0.2.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ckip_transformers-0.2.8.dist-info/top_level.txt,sha256=Zdj5OTX_F4DtJk2j6T3ra3sA4Xw8MH0UzFyF2YCXrc4,18
+ckip_transformers-0.2.8.dist-info/RECORD,,
