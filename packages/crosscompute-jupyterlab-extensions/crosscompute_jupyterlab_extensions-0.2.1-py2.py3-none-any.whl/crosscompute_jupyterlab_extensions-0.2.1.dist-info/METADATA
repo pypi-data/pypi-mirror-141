@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: crosscompute-jupyterlab-extensions
+Version: 0.2.1
+Summary: CrossCompute Extensions for JupyterLab
+Home-page: https://pypi.python.org/pypi/jupyterlab-crosscompute/
+Author: CrossCompute Inc.
+Author-email: support@crosscompute.com
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+License: UNKNOWN
+Platform: all
+Requires-Dist: jupyterlab-crosscompute
+
+Use `jupyterlab-crosscompute <https://pypi.python.org/pypi/jupyterlab-crosscompute/>`_ instead.
+
