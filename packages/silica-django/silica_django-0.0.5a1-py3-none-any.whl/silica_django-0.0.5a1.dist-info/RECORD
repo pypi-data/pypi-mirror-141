@@ -1,0 +1,16 @@
+silica_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silica_django/fields.py,sha256=MEflQlzRJsk3UF_HzqeY3aU9WP_XRJaxy7-junnv7xk,6439
+silica_django/forms.py,sha256=JmVO2h9HfKrU0oDGymE_HLJwRpwFIdL6Pvfzee-QAQ0,4796
+silica_django/layout.py,sha256=DM-kVtsT96-dcJvnSF6eMEn1RpEE7DjwSYwbdkXZ3ts,3276
+silica_django/mixins.py,sha256=TN_LzwI_mz7oFMD55qlmvxmW9MI2sJ_7dRYFB6UWuVg,3486
+silica_django/rules.py,sha256=bQ-eXMa8AQ_w7RnXEBvkrMkOFWh1bb9kn-1e0OqZRjU,2441
+silica_django/templates/silica_loader.html,sha256=jX8zRcVV_cbBSCfrWnaj0OqcKWIUil0krzBnj63Xpgg,245
+silica_django/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silica_django/templatetags/silica.py,sha256=uHmoJO6IMWDyGFcA4uMl3TH8QCoZyhfhBavrsZYcVY4,331
+silica_django/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silica_django/utils/jsonschema.py,sha256=z2ZvTzfYyW-5hbxrxpS6MowbdcfDz6-AmZjSVGXIEFU,243
+silica_django-0.0.5a1.dist-info/LICENSE,sha256=HXfFGmkkaIRz4bHw0GBWMC1qamqK5XTywXdUeiyJik8,1070
+silica_django-0.0.5a1.dist-info/METADATA,sha256=ExW2qUrtsEu5AZFPK0H8P0Af61dA7_hpmpnpDN2Jm9s,1203
+silica_django-0.0.5a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+silica_django-0.0.5a1.dist-info/top_level.txt,sha256=t_BLZgba1g565RJVUAzGTEHNFmXBPvoMmR8_0vhkEv4,14
+silica_django-0.0.5a1.dist-info/RECORD,,
