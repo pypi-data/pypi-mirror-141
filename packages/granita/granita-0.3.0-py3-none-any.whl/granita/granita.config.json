@@ -1,0 +1,10 @@
+{
+	"pages": "pages",
+	"static": "static",
+	"public": "public",
+	"templates": "templates",
+	"default-template": "default.html",
+	"content-selector": "content",
+	"global-stylesheet": null,
+	"extra-data": {}
+}
