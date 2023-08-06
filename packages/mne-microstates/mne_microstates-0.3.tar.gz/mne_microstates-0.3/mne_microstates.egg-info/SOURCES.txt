@@ -1,0 +1,9 @@
+LICENSE
+README.md
+mne_microstates.py
+setup.py
+mne_microstates.egg-info/PKG-INFO
+mne_microstates.egg-info/SOURCES.txt
+mne_microstates.egg-info/dependency_links.txt
+mne_microstates.egg-info/requires.txt
+mne_microstates.egg-info/top_level.txt
