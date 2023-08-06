@@ -1,0 +1,9 @@
+collagraph/__init__.py,sha256=6Xca1A0mVOmoou557_zfD-LbldRZuOBLyKqhWmzAFdY,21301
+collagraph/renderers/__init__.py,sha256=-EF2Rv5whH6Yyebv0hykrSXqi9hfWEJfipBVfNI35Lo,1633
+collagraph/renderers/dict_renderer.py,sha256=ZPuvM0Eaok6Zu_QDgRD770AnWuPIDtvkcwg9Eo7axRE,1350
+collagraph/renderers/pygfx_renderer.py,sha256=3-tJ5v0d2rKtF7fPCIpMqDW5e_H_ca7LBt42FrTUztI,2524
+collagraph/types.py,sha256=bOzjG4g3b_P9D1CocbEfJITDVYUKbcRSCu0-PHxixrY,1109
+collagraph-0.1.0.dist-info/LICENSE,sha256=q-95vJJ9HjRLu7HNHMrDIhRSSZJzl7yr9vMwoUA06WY,1074
+collagraph-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+collagraph-0.1.0.dist-info/METADATA,sha256=c-66MhEgqe0fraE9XfYbuJqwKzVKefdgp6rrEpvRYnI,1230
+collagraph-0.1.0.dist-info/RECORD,,
