@@ -1,0 +1,5 @@
+archivy_espial.egg-info/
+__pycache__/
+archivy_espial/__pycache__/
+build/
+dist/

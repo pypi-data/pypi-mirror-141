@@ -1,0 +1,4 @@
+
+        [archivy.plugins]
+        espial=archivy_espial:espial
+    
