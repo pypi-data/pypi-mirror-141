@@ -1,0 +1,11 @@
+mwedittypes/__init__.py,sha256=eyVEQIANSP7K_71kDG0x3TFzMaJnI8kxc_d77mx7GYQ,289
+mwedittypes/constants.py,sha256=ZT1Yir5DYciBWhZ204i7LzcMt9LwjcGr4dqBYH5VnNQ,24764
+mwedittypes/mwedittypes.py,sha256=Usjqy2MDmfROknq0GOm9y5yVm3-sbDJgTdchBizkKrU,617
+mwedittypes/node_differ.py,sha256=PuuIRddZiXG5LaEGYA2fIEVUI4bPzrXPbT5Mol3YGdk,21595
+mwedittypes/tokenizer.py,sha256=HLK0DS_Xn_rhpXXq1LrHjDKE4WQuBxz6BN8kBNWzd4M,3433
+mwedittypes/tree_differ.py,sha256=Azug8MM-FjJCHf1fccnIa9VTHDK9RHqScMiJk1KgEeQ,34860
+mwedittypes-0.2.0.dist-info/LICENSE,sha256=2-yZLWtHnKBt8pJYsiVnOpF7UTJRfPtj3VuH3JnDa48,1061
+mwedittypes-0.2.0.dist-info/METADATA,sha256=fQxSvofdWwbJvtou0YQs137Xu2PfbBdDHHO27HRtJzo,5498
+mwedittypes-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mwedittypes-0.2.0.dist-info/top_level.txt,sha256=0EHANVQZQXsfMNGqF7M8B39Aq16PFDUNOAWwnOJVGVY,12
+mwedittypes-0.2.0.dist-info/RECORD,,
