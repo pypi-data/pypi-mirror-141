@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/egsnrc_dosxyz/__init__.py
+src/egsnrc_dosxyz/egs3ddose.py
+src/egsnrc_dosxyz/egsphant.py
+src/egsnrc_dosxyz.egg-info/PKG-INFO
+src/egsnrc_dosxyz.egg-info/SOURCES.txt
+src/egsnrc_dosxyz.egg-info/dependency_links.txt
+src/egsnrc_dosxyz.egg-info/top_level.txt
