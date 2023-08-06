@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+create_ascii/__init__.py
+create_ascii/ascii_image.py
+create_ascii/command_line.py
+create_ascii/util.py
+create_ascii.egg-info/PKG-INFO
+create_ascii.egg-info/SOURCES.txt
+create_ascii.egg-info/dependency_links.txt
+create_ascii.egg-info/entry_points.txt
+create_ascii.egg-info/requires.txt
+create_ascii.egg-info/top_level.txt
+create_ascii/assets/courier.ttf

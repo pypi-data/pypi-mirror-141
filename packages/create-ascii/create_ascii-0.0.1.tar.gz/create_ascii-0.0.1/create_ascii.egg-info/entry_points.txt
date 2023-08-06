@@ -1,0 +1,2 @@
+[console_scripts]
+create_ascii = create_ascii.command_line:main
