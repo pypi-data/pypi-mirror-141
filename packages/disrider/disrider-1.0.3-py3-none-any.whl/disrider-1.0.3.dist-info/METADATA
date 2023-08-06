@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: disrider
+Version: 1.0.3
+Summary: 더 쉽게, 더 빠르게. 카트라이더 전적 검색.
+Home-page: https://github.com/T-asdf/disrider.git
+Author: ㅁㄴㅇㄹ#5332
+Author-email: seojune5383@naver.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: discord
+Requires-Dist: requests
+
+UNKNOWN
+
