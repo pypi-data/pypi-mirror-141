@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bin/uwebdavclient
+src/uwebdavclient/__init__.py
+src/uwebdavclient/client.py
+src/uwebdavclient.egg-info/PKG-INFO
+src/uwebdavclient.egg-info/SOURCES.txt
+src/uwebdavclient.egg-info/dependency_links.txt
+src/uwebdavclient.egg-info/requires.txt
+src/uwebdavclient.egg-info/top_level.txt
