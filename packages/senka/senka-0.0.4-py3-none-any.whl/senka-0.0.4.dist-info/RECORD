@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main.py,sha256=kXZiYj36uNVvonZ5Gk0DDa4Snf5HY2NbfgeVPgL1Hqc,314
+plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugin/pancake_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugin/pancake_plugin/pancake_plugin.py,sha256=_27Zs3_Y-nG_eiCF3lh0OSLsNeiWlPRiXAyrpzQCNT0,20904
+senka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senka/plugin_manager.py,sha256=t4WJ6UA_fVHM3PRK2xrTl0AO2KLDa1pxnbX8GDwASGQ,1011
+senka/senka.py,sha256=KXrF76b5KgqvcFTVCbVs48IIEOc7JsHgyf-7nNAg7oY,1749
+senka-0.0.4.dist-info/LICENSE,sha256=e37dNwGaSWn3RDyU8q1Tqui_F6WebIZZGJwOMsFeqTA,1066
+senka-0.0.4.dist-info/METADATA,sha256=HjkltBQUsCGBASVG0eWGHonxP5FbNJGHWS1k4a1mWAY,447
+senka-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+senka-0.0.4.dist-info/top_level.txt,sha256=xgUOf2Hbaa3Td8wAo-ZmkO4qYq0ZE49v3Jo6OAtdjlg,27
+senka-0.0.4.dist-info/RECORD,,
