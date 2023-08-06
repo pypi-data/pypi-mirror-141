@@ -1,0 +1,9 @@
+paddleslim_opt_tools-2.9.data/purelib/paddlelite/__init__.py,sha256=yTKTSUPE9Y8sxTNG3Kb-5Wyma0fnz5IsqH4Vb6QJqpM,873
+paddleslim_opt_tools-2.9.data/purelib/paddlelite/lite.so,sha256=ITAEYwIoeq7NsAmF8FKvD7E8xHPNJuHXdvPUt_12Pfk,33591088
+paddleslim_opt_tools-2.9.data/purelib/paddlelite/libs/libiomp5.so,sha256=MrQKNEAzuPKOVMvHjWhiQDbNXsS5sWd-1bLFuefcN74,2106132
+paddleslim_opt_tools-2.9.data/purelib/paddlelite/libs/libmklml_intel.so,sha256=DclR9DyY67XuGN0NqdUTJT02Z-0YTmbpdokzYlxcN0s,132529016
+paddleslim_opt_tools-2.9.data/scripts/paddle_lite_opt,sha256=Kmz6_N5n9_M7JlvlYZE7laD7p5Fu7K_5ejTOfi9F51Y,4900
+paddleslim_opt_tools-2.9.dist-info/METADATA,sha256=CqhzWeFVm_Elj--di0j9YFakRbhh6UvHqyv9PUvNsmg,194
+paddleslim_opt_tools-2.9.dist-info/WHEEL,sha256=a8-lE8CDY3fTc-2Q7EKZhl4GYCxX5tnur3ksQusxWu4,104
+paddleslim_opt_tools-2.9.dist-info/top_level.txt,sha256=b3U0N5QLAxUDw34sLWIngLikHmsrxHoFQu_jNPw2h-Y,11
+paddleslim_opt_tools-2.9.dist-info/RECORD,,
