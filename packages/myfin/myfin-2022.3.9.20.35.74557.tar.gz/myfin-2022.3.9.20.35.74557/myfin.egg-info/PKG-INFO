@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: myfin
+Version: 2022.3.9.20.35.74557
+Summary: Markus Treppo's personal financial risk management and visualization software.
+Home-page: https://github.com/treppomj27/MyFin
+Author: Markus Treppo
+Author-email: markus.treppo@aol.com
+License: This software is the intellectual property of Markus Treppo.
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# MyFin
+
+Markus Treppo's personal financial risk management and visualization software.
+

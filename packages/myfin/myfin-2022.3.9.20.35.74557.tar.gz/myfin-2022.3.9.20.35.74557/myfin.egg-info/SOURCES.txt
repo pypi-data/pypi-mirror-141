@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+myfin/__init__.py
+myfin/version.py
+myfin.egg-info/PKG-INFO
+myfin.egg-info/SOURCES.txt
+myfin.egg-info/dependency_links.txt
+myfin.egg-info/top_level.txt
+myfin/math/__init__.py
+myfin/math/derivate.py
