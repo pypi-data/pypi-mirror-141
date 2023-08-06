@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+CI_CD_Homework_Dictionary_dgndds.egg-info/PKG-INFO
+CI_CD_Homework_Dictionary_dgndds.egg-info/SOURCES.txt
+CI_CD_Homework_Dictionary_dgndds.egg-info/dependency_links.txt
+CI_CD_Homework_Dictionary_dgndds.egg-info/requires.txt
+CI_CD_Homework_Dictionary_dgndds.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
