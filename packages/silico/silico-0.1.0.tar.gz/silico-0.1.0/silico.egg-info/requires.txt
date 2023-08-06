@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+
+[docs]
+nbsphinx
+sphinx-rtd-theme
+IPython
+
+[progress]
+tqdm
+
+[test]
+pytest

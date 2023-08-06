@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: silico
+Version: 0.1.0
+Summary: Python package to handle in silico experiments
+Home-page: https://github.com/Dih5/silico
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: progress
+License-File: LICENSE.txt
+
+# silico
+
+Python package to handle in silico experiments
+
+
+## Installation
+Assuming you have a [Python3](https://www.python.org/) distribution with [pip](https://pip.pypa.io/en/stable/installing/):
+
+```bash
+pip3 install silico
+```
+
+## Command line interface
+To run the command line interface see:
+```bash
+silico --help
+```
+
+If the bin is not in the path you can do instead:
+```bash
+python -m silico --help
+```
+
+
