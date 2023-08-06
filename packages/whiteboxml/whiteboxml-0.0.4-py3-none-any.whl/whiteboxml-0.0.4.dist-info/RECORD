@@ -1,0 +1,10 @@
+whiteboxml/__init__.py,sha256=FHS77P9qNewKMoN-p0FLEUEC60oWIYup1QkbJZP4ays,12
+whiteboxml/modeling/__init__.py,sha256=FHS77P9qNewKMoN-p0FLEUEC60oWIYup1QkbJZP4ays,12
+whiteboxml/modeling/metrics.py,sha256=c-y9FGJ2PKHBVYLsorITEI0oolROcMLB7zZ3CP_5CpU,4208
+whiteboxml/processing/__init__.py,sha256=FHS77P9qNewKMoN-p0FLEUEC60oWIYup1QkbJZP4ays,12
+whiteboxml/processing/utils.py,sha256=V4CYgaF5RiNUoa7kTpFDZKsmaSLIskF3O8Etf4xANR8,1988
+whiteboxml-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+whiteboxml-0.0.4.dist-info/METADATA,sha256=053eX0Q8sG3x_q_nA9JwhEbydB_gywDUb_QDAiMj4HQ,2651
+whiteboxml-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+whiteboxml-0.0.4.dist-info/top_level.txt,sha256=Sfq1yuR4mE0nn0F59FTPDzM5VkyCMZ2eygcrKeAW_7A,11
+whiteboxml-0.0.4.dist-info/RECORD,,
