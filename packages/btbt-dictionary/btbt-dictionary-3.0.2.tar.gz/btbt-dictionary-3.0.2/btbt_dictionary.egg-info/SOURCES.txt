@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+btbt_dictionary.egg-info/PKG-INFO
+btbt_dictionary.egg-info/SOURCES.txt
+btbt_dictionary.egg-info/dependency_links.txt
+btbt_dictionary.egg-info/requires.txt
+btbt_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
