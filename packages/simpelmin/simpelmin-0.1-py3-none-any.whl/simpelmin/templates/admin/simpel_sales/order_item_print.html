@@ -1,0 +1,69 @@
+{% load i18n simpelcore_tags %}
+{% with object.product.specific as product %}
+  {% if product.is_deliverable or  object.bundles.count %}
+    <div class="mb-5 pagebreak-avoid">
+      <div class="row">
+        <div class="col-lg-6 me-auto">
+          <div class="mb-1">
+            <strong>{{ product.inner_id }}</strong>
+            <span>{{ product.name|truncatechars:60 }}</span>
+          </div>
+          <h5 class="fs-5 fw-bold">{% firstof object.name product.name %}</h5>
+        </div>
+        <div class="text-end">
+          <span class="small">{{ object.quantity }} x {{ object.subtotal|currency }}</span>
+          <div class="fs-5 fw-bold">{{ object.total|currency }}</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div>
+        {% if product.is_deliverable and show_deliverable %}
+          <div class="p-3 border">
+            <div class="">
+              <strong class="text-muted border-bottom d-block mb-3 pb-2">
+                {% trans "Deliverable Informations" %}
+              </strong>
+            </div>
+            <div class="mb-0">
+              {% if object.deliverable_information %}
+                <div>
+                  <div>{{ object.deliverable_information.name|title }}{% if object.deliverable_information.phone %}, {{ object.billing_address.phone }}{% endif %}</div>
+                  <div>{{ object.deliverable_information.text_line_1 }}</div>
+                  <div>{{ object.deliverable_information.text_line_2 }}</div>
+                </div>
+              {% else %}
+                <div>{% trans "Deliverable information not set, using customer profile." %}</div>
+              {% endif %}
+              </div>
+          </div>
+        {% endif %}
+        {% if object.bundles.count %}
+          <div class="table-responsive pt-3">
+            <table class="table m-0 border small">
+              <thead>
+                <tr>
+                  <th class="align-middle" width="110">{% trans "#" %}</th>
+                  <th class="align-middle">{% trans "Item" %}</th>
+                  <th class="align-middle text-end">{% trans "Price" %}</th>
+                  <th class="align-middle text-center">{% trans "Quantity" %}</th>
+                  <th class="align-middle text-end">{% trans "Total" %}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for orderitem_bundle in object.bundles.all %}
+                  <tr>
+                    <td>{{ orderitem_bundle.product.inner_id }}</td>
+                    <td>{{ orderitem_bundle.product.name }}</td>
+                    <td class="text-end">{{ orderitem_bundle.product.total_price|currency }}</td>
+                    <td class="text-center">{{ orderitem_bundle.quantity }} {{ orderitem_bundle.product.unit }}</td>
+                    <td class="text-end">{{ orderitem_bundle.total|currency }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endwith %}

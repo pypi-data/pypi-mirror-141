@@ -1,0 +1,14 @@
+{% load i18n %}
+{% load admin_urls %}
+
+{% if has_export_permission %}
+<a class="btn-icon btn-icon-46px hover-light rounded-circle link-secondary"
+   href="{% url opts|admin_urlname:'export' %}{{cl.get_query_string}}"
+   data-bs-toggle="popover"
+   data-bs-trigger="hover"
+   data-bs-placement="bottom"
+   data-bs-content="{% blocktranslate with cl.opts.verbose_name as name %}Export {{ name }} table{% endblocktranslate %}"
+   >
+  <i class="mdi mdi-24px mdi-database-arrow-down-outline"></i>
+</a>
+{% endif %}

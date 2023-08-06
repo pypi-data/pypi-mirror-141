@@ -1,0 +1,81 @@
+{% extends "admin/base.html" %}
+{% load i18n static %}
+
+{% block bodyclass %}{{ block.super }}{% endblock %}
+
+{% block navbar %}
+  {% include 'admin/includes/navbar.html' %}
+{% endblock navbar %}
+
+
+{% block page_header %}
+  <!-- PAGE HEADER -->
+  <header id="toolbar-wrapper" class="bg-body border-bottom position-sticky"
+          {% if is_popup %}
+            style="top: 0;z-index: 800;"
+          {% else %}
+            style="top: 71px;z-index: 800;"
+          {% endif %}
+    >
+    <div class="container px-md-4">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" style="min-height: 62px;">
+        <span class="h5 fw-bold my-2 my-lg-0 me-lg-auto d-flex align-items-center text-dark text-decoration-none">
+          {% block content_title %}
+            {% if title %}{{ title }}{% endif %}
+          {% endblock %}
+        </span>
+        {% block toolbar-search %}{% endblock %}
+        {% block object-tools %}{% endblock %}
+      </div>
+    </div>
+  </header>
+  <!-- PAGE HEADER -->
+{% endblock %}
+
+
+{% block breadcrumbs_wrapper %}
+  <!-- BREADCRUMB -->
+  <div id="breadcrumb-wrapper" class="bg-body bg-opacity-50 border-bottom small py-2">
+    <div class="container px-md-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          {% block breadcrumbs %}
+            <li class="breadcrumb-item">
+              <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+            </li>
+            {% if title %}<li class="breadcrumb-item active">{{ title }}</li>{% endif %}
+          {% endblock %}
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- BREADCRUMB -->
+{% endblock %}
+
+
+{% block messages_wrapper %}
+  {% if messages %}
+    <!-- MESSAGES -->
+    <section class="section section-messages pt-4">
+      <div class="container px-md-4">
+        {% for message in messages %}
+          <div class="p-4 mb-1 shadow-sm alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            {{ message|capfirst }}
+            <button type="button" class="btn-close btn-close me-3 mt-3" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+    <!-- MESSAGES -->
+  {% endif %}
+{% endblock %}
+
+
+{% block sidenav_left_wrapper %}
+  {% include "admin/includes/sidenav.html" %}
+{% endblock %}
+
+
+{% block footer %}
+  {% include 'admin/includes/footer.html' %}
+{% endblock footer %}

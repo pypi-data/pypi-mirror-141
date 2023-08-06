@@ -1,0 +1,40 @@
+{% load i18n %}
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="button-menu-{{ app.app_label }}">
+    <button class="accordion-button collapsed p-4 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#app-menu-{{ app.app_label }}" aria-expanded="false" aria-controls="app-menu-{{ app.app_label }}"
+            style="padding: .6rem 1rem !important;"
+    >
+      <div class="d-flex align-items-center">
+        <i class="mdi mdi-24px mdi-{{ app.icon }} me-2"></i>
+        <span class="">{{ app.name|truncatechars:22 }}</span>
+      </div>
+    </button>
+  </h2>
+  <div id="app-menu-{{ app.app_label }}" class="accordion-collapse collapse" aria-labelledby="app-menu-{{ app.app_label }}" data-bs-parent="#accordionAppMenu">
+    <div class="accordion-body p-0">
+      <div class="list-group list-group-flush">
+        {% if is_app_index_enabled %}
+        <a class="list-group-item bg-light bg-opacity-50 hover-light d-flex align-items-center link-{{ app.app_label|lower }}{% if app.app_url in request.path %} bg-light{% endif %}" href="{{ app.app_url }}"
+            style="padding: .5rem 1rem .5rem 2.6rem !important">
+          <i class="mdi mdi-18px mdi-view-dashboard-outline me-2"></i>
+          {% trans "Dashboard" %}
+        </a>
+        {% endif %}
+        {% for model in app.models %}
+          {% if model.admin_url %}
+            <a class="list-group-item bg-light bg-opacity-50 hover-light d-flex align-items-center link-{{ model.object_name|lower }}{% if model.admin_url in request.path %} bg-light{% endif %}" href="{{ model.admin_url }}"
+               style="padding: .5rem 1rem .5rem 2.6rem !important">
+              <i class="mdi mdi-18px mdi-{{ model.icon }} me-2"></i> {{ model.name|title }}
+            </a>
+          {% else %}
+            <span class="list-group-item bg-light bg-opacity-50 hover-light d-flex align-items-center">
+              <i class="mdi mdi-18px mdi-{{ model.icon }} me-2"></i>
+              <span>{{ model.name|title }}</span>
+            </span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

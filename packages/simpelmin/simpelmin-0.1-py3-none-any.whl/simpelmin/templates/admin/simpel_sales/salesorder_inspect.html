@@ -1,0 +1,182 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n static admin_urls simpelcore_tags simpelsettings_tags simpelauth_tags %}
+
+{% block object-tools-items %}
+  
+  {% if has_add_permission %}
+    {% url opts|admin_urlname:'clone' object.pk|admin_urlquote as clone_url %}
+    {% trans "Duplicate Sales Order" as clone_popover %}
+    {% include 'admin/includes/object_tools_item.html' with url=clone_url popover=clone_popover icon="clipboard-file-outline" %}
+  {% endif %}
+
+  {% if has_create_workorder_permission %}
+    {% url opts|admin_urlname:'create_workorder' object.pk|admin_urlquote as create_workorder_url %}
+    {% trans "Create Work Order" as workorder_popover %}
+    {% include 'admin/includes/object_tools_item.html' with url=create_workorder_url popover=workorder_popover icon="bulletin-board" %}
+  {% endif %}
+
+  {% if has_create_invoice_permission %}
+    {% url opts|admin_urlname:'create_invoice' object.pk|admin_urlquote as create_invoice_url %}
+    {% trans "Create Invoice" as invoice_popover %}
+    {% include 'admin/includes/object_tools_item.html' with url=create_invoice_url popover=invoice_popover icon="inbox-full-outline" %}
+  {% endif %}
+
+  {{ block.super }}
+
+{% endblock %}
+
+{% block content %}
+
+{% get_settings %}
+
+<div class="row">
+  <div class="col-lg-9">
+    <section>
+      <div class="card mb-5 shadow-sm">
+        <div class="card-body p-5">
+          <div class="row">
+            <div class="col-6 mb-3">
+              <div class="text-start">
+                {% if object.group %}
+                <div>{{ object.group|title }}</div>
+                {% endif %}
+                <div class="display-8 mb-3">{{ object.inner_id }}</div>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div  class="col-lg-9 mb-3">
+              <div class="d-flex">
+                <div class="flex-shrink-0 fw-bold w-150px">{% trans "Status" %}</div>
+                <div class="flex-fill">: {{ object.get_status_display }}</div>
+              </div>
+              <div class="d-flex mb-3">
+                <div class="flex-shrink-0 fw-bold w-150px">{% trans "Created at" %}</div>
+                <div class="flex-fill">: {{ object.created_at|date:"d M Y" }}</div>
+              </div>
+
+              <div class="d-flex">
+                <div class="flex-shrink-0 fw-bold w-150px">{% trans "Customer ID" %}</div>
+                <div class="flex-fill">: {{ object.customer.inner_id }}</div>
+              </div>
+
+              <div class="d-flex mb-3">
+                <div class="flex-shrink-0 fw-bold w-150px">{% trans "Customer Name" %}</div>
+                <div class="flex-fill">: {{ object.customer.name }}</div>
+              </div>
+
+              {% if object.data.sampling_options %}
+                <div class="d-flex">
+                  <div class="flex-shrink-0 fw-bold w-150px">{% trans "Sampling" %}</div>
+                  <div class="flex-fill">: {% trans "Yes" %} / {{ object.data.sampling_estimation }} {% trans "Days" %}</div>
+                </div>
+                <div class="d-flex">
+                  <div class="flex-shrink-0 fw-bold w-150px">{% trans "Scheduled At" %}</div>
+                  <div class="flex-fill">: {{ object.data.sampling_schedule }}</div>
+                </div>
+              {% else %}
+                <div class="d-flex">
+                  <div class="flex-shrink-0 fw-bold w-150px">{% trans "Sampling" %}</div>
+                  <div class="flex-fill">: {% trans "No" %}</div>
+                </div>
+              {% endif %}
+            </div>
+            <div class="col-lg-3 mb-3">
+              <img class="border" width="125" src="{{ object.qrcode.qrcode.url }}" alt="">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div  class="col-lg-6 mb-3">
+              <div class="fw-bold">{% trans "Billing Address" %}</div>
+              <div>
+                {% if object.billing_address %}
+                  <div>{{ object.billing_address.name|title }}{% if object.billing_address.phone %}, {{ object.billing_address.phone }}{% endif %}</div>
+                  <div>{{ object.billing_address.text_line_1 }}</div>
+                  <div>{{ object.billing_address.text_line_2 }}</div>
+                {% else %}
+                  <div>{% trans "Billing address not set." %}</div>
+                {% endif %}
+              </div>
+            </div>
+            <div  class="col-lg-6 mb-3">
+              <div class="fw-bold">{% trans "Shipping Address" %}</div>
+              <div>
+                {% if object.shipping_address %}
+                  <div>{{ object.shipping_address.name|title }}{% if object.shipping_address.phone %}, {{ object.shipping_address.phone }}{% endif %}</div>
+                  <div>{{ object.shipping_address.text_line_1 }}</div>
+                  <div>{{ object.shipping_address.text_line_2 }}</div>
+                {% else %}
+                  <div>{% trans "Shipping address not set." %}</div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% if object.note %}
+          <div class="col-12 py-3 mb-3">
+            <div class="px-4 border-start border-3">
+              <div>{% trans "Note" %}</div>
+              <div class="small">{{ object.note }}</div>
+            </div>
+          </div>
+          {% endif %}
+          <div class="col-12 order-lg-3">
+            <div class="table-responsive mb-4">
+              <table class="table border small">
+                <thead>
+                  <tr>
+                    <th class="align-middle" width="110">{% trans "#" %}</th>
+                    <th class="align-middle">{% trans "Item" %}</th>
+                    <th class="align-middle text-end">{% trans "Price" %}</th>
+                    <th class="align-middle text-end">{% trans "Quantity" %}</th>
+                    <th class="align-middle text-end">{% trans "Total" %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% include 'admin/simpel_sales/order_row.html' %}
+                  <tr class="thin">
+                    <td colspan="2" rowspan="5" class="align-top p-3 border-0">
+                      <strong>Terbilang:</strong>
+                      <p>{{ object.grand_total|number_to_text|title }}{% if object.grand_total > 0 %} Rupiah{% endif %}</p>
+                    </td>
+                    <td colspan="2" class="align-middle"><strong>{% trans "Total" %}</strong></td>
+                    <td class="align-middle text-end">{{ object.total|currency }}</td>
+                  </tr>
+                  <tr class="thin">
+                    <td colspan="2" class="align-middle"><strong>{% trans "Discount" %}</strong></td>
+                    <td class="align-middle text-end">{{ object.discount|currency }}</td>
+                  </tr>
+                  <tr class="thin">
+                    <td colspan="2" class="align-middle"><strong>{% trans "Down Payment" %}</strong></td>
+                    <td class="align-middle text-end">{{ object.downpayment|currency }}</td>
+                  </tr>
+                  <tr class="thin">
+                    <td colspan="2" class="align-middle"><strong>{% trans "Grand Total" %}</strong></td>
+                    <td class="align-middle text-end">{{ object.grand_total|currency }}</td>
+                  </tr>
+                  <tr class="thin">
+                    <td colspan="2" class="align-middle border-0"><strong>{% trans "Payable" %}</strong></td>
+                    <td class="align-middle text-end border-0">{% if object.is_payable %}{{ object.payable|currency }}{% else %}{{ 0|currency}}{% endif %}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="item-section">
+        {% for item in object.items.all %}
+          {% include 'admin/simpel_sales/order_item.html' with object=item %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+  <div class="col-lg-3">
+    {% include 'notices/object_action_logs.html' %}
+  </div>
+</div>
+{% endblock %}

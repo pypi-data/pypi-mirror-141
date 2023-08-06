@@ -1,0 +1,29 @@
+{% extends 'admin/base_site.html' %}
+{% load i18n static admin_urls admin_modify %}
+
+{% block content_title %}
+  {% trans "Confirmation Form" %}
+{% endblock %}
+
+{% if not is_popup %}
+  {% block breadcrumbs %}
+    <li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% translate 'Home' %}</a></li>
+    <li class="breadcrumb-item"><a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a></li>
+    <li class="breadcrumb-item">{{ object }}</li>
+  {% endblock %}
+{% endif %}
+
+{% block content %}
+<div class="card card-body shadow-sm p-6">
+  <h5>{% trans "Are you sure ?" %}</h5>
+  <p>{{ title }}</p>
+  <form method="post">
+    {% csrf_token %}
+    <div>
+      <input type="hidden" name="post" value="yes">
+      <input type="submit" value="{% translate 'Yes, I’m sure' %}">
+      <a href="{{ cancel_url }}" class="btn-secondary button cancel-link">{% translate "No, take me back" %}</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

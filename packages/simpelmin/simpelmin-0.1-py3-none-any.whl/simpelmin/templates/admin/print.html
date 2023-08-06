@@ -1,0 +1,36 @@
+{% extends 'admin/print_base.html' %}
+{% load i18n static simpelsettings_tags sorl_thumbnail %}
+
+{% block header_wrapper %}
+  <header>
+    {% get_settings %}
+    {% thumbnail settings.simpel_core.GeneralSetting.logo "240x80" format='PNG' as im %}
+      <img class="mb-3" src="{{ site_root }}{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+    {% endthumbnail %}
+    <div class="row">
+      {% block header %}
+        {% block header_left %}
+          <div class="col-9">
+              <div class="mb-4">
+                <h2 class="company-name">
+                  {{ settings.simpel_core.GeneralSetting.name }}
+                </h1>
+                <div>{% if setting.address %}{{ setting.address }}{% else %}Jl. Ikan Sebelah No.8 Kel.Pesawahan Kec.Telukbetung Selatan, Bandar Lampung{% endif %}</div>
+                <div>Telp:{% if setting.phone %}{{ setting.phone }}{% else %}089509091212{% endif %} Email:{% if setting.email %}{{ setting.email }}{% else %}sasri@gmail.com{% endif %}</div>
+              </div>
+          </div>
+        {% endblock header_left %}
+        {% block header_right %}
+          <div class="col-3 text-end">
+            <div>{{ object.group|title }}</div>
+            <h2 class="document-title">{{ object.opts.verbose_name|title }}</h2>
+            <div>{{ object.inner_id|upper }}</div>
+          </div>
+        {% endblock header_right %}
+      {% endblock header %}
+      <div class="clear"></div>
+    </div>
+  </header>
+{% endblock %}
+
+{% block content_wrapper %}Hello Universe!{% endblock %}

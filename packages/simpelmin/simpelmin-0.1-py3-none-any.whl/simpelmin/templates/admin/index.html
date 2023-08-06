@@ -1,0 +1,26 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static simpelmin_tags %}
+
+{% block extrahead %}
+  {{ block.super }}
+  <script src="{% static 'js/masonry.min.js' %}"></script>
+{% endblock %}
+
+{% block breadcrumbs_wrapper %}{% endblock %}
+
+{% block page_header %}{% endblock page_header %}
+
+{% block top_content %}
+  <!-- HERO -->
+  {% comment %}
+  
+  <!-- HERO -->
+  {% endcomment %}
+{% endblock top_content %}
+
+{% block content %}
+  {% render_app_sections "index" %}
+  {% include "admin/app_list.html" with app_list=app_list show_changelinks=True %}
+{% endblock %}
+
+{% block sidenav_right_wrapper %}{% endblock %}

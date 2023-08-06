@@ -1,0 +1,59 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static admin_modify %}
+
+{% block breadcrumbs %}
+<li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% translate 'Home' %}</a></li>
+<li class="breadcrumb-item">{% translate 'Update Profile' %}</li>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+  <div class="col-lg-8 offset-lg-2">
+    <section class="align-items-center d-flex py-5">
+      <img src="{{ user.avatar }}" width="72px" height="72px" alt="{{ user }}" class="rounded-circle me-4">
+      <div>
+        <h3 class="fs-5 fw-bold mb-0">
+          <a class="link-dark" href="{% url 'admin:admin_profile' %}">{% firstof request.user.get_full_name request.user %}</a>
+        </h3>
+        <p class="mb-0">{{ request.user.email }}</p>
+      </div>
+    </section>
+    
+    {% block profile_content %}
+      <section class="card shadow-sm p-5 border mb-5">
+        <h3 class="h4">{% trans "Private Information" %}</h3>
+        <p>{% blocktrans %}Not shown publicly by default. Used for completion billing, documents and how we greet you in emails and on the website.{% endblocktrans %}</p>
+        <div id="user-preference-wrapper">
+          {% include 'account/forms/user_preferences.html' with form=forms.user_preferences %}
+        </div>
+      </section>
+
+      <section class="card shadow-sm p-5 border mb-5">
+        <h3 class="h4">{% trans "Public Information" %}</h3>
+        <p>{% blocktrans %}Displayed when you post comments or reply to someone else’s comment.{% endblocktrans %}</p>
+
+        <div class="fw-bold">{% trans "Avatar picture" %}</div>
+        <p class="small">
+          We use Gravatar, a service that associates an avatar image with your primary email address—sasri.darmajaya@gmail.com. <a class="border-bottom" href="https://www.gravatar.com">{% trans "Change your avatar image at gravatar.com »" %}</a>
+        </p>
+        <div id="profile-preferences-wrapper">
+          {% include 'account/forms/profile_preferences.html' with form=forms.profile_preferences %}
+        </div>
+      </section>
+      
+      <section class="card shadow-sm p-5 border mb-5">
+        <div class="border-bottom mb-4">
+          <h3 class="h4">{% trans "Language & Timezone" %}</h3>
+          <p>{% trans 'You can use any verified email to recover your account, but only your primary email will receive notifications.' %}</p>
+        </div>
+        <div id="language-preference-wrapper">
+          {% include 'account/forms/language_preferences.html' with form=forms.language_preferences %}
+        </div>
+      </section>
+    {% endblock profile_content %}
+
+  </div>
+
+</div>
+{% endblock %}

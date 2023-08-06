@@ -1,0 +1,19 @@
+{% load i18n admin_urls %}
+{% block object-tools-items %}
+
+{% url opts|admin_urlname:'inspect' original.pk|admin_urlquote as inspect_url %}
+{% if inspect_url %}
+  {% trans "Show details" as inspect_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=inspect_url popover=inspect_popover icon="eye-outline" %}
+{% endif %}
+
+{% url opts|admin_urlname:'history' original.pk|admin_urlquote as history_url %}
+{% trans "Show activities" as history_popover %}
+{% include 'admin/includes/object_tools_item.html' with url=history_url popover=history_popover icon="history" %}
+
+{% if has_absolute_url %}
+  {% trans "Show webpage" as web_popover %}
+  {% include 'admin/includes/object_tools_item.html' with url=absolute_url popover=web_popover icon="web" %}
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'admin/base_site.html' %}
+{% load i18n static admin_urls admin_modify %}
+
+{% block title %}{{ object }}{% endblock %}
+
+{% if not is_popup %}
+  {% block breadcrumbs %}
+    <li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% translate 'Home' %}</a></li>
+    <li class="breadcrumb-item">{% if is_app_index_enabled %}<a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>{% else %}{{ opts.app_config.verbose_name }}{% endif %}</li>
+    <li class="breadcrumb-item"><a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a></li>
+    <li class="breadcrumb-item">{{ object }}</li>
+  {% endblock %}
+{% endif %}
+
+{% block object-tools %}
+{% if not is_popup %}
+  <div class="d-flex">
+    {% block object-tools-items %}
+      {% include 'admin/inspect_object_tools.html' %}
+    {% endblock %}
+  </div>
+{% endif %}
+{% endblock %}
+
+{% block content %}{% endblock %}

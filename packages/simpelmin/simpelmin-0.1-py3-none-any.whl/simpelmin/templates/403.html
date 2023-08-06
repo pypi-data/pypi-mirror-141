@@ -1,0 +1,16 @@
+{% extends 'base_error.html' %}
+{% load i18n static %}
+
+{% block title %} Error 403 {% endblock %} 
+
+{% block error_title %}
+  {% trans "Page not found!" %}
+{% endblock %}
+
+{% block error_description %}
+  {% trans "Please contact support or authenticate." %}
+{% endblock %}
+
+{% block error_image %}
+  <img class="img-fluid" src="{% static 'simpelmin/img/error-403.png' %}" alt="403 Access Denied">
+{% endblock %}

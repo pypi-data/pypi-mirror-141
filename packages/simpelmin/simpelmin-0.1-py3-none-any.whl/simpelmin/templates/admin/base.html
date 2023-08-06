@@ -1,0 +1,69 @@
+{% extends 'layout.html' %}
+{% load i18n static %}
+
+{% block bodyclass %}bg-soft{% endblock bodyclass %}
+
+{% block main_css %}
+  <link rel="stylesheet" href="{% static 'simpelmin/css/main.bundle.css' %}">
+{% endblock main_css %}
+
+{% block extra_css %}
+  {% if is_popup %}
+    <style>
+      #sidenav-wrapper,
+      #sidenav-inner {
+        height: 100vh;
+        top: 0;
+      }
+      #content-wrapper {
+        margin-top: 0!important;
+      }
+    </style>
+  {% endif %}
+{% endblock extra_css %}
+
+{% block extrahead %}
+  {% include 'meta_tags.html' %}
+  <script defer src="{% static 'js/alpine.min.js' %}"></script>
+  <script src="{% static 'js/htmx.min.js' %}"></script>
+  <script src="{% url 'admin:jsi18n' %}"></script>
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  {{ block.super }}
+{% endblock %}
+
+{% block main_js %}
+  <script src="{% static 'simpelmin/js/runtime.js' %}"></script>
+  <script src="{% static 'simpelmin/js/shared.js' %}"></script>
+  <script src="{% static 'simpelmin/js/main.js' %}"></script>
+{% endblock main_js %}
+
+{% block outter_classes %}d-block d-lg-flex{% endblock outter_classes %}
+
+{% block outter_xdata %}
+{
+  drawerLeftOpen: true,
+  drawerRightOpen: false
+}
+{% endblock outter_xdata %}
+
+{% block main_wrapper %}
+  <div id="content-wrapper" class="">
+    {% block page_header %}{% endblock %}
+    {% block breadcrumbs_wrapper %}{% endblock %}
+    {% block messages_wrapper %}{% endblock %}
+    {% block content_wrapper %}
+      <main id="main-wrapper">
+        {% block top_content %}{% endblock %}
+        <div class="container p-3 px-md-4 py-md-4">
+          {% block content %}{% endblock %}
+        </div>
+        {% block bottom_content %}{% endblock %}
+      </main>
+    {% endblock %}
+    {% block footer %}{% endblock footer %}
+  </div>
+{% endblock main_wrapper %}
+
+{% block tawk_to %}
+  {% include 'tawkto.html' %}
+{% endblock tawk_to %}

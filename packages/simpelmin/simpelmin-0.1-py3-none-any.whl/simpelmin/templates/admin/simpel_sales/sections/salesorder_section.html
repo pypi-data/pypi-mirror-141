@@ -1,0 +1,75 @@
+{% load i18n static simpelcore_tags %}
+<div class="col-12 mb-4">
+  <div class="card shadow-sm overflow-hidden">
+    <div class="card-body border-bottom-0 p-4 position-relative">
+      <div class="bg-holder z-index-1"
+           style="background-image:url({% static 'simpelmin/img/ecommerce-bg.png' %});background-size:230px;background-position:right bottom;">
+      </div>
+      <!--/.bg-holder-->
+      <div class="position-relative z-index-2">
+        <div>
+          <h3 class="fw-bold mb-1">{% trans "Sales Order" %}</h3>
+          <p>{% trans "Here’s what happening with our sales transactions today." %} </p>
+        </div>
+        <ul class="mb-3">
+          {% for key, value in data.items %}
+          <li>
+            <div class="row">
+              <div class="col-md-3 fw-bold">
+                <a  href="#"
+                    role="button"
+                    title="{{ model_opts.verbose_name }}"
+                    data-bs-toggle="popover"
+                    data-bs-trigger="hover"
+                    data-bs-content-id="so-pop-content-{{ key }}"
+                >{{ model_opts.verbose_name }}</a>
+              </div>
+              <div class="col-md-9">{{ value.all_total|money:False }} / {{ value.all_count }}</div>
+            </div>
+          </li>
+          <div id="so-pop-content-{{ key }}" class="d-none">
+            <div class="so-stats">
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Pending" %}</span>
+                <span class="d-inline-block">{{ value.pending_total|money:False }}/{{ value.pending_count }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Valid" %}</span>
+                <span class="d-inline-block">{{ value.valid_total|money:False }}/{{ value.valid_count }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Processed" %}</span>
+                <span class="d-inline-block">{{ value.processed_total|money:False }}/{{ value.processed_count }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Complete" %}</span>
+                <span class="d-inline-block">{{ value.complete_total|money:False }}/{{ value.complete_count }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Invoiced" %}</span>
+                <span class="d-inline-block">{{ value.invoiced_total|money:False }}/{{ value.invoiced_count }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="d-inline-block fw-bold">{% trans "Closed" %}</span>
+                <span class="d-inline-block">{{ value.closed_total|money:False }}/{{ value.closed_count }}</span>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </ul>
+        <a href="" class="btn btn-primary me-1">
+          <div class="d-flex align-items-center">
+            <i class="mdi mdi-download me-1"></i>
+            {% trans "Download" %}
+          </div>
+        </a>
+        <a href="" class="btn btn-outline-primary">
+          <div class="d-flex align-items-center">
+            <i class="mdi mdi-eye me-1"></i>
+            {% trans "View" %}
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

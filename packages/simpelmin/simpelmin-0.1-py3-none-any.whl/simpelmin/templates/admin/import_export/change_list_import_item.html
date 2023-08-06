@@ -1,0 +1,14 @@
+{% load i18n %}
+{% load admin_urls %}
+
+{% if has_import_permission %}
+<a class="btn-icon btn-icon-46px hover-light rounded-circle link-secondary"
+   href="{% url opts|admin_urlname:"import" %}"
+   data-bs-toggle="popover"
+   data-bs-trigger="hover"
+   data-bs-placement="bottom"
+   data-bs-content="{% blocktranslate with cl.opts.verbose_name as name %}Import {{ name }} table{% endblocktranslate %}"
+   >
+  <i class="mdi mdi-24px mdi-database-arrow-up-outline"></i>
+</a>
+{% endif %}

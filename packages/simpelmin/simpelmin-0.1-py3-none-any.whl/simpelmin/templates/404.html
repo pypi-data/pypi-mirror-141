@@ -1,0 +1,16 @@
+{% extends 'base_error.html' %}
+{% load i18n static %}
+
+{% block title %} Error 404 {% endblock %} 
+
+{% block error_title %}
+  {% trans "Page not found!" %}
+{% endblock %}
+
+{% block error_description %}
+  {% trans "Oops! Looks like you followed a bad link. If you think this is a problem with us, please tell us." %}
+{% endblock %}
+
+{% block error_image %}
+  <img class="img-fluid" src="{% static 'simpelmin/img/error-404.png' %}" alt="404 Not Found">
+{% endblock %}

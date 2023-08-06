@@ -1,0 +1,36 @@
+{% load i18n %}
+<div class="mb-4">
+  <table class="table table-borderless table-sm w-100">
+    <tbody>
+      <tr>
+        <td width="150" class="align-middle fw-bold">{% trans "Customer ID" %}</td>
+        <td class="text-start align-middle">{{ partner.uid|upper }}</td>
+      </tr>
+      <tr>
+        <td width="150" class="align-middle fw-bold">{% trans "Customer Name" %}</td>
+        <td class="text-start align-middle">{{ partner.name }}</td>
+      </tr>
+      <tr>
+        <td width="150" class="align-top fw-bold">{% trans "Address" %}</td>
+        <td class="text-start align-top">
+          <div>{{ partner.address.render.0 }}</div>
+          <div>{{ partner.address.render.1 }}</div>
+        </td>
+      </tr>
+      <tr>
+        <td width="150" class="align-top fw-bold">{% trans "Email" %}</td>
+        <td class="text-start align-top">{{ partner.email }}</td>
+      </tr>
+      <tr>
+        <td width="150" class="align-top fw-bold">{% trans "Phone" %}</td>
+        <td class="text-start align-top">{{ partner.phone }}</td>
+      </tr>
+      {% if object.note %}
+        <tr>
+          <td width="150" class="align-top fw-bold">{% trans "Note" %}</td>
+          <td class="text-start align-top"><em>{{ object.note }}</em></td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>

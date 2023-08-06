@@ -1,0 +1,36 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n admin_urls simpelcore_tags %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-9">
+    <div class="card shadow-sm border card-body py-5 px-5">
+      <div class="col-6 mb-3">
+        <div class="text-start">
+          <div>{{ object.opts.verbose_name|title }}</div>
+          <div class="display-8 mb-3">{{ object.inner_id }}</div>
+        </div>
+      </div>
+      <section>
+        <div>
+          <div class="d-flex">
+            <div class="flex-shrink-0 fw-bold w-150px">{% trans "Created at" %}</div>
+            <div class="flex-fill">: {{ object.created_at }}</div>
+          </div>
+          <div class="d-flex">
+            <div class="flex-shrink-0 fw-bold w-150px">{% trans "Task ID" %}</div>
+            <div class="flex-fill">: {{ object.task.inner_id }}</div>
+          </div>
+          <div class="d-flex">
+            <div class="flex-shrink-0 fw-bold w-150px">{% trans "Attachment" %}</div>
+            <div class="flex-fill">: {% if object.attachment %}<a href="{{ object.attachment.file.url }}">{% trans "Download" %}</a>{% else %}-{% endif %}</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    {% include 'notices/object_action_logs.html' %}
+  </div>
+</div>
+{% endblock %}
