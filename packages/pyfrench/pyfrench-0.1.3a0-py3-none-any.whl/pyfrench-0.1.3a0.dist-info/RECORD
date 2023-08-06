@@ -1,0 +1,8 @@
+pyfrench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfrench/pyfrench.py,sha256=evi9BCrtWs2mHiBxqoBXddTe2dFCMwMPY78AgPnDgmk,1111
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pyfrench.py,sha256=aMbUJWhSQWreuzGxKFnpyP5nsdlm6gbtZYAS4AxbJ7A,229
+pyfrench-0.1.3a0.dist-info/METADATA,sha256=ax_xc2zF_ZV9wPH3ZvBTTirqKL_smUicn9MvyIWaBk8,470
+pyfrench-0.1.3a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfrench-0.1.3a0.dist-info/top_level.txt,sha256=qyUYmd9_5_gl4wZ4GC-8Y0vpGGe0gdioh44XANmgN2Y,15
+pyfrench-0.1.3a0.dist-info/RECORD,,
