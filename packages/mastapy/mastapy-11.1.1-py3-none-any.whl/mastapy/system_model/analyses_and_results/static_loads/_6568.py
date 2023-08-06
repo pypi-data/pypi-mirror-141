@@ -1,0 +1,113 @@
+﻿'''_6568.py
+
+CouplingConnectionLoadCase
+'''
+
+
+from mastapy.system_model.connections_and_sockets.couplings import (
+    _2091, _2087, _2089, _2093,
+    _2095, _2097
+)
+from mastapy._internal import constructor
+from mastapy._internal.cast_exception import CastException
+from mastapy.system_model.analyses_and_results.static_loads import _6631
+from mastapy._internal.python_net import python_net_import
+
+_COUPLING_CONNECTION_LOAD_CASE = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.StaticLoads', 'CouplingConnectionLoadCase')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('CouplingConnectionLoadCase',)
+
+
+class CouplingConnectionLoadCase(_6631.InterMountableComponentConnectionLoadCase):
+    '''CouplingConnectionLoadCase
+
+    This is a mastapy class.
+    '''
+
+    TYPE = _COUPLING_CONNECTION_LOAD_CASE
+
+    __hash__ = None
+
+    def __init__(self, instance_to_wrap: 'CouplingConnectionLoadCase.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def connection_design(self) -> '_2091.CouplingConnection':
+        '''CouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2091.CouplingConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to CouplingConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
+
+    @property
+    def connection_design_of_type_clutch_connection(self) -> '_2087.ClutchConnection':
+        '''ClutchConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2087.ClutchConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to ClutchConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
+
+    @property
+    def connection_design_of_type_concept_coupling_connection(self) -> '_2089.ConceptCouplingConnection':
+        '''ConceptCouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2089.ConceptCouplingConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to ConceptCouplingConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
+
+    @property
+    def connection_design_of_type_part_to_part_shear_coupling_connection(self) -> '_2093.PartToPartShearCouplingConnection':
+        '''PartToPartShearCouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2093.PartToPartShearCouplingConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to PartToPartShearCouplingConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
+
+    @property
+    def connection_design_of_type_spring_damper_connection(self) -> '_2095.SpringDamperConnection':
+        '''SpringDamperConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2095.SpringDamperConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to SpringDamperConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
+
+    @property
+    def connection_design_of_type_torque_converter_connection(self) -> '_2097.TorqueConverterConnection':
+        '''TorqueConverterConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _2097.TorqueConverterConnection.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to TorqueConverterConnection. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new_override(self.wrapped.ConnectionDesign.__class__)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign is not None else None
