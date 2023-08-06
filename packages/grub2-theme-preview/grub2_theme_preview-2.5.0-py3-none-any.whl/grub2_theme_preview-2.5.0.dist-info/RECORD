@@ -1,0 +1,11 @@
+grub2_theme_preview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grub2_theme_preview/__main__.py,sha256=aXWEPeFp3jwRKspW_grQIIGz3OKbAPeDQRb9bueFwc4,19227
+grub2_theme_preview/version.py,sha256=FVIxRn43yQGVBpqW1zY0hKISI3Kt34Lk-6agoKdz_GI,169
+grub2_theme_preview/which.py,sha256=CZ4107UbX9YPJbN4ofUgtw4i9HHi2yUmSB2d4jy29rw,573
+grub2_theme_preview/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grub2_theme_preview/tests/test_main.py,sha256=1uowEQ2cURkaTxiayfh-Rd2ROHR1z2bZbOg-0HF9Wns,4950
+grub2_theme_preview-2.5.0.dist-info/METADATA,sha256=q7xfNdVJTnBZqa_fTkYm63bq2RMnQ7EXzGGwqte3VYU,4857
+grub2_theme_preview-2.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+grub2_theme_preview-2.5.0.dist-info/entry_points.txt,sha256=tBKHnrwDDZVyUwvH68QnOPBgpiT7-PqD95nrtdsapS0,74
+grub2_theme_preview-2.5.0.dist-info/top_level.txt,sha256=HWTloy1LNdBtK7CIUwAfMfWPQjZ1ehxJD1WEbC5nMNw,20
+grub2_theme_preview-2.5.0.dist-info/RECORD,,
