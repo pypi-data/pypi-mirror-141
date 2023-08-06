@@ -1,0 +1,11 @@
+itk_thinshelldemons-0.1.1.dist-info/RECORD,,
+itk_thinshelldemons-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_thinshelldemons-0.1.1.dist-info/WHEEL,sha256=dVaE8boSvAsaWuT-mIwHIolzKRGVN47MyEuSepi3C9Q,103
+itk_thinshelldemons-0.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_thinshelldemons-0.1.1.dist-info/METADATA,sha256=NcBSOPco-zANyycRJtNgl6sD4-HP64jMNLWOYWn2TRE,1284
+itk/ThinShellDemonsPython.py,sha256=X_DSP1sHqynKvu6Okcprphqe5BYsZNh6kYLCuf0M5xI,2679
+itk/_ThinShellDemonsPython.so,sha256=j7yYwS2rljdJdlkX3jyIyMyufk3JiWJ2P1dduAE9PZ4,8608784
+itk/itkThinShellDemonsMetricv4Python.py,sha256=lWLDd6YHgM2kH0vdTi5cUe9052srWuDNWthuB6nMqpY,136709
+itk/Configuration/ThinShellDemons_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk/Configuration/ThinShellDemonsConfig.py,sha256=PiPzaFoXGwV3gFRBS6L2k5DeAp6yb1DmlkbE6aoyzYw,2370
+itk/.dylibs/libtbb.12.3.dylib,sha256=MSZbu6sGJ04ReL_0b72XtWowiSQgR1mQeMWnj2C41vc,387664
