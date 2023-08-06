@@ -1,0 +1,6 @@
+setup.py
+academlo.egg-info/PKG-INFO
+academlo.egg-info/SOURCES.txt
+academlo.egg-info/dependency_links.txt
+academlo.egg-info/requires.txt
+academlo.egg-info/top_level.txt
