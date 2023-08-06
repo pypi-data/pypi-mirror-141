@@ -1,0 +1,13 @@
+name: sstar
+channels:
+        - conda-forge
+        - defaults
+dependencies:
+        - python=3.8
+        - scikit-allel
+        - pandas
+        - snakemake
+        - numpy
+        - r-base
+        - r-spatstat
+        - rpy2
