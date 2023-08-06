@@ -1,0 +1,2 @@
+[console_scripts]
+shamira = shamira.cli:run
