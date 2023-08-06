@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+letesend/__init__.py
+letesend/letesend.py
+letesend.egg-info/PKG-INFO
+letesend.egg-info/SOURCES.txt
+letesend.egg-info/dependency_links.txt
+letesend.egg-info/requires.txt
+letesend.egg-info/top_level.txt
