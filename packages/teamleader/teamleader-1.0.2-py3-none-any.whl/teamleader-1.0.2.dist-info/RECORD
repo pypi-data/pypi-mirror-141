@@ -1,0 +1,11 @@
+teamleader/__init__.py,sha256=UR0TfW2CMtCyKRWfmUwUMP-Gkf-1O528nrZK5FN7sqg,157
+teamleader/client.py,sha256=SNvNRdQxsQ5Hk-4pfCA9cKE3fjOX2UwooNPwbopLkl0,5026
+teamleader/helpFunctions.py,sha256=Cc5-QQiHUfmFFTH9PaFPARYRMvqW4DXJdwLpOT5TpZY,320
+teamleader/teamleaderMethods.py,sha256=ZfMlKJOEmAIDaV6FLRvp8aI8wisRh7MVzgY5fi-bTBE,12651
+teamleader/teamleaderObjects.py,sha256=LdMlZE2ooMRP4lwOoYRSGqzqdaKlyKVmjC0Qz6UkwcE,5519
+teamleader/teamleaderStores.py,sha256=askmUdbfww6JaX1bkUxL5M9mQFSXH0DsuWNW5E1PQdo,1939
+teamleader-1.0.2.dist-info/LICENSE.txt,sha256=KIJHbPwzAoB879Cpb3GB3ZQEpldgwBVkTzswXl-CfHE,1056
+teamleader-1.0.2.dist-info/METADATA,sha256=792l5y13zSmrVblwgjuPtFIHLR4T4wV04I-_SEnRJig,843
+teamleader-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+teamleader-1.0.2.dist-info/top_level.txt,sha256=Lc8-jXLNLYDeEq4F1zahkINSKNF3mu_RW-tRBdqeqyU,11
+teamleader-1.0.2.dist-info/RECORD,,
