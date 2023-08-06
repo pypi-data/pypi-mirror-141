@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+adeem_adil_khatri_very_simple_dictionary.egg-info/PKG-INFO
+adeem_adil_khatri_very_simple_dictionary.egg-info/SOURCES.txt
+adeem_adil_khatri_very_simple_dictionary.egg-info/dependency_links.txt
+adeem_adil_khatri_very_simple_dictionary.egg-info/requires.txt
+adeem_adil_khatri_very_simple_dictionary.egg-info/top_level.txt
+dictionary/__init__.py
+dictionary/dictionary.py
