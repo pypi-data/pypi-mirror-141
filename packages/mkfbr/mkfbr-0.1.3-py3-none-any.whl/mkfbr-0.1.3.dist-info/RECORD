@@ -1,0 +1,10 @@
+mkfbr/__init__.py,sha256=qXYfb8oEcFrm7p8LkBwlFwDamQZo4ecazrBuG80H8OA,73
+mkfbr/database/address.db,sha256=RG54KvqVgCyev-Zf3uMZBmKccLC96vLSI1GOibYQPyA,54353920
+mkfbr/generators.py,sha256=j4K377NTdPFCy1kwse4ItNGnEHkAOILg9_6Zuez_of4,3620
+mkfbr/json/content.json,sha256=lSn6FMVFUA2vk3Nlg2ILMxwJW3kJTHGHSpfMjgTDxH8,189803
+mkfbr/mkfbr.py,sha256=0FIdOy0KZgKZLH5H5u5ImUS2pqTXkMiAtydeVYpcQhQ,1976
+mkfbr/models.py,sha256=AScXwLVPwb3wNtKdtb9K7sgadtKHFw1a_R7VdvkRk5Y,1361
+mkfbr-0.1.3.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+mkfbr-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mkfbr-0.1.3.dist-info/METADATA,sha256=WMna3NJKLw4tmDVzc1o6uyWBid8de9KeS8PH0BO8Y_g,269
+mkfbr-0.1.3.dist-info/RECORD,,
