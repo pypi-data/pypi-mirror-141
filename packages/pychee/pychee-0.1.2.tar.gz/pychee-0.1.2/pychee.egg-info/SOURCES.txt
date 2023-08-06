@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pychee/__init__.py
+pychee/pychee.py
+pychee.egg-info/PKG-INFO
+pychee.egg-info/SOURCES.txt
+pychee.egg-info/dependency_links.txt
+pychee.egg-info/not-zip-safe
+pychee.egg-info/requires.txt
+pychee.egg-info/top_level.txt
