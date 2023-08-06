@@ -1,0 +1,4 @@
+requests
+pychalk
+questionary
+validators
