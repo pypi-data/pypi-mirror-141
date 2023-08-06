@@ -1,0 +1,10 @@
+[console_scripts]
+contractcrawler = mooncrawl.contract.cli:main
+crawler = mooncrawl.crawler:main
+esd = mooncrawl.esd:main
+etherscan = mooncrawl.etherscan:main
+identity = mooncrawl.identity:main
+moonworm-crawler = mooncrawl.moonworm_crawler.cli:main
+nft = mooncrawl.nft.cli:main
+statistics = mooncrawl.stats_worker.dashboard:main
+
