@@ -1,0 +1,7 @@
+README.md
+rwth_colors.py
+setup.py
+rwth_CD_colors.egg-info/PKG-INFO
+rwth_CD_colors.egg-info/SOURCES.txt
+rwth_CD_colors.egg-info/dependency_links.txt
+rwth_CD_colors.egg-info/top_level.txt
