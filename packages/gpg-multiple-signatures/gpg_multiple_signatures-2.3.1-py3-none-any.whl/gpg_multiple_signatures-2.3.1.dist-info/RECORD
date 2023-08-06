@@ -1,0 +1,17 @@
+gpg_multiple_signatures/__init__.py,sha256=HYhAtj1vFq6eHvOOjTOThVQR55SpyCnwPi_lkAVhoqA,40
+gpg_multiple_signatures/gpg_multiple_signatures.py,sha256=aDmMeBoiNwIkCv4ceHrHZZHdJPrBO6rAxR7MV4iID4o,4360
+gpg_multiple_signatures/gpg_multiple_verifications.py,sha256=j7NWuStRGxgDkPWPfRpGeYJGtGcsm9_4seLtRttuigA,4109
+gpg_multiple_signatures/parser.py,sha256=pXk8sCPZALViJDIxQTS5r6PGjT2oFXH0oj_kp9DMTyA,6317
+gpg_multiple_signatures/frontend/__init__.py,sha256=yu1DFpQOF8Dv8IRgtn2DypaG4IWMw3bU8x155ndKkX8,205
+gpg_multiple_signatures/frontend/columns.py,sha256=hYyOlUPooebZIeSRGyRF6lQtIjSWUX9gcy5ZfnhbVtg,1810
+gpg_multiple_signatures/frontend/common.py,sha256=aYEhK1XWiLnaZpakDYl1HMfxaV_JbG1nn0lHyHHm4uw,3693
+gpg_multiple_signatures/frontend/progress_table.py,sha256=UYU9WDa2oONksN9wQUYmV7vk2Se92Zb0Vvs1-knsZFE,3974
+gpg_multiple_signatures/frontend/signatures.py,sha256=IgpTFwYqqwDwVvz-kEMGaCpRscJCzqG8oOvG-fePlFo,3865
+gpg_multiple_signatures/frontend/utils.py,sha256=NWlt1zDFi8WHBNP1sz1ewA7-v4nBA1gKAtemY4vPnCk,2700
+gpg_multiple_signatures/frontend/verifications.py,sha256=nfJOdBrMCY8QhhnAGawC1-NB6Y29Cinze3ZeGJc0SAw,3442
+gpg_multiple_signatures-2.3.1.dist-info/METADATA,sha256=4nVYQSc1mYNZTzcOl7zLEwPmqIKQwGFOhigzrzhGFwo,1292
+gpg_multiple_signatures-2.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpg_multiple_signatures-2.3.1.dist-info/entry_points.txt,sha256=Ut3VBc8sVFyXvY7iY3H_IEzIRReQ2iHL7mZ90K5rlYI,182
+gpg_multiple_signatures-2.3.1.dist-info/top_level.txt,sha256=wgeaw-ehNAp4W-SmkM5sdwO4cP-Lu9u3HfpO64Fi5bk,24
+gpg_multiple_signatures-2.3.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gpg_multiple_signatures-2.3.1.dist-info/RECORD,,

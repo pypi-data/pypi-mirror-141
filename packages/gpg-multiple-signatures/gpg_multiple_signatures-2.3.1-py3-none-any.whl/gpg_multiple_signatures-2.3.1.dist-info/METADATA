@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gpg-multiple-signatures
+Version: 2.3.1
+Summary: Nice tool to sign and verify multiple files at the same time using GPG. It also supports parallelization.
+Home-page: https://linuxdevtips.blogspot.com/
+Download-URL: https://bitbucket.org/fernandoenzo/gpg-multiple-signatures
+Author: Fernando Enzo Guarini
+Author-email: fernandoenzo@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: GPLv3+
+Keywords: gpg signature verification check
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: parallel-utils (>=1.1.1)
+Requires-Dist: private-attrs (>=1.0.1)
+Requires-Dist: rich (==11.2.0)
+
+Nice tool to sign and verify multiple files at the same time using GPG. It also supports parallelization.
+

@@ -1,0 +1,3 @@
+[console_scripts]
+gpg-multiple-signatures = gpg_multiple_signatures.gpg_multiple_signatures:main
+gpg-multiple-verifications = gpg_multiple_signatures.gpg_multiple_verifications:main
