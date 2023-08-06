@@ -1,0 +1,9 @@
+matplotlib
+numpy
+coveralls
+pytest-cov
+pycocotools-windows
+scikit-image
+
+[rest]
+docutils>=0.15.2
