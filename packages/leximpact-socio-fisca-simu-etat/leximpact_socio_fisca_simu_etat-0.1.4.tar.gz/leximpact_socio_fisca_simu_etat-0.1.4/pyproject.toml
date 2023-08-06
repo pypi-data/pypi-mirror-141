@@ -1,0 +1,58 @@
+############
+### Configuration of the project
+############
+
+[tool.poetry]
+name = "leximpact_socio_fisca_simu_etat"
+version = "0.1.4"
+description = "French State Budget Simulation"
+license = "AGPL-3.0-or-later"
+authors = ["Leximpact <Leximpact@an.fr>"]
+readme = "README.md"
+homepage = "https://socio-fiscal.leximpact.an.fr/"
+repository = "https://git.leximpact.dev/leximpact/leximpact-socio-fiscal-simu-etat/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+tables = ">=3.6.1"
+toolz = ">=0.11.1"
+redis = "^3.5.3"
+openfisca-france-reforms = ">=1.0.82"
+python-decouple = "^3.5"
+# To read and write YAML in aggregate module
+"ruamel.yaml" = "^0.17.21"
+
+####
+# Following packages are not needed in PyPi package, only by extras API
+fastapi = "^0.75.0"
+uvicorn = {extras = ["standard"], version = "^0.13.4"}
+prometheus-fastapi-instrumentator = "^5.7.1"
+# python-jose is for JWT
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+gunicorn = "^20.1.0"
+
+[tool.poetry.extras]
+api = ["fastapi", "uvicorn", "prometheus-fastapi-instrumentator", "python-jose", "gunicorn"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.0"
+black = ">=21.5b1"
+nbdev = "^1.1.14"
+pre-commit = "^2.13.0"
+nbqa = ">=0.9.0"
+seaborn = ">=0.11.1"
+papermill = "^2.3.3"
+locust = "^2.2.3"  # Pour les tests de charge de l'API
+
+[tool.poetry.scripts]
+api = "leximpact_socio_fisca_simu_etat_api.server:start_dev"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
