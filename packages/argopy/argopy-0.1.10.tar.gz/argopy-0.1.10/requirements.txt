@@ -1,0 +1,11 @@
+xarray>=0.15.1
+scipy>=1.1.0
+scikit-learn<2.0
+netCDF4<1.5.9
+dask>=2.9
+toolz>=0.8.2
+erddapy>=0.6
+fsspec>=0.7.4
+gsw<=3.4.0
+aiohttp>=3.6.2
+packaging>= 20.4
