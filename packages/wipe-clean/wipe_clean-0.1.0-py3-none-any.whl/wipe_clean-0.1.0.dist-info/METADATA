@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wipe-clean
+Version: 0.1.0
+Summary: Wipe clean your console.
+Author: wenop
+Author-email: wenoptics@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rich (>=11.2.0,<12.0.0)
