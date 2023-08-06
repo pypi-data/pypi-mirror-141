@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/loguwant/__init__.py
+src/loguwant/logger.py
+src/loguwant.egg-info/PKG-INFO
+src/loguwant.egg-info/SOURCES.txt
+src/loguwant.egg-info/dependency_links.txt
+src/loguwant.egg-info/top_level.txt
