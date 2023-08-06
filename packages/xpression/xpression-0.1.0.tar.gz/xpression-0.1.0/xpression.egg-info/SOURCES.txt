@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+xpress/__init__.py
+xpression.egg-info/PKG-INFO
+xpression.egg-info/SOURCES.txt
+xpression.egg-info/dependency_links.txt
+xpression.egg-info/requires.txt
+xpression.egg-info/top_level.txt
