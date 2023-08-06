@@ -1,0 +1,11 @@
+pytest_html_object_storage/__init__.py,sha256=08J9Ar3AoEHvHZspbdOAZ1-w9M8OIi9iFokiqwSpwzs,101
+pytest_html_object_storage/minio.py,sha256=_laKO_fAPzbD7dKpGQQ92Da2hqsXs4JayBbUDRGpfWQ,5600
+pytest_html_object_storage/plugin.py,sha256=-KAFcp3YbK5yzLHiLW6fojLnNwLWt4F0XxchGSQ8mkI,2219
+pytest_html_object_storage/swift.py,sha256=JV7l0ti1yKNmXaaKTsBAfE5GRcv4JqRjpXUvu0FNp6c,5033
+pytest_html_object_storage/__pycache__/__init__.cpython-310.pyc,sha256=pXZorb-M9TGxA93LCD4q5ZHt7OOPex7RvvCZYkC6w0k,293
+pytest_html_object_storage-0.1.4.data/data/pytest_html_object_storage/__init__.cpython-310.pyc,sha256=pXZorb-M9TGxA93LCD4q5ZHt7OOPex7RvvCZYkC6w0k,293
+pytest_html_object_storage-0.1.4.dist-info/METADATA,sha256=2YwUF2FbY3igDb6KNyLNmGuHeUoRM6AqL_1zS7q5lm0,2463
+pytest_html_object_storage-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_html_object_storage-0.1.4.dist-info/entry_points.txt,sha256=oz9pyyf4-Gi3ZHMcheSyBQrHm6X9E8-odRrJs49YcGA,67
+pytest_html_object_storage-0.1.4.dist-info/top_level.txt,sha256=DF_x-aRtMlZ_QJqX20RSVRBTET9FHL4WWyxBG156wE4,27
+pytest_html_object_storage-0.1.4.dist-info/RECORD,,
