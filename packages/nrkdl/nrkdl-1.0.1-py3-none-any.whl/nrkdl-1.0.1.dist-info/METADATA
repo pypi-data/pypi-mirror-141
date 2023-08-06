@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: nrkdl
+Version: 1.0.1
+Summary: Download videos from tv.nrk.no
+Home-page: UNKNOWN
+Author: jenlys
+License: UNKNOWN
+Project-URL: Source, https://github.com/jenslys/nrkdl/
+Project-URL: Tracker, https://github.com/jenslys/nrkdl/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: yt-dlp
+
+# nrkdl
+
+Download shows and movies from tv.nrk.no
+
+**Disclaimer:** This is for educational purposes ONLY. Use at your own risk.
+
+## Installation
+
+```bash
+pip install nrkdl
+```
+
+## Options
+
+```
+  -h, --help           Show this help message and exit
+
+  --url URL            URL for the Movie/TV-show (e.g:
+                       https://tv.nrk.no/program/KOID75006720)
+
+  --location LOCATION  Desired download location (Default is the current
+                       working directory)
+
+```
+
+### Example usage
+
+#### Download an entire tv-show:
+
+```bash
+nrkdl --url https://tv.nrk.no/serie/exit
+```
+
+#### Download a single tv-show episode:
+
+```bash
+nrkdl --url https://tv.nrk.no/serie/exit/sesong/2/episode/6/avspiller
+```
+
+#### Download a movie:
+
+```bash
+nrkdl --url https://tv.nrk.no/program/MSUI31006017
+```
+
+
