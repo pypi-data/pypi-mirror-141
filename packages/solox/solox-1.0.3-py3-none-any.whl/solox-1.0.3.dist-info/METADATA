@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: solox
+Version: 1.0.3
+Summary: tool for apm
+Home-page: https://github.com/rafa0128/SoloX
+Author: Chen Hongqing
+Author-email: laoqi1988_f1@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: flask (>=2.0.1)
+Requires-Dist: requests
+
+UNKNOWN
+
+
