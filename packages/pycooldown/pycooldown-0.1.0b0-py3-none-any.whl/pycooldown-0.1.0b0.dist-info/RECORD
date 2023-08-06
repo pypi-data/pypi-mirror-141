@@ -1,0 +1,10 @@
+pycooldown/__init__.py,sha256=qP3Nizl-UVRShFtn4jZ64uSF46D-JrTPxXnXOkcMx-g,1425
+pycooldown/__main__.py,sha256=rEm7pc7uxFN_XDqy5x94bKEmYX1uD0fzHCQVyWvsNvI,1180
+pycooldown/fixed_mapping.py,sha256=SVyWX_crEwMt035xDCsYG_fVZNBUyH7KGfrevWv7lCY,2484
+pycooldown/flexible_mapping.py,sha256=eFkQeaX--0tGn2AZt4MQVanHMJ6EDUUpqH5sDT98SH4,2956
+pycooldown/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycooldown/sliding_window.py,sha256=8roTjGdrg_KWSraldiXFbqv8YpojrOAwpTEiV3NeJ28,2780
+pycooldown-0.1.0b0.dist-info/LICENSE,sha256=mnXsxThHHfLnrVkAV9LQKH_nH00gde13-6aW2JOQ9II,1064
+pycooldown-0.1.0b0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pycooldown-0.1.0b0.dist-info/METADATA,sha256=wAP-r1IQ5ZBbz40a0wZPEz5Hj9XElGd8zs02O9GIZwY,784
+pycooldown-0.1.0b0.dist-info/RECORD,,
