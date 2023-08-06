@@ -1,0 +1,7 @@
+aiofiles
+aiohttp
+asyncio
+lxml
+requests
+websocket
+websocket-client
