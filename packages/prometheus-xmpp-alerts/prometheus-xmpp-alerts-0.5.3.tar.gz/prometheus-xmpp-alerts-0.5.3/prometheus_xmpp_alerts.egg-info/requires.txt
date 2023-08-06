@@ -1,0 +1,5 @@
+aiohttp
+prometheus_client
+pytz
+pyyaml
+slixmpp
