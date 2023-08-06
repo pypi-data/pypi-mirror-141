@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: empanada-dl
+Version: 0.1.2
+Summary: Algorithms for Panoptic Segmentation of organelles in EM
+Home-page: https://github.com/volume-em/empanada
+Author: Ryan Conrad
+Author-email: conradrw@nih.gov
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/volume-em/empanada/issues
+Project-URL: Documentation, https://github.com/volume-em/empanada#README.md
+Project-URL: Source Code, https://github.com/volume-em/empanada
+Project-URL: User Support, https://github.com/volume-em/empanada/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.10)
+Requires-Dist: torchvision (>=0.2)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: numba (>=0.54)
+Requires-Dist: zarr (>=2.10)
+Requires-Dist: opencv-python (>=4.5.3)
+Requires-Dist: scikit-image (>=0.18)
+Requires-Dist: albumentations
+Requires-Dist: mlflow
+
+# empanada
+
