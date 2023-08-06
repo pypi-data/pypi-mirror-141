@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: wipac-dev-tools
+Version: 1.1.0
+Summary: Common, basic, and reusable development tools
+Home-page: https://github.com/WIPACrepo/wipac-dev-tools
+Author: WIPAC Developers
+Author-email: developers@icecube.wisc.edu
+License: MIT
+Keywords: python,tools,utilities,WIPAC,IceCube
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.11,>=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# wipac-dev-tools
+Common, basic, and reusable development tools
+
+# Changelog
+
+<!--next-version-placeholder-->
+
+## v1.1.0 (2022-03-07)
+### Feature
+* PyPI Readiness ([#22](https://github.com/WIPACrepo/wipac-dev-tools/issues/22)) ([`af42b27`](https://github.com/WIPACrepo/wipac-dev-tools/commit/af42b273b97c774e21abd0b6dbedd74e2aaae8e5))
+
+## v1.0.14 (2022-02-04)
+
+
+## v1.0.13 (2022-01-18)
+
+
+## v1.0.12 (2021-10-07)
+
+
+## v1.0.11 (2021-08-23)
+
+
+## v1.0.10 (2021-05-27)
+
+
+## v1.0.9 (2021-05-27)
+
+
+## v1.0.8 (2021-05-27)
+
+
+## v1.0.7 (2021-05-26)
+
+
+## v1.0.6 (2021-05-24)
+
+
+## v1.0.5 (2021-05-21)
+
+
+## v1.0.4 (2021-05-21)
+
+
+## v1.0.3 (2021-05-21)
+
+
+## v1.0.2 (2021-05-12)
+
+
+## v1.0.1 (2021-05-12)
+
+
+## v1.0.0 (2021-05-12)
+### Breaking
+* Add `from_environment()` ([`758b941`](https://github.com/WIPACrepo/wipac-dev-tools/commit/758b941b1a7cd7d0fd711ee9d1c9115c22260eac))
+* first major release ([`758b941`](https://github.com/WIPACrepo/wipac-dev-tools/commit/758b941b1a7cd7d0fd711ee9d1c9115c22260eac))
+
+## v0.0.6 (2021-05-12)
+
+
+## v0.0.5 (2021-05-12)
+
+
+## v0.0.4 (2021-05-12)
+
+
+## v0.0.3 (2021-05-12)
+
+
+## v0.0.2 (2021-05-12)
+
+
+## v0.0.1 (2021-05-12)
+
+
+
