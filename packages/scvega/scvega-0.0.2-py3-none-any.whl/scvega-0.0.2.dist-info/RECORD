@@ -1,0 +1,17 @@
+vega/__init__.py,sha256=zjO3a7rUwLqV9x4ZLfV9JlPwBEPmBfan0sDZ3s15ryk,195
+vega/data/__init__.py,sha256=2sQvAcoJcNUElX0VlDCBzIIs11GMC-OJFAEKm1-ebpk,42
+vega/data/_pbmc_ifn.py,sha256=YDyorTZBjK6j6ErY-j-H3BdXUVHkv98VFM_CIAiRos8,290
+vega/data/reactomes.gmt,sha256=MWj2cvym6r9dIdmRgbh_2MQwSGas0JMHEqYekUDHtK4,330737
+vega/layers.py,sha256=KnNk5F_5uGpCSlo4dm4krTJOz9Fid5Q1O88BqtziOfY,15089
+vega/learning_utils.py,sha256=1aZenvFN18hB2MgjOsfVpjmAVYUEk5yH-0IA0rwn908,9409
+vega/plotting.py,sha256=7nrlK6hZa7rYn5apS0cYtNVm_gsJND2NR-9BeibhPws,15906
+vega/regularizers.py,sha256=oEBXog12Q3M4O0lck7aSGHR0zctTo14hG9HuBiyjCSg,4992
+vega/utils.py,sha256=9rLUmWCtLM55tI6SoO8dJ7Xm0bcVjifhT47J-1uML-c,9681
+vega/vega_count/__init__.py,sha256=oa-E2L5XPWana8eOKR7Bexv7xnLDSYa9GnnLc9grhY4,45
+vega/vega_count/_vegamodel.py,sha256=VkcdTafVr2Thrh-uIOgbZKHjtzOPUlpJKTgShi43UCM,4941
+vega/vega_count/_vegamodule.py,sha256=B8XCbc67LRfQMvQJM-QLKf4k42wd3pVZXP9NLzoBqto,4148
+vega/vega_model.py,sha256=885aFobylrIpPRgQKyb_Ng4ZgSjUdCviq5_sp6kJSwQ,30782
+scvega-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scvega-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scvega-0.0.2.dist-info/METADATA,sha256=CaunVRnXNrXH2VWlKdALAwD65ZPa5s0vppBNPX9yi6Y,2131
+scvega-0.0.2.dist-info/RECORD,,
