@@ -1,0 +1,38 @@
+---
+gyms:
+  # Washington, USA
+  - primary: "Seattle Bouldering Project"
+    pkg_id: "314b60a77a6eada788f8cd7046931fc5"
+    alt:
+      - "sbp"
+      - "seattle bouldering project"
+  - primary: "Edgeworks"
+    pkg_id: "d07dfd11bc91daa7e96cd5c65bc813d8"
+    alt:
+      - "edgeworks"
+      - "sg"
+      - "stone gardens"
+  - primary: "Vertical World"
+    pkg_id: "362f4fe9479efab0730328a9066550a7"
+    alt:
+      - "vertical world"
+      - "vw"
+  # United Kingdom
+  - primary: "Vauxwall"
+    pkg_id: "a67951f8b19504c3fd14ef92ef27454d"
+    alt:
+      - "vauxwall"
+  # TODO there's only an LSH object in the data variable
+  #      Q: do they turn off occupancy for some gyms?
+  # - primary: "The Climbing Hangar"
+  #   pkg_id: "707309bb2c19717ceeb9b97fa6f10c78"
+  #   alt:
+  #    - "matchworks"
+  #    - "tch"
+  #    - "climbing hangar"
+  #    - "the climbing hangar"
+  #    - "sandhills"
+  #    - "tch london"
+  #    - "tch plymouth"
+  #    - "tch sheffield"
+  #    - "tch swansea"
