@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pkman
+Version: 0.1.1.6
+Summary: A python package manager inspired by npm.
+Home-page: https://gitee.com/peiiii/pkman
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: fire
+Requires-Dist: codemaker (>=0.0.2.1)
+Requires-Dist: codetmpl (>=0.0.1.2)
+Requires-Dist: build
+Requires-Dist: twine
+Requires-Dist: requests
+Requires-Dist: freehub (>=0.1.3.5)
+
+# pkman
+A python package manager inspired by npm.
+
+## Demo
+```shell
+mkdir my-demo-package && cd my-demo-package
+pkman init
+# edit package.json
+pkx init-pypkg
+# if git repo is configured, bind remote branch on remote repository by
+pkx gitops init git@host:username/repo branch
+# once you finished updating your code, sync code to remote by
+pkx gitops update "update-code"
+
+```
+
