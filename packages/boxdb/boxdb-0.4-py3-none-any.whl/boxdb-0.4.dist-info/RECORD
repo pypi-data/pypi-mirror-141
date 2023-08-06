@@ -1,0 +1,9 @@
+boxdb/__init__.py,sha256=jtfrAEhB4sq4c5JT9PM3QfZNQZck5xj9g95XD3xth2g,1195
+boxdb/basic_commands.py,sha256=RAN-8smpr2JmxNt6uMUP2dHNPouuNhRyp92RMVERcaM,4982
+boxdb/create.py,sha256=ERzkTF10PgLjGRIwxLKL3J8g8jdxTF4lR_lQp-Qsl2U,838
+boxdb/support_litebase.py,sha256=lVLF5pYuKdMpHraP-D0ZKOCdfU61DrSYnMZDEbGShPE,818
+boxdb/table_checkup.py,sha256=KckFAyGB1qRNa8OI0cgeclQBTwfOH4jLjafjP3goMNc,246
+boxdb-0.4.dist-info/METADATA,sha256=ltBjIzSCGtUVgtJIb7YtrdGAbHZYwxyARfF9P5VEJc0,6703
+boxdb-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+boxdb-0.4.dist-info/top_level.txt,sha256=6tG17jFS4xnGZaP3ZziGr94pOqavxtjaWNpbvXiv9sg,6
+boxdb-0.4.dist-info/RECORD,,
