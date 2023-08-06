@@ -1,0 +1,9 @@
+README.md
+setup.py
+LiteLogger/__init__.py
+LiteLogger/__version__.py
+LiteLogger.egg-info/PKG-INFO
+LiteLogger.egg-info/SOURCES.txt
+LiteLogger.egg-info/dependency_links.txt
+LiteLogger.egg-info/requires.txt
+LiteLogger.egg-info/top_level.txt
