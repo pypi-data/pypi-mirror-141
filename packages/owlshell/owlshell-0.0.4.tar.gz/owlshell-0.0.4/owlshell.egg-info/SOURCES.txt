@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+owlshell/__init__.py
+owlshell.egg-info/PKG-INFO
+owlshell.egg-info/SOURCES.txt
+owlshell.egg-info/dependency_links.txt
+owlshell.egg-info/top_level.txt
