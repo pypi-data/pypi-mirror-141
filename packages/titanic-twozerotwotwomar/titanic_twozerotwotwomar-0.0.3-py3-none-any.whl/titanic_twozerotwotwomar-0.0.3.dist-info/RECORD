@@ -1,0 +1,17 @@
+model_pack/Features.py,sha256=JyLC3Q-3hq45aAurfkbXuk7X7mXpMZqFKCCkgmvjaJU,2794
+model_pack/Load_Data.py,sha256=Hvtp85wnUZw7Jsq_ywXLCaB7EXC0le3TPWVaEfPrbGg,1590
+model_pack/Pipeline.py,sha256=8JvjQAYikaveRwuMsTZIbCMHqIdGTaEP2Bv3xDji2BI,3216
+model_pack/Train_Model.py,sha256=EaljHZqn3blN5N_Uuij9W_aa9oa9rUodyMy08BMiYJw,378
+model_pack/Train_Test_split.py,sha256=jHLC-DFLRMh_kzvehxaugk4gkLmM1cZU-rPFELuJAmM,916
+model_pack/Train_Val_Predict.py,sha256=UydR5AafJ1r_tQoitV0Am4fg9g1OqkREIza2B_sqYV4,1369
+model_pack/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+model_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_pack/Config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_pack/Config/config.yaml,sha256=uURtwJ2Im1yyt_1kb3WsBEaZv6S412_tzCfBQZKO_Gg,397
+model_pack/Config/config_validations.py,sha256=SggnnSKsLJQHZkXjQ5egREDycau_2rwCp1biXRjKt_I,1644
+model_pack/Trained_models/logistic_regression_v0.0.3.pkl,sha256=BuYI7Qm9JAv9H0NpekXnx6n89sYjqYltCDiBOTTCLCk,5117
+titanic_twozerotwotwomar-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+titanic_twozerotwotwomar-0.0.3.dist-info/METADATA,sha256=cF5ZF5FV-V-ztHfunJw3eQlDjYHS0jSfUqRaApdRiNc,1245
+titanic_twozerotwotwomar-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+titanic_twozerotwotwomar-0.0.3.dist-info/top_level.txt,sha256=sHP3diVjKDacSIt_mXGX7QqEwlMq51vxDWt0FZbeYSU,11
+titanic_twozerotwotwomar-0.0.3.dist-info/RECORD,,
