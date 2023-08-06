@@ -1,0 +1,12 @@
+zsm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zsm/cli.py,sha256=A8akPCJ742cGjpLEkRCTKrTQ5zuwGl4IEjtKoNn_t8w,2848
+zsm/config.py,sha256=xM3lSxYGQh8Qlmxl9WcosWVEXvnBC1USVGD1pQDXc1w,3200
+zsm/logging.py,sha256=fGJoxW1ySfgRAK7OzsEg3zswSIPW5ANTZTZjsJjN7PU,1023
+zsm/manage.py,sha256=Gm52BqoiNnOX4EFXdIq-ojSDt7VtmSnZ1S3kKf202Hg,3810
+zsm/zfs.py,sha256=cRWrIYM8XWVMNzt9Ufgb0frz77QOF6NpSzg_ITwHTtA,1172
+zsm-0.4.0.dist-info/LICENSE,sha256=JnNAbXHeLGqffDqA_6I7hVJ7eYcRmoTxJ3i2tzWnpdM,1321
+zsm-0.4.0.dist-info/METADATA,sha256=e5d7BNVkrWcKgtXkV5Ku9HYCJvTPlZ2T_vmuTFI1lcY,1789
+zsm-0.4.0.dist-info/WHEEL,sha256=ooAAk5YJ6bNSTeML7MM1iETtwnSAPO5uF-aPrbGp5-A,93
+zsm-0.4.0.dist-info/entry_points.txt,sha256=EaJIh-1OasQivLp4laE255Sa1ix_FUxncSa4De67Duw,37
+zsm-0.4.0.dist-info/top_level.txt,sha256=d0ZN63Dm3RsChK58XP8LJ4VEd575U7pO7TOgafYGRYk,4
+zsm-0.4.0.dist-info/RECORD,,
