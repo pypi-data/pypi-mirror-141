@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bethink-tap-mysql
+Version: 0.0.1
+Summary: Fork of Singer.io tap for extracting data from MySQL
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+

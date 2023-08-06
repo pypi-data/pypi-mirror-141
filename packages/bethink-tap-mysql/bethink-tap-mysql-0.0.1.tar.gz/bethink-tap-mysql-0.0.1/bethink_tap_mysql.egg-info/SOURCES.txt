@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bethink_tap_mysql.egg-info/PKG-INFO
+bethink_tap_mysql.egg-info/SOURCES.txt
+bethink_tap_mysql.egg-info/dependency_links.txt
+bethink_tap_mysql.egg-info/entry_points.txt
+bethink_tap_mysql.egg-info/requires.txt
+bethink_tap_mysql.egg-info/top_level.txt
+tap_mysql/__init__.py
+tap_mysql/connection.py
+tap_mysql/sync_strategies/__init__.py
+tap_mysql/sync_strategies/binlog.py
+tap_mysql/sync_strategies/common.py
+tap_mysql/sync_strategies/full_table.py
+tap_mysql/sync_strategies/incremental.py
