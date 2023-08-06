@@ -1,0 +1,3 @@
+[console_scripts]
+pikvm_utils = pikvm_utils:pikvm_utils
+
