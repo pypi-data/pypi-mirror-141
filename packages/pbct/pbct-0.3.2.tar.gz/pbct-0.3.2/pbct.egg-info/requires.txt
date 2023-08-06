@@ -1,0 +1,8 @@
+pandas
+numpy<=1.21
+numba
+tqdm
+
+[Tree visualization]
+graphviz
+matplotlib
