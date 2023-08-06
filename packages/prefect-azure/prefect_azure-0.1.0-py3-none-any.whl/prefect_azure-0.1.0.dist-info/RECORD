@@ -1,0 +1,11 @@
+prefect_azure/__init__.py,sha256=RmcA-96lgz2odiiZxXmslI669et0MoVoSdTzqVi1usM,197
+prefect_azure/_version.py,sha256=gbLmXTUm6NKgaTySpkGfPzNXpdM5Mp9wJx1TgFoNg3s,497
+prefect_azure/blob_storage.py,sha256=rly3WO1YJClntfLz6WxcCByQ0lv78fD9U5zqqJ4t28U,5480
+prefect_azure/cosmos_db.py,sha256=PkDNKCaaRKmO24fLly3V_RgdbSiFIABNfwiGH6Ej8Dk,7920
+prefect_azure/credentials.py,sha256=KW_jWZq5pAcm24xYv0679PguXUVevrCYvNmzkAONeO4,12044
+prefect_azure/ml_datastore.py,sha256=Y5IvSgj1z7HU2T-NsN-wEExvN26aJODCD6lNlms5hUg,9879
+prefect_azure-0.1.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_azure-0.1.0.dist-info/METADATA,sha256=YOusuBXCETWXjoEarcrQz4wGkMV_oGMM8oXMCjNp7N4,4021
+prefect_azure-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_azure-0.1.0.dist-info/top_level.txt,sha256=sTqQhWnAYGLsgkiU7VL88UBWOQuqwwZ-0p1Egq4btlA,14
+prefect_azure-0.1.0.dist-info/RECORD,,
