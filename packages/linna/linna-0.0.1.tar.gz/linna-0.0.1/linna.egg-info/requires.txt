@@ -1,0 +1,10 @@
+numpy
+torch>=1.10.1
+emcee>=3.0.2
+h5py
+pydoe2
+scikit-learn
+torch-lr-finder
+matplotlib
+zeus-mcmc
+numdifftools
