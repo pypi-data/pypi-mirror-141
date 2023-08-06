@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+package/__init__.py
+package/array.py
+package/number.py
+twodeploy.egg-info/PKG-INFO
+twodeploy.egg-info/SOURCES.txt
+twodeploy.egg-info/dependency_links.txt
+twodeploy.egg-info/not-zip-safe
+twodeploy.egg-info/requires.txt
+twodeploy.egg-info/top_level.txt
