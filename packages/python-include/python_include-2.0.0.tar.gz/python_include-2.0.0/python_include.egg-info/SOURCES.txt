@@ -1,0 +1,7 @@
+setup.py
+python_include/__init__.py
+python_include/main.py
+python_include.egg-info/PKG-INFO
+python_include.egg-info/SOURCES.txt
+python_include.egg-info/dependency_links.txt
+python_include.egg-info/top_level.txt
