@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Flask_Opensearch.egg-info/PKG-INFO
+Flask_Opensearch.egg-info/SOURCES.txt
+Flask_Opensearch.egg-info/dependency_links.txt
+Flask_Opensearch.egg-info/not-zip-safe
+Flask_Opensearch.egg-info/requires.txt
+Flask_Opensearch.egg-info/top_level.txt
+flask_opensearch/__init__.py
+flask_opensearch/flask_opensearch.py
