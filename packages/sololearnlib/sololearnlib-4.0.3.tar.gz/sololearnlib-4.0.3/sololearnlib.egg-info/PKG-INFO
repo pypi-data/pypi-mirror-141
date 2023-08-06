@@ -1,0 +1,198 @@
+Metadata-Version: 2.1
+Name: sololearnlib
+Version: 4.0.3
+Summary: Retrieve public data from 'sololearn.com'.
+Home-page: https://github.com/Or-i0n/sololearnlib
+Author: OR!ON
+Author-email: orionconner00@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# sololearnlib
+sololearnlib is a library for retrieving public data from [Sololearn](https://www.sololearn.com).
+
+- Easy to use.
+- Lightweight.
+- Object Oriented.
+- Json-compatible data.
+
+# Features
+- Retrieve Blog articles.
+- Get Leaderboard data.
+- Retrieve 'Hot Today' codes from Code Playground.
+- Find out what are the trending, most recent and most popular codes.
+- Retrieve 'Hot Today' discussions.
+- Find out what are the trending, most recent and unanswered discussions.
+
+### Tech
+sololearn just uses [bs4](https://pypi.org/project/bs4/) (BeautifulSoup4).
+
+### Installation
+sololearnlib requires [Python 3](https://www.python.org/) v3.5+ to run.
+
+```sh
+$ pip install sololearnlib
+```
+### Usage
+#### Retrieve *Blog* data
+- Import
+
+```py
+from sololearnlib import Blog
+```
+- Create a class object.
+
+```py
+blog = Blog()
+```
+
+- Using methods/functions
+
+```py
+# Get data about all the articles.
+articles = blog.get_articles()
+# {'getTopics': {'success': 1, 'errors': [...], 'data': [...]},
+#  'getBlogPosts': {'paging': {...}, 'success': 1, 'errors': 
+#   [...], 'data': [...]}}
+```
+
+#### Retrieve Code Playground Data
+
+- Import
+
+```py
+from sololearnlib import CodePlayground
+```
+
+- Create a class object.
+
+```py
+ground = CodePlayground()
+```
+
+- Using methods/functions
+
+```py
+# Get hot codes.
+hot = ground.get_hot_today()
+# [{'😄Pure css Emoji😄😊': 'https://code.sololearn.com
+#   /WVo6hshrJ3p6/#'}, {'⚔️Assasin Custom UI Cover ⚔️': 
+#   'https://code.sololearn.com/WdNImK2M9ush/#'}, ...]
+
+# Get all other codes.
+codes = ground.get_codes()
+# [{'code_link': 'https://code.sololearn.com/WZmG081162lG/#',
+#   'code_name': 'Water sort puzzle game 🔥', 'votes': 638, 
+#   'author_name': 'Namit Jain [INACTIVE]', 'author_link': 
+#   '/Profile/18109487', 'data_date': '4/23/2021 6:17:25 AM'}, 
+#   ...]
+```
+
+#### Retrieve Discuss Data
+- Import
+
+```py
+from sololearnlib import Discuss
+```
+
+- Create a class object.
+
+```py
+dis = Discuss()
+```
+
+- Using methods/functions
+
+```py
+# Get posts available for discussion.
+posts = dis.get_posts()
+# [{'votes': '0', 'answers': '0', 'post_link': '/Discuss/2760604
+#   /trying-to-pull-individual-values-from-a-dataframe-but-pulls-
+#   arrays-instead', 'title': 'Trying to pull individual values 
+#    from a dataframe but pulls arrays instead', 'tags': [...],
+#   'author_name': 'Hernando Abella', 'author_link': '/Profile
+#   /1478871/', 'data_date': '4/20/2021 4:12:36 PM', 
+#   'avatar_link': 'https://blob.sololearn.com/avatars/e97c267a-
+#    e433-4c47-81f3-6d32dcd30570.jpg'}, ...]
+
+# Trending topics on discussions.
+hot_discuss = dis.get_hot_today()
+# [{'Can we obtain graphs in node code here at sololearn ?': 
+#   '/Discuss/2784363/can-we-obtain-graphs-in-node-code-here-at-
+#   sololearn/'}, {'Why R code is necessary?': '/Discuss/2784479
+#   /why-r-code-is-necessary/'}, ...]
+
+```
+
+#### Retrieve Top Learners Data
+- Import
+
+```py
+from sololearnlib import TopLearners
+```
+
+- Create a class object.
+
+```py
+top = TopLearners()
+```
+
+- After creating an object you can use some of its attributes.
+
+```py
+print(top.courses)
+# {'c': {'link': '/Leaderboard/C', 'title': 'C Tutorial'}, ...}
+
+print(top.leaderboard_title)
+# 'Global Leaderboard'
+```
+
+- Using methods/functions
+
+```py
+# List of user who top the 'react' leaderboard.
+board = top.get_leaderboard("react")
+# {'1': {'name': 'Arthur', 'points': 2000}, '2': {'name': 
+#  'Accountz5', 'points': 794}, '3': {'name': 'Hayk Tester1', 
+#  'points': 760}, ...}
+```
+
+### Development
+
+Want to contribute? Great!
+
+Head toward the github repository:
+
+-  [sololearnlib](https://github.com/Or-i0n/sololearnlib)
+
+### Todos
+
+- Write MORE Tests.
+
+- Add error handling.
+
+
+- Make retrieval time faster.
+
+
+License
+
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
+
+
