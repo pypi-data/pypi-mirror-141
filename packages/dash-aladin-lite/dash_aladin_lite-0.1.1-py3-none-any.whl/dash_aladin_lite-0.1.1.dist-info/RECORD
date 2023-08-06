@@ -1,0 +1,15 @@
+dash_aladin_lite/DashAladinLite.py,sha256=F7OcltuFMLHyPKpNl5JJkLHu3fsmI2bYwSWlD4AXXV4,5354
+dash_aladin_lite/__init__.py,sha256=ET6lNad9OOW3muI6N-Ggi9c9_nsjlTavjQkoqf4w6_o,3146
+dash_aladin_lite/_imports_.py,sha256=yCz66-NnJIjuFOuYT9VlukmFgLDgurwWCC9WeQmp2Eo,78
+dash_aladin_lite/dash_aladin_lite.min.js,sha256=ctPdnpA_AjdA1fQh_vHPQWFgeZREV4uhWMVj6TqGdxc,11257
+dash_aladin_lite/dash_aladin_lite.min.js.map,sha256=uZI-nWxP3y5npIE4Trwap-KY4TVPY8KawpuLaKayMnU,100
+dash_aladin_lite/metadata.json,sha256=hIHgxNcCYSnquts19yHMQiLicgnH1qfEHeITl1J623I,16303
+dash_aladin_lite/package-info.json,sha256=Uh7LfjQ6oz7ekdjtS-fR1GTtX8l6wWSmggM3R7fcHlM,2055
+dash_aladin_lite/third_party/aladin.min.css,sha256=mPpiBYWS_fw-vVfzMq9mQ-hmK7ym_gh3qJzaKV5jk5w,18579
+dash_aladin_lite/third_party/aladin.min.js,sha256=L8QtvtU9O1CXXluY_PS_SkQD5i6P_ivjm46r0Kn3fN4,202642
+dash_aladin_lite/third_party/jquery-1.10.1.min.js,sha256=SDf34fFWX_ZnUozXXEH0AeB-Ip3hvRsjLwp6QNTEb3k,93064
+dash_aladin_lite-0.1.1.dist-info/LICENSE,sha256=laqXykG_xA312WNGx-OJVGhLUWaHvWCVW520oJBqwJA,1504
+dash_aladin_lite-0.1.1.dist-info/METADATA,sha256=obitQwhaO1ZIQ9S-5BkOjJNtkrcoReuTB66nnV64kzU,1444
+dash_aladin_lite-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dash_aladin_lite-0.1.1.dist-info/top_level.txt,sha256=BxFHEpJk9ysPl6K0RIWsquk8RE2E6uHI-s2WtwDqO1E,17
+dash_aladin_lite-0.1.1.dist-info/RECORD,,
