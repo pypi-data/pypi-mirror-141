@@ -1,0 +1,10 @@
+rpc_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpc_reader/rpc_reader.py,sha256=zSQM4lhveas8MeLnuWPJxi4lWQcgdvVN7cOhmxMALoQ,13660
+rpc_reader/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpc_reader/lib/print_progressbar.py,sha256=gTF2tv8uNuwg6vh7ea3JOs1ODybxLiOdqUB0n3_ofoI,1714
+rpc_reader-0.2.dist-info/LICENSE,sha256=rEbeed0r5-J_5sYUd_qVs-VT9yNDnFbUqNNEVu8K_Os,35171
+rpc_reader-0.2.dist-info/METADATA,sha256=azRtBlRo_eN_fDdIWeL6Hra5qVs3tDFf9JVZUxCNsQk,954
+rpc_reader-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpc_reader-0.2.dist-info/entry_points.txt,sha256=-ORJ9qgXHdfyDWRh0uCirOUvHB1TuxcIycvfs005_Bo,59
+rpc_reader-0.2.dist-info/top_level.txt,sha256=RTYIayC_SQBBnGCJqC9Xn5xEyamshTXwND4ec_FR1HQ,11
+rpc_reader-0.2.dist-info/RECORD,,
