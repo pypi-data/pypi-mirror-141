@@ -1,0 +1,14 @@
+README.md
+setup.py
+EDutilities.egg-info/PKG-INFO
+EDutilities.egg-info/SOURCES.txt
+EDutilities.egg-info/dependency_links.txt
+EDutilities.egg-info/top_level.txt
+EDutils/__init__.py
+EDutils/display.py
+EDutils/gui.py
+EDutils/gui_config.py
+EDutils/pets.py
+EDutils/rotate_exp.py
+EDutils/utilities.py
+EDutils/viewers.py
