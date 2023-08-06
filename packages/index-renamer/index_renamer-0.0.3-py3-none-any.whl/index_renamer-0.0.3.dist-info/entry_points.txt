@@ -1,0 +1,3 @@
+[console_scripts]
+index-renamer = __main__:main
+
