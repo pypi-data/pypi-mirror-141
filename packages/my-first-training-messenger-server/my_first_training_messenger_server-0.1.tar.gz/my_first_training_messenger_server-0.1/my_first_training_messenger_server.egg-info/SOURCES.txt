@@ -1,0 +1,15 @@
+setup.py
+my_first_training_messenger_server.egg-info/PKG-INFO
+my_first_training_messenger_server.egg-info/SOURCES.txt
+my_first_training_messenger_server.egg-info/dependency_links.txt
+my_first_training_messenger_server.egg-info/requires.txt
+my_first_training_messenger_server.egg-info/top_level.txt
+server/__init__.py
+server/add_user.py
+server/config_window.py
+server/core.py
+server/database.py
+server/main_window.py
+server/remove_user.py
+server/server.py
+server/stat_window.py
