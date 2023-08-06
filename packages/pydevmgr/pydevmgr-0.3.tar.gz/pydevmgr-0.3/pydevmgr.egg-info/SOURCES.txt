@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydevmgr.egg-info/PKG-INFO
+pydevmgr.egg-info/SOURCES.txt
+pydevmgr.egg-info/dependency_links.txt
+pydevmgr.egg-info/entry_points.txt
+pydevmgr.egg-info/requires.txt
+pydevmgr.egg-info/top_level.txt
