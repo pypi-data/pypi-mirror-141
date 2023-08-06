@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: koronavirus
+Version: 1.0.0
+Summary: Koronavirüs (Covid-19) verilerine erişmenizi sağlayan bir Python modülü.
+Home-page: https://github.com/Dorukyum/koronavirus
+Author: Dorukyum
+Author-email: dorukyum@gmail.com
+License: MIT
+Keywords: API,Türkçe,Covid,Korona,Corona
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+# koronavirus
+[![İndirme Sayısı](https://static.pepy.tech/personalized-badge/koronavirus?period=total&units=international_system&left_color=green&right_color=orange&left_text=%C4%B0ndirme%20Say%C4%B1s%C4%B1)](https://pepy.tech/project/koronavirus)
+
+Koronavirüs (Covid-19) verilerine erişmenizi sağlayan bir Python modülü.<br>
+Verilerin kaynağı: [NovelCOVID API](https://disease.sh/)
+
+PyPI: https://pypi.org/project/koronavirus/<br>
+GitHub: https://github.com/Dorukyum/koronavirus/
+
+## Kurulum
+**İndirmek için:** ```pip install koronavirus```
+## Örnek Kullanım
+### Senkron
+```python
+# modülü içeri aktar
+from koronavirus import korona
+
+# Türkiye'nin koronavirüs verilerini al
+veriler = korona("Turkey") # veya korona("tr")
+print(veriler)
+```
+
+### Asenkron
+```python
+# modülü içeri aktar
+from koronavirus import async_korona as korona
+
+# Türkiye'nin koronavirüs verilerini al
+async def main():
+    veriler = await korona("Turkey") # veya korona("tr")
+    print(veriler)
+```
+
+
