@@ -1,0 +1,13 @@
+mgkegg/__init__.py,sha256=Dxw6-B4AYqzjetuZwLlB99FH0xWfoPnr3xXaeUCTm2k,1428
+mgkegg/__main__.py,sha256=TKy3mpBmSazSurYxgfHgFvlUiDkCGAAkE6X0jZBboXk,4278
+mgkegg/downloads.py,sha256=o4RFpw_woWuh9gidyD9UrM9Vl5edMkg95mo_qo3ijVA,3089
+mgkegg/highlight.py,sha256=qU2l7P1ee3AoibSYxTU-Pa1jdyfySQl8ziEYY9cdpYw,1272
+mgkegg/html_parser.py,sha256=N5Pbc2394x2VF_y4rsY5QB6jH3yfQ9VMo2lhRTt4-98,1740
+mgkegg/rest.py,sha256=DVoSjv0inVHSfbNQgzcG3ARzJN6gISlZueaWGbaYXoA,640
+mgkegg/update.py,sha256=OVDoOnX-OjjPJo2qpsOeVS9TSMpMB6entUZ3WJklI3o,692
+mgkegg-1.1.dist-info/LICENSE,sha256=VOjjYBJ2h2yZkD3-OzqKQC65lZYVqPTVfuVlELdZLKY,1071
+mgkegg-1.1.dist-info/METADATA,sha256=nrR9_mUOwwf1aiZb_sc7C4Wa0gluRCObnMe35h11LtA,3660
+mgkegg-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mgkegg-1.1.dist-info/entry_points.txt,sha256=SsB_4gMtkcBCpCWCPNVqTGmE-fQdiuJcCxMx0k8j1jo,48
+mgkegg-1.1.dist-info/top_level.txt,sha256=X5GbSHN60kz2nZ22PzIkDaVvX4YXQ9rOb-WMI2tr_bU,7
+mgkegg-1.1.dist-info/RECORD,,
