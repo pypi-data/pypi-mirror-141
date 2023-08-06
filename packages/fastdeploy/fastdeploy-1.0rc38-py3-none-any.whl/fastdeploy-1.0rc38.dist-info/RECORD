@@ -1,0 +1,14 @@
+fastdeploy/__init__.py,sha256=1mER5vnubmNeabUtbrlJJtsVKM3h_L_MkU7nC2x3Us8,5571
+fastdeploy/__main__.py,sha256=1mER5vnubmNeabUtbrlJJtsVKM3h_L_MkU7nC2x3Us8,5571
+fastdeploy/_app.py,sha256=vEsKfysFw0M1aUW7eXUKQ9fuBrLc337VWyhFJ1CqsxM,11710
+fastdeploy/_loop.py,sha256=OAkJEL3ao4ni6VZHZq7-5TmDSBEf4eLumGQG2PMgSqc,4760
+fastdeploy/_utils.py,sha256=df9vgdurmEqp-lfXZ3bW3gCWLeE3CjuZ4g8MfCB8eWg,5085
+fastdeploy/fastdeploy-ui/build/bundle.css,sha256=rz3WSifgRwNbDAno9Ou2qgIGM-ULlhYsS_5KpyXxekY,1038
+fastdeploy/fastdeploy-ui/build/bundle.js,sha256=qsTDd-SsYFgqNddVOZmxs9s7N3BQwWkYs41-lWyxq5w,4281
+fastdeploy/fastdeploy-ui/build/bundle.js.map,sha256=dIznSnLoJ4ooMjpgsJMV4PVmboo6p2Gallr6kgM3Meg,81290
+fastdeploy-1.0rc38.dist-info/LICENSE,sha256=KsaxmXDiBuMqYL95l69Pi1mV9vOEbFn76QY65Lwut5U,1067
+fastdeploy-1.0rc38.dist-info/METADATA,sha256=nurXV3NfmSUP7CvhMVBZruMYpRAYUa2GGa2BrV08kjg,3104
+fastdeploy-1.0rc38.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastdeploy-1.0rc38.dist-info/entry_points.txt,sha256=k8bzmpaiLwabXqsaGNhO7cC9oA4es8ruXlv0ZxXMZso,48
+fastdeploy-1.0rc38.dist-info/top_level.txt,sha256=HMQ_kGDLV54-2pdtDXPscIMY9bd5e6Sa-Pk-4CExH0A,11
+fastdeploy-1.0rc38.dist-info/RECORD,,
