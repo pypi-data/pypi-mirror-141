@@ -1,0 +1,2 @@
+[console_scripts]
+securicad-azure-collector = securicad.azure_collector.main:app
