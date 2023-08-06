@@ -1,0 +1,12 @@
+Type: IPython Notebook Extension
+Name: makanaservice
+Link: README.md
+Description: A little extension to give Makana Model functionality to the IPython notebook
+Main: main.js
+Compatibility: 4.x, 5.x
+Parameters:
+- name: makana_service_on_load
+  description: Set makana service on when a notebook opens
+  input_type: checkbox
+  default: true
+
