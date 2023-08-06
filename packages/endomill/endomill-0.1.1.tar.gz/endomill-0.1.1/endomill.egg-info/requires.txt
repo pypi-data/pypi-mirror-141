@@ -1,0 +1,1 @@
+IPython>=7.3.8keyname>=0.4.1nbmetalog>=0.2.5papermill[all]>=2.3.4
