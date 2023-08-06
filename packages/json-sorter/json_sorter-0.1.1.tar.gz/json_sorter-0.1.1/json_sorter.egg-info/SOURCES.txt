@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+json_sort/__init__.py
+json_sort/sorter.py
+json_sorter.egg-info/PKG-INFO
+json_sorter.egg-info/SOURCES.txt
+json_sorter.egg-info/dependency_links.txt
+json_sorter.egg-info/not-zip-safe
+json_sorter.egg-info/top_level.txt
