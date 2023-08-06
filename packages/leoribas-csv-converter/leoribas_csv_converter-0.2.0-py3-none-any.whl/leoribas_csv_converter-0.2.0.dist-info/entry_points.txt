@@ -1,0 +1,3 @@
+[console_scripts]
+converter=leoribas_csv_converter.converter:json_converter
+
