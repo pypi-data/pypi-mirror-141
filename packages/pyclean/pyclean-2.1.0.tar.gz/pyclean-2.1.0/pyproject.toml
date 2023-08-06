@@ -1,0 +1,20 @@
+[tool.bandit]
+# NOTE: Exclude/ignore of files is currently broken in Bandit
+exclude = [".git",".github",".tox","py2clean.py","py3clean.py","pypyclean.py","tests"]
+
+[tool.black]
+color = true
+
+[tool.coverage.xml]
+output = "tests/coverage-report.xml"
+
+[tool.isort]
+color_output = true
+profile = "black"
+
+[tool.pylint.master]
+ignore = ["py2clean.py","py3clean.py","pypyclean.py"]
+output-format = "colorized"
+
+[tool.pytest.ini_options]
+addopts = "--junitxml=tests/unittests-report.xml --color=yes --verbose"
