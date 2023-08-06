@@ -1,0 +1,8 @@
+README.md
+setup.py
+userDevil/__init__.py
+userDevil.egg-info/PKG-INFO
+userDevil.egg-info/SOURCES.txt
+userDevil.egg-info/dependency_links.txt
+userDevil.egg-info/requires.txt
+userDevil.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: userDevil
+Version: 0.0.1
+Summary: This Package can check if the username is available or taken
+Home-page: UNKNOWN
+Author: Plugin
+Author-email: yazanemails@gmail.com
+License: UNKNOWN
+Description: 
+        This Package make your life easy and check if the username is available or taken for all website with proxy system
+Keywords: Checker,Hacking,User,Username
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

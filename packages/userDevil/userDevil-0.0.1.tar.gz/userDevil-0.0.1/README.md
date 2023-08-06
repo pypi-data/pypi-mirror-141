@@ -1,0 +1,1 @@
+This Package make your life easy and check if the username is available or taken for all website with proxy system
