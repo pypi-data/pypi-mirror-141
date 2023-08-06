@@ -1,0 +1,13 @@
+tesspy/__init__.py,sha256=2bjPBBwb2txqZy5MniGRHe1HXxFSSS0Et4GSe0qg4i4,254
+tesspy/poi_data.py,sha256=t_WbhYLSNon_SdMgsILRq58FpqUaCpbHJMBg8e_bDMQ,12746
+tesspy/tessellation.py,sha256=GRr9xvyaiTKTL1PaHbI9_Jw3gLl4cx-Kcqa44eN7Nh4,20253
+tesspy/tessellation_functions.py,sha256=cXC8WdgPLvdPbHkg-3cR7Wdeu_GX9m2y5KZaO6AKftU,13476
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_poi_data.py,sha256=cp3Rlj9tbbfg3l5VDrG-02_nbGlpGNcB0CTMWrNQ2jg,3554
+tests/test_tessellation.py,sha256=-x3oEsMdwdjKvxTSb9TTQY4RILrpPMqyxHgIdtJu8EM,3319
+tests/test_tessellation_functions.py,sha256=BbfIzMoGlYvRuAqeCH07h3B8D8ZJmjPeLK5ef69_TOg,1803
+tesspy-0.0.1.dist-info/LICENSE.md,sha256=kEnq4d65SbHmXU-VDt4geHpWzHgvBMSo0VXdjIrECDo,1525
+tesspy-0.0.1.dist-info/METADATA,sha256=ekCnwQyz86r2kIStdAajJqMHH_gHKOylfSb09bS_6Gk,5399
+tesspy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tesspy-0.0.1.dist-info/top_level.txt,sha256=zmnG37O7Rh3ng121-sQujNSrqsXVVoNGeRLDFsSA_JU,13
+tesspy-0.0.1.dist-info/RECORD,,
