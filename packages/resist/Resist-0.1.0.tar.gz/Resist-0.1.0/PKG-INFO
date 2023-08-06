@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: resist
+Version: 0.1.0
+Summary: Strongly typed revolt API wrapper.
+Home-page: https://github.com/an-dyy/Resist
+License: MIT
+Keywords: revolt
+Author: andy
+Author-email: andy.development@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.22.0,<0.23.0)
+Requires-Dist: tornado (>=6.1,<7.0)
+Description-Content-Type: text/x-rst
+
+RESIST
+======
+An API wrapper for `revolt`
+
+
+Goals
+=====
+- Strongly typed `revolt` API wrapper.
+- Good semantics & conventions.
+- Explicit.
+
+
+Notable contributors
+====================
+- `Andy <https://github.com/an-dyy>`_ Creater & Maintainer.
+
