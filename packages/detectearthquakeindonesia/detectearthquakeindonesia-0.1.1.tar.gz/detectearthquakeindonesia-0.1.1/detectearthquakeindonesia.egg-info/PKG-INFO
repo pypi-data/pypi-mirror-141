@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: detectearthquakeindonesia
+Version: 0.1.1
+Summary: This package will scrape from [BMKG](https://www.bmkg.go.id/) to get latest earthquake happened in Indonesia
+Home-page: https://github.com/adityadenny/latest-indonesia-earthquake
+Author: Denny Aditya H
+Author-email: adityadenny6@gmail.com
+License: UNKNOWN
+Project-URL: Website, http://harinteam.com/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# latest Indonesia Earthquake
+This package will get the latest earthquake info from BMKG | Meteorological, Climatological, and Geophysical Agency.
+## HOW IT WORK?
+This package will scrape from [BMKG](https://www.bmkg.go.id/) to get latest earthquake happened in Indonesia.
+
+this package will use BeautifulSoup4 and Requests, which output a JSON file, which is ready to use for web and mobile applications.
+
