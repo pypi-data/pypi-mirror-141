@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: chatushka
+Version: 0.7.2rc15
+Summary: Bot that can make your chat explode!
+Home-page: https://github.com/shpaker/chatushka
+Author: Aleksandr Shpak
+Author-email: shpaker@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: aiocron (>=1.6,<2.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: httpx (>=0.22.0,<0.23.0)
+Requires-Dist: motor (>=2.5.0,<3.0.0)
+Requires-Dist: pydantic[dotenv] (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/shpaker/chatushka
+Description-Content-Type: text/markdown
+
+# Chatushka bot
+
+Бот для чатиков (пока только для телеграмушки)
+
+
+# Usage
+
+## Installation
+
+```shell
+pip install chatushka
+```
+
+## Start bot
+
+```shell
+python -m chatushka --token <telegrambotapitoken>
+```
+
+## Test bot
+
+- [x] добавить ботика в чат
+- [x] делегировать боту админские права
+- [x] написать в чатик /help
+
+```shell
+python -m chatushka --token <telegrambotapitoken>
+```
+
