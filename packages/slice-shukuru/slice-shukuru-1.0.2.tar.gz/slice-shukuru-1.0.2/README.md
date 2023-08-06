@@ -1,0 +1,69 @@
+# slice - Simple file splitter
+
+[[_TOC_]]
+
+### Overview
+
+Slice is pretty straightforward: it slice your files.
+
+### Requirements
+
+This package requires at least Python 3.9 and [humanfriendly](https://pypi.org/project/humanfriendly/) 10.0 package.
+
+If you want to run tests, Slice needs PyTest 7.0.1
+
+### Installation
+
+This package is hosted on [PyPi repository](https://pypi.org/project/slice-shukuru/).
+
+To install it, run
+
+```
+python -m pip install slice-shukuru --upgrade
+```
+
+### Usage
+
+Once installed, just run it with
+
+```
+python -m slice
+```
+
+This program is far from being complicated to use, have a look to CLI help:
+
+```
+usage: slice [-h] [-v] [-V] (-s CHUNK SIZE | -c PARTS COUNT) file
+
+Simple file splitter
+
+positional arguments:
+  file                  Path to file you want to be sliced
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --verbose         Output process on stdout
+  -V, --version         Output program version and exit
+  -s CHUNK SIZE, --size CHUNK SIZE
+                        Numeric or human-readable chunk size value (1024, 16MB, 1GiB, ...)
+  -c PARTS COUNT, --count PARTS COUNT
+                        Total parts count to slice the file in
+```
+
+**TL;DR**: `-s` optional parameter to slice on parts size, `-c` to slice on part total count.
+
+Actually, there's no option to concatenate parts and "re-build" the original file.
+You have to use UNIX `cat` command to do so.
+
+```bash
+cat *.[0-9] > original_filename
+```
+
+### Contribution
+
+Feel free to open a merge request to propose features or an issue if you found a bug.
+You can also contribute to documentation or tests writing.
+
+### License
+
+This program is distributed under `BSD 3-Clause License.`
