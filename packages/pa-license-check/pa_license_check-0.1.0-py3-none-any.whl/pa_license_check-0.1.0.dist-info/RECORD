@@ -1,0 +1,8 @@
+pa_license_check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pa_license_check/cli.py,sha256=gaKLkZXLnhaXa2bmsXNiXeEkYx-b6E2_7k2wcIRYWFI,1104
+pa_license_check/license_check.py,sha256=cRp55eIVAqAz_aDOeFeNeE6kSqEPvwN82jwFX-l0Ego,7023
+pa_license_check/sample-fw_key.ini,sha256=K2RZANdWcOTbWpBKBAsMJkbedEfb49hfPzlBBeADeM0,112
+pa_license_check-0.1.0.dist-info/entry_points.txt,sha256=ijCQuhqtlpLrFUEvG14d9h6nkoRvjzO2nZYSLzUxN9I,59
+pa_license_check-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pa_license_check-0.1.0.dist-info/METADATA,sha256=zL4kc5RkQOF3oVbmMgmj7r8pvk9s5Z5HFPA5EgZYpBo,679
+pa_license_check-0.1.0.dist-info/RECORD,,
