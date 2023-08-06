@@ -1,0 +1,10 @@
+rmsgd/__init__.py,sha256=x4TPa1op84JIQ5AuxoRXLUBHn2pAyIpqZZ1SrmAYjpY,33
+rmsgd/components.py,sha256=vGdEspK12IHkZSRuf9fNPait394m2AkGefImnwoNeVw,438
+rmsgd/matrix_factorization.py,sha256=xWGVGTaNc452E3dwJJH-9jYa2PpJmkYt_Flti26xyBs,5693
+rmsgd/metrics.py,sha256=X4e5lkh7jKqmGYBSsOFVmM73ScWkmqQwmHt2QBdlzt4,6665
+rmsgd/rmsgd.py,sha256=5I6unIxu54FFq6douOHSqrz0NZiDL3Laow59_JfwPjQ,5304
+rmsgd-1.0.1.dist-info/LICENSE,sha256=meVUwQ9M6sF7JvYiSx5EWDW_Hmrr1ydJ2ztkgWuxG6c,1074
+rmsgd-1.0.1.dist-info/METADATA,sha256=0RdHpRMQ9o3m3KaGOQZxUqND_C18kn5SImtddcCiAV4,2695
+rmsgd-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rmsgd-1.0.1.dist-info/top_level.txt,sha256=iCvCmAD7ypReF_nUNoC9c-6K6XsN8RaX-8Ws1cyFQNc,6
+rmsgd-1.0.1.dist-info/RECORD,,
