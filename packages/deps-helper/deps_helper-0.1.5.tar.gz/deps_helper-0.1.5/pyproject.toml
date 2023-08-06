@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "deps_helper"
+version = "0.1.5"
+description = "dependencies helper"
+authors = ["jasonyun <killa30865@gmail.com>"]
+readme = "README.md"
+keywords = ["dependecy"]
+license = "MIT"
+include = ["LICENSE"]
+homepage = "https://github.com/Ja-sonYun/deps_helper"
+repository = "https://github.com/Ja-sonYun/deps_helper"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
