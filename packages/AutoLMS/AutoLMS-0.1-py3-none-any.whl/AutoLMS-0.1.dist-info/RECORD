@@ -1,0 +1,10 @@
+autolms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autolms/config.py,sha256=ndWuqCCLqM_XwXaxfPC4jIH1ybXKWwQpC_dhzUWWSzk,7242
+autolms/core.py,sha256=ri7_0l5421WjYOKJxLx2R2TKaHRAgr7p7SJBMKVR12w,6126
+autolms/main.py,sha256=K3RNz8FA0SnsL0UT8325dksDfDzpW9LwvZVFWwfExjA,1899
+AutoLMS-0.1.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+AutoLMS-0.1.dist-info/METADATA,sha256=YgGLwp88RX4khJFs4KRTdEWZ5voGgGKpSYnOcWMM3ro,549
+AutoLMS-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AutoLMS-0.1.dist-info/entry_points.txt,sha256=D0slUwZWCnOueOGbUI4RuAvtWG_3UcACErCBA03Qn1k,46
+AutoLMS-0.1.dist-info/top_level.txt,sha256=Ci9dL_i_C3ebhgtKVNfaLCYpzVws1tyy2Ewp8hp8P-c,8
+AutoLMS-0.1.dist-info/RECORD,,
