@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mooss-serialize
+Version: 0.0.2
+Summary: Test
+Home-page: http://localhost/
+Author: Herwin Bozet
+Author-email: herwin.bozet@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mooss-core (>=0.0.1)
+
+# Mooss - Serialize
+A Python package to help with serialization and deserialization of simple *dataclasses* through
+the help of a common interface.
+
+
+## License
+[Unlicense](LICENSE)
+
+
