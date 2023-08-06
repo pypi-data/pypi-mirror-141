@@ -1,0 +1,3 @@
+[console_scripts]
+modelify = modelify.__main__:main
+
