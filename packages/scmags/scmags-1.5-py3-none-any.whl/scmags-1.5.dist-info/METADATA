@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: scmags
+Version: 1.5
+Summary: Single Cell Marker Gene Selection Tool For Spatial Trancriptomics
+Home-page: https://github.com/doganlab/scmags
+Author: Yusuf Baran
+Author-email: fusuf.baran@gmail.com
+Maintainer: Yusuf Baran
+Maintainer-email: fusuf.baran@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: joblib (>="1.0.1")
+Requires-Dist: matplotlib (>="3.3.4")
+Requires-Dist: numpy (>="1.19.5")
+Requires-Dist: pandas (>="1.2.4")
+Requires-Dist: sklearn (>="0.24.1")
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
+
+
+### scMAGS: Marker Gene Selection From scRNA-seq Data for Spatial Transcriptomics Studies
+
+![plot](./docs/source/scmags_Abstract.png)
+
+-> scmags selects marker genes from scRNA-seq data that are exclusive to each cell type such that, selected marker genes are highly expressed in a specific cell type while lowly expressed in other cell types.
+
+#### Installation
+
+-> scmags can be installed as follows:
+```
+$ pip install scmags
+```
+
+-> You can also install the development version of scmags from master branch of Git repository:
+
+```
+$ pip install git+https://github.com/doganlab/scmags
+```
+-> See [tutorial](https://scmags.readthedocs.io/en/latest/)  for more detailed information.
+
+
