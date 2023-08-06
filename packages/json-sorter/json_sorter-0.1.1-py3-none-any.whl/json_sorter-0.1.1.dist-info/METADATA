@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: json-sorter
+Version: 0.1.1
+Summary: Simple package to Sort Json Content
+Home-page: https://github.com/jasonfedorowich/jsonsort
+Author: Jason
+Author-email: jason.fedorowich@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+Simple python package to sort Json from files, strings, or dictionaries
+
+Usage:
+`sorted_jsn = json_sort.sorter.sort_from_dict(jsn)`
+`sorted_jsn = json_sort.sorter.sort_from_file(jsn)`
+`sorted_jsn = json_sort.sorter.sort_from_string(jsn)`
+
+One can use a custom sort method by providing a predicate to the methods as in `...predicate={method_name_here}`:
+
+
