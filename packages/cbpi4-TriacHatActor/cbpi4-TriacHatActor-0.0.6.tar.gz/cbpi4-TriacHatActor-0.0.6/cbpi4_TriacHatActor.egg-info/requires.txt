@@ -1,0 +1,4 @@
+RPi.GPIO
+cbpi>=4.0.0.56
+pyserial
+smbus
