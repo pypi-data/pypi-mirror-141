@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+diaapdf/__init__.py
+diaapdf/pdf2image.py
+diaapdf/pdf2text.py
+diaapdf.egg-info/PKG-INFO
+diaapdf.egg-info/SOURCES.txt
+diaapdf.egg-info/dependency_links.txt
+diaapdf.egg-info/top_level.txt
