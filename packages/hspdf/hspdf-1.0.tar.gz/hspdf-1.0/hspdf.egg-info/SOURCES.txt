@@ -1,0 +1,9 @@
+README.md
+setup.py
+hspdf/__init__.py
+hspdf/pdf2image.py
+hspdf/pdf2text.py
+hspdf.egg-info/PKG-INFO
+hspdf.egg-info/SOURCES.txt
+hspdf.egg-info/dependency_links.txt
+hspdf.egg-info/top_level.txt
