@@ -1,0 +1,23 @@
+[tool.poetry]
+name='tree-sitter-python-language'
+version='0.9.0'
+description='hi'
+authors=['adam']
+include=[
+    'tree_sitter_python_language/src/**/*',
+]
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tree_sitter = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+black = ''
+mypy = ''
+isort = ''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.masonry.api"
+
