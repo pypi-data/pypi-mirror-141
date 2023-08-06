@@ -1,0 +1,5 @@
+setup.py
+colrev.egg-info/PKG-INFO
+colrev.egg-info/SOURCES.txt
+colrev.egg-info/dependency_links.txt
+colrev.egg-info/top_level.txt
