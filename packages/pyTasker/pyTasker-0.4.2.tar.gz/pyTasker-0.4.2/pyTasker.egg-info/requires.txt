@@ -1,0 +1,5 @@
+requests
+pychalk
+questionary
+validators
+pywin32
