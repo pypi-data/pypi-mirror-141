@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: etchlang
+Version: 0.0.1a4
+Summary: Etch, an easy-to use, high-level, interpreted lang based on Python.
+Author: Ginger Industries
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: repl
+Requires-Dist: etchrepl (>=0.0.1,<0.0.2); extra == "repl"
+Requires-Dist: sly (>=0.4,<0.5)

@@ -1,0 +1,23 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Ginger Industries"]
+description = "Etch, an easy-to use, high-level, interpreted lang based on Python."
+name = "etchlang"
+version = "0.0.1a4"
+packages = [
+    {"include" = "etch"}
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+sly = "^0.4"
+
+etchrepl = { version = "^0.0.1", optional = true }
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+repl = ["etchrepl"]
