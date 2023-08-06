@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+stvh/misc/__init__.py
+stvh/misc/fibonacci.py
+stvh/stvh.egg-info/PKG-INFO
+stvh/stvh.egg-info/SOURCES.txt
+stvh/stvh.egg-info/dependency_links.txt
+stvh/stvh.egg-info/top_level.txt
+stvh/torch/__init__.py
+stvh/torch/soft_cross_entropy_loss.py
