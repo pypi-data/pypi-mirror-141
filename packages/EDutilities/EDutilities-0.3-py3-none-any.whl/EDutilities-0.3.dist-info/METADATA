@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: EDutilities
+Version: 0.3
+Summary: Continuous Electron Diffraction utilities 
+Home-page: UNKNOWN
+Author: Tarik Ronan Drevon
+Author-email: tarik.drevon@stfc.ac.uk
+License: UNKNOWN
+Description: 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License 
+Classifier: Operating System :: POSIX :: Linux 
+Requires-Python: >=3.8
+Requires-Dist: cbf
+Requires-Dist: colorama
+Requires-Dist: crystals
+Requires-Dist: easygui
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pickle5
+Requires-Dist: scipy
+Requires-Dist: tifffile
+
