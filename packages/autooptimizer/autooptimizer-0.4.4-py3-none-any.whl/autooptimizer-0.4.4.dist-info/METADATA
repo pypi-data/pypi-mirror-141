@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: autooptimizer
+Version: 0.4.4
+Summary: AutoOptimizer is a python package for optimize ML algorithms.
+Home-page: https://github.com/mrb987/autooptimizer
+Author: MohammadReza Barghi
+Author-email: info@genesiscube.ir
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: sklearn
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: mlxtend
+
+Machine Learning algorithm optimizer for sklearn and evaluation Metrics for Regression Model.
+AutoOptimizer provides tools to automatically optimize machine learning model for a dataset with very little user intervention.
+
+It refers to techniques that allow semi-sophisticated machine learning practitioners and non-experts 
+to discover a good predictive model pipeline for their machine learning algorithm task quickly,
+with very little intervention other than providing a dataset.
+
+
+#Prerequisites:
+	jupyterlab(contains all sub packages except mlxtend) or: {sklearn,matplotlib,mlxtend,numpy}	
+
+#Installation:
+Github: https://github.com/mrb987/autooptimizer.git
+pip install autooptimizer
+
+#Usage:
+scikit learn supervised and unsupervised learning models using python.
+{DBSCAN, KMeans, MeanShift,  LogisticRegression, KNeighborsClassifier, SupportVectorClassifier, DecisionTree}
+
+#Running for example:
+from autooptimizer.dbscan import dbscan
+from autooptimizer.kmeans import kmeans
+from autooptimizer.meanshift import meanshift
+from autooptimizer.logreg import logreg
+from autooptimizer.knn import knn
+from autooptimizer.svc import svc
+from autooptimizer.decisiontree import decisiontree
+dbscan(x)
+kmeans(x)
+meanshift(x)
+logreg(x,y)
+knn(x,y)
+svc(x,y)
+decisiontree(x,y)
+
+'x' should be your independent variable or feature's values and 'y' is target variable or dependent variable.
+The output of the program is the maximum possible accuracy with the appropriate parameters to use in model.
+
+#Metrics
+from autooptimizer.metrics import root_mean_squared_error
+from autooptimizer.metrics import root_mean_squared_log_error
+from autooptimizer.metrics import root_mean_squared_precentage_error
+from autooptimizer.metrics import symmetric_mean_absolute_precentage_error
+from autooptimizer.metrics import mean_bias_error
+from autooptimizer.metrics import relative_squared_error
+from autooptimizer.metrics import root_relative_squared_error
+from autooptimizer.metrics import relative_absolute_error
+from autooptimizer.metrics import median_absolute_percentage_error
+from autooptimizer.metrics import mean_absolute_percentage_error
+
+root_mean_squared_error(true, predicted)
+root_mean_squared_log_error(true, predicted)
+root_mean_squared_precentage_error(true, predicted)
+symmetric_mean_absolute_precentage_error(true, predicted)
+mean_bias_error(true, predicted)
+relative_squared_error(true, predicted)
+root_relative_squared_error(true, predicted)
+relative_absolute_error(true, predicted)
+median_absolute_percentage_error(true, predicted)
+mean_absolute_percentage_error(true, predicted)
+
+#Contact and Contributing:
+Please share your good ideas with us. 
+Simply letting us know how we can improve the programm to serve you better.
+Thanks for contributing with the programm.
+
+>>>https://github.com/mrb987/autooptimizer
+>>>info@genesiscube.ir
+
