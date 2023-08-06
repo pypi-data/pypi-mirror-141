@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: king-dictionary
+Version: 2.2.9
+Summary: UNKNOWN
+Author: Hammad K. Musakhel
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: requests (>=2.23.0)
+
+UNKNOWN
+
