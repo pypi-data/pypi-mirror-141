@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: conquest
+Version: 0.1.22
+Summary: Conquest Public API
+Home-page: https://github.com/gbassicq/python-conquest/
+Author: Gil Bassi
+Author-email: gbassi@conquestsoftware.com.au
+License: UNKNOWN
+Keywords: Conquest,Conquest Public API,Conquest 4
+Platform: UNKNOWN
+
+    This is the official Conquest API SDK, still undergoing tests
+    
+
