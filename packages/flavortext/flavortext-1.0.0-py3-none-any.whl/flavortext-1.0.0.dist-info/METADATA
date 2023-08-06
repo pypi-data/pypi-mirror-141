@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: flavortext
+Version: 1.0.0
+Summary: Add a touch of pizzaz to your python projects.
+Home-page: https://github.com/TheMingus/flavortext.py
+Author: Mingus
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flavortext.py
+I shamelessly yoinked this from [ZachFreedman's Singularitron](https://github.com/ZackFreedman/Singularitron) project, and rewrote it in Python.
+
+sue me.
+
+## How to use:
+import the module:
+`from flavortext import flavoricious`
+
+The flavoricious function can take 6 arguments:
+
+`yourConstrVerbs`: A list, verbs that are constructive such as 'Building' or 'Assembling'.
+`yourDestrVerbs`: A list, verbs that are destructive such as 'Destroying' or 'Breaking'.
+*Note for both of these args: Make sure to remove any sort of ending like 'ing' from the words you provide.
+yourNouns = None,
+length = 30,
+delay = 0.05`
+
