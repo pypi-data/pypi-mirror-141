@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyemittance
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/slaclab/PyEmittance
+Author: Sara Miskovich
+Author-email: smiskov@slac.stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bayesian-optimization (==1.1.0)
+Requires-Dist: gpflow (==2.1.4)
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: scipy (==1.5.2)
+Requires-Dist: tensorboard (==2.7.0)
+Requires-Dist: tensorboard-data-server (==0.6.1)
+Requires-Dist: tensorboard-plugin-wit (==1.8.1)
+Requires-Dist: tensorflow (==2.4.0)
+Requires-Dist: tensorflow-estimator (==2.4.0)
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.23.1)
+Requires-Dist: tensorflow-probability (==0.12.1)
+
+# PyEmittance
+
+PyEmittance is a tool for the adaptive measurement of the emittance of an electron beam at OTR/YAG beam profile monitors using a scan with varying quadrupole strength. The Twiss parameters and the 'Bmag' match parameter can also be obtained. It can be used in different beamlines/machines by defining machine-specific configuration files.
+
+
