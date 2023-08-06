@@ -1,0 +1,14 @@
+pycocotools
+click
+protobuf==3.15.0
+lxml
+pascal_voc_writer
+GPUtil
+PYyaml
+pandas
+entrypoints
+psutil
+boto3
+requests
+tqdm
+awscli
