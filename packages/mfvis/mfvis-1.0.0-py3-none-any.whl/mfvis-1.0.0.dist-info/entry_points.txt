@@ -1,0 +1,2 @@
+[console_scripts]
+m-funcs = mfvis:__main__.main
