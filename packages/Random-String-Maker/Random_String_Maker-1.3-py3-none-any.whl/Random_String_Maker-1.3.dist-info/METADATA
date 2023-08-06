@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Random-String-Maker
+Version: 1.3
+Summary: A basic python package used to generate a specified ammount of random letters.
+Author: Aidan Hetherington
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This package for python 3 will simply generate
+a random string within a variable.
+
+
+e.g.  (variable name) = randomstring.ranstr("number of letters or name of variable containing number")
+
+if given letters instead of numbers for the string length
+no output will be given. If given a variable containing None it will default to 10.
+
