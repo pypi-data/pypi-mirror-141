@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+aslibtry.egg-info/PKG-INFO
+aslibtry.egg-info/SOURCES.txt
+aslibtry.egg-info/dependency_links.txt
+aslibtry.egg-info/top_level.txt
+excel_try/__init__.py
