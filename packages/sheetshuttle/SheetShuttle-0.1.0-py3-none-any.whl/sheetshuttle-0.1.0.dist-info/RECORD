@@ -1,0 +1,11 @@
+sheetshuttle/__init__.py,sha256=V-zWqxzHxGWfhUbzmsEikJVmRXHHmfnruNURKycotWs,49
+sheetshuttle/github_interaction.py,sha256=fMcx3ydkFl1xUedEe81vrUsoZJZhN8M2zH6sut-cqv8,5166
+sheetshuttle/github_objects.py,sha256=_eDTQtaASTMShFk4MzPMz2F8cdXCqtUZH58t7RB5tjE,18601
+sheetshuttle/main.py,sha256=VZhlubiSBE_UzPHVFrS5wj21YbydMbWCmHgsI1RDVBE,2494
+sheetshuttle/sheet_collector.py,sha256=t241n45oJHZJmQeVjWN1RPbOI-FUsqh90NpOM6Zk6OA,16115
+sheetshuttle/util.py,sha256=Gc82f5dvEyz15vwlCexv_21xCnbkFEzrYmbWlfFBpkY,2642
+sheetshuttle-0.1.0.dist-info/entry_points.txt,sha256=-WhW2uNMvvkzjnVyAYQm5BlrM_3XufS4GTRVnrQoJaE,54
+sheetshuttle-0.1.0.dist-info/LICENSE,sha256=TKcfqg7MrFMpmb4sHBDh2bThd6hg0DQoAZ4NBTVvqWQ,1067
+sheetshuttle-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sheetshuttle-0.1.0.dist-info/METADATA,sha256=dqAkQGEJgwwC84hNmd9ocfL5oDHeiMzUyvKfIR0TnzM,971
+sheetshuttle-0.1.0.dist-info/RECORD,,

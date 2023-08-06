@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sheetshuttle
+Version: 0.1.0
+Summary: 
+Author: Noor Buchi
+Author-email: buchin@allegheny.edu
+Requires-Python: >=3.9.6,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyGithub (>=1.55,<2.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: google-api-python-client (>=2.21.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.1.0,<0.2.0)
+Requires-Dist: google-auth-oauthlib (>=0.4.6,<0.5.0)
+Requires-Dist: jsonschema (>=4.1.2,<5.0.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: openpyxl-stubs (>=0.1.21,<0.2.0)
+Requires-Dist: pandas (>=1.3.3,<2.0.0)
+Requires-Dist: pluginbase (>=1.0.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Requires-Dist: rich (>=10.9.0,<11.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Requires-Dist: types-PyYAML (>=6.0.0,<7.0.0)
+Requires-Dist: types-jsonschema (>=4.4.1,<5.0.0)
