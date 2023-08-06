@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fileStorage3
+Version: 0.0.3
+Summary: storage handler for multiple services
+Home-page: UNKNOWN
+Author: edcilo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (>=1.6.0)
+
+# FileStorage3
+
+

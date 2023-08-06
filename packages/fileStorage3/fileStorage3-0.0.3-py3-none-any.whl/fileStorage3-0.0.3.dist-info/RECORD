@@ -1,0 +1,10 @@
+fileStorage3/__init__.py,sha256=I3OMEYDnR4_w-P9fzi9B0jbN8b41zeecOn5FgghW1Is,167
+fileStorage3/disk.py,sha256=87LzxueGuVJjavkBWsEroJ2PALUK7Yxr1abaFHpn-h8,2665
+fileStorage3/fileStorage3.py,sha256=JwDUC59jhELR2W2YduwbVQYbzkmGiga9EqD9ttAwVGQ,602
+fileStorage3/fileSystem.py,sha256=qlxX9CTt0crrUGl_5am0wt3yYPSsOvlbfVj0JKSzzv4,7764
+fileStorage3/s3.py,sha256=RQ-mM2jxh9zw8OHpr1ItsFWThkoPkwBd_3S1UYZVj8I,6902
+fileStorage3-0.0.3.dist-info/LICENSE,sha256=r-mPFn1zT_gp9cQJ_7JzqEm1QSg6yR1Tt_30kQAs8Qo,1063
+fileStorage3-0.0.3.dist-info/METADATA,sha256=9SFOfCvyuU_e1VbwTN0TVv3V1Ml-BeoXeW5KGmxx6Sw,452
+fileStorage3-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fileStorage3-0.0.3.dist-info/top_level.txt,sha256=GZa-LeH8zgz59Yl56iExswSq4w1vpPmw5pHcdXhaxlw,13
+fileStorage3-0.0.3.dist-info/RECORD,,
