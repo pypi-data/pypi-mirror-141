@@ -1,0 +1,9 @@
+classifier/__init__.py,sha256=g7p1J5I20hQfGeCtb6eHF1j2yorDXfnGrykMY49arU0,62
+classifier/_version.py,sha256=GWRXOMvzc0mzHLylGT9Gs27QW6pfnnkGBGA--4nlKWU,415
+classifier/classifier.py,sha256=7UPbDrwyV-cZQI0WyGbi-LHDg7lJSF1RNC2TkD6RazI,12502
+venv/bin/activate_this.py,sha256=jiabaClBUFj-lr9k6Zba6O_n_-nyYjmHG-JNd553urk,1199
+classifier_reborn-3.0.3.dist-info/METADATA,sha256=KDPU4JAOQVGA6pLOcEtB0tCRRPcV1r199zEbZgEF6ow,5877
+classifier_reborn-3.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+classifier_reborn-3.0.3.dist-info/entry_points.txt,sha256=sV0HmZPbcmp4A4uO8lQoeO0urlCTxlSpVI9IrZRM34I,47
+classifier_reborn-3.0.3.dist-info/top_level.txt,sha256=YG_fJZtBnHYAU5OSiXIFaKia618RkQfA6QKQJ3L-GlY,16
+classifier_reborn-3.0.3.dist-info/RECORD,,
