@@ -1,0 +1,13 @@
+seamsh/__init__.py,sha256=KCcOVJtANlll4poHklFjdyuEOKH3z1eeJrYX_WIsZhE,969
+seamsh/_tools.py,sha256=hWODo7N6TK6GNcLGI_rpZXAJDr17YrEWRV9sLTo9cr0,3188
+seamsh/field.py,sha256=TDCu2zq9ipnhPTgM7SWSG0mGA_qzZVqdXpIH5GgwKdI,4982
+seamsh/geometry.py,sha256=tbSL5kO0vdAXtieb-dcKJqZACzStsPWTNT8VyYElU4Q,17947
+seamsh/gmsh.py,sha256=D30M0iaVaMBZMAQcuFwFWfyj3SM5EPYXI4qock6DUoU,15925
+seamsh/libseamsh.so,sha256=5MJW1-FOKBibRtO_Kd6xWxzbly1pPF7_5lC0hxPezS4,166300
+seamsh-0.4.2.dist-info/AUTHORS.txt,sha256=4ulsdzCBqZIQbFjacbYHFw_KzanYxgYmXl10_Yp8Dvc,139
+seamsh-0.4.2.dist-info/COPYING.txt,sha256=CuBIWlvTemPmNgNZZBfk6w5lMzT6bH-TLKOg6F1K8ic,35148
+seamsh-0.4.2.dist-info/LICENSE.txt,sha256=Rqk0llmSj2voOm2OQknfopNwwTYPVJVuVz889t-wB0k,1455
+seamsh-0.4.2.dist-info/METADATA,sha256=ZuKJWF9g-QcQpY0MpdF9Op4Szo9aDcBiJ2D85jJk0j8,2625
+seamsh-0.4.2.dist-info/WHEEL,sha256=HJE8XjX8ErIXzl2NcrGv54RqYhLiLWDz0iFlfl_975g,108
+seamsh-0.4.2.dist-info/top_level.txt,sha256=QOu8affdf51wa2bcxEzSocm5GU1j3qceQvbSGHMcmxo,7
+seamsh-0.4.2.dist-info/RECORD,,
