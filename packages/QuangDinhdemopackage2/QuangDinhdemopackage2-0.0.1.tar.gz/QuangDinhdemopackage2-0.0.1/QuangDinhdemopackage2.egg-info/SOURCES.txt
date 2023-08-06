@@ -1,0 +1,7 @@
+setup.py
+QuangDinhdemopackage2/__init__.py
+QuangDinhdemopackage2/mylib.py
+QuangDinhdemopackage2.egg-info/PKG-INFO
+QuangDinhdemopackage2.egg-info/SOURCES.txt
+QuangDinhdemopackage2.egg-info/dependency_links.txt
+QuangDinhdemopackage2.egg-info/top_level.txt
