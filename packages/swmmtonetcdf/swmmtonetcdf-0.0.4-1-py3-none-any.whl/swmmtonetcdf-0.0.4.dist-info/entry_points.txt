@@ -1,0 +1,2 @@
+[console_scripts]
+swmmtonetcdf = swmmtonetcdf:main
