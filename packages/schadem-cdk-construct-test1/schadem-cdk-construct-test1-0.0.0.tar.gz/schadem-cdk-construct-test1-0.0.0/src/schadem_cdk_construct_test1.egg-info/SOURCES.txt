@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/schadem_cdk_construct_test1/__init__.py
+src/schadem_cdk_construct_test1/py.typed
+src/schadem_cdk_construct_test1.egg-info/PKG-INFO
+src/schadem_cdk_construct_test1.egg-info/SOURCES.txt
+src/schadem_cdk_construct_test1.egg-info/dependency_links.txt
+src/schadem_cdk_construct_test1.egg-info/requires.txt
+src/schadem_cdk_construct_test1.egg-info/top_level.txt
+src/schadem_cdk_construct_test1/_jsii/__init__.py
+src/schadem_cdk_construct_test1/_jsii/schadem-cdk-construct-test1@0.0.0.jsii.tgz
