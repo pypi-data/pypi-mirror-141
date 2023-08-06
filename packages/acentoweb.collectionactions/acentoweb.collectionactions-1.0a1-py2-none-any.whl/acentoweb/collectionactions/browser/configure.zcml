@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="acentoweb.collectionactions">
+
+
+
+  <!-- Move file action -->
+  <!-- Move this to main zcml (or actions) if we dont need browser view -->
+  <!-- to do: check if interface below is correct for collection plone.app.contenttypes.interfaces.ICollection -->
+  <!-- to do: check what permissions we want on this (manage portal, maybe)-->
+  <browser:page
+           for="..behaviors.collection_move.ICollectionMoveMarker"
+           name="acentoweb_collection_object_move"
+           class=".actions.CollectionMove"
+           permission="zope2.CopyOrMove"
+       />
+
+   <browser:page
+          for="..behaviors.collection_copy.ICollectionCopyMarker"
+          name="acentoweb_collection_object_copy"
+          class=".actions.CollectionCopy"
+          permission="zope2.CopyOrMove"
+        />
+
+</configure>
