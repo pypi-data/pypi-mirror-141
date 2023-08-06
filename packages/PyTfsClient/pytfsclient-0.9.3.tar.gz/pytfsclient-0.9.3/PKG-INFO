@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pytfsclient
+Version: 0.9.3
+Summary: Microsoft Team Foundation Server Python Library is a Microsoft TFS API Python client that can work with Microsoft TFS workitems
+Home-page: https://github.com/TopTuK/PyTfsClient
+Author: TopTuK
+Author-email: cydoor88@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TopTuK/PyTfsClient/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PyTfsClient library (TFS API Python client)
+
+Microsoft Team Foundation Server Python Library is a Microsoft TFS API Python client that can work with Microsoft TFS workitems.
+
+## Installing
+Feel free to use command "pip install pytfsclient"
+
+## Basic usage
+TODO:
+
+
