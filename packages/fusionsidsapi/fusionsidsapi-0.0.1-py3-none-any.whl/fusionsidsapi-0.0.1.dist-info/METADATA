@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fusionsidsapi
+Version: 0.0.1
+Summary: An asynchronous (badly coded) wrapper for FusionSidAPI.
+Home-page: https://github.com/FusionSid/FusionSidsAPI
+Author: Siddhesh Zantye
+Author-email: siddheshadsv@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: aiofiles (==0.6.0)
+
+# FusionSidAPI
+
+An asynchronous (badly coded) wrapper to use [FusionSidAPI](https://fusionsidapi.herokuapp.com/) in python.
+
+Change Log
+==========
+
+0.0.1 (06/03/2022)
+-------------------
+- First Release
+
