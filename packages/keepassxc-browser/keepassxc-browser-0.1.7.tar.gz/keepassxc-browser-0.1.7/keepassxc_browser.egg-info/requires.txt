@@ -1,0 +1,4 @@
+pysodium
+
+[:platform_system == "Windows"]
+pywin32
