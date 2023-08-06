@@ -1,0 +1,13 @@
+dhravya/__init__.py,sha256=scgsqUixX_hXSjLXFPrQCEiMWWxzKdEYnDe3pQr0KPI,782
+dhravya/assets.py,sha256=RFw42KRfFPU5Boy9LDH2qdE8p23QYii6L5U0PHC2N4w,13144
+dhravya/errors.py,sha256=d4ARguAj7Pbh-lMVDk73fhZ20TtQhr-dTRT5WnWCE9A,1770
+dhravya/fun.py,sha256=2qj0c0faZIx0K7E0tIbdeU3gzk-dJEYK0i-rPg--W08,8005
+dhravya/http.py,sha256=hiwpBCE0-zxUvv_FfdHniqOkq5Mk1jRtGe6vuWuVRCM,1512
+dhravya/image.py,sha256=KgOwAZ8Xh2uUeQ24AhVlL8Tq9f0pi4VLJxawNCdksQ4,7588
+dhravya/info.py,sha256=-fUpwwpt1WQoZgLMdl8zvkU4XZlSHa8NDbtAj3nIdl0,5642
+dhravya/misc.py,sha256=oNJda86H-DZJiQEbrHrSkVM8sROFzqqrYm0MAzzDaFg,5410
+dhravyapy-0.0.7.dist-info/LICENSE,sha256=UncNXuYy6ZAlXu6BRHdkwEFPfvmhTbY1nA4xj62DPTo,1084
+dhravyapy-0.0.7.dist-info/METADATA,sha256=clgYYzwzmZK21x7eeZI_zUjw-uR3f8vkFSOjDg4w7EU,2087
+dhravyapy-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dhravyapy-0.0.7.dist-info/top_level.txt,sha256=eaBAT98FL-l_XvxQt2s-lgkYjyVZDWH68zu52ozr2Qw,8
+dhravyapy-0.0.7.dist-info/RECORD,,
