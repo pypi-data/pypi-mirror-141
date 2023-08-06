@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - adlsf
+  - build
+  - gcsfs
+  - gdal
+  - matplotlib
+  - mamba
+  - notebook
+  - pip
+  - proj-data
+  - sentinelsat
+  - pip:
+    - elevation
