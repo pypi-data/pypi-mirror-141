@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+print_mxmul_pkg/__init__.py
+print_mxmul_pkg/print_mxmul.py
+print_mxmul_pkg.egg-info/PKG-INFO
+print_mxmul_pkg.egg-info/SOURCES.txt
+print_mxmul_pkg.egg-info/dependency_links.txt
+print_mxmul_pkg.egg-info/top_level.txt
