@@ -1,0 +1,13 @@
+README.md
+setup.py
+my_build/__init__.py
+my_build/hello.py
+my_build.egg-info/PKG-INFO
+my_build.egg-info/SOURCES.txt
+my_build.egg-info/dependency_links.txt
+my_build.egg-info/top_level.txt
+my_build/core/CoreFunction.c
+my_build/core/__init__.py
+my_build/data/a.txt
+my_build/data/a2.txt
+my_build/sub/hello2.py
