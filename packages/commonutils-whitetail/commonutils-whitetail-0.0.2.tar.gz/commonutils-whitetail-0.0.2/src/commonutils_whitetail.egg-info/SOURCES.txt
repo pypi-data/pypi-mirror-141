@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/commonutils_whitetail.egg-info/PKG-INFO
+src/commonutils_whitetail.egg-info/SOURCES.txt
+src/commonutils_whitetail.egg-info/dependency_links.txt
+src/commonutils_whitetail.egg-info/top_level.txt
+src/package/__init__.py
+src/package/anticaptcha.py
+src/package/patch.py
+src/package/recaptcha_solver.py
