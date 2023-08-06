@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mathcool/__init__.py
+mathcool/__version__.py
+mathcool/core.py
+mathcool.egg-info/PKG-INFO
+mathcool.egg-info/SOURCES.txt
+mathcool.egg-info/dependency_links.txt
+mathcool.egg-info/requires.txt
+mathcool.egg-info/top_level.txt
