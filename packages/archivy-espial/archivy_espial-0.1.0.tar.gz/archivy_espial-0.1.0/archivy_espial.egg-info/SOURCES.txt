@@ -1,0 +1,14 @@
+.gitignore
+README.md
+archivy-espial.gif
+requirements.txt
+setup.py
+archivy_espial/__init__.py
+archivy_espial/config.py
+archivy_espial/espial.js
+archivy_espial.egg-info/PKG-INFO
+archivy_espial.egg-info/SOURCES.txt
+archivy_espial.egg-info/dependency_links.txt
+archivy_espial.egg-info/entry_points.txt
+archivy_espial.egg-info/requires.txt
+archivy_espial.egg-info/top_level.txt
