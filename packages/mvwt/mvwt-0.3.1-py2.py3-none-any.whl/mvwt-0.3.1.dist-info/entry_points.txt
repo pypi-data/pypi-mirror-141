@@ -1,0 +1,3 @@
+[console_scripts]
+mvwt = mvwt.cli:main
+
