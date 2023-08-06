@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+srcs/sample_adds/__init__.py
+srcs/sample_adds/add.py
+srcs/srcs.egg-info/PKG-INFO
+srcs/srcs.egg-info/SOURCES.txt
+srcs/srcs.egg-info/dependency_links.txt
+srcs/srcs.egg-info/top_level.txt
