@@ -1,0 +1,8 @@
+EasySettings>=4.0.1
+appdirs>=1.4.4
+cxxfilt>=0.3.0
+darkdetect>=0.5.1
+desktop-app>=0.2.10
+lief>=0.11.5
+tksheet>=1.7.1
+ttkbootstrap>=1.7.1

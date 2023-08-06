@@ -1,0 +1,8 @@
+appdirs
+cxxfilt
+darkdetect
+desktop-app
+EasySettings
+lief
+tksheet
+ttkbootstrap
