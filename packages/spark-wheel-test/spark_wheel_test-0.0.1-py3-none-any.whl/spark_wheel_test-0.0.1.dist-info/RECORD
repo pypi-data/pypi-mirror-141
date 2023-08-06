@@ -1,0 +1,8 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main.py,sha256=Ti8E4T1cfo2Bxijmmbap8MBrrEd0__uMDEl3vPXj1LI,213
+spark_wheel_test-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+spark_wheel_test-0.0.1.dist-info/METADATA,sha256=Biaz7VBVF4_U8gBiqIgZwnnVYwlkWADwxKsc6CNb3pI,461
+spark_wheel_test-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spark_wheel_test-0.0.1.dist-info/top_level.txt,sha256=oacV9NwYco_foJCAFGyJ96q6H8T32N2IysEM6A5I7c4,14
+spark_wheel_test-0.0.1.dist-info/RECORD,,
