@@ -1,0 +1,15 @@
+more_itertools
+tqdm
+pystow
+requests
+pyyaml
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
