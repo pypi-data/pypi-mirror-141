@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pynterpol
+Version: 1.0.0
+Summary: Fast image interpolation
+Home-page: https://github.com/FlorentBrunet/pynterpol
+Author: Florent Brunet
+Author-email: florent.brunet@algostia.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/FlorentBrunet/pynterpol/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba
+Requires-Dist: numpy
+
+# pynterpol
+
+Fast image interpolation in Python.
+
+
