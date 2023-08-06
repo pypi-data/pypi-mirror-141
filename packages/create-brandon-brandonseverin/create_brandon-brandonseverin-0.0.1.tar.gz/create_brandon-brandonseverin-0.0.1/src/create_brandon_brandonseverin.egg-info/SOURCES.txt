@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/create_brandon/__init__.py
+src/create_brandon/create_brandon.py
+src/create_brandon/scripts/__init__.py
+src/create_brandon/scripts/helper_functions.py
+src/create_brandon_brandonseverin.egg-info/PKG-INFO
+src/create_brandon_brandonseverin.egg-info/SOURCES.txt
+src/create_brandon_brandonseverin.egg-info/dependency_links.txt
+src/create_brandon_brandonseverin.egg-info/entry_points.txt
+src/create_brandon_brandonseverin.egg-info/requires.txt
+src/create_brandon_brandonseverin.egg-info/top_level.txt

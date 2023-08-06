@@ -1,0 +1,4 @@
+nbformat
+
+[dev]
+pytest==6.2.5
