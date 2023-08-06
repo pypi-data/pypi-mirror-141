@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: get-beacon
+Version: 0.0.1
+Summary: Package for https://getbeacon.xyz
+Home-page: UNKNOWN
+Author: Cerwind
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,beacon,getbeacon,notification
+Platform: UNKNOWN
+Requires-Dist: requests (==2.27.1)
+
+Package for https://getbeacon.xyz - a way to notify your favourite channels when the interesting stuff happens on your server
+
+
