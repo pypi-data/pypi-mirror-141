@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+datasalgo/__init__.py
+datasalgo/array.py
+datasalgo/number.py
+datasalgo.egg-info/PKG-INFO
+datasalgo.egg-info/SOURCES.txt
+datasalgo.egg-info/dependency_links.txt
+datasalgo.egg-info/not-zip-safe
+datasalgo.egg-info/requires.txt
+datasalgo.egg-info/top_level.txt
