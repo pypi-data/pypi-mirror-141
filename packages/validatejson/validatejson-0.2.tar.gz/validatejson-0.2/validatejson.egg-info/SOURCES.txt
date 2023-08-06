@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+validatejson/__init__.py
+validatejson/validate.py
+validatejson.egg-info/PKG-INFO
+validatejson.egg-info/SOURCES.txt
+validatejson.egg-info/dependency_links.txt
+validatejson.egg-info/entry_points.txt
+validatejson.egg-info/requires.txt
+validatejson.egg-info/top_level.txt

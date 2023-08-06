@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: validatejson
+Version: 0.2
+Summary: Simplistic tool to validate JSON payload against JSON schema
+Home-page: https://github.com/deepakcpakhale06/validatejson
+Author: deeppy
+License: UNKNOWN
+Download-URL: https://github.com/deepakcpakhale06/validatejson/tree/main/dist/validatejson-0.1.tar
+Description: # validatejson
+        
+        Accepts JSON payload and JSON schema as input and runs JSON payload validation against the provided JSON schema.
+        
+        ````
+        Usage: validatejson [OPTIONS] JSON_DATA_LOCATION SCHEMA_LOCATION
+          
+          Arguments:
+            JSON_DATA_LOCATION  [required]
+            SCHEMA_LOCATION     [required]
+          
+          Options:
+            --install-completion [bash|zsh|fish|powershell|pwsh]
+                                            Install completion for the specified shell.
+            --show-completion [bash|zsh|fish|powershell|pwsh]
+                                            Show completion for the specified shell, to
+                                            copy it or customize the installation.
+            --help                          Show this message and exit.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
