@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Perseus2
+Version: 4.0.0
+Summary: Perseus Software for Persistent Homology Computation
+Home-page: https://github.com/marciogameiro/Perseus
+Author: Marcio Gameiro
+Author-email: marciogameiro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perseus
+The Perseus Software Project for Rapid Computation of Persistent Homology
+
+
