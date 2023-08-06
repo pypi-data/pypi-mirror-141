@@ -1,0 +1,7 @@
+README.md
+setup.py
+nbox/src/nbox.py
+nbox/src/nboxes.egg-info/PKG-INFO
+nbox/src/nboxes.egg-info/SOURCES.txt
+nbox/src/nboxes.egg-info/dependency_links.txt
+nbox/src/nboxes.egg-info/top_level.txt
