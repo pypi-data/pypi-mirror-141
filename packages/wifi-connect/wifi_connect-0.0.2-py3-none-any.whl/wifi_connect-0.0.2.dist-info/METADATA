@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: wifi-connect
+Version: 0.0.2
+Summary: List and connect to wifi networks
+Home-page: https://gitlab.com/Prometeo136/wifi-cli
+Author: Xairi Valdivia
+Author-email: xairi.valdivia@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wifi Connect
+
+List and connecto wo twifi networks
+
+## Instructions
+
+1. Install:
+
+```
+pip install wifi-connect
+```
+
+2. List and connect to a wifi network:
+
+```bash
+    wifi-connect
+```
+
+3. Ride the space skyway home to 80s Miami
+
+
