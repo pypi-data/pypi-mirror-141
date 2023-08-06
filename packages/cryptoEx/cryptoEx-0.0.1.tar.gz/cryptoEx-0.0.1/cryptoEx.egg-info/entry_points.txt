@@ -1,0 +1,14 @@
+[console_scripts]
+bnGet = cryptoEx:bnGet
+bnPPD = cryptoEx:bnPPD
+bnSign = cryptoEx:bnSign
+hbGet = cryptoEx:hbGet
+hbPost = cryptoEx:hbPost
+hbSign = cryptoEx:hbSign
+kkGet = cryptoEx:kkGet
+kkPost = cryptoEx:kkPost
+kkSign = cryptoEx:kkSign
+okGet = cryptoEx:okGet
+okPost = cryptoEx:okPost
+okSign = cryptoEx:okSign
+
