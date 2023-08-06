@@ -1,0 +1,3 @@
+include src/chm/*.hpp
+include src/stubs/chm_hnsw.pyi
+include LICENSE
