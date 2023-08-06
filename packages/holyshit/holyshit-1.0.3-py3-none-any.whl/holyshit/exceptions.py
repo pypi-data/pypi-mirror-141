@@ -1,0 +1,2 @@
+class ContentUnavailable(Exception):
+    pass
