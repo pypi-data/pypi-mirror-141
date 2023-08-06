@@ -1,0 +1,8 @@
+dags/__init__.py,sha256=dIci3XhkXgW45zHwcYk1zQIA-WqeEAQDPWhVuBolFgI,212
+dags/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+dags/dag.py,sha256=phaDAxMXo9NZbM01KTZmbbyM6V05lgoUDslYmIx_Sm4,10464
+dags-0.1.0.dist-info/LICENSE,sha256=kdDyXuobrv-v7YlfDnR0pLSncv784WgM2sdWoqn0QC8,1087
+dags-0.1.0.dist-info/METADATA,sha256=yFfWx0ReduB6eU3Q8r1AdRyqiV_O3MLUxmS21HWwHZM,2780
+dags-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dags-0.1.0.dist-info/top_level.txt,sha256=nn_dWITOQKu1f8fPtEP_lovG7mh8lkzCjm7YK6geni0,5
+dags-0.1.0.dist-info/RECORD,,
