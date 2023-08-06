@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kuberender
+Version: 0.3.6
+Summary: A tool to render and apply Kubernetes manifests using Jinja2
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+
