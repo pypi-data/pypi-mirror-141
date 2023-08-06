@@ -1,0 +1,12 @@
+LICENSE
+README.txt
+setup.py
+sqlacodegen_gw/__init__.py
+sqlacodegen_gw/codegen.py
+sqlacodegen_gw/main.py
+sqlacodegen_gw.egg-info/PKG-INFO
+sqlacodegen_gw.egg-info/SOURCES.txt
+sqlacodegen_gw.egg-info/dependency_links.txt
+sqlacodegen_gw.egg-info/entry_points.txt
+sqlacodegen_gw.egg-info/top_level.txt
+sqlacodegen_gw.egg-info/zip-safe
