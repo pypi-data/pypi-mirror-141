@@ -1,0 +1,8 @@
+django_simple_plausible/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_plausible/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_plausible/templatetags/plausible.py,sha256=TIn-0yBfNrvN_paVWasVNDVXCNxV0TF1XM0mmA0da0s,647
+django_simple_plausible-0.0.3.dist-info/LICENCE,sha256=a_lPOzb2_yTwtW_ojcQUowJNNarkxnSLEVcZYaXVcMs,1073
+django_simple_plausible-0.0.3.dist-info/METADATA,sha256=42w4J8R9EkclBmxOHucsghDpyL0MdIVMK5-hR-OsMxo,1665
+django_simple_plausible-0.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_simple_plausible-0.0.3.dist-info/top_level.txt,sha256=crsNN0-s4IHxfF6_5yk6bcz2MWowOULUDbKmfSjOJIY,24
+django_simple_plausible-0.0.3.dist-info/RECORD,,
