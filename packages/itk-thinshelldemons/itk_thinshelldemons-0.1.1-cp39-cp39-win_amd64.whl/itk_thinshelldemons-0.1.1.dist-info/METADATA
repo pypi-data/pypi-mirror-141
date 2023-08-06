@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: itk-thinshelldemons
+Version: 0.1.1
+Summary: Thin Shell Demons for Surface to Surface Registration
+Home-page: https://itk.org/
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKThinShellDemons
+Author: Pranjal Sahu
+Author-email: pranjal.sahu@kitware.com
+License: Apache
+Keywords: ITK InsightToolkit
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+License-File: LICENSE
+Requires-Dist: itk (>=5.3rc3)
+
+Thin SHell Demons for Surface to Surface Registration
+
