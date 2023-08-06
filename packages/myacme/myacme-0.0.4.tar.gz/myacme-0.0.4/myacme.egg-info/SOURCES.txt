@@ -1,0 +1,11 @@
+README
+setup.py
+myacme/__init__.py
+myacme/__main__.py
+myacme/client.py
+myacme.egg-info/PKG-INFO
+myacme.egg-info/SOURCES.txt
+myacme.egg-info/dependency_links.txt
+myacme.egg-info/entry_points.txt
+myacme.egg-info/requires.txt
+myacme.egg-info/top_level.txt

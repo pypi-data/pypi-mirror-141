@@ -1,0 +1,8 @@
+
+
+flake8 --ignore=E251,E265,E302,E305,E501 myacme
+
+rm -rf build/* dist/*
+python3 setup.py bdist_wheel
+python3 setup.py sdist
+twine upload --repository pypi dist/*

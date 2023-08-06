@@ -1,0 +1,3 @@
+[console_scripts]
+myacme = myacme.__main__:main
+
