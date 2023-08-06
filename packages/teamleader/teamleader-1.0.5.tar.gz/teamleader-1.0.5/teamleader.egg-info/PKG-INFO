@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: teamleader
+Version: 1.0.5
+Summary: A layer on top of the Teamleader v2 API
+Home-page: https://github.com/HeroPP/Teamleader
+Download-URL: https://github.com/HeroPP/Teamleader/archive/refs/tags/v1.0.5.tar.gz
+Author: Jaap
+Author-email: jaap1@me.com
+License: MIT
+Keywords: Teamleader,API,CRM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+

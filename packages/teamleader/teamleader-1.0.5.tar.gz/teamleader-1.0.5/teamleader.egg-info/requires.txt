@@ -1,0 +1,9 @@
+certifi
+charset-normalizer
+idna
+oauthlib
+pickle5
+ratelimit
+requests
+requests-oauthlib
+urllib3

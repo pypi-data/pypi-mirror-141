@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+teamleader/__init__.py
+teamleader/client.py
+teamleader/helpFunctions.py
+teamleader/teamleaderMethods.py
+teamleader/teamleaderObjects.py
+teamleader/teamleaderStores.py
+teamleader.egg-info/PKG-INFO
+teamleader.egg-info/SOURCES.txt
+teamleader.egg-info/dependency_links.txt
+teamleader.egg-info/requires.txt
+teamleader.egg-info/top_level.txt
