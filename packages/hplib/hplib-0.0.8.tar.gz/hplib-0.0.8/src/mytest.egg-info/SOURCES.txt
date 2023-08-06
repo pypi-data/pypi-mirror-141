@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/hplib.py
+src/mytest.egg-info/PKG-INFO
+src/mytest.egg-info/SOURCES.txt
+src/mytest.egg-info/dependency_links.txt
+src/mytest.egg-info/top_level.txt
