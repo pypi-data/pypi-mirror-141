@@ -1,0 +1,8 @@
+dogwood/__init__.py,sha256=vVV4aZcW-3tML808PV4m3hwSPdVTtzNJao-lkfWqNLQ,51
+dogwood/errors.py,sha256=3u3q309nEqXiFAb1NsRoY9nDetG6D8L6kvkGYDNiwqc,364
+dogwood/weight_transfer.py,sha256=llEPUOgk6TuB1fyroBnwWLvpyHH-6ShX5con-rOOdf4,11222
+dogwood-0.0.4.dist-info/LICENSE,sha256=cnDlU2Db3mBROt6MrxIg4Tvnq8LAoVI1mziRZ4eBDr0,1066
+dogwood-0.0.4.dist-info/METADATA,sha256=kN3jeVfRNa8MMpyH_80VEoMQ4yGgd-EGGvtaOkrIdrU,1887
+dogwood-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dogwood-0.0.4.dist-info/top_level.txt,sha256=NPq7H6pUWfR19Fdi5cBgpiWMoqfh1HP0tHfaDtmJ580,8
+dogwood-0.0.4.dist-info/RECORD,,
