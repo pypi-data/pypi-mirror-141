@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/genuine_bs/__init__.py
+src/genuine_bs/bs.py
+src/genuine_bs/test.py
+src/genuine_bs/vocab.py
+src/genuine_bs_shengxio.egg-info/PKG-INFO
+src/genuine_bs_shengxio.egg-info/SOURCES.txt
+src/genuine_bs_shengxio.egg-info/dependency_links.txt
+src/genuine_bs_shengxio.egg-info/top_level.txt
