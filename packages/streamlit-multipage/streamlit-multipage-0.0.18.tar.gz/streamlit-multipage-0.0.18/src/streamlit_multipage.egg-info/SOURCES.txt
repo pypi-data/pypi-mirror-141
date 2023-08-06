@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/streamlit_multipage/__init__.py
+src/streamlit_multipage/multipage.py
+src/streamlit_multipage.egg-info/PKG-INFO
+src/streamlit_multipage.egg-info/SOURCES.txt
+src/streamlit_multipage.egg-info/dependency_links.txt
+src/streamlit_multipage.egg-info/top_level.txt
