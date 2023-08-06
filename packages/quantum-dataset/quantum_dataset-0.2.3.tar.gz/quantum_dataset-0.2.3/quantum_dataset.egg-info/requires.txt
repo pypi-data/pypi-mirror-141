@@ -1,0 +1,6 @@
+numpy
+xarray
+matplotlib
+MarkupPy
+dataclasses
+dataclasses_json
