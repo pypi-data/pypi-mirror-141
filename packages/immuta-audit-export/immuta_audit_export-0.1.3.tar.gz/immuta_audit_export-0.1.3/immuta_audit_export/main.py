@@ -1,0 +1,21 @@
+from s3 import *
+
+# from s3.s3_config import S3ExportConfiguration
+# from s3.s3_export_record import S3ExportRecord
+# from input_record import *
+# aws_access_key_id="ASIAQFZE4EV5S5ZOOTSS"
+# aws_secret_access_key="wVOq//6qFvq0EZpkmasr8oOgXNlU3fTs/OjXyO3u"
+# aws_session_token="IQoJb3JpZ2luX2VjEOj//////////wEaCXVzLWVhc3QtMSJHMEUCIFPnYhlp70PkUYW09XC/MU90hfI/tJ5rlAoRIrAEjs8AAiEA8LqweBiEqBZLZPqe9dTtWJJesIzjJrELQttg1bjukj8qkwMIUBADGgwwMTI0MjUzNzMwNTEiDOeJNJfGMh+EOTk/myrwAoMvusV/y2Ye8y8DQKPMWnoWunhK61F2jYmj165TLM5dz4GbrHa+amLqMvam5S4As/QKCUw4QskE3yQz95MrUNvwfx5WCYvtUr7jfZuvQ000EzLwAabU6HSmTR9yEWqqJoM78MP9IluWqHVqAMVJtkHrphTWz/ZBhwlixUbez3uIuV1+oyOLcGYiuic1DSo/lQ1Ct5GH15Vr+ZijmZDwOX0+Xa/lhJZkLozs7wXrtcIDNK6ulsWK99FB3Ot4T7zfXHu6NlxPaU2zF8mieMCuQ8ePMi422jvkZkFd/sUv77vWbwCfbje7GUqyUHVInv9nawwiLOq7eZc7sRdEyNH5ymAM9XxTGP72Pi8K52IBl7huafGjSwj4tuZczRWw3MeuIOjhAfA69hQN7CQaHfOqVdq4jBHQZ2PLS4qU33lPB0mO6Juc1xlDwwFzSJemtDd4iiDaZBj9GLh5QILHxh9BjgZmYwquJg+p468S8g6z5AbvMMCahZEGOqYBNActscceeMqDoZLrVJ2Gp3WhBW/U46OpRuSXgFC4+oVmbgdXQVbv8oDttuW83N956IENZK5KptNHIWyuqmnMNPe0U7JqW02N5TTLNdJyb829AA2d8JJU6Ql/Yw5J2Xw++pKr+26+S1uW51J51EiI95NpsMLQpYU0fDbj+xNu+1eo8Ic2oXntThdKywRWaS99jUkGHNhn4tEaycPwRRh8fsuOHEXInw=="
+
+# if __name__ == "__main__":
+# 	config_builder = S3ExportConfiguration.Builder()
+# 	config = config_builder.bucket_name("luke-boyer-audit-test").priv_key(aws_secret_access_key).session_key(aws_session_token).pub_key(aws_access_key_id).build()
+
+# 	test_data = "what is up my dudes"
+# 	test_tenant = 1
+
+# 	input_record = InputSchema(test_tenant, test_data)
+
+# 	s3_exporter = S3ExportRecord(config)
+
+# 	s3_exporter.export_record(input_record)

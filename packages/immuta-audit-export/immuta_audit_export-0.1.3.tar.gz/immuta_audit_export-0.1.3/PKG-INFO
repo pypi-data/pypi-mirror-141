@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: immuta-audit-export
+Version: 0.1.3
+Summary: Scaffold for serverless audit exporting
+Author: LukeBoyer
+Author-email: boyer.l@husky.neu.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.21.11,<2.0.0)
