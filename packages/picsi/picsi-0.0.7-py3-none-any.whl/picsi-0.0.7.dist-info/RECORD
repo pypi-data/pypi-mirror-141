@@ -1,0 +1,12 @@
+picsi/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+picsi/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsi/commands/build.py,sha256=BHwlOxA9COBcszfxrzHuRxxYLM2OU-SiUxyzfw5nZdk,103
+picsi/commands/down.py,sha256=q6YVMUzGPBLKNo99yM8_fGL1uxSBR8Em9S5UdnR_kPk,2438
+picsi/commands/install.py,sha256=jCGB9nTrYkyiTB07qPsHZNWpRcg17vpzD0QsweuhQsk,3438
+picsi/commands/uninstall.py,sha256=CmShjP_LMOCHG-bnTyeNOsVrvt1sYk3pGPwlA-N4KQU,118
+picsi/commands/up.py,sha256=69RIJAenzi3p-xP3i8MZ_lH_ZNDbms_R-t_XdXqTDhU,2199
+picsi/picsi.py,sha256=2t_utpEpXMNBY9C5v3LMgabEKogXiC85ENhV2sikoSg,788
+picsi-0.0.7.dist-info/entry_points.txt,sha256=HQigaHWCdQvifU1nSegAT0fY97ixsjkC5v3NAyqLlXU,41
+picsi-0.0.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+picsi-0.0.7.dist-info/METADATA,sha256=x81_kgKxtzpaRtqbF-Vp2dQ4kIBR6hyCCj5sBPwYaaE,6358
+picsi-0.0.7.dist-info/RECORD,,

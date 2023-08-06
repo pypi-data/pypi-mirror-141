@@ -1,0 +1,3 @@
+[console_scripts]
+picsi=picsi.picsi:app
+
