@@ -1,0 +1,75 @@
+import logging
+import pathlib
+import shutil
+
+import hydra
+import jinja2
+import pkg_resources
+
+log = logging.getLogger(__name__)
+
+
+def main(cfg):
+    orig_cwd = pathlib.Path(hydra.utils.get_original_cwd()).resolve()
+    deploy = orig_cwd / cfg.deploy
+    work1 = orig_cwd / cfg.work1
+    bin_path = orig_cwd / cfg.bin_path
+
+    package = __name__.split(".")[0]
+    TEMPLATES_PATH = pathlib.Path(
+        pkg_resources.resource_filename(package, "templates/")
+    )
+    deploy.mkdir(exist_ok=True, parents=True)
+
+    src = TEMPLATES_PATH / "product1.wxs"
+    tpl_str = src.read_text()
+    tpl = jinja2.Template(tpl_str)
+    rendered = tpl.render(data=cfg)
+    out_path = work1 / "product.wxs"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(rendered)
+
+    src = TEMPLATES_PATH / "ClassicTheme.xml"
+    tpl_str = src.read_text()
+    tpl = jinja2.Template(tpl_str)
+    rendered = tpl.render(data=cfg)
+    out_path = work1 / src.name
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(rendered)
+
+    src = TEMPLATES_PATH / "ClassicTheme.wxl"
+    tpl_str = src.read_text()
+    tpl = jinja2.Template(tpl_str)
+    rendered = tpl.render(data=cfg)
+    out_path = work1 / src.name
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(rendered)
+
+    src = TEMPLATES_PATH / "bundle0.wxs"
+    tpl_str = src.read_text()
+    tpl = jinja2.Template(tpl_str)
+    rendered = tpl.render(data=cfg)
+    out_path = work1 / "bundle.wxs"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(rendered)
+    log.debug(f"copied {src.resolve()} to {out_path.resolve()}")
+
+    src = TEMPLATES_PATH / "custom_actions.wxs"
+    dst = work1 / src.name
+    dst.unlink(missing_ok=True)
+    shutil.copy(src, dst)
+
+    src = bin_path / "IRIS Decoder Placard.png"
+    shutil.copy(src, work1 / src.name)
+
+    pdf = bin_path / "streambox_iris_quickstart.pdf"
+    shutil.copy(pdf, work1 / pdf.name)
+
+    ini = bin_path / "encassist.ini"
+    shutil.copy(ini, deploy / ini.name)
+
+    ps = bin_path / "service.ps1"
+    shutil.copy(ps, deploy / ps.name)
+
+    ps = bin_path / "cleanlogs.ps1"
+    shutil.copy(ps, deploy / ps.name)
