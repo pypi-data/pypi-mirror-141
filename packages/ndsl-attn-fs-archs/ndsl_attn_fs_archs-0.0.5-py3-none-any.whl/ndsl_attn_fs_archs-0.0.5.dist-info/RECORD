@@ -1,0 +1,15 @@
+ndsl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndsl/example.py,sha256=Haz4vfipzrbHHCVOOjdASv0klmNE-yInhUiaoYBFSRM,41
+ndsl/architecture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndsl/architecture/attention.py,sha256=PsfqkBaKGhY_5n5OGJ6UmFqVvsAwWcw3ogKxwVgQt6w,14558
+ndsl/architecture/cluster.py,sha256=P1W1Ux4eAypSZ8EYll_SNhk3WnI-jwNFN28S-KJJ-hc,2689
+ndsl/module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ndsl/module/aggregator.py,sha256=IcogqaSGbMYyDEJv08wEl49xbOxEHjwamCxo4ETYsMk,1664
+ndsl/module/attention_aggregator.py,sha256=I5suHYSt2wTrOMRz1Pqo_oHTpJhm3d3RB3SEn3l8YKo,470
+ndsl/module/encoder.py,sha256=Yecq138y7vu_AP0d5emku4o56pNV78EqNbTFcpQCF20,1123
+ndsl/module/preprocessor.py,sha256=BSFdO5C4kBfO_SlT9F-7dPgHBghPHVQew23Mvww4SOs,630
+ndsl_attn_fs_archs-0.0.5.dist-info/LICENSE,sha256=2on5hngivkuK2x5gHZ6SJsGVAWxlCAFet1k-aOrQyYo,20130
+ndsl_attn_fs_archs-0.0.5.dist-info/METADATA,sha256=cNZa_t_IRknjmpiVhwfAgzfHFKQpnY5iTifldcM2M9w,1515
+ndsl_attn_fs_archs-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ndsl_attn_fs_archs-0.0.5.dist-info/top_level.txt,sha256=j8hAZodkzutDAp3O1vlA1z4KsyVCUW5NtOgSUPkGIUQ,5
+ndsl_attn_fs_archs-0.0.5.dist-info/RECORD,,
