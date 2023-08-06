@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: anti-header
+Version: 0.0.3
+Summary: fake chrome, firefox, opera browser header anti header
+Home-page: https://github.com/ihandmine/anti-header.git
+Author: handmine
+Author-email: handmine@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: header,headers,crawl header,fake,fake header,browser,spider header,anti,anti header,scrapy header
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
