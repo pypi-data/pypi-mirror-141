@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sunhpcSnack
+Version: 1.0.0
+Summary: Snack built with sunhpc
+Home-page: https://www.sunhpc.com
+Author: sunhpc
+Author-email: admin@sunhpc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+

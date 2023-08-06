@@ -1,0 +1,8 @@
+setup.py
+sunhpcSnack/__init__.py
+sunhpcSnack/_snack.so
+sunhpcSnack/snack.py
+sunhpcSnack.egg-info/PKG-INFO
+sunhpcSnack.egg-info/SOURCES.txt
+sunhpcSnack.egg-info/dependency_links.txt
+sunhpcSnack.egg-info/top_level.txt
