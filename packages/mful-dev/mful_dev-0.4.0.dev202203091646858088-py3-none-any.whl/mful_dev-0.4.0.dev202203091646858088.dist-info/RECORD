@@ -1,0 +1,17 @@
+masterful/__init__.py,sha256=xtnK-DWDtsxRuTdPgZOON9tBQz8JQWxu_mtPbeIEHYg,837
+masterful/architecture.py,sha256=Ei-aSKi2wjXLRM_kXBRocU0hEYMt-tiqVf1etORf4z4,4743
+masterful/constants.py,sha256=Qnx8KvoAmvt5YZfLrcdBYatsysQD9t_xqyJjq6cvfP8,926
+masterful/data.py,sha256=yv7NN_cwBul3izR0n1oc4C6Sgi8-2_SXY_5d-8jGBEs,3727
+masterful/enums.py,sha256=0F_xtQ__zQ4TcGmhALzXoGsOgPWPniMGWrpj-S26DmA,4673
+masterful/optimization.py,sha256=V2IVUnLdawg9Wy6LWCQA3N-ncdcbN0uTAwZqhlGLmt8,4939
+masterful/regularization.py,sha256=rHhiBLHPy_bMtfNbOikwskr-B5aE4WWQBy4_ZpSnlcI,12126
+masterful/ssl.py,sha256=2skYmtAhZThF1UnasKHFur5U36mDNJcICgefxnefn1Q,9725
+masterful/training.py,sha256=PmPumAbX8z6L_UUtLLP8Jx6h8EdV70EkGLRwp1TdG4Y,6686
+masterful/version.py,sha256=7NRXZyx9zotZ-p51A0vHU8kevjEqcfs907mXvQy4CvE,72
+masterful/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+masterful/utils/register.py,sha256=oNzrZrP2VmhXe-N-x-TMkQsTwXKdWBo6tH7h5ItSgeI,9026
+mful_dev-0.4.0.dev202203091646858088.dist-info/LICENSE,sha256=UdkMYVutJdgieZMCtFxQ3EYbhgYtwfzaG13NJlZeBsM,900
+mful_dev-0.4.0.dev202203091646858088.dist-info/METADATA,sha256=i30CzaPMuV-ncuPwgbSXBDnbNjllWXKo1QXyOrrh-bE,2029
+mful_dev-0.4.0.dev202203091646858088.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mful_dev-0.4.0.dev202203091646858088.dist-info/top_level.txt,sha256=jR-uKVcHGo7G4nbVCA6yMCOi9lYAkDn1yELwcBeuYo4,10
+mful_dev-0.4.0.dev202203091646858088.dist-info/RECORD,,
