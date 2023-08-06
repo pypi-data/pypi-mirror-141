@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytest-network-endpoints
+Version: 0.0.4
+Summary: Network endpoints plugin for pytest
+Author: Szymon Basan
+Author-email: szymon.basan@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: docker
+Requires-Dist: easysnmp
+Requires-Dist: paramiko
+Requires-Dist: pytest
+Requires-Dist: PyYAML
+Requires-Dist: sshtunnel
+Requires-Dist: winrmcp
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+
+UNKNOWN
+
