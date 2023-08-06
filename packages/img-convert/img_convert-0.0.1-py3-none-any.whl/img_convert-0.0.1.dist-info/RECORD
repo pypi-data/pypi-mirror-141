@@ -1,0 +1,8 @@
+img_convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+img_convert/main_test.py,sha256=oksTxzXjJdZkxwYvek95ccE4qAI846HwyhvNWnDoYPc,177
+img_convert/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+img_convert/utils/io.py,sha256=d8kgkdtZ3g2x3xx1lJeBfH_GqvJ0AO1h1Rol9_geXHE,551
+img_convert-0.0.1.dist-info/METADATA,sha256=uLDo5t3cNtX1eB9Bd5DKTpCbBt4z_ZXffneLWrFIO18,787
+img_convert-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+img_convert-0.0.1.dist-info/top_level.txt,sha256=UCvHfbOG_v_bO275T_8hIw8nuIRFAD8zYwBv4_eOst8,12
+img_convert-0.0.1.dist-info/RECORD,,
