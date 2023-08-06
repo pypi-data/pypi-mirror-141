@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: numerospremiers
+Version: 1.0
+Summary: A tool to know the prime numbers until the number inserted from keyboard.
+Author: Maka
+Author-email: macarena.coloma.06@gmail.com
+License: GNU GPLv3
+Keywords: primos numeros
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+nprimos
+==============
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene una funciÃ³n para obtener los numeros primos que hay desde el 1 hasta el nÃºmero introducido por teclado.
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+
