@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: eval-metrics
+Version: 0.0.1
+Summary: Open-source library of metrics
+Home-page: UNKNOWN
+Author: HuggingFace Inc.
+Author-email: quentin@huggingface.co
+License: Apache 2.0
+Description: # Eval Metrics
+        
+        (empty)
+        
+Keywords: machine learning metrics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
