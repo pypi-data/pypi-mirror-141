@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+OWN_THE_PLANET_BOARD_GAME_EDITION/OwnThePlanetBoardGameEdition.py
+OWN_THE_PLANET_BOARD_GAME_EDITION.egg-info/PKG-INFO
+OWN_THE_PLANET_BOARD_GAME_EDITION.egg-info/SOURCES.txt
+OWN_THE_PLANET_BOARD_GAME_EDITION.egg-info/dependency_links.txt
+OWN_THE_PLANET_BOARD_GAME_EDITION.egg-info/entry_points.txt
+OWN_THE_PLANET_BOARD_GAME_EDITION.egg-info/top_level.txt
