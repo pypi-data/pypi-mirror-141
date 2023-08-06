@@ -1,0 +1,16 @@
+Huatuo/__init__.py,sha256=zS9C32gj1LoyFEI8Nb9tXdBVrGri8wsYaygc5bKcikU,273
+Huatuo/huatuo.py,sha256=g_i766qmx7K17LEsPlhPycHV-CV7HoEWJht5rnBTpEI,11629
+Huatuo/data/dict/check.txt,sha256=_Zy9BfZVT6CFe6vHWyLrZBmMbr40a89FtfEjE7GdNQ0,71654
+Huatuo/data/dict/deny.txt,sha256=htJ6McdMy4--8ZG3CJSAnEd5j_4bGB8bub4Klj6R0S8,265
+Huatuo/data/dict/department.txt,sha256=GHWHQcJMd9zzpm8dDLB0pf9Yz-gNBTwl8hHdcH3Tn4Y,593
+Huatuo/data/dict/disease.txt,sha256=9a21d-X8UnzN3hCFXhP4kcZPn8kR1HmnMknKNoVKVzU,650168
+Huatuo/data/dict/drug.txt,sha256=mQKK7a28f7d4opJ2ARQfXvI0kLII81Bu4Yh0P0iPHPI,329543
+Huatuo/data/dict/food.txt,sha256=C110quO3aBJG7nH4pB_RLNM2VAZg_NlcrOppMZ6vcQw,75077
+Huatuo/data/dict/physical_examination.txt,sha256=RUZYxYkHIcPdGcc0sz3GwgeCacbM3LcSroEFDXAKAYc,109836
+Huatuo/data/dict/producer.txt,sha256=jwllv3wKaudGapGIfK5-EsuduXUed0cOlsrnVlAJmog,507738
+Huatuo/data/dict/symptom.txt,sha256=0h5K8XD4aG1mLIrLbPry-vwONqOCXA_kEYqB_E8EOBo,108574
+Huatuo-0.1.5.dist-info/LICENSE,sha256=9enyGBFuoRtAV9YmmK8mJbz6Tll3OfvFUtYLSaFfGwg,1086
+Huatuo-0.1.5.dist-info/METADATA,sha256=XaWWCewqOn1YHJQGLMILwlvIn5MQSKj589YEyql5eiA,3620
+Huatuo-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Huatuo-0.1.5.dist-info/top_level.txt,sha256=OZNztElOgWVn-FCRcjC9ZNZAqonur-xIQ8B63RebFjs,7
+Huatuo-0.1.5.dist-info/RECORD,,
