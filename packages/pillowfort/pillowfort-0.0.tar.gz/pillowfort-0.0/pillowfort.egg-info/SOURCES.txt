@@ -1,0 +1,8 @@
+setup.py
+bin/pillowfort
+pillowfort/__init__.py
+pillowfort.egg-info/PKG-INFO
+pillowfort.egg-info/SOURCES.txt
+pillowfort.egg-info/dependency_links.txt
+pillowfort.egg-info/requires.txt
+pillowfort.egg-info/top_level.txt
