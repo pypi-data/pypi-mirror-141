@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: django-hookup
+Version: 0.0.2
+Summary: Simple Django Hooks
+Home-page: https://github.com/realnoobs/django_hookup
+Author: Rizki Sasri Dwitama
+Author-email: sasri.project@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/realnoobs/django_hookup
+Project-URL: Source, https://github.com/realnoobs/django_hookup
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: Django (<4.0,>=3.2.7)
+
+# Django Hookup
+
+Simple Django Hooks.
+
+Install:
+
+```shell
+pip install django_hookup
+```
+
+Register function:
+
+```python
+# myapp.hooks.py
+import django_hookup
+
+@django_hookup.register("register_foobar", order=1)
+def say_foo(text):
+    """Concat foo and given text"""
+    return "foo:%s " % text
+
+@django_hookup.register("register_foobar", order=0)
+def say_bar(text):
+    """Concat bar and given text"""
+    return "bar:%s " % text
+```
+
+Calling hooks
+
+```python
+# myapp.somewhere.py
+import django_hookup
+
+hooks = django_hookup.get_hooks("register_foobar")
+
+text = ""
+for func in hooks:
+    text += func(func.__name__)
+print(text)
+```
+
+Hooks Admin (Optional)
+
+Add django_hookup in settings.py
+
+```python
+# settings.py
+
+INSTALLED_APPS = [
+    "example.app",
+    "django_hookup",
+    # 
+    'django.contrib.admin',
+    ...
+]
+```
+
+Add django_hookup.url
+
+```python
+# settings.py
+
+urlpatterns = [
+    path("admin/hooks/", include("django_hookup.urls")),
+    path("admin/", admin.site.urls),
+]
+```
+
+
