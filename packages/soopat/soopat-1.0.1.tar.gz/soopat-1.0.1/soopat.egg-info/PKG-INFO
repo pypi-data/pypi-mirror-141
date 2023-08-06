@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: soopat
+Version: 1.0.1
+Summary: soopat pdf downloader
+Home-page: https://github.com/suqingdong/soopat
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: BSD License
+Project-URL: Documentation, https://soopat.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/soopat/issues
+Description: ## Soopat PDF Downloader
+        
+        ### Installation
+        ```bash
+        python3 -m pip install soopat
+        ```
+        
+        ### Usage
+        `register`
+        ```bash
+        # register an account
+        soopat register --help
+        
+        soopat register
+        soopat register --auto
+        ```
+        
+        `download`
+        ```bash
+        # download the pdf
+        soopat download --help
+        
+        soopat download -i 202010463344
+        soopat download -i http://www.soopat.com/Patent/202111607937
+        soopat download -i 202010463344 -u your_username -p your_password -o out.pdf
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

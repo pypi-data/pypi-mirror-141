@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+soopat/__init__.py
+soopat.egg-info/PKG-INFO
+soopat.egg-info/SOURCES.txt
+soopat.egg-info/dependency_links.txt
+soopat.egg-info/entry_points.txt
+soopat.egg-info/requires.txt
+soopat.egg-info/top_level.txt
+soopat/bin/__init__.py
+soopat/bin/main.py
+soopat/core/__init__.py
+soopat/util/__init__.py
+soopat/version/version.json
