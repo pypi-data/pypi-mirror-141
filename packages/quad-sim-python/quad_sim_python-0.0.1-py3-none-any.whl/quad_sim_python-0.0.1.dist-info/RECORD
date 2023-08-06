@@ -1,0 +1,14 @@
+quad_sim_python/__init__.py,sha256=oQ5R-ivqQ_gkOcZIYhUL6JCfRBxUkgsuxCj6FxelkzE,129
+quad_sim_python/ctrl.py,sha256=cu7lu_vpLBxSzeg6Whw7ukxf4Z4fYsvqFA-WBuiioSI,16505
+quad_sim_python/potentialField.py,sha256=mldh5eBXZen5GsiRssPQlbHcvE-c72QB4wRGujQ0JL8,5536
+quad_sim_python/quad.py,sha256=b4XqcG650e4evboidtialEaY_LRcNCsVQy4uHc9RjE0,13049
+quad_sim_python/trajectory.py,sha256=ZP508RimMrw-mIH3laZWBcmMBk2eRmfMgbHgljziTiI,26122
+quad_sim_python/disp/__init__.py,sha256=iWFAOmOzZVPjJR7KuBhcjJfcW4qBnJEaWIPY53-EFhA,25
+quad_sim_python/disp/animation.py,sha256=o6KLw8Cf8YManFpXg00XSPzRWvDWQYJYnUTpOh68QgQ,7701
+quad_sim_python-0.0.1.data/scripts/run_online.py,sha256=D8PRMO_TEZ69RSeQ58vRRgOjKNJq3WBL1kGN0rnZyJM,7590
+quad_sim_python-0.0.1.data/scripts/run_trajectory.py,sha256=qTlrpSOIEVoLtCmgD-Ji-zvWn0ENFR9hIFvaB5Zxk18,8575
+quad_sim_python-0.0.1.dist-info/LICENSE,sha256=VlInkgF_nK4r0d32Dd1Ajs0rI3A_L5kg7Ewg3FM1GQQ,1076
+quad_sim_python-0.0.1.dist-info/METADATA,sha256=-6fTNe9xLI-IumfXAesduufsLoQcbVrNA6aXdNEVFM0,1723
+quad_sim_python-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quad_sim_python-0.0.1.dist-info/top_level.txt,sha256=3d3hnTqQKhretVC8L_gkuz3w7swfydGrvhwGeABZNBo,16
+quad_sim_python-0.0.1.dist-info/RECORD,,
