@@ -1,0 +1,8 @@
+dvadmin_request_intercept/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvadmin_request_intercept/apps.py,sha256=NBq6nR9LrYmUUGHGErXV1gI9ehshMA3ltIEsDr56aeI,180
+dvadmin_request_intercept/middleware.py,sha256=n5S4zPJzgUcJsoHmI6hPFJd5dPQJ7pHwphsEWIrWQZY,1330
+dvadmin_request_intercept-1.0.0.dist-info/LICENSE,sha256=bPFkqOVXbRratRmCrOGxOrbMgfYP_tI5rH7XgEyDYQ8,1086
+dvadmin_request_intercept-1.0.0.dist-info/METADATA,sha256=zjUn_El0N90vXBSHfN1SojrcDgEe9g9DaVtKboxXIZY,1136
+dvadmin_request_intercept-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dvadmin_request_intercept-1.0.0.dist-info/top_level.txt,sha256=9cM8Jw6vuMRQTLQCdeCd0R_retwoMgOeUb9Psg2LFvA,26
+dvadmin_request_intercept-1.0.0.dist-info/RECORD,,
