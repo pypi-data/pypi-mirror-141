@@ -1,0 +1,10 @@
+README.md
+UNLICENSE
+setup.py
+dictat/__init__.py
+dictat.egg-info/PKG-INFO
+dictat.egg-info/SOURCES.txt
+dictat.egg-info/dependency_links.txt
+dictat.egg-info/top_level.txt
+test/__init__.py
+test/test_adict.py
