@@ -1,0 +1,12 @@
+README.rst
+pyproject.toml
+setup.cfg
+EroSmb.egg-info/PKG-INFO
+EroSmb.egg-info/SOURCES.txt
+EroSmb.egg-info/dependency_links.txt
+EroSmb.egg-info/entry_points.txt
+EroSmb.egg-info/requires.txt
+EroSmb.egg-info/top_level.txt
+erosmb/PortScanner.py
+erosmb/SMBScanner.py
+erosmb/__init__.py
