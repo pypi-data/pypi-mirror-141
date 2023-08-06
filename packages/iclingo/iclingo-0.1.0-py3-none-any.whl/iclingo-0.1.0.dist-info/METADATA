@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: iclingo
+Version: 0.1.0
+Summary: 🔴🟢🔵 clingo kernel for Jupyter
+License: GPL-3.0-only
+Author: Giulio Starace
+Author-email: giulio.starace@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: clingo (>=5.5.1,<6.0.0)
+Requires-Dist: ipykernel (>=6.9.1,<7.0.0)
+Requires-Dist: single-source (>=0.2.0,<0.3.0)

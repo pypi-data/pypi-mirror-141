@@ -1,0 +1,9 @@
+iclingo/__init__.py,sha256=cW4uAxpYLhDCU-p0B9I16xAEyNvNjk67U2jaQ5wh7Ks,163
+iclingo/__main__.py,sha256=PFC1yf-lkUAVdVdi7b1MaOURlPnWjuQZGT2T6hmX55s,133
+iclingo/install.py,sha256=VG_a7UAmUbwJoED6RQqG3CpizYAG7tb1pps-Tl4L1EY,1902
+iclingo/interface.py,sha256=k3_Q0sbE61ARPATnxQKEUq2HiOSsalLL38FDMSJNG0A,2299
+iclingo/kernel.py,sha256=fo0YDhdihybuSYaWEmqmYXDrvF8pcGByXWjgBoqAs5M,1900
+iclingo-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+iclingo-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+iclingo-0.1.0.dist-info/METADATA,sha256=YHXtBQsFyRjTrB-b7fOt-fgEoMDRpdKYcysF_TtTrgs,563
+iclingo-0.1.0.dist-info/RECORD,,
