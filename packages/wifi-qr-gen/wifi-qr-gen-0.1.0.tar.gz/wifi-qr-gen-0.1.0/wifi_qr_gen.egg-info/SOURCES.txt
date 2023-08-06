@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wifi_qr/__init__.py
+wifi_qr/scripts/__init__.py
+wifi_qr/scripts/wifi_qr.py
+wifi_qr_gen.egg-info/PKG-INFO
+wifi_qr_gen.egg-info/SOURCES.txt
+wifi_qr_gen.egg-info/dependency_links.txt
+wifi_qr_gen.egg-info/entry_points.txt
+wifi_qr_gen.egg-info/requires.txt
+wifi_qr_gen.egg-info/top_level.txt
