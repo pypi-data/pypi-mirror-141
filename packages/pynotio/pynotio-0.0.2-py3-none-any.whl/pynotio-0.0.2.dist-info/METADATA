@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pynotio
+Version: 0.0.2
+Summary: Python wrapper around official Notion API for easy life
+Home-page: https://github.com/Ruslanabk/PyNotio
+Author: Ruslan Abkadirov
+Author-email: rusabk@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests (<=2.27.1)
+
+# Notion official API wrapper
+
+It make your Notion integration much easier!
+
