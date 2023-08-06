@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/outlier_handling_samarth_gowda.egg-info/PKG-INFO
+src/outlier_handling_samarth_gowda.egg-info/SOURCES.txt
+src/outlier_handling_samarth_gowda.egg-info/dependency_links.txt
+src/outlier_handling_samarth_gowda.egg-info/top_level.txt
