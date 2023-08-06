@@ -1,0 +1,7 @@
+Quart>=0.10.0
+
+[dotenv]
+python-dotenv
+
+[redis]
+aioredis>=2.0.0
