@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rsg
+Version: 0.1.0
+Summary: Random Structure Generator
+Home-page: https://github.com/lucabonfiglioli/rsg
+Author: Luca Bonfiglioli
+Author-email: Luca.Bonfiglioli@gmail.com
+License: GNU General Public License v3.0
+Keywords: rng,random,structure,generator,rsg,deep,nested,composite,tree,recursive
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# rsg
+
