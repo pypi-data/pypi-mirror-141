@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cooltables
+Version: 0.0.1
+Summary: A tool for easily making text tables in terminal from python lists.
+Home-page: UNKNOWN
+Author: dnorhoj
+Author-email: daniel.norhoj@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
