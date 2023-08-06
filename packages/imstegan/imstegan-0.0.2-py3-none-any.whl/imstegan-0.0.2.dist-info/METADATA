@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: imstegan
+Version: 0.0.2
+Summary: An awesome image steganography library
+Home-page: UNKNOWN
+Author: Duc To, Tuan Tran and Viet Nguyen
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: numba
+
+UNKNOWN
+
