@@ -1,0 +1,2 @@
+[console_scripts]
+mc-status-webhook = mc_status_webhook:main
