@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: badlands-doe-toolset
+Version: 0.1
+Summary: badlands_doe_toolset is a set of tools to help build and analyse Design of Experiment configurations for badlands modelling
+Home-page: https://github.com/GeoMattB
+Author: Matt Boyd
+Author-email: mboyd@sydney.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: badlands (>=2.2.3)
+Requires-Dist: badlands-companion
+Requires-Dist: similaritymeasures (>=0.4.4)
+Requires-Dist: doegen
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: scipy
+
+UNKNOWN
+
