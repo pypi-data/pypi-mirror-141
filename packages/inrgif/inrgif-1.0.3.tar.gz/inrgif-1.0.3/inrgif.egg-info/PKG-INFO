@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: inrgif
+Version: 1.0.3
+Summary: A Python package to make gif from images and videos
+Home-page: https://github.com/jyotiprakash-work/inrgif.git
+Author: jyotiprakash panigrahi
+Author-email: jyotiprakash.work@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pygif
+A Python package to make gif from images and videos
+
+## Usage
+
+Following methods can be utilized to make gif
+
+```
+from inrgif import images_to_gif, video_to_gif
+import glob
+from PIL import Image
+#from video to gif..
+obj = video_to_gif.make_gif(video_path="videoplayback.mp4",duration = 400, loop = 0 )
+images_to_gif.save(obj,"video.gif")
+
+#from folder all images.
+#here folder name is test
+bytesio_object= images_to_gif.make_gif(frame_folder="test",duration = 400, loop = 0)
+images_to_gif.save(bytesio_object,"folder.gif")
+
+#from PIL objects to gif..
+frames = [Image.open(image) for image in glob.glob(f"{'test'}/*")]
+bytesio_object = images_to_gif.frame_gif(frames=frames,duration = 400, loop = 0)
+images_to_gif.save(bytesio_object,"frames.gif")
+
+```
+
+To uninstall execute following..
+
+```
+pip uninstall inrgif
+
+```
+
