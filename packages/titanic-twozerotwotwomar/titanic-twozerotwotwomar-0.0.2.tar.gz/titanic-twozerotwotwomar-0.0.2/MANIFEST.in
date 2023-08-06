@@ -1,0 +1,24 @@
+include *.txt
+include *.md
+include *.pkl
+
+include ./Datasets/data.csv
+include ./Datasets/sample_data.csv
+
+include ./Modelling/Config/config.yaml
+include ./Modelling/Trained_models/*.pkl
+include ./Modelling/Trained_models/VERSION
+
+include ./Requirements/lint_requirements.txt
+include ./Requirements/requirements.txt
+include ./Requirements/test_requirements.txt
+
+exclude ./app/*
+exclude ./test/*
+
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
