@@ -1,0 +1,5 @@
+setup.py
+eso_qvalue.egg-info/PKG-INFO
+eso_qvalue.egg-info/SOURCES.txt
+eso_qvalue.egg-info/dependency_links.txt
+eso_qvalue.egg-info/top_level.txt
