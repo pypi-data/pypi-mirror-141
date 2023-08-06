@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+index-renamer/index_renamer.egg-info/PKG-INFO
+index-renamer/index_renamer.egg-info/SOURCES.txt
+index-renamer/index_renamer.egg-info/dependency_links.txt
+index-renamer/index_renamer.egg-info/top_level.txt
