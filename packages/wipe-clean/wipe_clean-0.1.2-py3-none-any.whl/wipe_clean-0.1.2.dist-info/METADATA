@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: wipe-clean
+Version: 0.1.2
+Summary: Clean your terminal in a ritual way
+Home-page: https://github.com/wenoptics/python-wipe-clean
+Author: wenoptk
+Author-email: wenoptics@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rich (>=11.2.0,<12.0.0)
+Project-URL: Bug Tracker, https://github.com/wenoptics/python-wipe-clean/issues
+Project-URL: Repository, https://github.com/wenoptics/python-wipe-clean
+Description-Content-Type: text/markdown
+
+# Wipe Clean
+
+![PyPI](https://img.shields.io/pypi/v/wipe-clean?logo=pypi)
+![PyPI - Status](https://img.shields.io/pypi/status/wipe-clean?logo=pypi)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/wipe-clean?logo=pypi)
+
+Clean your terminal in a ritual way. Works on Windows, Linux and macOS.
+
+![demo](./doc/terminal.gif)
+
+
+```bash
+pip install wipe-clean
+```
+
+> `wipe-clean` requires Python 3.6.1 and above. Note that Python 3.6.0 is
+ not supported due to lack of `NamedTuples` typing.
+
+
+## Usage
+
+```bash
+wipe-clean
+```
+
+
+## Related Projects
+
+- [`JeanJouliaCode/wipeclean`](https://github.com/JeanJouliaCode/wipeClean) (JavaScript)
+
+  The animation part is a direct port of `JeanJouliaCode/wipeclean`.
+
