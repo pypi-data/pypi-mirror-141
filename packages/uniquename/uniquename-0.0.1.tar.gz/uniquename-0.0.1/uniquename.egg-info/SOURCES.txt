@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+uniquename/__init__.py
+uniquename.egg-info/PKG-INFO
+uniquename.egg-info/SOURCES.txt
+uniquename.egg-info/dependency_links.txt
+uniquename.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+This is a very simpel calc, can add, sub, divide and multiply
