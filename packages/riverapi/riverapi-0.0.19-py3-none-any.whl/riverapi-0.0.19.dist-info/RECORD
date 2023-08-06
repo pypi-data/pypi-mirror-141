@@ -1,0 +1,14 @@
+riverapi/__init__.py,sha256=7M6_J811fz4AwtjtSjPYpxwK0dbkX9OkTb8nR_kOR6Q,61
+riverapi/auth.py,sha256=wZBs82qolgDgaaVCikWzz87ZMm_pWN_moPa713wxjD4,713
+riverapi/defaults.py,sha256=3xX5Eh48vJZtqhIdcY-TwzuzpXIRvzOHaXOPOGD_MLY,71
+riverapi/logger.py,sha256=Ge0sN9w2XvckLE7EHKZ_OLz8xCudtX0Oqik-XTVNHGU,5539
+riverapi/main.py,sha256=JYBJnwx1T73kgstlYdD7accYW3UInoPfpbbJFKkgulI,11079
+riverapi/version.py,sha256=gCuvfw-oH3C_Ongy1liaLqx0Yzg-TQRR1xkCSWJa_hE,977
+riverapi/utils/__init__.py,sha256=gnH_GkltOc55VdKcAZxXzD7UMShvwg703LO-H2si5aE,208
+riverapi/utils/fileio.py,sha256=XP81H2TuorjU0JuXLSlL6zrGw8kJG_x1vfVHFB3Uh_w,1063
+riverapi/utils/terminal.py,sha256=VuFsakw9x2tvhrM_v39x1OY2PebjfgOmeWFwPjSrxp8,2040
+riverapi-0.0.19.dist-info/LICENSE,sha256=3IUAWUngR5Nl14KNk44Oy-RpkAdu6QFm9MbwYsUV7K4,15830
+riverapi-0.0.19.dist-info/METADATA,sha256=bOxDQfRW7qRsj_xRgpJjZ6obBQojSm3H39_qmYohDzs,4774
+riverapi-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+riverapi-0.0.19.dist-info/top_level.txt,sha256=AfIlAuiUCpn_kBCEScUPihB02la7ZlEmkiUlL3UPHmA,9
+riverapi-0.0.19.dist-info/RECORD,,
