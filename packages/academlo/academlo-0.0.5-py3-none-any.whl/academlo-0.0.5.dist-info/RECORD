@@ -1,0 +1,7 @@
+academlo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+academlo/api.py,sha256=1QCBpEB8YVgHpv9CzhWUR313E7aUtPMRy7-7ZnUjGao,3476
+academlo/middleware.py,sha256=WA2FZBAhdY-irKas6E6UV5qOITc3uX0HVtCQ233nTX4,674
+academlo/response.py,sha256=OGiHfMmJjU7tHPA4vDzMKQ92mmyoZ-UWiRqrSUB52HI,955
+academlo-0.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+academlo-0.0.5.dist-info/METADATA,sha256=FjyfJSIZ0WyRikRy2CcMUbXfW8-VE8-hbAn368xp8bw,3792
+academlo-0.0.5.dist-info/RECORD,,
