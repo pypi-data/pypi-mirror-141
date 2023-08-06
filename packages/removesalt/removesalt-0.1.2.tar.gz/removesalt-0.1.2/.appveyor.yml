@@ -1,0 +1,21 @@
+version: 1.0.{build}
+image:
+- Visual Studio 2022
+init:
+- ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+on_failure:
+- ps: choco install --no-progress vscode
+- ps: $blockrdp = $true; iex ((new-object net.webclient).downloadstring('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+install:
+- ps: choco install --no-progress nssm
+- ps: pip config set global.disable-pip-version-check true
+- ps: pip install --quiet --use-feature=in-tree-build wheel .[testing]
+- ps: git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_iris.git
+- ps: |
+    $wix_dir = (Get-ChildItem -Recurse C:\Program*\Wix*Toolset*\bin -Filter "heat.exe" | select-object -first 1).Directory.FullName
+    $env:PATH = "$wix_dir;$env:PATH"
+build_script:
+- ps: removesalt hydra.verbose=true bin_path=$pwd/streambox_iris stop_all_uploads=false run_signtool=false release=false # signing on another host now, so don't upload from appveyor
+test_script:
+after_test:
+on_finish:

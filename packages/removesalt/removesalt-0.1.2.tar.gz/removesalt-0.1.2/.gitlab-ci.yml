@@ -1,0 +1,35 @@
+stages:
+- build
+- test
+- deploy
+build-job:
+  stage: build
+  script:
+  - python -mvenv .venv
+  - pip list
+  - . .\.venv\Scripts\activate.ps1
+  - pip list
+  - pip install --upgrade --quiet --use-feature=in-tree-build wheel -e .[testing]
+  - git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_iris.git
+  - $wix_dir = (Get-ChildItem -Recurse C:\Program*\Wix*Toolset*\bin -Filter "heat.exe" | select-object -first 1).Directory.FullName
+  - $env:PATH = "$wix_dir;$env:PATH"
+  - removesalt hydra.verbose=true bin_path=$pwd/streambox_iris stop_all_uploads=true release=false run_signtool=true
+  artifacts:
+    paths:
+    - streambox_iris/outputs/work1
+    expire_in: 1 week
+unit-test-job:
+  stage: test
+  script:
+  - pip list
+lint-test-job:
+  stage: test
+  script:
+  - echo "Linting code... This will take about 10 seconds."
+  - sleep 1
+  - echo "No lint issues found."
+deploy-job:
+  stage: deploy
+  script:
+  - echo "Deploying application..."
+  - echo "Application successfully deployed."
