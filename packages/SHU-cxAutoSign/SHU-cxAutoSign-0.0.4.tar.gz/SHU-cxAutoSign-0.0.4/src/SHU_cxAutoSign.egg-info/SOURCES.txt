@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SHU_cxAutoSign.egg-info/PKG-INFO
+src/SHU_cxAutoSign.egg-info/SOURCES.txt
+src/SHU_cxAutoSign.egg-info/dependency_links.txt
+src/SHU_cxAutoSign.egg-info/requires.txt
+src/SHU_cxAutoSign.egg-info/top_level.txt
